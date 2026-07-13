@@ -846,6 +846,15 @@ export const stackTools: StackTool[] = [
     category: "intelligence",
   },
   {
+    name: "Atoms",
+    url: "https://atoms.dev",
+    role: "AI business team — agents that build, deploy AND market your product",
+    referral: "Affiliate: referred users get $50 in credits",
+    referralUrl: "https://atoms.dev/?utm_source=affiliate&via=autopilot-biz",
+    usedBy: ["One-person companies"],
+    category: "intelligence",
+  },
+  {
     name: "Stripe",
     url: "https://stripe.com",
     role: "Payments & billing for agent-run revenue (Stripe Connect for platform rev-share)",
