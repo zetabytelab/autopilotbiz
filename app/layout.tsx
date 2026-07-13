@@ -57,7 +57,7 @@ export default function RootLayout({
         {children}
         <footer className="mt-auto border-t border-zinc-900 py-6 text-center">
           <a
-            href="https://buymeacoffee.com/antonioserrano"
+            href="https://buymeacoffee.com/serranox"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-yellow-400/30 bg-yellow-400/10 px-4 py-2 text-sm font-medium text-yellow-300 transition hover:bg-yellow-400/20"

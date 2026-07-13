@@ -34,4 +34,4 @@ npm run build        # static production build
 - **Code:** [MIT](LICENSE)
 - **Dataset** (`data/`, `lib/data.ts` content): [CC BY 4.0](data/LICENSE) — free to reuse with attribution.
 
-Maintained by one human + agents. ☕ [Buy the human a coffee](https://buymeacoffee.com/antonioserrano).
+Maintained by one human + agents. ☕ [Buy the human a coffee](https://buymeacoffee.com/serranox).
