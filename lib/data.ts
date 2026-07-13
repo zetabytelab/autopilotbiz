@@ -841,7 +841,8 @@ export const stackTools: StackTool[] = [
     name: "Cursor",
     url: "https://cursor.com",
     role: "Agentic coding IDE — host of the Hands-Off Hackathon",
-    referral: null,
+    // TODO(referral): check https://cursor.com/dashboard/referrals — $25 credit/referral, limited rollout
+    referral: "Referral: 50% off referee's first month (limited rollout)",
     usedBy: ["Hackathon teams"],
     category: "intelligence",
   },
@@ -858,8 +859,8 @@ export const stackTools: StackTool[] = [
     name: "Stripe",
     url: "https://stripe.com",
     role: "Payments & billing for agent-run revenue (Stripe Connect for platform rev-share)",
-    // TODO(referral): https://stripe.com/partners (partner program, not a consumer affiliate)
-    referral: "Partner ecosystem program",
+    // Verified 2026-07: partner-only ecosystem, no consumer affiliate and no builder credits — no OFFER badge.
+    referral: null,
     usedBy: ["Polsia", "Nanocorp", "Cofounder", "Feltsense", "Atoms"],
     category: "payments",
   },
@@ -867,7 +868,8 @@ export const stackTools: StackTool[] = [
     name: "Vercel",
     url: "https://vercel.com",
     role: "Instant deployment for agent-built products",
-    referral: null,
+    // TODO(referral): join at https://vercel.com/affiliates (Dub-run, open to individuals) → set referralUrl
+    referral: "Affiliate program (per-signup commission)",
     usedBy: ["Nanocorp", "Cofounder"],
     category: "code-deploy",
   },
@@ -875,8 +877,8 @@ export const stackTools: StackTool[] = [
     name: "Render",
     url: "https://render.com",
     role: "App & worker hosting",
-    // TODO(referral): join at https://render.com/docs/referral-program → set referralUrl
-    referral: "Referral credits program",
+    // Verified 2026-07: Render has NO live referral program (docs 404; feature request closed).
+    referral: null,
     usedBy: ["Polsia"],
     category: "code-deploy",
   },
@@ -884,8 +886,8 @@ export const stackTools: StackTool[] = [
     name: "Neon",
     url: "https://neon.com",
     role: "Serverless Postgres — a database per agent/project",
-    // TODO(referral): apply at https://neon.com/partners → set referralUrl
-    referral: "Partner program",
+    // No individual affiliate (partner program is companies-only, verified 2026-07); the builder offer is startup credits.
+    referral: "Startup program: $1k–$200k credits",
     usedBy: ["Polsia"],
     category: "data",
   },
@@ -941,8 +943,8 @@ export const stackTools: StackTool[] = [
     name: "RentAHuman",
     url: "https://rentahuman.ai",
     role: "Marketplace where agents hire humans for physical-world tasks (MCP + API, escrow bounties)",
-    // TODO(referral): finder's-fee signup at https://rentahuman.ai (referrals section) → set referralUrl
-    referral: "Finder's fee program",
+    // TODO(referral): account at https://rentahuman.ai/account/referrals; fee-tagged bounties at /bounties?findersFeeOnly=true
+    referral: "Finder's fees on tagged bounties",
     usedBy: ["Agents via MCP (e.g. Claude)"],
     category: "agents",
   },
@@ -950,8 +952,8 @@ export const stackTools: StackTool[] = [
     name: "ElevenLabs",
     url: "https://elevenlabs.io",
     role: "Conversational voice agents — the voice behind 'Rachel' and 'Brigitte'",
-    // TODO(referral): join at https://elevenlabs.io/affiliates → set referralUrl
-    referral: "Affiliate program (revenue share)",
+    // TODO(referral): apply at https://elevenlabs.io/affiliates/app/sign-up → set referralUrl
+    referral: "Affiliate: 22% of revenue, first 12 months",
     usedBy: ["Guinndex", "Le Baguette Index"],
     category: "agents",
   },
@@ -967,7 +969,8 @@ export const stackTools: StackTool[] = [
     name: "Postmark",
     url: "https://postmarkapp.com",
     role: "Transactional email delivery",
-    referral: null,
+    // TODO(referral): join at https://postmarkapp.com/lp/referral-partner-program (20% recurring × 12mo, Rewardful) → set referralUrl
+    referral: "Affiliate: 20% recurring for 12 months",
     usedBy: ["Polsia"],
     category: "distribution",
   },
@@ -983,8 +986,8 @@ export const stackTools: StackTool[] = [
     name: "AWS",
     url: "https://aws.amazon.com",
     role: "Underlying cloud infrastructure",
-    // TODO(referral): AWS Activate provider path via https://aws.amazon.com/activate/ (partner org required)
-    referral: "AWS Activate credits for startups",
+    // Builder offer only (credits program, no affiliate path for individuals — verified 2026-07).
+    referral: "Activate: up to $200K startup credits",
     usedBy: ["Polsia"],
     category: "code-deploy",
   },
