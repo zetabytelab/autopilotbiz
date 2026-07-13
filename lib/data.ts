@@ -1,0 +1,1164 @@
+// A citable reference for a metric (Crunchbase, LinkedIn, press, etc.).
+export type Source = { name: string; url: string };
+
+export type Company = {
+  name: string;
+  slug: string;
+  url: string | null;
+  tagline: string;
+  categoryClaim: string | null;
+  description: string;
+  techStack: string[];
+  funding: {
+    totalRaised: string | null;
+    lastRound: string | null;
+    date: string | null;
+    valuation: string | null;
+    investors: string[];
+  };
+  founders: { name: string; background: string }[];
+  metrics: {
+    arr: string | null;
+    arrUsd: number | null;
+    humans: number | null;
+    // Where each figure comes from — shown in the leaderboard so readers can audit the data.
+    sources?: { humans?: Source; arr?: Source; raised?: Source };
+  };
+  referralProgram: { exists: boolean | null; notes: string | null };
+  pricing: string | null;
+  news: { date: string; headline: string }[];
+  verified: boolean;
+  // "hackathon" = the original Cursor Hands-Off Hackathon cohort (default);
+  // "expansion" = the wider autopilot/lean-AI universe.
+  cohort?: "hackathon" | "expansion";
+};
+
+export const companies: Company[] = [
+  {
+    name: "Polsia",
+    slug: "polsia",
+    url: "https://polsia.com",
+    tagline: "AI that runs your company while you sleep.",
+    categoryClaim: "An orchestration of agents that runs the work a company actually needs done.",
+    description:
+      "An AI operating system that builds and operates an online business end-to-end: writes and ships code, does research, creates content, sets up company infrastructure (hosting, database, repo, payments, ad accounts), and runs cold outreach, paid ads, and support. It famously handled most of its own $30M fundraise — data room, investor briefings, diligence — with solo founder Ben Cera joining only the final calls.",
+    techStack: [
+      "Anthropic",
+      "OpenAI",
+      "Sapiom",
+      "Blaxel",
+      "Anchor Browser",
+      "AgentMail",
+      "Stripe Connect",
+      "Render",
+      "Neon",
+      "GitHub",
+      "Postmark",
+      "AWS",
+    ],
+    funding: {
+      totalRaised: "$30M",
+      lastRound: "Series A",
+      date: "2026-05",
+      valuation: "$250M",
+      investors: [
+        "Sound Ventures",
+        "True Ventures",
+        "Offline Ventures",
+        "Adjacent",
+        "Tekton Ventures",
+        "Drysdale Ventures",
+        "Vaynerfund",
+      ],
+    },
+    founders: [
+      {
+        name: "Ben Cera",
+        background:
+          "Solo founder, zero employees. Previously employee #2 at CloudKitchens under Travis Kalanick. Says AI agents run ~80% of founder operations.",
+      },
+    ],
+    metrics: {
+      arr: "~$10M",
+      arrUsd: 10_000_000,
+      humans: 1,
+      sources: {
+        humans: { name: "Pulse2", url: "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/" },
+        arr: { name: "Pulse2 · self-reported", url: "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/" },
+        raised: { name: "Pulse2", url: "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/" },
+      },
+    },
+    referralProgram: {
+      exists: false,
+      notes: "No official affiliate program; ?ref= links exist in the wild but rewards are unverified.",
+    },
+    pricing: "$49/mo (hosting, DB, repo, payments, ad accounts, one nightly autonomous task + credits) plus 20% revenue share via Stripe Connect.",
+    news: [
+      { date: "2026-05", headline: "Raised $30M at a $250M valuation with zero employees — the AI reportedly ran much of the fundraise." },
+      { date: "2026-05", headline: "Approaching $10M annual run rate with one human." },
+      { date: "2026-01", headline: "Reported running ~6,000 customer companies at $6M+ ARR (Henry Shi profile)." },
+    ],
+    verified: true,
+  },
+  {
+    name: "Nanocorp",
+    slug: "nanocorp",
+    url: "https://www.nanocorp.so",
+    tagline: "One prompt. One company. Zero code.",
+    categoryClaim:
+      "An autonomous company run by an agent that maximizes revenue while trying to avoid bankruptcy — no human intervention.",
+    description:
+      "From a single prompt, AI agents create and operate a real online business: build the product, deploy it with payments and a domain, prospect and email customers, run Meta ads, and send daily reports. A 'CEO agent' manages the org — you're the owner who just talks to the CEO. Built by Phospho (YC W24).",
+    techStack: ["Stripe", "Vercel", "Meta Ads", "nanocorp.app domains + email", "Built-in database"],
+    funding: {
+      totalRaised: "€1.7M (parent Phospho pre-seed)",
+      lastRound: "Pre-seed (as Phospho)",
+      date: "2024-01",
+      valuation: null,
+      investors: ["Y Combinator", "Elaia"],
+    },
+    founders: [
+      {
+        name: "Pierre-Louis Biojout",
+        background: "CTO of Phospho (YC W24); Applied Maths & CS, École Polytechnique. Team size: 1.",
+      },
+    ],
+    metrics: {
+      arr: "$193K (claimed)",
+      arrUsd: 193_000,
+      humans: 1,
+      sources: {
+        humans: { name: "Y Combinator", url: "https://www.ycombinator.com/companies/nanocorp" },
+        arr: { name: "Founder claim · disputed", url: "https://www.alexisbouchez.com/reviews/2026/03/30/nanocorp" },
+        raised: { name: "Tech.eu", url: "https://tech.eu/2024/01/17/elaia-and-ycombinator-back-phospho-with-1-7m-for-genai-application-monitoring/" },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes: "Users earn credits through referrals (even on the free tier). Platform takes a 20% withdrawal fee on company earnings.",
+    },
+    pricing: "Free: 3 lifetime credits, 1 company, 20% withdrawal fee. Founder: $30/mo for 30 credits, unlimited companies, custom domains.",
+    news: [
+      { date: "2026-05", headline: "Launched as Phospho's autonomous-company platform (Show HN); founder reported $193K ARR within 3 days." },
+      { date: "2026-03", headline: "Independent review reports ~190 companies founded per day — but disputes the revenue claims, finding just ~$264 cumulative revenue across all platform-created companies." },
+    ],
+    verified: true,
+  },
+  {
+    name: "Cofounder",
+    slug: "cofounder",
+    url: "https://cofounder.co",
+    tagline: "Run an entire company with AI.",
+    categoryClaim: "The operating system for a one-person, billion-dollar company.",
+    description:
+      "Agent orchestration platform from The General Intelligence Company (NYC). Deploys specialized agents across engineering, sales, marketing, design, finance, and ops — with shared context, agent inboxes, and approval gates ('nothing ships without your approval'). Users can 'graduate' and take ownership of the underlying GitHub/Supabase/Vercel projects.",
+    techStack: ["GitHub", "Supabase", "Vercel", "MCP", "Stripe", "Multi-model"],
+    funding: {
+      totalRaised: ">$10M",
+      lastRound: "$8.7M Seed",
+      date: "2025-12",
+      valuation: null,
+      investors: ["Union Square Ventures (lead)", "Acrew Capital", "Compound", "Untapped VC", "Agent Fund", "The House Fund"],
+    },
+    founders: [
+      { name: "Andrew Pignanelli", background: "CEO; South Park Commons alum (the community that incubated Cognition, Replit, Profound)." },
+      { name: "Abhishyant Khare", background: "Co-founder; South Park Commons alum." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: null,
+      sources: {
+        raised: { name: "Forbes", url: "https://www.forbes.com/sites/stevenwolfepereira/2025/12/08/building-a-one-person-unicorn-this-startup-just-raised-87m-to-help/" },
+      },
+    },
+    referralProgram: {
+      exists: false,
+      notes: "No affiliate program — but the Cofounder 2 Fellowship grants $1,000 + $100/day in credits for 30 days to agent-run startups, no equity taken.",
+    },
+    pricing: "Free 7-day trial with $10 usage. Pro from $20/mo; Team from $50/mo. Usage-based overage covers agents, models, compute, ad spend.",
+    news: [
+      { date: "2026-03", headline: "Cofounder 2 research preview + Fellowship program for agent-run startups." },
+      { date: "2025-12", headline: "Announced Cofounder 1.5 and $8.7M seed led by Union Square Ventures." },
+      { date: "2025-09", headline: "Launched; thousands of users in the first week." },
+    ],
+    verified: true,
+  },
+  {
+    name: "ChainOpera AI",
+    slug: "chainopera-ai",
+    url: "https://chainopera.ai",
+    tagline: "Collaborative intelligence of AI agent networks.",
+    categoryClaim: "A decentralized 'full-stack super agent AI economy' — a community-owned OpenAI alternative.",
+    description:
+      "Full-stack decentralized AI platform: a consumer AI Terminal, an agent-building platform, a decentralized model & GPU network, and an AI-native L1 blockchain with the $COAI token. Recently added an AI Trading Arena with autonomous trading agents. The crypto outlier of the cohort.",
+    techStack: ["Own L1 blockchain ($COAI)", "TensorOpera / FedML stack", "EigenLayer", "Babylon", "Aethir GPU network", "Google Cloud", "Azure"],
+    funding: {
+      totalRaised: "$17M (incl. sister co TensorOpera; ChainOpera seed $3.5M)",
+      lastRound: "Seed",
+      date: "2024-12",
+      valuation: null,
+      investors: ["Finality Capital", "Road Capital", "IDG Capital", "Camford VC", "ABCDE Capital", "Amber Group"],
+    },
+    founders: [
+      { name: "Salman Avestimehr", background: "Dean's Professor at USC, IEEE Fellow; co-founder of FedML/TensorOpera." },
+      { name: "Aiden He", background: "Co-founder of FedML/TensorOpera; ML systems researcher." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 40,
+      sources: {
+        humans: { name: "The Block ('40+ team')", url: "https://www.theblock.co/post/332347/chainopera-ai-raised-17-million-in-seed-funding-to-build-blockchain-l1-and-ai-os-for-ai-agents" },
+        raised: { name: "The Block", url: "https://www.theblock.co/post/332347/chainopera-ai-raised-17-million-in-seed-funding-to-build-blockchain-l1-and-ai-os-for-ai-agents" },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes: "Crypto-style points program: invite codes earn ~100 points per referral, plus seasonal airdrop 'Quests'.",
+    },
+    pricing: "No SaaS pricing — usage driven by the $COAI token and points/airdrop economy.",
+    news: [
+      { date: "2026-05", headline: "Launched AI Trading Arena; integrated Lit Protocol's 'Vincent' autonomous trading agents." },
+      { date: "2025-09", headline: "$COAI became the first project listed on Binance Alpha." },
+    ],
+    verified: true,
+  },
+  {
+    name: "Wordware (Sauna)",
+    slug: "wordware",
+    url: "https://wordware.ai",
+    tagline: "Your work doesn't have to stop, even when you do.",
+    categoryClaim: "A proactive AI chief-of-staff: every task, decision, and workflow gets handled — automatically.",
+    description:
+      "Started as a YC S24 IDE for building AI agents in plain English; in 2026 pivoted its flagship to Sauna (sauna.ai) — an always-on cloud assistant that connects to Gmail, Slack, Linear, GitHub, Notion, Stripe and 3,000+ tools via MCP, learns your context, and proactively executes work around the clock.",
+    techStack: ["MCP custom connectors", "3,000+ SaaS integrations", "Cloud-hosted persistent agents"],
+    funding: {
+      totalRaised: "$30M",
+      lastRound: "Seed (one of YC's largest)",
+      date: "2024-11",
+      valuation: null,
+      investors: ["Spark Capital (lead)", "Felicis", "Y Combinator", "Day One Ventures", "Paul Graham (angel)"],
+    },
+    founders: [
+      { name: "Filip Kozera", background: "CEO; Cambridge; previously founded a Transformer-based human-memory startup." },
+      { name: "Robert Chandler", background: "CTO; Cambridge; led ML for self-driving at Five AI (acq. Bosch)." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 15,
+      sources: {
+        humans: { name: "Forbes (at Nov 2024 raise)", url: "https://www.forbes.com/sites/dariashunina/2024/11/27/how-wordware-secured-30m-seed-in-7-days/" },
+        raised: { name: "Forbes", url: "https://www.forbes.com/sites/dariashunina/2024/11/27/how-wordware-secured-30m-seed-in-7-days/" },
+      },
+    },
+    referralProgram: { exists: false, notes: "Launch promo only: first 2,000 Sauna users got free daily credits." },
+    pricing: "Sauna: reported $29/mo and $299/mo premium tiers.",
+    news: [
+      { date: "2026-05", headline: "Launched Sauna (sauna.ai) — rebranding around an always-on proactive AI assistant." },
+      { date: "2024-11", headline: "$30M seed led by Spark Capital; previously the #1 Product Hunt launch of all time." },
+    ],
+    verified: true,
+  },
+  {
+    name: "Feltsense",
+    slug: "feltsense",
+    url: "https://feltsense.com",
+    tagline: "We build agentic founders.",
+    categoryClaim: "Fleets of agentic founders that ideate, ship, and capture market share on their own.",
+    description:
+      "Deploys fleets of AI 'founder' agents that autonomously spot B2C market opportunities from real-time signals, validate demand, build products with Stripe payments, and launch paid-acquisition campaigns. Feltsense keeps equity in the companies its agents create — the business model is ownership, not SaaS.",
+    techStack: ["Stripe", "Social listening / real-time demand signals"],
+    funding: {
+      totalRaised: "$5.1M",
+      lastRound: "Seed",
+      date: "2026-02",
+      valuation: null,
+      investors: ["Draper Associates (lead)", "Precursor Ventures", "Liquid 2 Ventures"],
+    },
+    founders: [
+      {
+        name: "Marik Hazan",
+        background: "CEO; launched the first VC firm focused on psychedelic therapeutics; led growth at Bell Curve.",
+      },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: null,
+      sources: {
+        raised: { name: "Yahoo Finance", url: "https://finance.yahoo.com/news/feltsense-raises-5-1m-launch-165000161.html" },
+      },
+    },
+    referralProgram: { exists: false, notes: null },
+    pricing: "Not published — equity ownership of agent-created companies rather than SaaS pricing.",
+    news: [
+      { date: "2026-02", headline: "Raised $5.1M seed led by Draper Associates for 'agentic founders' that build startups from zero." },
+      { date: "2026-04", headline: "Claims ~10,000 'Founder Agencies' spun up within months (self-reported); launched Gutcheck diligence tool in beta." },
+    ],
+    verified: true,
+  },
+  {
+    name: "Caffeine",
+    slug: "caffeine",
+    url: "https://caffeine.ai",
+    tagline: "The self-writing internet.",
+    categoryClaim: "Apps that AI writes, deploys, and continually updates — no human intervention in the codebase.",
+    description:
+      "Natural-language app builder from the DFINITY Foundation. Describe an app in plain language and an ensemble of AI models builds, deploys, and iterates production apps hosted on the Internet Computer Protocol (ICP) blockchain — with an App Market, custom domains, and cross-app queries.",
+    techStack: ["Internet Computer Protocol (ICP)", "Motoko (AI-generated backends)", "Multi-model ensemble"],
+    funding: {
+      totalRaised: "Funded by DFINITY Foundation ($100M+ raised for ICP)",
+      lastRound: null,
+      date: null,
+      valuation: null,
+      investors: ["DFINITY Foundation (parent)"],
+    },
+    founders: [
+      { name: "Dominic Williams", background: "Founder & Chief Scientist of DFINITY (Internet Computer); CEO of Caffeine.ai." },
+    ],
+    metrics: { arr: null, arrUsd: null, humans: null },
+    referralProgram: { exists: true, notes: "Affiliate program listed on pricing page — currently waitlist-only." },
+    pricing: "Free (daily credits); Host $5/mo; Studio $25/mo; Business $250/mo; Enterprise custom.",
+    news: [
+      { date: "2025-10", headline: "DFINITY launches Caffeine publicly — production apps from natural-language prompts." },
+      { date: "2025-07", headline: "Early access opens after 'Hello, Self-Writing Internet' event; 15,000+ alpha users." },
+    ],
+    verified: true,
+  },
+  {
+    name: "Atoms",
+    slug: "atoms",
+    url: "https://atoms.dev",
+    tagline: "Turn ideas into products that sell.",
+    categoryClaim: "An 'AI Business Team' — named AI employees that build AND market products for one-person companies.",
+    description:
+      "Multi-agent platform (rebrand of MGX / MetaGPT X by DeepWisdom) where specialized agents — team leader, researcher, architect, PM, engineer, ads specialist, SEO specialist — research, build, deploy, and market full-stack apps. Built on MetaGPT and OpenManus (~150K+ combined GitHub stars). 'Race Mode' runs multiple models on a prompt and picks the best output.",
+    techStack: ["MetaGPT", "OpenManus", "Atoms Cloud (hosting, auth, DB)", "Multi-model orchestration", "Stripe", "GitHub"],
+    funding: {
+      totalRaised: "~$31M",
+      lastRound: "Series A+ (Cathay Innovation; Series A led by Ant Group)",
+      date: "2025",
+      valuation: null,
+      investors: ["Ant Group", "Cathay Innovation", "Jinqiu Capital", "MindWorks Capital", "Baidu Ventures"],
+    },
+    founders: [
+      {
+        name: "Wu Chenglin",
+        background: "Founder & CEO of DeepWisdom; previously led large-scale AI at Huawei and Tencent; creator of MetaGPT.",
+      },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: null,
+      sources: {
+        raised: { name: "36kr", url: "https://eu.36kr.com/en/p/3638641265740932" },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes: "atoms.dev/affiliate: commission on each referred user's first 6 recurring payments; referred users get $50 in credits; monthly payouts via Wise.",
+    },
+    pricing: "Freemium: ~25 free credits/cycle; paid from $20/mo; Race Mode on the $100/mo Max plan.",
+    news: [
+      { date: "2026-06", headline: "MarkTechPost feature: agents that build, deploy, and market your app." },
+      { date: "2026-01", headline: "DeepWisdom rebrands MGX as Atoms; announces $31M raised (Ant Group, Cathay Innovation)." },
+    ],
+    verified: true,
+  },
+  {
+    name: "Semio",
+    slug: "semio",
+    url: "https://semio.ai",
+    tagline: "Bringing robots to life.",
+    categoryClaim: "Natural language is the user interface of robots.",
+    description:
+      "LA robotics-software startup (founded 2016) whose Arora platform lets developers build, deploy, and manage conversational AI applications for physical robots and digital characters. The physical-embodiment outlier of the cohort — agents with bodies. Funding undisclosed.",
+    techStack: ["Arora SaaS platform", "JavaScript SDK for robot skills"],
+    funding: { totalRaised: null, lastRound: null, date: null, valuation: null, investors: [] },
+    founders: [
+      { name: "Ross Mead", background: "Founder & CEO; PhD in robotics/human-robot interaction from USC." },
+      { name: "Braden McDorman", background: "Co-founder & CTO." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 7,
+      sources: {
+        humans: { name: "Tracxn", url: "https://tracxn.com/d/companies/semio/__BjN5hbn1zB_pkpRlyXAAgGbYOUmuxV496mQpEjKqmfA" },
+      },
+    },
+    referralProgram: { exists: false, notes: null },
+    pricing: "Not published — demo/consultation only.",
+    news: [],
+    verified: true,
+  },
+  {
+    name: "Boardy",
+    slug: "boardy",
+    url: "https://boardy.ai",
+    tagline: "The world's first AI superconnector.",
+    categoryClaim: "I'm done making intros… now I make deals happen.",
+    description:
+      "The guy with the cardboard box on his head. Boardy calls you on the phone, has a real conversation to learn what you're building, then autonomously brokers double-opt-in warm introductions — to investors, customers, hires. It famously raised its own $8M seed by pitching investors itself: most Creandum partners only ever spoke to Boardy, never the founders. By mid-2026: 166K+ people spoken with, 114K+ intros, ~$63B in capital introductions (company-reported).",
+    techStack: ["AI voice calls", "Double-opt-in email intros", "LinkedIn persona"],
+    funding: {
+      totalRaised: "$11M",
+      lastRound: "$8M Seed ($3M pre-seed Oct 2024)",
+      date: "2025-01",
+      valuation: null,
+      investors: ["Creandum (lead)", "Andy Dunn", "Leah Solivan", "Andrew Yeung"],
+    },
+    founders: [
+      { name: "Andrew D'Souza", background: "CEO; co-founder of Clearco (revenue-based financing)." },
+      { name: "Matt Stein, Shen Sivananthan, Ankur & Abhinav Boyed", background: "Co-founders." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: null,
+      sources: {
+        raised: { name: "TechCrunch", url: "https://techcrunch.com/2025/01/14/boardy-ai-raises-8m-seed-round-months-after-closing-pre-seed/" },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes: "Growth is intro-native: Boardy Deal Partners lets referrers connect founders to Boardy; strong candidates can get $25K–$300K checks from Boardy Ventures.",
+    },
+    pricing: "Core free (intros capped ~3/day). Boardy Pro: $100/mo (June 2026 — first 5,000 signups got it free for life; window closed in ~2 hours).",
+    news: [
+      { date: "2026-06", headline: "Boardy Pro launch; ~$63B in capital introductions reported to date." },
+      { date: "2025-12", headline: "Launches AI-led venture fund / scout network (Boardy Ventures)." },
+      { date: "2025-01", headline: "$8M seed led by Creandum — round largely negotiated by the AI itself (TechCrunch)." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "Base44",
+    slug: "base44",
+    url: "https://base44.com",
+    tagline: "Build software with a prompt.",
+    categoryClaim: "The canonical one-person exit: solo founder, zero funding, $80M cash in 6 months.",
+    description:
+      "Text-to-app platform (auth, DB, hosting from natural language). Maor Shlomo built it solo-owned (100% equity, bootstrapped) with a small team — 1 founder + 8 employees at exit — and sold to Wix for $80M cash six months after launch. It then hit $100M ARR nine months post-acquisition and passed $150M by May 2026. The proof point that a tiny team plus agents can build acquisition-grade software businesses.",
+    techStack: ["Claude Opus", "GPT-5", "Gemini 3 Pro", "Built-in auth, DB & hosting"],
+    funding: {
+      totalRaised: "$0 (bootstrapped)",
+      lastRound: "Acquired by Wix for $80M cash + earnout",
+      date: "2025-06",
+      valuation: null,
+      investors: [],
+    },
+    founders: [
+      { name: "Maor Shlomo", background: "Israeli; ex-Explorium co-founder; built Base44 solo after IDF reserve duty." },
+    ],
+    metrics: {
+      arr: "$3.5M at exit → $150M under Wix",
+      arrUsd: 3_500_000,
+      humans: 9,
+      sources: {
+        humans: { name: "TechCrunch (1 founder + 8 staff)", url: "https://techcrunch.com/2025/06/18/6-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash/" },
+        arr: { name: "Getlatka / Wix earnings", url: "https://getlatka.com/blog/base44-revenue-acquired-wix/" },
+        raised: { name: "TechCrunch", url: "https://techcrunch.com/2025/06/18/6-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash/" },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes: "base44.com/affiliates — flat $100 per successful referral, $300 minimum payout, monthly payments.",
+    },
+    pricing: "Free (25 credits); Starter $16/mo annual; Builder $40/mo; Pro $80/mo.",
+    news: [
+      { date: "2026-05", headline: "Wix Q1 2026 earnings: Base44 surpasses $150M ARR." },
+      { date: "2026-03", headline: "Calcalist: Base44 hits $100M ARR nine months after the Wix acquisition." },
+      { date: "2025-06", headline: "TechCrunch: 6-month-old, solo-owned vibe coder Base44 sells to Wix for $80M cash." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "Midjourney",
+    slug: "midjourney",
+    url: "https://midjourney.com",
+    tagline: "Independent AI image & video research lab.",
+    categoryClaim: "The lean-AI benchmark: $8M+ revenue per employee.",
+    description:
+      "Subscription image/video generation, self-funded since day one. Not 'autopilot'-positioned, but it anchors the extreme of the category's core metric — roughly $500M in revenue with ~60 people (headcount estimates range 60–190 depending on the database).",
+    techStack: ["Proprietary diffusion models", "Discord-first distribution"],
+    funding: {
+      totalRaised: "$0 (self-funded)",
+      lastRound: null,
+      date: null,
+      valuation: "~$10B implied via secondaries (unverified)",
+      investors: [],
+    },
+    founders: [{ name: "David Holz", background: "Previously co-founded Leap Motion." }],
+    metrics: {
+      arr: "~$500M",
+      arrUsd: 500_000_000,
+      humans: 60,
+      sources: {
+        humans: { name: "Getlatka (~60; others up to 190)", url: "https://getlatka.com/companies/midjourney" },
+        arr: { name: "Third-party estimates", url: "https://sacra.com/c/midjourney/" },
+        raised: { name: "Crunchbase", url: "https://www.crunchbase.com/organization/midjourney" },
+      },
+    },
+    referralProgram: { exists: false, notes: null },
+    pricing: "$10/mo Basic; $30 Standard; $60 Pro; $120 Mega.",
+    news: [
+      { date: "2026-03", headline: "V8 Alpha: native 2K, 5x faster generation." },
+      { date: "2025-08", headline: "Meta partnership to license Midjourney's 'aesthetic technology'." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "Artisan",
+    slug: "artisan",
+    url: "https://artisan.co",
+    tagline: "AI employees. 'Stop hiring humans.'",
+    categoryClaim: "Autonomous AI BDR 'Ava' runs outbound sales end-to-end.",
+    description:
+      "Ava prospects from a 300M+ contact database, writes and sequences email, and books meetings autonomously — with Aaron (inbound) and Aria (meetings) on the roadmap. Famous for the 'Stop Hiring Humans' billboard campaign. YC W24.",
+    techStack: ["LLM agents on a proprietary B2B data layer"],
+    funding: {
+      totalRaised: "$36.5M",
+      lastRound: "$25M Series A",
+      date: "2025-04",
+      valuation: null,
+      investors: ["Glade Brook Capital (lead)", "HubSpot Ventures", "BOND", "Day One Ventures", "Y Combinator"],
+    },
+    founders: [{ name: "Jaspar Carmichael-Jack", background: "CEO, early-20s; YC W24." }],
+    metrics: {
+      arr: "$5M+",
+      arrUsd: 5_000_000,
+      humans: 35,
+      sources: {
+        humans: { name: "Getlatka", url: "https://getlatka.com/companies/artisan.co" },
+        arr: { name: "TechCrunch", url: "https://techcrunch.com/2025/04/09/artisan-the-stop-hiring-humans-ai-agent-startup-raises-25m-and-is-still-hiring-humans/" },
+        raised: { name: "TechCrunch", url: "https://techcrunch.com/2025/04/09/artisan-the-stop-hiring-humans-ai-agent-startup-raises-25m-and-is-still-hiring-humans/" },
+      },
+    },
+    referralProgram: {
+      exists: false,
+      notes: "No affiliate program; piloting success-based pay-per-response pricing via Paid.ai.",
+    },
+    pricing: "Ava 2.0 self-serve from ~$250/mo; ~$600/mo mid-tier; $5,000+/mo enterprise.",
+    news: [
+      { date: "2026-05", headline: "Ava 2.0 general availability with self-serve onboarding and $300 free credits." },
+      { date: "2025-04", headline: "TechCrunch: the 'stop hiring humans' startup raises $25M — and is still hiring humans." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "Lindy",
+    slug: "lindy",
+    url: "https://lindy.ai",
+    tagline: "Meet your first AI employee.",
+    categoryClaim: "Autopilot: cloud computer-use agents that operate a browser autonomously.",
+    description:
+      "No-code platform to build AI agents ('Lindies') for email, sales, support, and scheduling across 6,000+ integrations. Lindy 3.0 added Autopilot — agents that drive a cloud browser on their own. 400,000+ users.",
+    techStack: ["Multi-model (OpenAI / Anthropic)", "Cloud computer-use agents", "6,000+ integrations"],
+    funding: {
+      totalRaised: "$49.9M",
+      lastRound: null,
+      date: null,
+      valuation: null,
+      investors: ["Menlo Ventures", "Coatue", "Battery Ventures", "Tiger Global"],
+    },
+    founders: [{ name: "Flo Crivello", background: "Ex-Uber; founder of Teamflow." }],
+    metrics: {
+      arr: "$5.1M (2024 est.)",
+      arrUsd: 5_100_000,
+      humans: 52,
+      sources: {
+        humans: { name: "Tracxn", url: "https://tracxn.com/d/companies/lindy/__FJe0QVe6UcRHtdiPJpmyRG3livSd4eIGsIxMxz-kNPI" },
+        arr: { name: "Getlatka (2024 est.)", url: "https://getlatka.com/companies/lindyai" },
+        raised: { name: "Tracxn", url: "https://tracxn.com/d/companies/lindy/__FJe0QVe6UcRHtdiPJpmyRG3livSd4eIGsIxMxz-kNPI" },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes: "Affiliate/creator partner program on PartnerStack (lindy.ai/partners) plus a service-partner directory.",
+    },
+    pricing: "Free tier; Plus $49.99/mo; Pro $99.99/mo (computer use + voice); Max $199.99/mo.",
+    news: [
+      { date: "2025-08", headline: "Lindy 3.0 launch with Autopilot — autonomous computer-use agents." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "Basis",
+    slug: "basis",
+    url: "https://usebasis.co",
+    tagline: "AI agents for accounting firms — end-to-end.",
+    categoryClaim: "Agents that complete accounting, tax, and audit workflows in production, not copilot suggestions.",
+    description:
+      "Deploys autonomous agents that finish accounting workflows end-to-end at real firms — used by ~30% of the top 25 US accounting firms. Became a unicorn in February 2026. The strongest signal that agent-run operations are landing in conservative industries.",
+    techStack: [],
+    funding: {
+      totalRaised: "$138M",
+      lastRound: "$100M Series B",
+      date: "2026-02",
+      valuation: "$1.15B",
+      investors: ["Accel (lead)", "GV", "Khosla Ventures", "NFDG", "Aaron Levie & Jeff Dean (angels)"],
+    },
+    founders: [
+      { name: "Matt Harpe", background: "Co-founder, NYC." },
+      { name: "Mitch Troyanovsky", background: "Co-founder, NYC." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 76,
+      sources: {
+        humans: { name: "Getlatka", url: "https://getlatka.com/companies/getbasis.ai" },
+        raised: { name: "Bloomberg", url: "https://www.bloomberg.com/news/articles/2026-02-24/ai-for-accounting-startup-basis-hits-1-15-billion-valuation" },
+      },
+    },
+    referralProgram: { exists: false, notes: "Enterprise sales motion." },
+    pricing: "Custom / enterprise.",
+    news: [
+      { date: "2026-02", headline: "Raises $100M Series B at $1.15B led by Accel." },
+      { date: "2024-12", headline: "$34M Series A led by Khosla Ventures." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "Delphi",
+    slug: "delphi",
+    url: "https://delphi.ai",
+    tagline: "Create your digital mind.",
+    categoryClaim: "Your expertise, monetized 24/7 — a personal-brand business on autopilot.",
+    description:
+      "Turns an expert's content into an interactive AI clone (text/voice/video) that handles audience conversations, coaching, and monetization around the clock. 2,000+ experts live; backed by Sequoia.",
+    techStack: [],
+    funding: {
+      totalRaised: "$16M+",
+      lastRound: "$16M Series A",
+      date: "2025-06",
+      valuation: null,
+      investors: ["Sequoia (lead)", "Menlo Ventures", "Anthropic's Anthology Fund", "Crossbeam"],
+    },
+    founders: [
+      { name: "Dara Ladjevardian", background: "CEO; inspired by wanting to talk with his late grandfather via his memoir." },
+      { name: "Sam Spelsberg", background: "CTO." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 37,
+      sources: {
+        humans: { name: "Tracxn", url: "https://tracxn.com/d/companies/delphi/__sanFr2u2e2tuCcA8J4CoLaZ1mPK11wUadGeq5Xb_Ois" },
+        raised: { name: "Delphi blog", url: "https://www.delphi.ai/blog/delphi-raises-16m-series-a-from-sequoia" },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes: "No standard affiliate program — but creators monetize their own clones via subscription/usage revenue share, functioning as a partner economy.",
+    },
+    pricing: "Free tier; Builder $79/mo; Scaler $299/mo; 'Immortal' concierge tier (custom).",
+    news: [
+      { date: "2026-01", headline: "CEO calls 2026 'the tipping point for digital minds'." },
+      { date: "2025", headline: "$16M Series A led by Sequoia." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "Payman",
+    slug: "payman",
+    url: "https://paymanai.com",
+    tagline: "AI that pays humans.",
+    categoryClaim: "Agentic banking: controlled money access so agents can hire and pay humans.",
+    description:
+      "Payments and banking infrastructure that gives AI agents controlled access to money — so they can hire and pay humans and other agents (fiat, bank, or crypto). The financial rails that make fully autonomous businesses possible. Backed by Visa.",
+    techStack: [],
+    funding: {
+      totalRaised: "$13.8M",
+      lastRound: null,
+      date: "2024-05",
+      valuation: null,
+      investors: ["Visa", "Boost VC", "CB Ventures", "Deepwater", "Spartan Group"],
+    },
+    founders: [{ name: "Tyllen Bicakcic", background: "Founder/CEO; fintech & crypto background." }],
+    metrics: {
+      arr: "$770K (2025 est.)",
+      arrUsd: 770_000,
+      humans: 15,
+      sources: {
+        humans: { name: "Tracxn", url: "https://tracxn.com/d/companies/paymanai/__NSTYOZtZdNiGZxC0Vkul0dzUfj3ZUgPqDRNO08pHBUE" },
+        arr: { name: "Getlatka (2025 est.)", url: "https://getlatka.com/companies/paymanai.com" },
+        raised: { name: "Tracxn", url: "https://tracxn.com/d/companies/paymanai/__NSTYOZtZdNiGZxC0Vkul0dzUfj3ZUgPqDRNO08pHBUE/funding-and-investors" },
+      },
+    },
+    referralProgram: { exists: false, notes: null },
+    pricing: "Developer / usage-based; not publicly listed.",
+    news: [
+      { date: "2026-05", headline: "Citizens State Bank (Colorado) partners with Payman to pioneer 'agentic banking'." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "RentAHuman",
+    slug: "rentahuman",
+    url: "https://rentahuman.ai",
+    tagline: "The marketplace where AI agents hire humans.",
+    categoryClaim: "Humans as API endpoints — hands and feet for the agent economy.",
+    description:
+      "The inverse of everything else on this list: instead of humans deploying AI agents, AI agents hire humans for physical-world tasks — package pickups, in-store photos, event staffing, robotics training data. Agents post escrow-funded bounties via MCP or REST API and pay out in stablecoins. Launched February 2026 by Alexander Liteplo and went instantly viral (Wired, Forbes, Futurism, Nature): 73K humans registered within two days, 500K+ claimed within two weeks. Early reporting noted far fewer visible worker profiles than registered users — traction claims are self-reported.",
+    techStack: ["MCP", "REST API", "Stablecoin payouts", "Escrow bounties"],
+    funding: {
+      totalRaised: "YC-backed (undisclosed seed)",
+      lastRound: "Y Combinator, Spring 2026 batch",
+      date: "2026",
+      valuation: null,
+      investors: ["Y Combinator"],
+    },
+    founders: [
+      { name: "Alexander Liteplo", background: "26; CS at UBC; crypto engineer (LayerZero Labs, UMA Protocol)." },
+      { name: "Patricia Tani", background: "Co-founder; previously worked on AI-agent startup LemonAI (per Wired)." },
+    ],
+    metrics: {
+      arr: "~$240K run rate (claimed $20K MRR)",
+      arrUsd: 240_000,
+      humans: 3,
+      sources: {
+        humans: { name: "Y Combinator", url: "https://www.ycombinator.com/companies/rentahuman" },
+        arr: { name: "YC profile · self-reported", url: "https://www.ycombinator.com/companies/rentahuman" },
+        raised: { name: "Crunchbase", url: "https://www.crunchbase.com/organization/rentahuman-ai" },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes: "'Finder's fee' program — earn commissions by referring qualified humans to enterprise bounties.",
+    },
+    pricing: "Free to browse; tasks funded per-bounty with escrow (examples range $1–$300).",
+    news: [
+      { date: "2026-02", headline: "Launches and breaks the internet: 73K humans registered in two days; Wired profiles 'the first marketplace for bots to hire humans'." },
+      { date: "2026-04", headline: "Joins Y Combinator (Spring 2026 batch); reports 500K+ registered humans across 100+ countries and $20K MRR." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+  {
+    name: "11x",
+    slug: "11x",
+    url: "https://11x.ai",
+    tagline: "Digital workers for GTM.",
+    categoryClaim: "AI sales reps sold explicitly as headcount replacement.",
+    description:
+      "Autonomous AI SDR 'Alice' and voice agent 'Julian' run outbound prospecting, email, and calls. Included as the category's cautionary tale: a TechCrunch investigation (March 2025) found it claimed customers it didn't have, with revenue and churn heavily disputed. Still operating under a new CEO.",
+    techStack: [],
+    funding: {
+      totalRaised: "~$76M",
+      lastRound: "$50M Series B (~$350M valuation)",
+      date: "2024-11",
+      valuation: "~$350M",
+      investors: ["a16z (lead)", "Benchmark"],
+    },
+    founders: [
+      { name: "Hasan Sukkar", background: "Founder; stepped down as CEO May 2025." },
+      { name: "Prabhav Jain", background: "CTO, now CEO." },
+    ],
+    metrics: {
+      arr: "claimed $10M; disputed ~$3M",
+      arrUsd: null,
+      humans: 77,
+      sources: {
+        humans: { name: "Tracxn", url: "https://tracxn.com/d/companies/11x/__P4mFd4dOZmyEt3qkI243p5AtNH1AhqMZw4A4Zd1scY4" },
+        arr: { name: "TechCrunch investigation", url: "https://techcrunch.com/2025/03/24/a16z-and-benchmark-backed-11x-has-been-claiming-customers-it-doesnt-have/" },
+        raised: { name: "Tracxn", url: "https://tracxn.com/d/companies/11x/__P4mFd4dOZmyEt3qkI243p5AtNH1AhqMZw4A4Zd1scY4" },
+      },
+    },
+    referralProgram: { exists: false, notes: null },
+    pricing: "Not public; historically annual contracts in the tens of thousands.",
+    news: [
+      { date: "2025-03", headline: "TechCrunch: 'a16z- and Benchmark-backed 11x has been claiming customers it doesn't have'." },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
+];
+
+export type StackCategory =
+  | "intelligence"
+  | "agents"
+  | "code-deploy"
+  | "data"
+  | "payments"
+  | "distribution";
+
+export type StackTool = {
+  name: string;
+  url: string;
+  role: string;
+  referral: string | null;
+  usedBy: string[];
+  category: StackCategory;
+};
+
+// Pyramid layers, top (apex) → bottom (foundation).
+export const stackLayers: { key: StackCategory; label: string; blurb: string }[] = [
+  { key: "intelligence", label: "Intelligence — LLMs & engines", blurb: "The models that think, plan, and argue" },
+  { key: "agents", label: "Agent infrastructure", blurb: "Inboxes, browsers, voices & compute for agents" },
+  { key: "code-deploy", label: "Code & deployment", blurb: "Where agent-written code lives and ships" },
+  { key: "data", label: "Databases & backend", blurb: "State for a thousand agent-built apps" },
+  { key: "payments", label: "Payments & money rails", blurb: "How autopilot businesses actually get paid" },
+  { key: "distribution", label: "Distribution & comms", blurb: "Ads, email, phone — reaching the real world" },
+];
+
+// The infrastructure layer that showed up repeatedly behind autopilot businesses.
+// Referral notes are indicative — always confirm current terms on the vendor's site.
+export const stackTools: StackTool[] = [
+  {
+    name: "Claude (Anthropic)",
+    url: "https://claude.com",
+    role: "Reasoning, planning & code review — the 'thinking' half of most agent stacks",
+    referral: null,
+    usedBy: ["Polsia"],
+    category: "intelligence",
+  },
+  {
+    name: "OpenAI",
+    url: "https://openai.com",
+    role: "Implementation models & stress-testing plans (the Codex side of the duo workflow)",
+    referral: null,
+    usedBy: ["Polsia"],
+    category: "intelligence",
+  },
+  {
+    name: "Cursor",
+    url: "https://cursor.com",
+    role: "Agentic coding IDE — host of the Hands-Off Hackathon",
+    referral: null,
+    usedBy: ["Hackathon teams"],
+    category: "intelligence",
+  },
+  {
+    name: "Stripe",
+    url: "https://stripe.com",
+    role: "Payments & billing for agent-run revenue (Stripe Connect for platform rev-share)",
+    referral: "Partner ecosystem program",
+    usedBy: ["Polsia", "Nanocorp", "Cofounder", "Feltsense", "Atoms"],
+    category: "payments",
+  },
+  {
+    name: "Vercel",
+    url: "https://vercel.com",
+    role: "Instant deployment for agent-built products",
+    referral: null,
+    usedBy: ["Nanocorp", "Cofounder"],
+    category: "code-deploy",
+  },
+  {
+    name: "Render",
+    url: "https://render.com",
+    role: "App & worker hosting",
+    referral: "Referral credits program",
+    usedBy: ["Polsia"],
+    category: "code-deploy",
+  },
+  {
+    name: "Neon",
+    url: "https://neon.com",
+    role: "Serverless Postgres — a database per agent/project",
+    referral: "Partner program",
+    usedBy: ["Polsia"],
+    category: "data",
+  },
+  {
+    name: "Supabase",
+    url: "https://supabase.com",
+    role: "Backend-as-a-service for agent-built apps",
+    referral: null,
+    usedBy: ["Cofounder"],
+    category: "data",
+  },
+  {
+    name: "AgentMail (YC S25)",
+    url: "https://agentmail.to",
+    role: "Email inboxes built for AI agents",
+    referral: null,
+    usedBy: ["Polsia"],
+    category: "agents",
+  },
+  {
+    name: "Anchor Browser",
+    url: "https://anchorbrowser.io",
+    role: "Browser automation infrastructure for agents",
+    referral: null,
+    usedBy: ["Polsia"],
+    category: "agents",
+  },
+  {
+    name: "Blaxel (YC X25)",
+    url: "https://blaxel.ai",
+    role: "Compute platform to deploy & scale agents",
+    referral: null,
+    usedBy: ["Polsia"],
+    category: "agents",
+  },
+  {
+    name: "MCP (Model Context Protocol)",
+    url: "https://modelcontextprotocol.io",
+    role: "The connector standard — how agents reach 3,000+ tools",
+    referral: null,
+    usedBy: ["Wordware (Sauna)", "Cofounder"],
+    category: "agents",
+  },
+  {
+    name: "Meta Ads",
+    url: "https://www.facebook.com/business/ads",
+    role: "Agent-run paid acquisition",
+    referral: null,
+    usedBy: ["Polsia", "Nanocorp", "Feltsense"],
+    category: "distribution",
+  },
+  {
+    name: "RentAHuman",
+    url: "https://rentahuman.ai",
+    role: "Marketplace where agents hire humans for physical-world tasks (MCP + API, escrow bounties)",
+    referral: "Finder's fee program",
+    usedBy: ["Agents via MCP (e.g. Claude)"],
+    category: "agents",
+  },
+  {
+    name: "ElevenLabs",
+    url: "https://elevenlabs.io",
+    role: "Conversational voice agents — the voice behind 'Rachel' and 'Brigitte'",
+    referral: "Affiliate program (revenue share)",
+    usedBy: ["Guinndex", "Le Baguette Index"],
+    category: "agents",
+  },
+  {
+    name: "Twilio",
+    url: "https://www.twilio.com",
+    role: "Programmable telephony — agents dialing the real world",
+    referral: null,
+    usedBy: ["Guinndex", "Le Baguette Index"],
+    category: "distribution",
+  },
+  {
+    name: "Postmark",
+    url: "https://postmarkapp.com",
+    role: "Transactional email delivery",
+    referral: null,
+    usedBy: ["Polsia"],
+    category: "distribution",
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com",
+    role: "Code hosting — where agent PRs land and get reviewed",
+    referral: null,
+    usedBy: ["Polsia", "Cofounder", "Atoms"],
+    category: "code-deploy",
+  },
+  {
+    name: "AWS",
+    url: "https://aws.amazon.com",
+    role: "Underlying cloud infrastructure",
+    referral: "AWS Activate credits for startups",
+    usedBy: ["Polsia"],
+    category: "code-deploy",
+  },
+];
+
+export const playbook = {
+  source: "Ben Cera (Polsia) — solo-founder AI coding workflow",
+  steps: [
+    { step: "Explore & plan", detail: "Claude Opus for exploration and planning the change." },
+    { step: "Stress-test the plan", detail: "Codex on max effort to stress-test the plan — it catches gaps Opus missed." },
+    { step: "Argue it out", detail: "Back to Opus, which usually complains Codex is over-engineering. A few rounds back and forth." },
+    { step: "Implement & review", detail: "Codex implements, Opus reviews." },
+    { step: "Pre-ship check", detail: "Ask both: 'Safe to ship? What's the worst thing that could happen?'" },
+  ],
+  punchline: "“Opus and Codex arguing over my codebase is my entire engineering team.”",
+};
+
+export type CaseStudy = {
+  title: string;
+  who: string;
+  date: string | null;
+  summary: string;
+  stack: string[];
+  links: { label: string; url: string }[];
+  verified: boolean;
+};
+
+// Small-scale but telling experiments: agents doing real-world legwork
+// (calls, negotiations, data collection) that used to require humans.
+export const caseStudies: CaseStudy[] = [
+  {
+    title: "Guinndex — the Guinness price index",
+    who: "Matt Cortland, AI engineer (London)",
+    date: "March 2026",
+    summary:
+      "Annoyed by a €7.80 Dublin pint, he built an AI voice agent named 'Rachel' (friendly Northern Irish accent) that phoned 3,000+ pubs across all 32 Irish counties asking the price of a pint of Guinness. 2,052 pubs answered; 1,000+ verified prices. National average: €5.95. Cheapest: €3.00 (Glynn's Bar, Dunmore); priciest: €10 (Temple Bar). Total cost: ~€200. Only a handful of publicans realized it was an AI — and at least one pub cut its price €0.40 afterward. Now runs as a crowdsourced 'living CPI for the pint'.",
+    stack: ["ElevenLabs Conversational AI", "Twilio Voice", "Claude / Claude Code", "Google Maps API"],
+    links: [
+      { label: "guinndex.ai", url: "https://guinndex.ai" },
+      { label: "Fortune", url: "https://fortune.com/2026/03/30/guinness-beer-prices-ireland-anthropic-claude-ai/" },
+      { label: "Vice", url: "https://www.vice.com/en/article/how-one-man-lowered-the-price-of-guinness-by-using-ai-to-call-3000-pubs/" },
+      { label: "tech.eu", url: "https://tech.eu/2026/03/20/meet-rachel-the-ai-agent-that-phoned-3000-pubs-to-price-a-pint/" },
+    ],
+    verified: true,
+  },
+  {
+    title: "Le Baguette Index",
+    who: "Charles & Louis-Marie Lorin",
+    date: "May 2026",
+    summary:
+      "Explicitly inspired by the Guinndex: an AI voice agent named 'Brigitte' phoned French bakeries asking 'Combien coûte votre baguette tradition ?'. ~11,190 calls reached 5,173 bakeries across 146 communes (hung up on 1,400+ times); 1,638 prices retained. Average: €1.25; a third of bakeries charge exactly €1.30. Fun finding: cheaper baguettes correlate with better Google ratings. Out-of-pocket cost: ~€30. Most bakers never realized they were talking to a machine.",
+    stack: ["HappyRobot", "Twilio", "ElevenLabs", "Soniox", "GPT-4 + Claude", "Apify", "FastAPI"],
+    links: [
+      { label: "lebaguetteindex.fr", url: "https://lebaguetteindex.fr/" },
+      { label: "Cybernews", url: "https://cybernews.com/ai-news/ai-bakery-baguette/" },
+      { label: "Write-up (Substack)", url: "https://nicoguyon.substack.com/p/le-baguette-index-5-000-boulangeries" },
+    ],
+    verified: true,
+  },
+];
+
+// The inclusion framework — published rules for who makes the list, in the
+// spirit of Henry Shi's Lean AI Leaderboard criteria. Also used to judge
+// radar candidates before promotion.
+export const criteria = [
+  {
+    rule: "Agents execute, humans direct",
+    detail:
+      "AI performs core business operations end-to-end — selling, building, supporting, transacting. Copilots and assistants that merely help a human work faster don't qualify.",
+  },
+  {
+    rule: "Extreme leverage",
+    detail: "Ten or fewer humans, or at least $500K of ARR per human. The org chart should look like a prompt.",
+  },
+  {
+    rule: "Real economics",
+    detail:
+      "A verifiable revenue, funding, or exit signal with a citable source — Crunchbase, press, or public filings. Vibes don't chart.",
+  },
+  {
+    rule: "Radical transparency",
+    detail:
+      "Every metric on the leaderboard is labeled: verified, self-reported, or disputed — and links to its source. Disputed claims stay visible, flagged.",
+  },
+  {
+    rule: "The Guinndex rule",
+    detail:
+      "Not a company? Field experiments qualify when an agent does real-world economic legwork — calling 3,000 pubs, pricing 5,000 baguettes, raising a round.",
+  },
+] as const;
+
+export const categories = [
+  { name: "Autopilot-native", detail: "The business itself runs on agents (Polsia, Nanocorp, Boardy)." },
+  { name: "Autopilot-enablers", detail: "Infrastructure that makes agent-run business possible (Payman, RentAHuman)." },
+  { name: "Cautionary tales", detail: "Claims that didn't survive contact with reality — tracked, labeled (11x)." },
+] as const;
+
+export type InvestorThesis = {
+  firm: string;
+  partner: string;
+  quote: string;
+  portfolio: string;
+  source: { name: string; url: string };
+  date: string;
+};
+
+// Verbatim, source-verified quotes from investors on these cap tables.
+export const investorTheses: InvestorThesis[] = [
+  {
+    firm: "Union Square Ventures",
+    partner: "Rebecca Kaden",
+    quote:
+      "What we actually want are agents that don't just execute tasks, but understand your business deeply enough to run these workflows autonomously, 24/7, continuously improving, and fully coordinated.",
+    portfolio: "Cofounder",
+    source: {
+      name: "USV blog",
+      url: "https://blog.usv.com/the-race-to-run-businesses-autonomously-cofounder-by-the-general-intelligence-company-of-new-york",
+    },
+    date: "2025-12",
+  },
+  {
+    firm: "Creandum",
+    partner: "Simon Schmincke",
+    quote: "We were convinced we had to invest without seeing a pitch deck or even speaking to a human!",
+    portfolio: "Boardy",
+    source: { name: "Creandum — Backing Boardy", url: "https://creandum.com/stories/backing-boardy-ai/" },
+    date: "2025-01",
+  },
+  {
+    firm: "True Ventures",
+    partner: "Tony Conrad",
+    quote:
+      "For most of startup history, the answer was people and capital. Now, a Founder with a clear vision and the right platform can skip the org chart entirely and go straight to building something real.",
+    portfolio: "Polsia",
+    source: {
+      name: "True Ventures blog",
+      url: "https://www.trueventures.com/blog/polsia-one-person-company-no-longer-a-metaphor",
+    },
+    date: "2026",
+  },
+  {
+    firm: "Khosla Ventures",
+    partner: "Vinod Khosla",
+    quote: "Basis is already radically changing how work gets done at the best firms, driving 20% to 50% efficiencies.",
+    portfolio: "Basis",
+    source: {
+      name: "CPA Practice Advisor",
+      url: "https://www.cpapracticeadvisor.com/2026/02/24/basis-raises-100-million-to-deploy-ai-agents-for-accounting-firms/178759/",
+    },
+    date: "2026-02",
+  },
+  {
+    firm: "Accel",
+    partner: "Miles Clements",
+    quote: "Basis is years ahead in accounting AI, and we believe it has what it takes to define this category.",
+    portfolio: "Basis",
+    source: {
+      name: "CPA Practice Advisor",
+      url: "https://www.cpapracticeadvisor.com/2026/02/24/basis-raises-100-million-to-deploy-ai-agents-for-accounting-firms/178759/",
+    },
+    date: "2026-02",
+  },
+  {
+    firm: "Sequoia Capital",
+    partner: "Jess Lee",
+    quote: "Delphi lets these experts be everywhere to everyone, all at once.",
+    portfolio: "Delphi",
+    source: {
+      name: "Sequoia — Partnering with Delphi",
+      url: "https://sequoiacap.com/article/partnering-with-delphi-meet-your-heroes/",
+    },
+    date: "2025-06",
+  },
+  {
+    firm: "OpenAI",
+    partner: "Sam Altman",
+    quote:
+      "In my little group chat with my tech CEO friends there's this betting pool for the first year that there is a one-person billion-dollar company.",
+    portfolio: "the category",
+    source: {
+      name: "Fortune",
+      url: "https://fortune.com/2024/02/04/sam-altman-one-person-unicorn-silicon-valley-founder-myth/",
+    },
+    date: "2023-09",
+  },
+];
+
+export const hackathon = {
+  name: "Cursor Hands-Off Hackathon",
+  date: "June 25, 2026",
+  url: "https://cursor-hands-off-hackathon-06-2026.vercel.app/",
+  video: "https://www.loom.com/share/1c00509d5ff64e1aabc4a0e966a3f21f",
+  pitch:
+    "Create a self-running business powered entirely by AI agents. Spend the first phase setting up systems — defining workflows, deploying agents, giving them just enough structure to operate independently. Then let go. While your company runs, you don't. At the end: which agents performed, which companies made money, who built the most autonomous system.",
+  motto: "The goal isn't to do more — it's to make less do more.",
+};

@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Business on Autopilot
 
-## Getting Started
+A tracker for the new class of companies where **AI agents run the operations and humans set the direction** — who they are, what they run on, how they make money, and how you can build your own. Inspired by the [Lean AI Leaderboard](https://leanaileaderboard.com/) by Henry Shi.
 
-First, run the development server:
+## What's inside
+
+- **The autopilot index** — leaderboard ranked by ARR per human; every figure links to its source (Crunchbase, Tracxn, press) and is labeled verified / self-reported / disputed.
+- **[The Autopilot Criteria](/#criteria)** — the published framework for who makes the list.
+- **News pulse** (`/news`) — a heat-ranked live signal feed (funding, launches, interviews, social) aggregated from Google News, Hacker News, Techmeme and YouTube, plus a 📡 radar of unvetted new entrants discovered by keyword.
+- **The autopilot stack** — the infrastructure pyramid under agent-run companies, with referral programs and credits for builders.
+- **Field experiments** — agents doing real-world economic legwork (Guinndex, Le Baguette Index).
+- **Why investors care** — verbatim, source-linked theses from the VCs on these cap tables.
+
+## Submit a company
+
+- Visual form: `/submit` on the site (anonymous, bot-protected).
+- GitHub-native: [open a submission issue](../../issues/new/choose).
+
+Every submission is researched against independent sources before it can be listed — see [docs/VETTING.md](docs/VETTING.md). Unvetted candidates appear on the radar, clearly labeled.
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # develop on :3000
+npm run pulse        # refresh data/pulse.json + data/candidates.json (free, keyless sources)
+npm run build        # static production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`scripts/refresh.sh` runs pulse + rebuild (wired to launchd/cron for daily refresh).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Licensing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Code:** [MIT](LICENSE)
+- **Dataset** (`data/`, `lib/data.ts` content): [CC BY 4.0](data/LICENSE) — free to reuse with attribution.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Maintained by one human + agents. ☕ [Buy the human a coffee](https://buymeacoffee.com/antonioserrano).

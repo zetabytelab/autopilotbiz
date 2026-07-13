@@ -1,0 +1,15 @@
+The Business on Autopilot dataset (the JSON files in this directory and the
+company/case-study/stack data in lib/data.ts) is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt this data for any purpose, including
+commercially, PROVIDED you give appropriate credit:
+
+  "Data: Business on Autopilot (github.com/zetabytelab/autopilotbiz),
+   CC BY 4.0"
+
+Full license text: https://creativecommons.org/licenses/by/4.0/
+
+Figures are aggregated from cited public sources (Crunchbase, Tracxn,
+Getlatka, press); each metric carries its own source link and a
+verified / self-reported / disputed label. No warranty of accuracy.

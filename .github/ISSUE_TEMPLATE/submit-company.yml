@@ -1,0 +1,52 @@
+name: Submit an autopilot company
+description: Propose a company for the tracker (GitHub-native fallback for the /submit form)
+title: "[submission] "
+labels: ["submission-manual", "unverified"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the tip! Submissions are vetted against **independent sources** and
+        [the Autopilot Criteria](https://github.com/zetabytelab/autopilotbiz#readme) before listing.
+        Nothing you write here is taken at face value.
+  - type: input
+    id: name
+    attributes:
+      label: Company name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Website (https://…)
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Autopilot-native (the business runs on agents)
+        - Autopilot-enabler (infrastructure for agent-run business)
+        - Field experiment (agent did real-world economic legwork)
+    validations:
+      required: true
+  - type: textarea
+    id: autonomy
+    attributes:
+      label: What do the agents actually run end-to-end?
+      description: Sales? Code? Support? Payments? Be specific — copilots don't qualify.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence links
+      description: "Funding/revenue/headcount sources: press, Crunchbase, founder posts. One URL per line."
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Your contact (optional)
+      description: Email or X/LinkedIn handle if we may follow up.

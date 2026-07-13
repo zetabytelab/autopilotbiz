@@ -1,0 +1,383 @@
+{
+ "generatedAt": "2026-07-13T08:28:48.593Z",
+ "candidates": [
+  {
+   "id": "e8fd157d900c",
+   "name": null,
+   "evidence": [
+    {
+     "title": "My startup accidentally went over our AI budget from one Claude setting — it turned out to be worth it",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZWtJXzZsSlVkSlVwd1VqMC1KRlNRZ1hlWEJaMzdHLUhLZ1FNaVdQNG5LdzV4NktyT0JrcDlmaGwzeFROQ3E1c3RPcTZFZlRvZlFfdzhEZ0gtVXJWdmZ0elJIQ1dFU095Sl9oQ3JhM0JJM1JfZ1R2REVXZUhaeXVCdTd0bVM1SVp4MWd1YU95ZS1PaEkzYW45WVNuZU44Q3BrT01v?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-09T09:11:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
+    {
+     "title": "I was using Anthropic's Fable when it disappeared mid-project. It taught me a lesson about AI and business.",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVWZpYVV0ZzFuZzljU0NxM0d6TDlSTnZFSG9CUVJFY0V4a3JlTDFYVUhwYmxGcEZqTFV3ZTI5S3BOZkVockF1blRJRkpkU1BrRWFMMmhER1pIUlMwZGh5a092UU1Fc2NycVN4ZXB6OUtHeTdIaUJQVHdqLW1CYXh1eENOdzFyamZwaFNMUFoxSndfT0Y0NFp3MXZRc3BZTWx4WWk4OThUWC0?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-17T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "5cd3a2e884e9",
+   "name": null,
+   "evidence": [
+    {
+     "title": "An AI agent startup just let its agent run its $100M fundraise",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQkgtaERFdmRZejR5dnNKVXZWbXh1U3U3eXZRS2luZUpRMV9fQndUQ1MzNGNQcEN0MDFCRVQzeTBaeDF3b3JJOXNCT2xGQVhlZEVoaDVRUlJaSEMxaVJGNExPdXlVVlBRaXJZNDFtZUFaeVVoeDJocnh5bmxLTUE1V2hudC00WEhTbXRiYXBKMG5sQXEzMWNHUzAtVWlyVGc3cmVVQ2Zn?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-09T22:08:58.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    },
+    {
+     "title": "AI agent startup uses agent to lead 100M round",
+     "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+     "source": "hn",
+     "publishedAt": "2026-07-12T23:15:33Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "56f894c877e2",
+   "name": "Cargofy",
+   "evidence": [
+    {
+     "title": "Cargofy raises €9.5 million Series A to deploy AI “digital workers” across freight operations - EU-Startups",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaVNJdGc5dkZwekp3LU9Gak1tNWZRRWd1cDRKQnJLM1pFb1daby1sRXVUTHBGYVFoN1pSSm5YeldJODJfUjRMcURjX181U1BzVWhKX2Y1cS1CUVR3M1VxcHJOUloxRlFFcHoyNjN0dkp5ZlcwdlZmWFVkNXlHNTgxT0lHdV9DdUZFU1Y4cjloU01DNkxyVzRqYXFCWE9ZeXk1UDdWeXVIY2hJU1RlMFNaZ2ItajU5blZUTHJQbThySjFmSUNRMEVj?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-18T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "97ea3bd650fd",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Startup Raises $6.5 Million with Technology Designed To Ease Payments Made By “AI Employees”",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPd1ZhNVZuQlN2OC1BYlJZZGkwek1uXzZTZF8zb1BiSWFBSDRZUlJuUXFmVkFNVTQxZk5tUHN4U3NFRzVtcVBFdGhnLWFwRGFXb3MtOVN0N1VzUGtfQ0VnMkFVSkJYd3dLaExnYWVkNndKbGhBcmxHUGhrdHlPVnl0ZWY4WkJlSlczUE1SVWpYNFBRdTRndUJYWXptQzg1OVZXOXhYNjRSVjZZSjM3R24zMDZUWXJGdnM1MGE2YXh4Tkhmb05BbnpFZzJIZ1pURjAyMmVHQ295NGE?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-03T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "09035827a253",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Lithuanian startup Superpal raises €500K for AI coworker platform built inside Slack",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVJNdGxvclBnQXNYNmx5YmRGSFgwM3VleU81Q2NrZHpva0g5clczZHRUdV9XcW0yTG9iYWJWU1RwZUJ0Q05yMzFscUJPaUhyY0RheGlJcmx4azZGNmhWeVk3WF9scjhIU0VqRWtVM1RmSDJFV3FXczFqY2o2TlVGcVlPMDJ2cmpFbVBRMEtWTW5SUFVuRzZva3A5YzNablhTem91QVVGdUh1c1hSWFFCY3hvU00?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-22T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "4e0fc7e0c997",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Why Indian AI Startups Are Facing New Risks After Anthropic Withdraws Fable 5: Explained",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcWhqRUNxSjJ2d0RPNVlBOHZROVRwNk1Hb3RkOFVtdEVDNXhoZEZXd0U3aXRVUEtIQ1dMOVU0Z3c5MTVtZFpvT3FWLTQwVU43UDFhUUU0V0g4N2RXX1U4RHotXzBwSFkwbmZYSVpHM3pQMmJNSGlkWC1EY3lvanh5aVJjakZCUDdnbWFuZ3JDbThoNmFwYV9BN01yclNVNENvSzg1aEJLLVE3QlFHZk5SMnJYbHdkbVM3YVlWNjdqNFF5Z0ZucUx5X1JUTTVmTk90XzIxVEtB0gHbAUFVX3lxTE1yQndfdkcwQzV4TjF3RXRDT20tRWlkSG50QjRqWFJUakZobTBReHN3WnIybU5XU281b013LWMzNXlwVlhzQ2pNLVBzR3JSU1R0REN3eTdqRTNnOXVEVzVMa2p5SGs2dVc0cmpYTEVERWFQSWI4S2E2YnVEaDdtZU91TGpKcWgzV2VRSG9ndkxzWVhLeUhZc1R2aGFIbS15Y0JjLVp4X2pqV3VLOW81cmVJaWJzSGhDcHVLUUgxRmFTRlhaZTF1eWdVRnJab29hdjEtZThIb1hpVDl3UQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-16T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "7b4cad07e4d1",
+   "name": null,
+   "evidence": [
+    {
+     "title": "4 AI Prompts to Build a Profitable One-Person Business in 2026 (The Part Every AI Influencer Skips)",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRXEyQzEzeEZGV1VxSEFHWTZvcmhlLS0tUmlQczRmTlFTOGlhQ3BQVnNEUlpTdU4tdzFwSzEtVWtRTGpHYVBIS0QxR19HUUFNWWFEdk9pWURKYy1ZSzAzSU85NkZucy11WTlXbzBWVTVXa3hrcmpXWklIaVl4T2hFX3BKU3VlVU04YXNCMFYwalU5N2tleUFVaFNR?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-26T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "22779685a8e4",
+   "name": null,
+   "evidence": [
+    {
+     "title": "An AI agent startup just let its agent run its $100 million fundraise",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQlRlRUQ1aFE1eU5XeEY1SnBTeXpDQnpmSzJoQ0RsSU1zZ243YmRQeENqUFE4dEFKdUg5bzVwRjNZVkh3SGN1RE1sdjM5UEx6dHZvSVU5NGpZNklMYTM0LUU2MG9QeHd3cGJHSUdKRjNGRUdER0xFalVpZ0p3NV9tRjVFakh4YUNZSEtkajN6cXVGUWpMYzBOZWctRXVCc1R0Z0RFS3d3ekw3RkhGeVhnaF9iTnJ0cm43?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-10T06:50:55.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "f8584f9fac69",
+   "name": null,
+   "evidence": [
+    {
+     "title": "What Is Meta Business Agent? What WhatsApp's New AI Means for You as a Customer",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObGtBcW5zWWp3eklLdlEtbDRQbEM5b2tJUEFTN1g2a0llQXVyUnVydjltaW1sYzg4eW5jMWlxajA0Z3FRZDhxS3dOR3J5eHNKZVN4TVlmWGpzcGpTSkFkcld5R29jVjBBNHpsVC1kVDcteWxoaGZ5LVA2eGRKZ1VpLVpGcGJJX2Mxak5qdGNQbUI0TGU4ZjhOdjQwcDhvUHBsby1HSXNQeEY2dUY1N1Fkem1vbGJQVDUwSl9B?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-08T09:43:18.000Z",
+     "matchedKeywords": [
+      "\"AI-run business\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "5b5af21b343a",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Ukrainian start-up Cargofy raises US$11 million to build AI workers for logistics",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsWlcyVUkyVUltMVN5VVhfYWxmWHZVelY5RGp1dkJwaU5tMVNkcV95M1hTY1hhVnVGUnZHVldsMVI0eldiSFkwUmxreDFxaGJSNFN5UXVRZC0zcVFfaWtZRld4YlQ4cTR5MkVMcVI1NXdLOEJF0gF6QVVfeXFMTXRVYVhMMURQNS0xbl95U0tMckpWdjUxNmNFajFKRVBaRkg2a09DeWtsR19pUTBsQjRIQ05SdGtFS3ZKbDRDM2dBTHdsc2NYYlh5aGxuZk9UZ0dBYmxJV0dhVHNZeXA0dGgzVTR6SndyTVRVVnRmWkwtWEE?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-18T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "c8609ab6f60f",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI logistics startup Cargofy raises €9.6m with backing from Fin co-founder Des Traynor",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcHdPdVJnTFZ4X0xHQnlTa0NVdE9vNlBMb2E2XzBzMjFWSmxVS0VSWndnX3ktN3g1dTdGTEN3OUE0bEFQWHRlWHdwY1BfclBCV3JCMnBSTDQ2Z1R6NHg3dHhSSXhBZEE2UjRuRGdoMVl1d3Vnd005dGlrV2d1d3hUNUhQUVJFck5VMEJzWUFTTmJSN0RpRVJ5YzNPX25DZEk5aVFQTkdXTXpaU1ZNNTRRQUtNVFQ5X1FlcVNsdQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-18T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "dcc43b336e57",
+   "name": null,
+   "evidence": [
+    {
+     "title": "He sold two companies before turning 21 and raised $3 million at 19: What students can learn from AI foun",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPcVFxeW5fUTNZd2RSNFhiSEVsQThCTjZDMU9ZTTVWalBzQ25CUW50NDNyVmRtRUJGZVBfRkRRRnNiYXFwY3lvMWU2NkM2alZSUC1MTGNlcGptNDNGRlV3Q2ladGZlcW16dklXM29NOVZMNld2RFZiOWJmbXdIM0ZjWmN6Z1FDV1ExV0tfYWd3cDdEUmpMbzlPYV9jUHlIRjlGblo0eGoyb2xHNUt2VXFzWWVaZ3UyMXhNWnVzVlp5YWp1WnVuVi1CS1RpOVpkTWt0Tng0SzdKZ0xhZlFQTGtmaW0zektia3ZYTFJfaU4tRUVyYjZSSlI2Y016X0NUdFVOVlNyNnFPMUYxMW9kRlZXNnpTRFZhRTJmMjZPaFZVSFNHSDBjNlJxSjRLYWJsZ9IBswJBVV95cUxOUm9xb3FUd3VOTzdhTjJ0V2wtR3Z0d25paURGLUNLOU02NG5ucDRvUVpPTVl3djRqQ3RWVm56MWZSZjFNYzZZTmNGVXdrd3BjZW12RkRkNVdaMjRXYUVHTUEzZ3lvemhJOE5CNkhvZ2NYdnpLN1dXUzdHeTVzYU50aEJ4c3NvT1NrYk13cDB2UXBYZ19rZTl2cUdUMFRWMzRxMkNXMkotQTFSYTNWcHBybkJqdGY0dVo2dGdmYlUwYzJqdGNkem1yVXFkRlFoRzUzTWJuN1lRT2NfRkdhWmQtUUk5S296eWd5aXFha0JfLXpiWmcyREpRWXY4VE5nRDVwMm5naGlGcDhBTzRfQzEwNGxtUEpiT1dpb0RMSEhDVkdQUmVLWjVPanBtRFYwMm9EcnRR?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-27T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "01a9e511d64e",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Raised $3 million, secured prestigious US O-1 visa: How IIT dropout Dhravya Shah built an AI startup befor",
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQOXhuLVo1OFVIMHoyRWNGZjUzTEs3cDhzbGJlNlJLUk9xRDZXVGdsN3NiQjBVUHU0Qy1md2NMZVEzQlRjeENmTmRMOWE2RlpZeUVOTGViajg3Mm1BbE02NnVlNVY3cjlOMEdVWmpaYzV0aWVlcjV1YnF3VnRyaHBoUGZwMTd3LTR4MnltNEs3b0dlYU92THl6cHV5WGJreDZFWmtQZjRfNjYtcHJ5UlhlWkdBNkRYZ0gxaG5hTXdSa08tX3o2MF9JT2JkSkpON3gwQ19Yc016UEt2ZXpkVmw4RXRLSEVTcFVhaEVqT0lBZ1lWLWlFZ2U0Q0pvNmhRQS1NN3dUa3dXZ0E5UdIBjwJBVV95cUxNOEd0ZWVtTHlVdDRqa1d5d0hBQ2c2RTFOdnZjckFzNFdBa2FOeFppelFCNUgtOG1YcTV4RFUwdjdkY05WMWw4b3VoUmZ0STZmMUJYVERrMWlQT3Bwa0Zuc20taUFaMTdYWm5uSzRsdGtfSllpb01OWlJ6MmZuMVBiNHpqVGZaSlZKSlFva3NlYXZvUlhlSGQ3X0RyaUQ5d0ZLb1lTYjQ3UFROQkZ6OVB4X3A5dEJGQTl6S19mSWFubW9faTZURkRCWEF1XzBzVnhRLVFvc2lTZEZ3cXFPUklDWDdyVzJfUVZZZ3RtWWtESktHMVpXa2NEZXZWZTJFek5CZ3ZKVGdnekwzM1lFNjVz?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-27T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "7b1092082f05",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Webflow’s Bryant Chou Bets AI Favors the 40-Year-Old Founder: Ploy Raises $27 Million",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeHZuNnRXMnRvVU9hLWFhazZfcDRCZXJfcjZwRmlReWdnUmt6UXNabjdqQ2dQdU5fNjBhTk4wV3I4YldyQzh0b2M3RVhCRXMzVkQwREhXdWRKUWVvWnFpOHBQRktHaTNCeDNwNldIM2VRa2VjcnRlT1FseDl1cEtoSWoxbGZveFR5YnhBRThNcVFHRmpYYnhKcmdsbUk5a0RQSHRWY1NZY0FkT1Y3czZsal81d0hyZmZEZDJXSGh1elNaRVdyRzIyZl9aUV84dw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-01T01:53:07.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:22:27.530Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "ecfff31f5e8b",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Ethiopian Founder Sells AI Authentication Startup to Vercel a Year After $5m Round",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNGd0c0llYTFTa3doQ0tWVEZyMEhTSEtyUWpqY1RsSk5VS2UzWVVPT2JTVkc4REpqM3lyNVpMRm5LbnlHS0FmLWFwZnhKaHVObl9oWHVBbXRVUHp1dVJUWFJ5X3BqOXlKNnkzOHVNUDlhQzhyMlJ5VVNRb3ZlRnhQaERJaXhxbURxYzBKR2U5SUVWNHZuVGR6RnhQb2NqQUpRVEp4SGtHN2tMWllJY2J4eHN3cm9zMGZnSTA1X0xjRQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-09T05:30:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "93837eaf20b3",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Taco Bell Is Replacing Drive-Thru Workers With AI. Why Are Employees Happy About It?",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRDRQdVd5dTJJNklfaFlfUl91VUZNenY5X0c0N0plbi1qT3NlazU5N3hDd0JYemVXSFlURHhDR0lnSkJLYm9sdlZyclZhVnRVZk80b1IzYmVpbFlCNTNhYUdJbVZrMUVRRl85M1MxYzhtREhuMFc3d0pnWk03dkhaYmdvRHVBUFkzY2JmNUFHNkJwcmhhZXU2QTJlMG82Zw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-09T23:52:01.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "ee310f7d421b",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Why Every Business Needs an AI Phone Agent in 2026",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbUVoSUdjN3k4NElyNVJHLVh5OGttNzJZS3lOMUxaYlNSVW90TVdWdUY0amtVbXp5dl9VOGpGRDJWQUNCZmtnTl9fYWRZdUs5NkEwTThFQUNuMElBT2hibDU2UWtndV9iQmlLNVJ5cWpsSi0wYnUxcVA1cHBOMGYzSkhKQzVnTFhWTGc?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-09T11:41:38.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "df9ffcf40ede",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Deepgram Review 2026: Pricing, AI, Login, Career, Company & FAQs",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbUhhLUpPUTRQRWJyTlFtMjVKRHFzd3d4VGs1dVRkdVRMa1FmOGRLNHVhd3VmbFFZcUNaSWJsQ2xSMGpXX2hWQ1QtVld0OXgzUU04Zm1vc05sQXFxWGExdXYwM1pQRXY4VWtfcU9ubzc3Xy00OHg5TzhtMXdRbG1nM2ZPRDJELTFlWUQxUTRvcGwxYTgxd2NidS1aWQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-06-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "689646f90b3b",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The AI-Run Business Index: measuring execution, not AI adoption",
+     "url": "https://www.leapd.ai/resources/state-of-ai-run-businesses-2026",
+     "source": "hn",
+     "publishedAt": "2026-06-26T21:38:51Z",
+     "matchedKeywords": [
+      "\"AI-run business\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "368132434936",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Show HN: Autonomous Home Services Businesses",
+     "url": "https://rainslice.ai",
+     "source": "hn",
+     "publishedAt": "2026-07-03T00:03:21Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  }
+ ]
+}
