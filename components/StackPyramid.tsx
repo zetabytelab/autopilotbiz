@@ -32,9 +32,9 @@ export default function StackPyramid() {
               {tools.map((t) => (
                 <a
                   key={t.name}
-                  href={t.url}
+                  href={t.referralUrl ?? t.url}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer sponsored"
                   title={t.role}
                   className={`group flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm transition ${
                     t.referral

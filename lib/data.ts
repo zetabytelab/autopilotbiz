@@ -800,6 +800,10 @@ export type StackTool = {
   url: string;
   role: string;
   referral: string | null;
+  // Your personal affiliate/referral link — when set, the OFFER chip links here
+  // instead of the plain vendor URL. Join links per program are in the TODO
+  // comments on each tool below.
+  referralUrl?: string;
   usedBy: string[];
   category: StackCategory;
 };
@@ -845,6 +849,7 @@ export const stackTools: StackTool[] = [
     name: "Stripe",
     url: "https://stripe.com",
     role: "Payments & billing for agent-run revenue (Stripe Connect for platform rev-share)",
+    // TODO(referral): https://stripe.com/partners (partner program, not a consumer affiliate)
     referral: "Partner ecosystem program",
     usedBy: ["Polsia", "Nanocorp", "Cofounder", "Feltsense", "Atoms"],
     category: "payments",
@@ -861,6 +866,7 @@ export const stackTools: StackTool[] = [
     name: "Render",
     url: "https://render.com",
     role: "App & worker hosting",
+    // TODO(referral): join at https://render.com/docs/referral-program → set referralUrl
     referral: "Referral credits program",
     usedBy: ["Polsia"],
     category: "code-deploy",
@@ -869,6 +875,7 @@ export const stackTools: StackTool[] = [
     name: "Neon",
     url: "https://neon.com",
     role: "Serverless Postgres — a database per agent/project",
+    // TODO(referral): apply at https://neon.com/partners → set referralUrl
     referral: "Partner program",
     usedBy: ["Polsia"],
     category: "data",
@@ -925,6 +932,7 @@ export const stackTools: StackTool[] = [
     name: "RentAHuman",
     url: "https://rentahuman.ai",
     role: "Marketplace where agents hire humans for physical-world tasks (MCP + API, escrow bounties)",
+    // TODO(referral): finder's-fee signup at https://rentahuman.ai (referrals section) → set referralUrl
     referral: "Finder's fee program",
     usedBy: ["Agents via MCP (e.g. Claude)"],
     category: "agents",
@@ -933,6 +941,7 @@ export const stackTools: StackTool[] = [
     name: "ElevenLabs",
     url: "https://elevenlabs.io",
     role: "Conversational voice agents — the voice behind 'Rachel' and 'Brigitte'",
+    // TODO(referral): join at https://elevenlabs.io/affiliates → set referralUrl
     referral: "Affiliate program (revenue share)",
     usedBy: ["Guinndex", "Le Baguette Index"],
     category: "agents",
@@ -965,6 +974,7 @@ export const stackTools: StackTool[] = [
     name: "AWS",
     url: "https://aws.amazon.com",
     role: "Underlying cloud infrastructure",
+    // TODO(referral): AWS Activate provider path via https://aws.amazon.com/activate/ (partner org required)
     referral: "AWS Activate credits for startups",
     usedBy: ["Polsia"],
     category: "code-deploy",

@@ -77,16 +77,16 @@ export default function NewsPage() {
         <h1 className="text-3xl font-black tracking-tight text-zinc-50 sm:text-4xl">
           Know first. Every signal from the autopilot economy.
         </h1>
-        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-zinc-400">
-          Funding, launches, interviews, videos and social chatter for every tracked company — aggregated from
-          Google News, Hacker News, Techmeme and YouTube, deduplicated, and heat-ranked. LinkedIn has no open
-          feed; its chatter shows up here via the sources that do.
+        <p className="mt-3 max-w-2xl text-base leading-relaxed text-zinc-400">
+          <span className="font-semibold text-zinc-100">TL;DR: agents read the internet so you don't.</span>{" "}
+          Every funding round, launch and interview from the autopilot economy — deduped, heat-ranked, fresh
+          daily.
         </p>
         <a
-          href="mailto:antonio.serrano@alteryx.com?subject=Subscribe%20me%20to%20the%20Autopilot%20News%20Pulse"
+          href="mailto:antonio.serrano@alteryx.com?subject=Put%20my%20inbox%20on%20autopilot"
           className="mt-5 inline-block rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300"
         >
-          Get the pulse in your inbox →
+          🛩 Put your inbox on autopilot →
         </a>
       </header>
 

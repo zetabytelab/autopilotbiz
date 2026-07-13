@@ -27,17 +27,16 @@ export default function Home() {
           <h1 className="max-w-3xl text-4xl font-black leading-tight tracking-tight text-zinc-50 sm:text-6xl">
             Business on <span className="text-lime-400">Autopilot</span>
           </h1>
-          <p className="max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-            A tracker for the new class of companies where AI agents run the operations and humans set the
-            direction. Who they are, what they run on, how they make money — and how you can build your own.
+          <p className="max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
+            <span className="font-semibold text-zinc-100">One human. $10M ARR. Zero employees.</span> The org
+            chart is now a prompt — we track everyone building this way.
           </p>
-          <p className="font-mono text-sm text-zinc-500">“{hackathon.motto}”</p>
           <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-start">
             <a
               href="#leaderboard"
               className="rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300"
             >
-              View the leaderboard
+              Leaderboard
             </a>
             <a
               href="#build"
@@ -49,7 +48,7 @@ export default function Home() {
               href="/news"
               className="rounded-full border border-lime-400/40 bg-lime-400/10 px-5 py-2.5 text-sm font-semibold text-lime-400 hover:bg-lime-400/20"
             >
-              📡 News pulse — follow the story
+              📡 News — follow the story
             </Link>
           </div>
         </div>
