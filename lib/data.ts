@@ -64,7 +64,7 @@ export const companies: Company[] = [
       valuation: "$250M",
       investors: [
         "Sound Ventures",
-        "True Ventures",
+        "True Ventures (pre-seed, hosts Polsia at its SF office)",
         "Offline Ventures",
         "Adjacent",
         "Tekton Ventures",
