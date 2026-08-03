@@ -41,10 +41,11 @@ export const companies: Company[] = [
     tagline: "AI that runs your company while you sleep.",
     categoryClaim: "An orchestration of agents that runs the work a company actually needs done.",
     description:
-      "An AI operating system that builds and operates an online business end-to-end: writes and ships code, does research, creates content, sets up company infrastructure (hosting, database, repo, payments, ad accounts), and runs cold outreach, paid ads, and support. It famously handled most of its own $30M fundraise — data room, investor briefings, diligence — with solo founder Ben Cera joining only the final calls.",
+      "An AI operating system that builds and operates an online business end-to-end: writes and ships code, does research, creates content, sets up company infrastructure (hosting, database, repo, payments, ad accounts), and runs cold outreach, paid ads, and support. It famously handled most of its own $30M fundraise — data room, investor briefings, diligence — with solo founder Ben Cera joining only the final calls. Also the category's unit-economics case study: a $1.2M/month Anthropic bill cut to ~$100K by routing routine workloads to open-source models on rented GPUs.",
     techStack: [
       "Anthropic",
       "OpenAI",
+      "Sciforium",
       "Sapiom",
       "Blaxel",
       "Anchor Browser",
@@ -75,7 +76,7 @@ export const companies: Company[] = [
       {
         name: "Ben Cera",
         background:
-          "Solo founder, zero employees. Previously employee #2 at CloudKitchens under Travis Kalanick. Says AI agents run ~80% of founder operations.",
+          "Solo founder, zero employees — public persona of Ben Broca (French, ex-CloudKitchens under Travis Kalanick). Says AI agents run ~80% of founder operations; documents the build in a self-filmed YouTube series.",
       },
     ],
     metrics: {
@@ -94,6 +95,20 @@ export const companies: Company[] = [
     },
     pricing: "$49/mo (hosting, DB, repo, payments, ad accounts, one nightly autonomous task + credits) plus 20% revenue share via Stripe Connect.",
     news: [
+      {
+        date: "2026-07",
+        headline:
+          "Self-documentary ('I Built a $250M AI Company. The Bill Is $1.2M a Month') reveals the unit-economics arc: monthly Anthropic bill climbed $500K → $1.2M, then dropped to ~$100K in June after moving routine workloads to open-source models on rented GPUs (Sciforium inference; Sapiom handling agent spend). Next move: a free tier. Figures founder-reported; independent analysts dispute the margin math.",
+      },
+      {
+        date: "2026-07",
+        headline: "WSJ reports 10,000 paying customers and ~$10M projected revenue.",
+      },
+      {
+        date: "2026-03",
+        headline:
+          "500 → 5,000 paying users in one month, driven by the 'Polsia raises its own round' stunt — the live dashboard at polsia.com/live showed the AI working on every customer company (user counts founder-reported).",
+      },
       { date: "2026-05", headline: "Raised $30M at a $250M valuation with zero employees — the AI reportedly ran much of the fundraise." },
       { date: "2026-05", headline: "Approaching $10M annual run rate with one human." },
       { date: "2026-01", headline: "Reported running ~6,000 customer companies at $6M+ ARR (Henry Shi profile)." },
@@ -854,6 +869,22 @@ export const stackTools: StackTool[] = [
     referralUrl: "https://atoms.dev/?utm_source=affiliate&via=autopilot-biz",
     usedBy: ["One-person companies"],
     category: "intelligence",
+  },
+  {
+    name: "Sciforium",
+    url: "https://sciforium.com",
+    role: "Serverless open-source model inference on AMD GPUs — how Polsia cut its $1.2M/mo Anthropic bill to ~$100K",
+    referral: null,
+    usedBy: ["Polsia"],
+    category: "intelligence",
+  },
+  {
+    name: "Sapiom",
+    url: "https://sapiom.ai",
+    role: "Spend infrastructure for autonomous agents — identity, wallets, policy & settlement so agents can buy APIs and compute",
+    referral: null,
+    usedBy: ["Polsia"],
+    category: "payments",
   },
   {
     name: "Stripe",
