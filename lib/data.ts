@@ -800,6 +800,58 @@ export const companies: Company[] = [
     verified: true,
     cohort: "expansion",
   },
+  {
+    name: "Egbe",
+    slug: "egbe",
+    url: "https://egbe.ai",
+    tagline: "The zero-employee company. You found it. AI runs it.",
+    categoryClaim: "Autonomous companies, built by AI — an AI co-founder for solo founders.",
+    description:
+      "Bring the idea; Egbe's AI co-founder takes it from research to a shipped product — Stripe checkout wired in, hosting/domains/email provisioned, then ads, cold email, and content on autopilot to find your first users, with the founder steering the big calls. Founded 2026 in Cambridge, MA by Nikolay Vyahhi (Stepik, Hyperskill), who told the MIT AI Summit in April he'd already spun up 100 AI-run e-commerce startups on a few Mac minis. In August it said GLM-5.2 from Z.ai now powers the majority of the co-founder's building workload, with requests and processed tokens up nearly 8× in a month (self-reported, one month post-launch) — a live test of frontier open models powering AI co-founders. Traction and customer claims are self-reported; no funding disclosed.",
+    techStack: ["GLM-5.2 (Z.ai)", "Stripe", "Provisioned hosting/domains/email", "Self-hosted analytics"],
+    funding: {
+      totalRaised: null,
+      lastRound: null,
+      date: null,
+      valuation: null,
+      investors: [],
+    },
+    founders: [
+      {
+        name: "Nikolay Vyahhi",
+        background:
+          "Founder/CEO of edtech platform Stepik and Hyperskill; MIT lecturer involved in MIT Media Lab's Project NANDA ('Internet of AI Agents'); bioinformatics researcher (co-created QUAST).",
+      },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 5,
+      sources: {
+        humans: { name: "LinkedIn · self-reported", url: "https://www.linkedin.com/company/egbe-ai/" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: "$99/mo + pay-as-you-go usage wallet; $50 free credit, no card required.",
+    news: [
+      {
+        date: "2026-08",
+        headline:
+          "Says GLM-5.2 (Z.ai) now powers the majority of its AI co-founder's building workload — production requests and processed tokens up nearly 8× in a single month since the switch (self-reported, from a one-month-old base) — and joins the Z.ai Startup Program.",
+      },
+      {
+        date: "2026-07",
+        headline: "Launches publicly: 'the first companies are already running on Egbe' (numbers not disclosed).",
+      },
+      {
+        date: "2026-04",
+        headline:
+          "Pre-launch: founder tells the MIT AI Summit he has created 100 AI-run e-commerce startups 'on a few Mac minis and some cloud servers' (Boston Globe; founder-reported).",
+      },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
 ];
 
 export type StackCategory =
@@ -876,6 +928,14 @@ export const stackTools: StackTool[] = [
     role: "Serverless open-source model inference on AMD GPUs — how Polsia cut its $1.2M/mo Anthropic bill to ~$100K",
     referral: null,
     usedBy: ["Polsia"],
+    category: "intelligence",
+  },
+  {
+    name: "Z.ai (GLM-5.2)",
+    url: "https://z.ai",
+    role: "Open-weights frontier models (GLM-5.2, 1M-token context) — powers the majority of Egbe's AI co-founder workload",
+    referral: null,
+    usedBy: ["Egbe"],
     category: "intelligence",
   },
   {
