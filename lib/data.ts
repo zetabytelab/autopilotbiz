@@ -852,6 +852,93 @@ export const companies: Company[] = [
     verified: true,
     cohort: "expansion",
   },
+  {
+    name: "Medvi",
+    slug: "medvi",
+    url: "https://medvi.io",
+    tagline: "The near-one-person $1B company — payroll of two, $1.8B revenue track.",
+    categoryClaim: "Not an AI company — an old-fashioned middleman business turbocharged by AI.",
+    description:
+      "Telehealth seller of GLP-1 weight-loss drugs, built in two months for $20,000 with a dozen-plus AI tools by Matthew Gallagher, working from home in LA. The category's verification outlier: the NYT audited its financials directly — $401M sales and 16.2% net profit in 2025 (Hims & Hers: 5.5% on 2,442 employees), tracking $1.8B for 2026. Bootstrapped, profitable, no valuation. The trick isn't just AI — it's 'telehealth-in-a-box' rails (CareValidate, OpenLoop Health) absorbing doctors, pharmacies, and compliance. Equally instructive as a cautionary tale: an FDA warning letter, an anti-spam class action over its affiliate marketers, and post-NYT reporting on fake AI doctor personas in its Meta ads. Sam Altman said the company won him a bet on when a near-one-person $1B business would appear.",
+    techStack: [
+      "ChatGPT",
+      "Claude",
+      "Grok",
+      "Midjourney",
+      "Runway",
+      "ElevenLabs",
+      "Custom AI agents",
+      "CareValidate",
+      "OpenLoop Health",
+    ],
+    funding: {
+      totalRaised: "$0 — bootstrapped and profitable",
+      lastRound: null,
+      date: null,
+      valuation: "None official (never raised)",
+      investors: [],
+    },
+    founders: [
+      {
+        name: "Matthew Gallagher",
+        background:
+          "41; self-taught coder (first project: a Weird Al fan page), no degree, ex-actor. Previous startup Watch Gang hit 60 employees and never turned a profit — the anti-headcount lesson behind Medvi. Advised by Kobie Fuller (Upfront Ventures) to skip VC entirely.",
+      },
+      {
+        name: "Elliot Gallagher",
+        background: "36; Matthew's brother and the only employee (hired April 2025) — filters all communications.",
+      },
+    ],
+    metrics: {
+      arr: "$401M 2025 sales, 16.2% net (NYT-verified); tracking $1.8B in 2026",
+      arrUsd: 401_000_000,
+      humans: 2,
+      sources: {
+        humans: {
+          name: "NYT (financials reviewed)",
+          url: "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html",
+        },
+        arr: {
+          name: "NYT (financials reviewed)",
+          url: "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html",
+        },
+      },
+    },
+    referralProgram: {
+      exists: true,
+      notes:
+        "Runs an affiliate-marketer network — the same channel at the center of the March 2026 anti-spam class action.",
+    },
+    pricing: "From $179 for the first month of GLP-1 medication.",
+    news: [
+      {
+        date: "2026-04",
+        headline:
+          "NYT front page: 'A $1.8 Billion Business Built With A.I. and a Payroll of Just Two' — financials verified by the Times; Sam Altman says it won him a bet. Backlash follows: Techdirt and Futurism dispute the framing, and Business Insider finds thousands of Meta ads fronted by fake AI doctor personas.",
+      },
+      {
+        date: "2026-03",
+        headline:
+          "Class action filed in the Central District of California alleging its affiliate marketers sent spam with spoofed domains and falsified headers ($1,000 sought per email).",
+      },
+      {
+        date: "2026-02",
+        headline:
+          "FDA warning letter (Feb 20) for misbranding compounded semaglutide/tirzepatide — marketing implied FDA approval. Same month: men's health line launches and claims 50,000 customers in month one.",
+      },
+      {
+        date: "2025-12",
+        headline:
+          "First full year closes at $401M sales, 250,000 customers, 16.2% net profit — with two employees, seven contract account managers, and two contract engineers.",
+      },
+      {
+        date: "2024-09",
+        headline: "Launches after a two-month, $20,000 build; 300 customers in month one, 1,000 more in month two.",
+      },
+    ],
+    verified: true,
+    cohort: "expansion",
+  },
 ];
 
 export type StackCategory =
@@ -859,6 +946,7 @@ export type StackCategory =
   | "agents"
   | "code-deploy"
   | "data"
+  | "rails"
   | "payments"
   | "distribution";
 
@@ -881,6 +969,7 @@ export const stackLayers: { key: StackCategory; label: string; blurb: string }[]
   { key: "agents", label: "Agent infrastructure", blurb: "Inboxes, browsers, voices & compute for agents" },
   { key: "code-deploy", label: "Code & deployment", blurb: "Where agent-written code lives and ships" },
   { key: "data", label: "Databases & backend", blurb: "State for a thousand agent-built apps" },
+  { key: "rails", label: "Regulated-industry rails", blurb: "Doctors, pharmacies & compliance as an API — how one human sells in regulated markets" },
   { key: "payments", label: "Payments & money rails", blurb: "How autopilot businesses actually get paid" },
   { key: "distribution", label: "Distribution & comms", blurb: "Ads, email, phone — reaching the real world" },
 ];
@@ -937,6 +1026,22 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Egbe"],
     category: "intelligence",
+  },
+  {
+    name: "CareValidate",
+    url: "https://carevalidate.com",
+    role: "'Telehealth-in-a-box' — the platform layer that let Medvi launch a prescription-drug business in two months",
+    referral: null,
+    usedBy: ["Medvi"],
+    category: "rails",
+  },
+  {
+    name: "OpenLoop Health",
+    url: "https://openloophealth.com",
+    role: "Doctor networks, pharmacies, fulfillment & compliance as an API (a Nov 2025 class action disputes its compounded pills)",
+    referral: null,
+    usedBy: ["Medvi"],
+    category: "rails",
   },
   {
     name: "Sapiom",
@@ -1218,6 +1323,18 @@ export const investorTheses: InvestorThesis[] = [
       url: "https://www.trueventures.com/blog/polsia-one-person-company-no-longer-a-metaphor",
     },
     date: "2026",
+  },
+  {
+    firm: "Upfront Ventures",
+    partner: "Kobie Fuller",
+    quote:
+      "Those folks that have those skills, it's kind of like their superpower… This is an extreme example, but I don't think it's going to be the last by any stretch.",
+    portfolio: "Medvi (advisor — told Gallagher to skip VC: 'You should just keep building')",
+    source: {
+      name: "NYT — Erin Griffith",
+      url: "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html",
+    },
+    date: "2026-04",
   },
   {
     firm: "Khosla Ventures",
