@@ -1,6 +1,19 @@
 // A citable reference for a metric (Crunchbase, LinkedIn, press, etc.).
 export type Source = { name: string; url: string };
 
+// Placement metadata for the GitHub Autopilot Index (github.com/zetabytelab/autopilot).
+// The repo README is GENERATED from this file via `npm run gen:index` — edit here, never there.
+export type AutopilotMeta = {
+  // L2 function autopilot · L3 operational · L4 goal-level · L5 full autonomy
+  level?: "L2" | "L3" | "L4" | "L5";
+  // A third-party audited · B public transaction/filing · C credible press · D founder claims only
+  evidence?: "A" | "B" | "C" | "D";
+  section: "index" | "watchlist" | "caution" | "enabler";
+  story: string;
+  // index → flags column · watchlist → why we're watching · caution → what happened · enabler → signal
+  flags?: string;
+};
+
 export type Company = {
   name: string;
   slug: string;
@@ -31,6 +44,7 @@ export type Company = {
   // "hackathon" = the original Cursor Hands-Off Hackathon cohort (default);
   // "expansion" = the wider autopilot/lean-AI universe.
   cohort?: "hackathon" | "expansion";
+  autopilot?: AutopilotMeta;
 };
 
 export const companies: Company[] = [
@@ -114,6 +128,14 @@ export const companies: Company[] = [
       { date: "2026-01", headline: "Reported running ~6,000 customer companies at $6M+ ARR (Henry Shi profile)." },
     ],
     verified: true,
+    autopilot: {
+      level: "L3",
+      evidence: "C",
+      section: "index",
+      story:
+        "AI runs the company while the founder sleeps; raised $30M at $250M with zero employees. Cut its $1.2M/mo Anthropic bill to ~$100K via open-source inference.",
+      flags: "Figures founder-reported; margin math disputed",
+    },
   },
   {
     name: "Nanocorp",
@@ -158,6 +180,13 @@ export const companies: Company[] = [
       { date: "2026-03", headline: "Independent review reports ~190 companies founded per day — but disputes the revenue claims, finding just ~$264 cumulative revenue across all platform-created companies." },
     ],
     verified: true,
+    autopilot: {
+      level: "L3",
+      evidence: "D",
+      section: "index",
+      story: "One prompt → one company, zero code. YC-backed solo founder.",
+      flags: "Revenue claim disputed by independent review",
+    },
   },
   {
     name: "Cofounder",
@@ -198,6 +227,13 @@ export const companies: Company[] = [
       { date: "2025-09", headline: "Launched; thousands of users in the first week." },
     ],
     verified: true,
+    autopilot: {
+      level: "L3",
+      evidence: "D",
+      section: "watchlist",
+      story: "\"Run an entire company with AI\"",
+      flags: "USV-backed; thesis-defining but pre-metrics",
+    },
   },
   {
     name: "ChainOpera AI",
@@ -341,6 +377,13 @@ export const companies: Company[] = [
       { date: "2025-07", headline: "Early access opens after 'Hello, Self-Writing Internet' event; 15,000+ alpha users." },
     ],
     verified: true,
+    autopilot: {
+      level: "L3",
+      evidence: "D",
+      section: "watchlist",
+      story: "\"The self-writing internet\"",
+      flags: "Pre-metrics",
+    },
   },
   {
     name: "Atoms",
@@ -382,6 +425,13 @@ export const companies: Company[] = [
       { date: "2026-01", headline: "DeepWisdom rebrands MGX as Atoms; announces $31M raised (Ant Group, Cathay Innovation)." },
     ],
     verified: true,
+    autopilot: {
+      level: "L3",
+      evidence: "D",
+      section: "watchlist",
+      story: "AI business team that builds, deploys and markets your product",
+      flags: "Products shipping; no economics disclosed",
+    },
   },
   {
     name: "Semio",
@@ -450,6 +500,13 @@ export const companies: Company[] = [
     ],
     verified: true,
     cohort: "expansion",
+    autopilot: {
+      level: "L3",
+      evidence: "C",
+      section: "index",
+      story:
+        "AI superconnector that networks on your behalf — raised its round without investors seeing a deck or speaking to a human.",
+    },
   },
   {
     name: "Base44",
@@ -492,6 +549,13 @@ export const companies: Company[] = [
     ],
     verified: true,
     cohort: "expansion",
+    autopilot: {
+      level: "L2",
+      evidence: "B",
+      section: "index",
+      story:
+        "Solo-owned vibe-coding platform, sold to Wix for $80M cash at 6 months old. The category's first clean exit.",
+    },
   },
   {
     name: "Midjourney",
@@ -719,6 +783,11 @@ export const companies: Company[] = [
     ],
     verified: true,
     cohort: "expansion",
+    autopilot: {
+      section: "enabler",
+      story: "AI that pays humans — agent-initiated payouts",
+      flags: "~$770K est. revenue",
+    },
   },
   {
     name: "RentAHuman",
@@ -761,6 +830,11 @@ export const companies: Company[] = [
     ],
     verified: true,
     cohort: "expansion",
+    autopilot: {
+      section: "enabler",
+      story: "AI agents hire humans for physical-world tasks (MCP + escrow bounties)",
+      flags: "YC-backed; 500K+ registered humans claimed",
+    },
   },
   {
     name: "11x",
@@ -799,6 +873,12 @@ export const companies: Company[] = [
     ],
     verified: true,
     cohort: "expansion",
+    autopilot: {
+      section: "caution",
+      story: "AI SDRs replacing headcount; $10M ARR claimed",
+      flags:
+        "TechCrunch investigation: claimed customers it didn't have; ARR nearer $3M; CEO stepped down. Still operating.",
+    },
   },
   {
     name: "Egbe",
@@ -851,6 +931,15 @@ export const companies: Company[] = [
     ],
     verified: true,
     cohort: "expansion",
+    autopilot: {
+      level: "L4",
+      evidence: "D",
+      section: "watchlist",
+      story:
+        "\"The zero-employee company. You found it. AI runs it.\" — AI co-founder ships the product, wires Stripe, runs ads",
+      flags:
+        "Founder Nikolay Vyahhi (Stepik) pre-tested with 100 AI-run e-commerce startups on Mac minis; claims 8× token growth in a month on GLM-5.2 (self-reported).",
+    },
   },
   {
     name: "Medvi",
@@ -938,6 +1027,14 @@ export const companies: Company[] = [
     ],
     verified: true,
     cohort: "expansion",
+    autopilot: {
+      level: "L2",
+      evidence: "A",
+      section: "index",
+      story:
+        "GLP-1 telehealth built in 2 months for $20K. 16.2% net profit with a payroll of two brothers — the NYT audited the books. Runs on \"telehealth-in-a-box\" rails.",
+      flags: "FDA warning letter (Feb 2026); anti-spam class action (Mar 2026); AI-fake-doctor ads exposed",
+    },
   },
 ];
 
@@ -1209,6 +1306,8 @@ export type CaseStudy = {
   stack: string[];
   links: { label: string; url: string }[];
   verified: boolean;
+  // Condensed row for the generated GitHub Autopilot Index README.
+  index?: { agent: string; legwork: string; cost: string };
 };
 
 // Small-scale but telling experiments: agents doing real-world legwork
@@ -1228,6 +1327,12 @@ export const caseStudies: CaseStudy[] = [
       { label: "tech.eu", url: "https://tech.eu/2026/03/20/meet-rachel-the-ai-agent-that-phoned-3000-pubs-to-price-a-pint/" },
     ],
     verified: true,
+    index: {
+      agent: "\"Rachel\" (ElevenLabs voice + Twilio)",
+      legwork:
+        "Phoned **3,000+ Irish pubs** for the price of a pint. 2,052 answered; national average €5.95; at least one pub cut its price after. Now a living CPI for the pint.",
+      cost: "~€200",
+    },
   },
   {
     title: "Le Baguette Index",
@@ -1242,6 +1347,29 @@ export const caseStudies: CaseStudy[] = [
       { label: "Write-up (Substack)", url: "https://nicoguyon.substack.com/p/le-baguette-index-5-000-boulangeries" },
     ],
     verified: true,
+    index: {
+      agent: "\"Brigitte\"",
+      legwork:
+        "**11,190 calls** to 5,173 French bakeries for the price of a baguette tradition (avg €1.25). Most bakers never noticed she was a machine.",
+      cost: "~€30",
+    },
+  },
+];
+
+// Production workloads voting with their wallets — the strongest infra demand signal there is.
+export type StackSwitch = { date: string; company: string; moved: string; impact: string };
+export const switchLog: StackSwitch[] = [
+  {
+    date: "2026-06",
+    company: "Polsia",
+    moved: "Routine workloads: Anthropic API → open-source models on Sciforium",
+    impact: "**$1.2M/mo → ~$100K/mo** compute bill (founder-reported)",
+  },
+  {
+    date: "2026-07",
+    company: "Egbe",
+    moved: "Majority of build workload → GLM-5.2 (Z.ai)",
+    impact: "Requests & tokens up **~8× in one month** (self-reported, one month post-launch)",
   },
 ];
 

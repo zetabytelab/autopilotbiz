@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pulse": "node scripts/update-pulse.mjs"
+    "pulse": "node scripts/update-pulse.mjs",
+    "gen:index": "node --experimental-strip-types scripts/generate-index-readme.ts"
   },
   "dependencies": {
     "botid": "^1.5.11",
