@@ -3,6 +3,7 @@ import Link from "next/link";
 import { companies, caseStudies } from "@/lib/data";
 import type { Candidate, PulseItem, SourceRun } from "@/lib/pulse";
 import PulseFeed from "@/components/pulse/PulseFeed";
+import SubscribeForm from "@/components/SubscribeForm";
 import pulse from "@/data/pulse.json";
 import candidatesData from "@/data/candidates.json";
 
@@ -82,12 +83,7 @@ export default function NewsPage() {
           Every funding round, launch and interview from the autopilot economy — deduped, heat-ranked, fresh
           daily.
         </p>
-        <a
-          href="mailto:antonio.serrano@alteryx.com?subject=Put%20my%20inbox%20on%20autopilot"
-          className="mt-5 inline-block rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300"
-        >
-          🛩 Put your inbox on autopilot →
-        </a>
+        <SubscribeForm />
       </header>
 
       {/* Live signals */}
