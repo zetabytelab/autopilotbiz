@@ -199,6 +199,50 @@ const YOUTUBE_CHANNELS = {
   "UCg56AMyflQDXRgGL2xLZ73w": "artisan", // @GetArtisanAI
 };
 
+// Official founder/company X handles (handle → slug), hand-verified.
+// Add more as they're confirmed — wrong handles poison attribution.
+const X_HANDLES = {
+  Bencera: "polsia", // Ben Cera, founder (verified via raise announcement)
+  Egbe_ai: "egbe", // official company account (verified on egbe.ai)
+};
+
+// Pull latest tweets for all watched handles in one actor run
+// (apidojo/tweet-scraper, ~$0.40/1k tweets). Sync endpoint returns the dataset.
+async function apifyTweets(token) {
+  const res = await fetch(
+    `https://api.apify.com/v2/acts/apidojo~tweet-scraper/run-sync-get-dataset-items?token=${token}&timeout=240`,
+    {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ twitterHandles: Object.keys(X_HANDLES), maxItems: 60, sort: "Latest" }),
+    },
+  );
+  if (!res.ok) throw new Error(`apify tweet-scraper: HTTP ${res.status}`);
+  const rows = await res.json();
+  const items = [];
+  for (const r of Array.isArray(rows) ? rows : []) {
+    const handle = r.author?.userName ?? r.author?.username;
+    const slug = X_HANDLES[handle];
+    const text = (r.text ?? r.fullText ?? "").replace(/\s+/g, " ").trim();
+    const url = r.url ?? r.twitterUrl;
+    let publishedAt = null;
+    try {
+      publishedAt = new Date(r.createdAt).toISOString();
+    } catch {}
+    if (!slug || !text || !url || !publishedAt) continue;
+    if (r.isRetweet || text.startsWith("RT @")) continue;
+    items.push({
+      title: `@${handle}: ${text.length > 160 ? text.slice(0, 157) + "…" : text}`,
+      url,
+      publishedAt,
+      sourceId: "x",
+      companySlug: slug,
+      points: r.likeCount ?? undefined,
+    });
+  }
+  return items;
+}
+
 async function youtubeChannel(channelId, slug) {
   const xml = await fetchText(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
   return xmlBlocks(xml, "entry")
@@ -347,6 +391,12 @@ async function main() {
     await runSource(`youtube:${slug}`, () => youtubeChannel(channelId, slug));
   }
 
+  // X/Twitter via Apify (paid credits) — only runs when APIFY_TOKEN is set
+  // (GitHub Actions secret; local runs without it skip silently).
+  if (process.env.APIFY_TOKEN) {
+    await runSource("x:apify", () => apifyTweets(process.env.APIFY_TOKEN));
+  }
+
   // Discovery queries (candidates + occasionally company news)
   console.log("Running discovery taxonomy…");
   const discoveryItems = [];
@@ -433,7 +483,7 @@ async function main() {
       const trustedBodyMatch = i.sourceId === "gnews" && !DISAMBIG[i.companySlug];
       // Hand-curated official channels/feeds are trusted outright — a founder's
       // video titled "pov: raising $30M using AI" never names the company.
-      const trustedChannel = i.sourceId === "youtube" || i.sourceId === "investor";
+      const trustedChannel = i.sourceId === "youtube" || i.sourceId === "investor" || i.sourceId === "x";
       if (!mentions && !ownDomain && !trustedBodyMatch && !trustedChannel) return false;
       // Ambiguous company names must also match a context regex
       const dis = DISAMBIG[i.companySlug];

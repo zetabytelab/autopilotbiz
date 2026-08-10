@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-10T15:47:44.945Z",
+ "generatedAt": "2026-08-10T16:01:51.120Z",
  "sourcesRun": [
   {
    "id": "gnews",
    "ok": 21,
    "failed": 0,
-   "items": 124
+   "items": 125
   },
   {
    "id": "hn",
@@ -690,6 +690,22 @@
    "baseScore": 2.4
   },
   {
+   "id": "5fc782d8da24",
+   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-29T07:11:07.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "ea9de368704e",
    "title": "Four minutes, no fluff: Inside CIO South Africa's 2026 Pitch Parade",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQnoxQ3BtSFplSGRlaDdDaUhGcUZDMXVDWW0xMEMxamd5NDVBMW8xSkRSdEt6bE91Z2U4VXVCQ3lHTFpzZUxmZ2NIeVlCRXNpcGVNMlFJUVVJYS1KdTFSbHZ1cWYybGhNUnVwaHZyQ08zSGVTZkJtTllJWkVZdU13VDlNenZOUWQ3TEUyWEJPQUtYb3J2cVZvWG1lWQ?oc=5",
@@ -781,22 +797,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYl81V1dQaWk1cEhGdEhmeVhVSjhjM2NRa2lQTUIwakZ1VHlfdENJLXpNQ3lYdUFTLXN0ZHhqXzlRTmVMcEZ3aFJ3Y2FQZHlyNFB6MmphS2lUTGdFcTFLLW1uSlZja0VwRTlWLWhPZWNDVU03NllYZw?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "5fc782d8da24",
-   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
-   "domain": "allaboutcookies.org",
-   "publishedAt": "2026-07-28T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -1220,22 +1220,6 @@
    "baseScore": 1.1
   },
   {
-   "id": "e2c761ec69cd",
-   "title": "USC Study Used Sweat, Brain Signals, Eye Movements and AI to Detect Depression and Suicide Risk",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLVpDeE1iUnU4YzlhaHlJbDZvRFhtU1k4ZHpELXpBZFFHTU5YaEczY2NqZHpMaFZTbUVPODltWl9OVVN4YXZiYWdyeWVMSktwcXZZWlZwSWpXVTJsXzhZTUt5bmJGbzE3MUJHdkVLZGZKTTlvTXNOOFk2b0tDTktWb1hRTXJVbUtNT0Fjc0NhNThTUVgycXRPZDlIRUFqSTNjQUlwWk9rQlpZUHR1WDN3TnE0THZSZnRRM28ydzdMNE9uc1kyanVRSzNSRDkyc2VSN0E0?oc=5",
-   "domain": "viterbischool.usc.edu",
-   "publishedAt": "2026-07-13T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLVpDeE1iUnU4YzlhaHlJbDZvRFhtU1k4ZHpELXpBZFFHTU5YaEczY2NqZHpMaFZTbUVPODltWl9OVVN4YXZiYWdyeWVMSktwcXZZWlZwSWpXVTJsXzhZTUt5bmJGbzE3MUJHdkVLZGZKTTlvTXNOOFk2b0tDTktWb1hRTXJVbUtNT0Fjc0NhNThTUVgycXRPZDlIRUFqSTNjQUlwWk9rQlpZUHR1WDN3TnE0THZSZnRRM28ydzdMNE9uc1kyanVRSzNSRDkyc2VSN0E0?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
    "id": "7e9d3c9c857d",
    "title": "How Many People Work At Midjourney 2026: Lean Team, Big Revenue",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DXzZOTkhYdGs5RVhYbHNuekg5bVNnWnZDbUNWa1lIVEsyWVlXZkd4dGY1Z3ZIcHFjVHdzR1J2NUh0cERxcm4zMGs1Zjg2eHFvcmVJd3ZTTlV6LTdIWnF3RWR4TmZaMU9nUUNRXw?oc=5",
@@ -1247,6 +1231,22 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DXzZOTkhYdGs5RVhYbHNuekg5bVNnWnZDbUNWa1lIVEsyWVlXZkd4dGY1Z3ZIcHFjVHdzR1J2NUh0cERxcm4zMGs1Zjg2eHFvcmVJd3ZTTlV6LTdIWnF3RWR4TmZaMU9nUUNRXw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "e2c761ec69cd",
+   "title": "USC Study Used Sweat, Brain Signals, Eye Movements and AI to Detect Depression and Suicide Risk",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLVpDeE1iUnU4YzlhaHlJbDZvRFhtU1k4ZHpELXpBZFFHTU5YaEczY2NqZHpMaFZTbUVPODltWl9OVVN4YXZiYWdyeWVMSktwcXZZWlZwSWpXVTJsXzhZTUt5bmJGbzE3MUJHdkVLZGZKTTlvTXNOOFk2b0tDTktWb1hRTXJVbUtNT0Fjc0NhNThTUVgycXRPZDlIRUFqSTNjQUlwWk9rQlpZUHR1WDN3TnE0THZSZnRRM28ydzdMNE9uc1kyanVRSzNSRDkyc2VSN0E0?oc=5",
+   "domain": "viterbischool.usc.edu",
+   "publishedAt": "2026-07-13T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLVpDeE1iUnU4YzlhaHlJbDZvRFhtU1k4ZHpELXpBZFFHTU5YaEczY2NqZHpMaFZTbUVPODltWl9OVVN4YXZiYWdyeWVMSktwcXZZWlZwSWpXVTJsXzhZTUt5bmJGbzE3MUJHdkVLZGZKTTlvTXNOOFk2b0tDTktWb1hRTXJVbUtNT0Fjc0NhNThTUVgycXRPZDlIRUFqSTNjQUlwWk9rQlpZUHR1WDN3TnE0THZSZnRRM28ydzdMNE9uc1kyanVRSzNSRDkyc2VSN0E0?oc=5"
     }
    ],
    "baseScore": 1.1
