@@ -234,6 +234,7 @@ async function apifyTweets(token) {
     items.push({
       title: `@${handle}: ${text.length > 160 ? text.slice(0, 157) + "…" : text}`,
       url,
+      domain: "x.com",
       publishedAt,
       sourceId: "x",
       companySlug: slug,
@@ -510,7 +511,7 @@ async function main() {
         target.sources.push(srcEntry(item));
       }
       if (Date.parse(item.publishedAt) < Date.parse(target.publishedAt)) target.publishedAt = item.publishedAt;
-      if (target.domain.includes("news.google.com") && !item.url.includes("news.google.com")) {
+      if ((target.domain ?? "").includes("news.google.com") && !item.url.includes("news.google.com")) {
         target.url = item.url;
         target.domain = item.domain;
       }
