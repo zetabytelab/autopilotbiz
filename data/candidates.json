@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-10T16:01:51.120Z",
+ "generatedAt": "2026-08-10T16:17:31.602Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -22,10 +22,19 @@
      "matchedKeywords": [
       "investor:techcrunch-vc"
      ]
+    },
+    {
+     "title": "AI agent startup uses agent to lead 100M round",
+     "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+     "source": "hn",
+     "publishedAt": "2026-07-12T23:15:33Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
     }
    ],
    "firstSeen": "2026-08-10T15:47:44.945Z",
-   "score": 1,
+   "score": 1.5,
    "status": "new"
   },
   {
@@ -137,6 +146,24 @@
    "status": "new"
   },
   {
+   "id": "8bf8961b843d",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Unscrambling South African AI business limitations",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTDk1XzFoYXhrZXYwdzNYV3lOaDZLcnFxRTF1ckhKakllZWw5czFtdUpLWFdfTEtRdXdGMVBQZ2tQUGJDT3RFR0FfQ0d2aWNFUU5VNnhRU0dOS1dNVnltazlleWprTm5lZmc2N2kyUjUycHRJT1RCenVueTB4RlNfZnpLWllUUDItUGg2anBMb3BhMWRYU3AyTnRjbW5tQQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-30T10:55:34.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
    "id": "f9bb9f9c02e3",
    "name": null,
    "evidence": [
@@ -223,6 +250,60 @@
     }
    ],
    "firstSeen": "2026-08-10T15:12:08.822Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "5fa8985c37d1",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+     "url": "https://news.ycombinator.com/item?id=48937020",
+     "source": "hn",
+     "publishedAt": "2026-07-16T16:52:16Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "f960481db7cd",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Can AI Run a Food Truck Business?",
+     "url": "https://foodtruckbench.com",
+     "source": "hn",
+     "publishedAt": "2026-07-25T02:10:59Z",
+     "matchedKeywords": [
+      "\"AI-run business\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "b243fd507784",
+   "name": null,
+   "evidence": [
+    {
+     "title": "It Was Fixed The First Time — AGENTS RUN MY STARTUP EP 24",
+     "url": "https://www.reddit.com/r/ultrathinkart/comments/1vh7f3i/it_was_fixed_the_first_time_agents_run_my_startup/",
+     "source": "reddit",
+     "publishedAt": "2026-08-06T15:27:01.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
    "score": 0.5,
    "status": "new"
   }

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-10T16:01:51.120Z",
+ "generatedAt": "2026-08-10T16:17:31.602Z",
  "sourcesRun": [
   {
    "id": "gnews",
@@ -9,9 +9,9 @@
   },
   {
    "id": "hn",
-   "ok": 0,
-   "failed": 21,
-   "items": 0
+   "ok": 21,
+   "failed": 0,
+   "items": 196
   },
   {
    "id": "techmeme",
@@ -26,6 +26,12 @@
    "items": 15
   },
   {
+   "id": "x",
+   "ok": 1,
+   "failed": 0,
+   "items": 58
+  },
+  {
    "id": "investor",
    "ok": 4,
    "failed": 0,
@@ -33,8 +39,14 @@
   },
   {
    "id": "discovery",
-   "ok": 10,
-   "failed": 9,
+   "ok": 19,
+   "failed": 0,
+   "items": 0
+  },
+  {
+   "id": "reddit",
+   "ok": 1,
+   "failed": 1,
    "items": 0
   }
  ],
@@ -57,6 +69,24 @@
    "hot": true
   },
   {
+   "id": "294234a46fc3",
+   "title": "@Bencera: Everyone is a founder https://t.co/zkvnDiedQq",
+   "url": "https://x.com/Bencera/status/2086491171765752069",
+   "domain": "x.com",
+   "publishedAt": "2026-08-09T16:33:55.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2086491171765752069",
+     "points": 73
+    }
+   ],
+   "baseScore": 1.95,
+   "hot": true
+  },
+  {
    "id": "3462e9d4bac3",
    "title": "How AI Coding Agents Changed What VCs Want From a Technical Cofounder",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3hlcllmNjYzanQ0R0FHdDJUSFByb1FRYi0taGNiSTEtVVFkakJLWC1LQVJzT3ozZHZ3MEFqX2VxTlZNVURadjhQd2t6QVRORDhjRFZ2ODYxWENzWUgzWnVvVmZyZzdHRURjQm1SS0ZvZWVPNE1qMFUwRmNGXzZZSHJYOVZQOHBVNmd1YkJicW1GT0lwUDdEQXN0UnFhdw?oc=5",
@@ -71,6 +101,96 @@
     }
    ],
    "baseScore": 1.1,
+   "hot": true
+  },
+  {
+   "id": "180353c35d7b",
+   "title": "@Bencera: What if it doesn't work out... what if it does? https://t.co/yvVzuyDoMQ",
+   "url": "https://x.com/Bencera/status/2086156333582110722",
+   "domain": "x.com",
+   "publishedAt": "2026-08-08T18:23:23.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2086156333582110722",
+     "points": 74
+    }
+   ],
+   "baseScore": 1.95,
+   "hot": true
+  },
+  {
+   "id": "75fdfb74a9f4",
+   "title": "@Bencera: Just do the work https://t.co/WNpKdEkS7P",
+   "url": "https://x.com/Bencera/status/2085735211791425832",
+   "domain": "x.com",
+   "publishedAt": "2026-08-07T14:30:00.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2085735211791425832",
+     "points": 1669
+    }
+   ],
+   "baseScore": 2.49,
+   "hot": true
+  },
+  {
+   "id": "77743338283b",
+   "title": "@Bencera: Wanna learn all the growth techniques I used to grow Polsia from $0 to $10M run rate? Watch aisloP episode 4 “The Growth”, out now on YouTube. https://t.co/u…",
+   "url": "https://x.com/Bencera/status/2085747104790552704",
+   "domain": "x.com",
+   "publishedAt": "2026-08-07T15:17:15.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2085747104790552704",
+     "points": 100
+    }
+   ],
+   "baseScore": 2.2,
+   "hot": true
+  },
+  {
+   "id": "a976eea16b53",
+   "title": "@Bencera: YouTube channel: https://t.co/mP9KetOU40",
+   "url": "https://x.com/Bencera/status/2085747108095709451",
+   "domain": "x.com",
+   "publishedAt": "2026-08-07T15:17:16.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2085747108095709451",
+     "points": 2
+    }
+   ],
+   "baseScore": 1.39,
+   "hot": true
+  },
+  {
+   "id": "7db86c424f2e",
+   "title": "@Bencera: .@AnthropicAI i need you guys to follow @sama's lead and reduce your SOTA models cost by 80% and I will revert back to using you guys. Just sayin https://t.c…",
+   "url": "https://x.com/Bencera/status/2085425124778369052",
+   "domain": "x.com",
+   "publishedAt": "2026-08-06T17:57:49.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2085425124778369052",
+     "points": 136
+    }
+   ],
+   "baseScore": 2.05,
    "hot": true
   },
   {
@@ -155,8 +275,7 @@
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRE5ZR1JNRTlhbV9FLTBWVW1kYlNNdHZOYVE4ODRSZWlYOVdWdWdzLWd5OTNON3ZjLXgtSkhkYU1BMmVRWjdGTE9nVGs4Z0NJNE9jNl84QncwUUNlYThBN0VSTUpGLWdFTVl0UUNFOHVmTzUtdVVabXVFUVU1dHpvelM5WUZxQm1uVVFlWDkzdGlxc3NvQ3cxbk15bzFuTVo0QVNNZ0tDN2hhc1RiZkxWeGk2bWE3b2hvRlpneDBkamViSWZkRkhPaGpnSFU0QQ?oc=5"
     }
    ],
-   "baseScore": 1.1,
-   "hot": true
+   "baseScore": 1.1
   },
   {
    "id": "2fd2aa047c44",
@@ -172,8 +291,24 @@
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORlFLMElNQk1YMDEtQ2hnZGdjNFFvUU1CaHlCbkdfVHhEakZYbmlVQkNWcnpfaE1ZMkNvWldYd1F3MTkwdnVjRWFISHhTLWNMbUJ2a2QtdlhjMmZ6MTVhcjZwWTNDQ0FucF9ORnByZHNpSDNGek0xQ21mcVJZSzhfcA?oc=5"
     }
    ],
-   "baseScore": 1.1,
-   "hot": true
+   "baseScore": 1.1
+  },
+  {
+   "id": "b0d0cecae955",
+   "title": "@Bencera: Congrats @i_zerbib and the whole @sapiom team. Best agent infra in the world, and @polsia is running on it.",
+   "url": "https://x.com/Bencera/status/2085067289741725936",
+   "domain": "x.com",
+   "publishedAt": "2026-08-05T18:15:55.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2085067289741725936",
+     "points": 65
+    }
+   ],
+   "baseScore": 1.93
   },
   {
    "id": "9e99afee98f7",
@@ -222,6 +357,40 @@
     }
    ],
    "baseScore": 1.1
+  },
+  {
+   "id": "6511c9b50244",
+   "title": "@Bencera: pov: raising $30M using AI https://t.co/rbftTGalGq",
+   "url": "https://x.com/Bencera/status/2084733882520293497",
+   "domain": "x.com",
+   "publishedAt": "2026-08-04T20:11:04.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2084733882520293497",
+     "points": 269
+    }
+   ],
+   "baseScore": 2.17
+  },
+  {
+   "id": "2cd8f3832043",
+   "title": "@Egbe_ai: Joining the @ZaiforStartups program. At Egbe we're building an AI co-founder that builds businesses, not just answers questions. GLM-5.2 now powers most of o…",
+   "url": "https://x.com/Egbe_ai/status/2084957012757037545",
+   "domain": "x.com",
+   "publishedAt": "2026-08-05T10:57:43.000Z",
+   "companySlug": "egbe",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Egbe_ai/status/2084957012757037545",
+     "points": 8
+    }
+   ],
+   "baseScore": 1.58
   },
   {
    "id": "97b5b1254bb6",
@@ -530,6 +699,23 @@
    "baseScore": 1.62
   },
   {
+   "id": "f83e12968ba8",
+   "title": "@Bencera: I built 4 products before Polsia. All failed. Then I built the one that felt too crazy, too ambitious. Stop optimizing for outcome. Optimize for flow. That's…",
+   "url": "https://x.com/Bencera/status/2083786345370321345",
+   "domain": "x.com",
+   "publishedAt": "2026-08-02T05:25:54.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2083786345370321345",
+     "points": 208
+    }
+   ],
+   "baseScore": 2.13
+  },
+  {
    "id": "aca43e8c9730",
    "title": "California AI Transparency Act Operative: Midjourney Has No Watermark, Fines Start Today",
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSnNaNk8wb2ZFSVJBZnhJNlNfZm1HdzhEWXBkSzJvWEZZNXRTV1dYbUJXMHZvbm9DSk9yUTJSdmQxdHE4NmhLYnNQMWwxRk9ib2dkTlJaMnVfcExIdktvT0VpcXc0ZFdTeDJpWGpLbXRRd0QyQzk1Vjh6MFBDTm9BX1JJRnVWaFJEaVQ1ejZpVzhhemJMNU9GUkNpYW5UV2pOUGZFenhXZUdWc2VZWUl3RzVHSk8zbUhyV2ZzcGhhOWNpNHZDeVNrd2xvMGMta2YwZFFPM0V6RVU?oc=5",
@@ -546,6 +732,40 @@
    "baseScore": 1.1
   },
   {
+   "id": "816b8967a59b",
+   "title": "@Bencera: The idea of Polsia came to me at Mount Fuji. Love Japan https://t.co/wte4irwEna",
+   "url": "https://x.com/Bencera/status/2083367561329279023",
+   "domain": "x.com",
+   "publishedAt": "2026-08-01T01:41:48.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2083367561329279023",
+     "points": 51
+    }
+   ],
+   "baseScore": 1.89
+  },
+  {
+   "id": "856b32caa5bf",
+   "title": "@Bencera: Serving OSS models at scale is no joke. https://t.co/aWsgc7oxXW",
+   "url": "https://x.com/Bencera/status/2082987076723872193",
+   "domain": "x.com",
+   "publishedAt": "2026-07-31T00:29:53.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2082987076723872193",
+     "points": 78
+    }
+   ],
+   "baseScore": 1.96
+  },
+  {
    "id": "0fc9434d1490",
    "title": "Midjourney Copied Thousands of Car Photos to Train AI, Suit Says",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRWN3NGh5LS1oWVFuRTVsZUdLM1RaaW9HWGFJQzhUQ19KSUtHTFBCUVV0bXZfemo5bGU5S0gwV1U4YkR0c0ZKUXc3NnRadnFNRXU3bTl2bkJjZW9ZS3ZrcGxqTmdlZjhfcno2S0wzTTlJXzJJaEhNSGNPaWJKMkNlZHMxNDNKUjhOYnJ5MC14RnEyR2g0LUVrMHVpVV83cnFyWUE?oc=5",
@@ -560,6 +780,57 @@
     }
    ],
    "baseScore": 1.1
+  },
+  {
+   "id": "726d8ac940ac",
+   "title": "@Bencera: hi @Polymarket",
+   "url": "https://x.com/Bencera/status/2082890354144256507",
+   "domain": "x.com",
+   "publishedAt": "2026-07-30T18:05:33.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2082890354144256507",
+     "points": 83
+    }
+   ],
+   "baseScore": 1.97
+  },
+  {
+   "id": "adf9878af821",
+   "title": "@Bencera: Great chat with the @WSJ",
+   "url": "https://x.com/Bencera/status/2082683439879479762",
+   "domain": "x.com",
+   "publishedAt": "2026-07-30T04:23:21.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2082683439879479762",
+     "points": 55
+    }
+   ],
+   "baseScore": 1.9
+  },
+  {
+   "id": "58ed1049f551",
+   "title": "@Bencera: Everyone is a founder with Polsia. Presenting aisloP episode 3: https://t.co/WsjdlngjDM https://t.co/vE5F5jMSL8",
+   "url": "https://x.com/Bencera/status/2082601603346190443",
+   "domain": "x.com",
+   "publishedAt": "2026-07-29T22:58:09.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2082601603346190443",
+     "points": 39
+    }
+   ],
+   "baseScore": 2.04
   },
   {
    "id": "c0dd7f7f03a8",
@@ -674,6 +945,23 @@
    "baseScore": 1.65
   },
   {
+   "id": "2b5af3191766",
+   "title": "@Bencera: AI 1.0: chatGPT AI 2.0: Claude Code AI 3.0: Polsia https://t.co/qPEMab6tSe",
+   "url": "https://x.com/Bencera/status/2082246309181079757",
+   "domain": "x.com",
+   "publishedAt": "2026-07-28T23:26:21.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2082246309181079757",
+     "points": 62
+    }
+   ],
+   "baseScore": 1.92
+  },
+  {
    "id": "ac4a1fb544ae",
    "title": "Read the pitch decks 18 startups disrupting social media and dating used to raise millions and ink deals.",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOHdYYU9QWVBrRGVzRUdjbFFZSWVTakFMYjE4R1BLbkxtZTlydjJEUDhRUjc2aFBoQ0JUMjdUSjFZd3FfTDhQTV9MZDJCbXQxREowWUc1OTFWQzlNMmJQUlZjc2lJdkFtemZ2dVdPemRHUHZRM0FLUks3djVBSTdpd2VjUG5HLWlhTG5ZY21UUHZXZGJiQlJWRl9QMA?oc=5",
@@ -690,20 +978,21 @@
    "baseScore": 2.4
   },
   {
-   "id": "5fc782d8da24",
-   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
-   "domain": "allaboutcookies.org",
-   "publishedAt": "2026-07-29T07:11:07.000Z",
-   "companySlug": "base44",
-   "kind": "other",
+   "id": "3ad4ee723ca0",
+   "title": "@Bencera: China is winning the AI war. It saved me from bankruptcy. My AI bill was 1M+/month. I fixed it with open source models. Presenting aisloP episode 3: \"The Bil…",
+   "url": "https://x.com/Bencera/status/2081790522461675763",
+   "domain": "x.com",
+   "publishedAt": "2026-07-27T17:15:13.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
    "sources": [
     {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2081790522461675763",
+     "points": 1559
     }
    ],
-   "baseScore": 1.1
+   "baseScore": 2.68
   },
   {
    "id": "ea9de368704e",
@@ -770,6 +1059,23 @@
    "baseScore": 1.1
   },
   {
+   "id": "8817ff21150e",
+   "title": "@Bencera: Watch it on YouTube: https://t.co/WsjdlngjDM Thanks to @sapiom @sciforium @i_zerbib for helping me kill the bill.",
+   "url": "https://x.com/Bencera/status/2081790524835713481",
+   "domain": "x.com",
+   "publishedAt": "2026-07-27T17:15:13.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2081790524835713481",
+     "points": 66
+    }
+   ],
+   "baseScore": 1.93
+  },
+  {
    "id": "90e720de9a66",
    "title": "Rogue AI attack a ‘wake-up call,’ company cofounder says",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPekJ3ZWZWY2tmYmpNZnNCNjF2Y3lyOHNhdUV1RzBwaDIyRktoYWprY0FGT1ZZcDlaQjJZUl9qaU1uZnEybjBLazJUb29wVzNLd0FWRFZWeUI4aDF0Z2tGUjVYVzY1TWFfcF9hdlI2blM3VXBnTlhDVUQ0TlJXampWRTNybHh2cU94MXfSAY8BQVVfeXFMTXVPOWFwNnE4LWNmU1RNeV8zREpPRnlTV1RiR1hnQVpqeDZpeVc3MG5HRnpjV29BRWFmc0dGenNpWVhIa2xBSWtTOElSQUdSVnUtUTFJUXotRGVTbDg5cl8zanZTNGVQVk1ZT1VjVFkwVVBrUkhRUU1GWVVIM1FNVEZzSHZEcGo5SUVqbmVwbFk?oc=5",
@@ -797,6 +1103,22 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYl81V1dQaWk1cEhGdEhmeVhVSjhjM2NRa2lQTUIwakZ1VHlfdENJLXpNQ3lYdUFTLXN0ZHhqXzlRTmVMcEZ3aFJ3Y2FQZHlyNFB6MmphS2lUTGdFcTFLLW1uSlZja0VwRTlWLWhPZWNDVU03NllYZw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "5fc782d8da24",
+   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -882,6 +1204,23 @@
    "baseScore": 1.1
   },
   {
+   "id": "51fb24e62766",
+   "title": "@Bencera: People don't care which AI model is used. They just want things to work. https://t.co/Ip5ylZlFVS",
+   "url": "https://x.com/Bencera/status/2081583977048183044",
+   "domain": "x.com",
+   "publishedAt": "2026-07-27T03:34:28.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2081583977048183044",
+     "points": 70
+    }
+   ],
+   "baseScore": 1.94
+  },
+  {
    "id": "0a36fada9276",
    "title": "From Stress-Relief Vibration Patterns to Haptic Emojis, USC Researchers Personalize the Sense of Touch With AI",
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEZpSnBzVnpDdjJGS1EyTFRQOGZsNnBfbjMyS2RQeDRGMTJIRFNTUXRfUE4zZHZrdkhtR3NWWVVmLTBrVENGdlJyeW9KZFJBTFlxcFAxTzdhWVRHdjkxWWNQNlA4U1M3YTJqdTlSQnBqZ0Q0QV96OUhaYWRqWHBJb3pOd3NWb2YtTnNPeHB4NllqeHFmLUhtZHpLdUtQUVhfX09CcHljelBkUlc0TndlVWkzSW1zMlJCTTYzM0V0cE5DVVhwWjVhYnNhWldSdnJFX0N2Z1RaMXhyS0ZzTU5fY2w1SXp2dWpo?oc=5",
@@ -930,6 +1269,28 @@
    "baseScore": 1.1
   },
   {
+   "id": "7e45c76a75ef",
+   "title": "Midjourney acquired the astrology app Co-Star",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5",
+   "domain": "techcrunch.com",
+   "publishedAt": "2026-07-24T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5"
+    },
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49041390",
+     "points": 7,
+     "comments": 0
+    }
+   ],
+   "baseScore": 3.26
+  },
+  {
    "id": "dfb01010aa85",
    "title": "Midjourney’s astrology expansion brings AI to the soul",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeXZSVl9ZcXFWNl9TeDlCUTVEaXJvbG9SazhrYl9SRXctWV9JUkwwZ3B3SW5vUEVvczAwc0t6WlNRWlVGaFdNRTRjamM0VFFlTHRIZFdmVzhsWHhLYnI3bFUwb3FEMkhJQk12TTdnMC1PV2hXNjJQaXY3by05VG5sZzF3Y3NwTXhvT3c?oc=5",
@@ -946,20 +1307,56 @@
    "baseScore": 1.1
   },
   {
-   "id": "7e45c76a75ef",
-   "title": "Midjourney acquired the astrology app Co-Star",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5",
-   "domain": "techcrunch.com",
-   "publishedAt": "2026-07-24T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "funding",
+   "id": "719d1f2c36ef",
+   "title": "@Bencera: Polsia is the end state of AI. https://t.co/fxMZhN4xCv",
+   "url": "https://x.com/Bencera/status/2080769736598868231",
+   "domain": "x.com",
+   "publishedAt": "2026-07-24T21:38:58.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
    "sources": [
     {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5"
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2080769736598868231",
+     "points": 97
     }
    ],
-   "baseScore": 2.4
+   "baseScore": 2
+  },
+  {
+   "id": "37cb53fc2e94",
+   "title": "The Delphi Method: Expert Consensus Research Explained",
+   "url": "https://www.koji.so/docs/delphi-method-guide",
+   "domain": "koji.so",
+   "publishedAt": "2026-07-25T16:59:37Z",
+   "companySlug": "delphi",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49049284",
+     "points": 1,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.22
+  },
+  {
+   "id": "626e1f2f9eae",
+   "title": "@Bencera: I built a $10M run rate startup working from 20+ cities. The Tour merch was past due. https://t.co/congndGXR6",
+   "url": "https://x.com/Bencera/status/2080712113434354071",
+   "domain": "x.com",
+   "publishedAt": "2026-07-24T17:50:00.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2080712113434354071",
+     "points": 37
+    }
+   ],
+   "baseScore": 1.83
   },
   {
    "id": "dfce3d65a778",
@@ -978,6 +1375,23 @@
     }
    ],
    "baseScore": 1.49
+  },
+  {
+   "id": "ae3118c97e5c",
+   "title": "@Bencera: Full episode on Youtube: https://t.co/WsjdlngjDM",
+   "url": "https://x.com/Bencera/status/2080769738255585451",
+   "domain": "x.com",
+   "publishedAt": "2026-07-24T21:38:59.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2080769738255585451",
+     "points": 2
+    }
+   ],
+   "baseScore": 1.59
   },
   {
    "id": "355aea8e2d8f",
@@ -1012,6 +1426,57 @@
    "baseScore": 1.1
   },
   {
+   "id": "55747e9d7c26",
+   "title": "@Bencera: The future of AI isn't just building better models. It's getting them in the hands of more people. https://t.co/VXnxYuoLnR",
+   "url": "https://x.com/Bencera/status/2080420944829423862",
+   "domain": "x.com",
+   "publishedAt": "2026-07-23T22:33:00.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2080420944829423862",
+     "points": 59
+    }
+   ],
+   "baseScore": 1.91
+  },
+  {
+   "id": "d8336d9bb57c",
+   "title": "@Bencera: Polsia stress cube https://t.co/zlgijtULJ6",
+   "url": "https://x.com/Bencera/status/2080318679112466785",
+   "domain": "x.com",
+   "publishedAt": "2026-07-23T15:46:38.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2080318679112466785",
+     "points": 15
+    }
+   ],
+   "baseScore": 1.68
+  },
+  {
+   "id": "755163062371",
+   "title": "@Bencera: In April, I lost $1,000,000 on AI in a single month. I never explained what happened. aisloP episode 3 tells the story, out now on YouTube. https://t.co/fx9m…",
+   "url": "https://x.com/Bencera/status/2080058852767302134",
+   "domain": "x.com",
+   "publishedAt": "2026-07-22T22:34:10.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2080058852767302134",
+     "points": 134
+    }
+   ],
+   "baseScore": 2.25
+  },
+  {
    "id": "502bfaec6a58",
    "title": "AI Lab Midjourney Eyes Suite of Apps After Buying Astrology Startup Co-Star",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZGpQQ3QtUFdPY3k1T1BUSnozZHJkTTg4ZnVtVFphYUM1SmdmOG4tS1dVckpJazg4MXQzZTJEcnhNaVdfRjJzQW5vODRpajNPNXJ5R0hKeXJLbE1oWkYxTDV4bkNGTDh3bHZWOVlsRGhub0ZLQmIySkdLcTlUTUt4LUdOQWEwNVBrWTlPd0xpU3YtcHVPSEhaTW5KSkZyYXNpaVlwNldPdFZOS083eUxYaHpvOWRHZmpsZ3Y5a2lDNmljSFRuNklB?oc=5",
@@ -1026,6 +1491,40 @@
     }
    ],
    "baseScore": 1.1
+  },
+  {
+   "id": "2e7be036238d",
+   "title": "@Bencera: Check out the video here: https://t.co/WsjdlngjDM",
+   "url": "https://x.com/Bencera/status/2080058854046683223",
+   "domain": "x.com",
+   "publishedAt": "2026-07-22T22:34:11.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2080058854046683223",
+     "points": 2
+    }
+   ],
+   "baseScore": 1.39
+  },
+  {
+   "id": "4c354366600f",
+   "title": "@Bencera: aisloP episode 3 dropping tomorrow on YouTube. https://t.co/KCL9jW78H5",
+   "url": "https://x.com/Bencera/status/2079747567366352990",
+   "domain": "x.com",
+   "publishedAt": "2026-07-22T01:57:14.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2079747567366352990",
+     "points": 52
+    }
+   ],
+   "baseScore": 2.09
   },
   {
    "id": "ddff93ab9af1",
@@ -1076,6 +1575,40 @@
    "baseScore": 1.3
   },
   {
+   "id": "e51e3d529ee1",
+   "title": "@Bencera: Fastest way to learn if your product works: Meta ads. https://t.co/J2hytEYG9Y",
+   "url": "https://x.com/Bencera/status/2079616896597393471",
+   "domain": "x.com",
+   "publishedAt": "2026-07-21T17:18:00.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2079616896597393471",
+     "points": 310
+    }
+   ],
+   "baseScore": 2.2
+  },
+  {
+   "id": "984663163fb7",
+   "title": "@Bencera: Subscribe to the channel: https://t.co/WsjdlngjDM",
+   "url": "https://x.com/Bencera/status/2079747568674947582",
+   "domain": "x.com",
+   "publishedAt": "2026-07-22T01:57:14.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2079747568674947582",
+     "points": 2
+    }
+   ],
+   "baseScore": 1.39
+  },
+  {
    "id": "dbece088b5f6",
    "title": "Hollywood studios accused of AI hypocrisy amid high-stakes legal battle that could define controversial tech’s future",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWFY3aTNOT0lGNkNPRzJRVWZsVzJfSXh2TlY3WlBCTl9qT2EzZ3hkQlpwTWNOcEM2S2o5MGl5WnRrNGFYTHNhYWZZRnNYR2JrVm15bXN6WmNyRUVVWW5tcXRVWVc3cWUzSGZWYzBqeFl1VmRReUV3VWNyNUlITkxpaDRjMnNQM2hsOU9zSkNCdDF0RVlQOFdTM2REa09yaTRCSFM4U2g4UUdYSEdSMWlDc1E1TzByUTlWbVhFMXJ4LWtuSkx5dUx4Ui1zYS1iQQ?oc=5",
@@ -1108,6 +1641,40 @@
    "baseScore": 1.1
   },
   {
+   "id": "4e36f77ced1a",
+   "title": "@Bencera: Corporations will use AI to fire everyone and keep the profits. Or the 99% get the same tools first. That's the whole fight. Polsia is on the side of the 99%…",
+   "url": "https://x.com/Bencera/status/2079366999839232208",
+   "domain": "x.com",
+   "publishedAt": "2026-07-21T00:45:00.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2079366999839232208",
+     "points": 64
+    }
+   ],
+   "baseScore": 1.93
+  },
+  {
+   "id": "84ccbe875125",
+   "title": "@Bencera: Great chat with Vivi for the Financial Times. The future is open source.",
+   "url": "https://x.com/Bencera/status/2079327738763305155",
+   "domain": "x.com",
+   "publishedAt": "2026-07-20T22:08:59.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2079327738763305155",
+     "points": 16
+    }
+   ],
+   "baseScore": 1.69
+  },
+  {
    "id": "6ca802c6447d",
    "title": "AI firm Midjourney enters wellness with spa, fitness and body scanning concept",
    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOS0VvLWduUF9PblliaW1Nc0V1ck16Yk1DS0dVblBZS0IzcUpudF9DU1dCR0FZS3Q5WlJiQTRuRDVSSDJyTEloTEJoZFBibEp2UGZLcm11Z1NJVnBiSzlBODRqQW5vZnIySFVkdGZWM3VOYzVVYUsySTRCeDRkanpWTnJoa0xHX0d5TV9mejJtOE1KUTRPYWs3Z0g1b0lxSkhTVXZOMzNvZF92cUJtTWZOZWJBU00xSnFMV21OZzZMTkl5WnlnUHJSNUpBbkhMYTJJWll6SlNZMFp0eUx4a2MzTi10eWJoRFZJQnlXVm45Y3owLXZobWFocV93bGpiQQ?oc=5",
@@ -1124,6 +1691,23 @@
    "baseScore": 1.1
   },
   {
+   "id": "ceea5dd73030",
+   "title": "@Bencera: AI is the best co-founder ever https://t.co/WfrtBqaTNg",
+   "url": "https://x.com/Bencera/status/2079047912529809828",
+   "domain": "x.com",
+   "publishedAt": "2026-07-20T03:37:03.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2079047912529809828",
+     "points": 138
+    }
+   ],
+   "baseScore": 2.06
+  },
+  {
    "id": "280806a947a4",
    "title": "BofA enhances AI-powered tool to resolve client needs faster",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NbC1hQkI5enZDUVlyRkxPZU1vUTFLZ2tJOURnNjlqWWJmRkNZVXpiazdlamh2SVhxV2NscmVvLXFmR00xeVhkRTBmc1RBVTZKTFZnQXliem1pQThobGc5LUsydjF0OXotdEExdm90S1lpNktPOEpITXV5TjF0dw?oc=5",
@@ -1138,6 +1722,125 @@
     }
    ],
    "baseScore": 1.1
+  },
+  {
+   "id": "e9cfad2f6df7",
+   "title": "@Bencera: Founder mode is the only mode",
+   "url": "https://x.com/Bencera/status/2078492034202235336",
+   "domain": "x.com",
+   "publishedAt": "2026-07-18T14:48:12.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2078492034202235336",
+     "points": 209
+    }
+   ],
+   "baseScore": 2.13
+  },
+  {
+   "id": "b92df9388236",
+   "title": "@Bencera: If you’re not going through pain as a founder, you’re not building something meaningful.",
+   "url": "https://x.com/Bencera/status/2078310033889403034",
+   "domain": "x.com",
+   "publishedAt": "2026-07-18T02:44:59.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2078310033889403034",
+     "points": 167
+    }
+   ],
+   "baseScore": 2.09
+  },
+  {
+   "id": "283157931e14",
+   "title": "@Bencera: Every AI company is building toward the same end state. An AI that can do everything. https://t.co/QpQqJXh5eu",
+   "url": "https://x.com/Bencera/status/2078333359194030279",
+   "domain": "x.com",
+   "publishedAt": "2026-07-18T04:17:41.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2078333359194030279",
+     "points": 55
+    }
+   ],
+   "baseScore": 1.9
+  },
+  {
+   "id": "1b34e2e8060b",
+   "title": "@Bencera: Building a startup anywhere other than SF is doing it on hard mode. https://t.co/V8Q6CBYzY6",
+   "url": "https://x.com/Bencera/status/2077950413039608008",
+   "domain": "x.com",
+   "publishedAt": "2026-07-17T02:55:59.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2077950413039608008",
+     "points": 125
+    }
+   ],
+   "baseScore": 2.04
+  },
+  {
+   "id": "4010e18778b2",
+   "title": "@Bencera: Being a founder is mostly getting punched in the face, always getting back up, occasionally cracking a smile. And most importantly deeply enjoying the whole …",
+   "url": "https://x.com/Bencera/status/2077840305723003120",
+   "domain": "x.com",
+   "publishedAt": "2026-07-16T19:38:27.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2077840305723003120",
+     "points": 200
+    }
+   ],
+   "baseScore": 2.12
+  },
+  {
+   "id": "21fe22ece496",
+   "title": "@Bencera: 1 billion people are about to become founders. https://t.co/n2iZ7rIbOc",
+   "url": "https://x.com/Bencera/status/2077561711893360874",
+   "domain": "x.com",
+   "publishedAt": "2026-07-16T01:11:26.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2077561711893360874",
+     "points": 139
+    }
+   ],
+   "baseScore": 2.06
+  },
+  {
+   "id": "3bd6d6b74b36",
+   "title": "@Bencera: People don't realize how much work it is to build a great company. 7-11-7 these days.",
+   "url": "https://x.com/Bencera/status/2077558504517456033",
+   "domain": "x.com",
+   "publishedAt": "2026-07-16T00:58:41.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2077558504517456033",
+     "points": 138
+    }
+   ],
+   "baseScore": 2.06
   },
   {
    "id": "4e43a4ecb985",
@@ -1202,6 +1905,40 @@
     }
    ],
    "baseScore": 1.1
+  },
+  {
+   "id": "214a9de2ff11",
+   "title": "@Bencera: aisloP &lt;&gt; Polsia hats 🤷🏼‍♂️ https://t.co/sU8ElUgx5G",
+   "url": "https://x.com/Bencera/status/2076385470536433814",
+   "domain": "x.com",
+   "publishedAt": "2026-07-12T19:17:28.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2076385470536433814",
+     "points": 33
+    }
+   ],
+   "baseScore": 1.81
+  },
+  {
+   "id": "e3964b4b3d92",
+   "title": "@Bencera: 😍 https://t.co/vgMjouk6vb",
+   "url": "https://x.com/Bencera/status/2081483962220941425",
+   "domain": "x.com",
+   "publishedAt": "2026-07-12T19:49:14.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2081483962220941425",
+     "points": 12
+    }
+   ],
+   "baseScore": 1.65
   },
   {
    "id": "130f68722b9a",
