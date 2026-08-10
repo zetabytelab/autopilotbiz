@@ -1,0 +1,30 @@
+name: Pulse
+
+# Daily news-pulse refresh. Replaces the old launchd job on the maintainer's
+# Mac, which macOS TCC silently blocked from ~/Desktop since 2026-07-13.
+# With Vercel git integration connected, the data commit auto-deploys.
+on:
+  schedule:
+    - cron: "0 7 * * *" # 07:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/update-pulse.mjs
+      - name: Commit and push if changed
+        run: |
+          git config user.name "autopilot-pulse[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/pulse.json data/candidates.json
+          git diff --cached --quiet && echo "pulse unchanged" && exit 0
+          git commit -m "pulse: daily refresh"
+          git push

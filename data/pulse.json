@@ -1,17 +1,17 @@
 {
- "generatedAt": "2026-07-13T08:28:48.593Z",
+ "generatedAt": "2026-08-10T15:12:08.822Z",
  "sourcesRun": [
   {
    "id": "gnews",
-   "ok": 19,
+   "ok": 21,
    "failed": 0,
-   "items": 111
+   "items": 137
   },
   {
    "id": "hn",
-   "ok": 19,
-   "failed": 0,
-   "items": 180
+   "ok": 0,
+   "failed": 21,
+   "items": 0
   },
   {
    "id": "techmeme",
@@ -21,715 +21,508 @@
   },
   {
    "id": "discovery",
-   "ok": 19,
-   "failed": 0,
+   "ok": 10,
+   "failed": 9,
    "items": 0
   }
  ],
  "items": [
   {
-   "id": "ca174c5bd8d4",
-   "title": "Midjourney strikes back: sued AI giant demands Hollywood’s secrets",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQUhsQzdPMTMzQ1pWUGZldFZPZTE1T1VJOW8tRkxfNV9VbkRESW8tUnVDanMxZ1lxLV9Hd05iXzZJazc4ZDExMl93Ry1SQWFuU0M0Qnk2amFNd2h3cDhvT2ppZnktUFVYQm1sT2RlczFOWl9obVgydTVFZFI2WXFNRXBiSGVtYkc0VlE?oc=5",
-   "domain": "theartnewspaper.com",
-   "publishedAt": "2026-07-09T18:00:16.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQUhsQzdPMTMzQ1pWUGZldFZPZTE1T1VJOW8tRkxfNV9VbkRESW8tUnVDanMxZ1lxLV9Hd05iXzZJazc4ZDExMl93Ry1SQWFuU0M0Qnk2amFNd2h3cDhvT2ppZnktUFVYQm1sT2RlczFOWl9obVgydTVFZFI2WXFNRXBiSGVtYkc0VlE?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "hot": true
-  },
-  {
-   "id": "2e6bc196bce3",
-   "title": "Ask HN: Are you paying for Lovable / Replit / Base44?",
-   "url": "https://news.ycombinator.com/item?id=48830372",
-   "domain": "news.ycombinator.com",
-   "publishedAt": "2026-07-08T11:03:35Z",
-   "companySlug": "base44",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48830372",
-     "points": 1,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.32,
-   "hot": true
-  },
-  {
-   "id": "f3fe03bacc53",
-   "title": "Base44 Base 1 Model Targets the AI-Slop Look Plaguing Vibe-Coded Apps",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSVdxQjlXNlk4ZTFEdzhNNFZnbmNqNnFGOXZnVnROeDBvZUdGblgwT0ZtVEd4VWJpUi1YN0hmR2EwX0xUd1FHMzc5OE1VM09JM2xueWl5T1FZTmo3NXY1blZHd2xWWU5TeFZSVEY0ZmFTXzNtUktreDNFNW5NVU9HM3VsM3otaF9kZGpGMS1OaGJUb0U1Y1lCQ0xKZUNLZFg4LURPSXBJY1locVk5?oc=5",
-   "domain": "newsanyway.com",
-   "publishedAt": "2026-07-07T13:38:11.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSVdxQjlXNlk4ZTFEdzhNNFZnbmNqNnFGOXZnVnROeDBvZUdGblgwT0ZtVEd4VWJpUi1YN0hmR2EwX0xUd1FHMzc5OE1VM09JM2xueWl5T1FZTmo3NXY1blZHd2xWWU5TeFZSVEY0ZmFTXzNtUktreDNFNW5NVU9HM3VsM3otaF9kZGpGMS1OaGJUb0U1Y1lCQ0xKZUNLZFg4LURPSXBJY1locVk5?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "hot": true
-  },
-  {
-   "id": "e448e36f8c15",
-   "title": "Generative AI like Midjourney creates images full of stereotypes",
-   "url": "https://restofworld.org/2023/ai-image-stereotypes/",
-   "domain": "restofworld.org",
-   "publishedAt": "2026-07-05T12:45:32Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48793866",
-     "points": 2,
-     "comments": 1
-    }
-   ],
-   "baseScore": 1.35,
-   "hot": true
-  },
-  {
-   "id": "ef84e47f8dcc",
-   "title": "Midjourney Thinks Hollywood Should Fess Up About Using AI",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRl9iSWI4ckQ4ZThsV0l6MnBUMndBSDc2dkViV3NaZFJlVjZTYzlrS3VjOGF6SG1nX01GSTBBU1FZQ1VHbHRzd0dIY21oNUNTZS16WURfa0JpY3gxbE50UWZmS01TczJzSGhkOXlGQng2SWt5R3U1YkdDTlNmdkhhalhvRnU2M01KME83WVFhVGJfQQ?oc=5",
-   "domain": "gizmodo.com",
-   "publishedAt": "2026-07-05T18:50:49.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRl9iSWI4ckQ4ZThsV0l6MnBUMndBSDc2dkViV3NaZFJlVjZTYzlrS3VjOGF6SG1nX01GSTBBU1FZQ1VHbHRzd0dIY21oNUNTZS16WURfa0JpY3gxbE50UWZmS01TczJzSGhkOXlGQng2SWt5R3U1YkdDTlNmdkhhalhvRnU2M01KME83WVFhVGJfQQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "hot": true
-  },
-  {
-   "id": "f5f9e47806d4",
-   "title": "Midjourney pushes to expose studios' own AI practices in copyright fight",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmNha2hiZGtiTG9XLVM3T3dTUnJic2pkQzVEWGx6bldOTy1ManJxZHpDSHlQNnpMWHFuZHhUTnVSQ0lvNlg3WnEzRHFEamhEbmIxRzlWTjdaRHQ2TFZNQ2hZaXFweks1VzF2Q0tDT2JMaTFzZ3dueHN3QjgwQll2RDBJc2c?oc=5",
-   "domain": "mashable.com",
-   "publishedAt": "2026-07-05T13:58:51.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmNha2hiZGtiTG9XLVM3T3dTUnJic2pkQzVEWGx6bldOTy1ManJxZHpDSHlQNnpMWHFuZHhUTnVSQ0lvNlg3WnEzRHFEamhEbmIxRzlWTjdaRHQ2TFZNQ2hZaXFweks1VzF2Q0tDT2JMaTFzZ3dueHN3QjgwQll2RDBJc2c?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "a716128acc2f",
-   "title": "Base44 Revenue, Valuation & Funding History (2026)",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5wNGtaalBlQlA2WVg0eGNqQ3pEYzVEY3NiQ0xvTmhGd0FCRE05aDMtaHlXalV3VG5nSnNLc2haSzZFMzJDUlZvdXZZSWFudw?oc=5",
-   "domain": "getlatka.com",
-   "publishedAt": "2026-07-03T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "funding",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5wNGtaalBlQlA2WVg0eGNqQ3pEYzVEY3NiQ0xvTmhGd0FCRE05aDMtaHlXalV3VG5nSnNLc2haSzZFMzJDUlZvdXZZSWFudw?oc=5"
-    }
-   ],
-   "baseScore": 2.4
-  },
-  {
-   "id": "db4a43769f96",
-   "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmdSSkwwMlp6YjJoamt0RXRRREYtZENkaHprTWRGQ0xfXy0ycHpqSVJHOFZKRDZvbEdZc0hNRkhOWnhtQV9JX1haSU9sa05PYjYybWNTUGdtTzdMYk51TEVMWWpzRzJiWDdzbmhVa1c4b3FOcDNwRFFUS2ZzNjhqS2t6cmNzWmJUZTEzYWNNTjJYWWNvelZ5WmV5ZHRadnJjLVVreGQ1RFhjdnNveXc?oc=5",
-   "domain": "techcrunch.com",
-   "publishedAt": "2026-07-04T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmdSSkwwMlp6YjJoamt0RXRRREYtZENkaHprTWRGQ0xfXy0ycHpqSVJHOFZKRDZvbEdZc0hNRkhOWnhtQV9JX1haSU9sa05PYjYybWNTUGdtTzdMYk51TEVMWWpzRzJiWDdzbmhVa1c4b3FOcDNwRFFUS2ZzNjhqS2t6cmNzWmJUZTEzYWNNTjJYWWNvelZ5WmV5ZHRadnJjLVVreGQ1RFhjdnNveXc?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "c63e3b1552bf",
-   "title": "Midjourney: From AI slop to medical research [video]",
-   "url": "https://www.youtube.com/watch?v=4nzzpUKhj1M",
-   "domain": "youtube.com",
-   "publishedAt": "2026-07-03T00:20:01Z",
-   "companySlug": "midjourney",
-   "kind": "video",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48799667",
-     "points": 1,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.42
-  },
-  {
-   "id": "74226ed99b7e",
-   "title": "Midjourney Seeks to Reveal Studios’ Use of AI in High-Stakes Copyright Battle",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcmxrVlh0ZG14MUFxTDJqRllWa3RjeU90UmVBN3Z6dnJ6cmg5Mk5FYm5aT0ZhZU41RzRMZm1XaUR1RDlBclVqSnkybEhmbzMtMlNvWjN1WUN3SmNoTUR6RnF4enJuYTlTRkYxdnhlRXpQSl9BVlpTR2dETGtNUmpjLWFjUkc5WVlRQ1dkZzVpVHZBdw?oc=5",
-   "domain": "variety.com",
-   "publishedAt": "2026-07-02T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcmxrVlh0ZG14MUFxTDJqRllWa3RjeU90UmVBN3Z6dnJ6cmg5Mk5FYm5aT0ZhZU41RzRMZm1XaUR1RDlBclVqSnkybEhmbzMtMlNvWjN1WUN3SmNoTUR6RnF4enJuYTlTRkYxdnhlRXpQSl9BVlpTR2dETGtNUmpjLWFjUkc5WVlRQ1dkZzVpVHZBdw?oc=5"
-    },
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48781828",
-     "points": 2,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.79
-  },
-  {
-   "id": "4165e61cb4a2",
-   "title": "Base44's CEO says the company built its own model to stop churning out AI-slop designs",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOVp0WlJHYUdBZ05yT1NkcVpTeHlsZ093amhLQ3dNam9ncE82ZnhBbGpFN2RXNE9KLWxMX040eV9yN2JYTktmczVyS3plb01uUGNxQWNlRW94RkRqaWlrYjVWSjc4cmZFTG50YXg2TGU5SGhrQ0NFenFydnl1N1M1WnBiamNXdkVpZWlmdTZ0MGhYV2o4WXZhZw?oc=5",
-   "domain": "businessinsider.com",
-   "publishedAt": "2026-07-01T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOVp0WlJHYUdBZ05yT1NkcVpTeHlsZ093amhLQ3dNam9ncE82ZnhBbGpFN2RXNE9KLWxMX040eV9yN2JYTktmczVyS3plb01uUGNxQWNlRW94RkRqaWlrYjVWSjc4cmZFTG50YXg2TGU5SGhrQ0NFenFydnl1N1M1WnBiamNXdkVpZWlmdTZ0MGhYV2o4WXZhZw?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "c73afadc41ce",
-   "title": "Base44 no-code review",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4QWpQY0l3OE9HRjI4RVRWdDdadnN2UUg4eEdYb1oxeWk2MFo0ZEdhMDIwUERpZmx6b3dhWGVfV1ZrQzRNUjR3WDBGdHdVbF9lQTVQQTFVOG96SFREbGh6Y2FLMXMzTmV4WHFCc3J4bDZLV1JlelNueA?oc=5",
-   "domain": "techradar.com",
-   "publishedAt": "2026-07-01T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4QWpQY0l3OE9HRjI4RVRWdDdadnN2UUg4eEdYb1oxeWk2MFo0ZEdhMDIwUERpZmx6b3dhWGVfV1ZrQzRNUjR3WDBGdHdVbF9lQTVQQTFVOG96SFREbGh6Y2FLMXMzTmV4WHFCc3J4bDZLV1JlelNueA?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "bd7fc980855a",
-   "title": "Vibe-coding platform Base44 launches own model as AI startups seek defensibility",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbWIyUmRxS2RJbFhCcHZGUGFpRXBJVTlwTFZ6N3hGSlBuYlVkOW5IbmVMeGI5MVR4a04weVkxTUZNZzRNX0czakhRcjFha2hIR1o3QkozMmxqSlZnY0tUVkZmNEVCSVlZZjNuMjZPYWtQakpXS3oxeElPLV9JTzJ0ZUlmVFA4SzV3MVJKRWQyNjlfb3RvemRGZ3doc25SMUdiTlFFYjRpV1ZleDd3ZTNmY0owbTFFQQ?oc=5",
-   "domain": "techcrunch.com",
-   "publishedAt": "2026-06-29T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "product",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbWIyUmRxS2RJbFhCcHZGUGFpRXBJVTlwTFZ6N3hGSlBuYlVkOW5IbmVMeGI5MVR4a04weVkxTUZNZzRNX0czakhRcjFha2hIR1o3QkozMmxqSlZnY0tUVkZmNEVCSVlZZjNuMjZPYWtQakpXS3oxeElPLV9JTzJ0ZUlmVFA4SzV3MVJKRWQyNjlfb3RvemRGZ3doc25SMUdiTlFFYjRpV1ZleDd3ZTNmY0owbTFFQQ?oc=5"
-    },
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48797560",
-     "points": 4,
-     "comments": 0
-    }
-   ],
-   "baseScore": 2.43
-  },
-  {
-   "id": "bb135af47bf5",
-   "title": "No one thinks Midjourney is alive. That matters for those who think Claude is",
-   "url": "https://plus.flux.community/p/large-language-models-and-the-textual",
-   "domain": "plus.flux.community",
-   "publishedAt": "2026-06-30T00:35:51Z",
-   "companySlug": "midjourney",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48727160",
-     "points": 5,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.51
-  },
-  {
-   "id": "3d4ff2f2c528",
-   "title": "AMD Stock Up Today After Microsoft Collaboration On AI Chips Lindy Ruff (Y3nU5PsBN1)",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44OGs0anNnaFFmblZyRExZTERMRUZJZ2ZwakoyWm9rS2Y5eUg5cUZLRGMzZ1BHRVJoSGlGOXVOZTEwdlB5Y3I0V2N1U1NYaFE4UEItYWRPOUdudFktQkNFNA?oc=5",
-   "domain": "mshale.com",
-   "publishedAt": "2026-06-30T13:43:20.000Z",
-   "companySlug": "lindy",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44OGs0anNnaFFmblZyRExZTERMRUZJZ2ZwakoyWm9rS2Y5eUg5cUZLRGMzZ1BHRVJoSGlGOXVOZTEwdlB5Y3I0V2N1U1NYaFE4UEItYWRPOUdudFktQkNFNA?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "732a6baea54d",
-   "title": "Base44 launches proprietary AI model to enhance coding platform",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE81dDBtVzRzUXJvblphNGRoTTZSUXcwMDl6eC1wNnQwTVR0Tnhzb1NVb01aVFBBeUFzTElpYW5rUHVWdnYxZWNvVEJTa2M1NnZRSFhwdERaYlh5bUh0MUR6bTJpdWRoZk9pY09tM2pFS2YtQQ?oc=5",
-   "domain": "cryptobriefing.com",
-   "publishedAt": "2026-06-29T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "product",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE81dDBtVzRzUXJvblphNGRoTTZSUXcwMDl6eC1wNnQwTVR0Tnhzb1NVb01aVFBBeUFzTElpYW5rUHVWdnYxZWNvVEJTa2M1NnZRSFhwdERaYlh5bUh0MUR6bTJpdWRoZk9pY09tM2pFS2YtQQ?oc=5"
-    }
-   ],
-   "baseScore": 1.65
-  },
-  {
-   "id": "d86aef1946da",
-   "title": "Base44 Becomes First App-Creation Platform to Launch Its Own Proprietary LLM 'Base 1”, Marking a Major Milestone in the Company's Technology Vision",
-   "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNVzZfZ2xCY3VWdUNCQUFrVER2YS1LdHZ4akUwQzBUS01SbkgyOGJtZGd2dFExUmlwbXp6TFJfN3pYVlB0aFFQMF9udURmWHBSLWNEMzdSR1hOdHlCRkx6MlNLR25IY0JENjlaU0p6dW5zUlVjdHh4ZUhOcU9oM2VGMVVkbzlSSHM5M1ZIcWNINDVyYTV4dkxCNVRFUldTYWtPUHBhX1hEcG5JSjZPOHhNSDdpbU9mYi1nMTE2bmVYUE13UTA5T2ZKa3AwNzVJZ1diTTBSQmxnOEYzSDJId3hWMGxKZzlhVi1rTG1ESzdRZFNkTWROTTV5bkZ0VGc5a3pKR21mdjFwUFpoTFVaWENpSTduSkZBa1lTa0VHMW5ZQ29QaUhncnNteVdObk1FcFZaTmp5ZUlURm9zaXFtcUHSAcMCQVVfeXFMTnpKaHpoZDlqU0pCY1RUc0NRcllVbm1BdFJnS0ZLYU5Qb1ZSTkUxamQ1Y3MzUFFTUE1jcHprZFF3MTl3MmNfQ2dqV3NwejgtaEswSS1GajZ4TzVGWXRMdEMzMkJOeUZodXVpT2NReUh0ZVhsRnl6S0xya1dUcnd5QktCSHItVER2N0tqWkdyb2VpMlBEbE5vNDZXZWc1amoyRUVXSHdrQXl1bVVNYkhpZEROMjlkclVId2h2UHY1V3p2QkdjY2NQdUNsakIwUUd2cE5LUUFiQ3NmVGU1emxPZmVmNnJCN3B6Vy1KTG5Jb0l5YWlsUWZYVjVFUGh4dXM0UURUMlA2dnREMlpDYkZ1Y2puaUtlc1RROVhxcnJpY0lzamVtbFBoMDNWelpid3ZsQjNEdjR1WFoyaUFDdl9CSnVyX3c?oc=5",
-   "domain": "manilatimes.net",
-   "publishedAt": "2026-06-29T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNVzZfZ2xCY3VWdUNCQUFrVER2YS1LdHZ4akUwQzBUS01SbkgyOGJtZGd2dFExUmlwbXp6TFJfN3pYVlB0aFFQMF9udURmWHBSLWNEMzdSR1hOdHlCRkx6MlNLR25IY0JENjlaU0p6dW5zUlVjdHh4ZUhOcU9oM2VGMVVkbzlSSHM5M1ZIcWNINDVyYTV4dkxCNVRFUldTYWtPUHBhX1hEcG5JSjZPOHhNSDdpbU9mYi1nMTE2bmVYUE13UTA5T2ZKa3AwNzVJZ1diTTBSQmxnOEYzSDJId3hWMGxKZzlhVi1rTG1ESzdRZFNkTWROTTV5bkZ0VGc5a3pKR21mdjFwUFpoTFVaWENpSTduSkZBa1lTa0VHMW5ZQ29QaUhncnNteVdObk1FcFZaTmp5ZUlURm9zaXFtcUHSAcMCQVVfeXFMTnpKaHpoZDlqU0pCY1RUc0NRcllVbm1BdFJnS0ZLYU5Qb1ZSTkUxamQ1Y3MzUFFTUE1jcHprZFF3MTl3MmNfQ2dqV3NwejgtaEswSS1GajZ4TzVGWXRMdEMzMkJOeUZodXVpT2NReUh0ZVhsRnl6S0xya1dUcnd5QktCSHItVER2N0tqWkdyb2VpMlBEbE5vNDZXZWc1amoyRUVXSHdrQXl1bVVNYkhpZEROMjlkclVId2h2UHY1V3p2QkdjY2NQdUNsakIwUUd2cE5LUUFiQ3NmVGU1emxPZmVmNnJCN3B6Vy1KTG5Jb0l5YWlsUWZYVjVFUGh4dXM0UURUMlA2dnREMlpDYkZ1Y2puaUtlc1RROVhxcnJpY0lzamVtbFBoMDNWelpid3ZsQjNEdjR1WFoyaUFDdl9CSnVyX3c?oc=5"
-    }
-   ],
-   "baseScore": 1.25
-  },
-  {
-   "id": "ffe19da627ec",
-   "title": "Base44 Becomes First App-Creation Platform to Launch Its Own Proprietary LLM “Base 1”, Marking a Major Milestone in the Company's Technology Vision",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSVZsV0oxNXdKN29WZnhQM09JN1d0UUpzd0pZUG5jTmMzNUZZRloxb2tWSlM4YmtJTGpjSmZudFlHRlFkbHJQcW5yRFFCM0dHSXNUQ1dndlRTa25wNnptRGFEeTdqZURWd0ZyTE9JWnIwM2ZmRWx1SHBnM2tscVNWYUlSZHJCZFpoRlIzdnFmMjFFQ1hBUTlEb2cyeTAxQQ?oc=5",
-   "domain": "finance.yahoo.com",
-   "publishedAt": "2026-06-29T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSVZsV0oxNXdKN29WZnhQM09JN1d0UUpzd0pZUG5jTmMzNUZZRloxb2tWSlM4YmtJTGpjSmZudFlHRlFkbHJQcW5yRFFCM0dHSXNUQ1dndlRTa25wNnptRGFEeTdqZURWd0ZyTE9JWnIwM2ZmRWx1SHBnM2tscVNWYUlSZHJCZFpoRlIzdnFmMjFFQ1hBUTlEb2cyeTAxQQ?oc=5"
-    }
-   ],
-   "baseScore": 1.25
-  },
-  {
-   "id": "b3ea388ba2b2",
-   "title": "Wix's Base44 builds its own AI model as race for specialized LLMs intensifies",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5WZVpwdEVGRC1FbTZmTUtOU2hvRlJ1N2IwN1AxWUVMS3B5djMtVnFwUEVFSFZrS0FTRDA3SnN6VF9wVjh2Y1ZjRU9PRHVydE5GbFdEaWYwZHQ3VmFkeWFiWFBCckQ4UEZN?oc=5",
-   "domain": "calcalistech.com",
-   "publishedAt": "2026-06-29T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5WZVpwdEVGRC1FbTZmTUtOU2hvRlJ1N2IwN1AxWUVMS3B5djMtVnFwUEVFSFZrS0FTRDA3SnN6VF9wVjh2Y1ZjRU9PRHVydE5GbFdEaWYwZHQ3VmFkeWFiWFBCckQ4UEZN?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "b2e1dd733e80",
-   "title": "Base44 Pricing Guide: 2026 Plans and Deals",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EM2lhQWFtV1dabWVrb2J2X1RQdkZMRDlWYzN2d28tTWludjQ5X016ZUdjNUNzZk92Yi05eFJxMURXa0xwLXRSQ2RjRUlaVkptRUZmNQ?oc=5",
-   "domain": "allaboutcookies.org",
-   "publishedAt": "2026-06-26T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EM2lhQWFtV1dabWVrb2J2X1RQdkZMRDlWYzN2d28tTWludjQ5X016ZUdjNUNzZk92Yi05eFJxMURXa0xwLXRSQ2RjRUlaVkptRUZmNQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "6842df96d521",
-   "title": "CoFounder.AI Launches the First AI Built to Be a Partner, Not a Product",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR2xEVThNbUVxdXRCbENsY3pocXd3V09MaDJzQktBNWVQOFBwTDdwQk5GYzhfV3ljNHJUYWFYYnJNcGc1QjRITFE2WGc0aGdGSU02eG5EWm5EOWhUMjR3b3ZVY1FjZERhWmNjS2poUVNDQ3NqU05jNENSQ2MxdXJVTFdrWmZZdw?oc=5",
-   "domain": "sg.finance.yahoo.com",
-   "publishedAt": "2026-06-25T07:00:00.000Z",
+   "id": "3462e9d4bac3",
+   "title": "How AI Coding Agents Changed What VCs Want From a Technical Cofounder",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3hlcllmNjYzanQ0R0FHdDJUSFByb1FRYi0taGNiSTEtVVFkakJLWC1LQVJzT3ozZHZ3MEFqX2VxTlZNVURadjhQd2t6QVRORDhjRFZ2ODYxWENzWUgzWnVvVmZyZzdHRURjQm1SS0ZvZWVPNE1qMFUwRmNGXzZZSHJYOVZQOHBVNmd1YkJicW1GT0lwUDdEQXN0UnFhdw?oc=5",
+   "domain": "startupfortune.com",
+   "publishedAt": "2026-08-10T07:08:14.000Z",
    "companySlug": "cofounder",
-   "kind": "product",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR2xEVThNbUVxdXRCbENsY3pocXd3V09MaDJzQktBNWVQOFBwTDdwQk5GYzhfV3ljNHJUYWFYYnJNcGc1QjRITFE2WGc0aGdGSU02eG5EWm5EOWhUMjR3b3ZVY1FjZERhWmNjS2poUVNDQ3NqU05jNENSQ2MxdXJVTFdrWmZZdw?oc=5"
-    }
-   ],
-   "baseScore": 1.65
-  },
-  {
-   "id": "1a988f309777",
-   "title": "How the Midjourney ultrasound project started a war between medicine and tech",
-   "url": "https://www.argmin.net/p/all-data-is-good-data",
-   "domain": "argmin.net",
-   "publishedAt": "2026-06-23T17:21:36Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48648233",
-     "points": 2,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.29
-  },
-  {
-   "id": "0a24e7d07374",
-   "title": "Midjourney, The AI Image Generator, Is Developing A Full-Body Ultrasonic Scanner",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwNC14T3dRb0R6YmctVVNUSGlIaXhSNWtjRGNCUTlLZV9mVDNYWFZuUEVQdFVydUFKZWNSci1FYU5KcWhCNWp0a0lpeG9lTTQ5ejhhOEw5U2dERVloQ2xRWkFTYjhmVUktNlY2WU16XzMycmdlRFlHLWktUUFvZw?oc=5",
-   "domain": "engadget.com",
-   "publishedAt": "2026-06-23T07:00:00.000Z",
-   "companySlug": "midjourney",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwNC14T3dRb0R6YmctVVNUSGlIaXhSNWtjRGNCUTlLZV9mVDNYWFZuUEVQdFVydUFKZWNSci1FYU5KcWhCNWp0a0lpeG9lTTQ5ejhhOEw5U2dERVloQ2xRWkFTYjhmVUktNlY2WU16XzMycmdlRFlHLWktUUFvZw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3hlcllmNjYzanQ0R0FHdDJUSFByb1FRYi0taGNiSTEtVVFkakJLWC1LQVJzT3ozZHZ3MEFqX2VxTlZNVURadjhQd2t6QVRORDhjRFZ2ODYxWENzWUgzWnVvVmZyZzdHRURjQm1SS0ZvZWVPNE1qMFUwRmNGXzZZSHJYOVZQOHBVNmd1YkJicW1GT0lwUDdEQXN0UnFhdw?oc=5"
     }
    ],
-   "baseScore": 1.1
+   "baseScore": 1.1,
+   "hot": true
   },
   {
-   "id": "29ce6e4799cb",
-   "title": "I was wrong about the Midjourney ultra-sound scanner",
-   "url": "https://twitter.com/MattZirwas/status/2068365802491834541",
-   "domain": "twitter.com",
-   "publishedAt": "2026-06-21T12:55:08Z",
-   "companySlug": "midjourney",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48618536",
-     "points": 89,
-     "comments": 54
-    }
-   ],
-   "baseScore": 2.33
-  },
-  {
-   "id": "609bb5ac22be",
-   "title": "BFLY Stock Soars, Wows Michael Burry As Midjourney Taps Butterfly Tech For AI-Powered Full-Body Scanner",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc0I1U090UEFMS0hpV3d2bm9kcTMwanpaTkZqcmgyUnl3S1RXV2dEQTFPdDRDbFFMMFNvekRSUlRqbmV3YVM2M0FLQVFrcm50T2pmZGQ4blctYXdseUVzS1VDbTFVbWp1M3hOOVdXT0hKVDZDTWtheFU5N0Uxamh2TEl3SXFqR04zTkJEUGZBNVV0LVdmeWpfSkdVc2YwRWVCMWV1ZGdjYmp3RmJhbTlDbHRKR1RKczJZaFlFSmdDVnBhVlBN?oc=5",
-   "domain": "stocktwits.com",
-   "publishedAt": "2026-06-22T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc0I1U090UEFMS0hpV3d2bm9kcTMwanpaTkZqcmgyUnl3S1RXV2dEQTFPdDRDbFFMMFNvekRSUlRqbmV3YVM2M0FLQVFrcm50T2pmZGQ4blctYXdseUVzS1VDbTFVbWp1M3hOOVdXT0hKVDZDTWtheFU5N0Uxamh2TEl3SXFqR04zTkJEUGZBNVV0LVdmeWpfSkdVc2YwRWVCMWV1ZGdjYmp3RmJhbTlDbHRKR1RKczJZaFlFSmdDVnBhVlBN?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "73607f7fe587",
-   "title": "Top 6 AI App Builders: Lovable, Base44 & Glide",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9vSHBKVS1OY2JuczhwcnFNWjJacEhMbEJmWm9CR3k1eE9yWm0zNUd6VnREWERSc1J5M0Z6ZDV5LVNRcTZxMEwxQXFBbHFXYm8?oc=5",
-   "domain": "aimultiple.com",
-   "publishedAt": "2026-06-19T10:54:55.000Z",
+   "id": "81bb29477716",
+   "title": "The tattoo artist behind Base44's origin story enters high tech",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aX3liMU1WZ1FUTFNNNVlhS0d4UHRCZi1tSC1PUy1XYlI4bTl5eG5mSU5YdFlMTHJvdTBxbmk4MjB2MmFjcHNKdTZNOFhuYzhmQlBHNlBtTGlIOEdjdldsbEs0b0JnTVBi?oc=5",
+   "domain": "calcalistech.com",
+   "publishedAt": "2026-08-07T09:30:00.000Z",
    "companySlug": "base44",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9vSHBKVS1OY2JuczhwcnFNWjJacEhMbEJmWm9CR3k1eE9yWm0zNUd6VnREWERSc1J5M0Z6ZDV5LVNRcTZxMEwxQXFBbHFXYm8?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aX3liMU1WZ1FUTFNNNVlhS0d4UHRCZi1tSC1PUy1XYlI4bTl5eG5mSU5YdFlMTHJvdTBxbmk4MjB2MmFjcHNKdTZNOFhuYzhmQlBHNlBtTGlIOEdjdldsbEs0b0JnTVBi?oc=5"
     }
    ],
-   "baseScore": 1.1
+   "baseScore": 1.1,
+   "hot": true
   },
   {
-   "id": "87d0afc4ac3d",
-   "title": "Preliminary Thoughts On The Midjourney Scanner",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5blJVTVRLSHM5MDQtWEowcUFFLTZhWHNET2tnRkN2bm1WdG9Va1Z1WkNjOTVfT0h1ZjNHZEF6U1UxQXA1eHBRcFVaMWtnekgtTjBwNGhCdjRxbV83UTNLZlZKbEhoUVdOYURUWUN3VjFiYXpoLUlaaEJvNA?oc=5",
-   "domain": "astralcodexten.com",
-   "publishedAt": "2026-06-18T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5blJVTVRLSHM5MDQtWEowcUFFLTZhWHNET2tnRkN2bm1WdG9Va1Z1WkNjOTVfT0h1ZjNHZEF6U1UxQXA1eHBRcFVaMWtnekgtTjBwNGhCdjRxbV83UTNLZlZKbEhoUVdOYURUWUN3VjFiYXpoLUlaaEJvNA?oc=5"
-    },
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48615879",
-     "points": 3,
-     "comments": 1
-    }
-   ],
-   "baseScore": 1.9
-  },
-  {
-   "id": "924d6a6e9295",
-   "title": "AI lab Midjourney investing over $74M to launch whole-body ultrasound screening business",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTjh6S0lJajl0aVk0NnhGSEI5Z0pKb3FjMzgzbGYyaEltMUs3Tk8wUFpuR1RJeVFFYjlKLWZQdjduaXdHMEg0cm1mRHNrR0ZDcmg3X1llcjg1WWpBZkt1ZFk0ZTBpN096VUZMNVdUSmYxODFUR1lUdXNKWlUxbEplMUo5Z3dBaTQyQThkeTNyVURXZWdkeEtvX0ZEMzU0cWxLSkVZNnlTb3UxcWhjM2xyRl83LV95Z1U5WVpQQXFjX2I2SklPMTNxbkdnR01ZUzVYN0hpbEwtaVpfUTRmcjEwZVBKbGdEREsxbW43Umo0a3k1RVFOTjRN?oc=5",
-   "domain": "radiologybusiness.com",
-   "publishedAt": "2026-06-19T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTjh6S0lJajl0aVk0NnhGSEI5Z0pKb3FjMzgzbGYyaEltMUs3Tk8wUFpuR1RJeVFFYjlKLWZQdjduaXdHMEg0cm1mRHNrR0ZDcmg3X1llcjg1WWpBZkt1ZFk0ZTBpN096VUZMNVdUSmYxODFUR1lUdXNKWlUxbEplMUo5Z3dBaTQyQThkeTNyVURXZWdkeEtvX0ZEMzU0cWxLSkVZNnlTb3UxcWhjM2xyRl83LV95Z1U5WVpQQXFjX2I2SklPMTNxbkdnR01ZUzVYN0hpbEwtaVpfUTRmcjEwZVBKbGdEREsxbW43Umo0a3k1RVFOTjRN?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "caf7a0c5d1a4",
-   "title": "Midjourney brought the world AI slop. Now, it’s bringing saunas to Union Square",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcUdpYlREckl2eTFCSUY0SlQxajhQenhSQ1FoWnpwS05PbnhBdnh3LXBwVHNEOHZtOEo0QWlhcDk3XzZjQ29GY1ktWGJpOEdRRlgwamE2T3F4TkV3VnEzS2MteWdRTTZzLV9IeVlwOENxX0RnakNZRnNMVjZoRFRvVA?oc=5",
-   "domain": "sfstandard.com",
-   "publishedAt": "2026-06-19T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcUdpYlREckl2eTFCSUY0SlQxajhQenhSQ1FoWnpwS05PbnhBdnh3LXBwVHNEOHZtOEo0QWlhcDk3XzZjQ29GY1ktWGJpOEdRRlgwamE2T3F4TkV3VnEzS2MteWdRTTZzLV9IeVlwOENxX0RnakNZRnNMVjZoRFRvVA?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "162d756623ad",
-   "title": "Midjourney's Move Into Medicine Is A Bet On Data, Not Doctors",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYVVXX3Z0OUdaYXctRjNCMHhJU0lJS2VDRFk5cTRjV21ySUJVVmZUbnlhcjE2QTZnUFBxdGxGZm1QemFjMUxuYmFKeXBBWDlfNWJZUFNqd2c5QThrTTlYRXZGX3V3dnRSZEVOczVJX2lWRFEwbjdDd2dpdFlOVU1DTUh5WnNjNC03UVJRelRBSVhGRm80TFBHR1hWUnZ0b2RUQzlCWVJ0MXZfc05aaTVxdGdvdzRmeGd1bkF2bg?oc=5",
-   "domain": "forbes.com",
-   "publishedAt": "2026-06-19T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYVVXX3Z0OUdaYXctRjNCMHhJU0lJS2VDRFk5cTRjV21ySUJVVmZUbnlhcjE2QTZnUFBxdGxGZm1QemFjMUxuYmFKeXBBWDlfNWJZUFNqd2c5QThrTTlYRXZGX3V3dnRSZEVOczVJX2lWRFEwbjdDd2dpdFlOVU1DTUh5WnNjNC03UVJRelRBSVhGRm80TFBHR1hWUnZ0b2RUQzlCWVJ0MXZfc05aaTVxdGdvdzRmeGd1bkF2bg?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "a5092921b6e2",
-   "title": "Butterfly Network Shares Jump as Midjourney Unveils Imaging Platform Built on Ultrasound-on-Chip Technology (BFLY)",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ0U2MTM1QzhTTFh5QjRleUpGTWFuNWw4QXFPa3huQ0VxOWhwand2QkdSQXdMOVIzZFZDUzJkMWYzaWY3T3NoMWtMTXYzeXFiNUpMdXNMUEpzS1hQNnpFWlR1cXBrVzlwRkhsM2hnVjQ2ZDh3VVdDZ3RIWUlXeVU2bjBKRkMwMzA2djBCSDJwWlU1T2JNeklXTlpZWmFfd2xLTUww?oc=5",
+   "id": "7f913f0c4f4c",
+   "title": "Payman AI Receives ICBA ThinkTECH Accelerator Banker’s Choice Award",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2h4R2lzMk9yM3hNVzRUeWdVcGl1YTY2RU1hUmpfUGllSGVrenAxV1MwRDNRMm9WbjJGMWZIN1hZR0VRYlR3NmxNLWY1WDRHaVViM0xQWkdYUWN6Vy1PRTlPamNTM012Skt2YlpiVnRrS1FSSU9kSDU4VUFkUTVIQm5paDVibGduMmZFNzZVU245bno3SUFxNFljREVMZw?oc=5",
    "domain": "finance.yahoo.com",
-   "publishedAt": "2026-06-18T07:00:00.000Z",
+   "publishedAt": "2026-08-05T13:30:00.000Z",
+   "companySlug": "payman",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2h4R2lzMk9yM3hNVzRUeWdVcGl1YTY2RU1hUmpfUGllSGVrenAxV1MwRDNRMm9WbjJGMWZIN1hZR0VRYlR3NmxNLWY1WDRHaVViM0xQWkdYUWN6Vy1PRTlPamNTM012Skt2YlpiVnRrS1FSSU9kSDU4VUFkUTVIQm5paDVibGduMmZFNzZVU245bno3SUFxNFljREVMZw?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "hot": true
+  },
+  {
+   "id": "e5e871623ba1",
+   "title": "Wix.com Ltd (WIX) (Q2 2026) Earnings Call Highlights: AI-Driven Growth Accelerates as Base44 ...",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTlHNmFlemt0Z2RnNFptZjYyNDcxOFVoSENhQkdDUDF2dzlEUF91MXlhVWV1WHVIZDlGWUh5LTNsOXVmZlRESHpFSlRtVWRyLS11ak1QZlZoTDltaUpXVU5VR2szMjRkdXU0QkZ5dnh2RjFXZGlMVndiQjdaeWxndGQ1anZHYWxSd1E?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-08-04T21:03:25.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTlHNmFlemt0Z2RnNFptZjYyNDcxOFVoSENhQkdDUDF2dzlEUF91MXlhVWV1WHVIZDlGWUh5LTNsOXVmZlRESHpFSlRtVWRyLS11ak1QZlZoTDltaUpXVU5VR2szMjRkdXU0QkZ5dnh2RjFXZGlMVndiQjdaeWxndGQ1anZHYWxSd1E?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "hot": true
+  },
+  {
+   "id": "1ea885c7403f",
+   "title": "Wix Q2 revenue grows 15%, Base44 AI platform ma...",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0xmMTNjLUFLQWNoMGdyaGkxS2cyQzFWeG1jT2RqRVB4WjI0aEtubkl2d1FLcVJQX0ViN0FOWVBlRTdtN3Zfdlc5ZTlLSy1RNmE2OW9NX2ZBbzJvdU01UDY3aW82eHJoWFFpVEg3QXZMYVRhVkswR3JuTml0VmpvVVdQOTNGZVdoRmJPSUVidVpneWl2ZUNkSE5B?oc=5",
+   "domain": "pluang.com",
+   "publishedAt": "2026-08-04T20:09:52.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0xmMTNjLUFLQWNoMGdyaGkxS2cyQzFWeG1jT2RqRVB4WjI0aEtubkl2d1FLcVJQX0ViN0FOWVBlRTdtN3Zfdlc5ZTlLSy1RNmE2OW9NX2ZBbzJvdU01UDY3aW82eHJoWFFpVEg3QXZMYVRhVkswR3JuTml0VmpvVVdQOTNGZVdoRmJPSUVidVpneWl2ZUNkSE5B?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "e52957564cf8",
+   "title": "Wix beats expectations as AI platform Base44 drives 15% revenue growth in Q2",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJVm1uVmFOcmMxd1lwd3FsdDBLNVZBVDZ2WFFjVy1pWFJDZzRGTi0xR2EwaGY5MEpxMW1KdmR1djMzd25aeXptNFFqSl9CajhqYmR0NmN1RDhaTEJwUHlaQ1FB?oc=5",
+   "domain": "ynetnews.com",
+   "publishedAt": "2026-08-04T19:24:32.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJVm1uVmFOcmMxd1lwd3FsdDBLNVZBVDZ2WFFjVy1pWFJDZzRGTi0xR2EwaGY5MEpxMW1KdmR1djMzd25aeXptNFFqSl9CajhqYmR0NmN1RDhaTEJwUHlaQ1FB?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "69635086ddbb",
+   "title": "Wix Q2 results show steady core business and improving Base44 economics",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0ZiNURScVB3Q2h6Sm5tWHFCMVlObEd2alJlaUxCaWc2QzF1b3lIdEExMm1XM0I0aHBERF9EWjJ0SzFSU09Mb1lCbzR3WTh5X2xfMmNHc1ZFN05Yd1Z0clZYZk12ZjBvby1welZfTzdiOWllTm8tSDVSanNRcHIyOS14a2JsRkRFMnh3SllqYjVkc1A1elBJUmRhaHNvNzY5Z2JqdFBQTTRyM1Vmd2p1Y0F3MFREbkhETTJHbzZIWTJkeGc5RmM2QjNPbmVDbW4yalRrQS1BUEZEQQ?oc=5",
+   "domain": "proactiveinvestors.com",
+   "publishedAt": "2026-08-04T15:35:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0ZiNURScVB3Q2h6Sm5tWHFCMVlObEd2alJlaUxCaWc2QzF1b3lIdEExMm1XM0I0aHBERF9EWjJ0SzFSU09Mb1lCbzR3WTh5X2xfMmNHc1ZFN05Yd1Z0clZYZk12ZjBvby1welZfTzdiOWllTm8tSDVSanNRcHIyOS14a2JsRkRFMnh3SllqYjVkc1A1elBJUmRhaHNvNzY5Z2JqdFBQTTRyM1Vmd2p1Y0F3MFREbkhETTJHbzZIWTJkeGc5RmM2QjNPbmVDbW4yalRrQS1BUEZEQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "d94e51167121",
+   "title": "WIX: Q2 2026 revenue rose 15% y/y, with Base44's LLM launch driving margin gains and lower AI costs",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQaVhKNWNlQmFrMHRudU9oM2hoUy1raGE5anU1SVNrQWdwcTk5eGdmdzh1bzZPb3QyLTFpTFdlM2dwdkpWLWsyeDZlcGJjNnJPU3cwUm5rTlpUUTlKaWc4UjJZb1RzcTN6ZzNQRlY5VEVkOGZCaWhHcmd5V09ua0N2YUU5Nk9MSlNUOXVwMTlUXzdwQ0RMVUFENUx6M2xESmRUalhWNVZaTzQ5TGlnbWt2VkJvWndNUGxKOXNNbk1vc0RUa0xPenliUGZtcGxMYnc4SkFGUUxtbXZGa3U5akdFT0M2djE2Ym04eGZwSXF2X00zeVdTelk0TlFzLWhEWlFLcUotWGRoUzNiZjA?oc=5",
+   "domain": "tradingview.com",
+   "publishedAt": "2026-08-04T11:32:12.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQaVhKNWNlQmFrMHRudU9oM2hoUy1raGE5anU1SVNrQWdwcTk5eGdmdzh1bzZPb3QyLTFpTFdlM2dwdkpWLWsyeDZlcGJjNnJPU3cwUm5rTlpUUTlKaWc4UjJZb1RzcTN6ZzNQRlY5VEVkOGZCaWhHcmd5V09ua0N2YUU5Nk9MSlNUOXVwMTlUXzdwQ0RMVUFENUx6M2xESmRUalhWNVZaTzQ5TGlnbWt2VkJvWndNUGxKOXNNbk1vc0RUa0xPenliUGZtcGxMYnc4SkFGUUxtbXZGa3U5akdFT0M2djE2Ym04eGZwSXF2X00zeVdTelk0TlFzLWhEWlFLcUotWGRoUzNiZjA?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "619c8df70a77",
+   "title": "Wix Q2 2026 slides: AI push drives 15% revenue growth, Base44 scales",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcjBNZTRDbDVod1lQMC1DWTYwRjh4VDRvcWZabGxqaDR3SkgtWmRENXN0QWcxSVRrM1hqV2Y5SjNwSGRqNEFoWndzUkZLbXlwTFIwQ3l1WEpGVFVSX19peGNPTjhqVzcwSWN1NjlZZjNKeEZaOFNvdWdIMGRKWEhkVnBwMGNSU0VfdThtVF9MM0oyWkVTbjdGdkNfalhUbmlnZVdObXNTOHFKcV84QVByc1lrWkVhVnRla2ljUklzMA?oc=5",
+   "domain": "investing.com",
+   "publishedAt": "2026-08-04T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcjBNZTRDbDVod1lQMC1DWTYwRjh4VDRvcWZabGxqaDR3SkgtWmRENXN0QWcxSVRrM1hqV2Y5SjNwSGRqNEFoWndzUkZLbXlwTFIwQ3l1WEpGVFVSX19peGNPTjhqVzcwSWN1NjlZZjNKeEZaOFNvdWdIMGRKWEhkVnBwMGNSU0VfdThtVF9MM0oyWkVTbjdGdkNfalhUbmlnZVdObXNTOHFKcV84QVByc1lrWkVhVnRla2ljUklzMA?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "25a66d182a10",
+   "title": "Maor Shlomo's Base44 payday climbs to $150 million after latest Wix payout",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QUjZQcjd3Z3IzanhqaVpIV1A4R0stOWw2cVZMVFlnOWEtUHlCLUk2TXRKNnFXYVdJUC1FeW4zWHFDOVpHX2FGN19lVHpkMXdRT3Jqc3RucVpqYzBnUV93dWpmeFBTWjg?oc=5",
+   "domain": "calcalistech.com",
+   "publishedAt": "2026-08-04T06:40:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QUjZQcjd3Z3IzanhqaVpIV1A4R0stOWw2cVZMVFlnOWEtUHlCLUk2TXRKNnFXYVdJUC1FeW4zWHFDOVpHX2FGN19lVHpkMXdRT3Jqc3RucVpqYzBnUV93dWpmeFBTWjg?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "801b27945ffd",
+   "title": "Wix's Base44 bet comes at a price as losses widen to $76.4 million",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1USnZBWXNLaHVPMUdPcXgyd0ZETlBkdWdRRktYbnBBTmFqTU9FOXpsZHBLZ2RDR2k2MFB6NWdyUV9QeDd1anNkVzlWZmRRUlJFaDRVRjZUakludFJ2Zk5FVXI2YjVLbVk?oc=5",
+   "domain": "calcalistech.com",
+   "publishedAt": "2026-08-04T06:18:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1USnZBWXNLaHVPMUdPcXgyd0ZETlBkdWdRRktYbnBBTmFqTU9FOXpsZHBLZ2RDR2k2MFB6NWdyUV9QeDd1anNkVzlWZmRRUlJFaDRVRjZUakludFJ2Zk5FVXI2YjVLbVk?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "aca43e8c9730",
+   "title": "California AI Transparency Act Operative: Midjourney Has No Watermark, Fines Start Today",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSnNaNk8wb2ZFSVJBZnhJNlNfZm1HdzhEWXBkSzJvWEZZNXRTV1dYbUJXMHZvbm9DSk9yUTJSdmQxdHE4NmhLYnNQMWwxRk9ib2dkTlJaMnVfcExIdktvT0VpcXc0ZFdTeDJpWGpLbXRRd0QyQzk1Vjh6MFBDTm9BX1JJRnVWaFJEaVQ1ejZpVzhhemJMNU9GUkNpYW5UV2pOUGZFenhXZUdWc2VZWUl3RzVHSk8zbUhyV2ZzcGhhOWNpNHZDeVNrd2xvMGMta2YwZFFPM0V6RVU?oc=5",
+   "domain": "techtimes.com",
+   "publishedAt": "2026-08-02T19:51:31.000Z",
    "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSnNaNk8wb2ZFSVJBZnhJNlNfZm1HdzhEWXBkSzJvWEZZNXRTV1dYbUJXMHZvbm9DSk9yUTJSdmQxdHE4NmhLYnNQMWwxRk9ib2dkTlJaMnVfcExIdktvT0VpcXc0ZFdTeDJpWGpLbXRRd0QyQzk1Vjh6MFBDTm9BX1JJRnVWaFJEaVQ1ejZpVzhhemJMNU9GUkNpYW5UV2pOUGZFenhXZUdWc2VZWUl3RzVHSk8zbUhyV2ZzcGhhOWNpNHZDeVNrd2xvMGMta2YwZFFPM0V6RVU?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "0fc9434d1490",
+   "title": "Midjourney Copied Thousands of Car Photos to Train AI, Suit Says",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRWN3NGh5LS1oWVFuRTVsZUdLM1RaaW9HWGFJQzhUQ19KSUtHTFBCUVV0bXZfemo5bGU5S0gwV1U4YkR0c0ZKUXc3NnRadnFNRXU3bTl2bkJjZW9ZS3ZrcGxqTmdlZjhfcno2S0wzTTlJXzJJaEhNSGNPaWJKMkNlZHMxNDNKUjhOYnJ5MC14RnEyR2g0LUVrMHVpVV83cnFyWUE?oc=5",
+   "domain": "news.bloomberglaw.com",
+   "publishedAt": "2026-07-31T22:23:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRWN3NGh5LS1oWVFuRTVsZUdLM1RaaW9HWGFJQzhUQ19KSUtHTFBCUVV0bXZfemo5bGU5S0gwV1U4YkR0c0ZKUXc3NnRadnFNRXU3bTl2bkJjZW9ZS3ZrcGxqTmdlZjhfcno2S0wzTTlJXzJJaEhNSGNPaWJKMkNlZHMxNDNKUjhOYnJ5MC14RnEyR2g0LUVrMHVpVV83cnFyWUE?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "0147ea0a3434",
+   "title": "Base44 founder Maor Shlomo launches cancer research fund after losing his mother to the disease",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAza3VzbzNOekNoOUV2N0g5VFhENnVmWXlhOW1rci12ajJaNzBLZ1ZaT2s2VVBsRTJXZEg0LXYxQlB1WloxVTNLSUc0c3A1NXJ6MjZOY0xZdV9qLTJUemhuNTdlbHh0VE5DZ1E?oc=5",
+   "domain": "calcalistech.com",
+   "publishedAt": "2026-07-30T07:00:00.000Z",
+   "companySlug": "base44",
    "kind": "product",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ0U2MTM1QzhTTFh5QjRleUpGTWFuNWw4QXFPa3huQ0VxOWhwand2QkdSQXdMOVIzZFZDUzJkMWYzaWY3T3NoMWtMTXYzeXFiNUpMdXNMUEpzS1hQNnpFWlR1cXBrVzlwRkhsM2hnVjQ2ZDh3VVdDZ3RIWUlXeVU2bjBKRkMwMzA2djBCSDJwWlU1T2JNeklXTlpZWmFfd2xLTUww?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAza3VzbzNOekNoOUV2N0g5VFhENnVmWXlhOW1rci12ajJaNzBLZ1ZaT2s2VVBsRTJXZEg0LXYxQlB1WloxVTNLSUc0c3A1NXJ6MjZOY0xZdV9qLTJUemhuNTdlbHh0VE5DZ1E?oc=5"
     }
    ],
    "baseScore": 1.65
   },
   {
-   "id": "cdbd7bb7c59b",
-   "title": "Midjourney unveils planned ultrasound scanner with help from Butterfly",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLWhTbnFPODlpRzlRVjNOU0gxRjJ6akNHVDF2b1dDUC1wQ0MxR2U5YnFxRXh3Si04SU1vUzVfSHlvNGVwcXNKTkJCYnpoY2FCYUtUam9idzZFbFF0WkxOY0hsbExXZUxWVGI1a3ZDR3BlREpYWjNTQ0JwRjQyQWpnZ3JZUV9BYnZFSXdnc1JtRXYyLXlacFhZN1E3M3FKM0dqZmF5NkVrUkpnSEhRYVo1QVdxTVk1V2duTkJVRFBYR0tIR201RzVKSUNIdWV5dlpmTlE?oc=5",
-   "domain": "auntminnie.com",
-   "publishedAt": "2026-06-18T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "product",
+   "id": "c1737a2a3aa5",
+   "title": "COAI to VUV: Convert ChainOpera AI to Vanuatu Vatu | Live COAI Price in VUV | MEXC",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44M0kxTy0tcmtFZkdtbmZDcGJOTjNneFhyeEx1ZEdvZWY0SWJCbjdzck44Um5lM21jOVJ2MFFuVV9TSFNWcnI2SmJaTDJOVHhuSGc?oc=5",
+   "domain": "mexc.co",
+   "publishedAt": "2026-07-30T07:00:00.000Z",
+   "companySlug": "chainopera-ai",
+   "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLWhTbnFPODlpRzlRVjNOU0gxRjJ6akNHVDF2b1dDUC1wQ0MxR2U5YnFxRXh3Si04SU1vUzVfSHlvNGVwcXNKTkJCYnpoY2FCYUtUam9idzZFbFF0WkxOY0hsbExXZUxWVGI1a3ZDR3BlREpYWjNTQ0JwRjQyQWpnZ3JZUV9BYnZFSXdnc1JtRXYyLXlacFhZN1E3M3FKM0dqZmF5NkVrUkpnSEhRYVo1QVdxTVk1V2duTkJVRFBYR0tIR201RzVKSUNIdWV5dlpmTlE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44M0kxTy0tcmtFZkdtbmZDcGJOTjNneFhyeEx1ZEdvZWY0SWJCbjdzck44Um5lM21jOVJ2MFFuVV9TSFNWcnI2SmJaTDJOVHhuSGc?oc=5"
     }
    ],
-   "baseScore": 1.65
+   "baseScore": 1.1
   },
   {
-   "id": "af29a997dbd0",
-   "title": "Artisan’s Ava 2.0: What a Fully Autonomous AI BDR Actually Looks Like in Production with CEO Jaspar Carmichael-Jack",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRzc4ZS11UjA2QUgzekRFRnlXYUhlTVFyWU5SUmdYMnlDdWhiYVgwYndrTEU0dkdXQTAxRDQ2MG42MDZHSmVuMlRGQWVzcVJkVFhIblpZYkM4TXdjalU4Y0h6OG9zRGpJWWVFOXFXbjZHbmtzVUFtMDRhUFN6YS1kRUMyb0dnVXNpdTcwLWM0dWFySnFOUHRuYzU1UURSV3g0M2ZrTDVpUVE3OW13YjNWT2ZIcjlCUlJsUTBqeERQN19yMHZFeloyNzNCenNLcVVwalBJ?oc=5",
-   "domain": "saastr.com",
-   "publishedAt": "2026-06-18T12:10:47.000Z",
+   "id": "5fc782d8da24",
+   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-29T07:11:07.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "8c75df503d6a",
+   "title": "Artisan Partners (NYSE:APAM) Surprises With Q2 CY2026 Sales",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObUxWZG16UUpxZDBTZmFMTE5La05yZXNUczIycjZuNHZ2SUx5aktuWnNiNkVsdVZ0ZWJuZkw4MU0wNkFTelRFM3lOdV9UaTZvMjcwblRDQmZCVk5iMHFwN3dySGFQLU40Q04yRkN2eEhyU2loblhMMDBBdUgzMHlkaFZPMFZTdTdIb3FYSEFvQW9RSk96eUlfRVZ0Z09PeEh3dUdmbXowMGs4ZjZKLUUwc2lmSjBHcHVldDEzVkNLbjdxQXJxX1ExSDBGN1dPSHR3MVByOWRVVEg?oc=5",
+   "domain": "theglobeandmail.com",
+   "publishedAt": "2026-07-28T21:48:00.000Z",
    "companySlug": "artisan",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRzc4ZS11UjA2QUgzekRFRnlXYUhlTVFyWU5SUmdYMnlDdWhiYVgwYndrTEU0dkdXQTAxRDQ2MG42MDZHSmVuMlRGQWVzcVJkVFhIblpZYkM4TXdjalU4Y0h6OG9zRGpJWWVFOXFXbjZHbmtzVUFtMDRhUFN6YS1kRUMyb0dnVXNpdTcwLWM0dWFySnFOUHRuYzU1UURSV3g0M2ZrTDVpUVE3OW13YjNWT2ZIcjlCUlJsUTBqeERQN19yMHZFeloyNzNCenNLcVVwalBJ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObUxWZG16UUpxZDBTZmFMTE5La05yZXNUczIycjZuNHZ2SUx5aktuWnNiNkVsdVZ0ZWJuZkw4MU0wNkFTelRFM3lOdV9UaTZvMjcwblRDQmZCVk5iMHFwN3dySGFQLU40Q04yRkN2eEhyU2loblhMMDBBdUgzMHlkaFZPMFZTdTdIb3FYSEFvQW9RSk96eUlfRVZ0Z09PeEh3dUdmbXowMGs4ZjZKLUUwc2lmSjBHcHVldDEzVkNLbjdxQXJxX1ExSDBGN1dPSHR3MVByOWRVVEg?oc=5"
     }
    ],
    "baseScore": 1.1
   },
   {
-   "id": "09a20b80258b",
-   "title": "Gusto Cofounder: An AI agent that runs payroll, HR, and benefits without waiting to be asked",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mRllVRElpSHZUQVpBeDdub3RhVlJjUFh6SURvbHREaGg0NEp5RnZicVlfUkRqSC1BaG9MRm1fQWhUclY5MkV0aEIyeURkUUJ5TEpWd3dFMmxrYmlxQkhvLTVoNm5rSGZs?oc=5",
-   "domain": "thenewstack.io",
-   "publishedAt": "2026-06-18T07:00:00.000Z",
+   "id": "90e720de9a66",
+   "title": "Rogue AI attack a ‘wake-up call,’ company cofounder says",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPekJ3ZWZWY2tmYmpNZnNCNjF2Y3lyOHNhdUV1RzBwaDIyRktoYWprY0FGT1ZZcDlaQjJZUl9qaU1uZnEybjBLazJUb29wVzNLd0FWRFZWeUI4aDF0Z2tGUjVYVzY1TWFfcF9hdlI2blM3VXBnTlhDVUQ0TlJXampWRTNybHh2cU94MXfSAY8BQVVfeXFMTXVPOWFwNnE4LWNmU1RNeV8zREpPRnlTV1RiR1hnQVpqeDZpeVc3MG5HRnpjV29BRWFmc0dGenNpWVhIa2xBSWtTOElSQUdSVnUtUTFJUXotRGVTbDg5cl8zanZTNGVQVk1ZT1VjVFkwVVBrUkhRUU1GWVVIM1FNVEZzSHZEcGo5SUVqbmVwbFk?oc=5",
+   "domain": "newsnationnow.com",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
    "companySlug": "cofounder",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mRllVRElpSHZUQVpBeDdub3RhVlJjUFh6SURvbHREaGg0NEp5RnZicVlfUkRqSC1BaG9MRm1fQWhUclY5MkV0aEIyeURkUUJ5TEpWd3dFMmxrYmlxQkhvLTVoNm5rSGZs?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPekJ3ZWZWY2tmYmpNZnNCNjF2Y3lyOHNhdUV1RzBwaDIyRktoYWprY0FGT1ZZcDlaQjJZUl9qaU1uZnEybjBLazJUb29wVzNLd0FWRFZWeUI4aDF0Z2tGUjVYVzY1TWFfcF9hdlI2blM3VXBnTlhDVUQ0TlJXampWRTNybHh2cU94MXfSAY8BQVVfeXFMTXVPOWFwNnE4LWNmU1RNeV8zREpPRnlTV1RiR1hnQVpqeDZpeVc3MG5HRnpjV29BRWFmc0dGenNpWVhIa2xBSWtTOElSQUdSVnUtUTFJUXotRGVTbDg5cl8zanZTNGVQVk1ZT1VjVFkwVVBrUkhRUU1GWVVIM1FNVEZzSHZEcGo5SUVqbmVwbFk?oc=5"
     }
    ],
    "baseScore": 1.1
   },
   {
-   "id": "8e16c71b3616",
-   "title": "Midjourney enters healthcare with 60-second full-body imaging system",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa3JBVVREZFRXekd6SnJNNTRRaU9iWkVhVTFGcGVIVmtnMG1rajViS3V2a0NDdXRMTzQtSC1tTW5qQk9mcWhzbGsxb01mdmFPYk9NRjhWZWJkS25US0U2bUFsdFlkWllFLWVkTzdudUtEYmlhZFRfUUt1c2U0dzIwOHVTYmg0ODBKbl9ReEEzbXdaaDE2VnJUdGdOQlZYT2d0?oc=5",
-   "domain": "mobihealthnews.com",
-   "publishedAt": "2026-06-18T07:00:00.000Z",
+   "id": "feaa9b9c0f74",
+   "title": "I Built a Budgeting App With Base44 — Here's How It Went",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYl81V1dQaWk1cEhGdEhmeVhVSjhjM2NRa2lQTUIwakZ1VHlfdENJLXpNQ3lYdUFTLXN0ZHhqXzlRTmVMcEZ3aFJ3Y2FQZHlyNFB6MmphS2lUTGdFcTFLLW1uSlZja0VwRTlWLWhPZWNDVU03NllYZw?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYl81V1dQaWk1cEhGdEhmeVhVSjhjM2NRa2lQTUIwakZ1VHlfdENJLXpNQ3lYdUFTLXN0ZHhqXzlRTmVMcEZ3aFJ3Y2FQZHlyNFB6MmphS2lUTGdFcTFLLW1uSlZja0VwRTlWLWhPZWNDVU03NllYZw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "0e341531cf07",
+   "title": "How To Start Vibe Coding With Base44: A Beginner's Guide to Building Your First App",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03NFZMZF9ySHdWeUFlVDNHdERldF9zVFpReU8wb1M1TEN5RzJmUEQtbG5uNElPMEp2Zm1WRDl5d0FpNTZmWm1la3hkQVZ4c2NNQnpXMVVmYjFXT0ZyTUhOcVRvVHllZVBfalYweG1EYjFpQQ?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03NFZMZF9ySHdWeUFlVDNHdERldF9zVFpReU8wb1M1TEN5RzJmUEQtbG5uNElPMEp2Zm1WRDl5d0FpNTZmWm1la3hkQVZ4c2NNQnpXMVVmYjFXT0ZyTUhOcVRvVHllZVBfalYweG1EYjFpQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "08566d4a13d1",
+   "title": "Midjourney Review 2026: Is It A Good Video & Image AI Generator?",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xbTRzZzdralFoUzRtbXFGOTN5aHZVcmNLX1p1RzZSS0ZIanRpb3dScFdQUy1lemlMSGhuWUo0YUF0MDljdHhOTUk0ZU9IbmpEWGhuQ9IBVEFVX3lxTE9xbTRzZzdralFoUzRtbXFGOTN5aHZVcmNLX1p1RzZSS0ZIanRpb3dScFdQUy1lemlMSGhuWUo0YUF0MDljdHhOTUk0ZU9IbmpEWGhuQw?oc=5",
+   "domain": "ventureburn.com",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
    "companySlug": "midjourney",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa3JBVVREZFRXekd6SnJNNTRRaU9iWkVhVTFGcGVIVmtnMG1rajViS3V2a0NDdXRMTzQtSC1tTW5qQk9mcWhzbGsxb01mdmFPYk9NRjhWZWJkS25US0U2bUFsdFlkWllFLWVkTzdudUtEYmlhZFRfUUt1c2U0dzIwOHVTYmg0ODBKbl9ReEEzbXdaaDE2VnJUdGdOQlZYT2d0?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xbTRzZzdralFoUzRtbXFGOTN5aHZVcmNLX1p1RzZSS0ZIanRpb3dScFdQUy1lemlMSGhuWUo0YUF0MDljdHhOTUk0ZU9IbmpEWGhuQ9IBVEFVX3lxTE9xbTRzZzdralFoUzRtbXFGOTN5aHZVcmNLX1p1RzZSS0ZIanRpb3dScFdQUy1lemlMSGhuWUo0YUF0MDljdHhOTUk0ZU9IbmpEWGhuQw?oc=5"
     }
    ],
    "baseScore": 1.1
   },
   {
-   "id": "da13ed7ac5bf",
-   "title": "What Butterfly’s saying about Midjourney’s ultrasonic CT plans",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMVk2a1Q5UGF5UXZQYnRuRUFleUg3eUNUd3VKc09zamEyS2J3bUV3aTBZUTZySG0xWUI5Rlc3ZUN1X1N4Z1A2WHRpMURkYW4xMXFaaEc3YU5TYXBxLVNoLWNvWlRiajlRdXYyXzJ6Q2VjQUs1YnlJcElOaGRPNEE3Tm9uSGlMTXVyX21EMzdDNWk?oc=5",
-   "domain": "medicaldesignandoutsourcing.com",
-   "publishedAt": "2026-06-18T07:00:00.000Z",
+   "id": "6612e6dc3957",
+   "title": "Medical AI Tool (Credit: Midjourney)",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQXpUdU80RnNuSnFKS3lrWmtHSlhhU0VCWHBoRUt5YWUxaFRVZkhMalNodmFGdGJ1R203ejVmR2JTbHZyRno5YzQycXowZW1GZnZzX3pKMVg3MEZIZ1FnZk1YenVlZkI5ekN3V2tneFRpamNsZHZkRHk3TENDcDdia2JmdDRucEpBR1hmbFhzQQ?oc=5",
+   "domain": "viterbischool.usc.edu",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
    "companySlug": "midjourney",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMVk2a1Q5UGF5UXZQYnRuRUFleUg3eUNUd3VKc09zamEyS2J3bUV3aTBZUTZySG0xWUI5Rlc3ZUN1X1N4Z1A2WHRpMURkYW4xMXFaaEc3YU5TYXBxLVNoLWNvWlRiajlRdXYyXzJ6Q2VjQUs1YnlJcElOaGRPNEE3Tm9uSGlMTXVyX21EMzdDNWk?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQXpUdU80RnNuSnFKS3lrWmtHSlhhU0VCWHBoRUt5YWUxaFRVZkhMalNodmFGdGJ1R203ejVmR2JTbHZyRno5YzQycXowZW1GZnZzX3pKMVg3MEZIZ1FnZk1YenVlZkI5ekN3V2tneFRpamNsZHZkRHk3TENDcDdia2JmdDRucEpBR1hmbFhzQQ?oc=5"
     }
    ],
    "baseScore": 1.1
   },
   {
-   "id": "90e159c3687d",
-   "title": "Midjourney pivots from AI image generation to body scanning medical spa where patients bathe in 'golden light'",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOc25nSjI5N0ZFaE1lQlVtXzIzeEEtTTlMY1JVNXQwcmxMblBhN2doQmhvb2hXVFRkZDg3SVFab000Vmk3QkZaM0F1TFJGOFg5WWtDUGRxdzVEbGFUd3M1N0hjdm5RX19BMnJYd0otczhwTDAyR2h2OXZEN2RoZk1HMDRCQld6dE9jY3QzUXNJQ3hKLWdyREM4and4cHFCS25XU0p5RzQyLUxUcTBZQXZTNmJFYVltemxaRG5FXzZINC1vTk14dmh3RW5WQlJmeVZmZURreU9NNmJsbk9yQlUwbFB0MnZZbzJWcjVMQUx3dDN4dU5PMVRraw?oc=5",
-   "domain": "theregister.com",
-   "publishedAt": "2026-06-18T07:00:00.000Z",
+   "id": "6f531628f832",
+   "title": "Midjourney was not invited to this party",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmpWTmVuWXFXNVloXzlJSml6TU1HQWQ1YUVLbUZWeEl3bGpxWW11czE0Y2FhZVlZTUF3eENnR3d1Q2Z4SVM4T1FRdVI1Ul9VbGNCbXNOb3dYckd4eGtPN3o2Ulg2aTJVdzBWUUwwMGRiRDZMNklERFJBMEFuVkQxanJuMW5NZUVQX053UW0wZ0Jpb1pYRXc?oc=5",
+   "domain": "artsy.net",
+   "publishedAt": "2026-07-27T18:29:51.000Z",
    "companySlug": "midjourney",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOc25nSjI5N0ZFaE1lQlVtXzIzeEEtTTlMY1JVNXQwcmxMblBhN2doQmhvb2hXVFRkZDg3SVFab000Vmk3QkZaM0F1TFJGOFg5WWtDUGRxdzVEbGFUd3M1N0hjdm5RX19BMnJYd0otczhwTDAyR2h2OXZEN2RoZk1HMDRCQld6dE9jY3QzUXNJQ3hKLWdyREM4and4cHFCS25XU0p5RzQyLUxUcTBZQXZTNmJFYVltemxaRG5FXzZINC1vTk14dmh3RW5WQlJmeVZmZURreU9NNmJsbk9yQlUwbFB0MnZZbzJWcjVMQUx3dDN4dU5PMVRraw?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmpWTmVuWXFXNVloXzlJSml6TU1HQWQ1YUVLbUZWeEl3bGpxWW11czE0Y2FhZVlZTUF3eENnR3d1Q2Z4SVM4T1FRdVI1Ul9VbGNCbXNOb3dYckd4eGtPN3o2Ulg2aTJVdzBWUUwwMGRiRDZMNklERFJBMEFuVkQxanJuMW5NZUVQX053UW0wZ0Jpb1pYRXc?oc=5"
     }
    ],
    "baseScore": 1.1
   },
   {
-   "id": "67a427d9b3b9",
-   "title": "Remember Midjourney? It's Building a Medical Scanning Device That It Says Is Faster Than an MRI",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOXQ5UlZ4c21vR1JobmZLS2lhNkotZFhrNi1odlZQNXBUWDAzNTBqT2hTUExyeXRmakp3V0hTNkhVampULWU2SEtaN0RHZWJsanJsRnptV09LMHdLWE9oVzhQVjJpWVZqSm9nc1B2WmFmeDFEdU1OeXgyZklscTVtNlExMk1ZbUdZbXlDOWJDOVIxZ18yV2M2aUU3RlRCMDZSWkNpb1JNbVdrZG1QLU95Z3NTSlhjYTVWYm94eU9pYUR2eGc?oc=5",
-   "domain": "gizmodo.com",
-   "publishedAt": "2026-06-18T07:00:00.000Z",
+   "id": "dfb01010aa85",
+   "title": "Midjourney’s astrology expansion brings AI to the soul",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeXZSVl9ZcXFWNl9TeDlCUTVEaXJvbG9SazhrYl9SRXctWV9JUkwwZ3B3SW5vUEVvczAwc0t6WlNRWlVGaFdNRTRjamM0VFFlTHRIZFdmVzhsWHhLYnI3bFUwb3FEMkhJQk12TTdnMC1PV2hXNjJQaXY3by05VG5sZzF3Y3NwTXhvT3c?oc=5",
+   "domain": "unherd.com",
+   "publishedAt": "2026-07-26T07:00:00.000Z",
    "companySlug": "midjourney",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOXQ5UlZ4c21vR1JobmZLS2lhNkotZFhrNi1odlZQNXBUWDAzNTBqT2hTUExyeXRmakp3V0hTNkhVampULWU2SEtaN0RHZWJsanJsRnptV09LMHdLWE9oVzhQVjJpWVZqSm9nc1B2WmFmeDFEdU1OeXgyZklscTVtNlExMk1ZbUdZbXlDOWJDOVIxZ18yV2M2aUU3RlRCMDZSWkNpb1JNbVdrZG1QLU95Z3NTSlhjYTVWYm94eU9pYUR2eGc?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeXZSVl9ZcXFWNl9TeDlCUTVEaXJvbG9SazhrYl9SRXctWV9JUkwwZ3B3SW5vUEVvczAwc0t6WlNRWlVGaFdNRTRjamM0VFFlTHRIZFdmVzhsWHhLYnI3bFUwb3FEMkhJQk12TTdnMC1PV2hXNjJQaXY3by05VG5sZzF3Y3NwTXhvT3c?oc=5"
     }
    ],
    "baseScore": 1.1
   },
   {
-   "id": "3bc56ae6c857",
-   "title": "AI image firm Midjourney spins up health division, unveils ‘Ultrasonic CT’",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkkzd2xrWFFoTVI4WEhxTXBZbFMxQ3BWdXBHVlBtM0RUYUlGbDBYT2RUNUZqazRNMFJSNVdYdUFuRXViU296NW9FOFl4ZndERDVnYUNnUDZEaGpsdkZZZ3hTdE1ubjh6U0NrcGllY0pYWmxKMXBrR1BQWm4xb2loVXJfZnNvZi1sMXBnd0dCT0lvYXBXeS1SMjFUc1ZsTWVFZmg1bjh3?oc=5",
-   "domain": "rdworldonline.com",
-   "publishedAt": "2026-06-17T07:00:00.000Z",
+   "id": "7e45c76a75ef",
+   "title": "Midjourney acquired the astrology app Co-Star",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5",
+   "domain": "techcrunch.com",
+   "publishedAt": "2026-07-24T07:00:00.000Z",
    "companySlug": "midjourney",
-   "kind": "product",
+   "kind": "funding",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkkzd2xrWFFoTVI4WEhxTXBZbFMxQ3BWdXBHVlBtM0RUYUlGbDBYT2RUNUZqazRNMFJSNVdYdUFuRXViU296NW9FOFl4ZndERDVnYUNnUDZEaGpsdkZZZ3hTdE1ubjh6U0NrcGllY0pYWmxKMXBrR1BQWm4xb2loVXJfZnNvZi1sMXBnd0dCT0lvYXBXeS1SMjFUc1ZsTWVFZmg1bjh3?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5"
     }
    ],
-   "baseScore": 1.65
+   "baseScore": 2.4
   },
   {
-   "id": "01245a294248",
-   "title": "21-year-old AI startup cofounder's sales pitch to clients: 'Do not trust us'",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcEdRSkE1TnpEMjIzOVZIVG04X3JNaV9OWXpXTHE4cDdpZlpEdXhqOVBLbkx6S1dCdDZ1eGxXSUUxWnNLY0RvZGlEYi1WOFlTdjAyWWx4dnJmZ3h0VWRXc2oxcnRLOGd6aFNHYUxBZjV0VVB6d2V4bWlQajczSEtFODZpT3JjcHFRQ3Q4ZThOaXZrRmNVWW41RA?oc=5",
-   "domain": "fortune.com",
-   "publishedAt": "2026-06-17T07:00:00.000Z",
-   "companySlug": "cofounder",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcEdRSkE1TnpEMjIzOVZIVG04X3JNaV9OWXpXTHE4cDdpZlpEdXhqOVBLbkx6S1dCdDZ1eGxXSUUxWnNLY0RvZGlEYi1WOFlTdjAyWWx4dnJmZ3h0VWRXc2oxcnRLOGd6aFNHYUxBZjV0VVB6d2V4bWlQajczSEtFODZpT3JjcHFRQ3Q4ZThOaXZrRmNVWW41RA?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "644ba5b723e0",
-   "title": "Meet Atoms: A Vibe Coding Tool That Uses AI Agents to Build, Deploy, and Market Your App (No Code)",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYkkyM3JOcGxQdDU2MWFsZ0J2MWNIZ3BldGdNVTN2Sm9vMlBjeHdMZWNxS2txc0VGRWxrWlB2QlZOOGM3WEU1RFZUMUlrMXRuUTJGU1JUV3ZpbUxjMll3RWF3SE9TaVVsZF9pNW5SdGc2QTVsOEVmQjlnTnhiSFZHZjhySjZIWGVRTTI2TFU3SzVtWUoycTNFS19HdklaNG5xZm5YRzdLRmlleU1LQkhWT1Q2eGZJd1lZWk1fc3V6UTB3SE9XZFdWcGdtWWJtVDQ?oc=5",
-   "domain": "marktechpost.com",
-   "publishedAt": "2026-06-16T07:00:00.000Z",
-   "companySlug": "atoms",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYkkyM3JOcGxQdDU2MWFsZ0J2MWNIZ3BldGdNVTN2Sm9vMlBjeHdMZWNxS2txc0VGRWxrWlB2QlZOOGM3WEU1RFZUMUlrMXRuUTJGU1JUV3ZpbUxjMll3RWF3SE9TaVVsZF9pNW5SdGc2QTVsOEVmQjlnTnhiSFZHZjhySjZIWGVRTTI2TFU3SzVtWUoycTNFS19HdklaNG5xZm5YRzdLRmlleU1LQkhWT1Q2eGZJd1lZWk1fc3V6UTB3SE9XZFdWcGdtWWJtVDQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "83ef7dfb881f",
-   "title": "Midjourney Faces Discovery Limits Into Studios' AI Use",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNHEwQ3RyT21RRE1XdlN0c29RV2pNd251MGZpcHAtYWtiRWNDUE5FcU83aURLNXpxWjdiUnpvNlY2bE93RWNzdFk0WTlmWXBGbjZLLVJ3dlUteGpwQzlMQzJva0RsenA5WXFLaUpXOFFISnZwaGhfQWFZTkZrNkxHT2NDWXh4Q0VCQ1FpSThBWlhTaUFsRDJxNtIBVkFVX3lxTE9zbm9oWkhhQ1ZtVE8yenhPWHJyMGJ5VzQxTDJYeU1oUUtvUU1KTUhuaU40Tm40LXRMSGtJb3h1ZkVSeHVLODZSVTdnclNnUm90b2EyWjdR?oc=5",
-   "domain": "law360.com",
-   "publishedAt": "2026-06-16T07:00:00.000Z",
+   "id": "0ad7224aedae",
+   "title": "Midjourney announces surprise purchase of popular horoscope app Co-Star",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbTZGVW1yMk5MN2tDUTZ6YzJ5aFlEMzFERTVNQTFXaUVGcnRxbUVBMXJiRDA2MEtiaWd1a0I1eVBwQ0Z0enZ4S1JlYUxiN3FnZVJWQ1BQWmMxRmlTcWxmRm1vY0ZnNXVYR0VWV2FYa29UMUI5amRNUkJUVnpiVWdoS1l0TFJ4WjE0bXljOGZGR3BscEI4X1BQa25IZzQ0aGJyQnJlSFE2cnRtcDdoQmRn?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-07-25T07:00:00.000Z",
    "companySlug": "midjourney",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNHEwQ3RyT21RRE1XdlN0c29RV2pNd251MGZpcHAtYWtiRWNDUE5FcU83aURLNXpxWjdiUnpvNlY2bE93RWNzdFk0WTlmWXBGbjZLLVJ3dlUteGpwQzlMQzJva0RsenA5WXFLaUpXOFFISnZwaGhfQWFZTkZrNkxHT2NDWXh4Q0VCQ1FpSThBWlhTaUFsRDJxNtIBVkFVX3lxTE9zbm9oWkhhQ1ZtVE8yenhPWHJyMGJ5VzQxTDJYeU1oUUtvUU1KTUhuaU40Tm40LXRMSGtJb3h1ZkVSeHVLODZSVTdnclNnUm90b2EyWjdR?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbTZGVW1yMk5MN2tDUTZ6YzJ5aFlEMzFERTVNQTFXaUVGcnRxbUVBMXJiRDA2MEtiaWd1a0I1eVBwQ0Z0enZ4S1JlYUxiN3FnZVJWQ1BQWmMxRmlTcWxmRm1vY0ZnNXVYR0VWV2FYa29UMUI5amRNUkJUVnpiVWdoS1l0TFJ4WjE0bXljOGZGR3BscEI4X1BQa25IZzQ0aGJyQnJlSFE2cnRtcDdoQmRn?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "502bfaec6a58",
+   "title": "AI Lab Midjourney Eyes Suite of Apps After Buying Astrology Startup Co-Star",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZGpQQ3QtUFdPY3k1T1BUSnozZHJkTTg4ZnVtVFphYUM1SmdmOG4tS1dVckpJazg4MXQzZTJEcnhNaVdfRjJzQW5vODRpajNPNXJ5R0hKeXJLbE1oWkYxTDV4bkNGTDh3bHZWOVlsRGhub0ZLQmIySkdLcTlUTUt4LUdOQWEwNVBrWTlPd0xpU3YtcHVPSEhaTW5KSkZyYXNpaVlwNldPdFZOS083eUxYaHpvOWRHZmpsZ3Y5a2lDNmljSFRuNklB?oc=5",
+   "domain": "bloomberg.com",
+   "publishedAt": "2026-07-24T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZGpQQ3QtUFdPY3k1T1BUSnozZHJkTTg4ZnVtVFphYUM1SmdmOG4tS1dVckpJazg4MXQzZTJEcnhNaVdfRjJzQW5vODRpajNPNXJ5R0hKeXJLbE1oWkYxTDV4bkNGTDh3bHZWOVlsRGhub0ZLQmIySkdLcTlUTUt4LUdOQWEwNVBrWTlPd0xpU3YtcHVPSEhaTW5KSkZyYXNpaVlwNldPdFZOS083eUxYaHpvOWRHZmpsZ3Y5a2lDNmljSFRuNklB?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "ddff93ab9af1",
+   "title": "What Is Dfinity's Caffeine?",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kaG8zNFhPSlpuWTliSWVKQ2lqRnBIWlpoR2o4MFYxTWZZRV9xUzNTQUV2d3lKMWtVenRIRVcyY2wwdndlbXl3eEtMb3hMNWhmVGRUX3A0d2NKZw?oc=5",
+   "domain": "cryptonews.net",
+   "publishedAt": "2026-07-23T07:00:00.000Z",
+   "companySlug": "caffeine",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kaG8zNFhPSlpuWTliSWVKQ2lqRnBIWlpoR2o4MFYxTWZZRV9xUzNTQUV2d3lKMWtVenRIRVcyY2wwdndlbXl3eEtMb3hMNWhmVGRUX3A0d2NKZw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "6ca802c6447d",
+   "title": "AI firm Midjourney enters wellness with spa, fitness and body scanning concept",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOS0VvLWduUF9PblliaW1Nc0V1ck16Yk1DS0dVblBZS0IzcUpudF9DU1dCR0FZS3Q5WlJiQTRuRDVSSDJyTEloTEJoZFBibEp2UGZLcm11Z1NJVnBiSzlBODRqQW5vZnIySFVkdGZWM3VOYzVVYUsySTRCeDRkanpWTnJoa0xHX0d5TV9mejJtOE1KUTRPYWs3Z0g1b0lxSkhTVXZOMzNvZF92cUJtTWZOZWJBU00xSnFMV21OZzZMTkl5WnlnUHJSNUpBbkhMYTJJWll6SlNZMFp0eUx4a2MzTi10eWJoRFZJQnlXVm45Y3owLXZobWFocV93bGpiQQ?oc=5",
+   "domain": "cladglobal.com",
+   "publishedAt": "2026-07-21T11:35:16.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOS0VvLWduUF9PblliaW1Nc0V1ck16Yk1DS0dVblBZS0IzcUpudF9DU1dCR0FZS3Q5WlJiQTRuRDVSSDJyTEloTEJoZFBibEp2UGZLcm11Z1NJVnBiSzlBODRqQW5vZnIySFVkdGZWM3VOYzVVYUsySTRCeDRkanpWTnJoa0xHX0d5TV9mejJtOE1KUTRPYWs3Z0g1b0lxSkhTVXZOMzNvZF92cUJtTWZOZWJBU00xSnFMV21OZzZMTkl5WnlnUHJSNUpBbkhMYTJJWll6SlNZMFp0eUx4a2MzTi10eWJoRFZJQnlXVm45Y3owLXZobWFocV93bGpiQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "b99d62587097",
+   "title": "UnitedHealth Shatters Estimates as AI Trims Medical Costs by 270 Basis Points",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTBUV3VuSHRPM1IzN29RUklDUDNGTEFmdUd4dXdVQ1k0dF8tWFJUbVdOcnpPN0dqbFJlNmZ4cGY5NFNjbGdlM01CeWttbjB3TlhRZHdhNS01cUkwNHU5b3l6VGtvQWdkcV9FZmFzT1FnWUt0MnFkRXc0dWFtRzdnd2h1OUxERE1jNGlzV1pFcmx6QjhxX2xZVDZXRjZfem11TTl3WW1pNzhYN3U0d0Y5RllwMUE1aURISHg1TWh2aWVmY3lX?oc=5",
+   "domain": "techtimes.com",
+   "publishedAt": "2026-07-16T07:00:00.000Z",
+   "companySlug": "basis",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTBUV3VuSHRPM1IzN29RUklDUDNGTEFmdUd4dXdVQ1k0dF8tWFJUbVdOcnpPN0dqbFJlNmZ4cGY5NFNjbGdlM01CeWttbjB3TlhRZHdhNS01cUkwNHU5b3l6VGtvQWdkcV9FZmFzT1FnWUt0MnFkRXc0dWFtRzdnd2h1OUxERE1jNGlzV1pFcmx6QjhxX2xZVDZXRjZfem11TTl3WW1pNzhYN3U0d0Y5RllwMUE1aURISHg1TWh2aWVmY3lX?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "c9191dd3ebd9",
+   "title": "“HAGF Is Not Handing NBA To Egbe Amofin” — Okutepa Faults Okpoko, Says AGF’s Directives Target Electoral Manipulation, Not Regional Control",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSjJCNDNKa0Rfb0RmbGVna0dNcDVnOUdKci1hSk4tVlIwT1dnM0xobUYwVGFMX2NVZDBjZThONDRfdnhkLTFRUGh4X25uNUZJbk1IRFoxYWdyWFlnT1N5b2FaUFhlQmhpRXVzN3hxZVcxRWVmdUFXcl8yZDg1UHI0cV9KdmpLZGtsSFNkVGMxSjNaZVpkZkNacHNvV3ExZkpKRE5lbHR6amdnamh3cE55TC1FM1NCVHBRMWpwU1JpT2pTRmpaejlLM2ZXc3ZnQkRMUlR0WUtzX0Zjb0JrSTdYR3lqQ1FUbUZobGh3N0ZtQ1RDam11?oc=5",
+   "domain": "thenigerialawyer.com",
+   "publishedAt": "2026-07-15T07:00:00.000Z",
+   "companySlug": "egbe",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSjJCNDNKa0Rfb0RmbGVna0dNcDVnOUdKci1hSk4tVlIwT1dnM0xobUYwVGFMX2NVZDBjZThONDRfdnhkLTFRUGh4X25uNUZJbk1IRFoxYWdyWFlnT1N5b2FaUFhlQmhpRXVzN3hxZVcxRWVmdUFXcl8yZDg1UHI0cV9KdmpLZGtsSFNkVGMxSjNaZVpkZkNacHNvV3ExZkpKRE5lbHR6amdnamh3cE55TC1FM1NCVHBRMWpwU1JpT2pTRmpaejlLM2ZXc3ZnQkRMUlR0WUtzX0Zjb0JrSTdYR3lqQ1FUbUZobGh3N0ZtQ1RDam11?oc=5"
     }
    ],
    "baseScore": 1.1
