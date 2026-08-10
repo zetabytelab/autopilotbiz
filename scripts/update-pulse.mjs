@@ -36,7 +36,9 @@ function loadCompanies() {
 
 // Ambiguous names need extra query context + a confirmation regex on titles.
 const DISAMBIG = {
-  atoms: { query: '"Atoms" AI app builder', confirm: /atoms\.dev|deepwisdom|metagpt|ai/i },
+  // NOTE: Travis Kalanick's industrial-AI startup is also named "Atoms" —
+  // confirm must match the vibe-coding product, not just any AI headline.
+  atoms: { query: '"atoms.dev" OR "Atoms" vibe coding', confirm: /atoms[. ]dev|deepwisdom|metagpt|vibe|app builder|coding/i },
   basis: { query: '"Basis" AI accounting', confirm: /accounting|agent|ai|khosla|accel/i },
   caffeine: { query: '"Caffeine" DFINITY AI', confirm: /dfinity|self-writing|app|ai|icp/i },
   cofounder: { query: '"Cofounder" AI agents startup', confirm: /ai|agent|general intelligence/i },
@@ -45,13 +47,32 @@ const DISAMBIG = {
   artisan: { query: '"Artisan" AI sales', confirm: /ai|sales|bdr|ava|outbound/i },
   "11x": { query: '"11x" AI SDR', confirm: /ai|sdr|sales|digital worker/i },
   lindy: { query: '"Lindy" AI', confirm: /ai|agent|assistant/i },
+  // "Egbe" is a Yoruba word — without disambiguation the query drowns in
+  // Nigerian news. Listing it here also disables gnews body-match trust.
+  egbe: { query: '"egbe.ai" OR "Egbe" AI cofounder startup', confirm: /egbe\.ai|zero.employee|co.?founder|vyahhi|glm|z\.ai|autonomous compan/i },
 };
 
-// Cleaned company name for title matching ("Wordware (Sauna)" → both tokens).
+// Extra match tokens per slug: founder names, product domains, parent companies.
+// Coverage often names the founder, not the company ("Ben Broca raised $30M…"),
+// so without these the best stories fail the title-mention filter.
+const ALIASES = {
+  polsia: ["Ben Broca", "Ben Cera"],
+  atoms: ["atoms.dev", "DeepWisdom", "MetaGPT"],
+  medvi: ["Matthew Gallagher"],
+  egbe: ["Nikolay Vyahhi"],
+  base44: ["Maor Shlomo"],
+  boardy: ["Andrew D'Souza"],
+  rentahuman: ["Alexander Liteplo"],
+  nanocorp: ["Pierre-Louis Biojout"],
+};
+
+// Cleaned company name for title matching ("Wordware (Sauna)" → both tokens),
+// plus any aliases.
 function nameVariants(c) {
   const base = c.name.replace(/\s*\(.*\)\s*/, "").trim();
   const paren = c.name.match(/\(([^)]+)\)/)?.[1];
-  return paren ? [base, paren] : [base];
+  const out = paren ? [base, paren] : [base];
+  return out.concat(ALIASES[c.slug] ?? []);
 }
 
 // ------------------------------------------------------- discovery taxonomy
@@ -381,7 +402,12 @@ async function main() {
       const c = companyBySlug.get(i.companySlug);
       const mentions = nameVariants(c).some((n) => new RegExp(`\\b${escapeRe(n)}\\b`, "i").test(i.title));
       const ownDomain = c.url && i.domain === hostOf(c.url);
-      if (!mentions && !ownDomain) return false;
+      // Google News company queries match article bodies too — for companies
+      // with globally unique names (no DISAMBIG entry), a body match from the
+      // scoped query is trustworthy even when the headline names only the
+      // founder or describes the story obliquely.
+      const trustedBodyMatch = i.sourceId === "gnews" && !DISAMBIG[i.companySlug];
+      if (!mentions && !ownDomain && !trustedBodyMatch) return false;
       // Ambiguous company names must also match a context regex
       const dis = DISAMBIG[i.companySlug];
       if (dis && !ownDomain && !dis.confirm.test(i.title)) return false;
@@ -452,7 +478,12 @@ async function main() {
       const prev = JSON.parse(readFileSync(prevPath, "utf8"));
       const seen = new Set(items.map((i) => i.id));
       for (const p of prev.items ?? []) {
-        if (!seen.has(p.id) && Date.parse(p.publishedAt) >= cutoff) items.push(p);
+        if (seen.has(p.id) || Date.parse(p.publishedAt) < cutoff) continue;
+        // Re-validate carried-over company items against current DISAMBIG
+        // rules, so a tightened confirm regex also purges old misattributions.
+        const dis = p.companySlug && DISAMBIG[p.companySlug];
+        if (dis && !dis.confirm.test(p.title)) continue;
+        items.push(p);
       }
     } catch {}
   }

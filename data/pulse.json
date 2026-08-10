@@ -1,17 +1,17 @@
 {
- "generatedAt": "2026-08-10T15:14:50.800Z",
+ "generatedAt": "2026-08-10T15:34:00.550Z",
  "sourcesRun": [
   {
    "id": "gnews",
    "ok": 21,
    "failed": 0,
-   "items": 138
+   "items": 123
   },
   {
    "id": "hn",
-   "ok": 21,
-   "failed": 0,
-   "items": 196
+   "ok": 0,
+   "failed": 21,
+   "items": 0
   },
   {
    "id": "techmeme",
@@ -21,12 +21,29 @@
   },
   {
    "id": "discovery",
-   "ok": 19,
-   "failed": 0,
+   "ok": 10,
+   "failed": 9,
    "items": 0
   }
  ],
  "items": [
+  {
+   "id": "508fbb95d683",
+   "title": "Sapiom Raises $35M to Route AI Agents to Cheaper Models. Anthropic Is a Backer",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObC1jREUxNmlCOUFaOE5VSWtUY2hVOW1HZzRfaXBHM0FZeWhtSDBjMTd0UVYzOTFIbWRERnFRXzhOSG9DN0Z5UGp5QTBibFA5T0dfN2dYS2w4WDhjNHdZcUlUYThJZkhVd296Z1M3WFF5cTV3U08wZ1VaNHpsbmtGTDdR?oc=5",
+   "domain": "memeburn.com",
+   "publishedAt": "2026-08-09T08:47:42.000Z",
+   "companySlug": "polsia",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObC1jREUxNmlCOUFaOE5VSWtUY2hVOW1HZzRfaXBHM0FZeWhtSDBjMTd0UVYzOTFIbWRERnFRXzhOSG9DN0Z5UGp5QTBibFA5T0dfN2dYS2w4WDhjNHdZcUlUYThJZkhVd296Z1M3WFF5cTV3U08wZ1VaNHpsbmtGTDdR?oc=5"
+    }
+   ],
+   "baseScore": 2.4,
+   "hot": true
+  },
   {
    "id": "3462e9d4bac3",
    "title": "How AI Coding Agents Changed What VCs Want From a Technical Cofounder",
@@ -39,6 +56,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3hlcllmNjYzanQ0R0FHdDJUSFByb1FRYi0taGNiSTEtVVFkakJLWC1LQVJzT3ozZHZ3MEFqX2VxTlZNVURadjhQd2t6QVRORDhjRFZ2ODYxWENzWUgzWnVvVmZyZzdHRURjQm1SS0ZvZWVPNE1qMFUwRmNGXzZZSHJYOVZQOHBVNmd1YkJicW1GT0lwUDdEQXN0UnFhdw?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "hot": true
+  },
+  {
+   "id": "6d0fbbf4bcb2",
+   "title": "Democrats Want To Tax AI Companies for Job Losses That Haven't Happened",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUzY2cWJIRWcyanI3M2NjUUNCSWlRYllLb01odU9qVnFYMXlqUzBDMVZQb1lPLU4xTTBJQXR1UjNFdWZjclAzYmloZERUZHlhbDVqZTJKdVZPMFdsdUtHNlVPMDdRbVcwMHFlaDlRdHRpNHZCVHFXa2dxM21IQ0ExRDlRaS02TWdvTDhtWWZ2bU12T0dISUJsaHdKaU1faUN4dHFn?oc=5",
+   "domain": "reason.com",
+   "publishedAt": "2026-08-07T21:04:41.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUzY2cWJIRWcyanI3M2NjUUNCSWlRYllLb01odU9qVnFYMXlqUzBDMVZQb1lPLU4xTTBJQXR1UjNFdWZjclAzYmloZERUZHlhbDVqZTJKdVZPMFdsdUtHNlVPMDdRbVcwMHFlaDlRdHRpNHZCVHFXa2dxM21IQ0ExRDlRaS02TWdvTDhtWWZ2bU12T0dISUJsaHdKaU1faUN4dHFn?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -62,6 +96,105 @@
    "hot": true
   },
   {
+   "id": "b644e7ec5c61",
+   "title": "Sapiom raises $35M to cut AI agent running costs",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oMkVLRTE1WGo2aExmd3Z0VllIZVh1Q3NsYjZMbENhMFpONFhIcVZFaWF1XzRkdjk0Sm1wNFRzeEJMLXlwVFExam5Tb3kwMlYwLVphc051SUcwRTFMa3ZuQWc4X1I1WXdtRGVnTWFqSGltM0NUNXJycA?oc=5",
+   "domain": "thenextweb.com",
+   "publishedAt": "2026-08-05T19:06:23.000Z",
+   "companySlug": "polsia",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oMkVLRTE1WGo2aExmd3Z0VllIZVh1Q3NsYjZMbENhMFpONFhIcVZFaWF1XzRkdjk0Sm1wNFRzeEJMLXlwVFExam5Tb3kwMlYwLVphc051SUcwRTFMa3ZuQWc4X1I1WXdtRGVnTWFqSGltM0NUNXJycA?oc=5"
+    }
+   ],
+   "baseScore": 2.4,
+   "hot": true
+  },
+  {
+   "id": "4541240a8114",
+   "title": "WIX Q2 Deep Dive: AI Platform Expansion Drives Growth and Margin Upside",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRE5ZR1JNRTlhbV9FLTBWVW1kYlNNdHZOYVE4ODRSZWlYOVdWdWdzLWd5OTNON3ZjLXgtSkhkYU1BMmVRWjdGTE9nVGs4Z0NJNE9jNl84QncwUUNlYThBN0VSTUpGLWdFTVl0UUNFOHVmTzUtdVVabXVFUVU1dHpvelM5WUZxQm1uVVFlWDkzdGlxc3NvQ3cxbk15bzFuTVo0QVNNZ0tDN2hhc1RiZkxWeGk2bWE3b2hvRlpneDBkamViSWZkRkhPaGpnSFU0QQ?oc=5",
+   "domain": "stockstory.org",
+   "publishedAt": "2026-08-07T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRE5ZR1JNRTlhbV9FLTBWVW1kYlNNdHZOYVE4ODRSZWlYOVdWdWdzLWd5OTNON3ZjLXgtSkhkYU1BMmVRWjdGTE9nVGs4Z0NJNE9jNl84QncwUUNlYThBN0VSTUpGLWdFTVl0UUNFOHVmTzUtdVVabXVFUVU1dHpvelM5WUZxQm1uVVFlWDkzdGlxc3NvQ3cxbk15bzFuTVo0QVNNZ0tDN2hhc1RiZkxWeGk2bWE3b2hvRlpneDBkamViSWZkRkhPaGpnSFU0QQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "hot": true
+  },
+  {
+   "id": "2fd2aa047c44",
+   "title": "Making Medical AI More Reliable",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORlFLMElNQk1YMDEtQ2hnZGdjNFFvUU1CaHlCbkdfVHhEakZYbmlVQkNWcnpfaE1ZMkNvWldYd1F3MTkwdnVjRWFISHhTLWNMbUJ2a2QtdlhjMmZ6MTVhcjZwWTNDQ0FucF9ORnByZHNpSDNGek0xQ21mcVJZSzhfcA?oc=5",
+   "domain": "viterbischool.usc.edu",
+   "publishedAt": "2026-08-06T21:20:33.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORlFLMElNQk1YMDEtQ2hnZGdjNFFvUU1CaHlCbkdfVHhEakZYbmlVQkNWcnpfaE1ZMkNvWldYd1F3MTkwdnVjRWFISHhTLWNMbUJ2a2QtdlhjMmZ6MTVhcjZwWTNDQ0FucF9ORnByZHNpSDNGek0xQ21mcVJZSzhfcA?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "hot": true
+  },
+  {
+   "id": "5bb6ef60e608",
+   "title": "MoonPay Launches PayBox, a Payment Vault for Claude and ChatGPT That Turns Prompts Into Payments",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdUdkWDBCVW1FTXh4ZTdpQW55LU95czR0RGdoZXp0dXVzVWRKY3dHVkV2YmtmRlNfZnFDVmlfdTY5SXJxTk54M1ZGMU5GLWlHbGd3eXp3OTl6T1pJRUd1bTlsY2RnblJZanBPYk1wSkgxLU9TZU0zSlVEdEduQ2xCR1NlVDlqQ3F2?oc=5",
+   "domain": "aol.com",
+   "publishedAt": "2026-08-06T00:50:16.000Z",
+   "companySlug": "payman",
+   "kind": "product",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdUdkWDBCVW1FTXh4ZTdpQW55LU95czR0RGdoZXp0dXVzVWRKY3dHVkV2YmtmRlNfZnFDVmlfdTY5SXJxTk54M1ZGMU5GLWlHbGd3eXp3OTl6T1pJRUd1bTlsY2RnblJZanBPYk1wSkgxLU9TZU0zSlVEdEduQ2xCR1NlVDlqQ3F2?oc=5"
+    }
+   ],
+   "baseScore": 1.65
+  },
+  {
+   "id": "3bafe2ad359c",
+   "title": "WIX Deadline Alert: SueWallSt Reminds Wix.com Ltd. (WIX) Investors of Securities Class Action Deadline on September 22, 2026",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNkpmeG5fc1NEY0E2dGxsS1dfX2EwdFZhSVpDc242ejhjcUZ2Q1hXNTUzV05ENTdJREZPWVhSd0tpVkRjR2s5TkstNEY3UFg0WS1mdDhaN0Y0YV9VakxtQkthSkJHcFloYWJZ?oc=5",
+   "domain": "tradingview.com",
+   "publishedAt": "2026-08-06T14:09:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNkpmeG5fc1NEY0E2dGxsS1dfX2EwdFZhSVpDc242ejhjcUZ2Q1hXNTUzV05ENTdJREZPWVhSd0tpVkRjR2s5TkstNEY3UFg0WS1mdDhaN0Y0YV9VakxtQkthSkJHcFloYWJZ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "97b5b1254bb6",
+   "title": "Exclusive / Startup Sapiom routes clients’ AI to lowest-cost tokens",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanR4X2trS0pNOXFVOXJZRHpGQkl4NTNTOUpCUlJfUGdlYm1ybjVkeVc0RlRPclAwdUUxUFptS3hWNS03dm5WemdQeExNcmpiaDEwR1NST05YczcwaGVFTXUzb0Y0SlRWMnJsUjczVnh2QXd6TXRhNVlsWE9wNGE0OXlOdVB1dXdnYWJwTTFvbkE0eFd3SHItTE50UE56dw?oc=5",
+   "domain": "semafor.com",
+   "publishedAt": "2026-08-05T16:19:00.000Z",
+   "companySlug": "polsia",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanR4X2trS0pNOXFVOXJZRHpGQkl4NTNTOUpCUlJfUGdlYm1ybjVkeVc0RlRPclAwdUUxUFptS3hWNS03dm5WemdQeExNcmpiaDEwR1NST05YczcwaGVFTXUzb0Y0SlRWMnJsUjczVnh2QXd6TXRhNVlsWE9wNGE0OXlOdVB1dXdnYWJwTTFvbkE0eFd3SHItTE50UE56dw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "7f913f0c4f4c",
    "title": "Payman AI Receives ICBA ThinkTECH Accelerator Banker’s Choice Award",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2h4R2lzMk9yM3hNVzRUeWdVcGl1YTY2RU1hUmpfUGllSGVrenAxV1MwRDNRMm9WbjJGMWZIN1hZR0VRYlR3NmxNLWY1WDRHaVViM0xQWkdYUWN6Vy1PRTlPamNTM012Skt2YlpiVnRrS1FSSU9kSDU4VUFkUTVIQm5paDVibGduMmZFNzZVU245bno3SUFxNFljREVMZw?oc=5",
@@ -75,8 +208,7 @@
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2h4R2lzMk9yM3hNVzRUeWdVcGl1YTY2RU1hUmpfUGllSGVrenAxV1MwRDNRMm9WbjJGMWZIN1hZR0VRYlR3NmxNLWY1WDRHaVViM0xQWkdYUWN6Vy1PRTlPamNTM012Skt2YlpiVnRrS1FSSU9kSDU4VUFkUTVIQm5paDVibGduMmZFNzZVU245bno3SUFxNFljREVMZw?oc=5"
     }
    ],
-   "baseScore": 1.1,
-   "hot": true
+   "baseScore": 1.1
   },
   {
    "id": "b83f57a69d21",
@@ -92,8 +224,55 @@
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOGc0V000anhFYnE0a2Z6TGo1ay1zeFlRTy1WVVFWcTFjN1lhZWxDWVVmNmdoRUJZNEIyUDNhZ2xfLXdpUGotWTFtTEgxMW1oWTlGVDdNTDJxX3BZV2gtQTdTMGMxU1BHOEEwYzNVQXlfaHpvck00S3pwVWVDaVozUjYtRUc3YjlKOW1Yd041eGhlNmR1MzZkWEtMZmc3aVY4a195amxxZnhGRzc5U1JjQU1lNjZKUWxTcElJ?oc=5"
     }
    ],
-   "baseScore": 1.1,
-   "hot": true
+   "baseScore": 1.1
+  },
+  {
+   "id": "6182c24d84a8",
+   "title": "Scientists Just Uncovered Quantum Effects That Could Send Messages Back in Time",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSFFfMFI1eTRZcElyNkdHVjA1aVVQcUdVU3pzNVR4QmlGZVZyM3dYbTZ5d0RlX3p0SFRRSU41Y2lPOXFPVlpjdFRrUW5qaEp0cXRUZWFJUnBHVFV5SHhsa2x3UG1qS0RFdzFhUG1TWXJQN1NMTlZkb0J3YzJhMGE3RnFHUHcxVUQ2a0N3Uy1ILUFTWFJmZG8wU085TTF1QXNKZi1naU1RNEEwOElrbkY3eGRn?oc=5",
+   "domain": "sify.com",
+   "publishedAt": "2026-08-05T07:00:00.000Z",
+   "companySlug": "rentahuman",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSFFfMFI1eTRZcElyNkdHVjA1aVVQcUdVU3pzNVR4QmlGZVZyM3dYbTZ5d0RlX3p0SFRRSU41Y2lPOXFPVlpjdFRrUW5qaEp0cXRUZWFJUnBHVFV5SHhsa2x3UG1qS0RFdzFhUG1TWXJQN1NMTlZkb0J3YzJhMGE3RnFHUHcxVUQ2a0N3Uy1ILUFTWFJmZG8wU085TTF1QXNKZi1naU1RNEEwOElrbkY3eGRn?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "22cb89d9573e",
+   "title": "Ben Broca raised $30 million and built a $10 million AI company with 10,000 customers — without hiring a single employee",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNDNIYi1VNEpXWFpQX2tWeVl4czBLVkRYWkpVd28wcXZpYU1Oa0U0YUwzME9tSGQ2azBPMnRJalNmUG9CQTRoZ3BpTDBRcHg4emVwM3UyLUFEM3d2dEJoZFlnRWo1cmhDdTgyT1N6dmcwNlB2VEp4X2dPcFFOT2lQZzhsVGhmZ1JRVnRwX0xfQ0hNVXM2V3BF?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-08-03T14:30:00.000Z",
+   "companySlug": "polsia",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNDNIYi1VNEpXWFpQX2tWeVl4czBLVkRYWkpVd28wcXZpYU1Oa0U0YUwzME9tSGQ2azBPMnRJalNmUG9CQTRoZ3BpTDBRcHg4emVwM3UyLUFEM3d2dEJoZFlnRWo1cmhDdTgyT1N6dmcwNlB2VEp4X2dPcFFOT2lQZzhsVGhmZ1JRVnRwX0xfQ0hNVXM2V3BF?oc=5"
+    }
+   ],
+   "baseScore": 2.4
+  },
+  {
+   "id": "ad44a5e386ba",
+   "title": "Dating App Startup Pitch Decks Reveal How 18 Founders Raised Millions",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeU9VOXdOUHNMQkQzcHljWHdhVlp1Z2RSQUltenVjaFNncUVKZmphWXBKb2gyWTFaZ05yYzdiTVpQbEl0TFBNU3JNMUE4VG9FTFJkeVRBcURKaDFHdDI3VGVVcEhtT2xCUEc0N3FCQjJZb1V6djQ5TXFiX1k5T1V6QXMtN1RuQktpR0NRZXkxV1ZPUkExZVVINlMyM2NTMFNWZ2xKODRZdVBqWXdH?oc=5",
+   "domain": "newsanyway.com",
+   "publishedAt": "2026-08-03T13:32:48.000Z",
+   "companySlug": "boardy",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeU9VOXdOUHNMQkQzcHljWHdhVlp1Z2RSQUltenVjaFNncUVKZmphWXBKb2gyWTFaZ05yYzdiTVpQbEl0TFBNU3JNMUE4VG9FTFJkeVRBcURKaDFHdDI3VGVVcEhtT2xCUEc0N3FCQjJZb1V6djQ5TXFiX1k5T1V6QXMtN1RuQktpR0NRZXkxV1ZPUkExZVVINlMyM2NTMFNWZ2xKODRZdVBqWXdH?oc=5"
+    }
+   ],
+   "baseScore": 2.4
   },
   {
    "id": "e5e871623ba1",
@@ -144,6 +323,22 @@
    "baseScore": 1.1
   },
   {
+   "id": "91092856872c",
+   "title": "Wix.com Beats Second-Quarter Views on Strong AI Demand; Shares Surge",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPclIyc2VHWDFDLVBXNlF3MVMtNVdmZEVpbVFJTnY3bXpNOFl5d1lyMTZnYnpQVnUyaE1WMjlhUnBONkdpUWVoWklUcU0wZ0NIaTJ6Z2tWRUZ3VDhFRTM5VTk1N0Z2MUNuTGZxTlZkOVJ1OHdmUFp5SDJHbGdQVm02Nk5zWXJsQ1g2SkdockRFYWdhMHRwRDdv?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-08-04T18:28:55.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPclIyc2VHWDFDLVBXNlF3MVMtNVdmZEVpbVFJTnY3bXpNOFl5d1lyMTZnYnpQVnUyaE1WMjlhUnBONkdpUWVoWklUcU0wZ0NIaTJ6Z2tWRUZ3VDhFRTM5VTk1N0Z2MUNuTGZxTlZkOVJ1OHdmUFp5SDJHbGdQVm02Nk5zWXJsQ1g2SkdockRFYWdhMHRwRDdv?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "69635086ddbb",
    "title": "Wix Q2 results show steady core business and improving Base44 economics",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0ZiNURScVB3Q2h6Sm5tWHFCMVlObEd2alJlaUxCaWc2QzF1b3lIdEExMm1XM0I0aHBERF9EWjJ0SzFSU09Mb1lCbzR3WTh5X2xfMmNHc1ZFN05Yd1Z0clZYZk12ZjBvby1welZfTzdiOWllTm8tSDVSanNRcHIyOS14a2JsRkRFMnh3SllqYjVkc1A1elBJUmRhaHNvNzY5Z2JqdFBQTTRyM1Vmd2p1Y0F3MFREbkhETTJHbzZIWTJkeGc5RmM2QjNPbmVDbW4yalRrQS1BUEZEQQ?oc=5",
@@ -158,6 +353,22 @@
     }
    ],
    "baseScore": 1.1
+  },
+  {
+   "id": "865aa22caaee",
+   "title": "Weekly Crypto News: Bitcoin, Coldcard & COAI",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFNnFUZUZHTTlDQjBzQjdDb3R3amhGWDZwZjdvX2VwQnNrUVpHUHFIVHh5SkcyVW1XQzV6LWZMRzRXR3ZHSW9IREo4XzJXWmFGb3VDUnNrNmZEdmpwSjlqazBDckYzamF3djdj?oc=5",
+   "domain": "coindcx.com",
+   "publishedAt": "2026-08-04T08:20:00.000Z",
+   "companySlug": "chainopera-ai",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFNnFUZUZHTTlDQjBzQjdDb3R3amhGWDZwZjdvX2VwQnNrUVpHUHFIVHh5SkcyVW1XQzV6LWZMRzRXR3ZHSW9IREo4XzJXWmFGb3VDUnNrNmZEdmpwSjlqazBDckYzamF3djdj?oc=5"
+    }
+   ],
+   "baseScore": 1.2
   },
   {
    "id": "d94e51167121",
@@ -290,6 +501,22 @@
    "baseScore": 1.65
   },
   {
+   "id": "9bb6e9f81f60",
+   "title": "Silicon Valley’s AI Giants Go Shopping Off Their Turf",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjlOUzdEV1RMNDcxRkVodGg5UUJKQ25oNkFQZmxYczFmeHBiUUp3dzdlak1FbmlsUjBQZ29BYkpESE5ZTmtyTTNhYXZ5eUVJWkhPNloxalpabGZFSTVORTlaQU1Zbll6akdpdHhiWWhJRHJkcGU5Ui0tZWhJYnZadWhyM3ZsT1lmTlFKLUJFVDF6anBYWlRnTDlQN29rOUhVYjRPV1BqQlBzakFvQWc?oc=5",
+   "domain": "pymnts.com",
+   "publishedAt": "2026-07-30T16:46:05.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjlOUzdEV1RMNDcxRkVodGg5UUJKQ25oNkFQZmxYczFmeHBiUUp3dzdlak1FbmlsUjBQZ29BYkpESE5ZTmtyTTNhYXZ5eUVJWkhPNloxalpabGZFSTVORTlaQU1Zbll6akdpdHhiWWhJRHJkcGU5Ui0tZWhJYnZadWhyM3ZsT1lmTlFKLUJFVDF6anBYWlRnTDlQN29rOUhVYjRPV1BqQlBzakFvQWc?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "c1737a2a3aa5",
    "title": "COAI to VUV: Convert ChainOpera AI to Vanuatu Vatu | Live COAI Price in VUV | MEXC",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44M0kxTy0tcmtFZkdtbmZDcGJOTjNneFhyeEx1ZEdvZWY0SWJCbjdzck44Um5lM21jOVJ2MFFuVV9TSFNWcnI2SmJaTDJOVHhuSGc?oc=5",
@@ -301,6 +528,118 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44M0kxTy0tcmtFZkdtbmZDcGJOTjNneFhyeEx1ZEdvZWY0SWJCbjdzck44Um5lM21jOVJ2MFFuVV9TSFNWcnI2SmJaTDJOVHhuSGc?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "4e872c3b853b",
+   "title": "Meme Coins Rally Higher as Small Cap Tokens Break Out",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTUtZcTJBRTdjX0VNejRnYlViVjBXaFIybk13dG1PUkIzOTZjSnhqZXozcERNWnB0R0x2cnFiOUducHZqRHpwVjU5ZUttZnRlM0JQRFItbGVqRWU2QV92MEtmVmk5OHZKTVhzSlNadFhDbXpuZ3J1eDZRVF9jQ2pxdUNNUQ?oc=5",
+   "domain": "coinmarketcap.com",
+   "publishedAt": "2026-07-30T02:44:34.000Z",
+   "companySlug": "chainopera-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTUtZcTJBRTdjX0VNejRnYlViVjBXaFIybk13dG1PUkIzOTZjSnhqZXozcERNWnB0R0x2cnFiOUducHZqRHpwVjU5ZUttZnRlM0JQRFItbGVqRWU2QV92MEtmVmk5OHZKTVhzSlNadFhDbXpuZ3J1eDZRVF9jQ2pxdUNNUQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "26b049d6bce0",
+   "title": "MoonPay launches a money vault that lets AI actually spend for you",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUE5MODFDcWVhRk9uTXhxTERuRjVqUTVjZ2d3WkR2U2JDMnlueHlkUDRpUWxZSlJPVHh6MWV4WjhYVlVHVTdtMFl0dmwxMzdIWmpQTFVHWVU3SVpGeUw0R1R6WnZ3QTJWZjBPVnB3VFVIWnVYVnpqaEllWmEwMmJOaEFjbw?oc=5",
+   "domain": "aol.com",
+   "publishedAt": "2026-07-29T07:00:00.000Z",
+   "companySlug": "payman",
+   "kind": "product",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUE5MODFDcWVhRk9uTXhxTERuRjVqUTVjZ2d3WkR2U2JDMnlueHlkUDRpUWxZSlJPVHh6MWV4WjhYVlVHVTdtMFl0dmwxMzdIWmpQTFVHWVU3SVpGeUw0R1R6WnZ3QTJWZjBPVnB3VFVIWnVYVnpqaEllWmEwMmJOaEFjbw?oc=5"
+    }
+   ],
+   "baseScore": 1.65
+  },
+  {
+   "id": "ac4a1fb544ae",
+   "title": "Read the pitch decks 18 startups disrupting social media and dating used to raise millions and ink deals.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOHdYYU9QWVBrRGVzRUdjbFFZSWVTakFMYjE4R1BLbkxtZTlydjJEUDhRUjc2aFBoQ0JUMjdUSjFZd3FfTDhQTV9MZDJCbXQxREowWUc1OTFWQzlNMmJQUlZjc2lJdkFtemZ2dVdPemRHUHZRM0FLUks3djVBSTdpd2VjUG5HLWlhTG5ZY21UUHZXZGJiQlJWRl9QMA?oc=5",
+   "domain": "businessinsider.com",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "boardy",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOHdYYU9QWVBrRGVzRUdjbFFZSWVTakFMYjE4R1BLbkxtZTlydjJEUDhRUjc2aFBoQ0JUMjdUSjFZd3FfTDhQTV9MZDJCbXQxREowWUc1OTFWQzlNMmJQUlZjc2lJdkFtemZ2dVdPemRHUHZRM0FLUks3djVBSTdpd2VjUG5HLWlhTG5ZY21UUHZXZGJiQlJWRl9QMA?oc=5"
+    }
+   ],
+   "baseScore": 2.4
+  },
+  {
+   "id": "5fc782d8da24",
+   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-29T07:11:07.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "ea9de368704e",
+   "title": "Four minutes, no fluff: Inside CIO South Africa's 2026 Pitch Parade",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQnoxQ3BtSFplSGRlaDdDaUhGcUZDMXVDWW0xMEMxamd5NDVBMW8xSkRSdEt6bE91Z2U4VXVCQ3lHTFpzZUxmZ2NIeVlCRXNpcGVNMlFJUVVJYS1KdTFSbHZ1cWYybGhNUnVwaHZyQ08zSGVTZkJtTllJWkVZdU13VDlNenZOUWQ3TEUyWEJPQUtYb3J2cVZvWG1lWQ?oc=5",
+   "domain": "cio-sa.co.za",
+   "publishedAt": "2026-07-29T07:00:00.000Z",
+   "companySlug": "wordware",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQnoxQ3BtSFplSGRlaDdDaUhGcUZDMXVDWW0xMEMxamd5NDVBMW8xSkRSdEt6bE91Z2U4VXVCQ3lHTFpzZUxmZ2NIeVlCRXNpcGVNMlFJUVVJYS1KdTFSbHZ1cWYybGhNUnVwaHZyQ08zSGVTZkJtTllJWkVZdU13VDlNenZOUWQ3TEUyWEJPQUtYb3J2cVZvWG1lWQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "2b8c6f6c4f83",
+   "title": "USC Researchers Discover Fake News Spreaders Have Less Followers Than Users Pushing Back",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQjN0N1praVFCWGZKRWJoc1B2dlM2NzYySHZWS2Zoczc3a3psSVpab2RHSnZJVnJ2T1F4WXNqOGhsU2FxdHlpeWJ4Z2VWcXpEYWVJdEI0R2lEN3F6N2JuOXRudzc5djcxVUYzYjZHTEtmc3djeGozX0FVMl9fSlBwdzNpeEwwZ21XR1BZaTlKOG1WUmxVQUhJdEliQi0zNlE1dzVpWEpQTkVCbzMxdHRCZTdWRms3ZHNMYWlaR3hJQ3ppWTRnQWszSVlSVko?oc=5",
+   "domain": "viterbischool.usc.edu",
+   "publishedAt": "2026-07-29T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQjN0N1praVFCWGZKRWJoc1B2dlM2NzYySHZWS2Zoczc3a3psSVpab2RHSnZJVnJ2T1F4WXNqOGhsU2FxdHlpeWJ4Z2VWcXpEYWVJdEI0R2lEN3F6N2JuOXRudzc5djcxVUYzYjZHTEtmc3djeGozX0FVMl9fSlBwdzNpeEwwZ21XR1BZaTlKOG1WUmxVQUhJdEliQi0zNlE1dzVpWEpQTkVCbzMxdHRCZTdWRms3ZHNMYWlaR3hJQ3ppWTRnQWszSVlSVko?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "7f346ce01291",
+   "title": "The Rise of the One-Person Company",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUkpPSHJONFRXdm5mNHZDUTJzUHFwNXJGTjB3TWNQdVZwbFFiY2JXYTFIZmxUdzBFYkJIR0s0WW5RSVN1S1N6aW05ZUUxYk1GMXNib3VGYkRUV24wTWFUZTR2bndNZUhETFJKbXVCMzFyQkFkNGdn?oc=5",
+   "domain": "businessmodelanalyst.com",
+   "publishedAt": "2026-07-29T07:00:00.000Z",
+   "companySlug": "medvi",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCUkpPSHJONFRXdm5mNHZDUTJzUHFwNXJGTjB3TWNQdVZwbFFiY2JXYTFIZmxUdzBFYkJIR0s0WW5RSVN1S1N6aW05ZUUxYk1GMXNib3VGYkRUV24wTWFUZTR2bndNZUhETFJKbXVCMzFyQkFkNGdn?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -354,22 +693,6 @@
    "baseScore": 1.1
   },
   {
-   "id": "5fc782d8da24",
-   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
-   "domain": "allaboutcookies.org",
-   "publishedAt": "2026-07-28T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
    "id": "0e341531cf07",
    "title": "How To Start Vibe Coding With Base44: A Beginner's Guide to Building Your First App",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03NFZMZF9ySHdWeUFlVDNHdERldF9zVFpReU8wb1M1TEN5RzJmUEQtbG5uNElPMEp2Zm1WRDl5d0FpNTZmWm1la3hkQVZ4c2NNQnpXMVVmYjFXT0ZyTUhOcVRvVHllZVBfalYweG1EYjFpQQ?oc=5",
@@ -381,6 +704,38 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03NFZMZF9ySHdWeUFlVDNHdERldF9zVFpReU8wb1M1TEN5RzJmUEQtbG5uNElPMEp2Zm1WRDl5d0FpNTZmWm1la3hkQVZ4c2NNQnpXMVVmYjFXT0ZyTUhOcVRvVHllZVBfalYweG1EYjFpQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "981bbd6ee26a",
+   "title": "Vibe Coding Statistics: Americans Are Using AI Wrong, And Most Know It [Survey]",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wWTdNVThLeTExY1ZTa3lfTGd2eEJZZlRsbGE4SlJKekY4QmVnaC1LdEJSNVYtWEhWaVVSVGhXMWE1S2NXNlliSDJyVjlXaWZiSG9nSU40eEgwbXBpWWR2SmZtclViVWtROHZfZ1dGQQ?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wWTdNVThLeTExY1ZTa3lfTGd2eEJZZlRsbGE4SlJKekY4QmVnaC1LdEJSNVYtWEhWaVVSVGhXMWE1S2NXNlliSDJyVjlXaWZiSG9nSU40eEgwbXBpWWR2SmZtclViVWtROHZfZ1dGQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "61ff5ad70334",
+   "title": "Are AI Lawsuits Quietly Rewriting Wix’s (WIX) Cost Structure And Long-Term Investment Narrative?",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWkx0UFAyYWhhWW9adnBWU2JDR2RMeWNzRWxEeHZCdnpHVEloRC1udWVURzhmMEJkX1ZmbVlyTDJzOWJSZi0xQ1o2djA3SVJyRmFYem9KNF9KaVk3MGRKdjRDUkUyMXQ1OEcyM1M0LXhNdXctQzI2dUZXV09PSHpaX1FCdnpCUDhSbDZmcDV6UURhRXdIVjNCR3VVTHVEVkhsOEpLQU1JYlJLX3o5NXZKQVY4MHRxMWhZVGFSbEY2UmJHM25GTHdmb29KN1lIM3pfYTFOLXhsbU80RWtJ?oc=5",
+   "domain": "sahmcapital.com",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWkx0UFAyYWhhWW9adnBWU2JDR2RMeWNzRWxEeHZCdnpHVEloRC1udWVURzhmMEJkX1ZmbVlyTDJzOWJSZi0xQ1o2djA3SVJyRmFYem9KNF9KaVk3MGRKdjRDUkUyMXQ1OEcyM1M0LXhNdXctQzI2dUZXV09PSHpaX1FCdnpCUDhSbDZmcDV6UURhRXdIVjNCR3VVTHVEVkhsOEpLQU1JYlJLX3o5NXZKQVY4MHRxMWhZVGFSbEY2UmJHM25GTHdmb29KN1lIM3pfYTFOLXhsbU80RWtJ?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -418,6 +773,22 @@
    "baseScore": 1.1
   },
   {
+   "id": "0a36fada9276",
+   "title": "From Stress-Relief Vibration Patterns to Haptic Emojis, USC Researchers Personalize the Sense of Touch With AI",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEZpSnBzVnpDdjJGS1EyTFRQOGZsNnBfbjMyS2RQeDRGMTJIRFNTUXRfUE4zZHZrdkhtR3NWWVVmLTBrVENGdlJyeW9KZFJBTFlxcFAxTzdhWVRHdjkxWWNQNlA4U1M3YTJqdTlSQnBqZ0Q0QV96OUhaYWRqWHBJb3pOd3NWb2YtTnNPeHB4NllqeHFmLUhtZHpLdUtQUVhfX09CcHljelBkUlc0TndlVWkzSW1zMlJCTTYzM0V0cE5DVVhwWjVhYnNhWldSdnJFX0N2Z1RaMXhyS0ZzTU5fY2w1SXp2dWpo?oc=5",
+   "domain": "viterbischool.usc.edu",
+   "publishedAt": "2026-07-27T18:52:32.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEZpSnBzVnpDdjJGS1EyTFRQOGZsNnBfbjMyS2RQeDRGMTJIRFNTUXRfUE4zZHZrdkhtR3NWWVVmLTBrVENGdlJyeW9KZFJBTFlxcFAxTzdhWVRHdjkxWWNQNlA4U1M3YTJqdTlSQnBqZ0Q0QV96OUhaYWRqWHBJb3pOd3NWb2YtTnNPeHB4NllqeHFmLUhtZHpLdUtQUVhfX09CcHljelBkUlc0TndlVWkzSW1zMlJCTTYzM0V0cE5DVVhwWjVhYnNhWldSdnJFX0N2Z1RaMXhyS0ZzTU5fY2w1SXp2dWpo?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "6f531628f832",
    "title": "Midjourney was not invited to this party",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmpWTmVuWXFXNVloXzlJSml6TU1HQWQ1YUVLbUZWeEl3bGpxWW11czE0Y2FhZVlZTUF3eENnR3d1Q2Z4SVM4T1FRdVI1Ul9VbGNCbXNOb3dYckd4eGtPN3o2Ulg2aTJVdzBWUUwwMGRiRDZMNklERFJBMEFuVkQxanJuMW5NZUVQX053UW0wZ0Jpb1pYRXc?oc=5",
@@ -434,26 +805,20 @@
    "baseScore": 1.1
   },
   {
-   "id": "7e45c76a75ef",
-   "title": "Midjourney acquired the astrology app Co-Star",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5",
-   "domain": "techcrunch.com",
-   "publishedAt": "2026-07-24T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "funding",
+   "id": "ee583bcf9e86",
+   "title": "OpenAI Just Revealed Its AI Went Rogue. The Rest of the Story Is Even Stranger.",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUFpUcGNrRnd6NmZNWVJSOGdSX1VLOVA4alQ5R3VOQWd6dGR6RjcyQnVZcFBlNDNkNGRxbXJoV3RQNFFNay1RYzdsMzdMYV80VjNSemxxclQzWDNjM3JnY2xGNnQtUWVjc25UZm9DTXptUERCb3lFTlJpVjRjV0pKbGx0cVVWZ3pWRGdOenNnYk1RZEY5NlBxRFJWdW1NaWRiVFZSWDcxN1FjdU1IVE1ycmhB?oc=5",
+   "domain": "sify.com",
+   "publishedAt": "2026-07-27T07:00:00.000Z",
+   "companySlug": "rentahuman",
+   "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5"
-    },
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49041390",
-     "points": 7,
-     "comments": 0
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUFpUcGNrRnd6NmZNWVJSOGdSX1VLOVA4alQ5R3VOQWd6dGR6RjcyQnVZcFBlNDNkNGRxbXJoV3RQNFFNay1RYzdsMzdMYV80VjNSemxxclQzWDNjM3JnY2xGNnQtUWVjc25UZm9DTXptUERCb3lFTlJpVjRjV0pKbGx0cVVWZ3pWRGdOenNnYk1RZEY5NlBxRFJWdW1NaWRiVFZSWDcxN1FjdU1IVE1ycmhB?oc=5"
     }
    ],
-   "baseScore": 3.26
+   "baseScore": 1.1
   },
   {
    "id": "dfb01010aa85",
@@ -472,6 +837,22 @@
    "baseScore": 1.1
   },
   {
+   "id": "7e45c76a75ef",
+   "title": "Midjourney acquired the astrology app Co-Star",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5",
+   "domain": "techcrunch.com",
+   "publishedAt": "2026-07-24T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5"
+    }
+   ],
+   "baseScore": 2.4
+  },
+  {
    "id": "dfce3d65a778",
    "title": "Midjourney Releasing v8.2",
    "url": "https://news.ycombinator.com/item?id=49043659",
@@ -488,6 +869,22 @@
     }
    ],
    "baseScore": 1.49
+  },
+  {
+   "id": "355aea8e2d8f",
+   "title": "Nano #1 Preview: Undercover as a Suburban Wife and Teacher",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaXJFOVVPUnoyWkdGTmlNUnFfUWJwa3VvOTNWWXI0djV1Qm5MUWtnRGVRYm1GQ0lIWWFwTXBmUUxVaHlxLWdORkNkS195VUZSc2otRGpac29oOEZJcjFLUGY0MnFsYUlNSjhYQTlsMFN4TU9GWkJhVC1QVkwyZEdWWEQzUlhrYnZSam16amtPYm9ZVW8?oc=5",
+   "domain": "bleedingcool.com",
+   "publishedAt": "2026-07-25T07:00:00.000Z",
+   "companySlug": "nanocorp",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaXJFOVVPUnoyWkdGTmlNUnFfUWJwa3VvOTNWWXI0djV1Qm5MUWtnRGVRYm1GQ0lIWWFwTXBmUUxVaHlxLWdORkNkS195VUZSc2otRGpac29oOEZJcjFLUGY0MnFsYUlNSjhYQTlsMFN4TU9GWkJhVC1QVkwyZEdWWEQzUlhrYnZSam16amtPYm9ZVW8?oc=5"
+    }
+   ],
+   "baseScore": 1.1
   },
   {
    "id": "0ad7224aedae",
@@ -538,6 +935,54 @@
    "baseScore": 1.1
   },
   {
+   "id": "98b308a81964",
+   "title": "The Snoop: Richard Marles seeks fishing help, Musk’s ‘historic’ Odyssey pitch, and more",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVBPV3MzNHNkcVVNMDFRcmhEWncwYVpfWURXSDc0OEpoaFVnYmNwYmgxV0xGN280NEVuaUtWSW1jQWlxQXJhV0xYTldHUlZzUVhoZS1SaGxnN1RyVzZzOWhkd1hKM1JleG15Q3RYM1F4WmJ4UnhTZTZjWEZfckQxNjkwMmFyQzRhUFRiVjRuRnZXaFQ1ZWpwSkhCTVdia0lZalA4b0hCN3hSX0g3S2c?oc=5",
+   "domain": "crikey.com.au",
+   "publishedAt": "2026-07-23T07:00:00.000Z",
+   "companySlug": "payman",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVBPV3MzNHNkcVVNMDFRcmhEWncwYVpfWURXSDc0OEpoaFVnYmNwYmgxV0xGN280NEVuaUtWSW1jQWlxQXJhV0xYTldHUlZzUVhoZS1SaGxnN1RyVzZzOWhkd1hKM1JleG15Q3RYM1F4WmJ4UnhTZTZjWEZfckQxNjkwMmFyQzRhUFRiVjRuRnZXaFQ1ZWpwSkhCTVdia0lZalA4b0hCN3hSX0g3S2c?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "dbece088b5f6",
+   "title": "Hollywood studios accused of AI hypocrisy amid high-stakes legal battle that could define controversial tech’s future",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWFY3aTNOT0lGNkNPRzJRVWZsVzJfSXh2TlY3WlBCTl9qT2EzZ3hkQlpwTWNOcEM2S2o5MGl5WnRrNGFYTHNhYWZZRnNYR2JrVm15bXN6WmNyRUVVWW5tcXRVWVc3cWUzSGZWYzBqeFl1VmRReUV3VWNyNUlITkxpaDRjMnNQM2hsOU9zSkNCdDF0RVlQOFdTM2REa09yaTRCSFM4U2g4UUdYSEdSMWlDc1E1TzByUTlWbVhFMXJ4LWtuSkx5dUx4Ui1zYS1iQQ?oc=5",
+   "domain": "pagesix.com",
+   "publishedAt": "2026-07-22T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWFY3aTNOT0lGNkNPRzJRVWZsVzJfSXh2TlY3WlBCTl9qT2EzZ3hkQlpwTWNOcEM2S2o5MGl5WnRrNGFYTHNhYWZZRnNYR2JrVm15bXN6WmNyRUVVWW5tcXRVWVc3cWUzSGZWYzBqeFl1VmRReUV3VWNyNUlITkxpaDRjMnNQM2hsOU9zSkNCdDF0RVlQOFdTM2REa09yaTRCSFM4U2g4UUdYSEdSMWlDc1E1TzByUTlWbVhFMXJ4LWtuSkx5dUx4Ui1zYS1iQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.2
+  },
+  {
+   "id": "1cd2b34ff43c",
+   "title": "The Empty Office: What Happens When AI Runs the Company",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY0ZnQU5MV0I1cW1tT0xkcGFoSjY0UDdyT0p0VkJ6OGt6MUtXVzdVbnlibzlWUFFxcURXdnpJbFpjZmwxeTlBSFkyU1gwNG5mcnJJbTMxdmxxTVNDaS1mQWRqdWd4RDFkNE1yT0pyS3NXbzdxZHo3NGt0OEo2amh1cFRYYlVMaDQ?oc=5",
+   "domain": "newsweek.com",
+   "publishedAt": "2026-07-22T07:00:00.000Z",
+   "companySlug": "polsia",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY0ZnQU5MV0I1cW1tT0xkcGFoSjY0UDdyT0p0VkJ6OGt6MUtXVzdVbnlibzlWUFFxcURXdnpJbFpjZmwxeTlBSFkyU1gwNG5mcnJJbTMxdmxxTVNDaS1mQWRqdWd4RDFkNE1yT0pyS3NXbzdxZHo3NGt0OEo2amh1cFRYYlVMaDQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "6ca802c6447d",
    "title": "AI firm Midjourney enters wellness with spa, fitness and body scanning concept",
    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOS0VvLWduUF9PblliaW1Nc0V1ck16Yk1DS0dVblBZS0IzcUpudF9DU1dCR0FZS3Q5WlJiQTRuRDVSSDJyTEloTEJoZFBibEp2UGZLcm11Z1NJVnBiSzlBODRqQW5vZnIySFVkdGZWM3VOYzVVYUsySTRCeDRkanpWTnJoa0xHX0d5TV9mejJtOE1KUTRPYWs3Z0g1b0lxSkhTVXZOMzNvZF92cUJtTWZOZWJBU00xSnFMV21OZzZMTkl5WnlnUHJSNUpBbkhMYTJJWll6SlNZMFp0eUx4a2MzTi10eWJoRFZJQnlXVm45Y3owLXZobWFocV93bGpiQQ?oc=5",
@@ -549,6 +994,38 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOS0VvLWduUF9PblliaW1Nc0V1ck16Yk1DS0dVblBZS0IzcUpudF9DU1dCR0FZS3Q5WlJiQTRuRDVSSDJyTEloTEJoZFBibEp2UGZLcm11Z1NJVnBiSzlBODRqQW5vZnIySFVkdGZWM3VOYzVVYUsySTRCeDRkanpWTnJoa0xHX0d5TV9mejJtOE1KUTRPYWs3Z0g1b0lxSkhTVXZOMzNvZF92cUJtTWZOZWJBU00xSnFMV21OZzZMTkl5WnlnUHJSNUpBbkhMYTJJWll6SlNZMFp0eUx4a2MzTi10eWJoRFZJQnlXVm45Y3owLXZobWFocV93bGpiQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "280806a947a4",
+   "title": "BofA enhances AI-powered tool to resolve client needs faster",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NbC1hQkI5enZDUVlyRkxPZU1vUTFLZ2tJOURnNjlqWWJmRkNZVXpiazdlamh2SVhxV2NscmVvLXFmR00xeVhkRTBmc1RBVTZKTFZnQXliem1pQThobGc5LUsydjF0OXotdEExdm90S1lpNktPOEpITXV5TjF0dw?oc=5",
+   "domain": "aol.com",
+   "publishedAt": "2026-07-21T07:00:00.000Z",
+   "companySlug": "payman",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NbC1hQkI5enZDUVlyRkxPZU1vUTFLZ2tJOURnNjlqWWJmRkNZVXpiazdlamh2SVhxV2NscmVvLXFmR00xeVhkRTBmc1RBVTZKTFZnQXliem1pQThobGc5LUsydjF0OXotdEExdm90S1lpNktPOEpITXV5TjF0dw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "4e43a4ecb985",
+   "title": "‘Culture of secrecy’: PM won’t answer what Rudd and Gillard revealed",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOM3g1QUN6a0RQU3BrdnN1REJUMGFkQV9ka3JFcFBqYUY5dFkwNW5DN3ZzY1VidWcxeGtPR0VGcV9fYlNEMGtudFViVFhhenlRUTVsZFBheEdqSWhQVEhzdkgxS3M2VXpsN2d0S0ZOR0U2Qm9URzZfUDg4eGxod1hrRFBjUzNoeFAtR183Ty1HQjNLT3NrSHZmQkVQR29yakM0YVllR056c3ZqM2k2dHhWeWtYUnJFbG9Pd2NEa3J6dzlCc3BoS1JiUDlTMkxMekd6OE5NRklaa0J5WUdzYzY2d0EyejNFSGFVR014Ty1YQWdwSC1QdzZTRVpfU0FnaTZNcmtwb3pCWdIBjAJBVV95cUxOTXEtYW9oVndhS0hhYk1SNkVkcTlXVzlaUUd5Rk5iOHU4cXVTUER2VUxsNVlVcHBXRjR2bFdjb0hLbGluMlFWVjA5X3RSNjY1ZHlOX3ljeEJLak5MXzVKY3NYcHNEM2VLSGdkbFExYWxCMHlXY3ZfWWx0ckk2bDU5Mk1GTFoxN2oxVkIzQjlUZnBYNGhEQmNROEJTUzhaQklsLWNXMFRGZmdMRGU2WWsyRUhyRTNhSnlHa3JXMnkzVXc5Q2w1a2tacFlDV0lCOXBtV3luM0ZzSjBoVFExNVpQTWpsdVd4WjdtSEpFd3Y2bk9yZVNxaFZ3dDBEeDFVZmNtdHJWOU5UZUpxQzBp?oc=5",
+   "domain": "theaustralian.com.au",
+   "publishedAt": "2026-07-17T07:00:00.000Z",
+   "companySlug": "payman",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOM3g1QUN6a0RQU3BrdnN1REJUMGFkQV9ka3JFcFBqYUY5dFkwNW5DN3ZzY1VidWcxeGtPR0VGcV9fYlNEMGtudFViVFhhenlRUTVsZFBheEdqSWhQVEhzdkgxS3M2VXpsN2d0S0ZOR0U2Qm9URzZfUDg4eGxod1hrRFBjUzNoeFAtR183Ty1HQjNLT3NrSHZmQkVQR29yakM0YVllR056c3ZqM2k2dHhWeWtYUnJFbG9Pd2NEa3J6dzlCc3BoS1JiUDlTMkxMekd6OE5NRklaa0J5WUdzYzY2d0EyejNFSGFVR014Ty1YQWdwSC1QdzZTRVpfU0FnaTZNcmtwb3pCWdIBjAJBVV95cUxOTXEtYW9oVndhS0hhYk1SNkVkcTlXVzlaUUd5Rk5iOHU4cXVTUER2VUxsNVlVcHBXRjR2bFdjb0hLbGluMlFWVjA5X3RSNjY1ZHlOX3ljeEJLak5MXzVKY3NYcHNEM2VLSGdkbFExYWxCMHlXY3ZfWWx0ckk2bDU5Mk1GTFoxN2oxVkIzQjlUZnBYNGhEQmNROEJTUzhaQklsLWNXMFRGZmdMRGU2WWsyRUhyRTNhSnlHa3JXMnkzVXc5Q2w1a2tacFlDV0lCOXBtV3luM0ZzSjBoVFExNVpQTWpsdVd4WjdtSEpFd3Y2bk9yZVNxaFZ3dDBEeDFVZmNtdHJWOU5UZUpxQzBp?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -570,17 +1047,81 @@
    "baseScore": 1.1
   },
   {
-   "id": "c9191dd3ebd9",
-   "title": "“HAGF Is Not Handing NBA To Egbe Amofin” — Okutepa Faults Okpoko, Says AGF’s Directives Target Electoral Manipulation, Not Regional Control",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSjJCNDNKa0Rfb0RmbGVna0dNcDVnOUdKci1hSk4tVlIwT1dnM0xobUYwVGFMX2NVZDBjZThONDRfdnhkLTFRUGh4X25uNUZJbk1IRFoxYWdyWFlnT1N5b2FaUFhlQmhpRXVzN3hxZVcxRWVmdUFXcl8yZDg1UHI0cV9KdmpLZGtsSFNkVGMxSjNaZVpkZkNacHNvV3ExZkpKRE5lbHR6amdnamh3cE55TC1FM1NCVHBRMWpwU1JpT2pTRmpaejlLM2ZXc3ZnQkRMUlR0WUtzX0Zjb0JrSTdYR3lqQ1FUbUZobGh3N0ZtQ1RDam11?oc=5",
-   "domain": "thenigerialawyer.com",
+   "id": "13c2c75d9f0b",
+   "title": "USC Advances Humanoid Robotics, Robot Learning and 3D Manipulation at RSS 2026",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWw5d0U4bkxndDJ4eE1HaDVrY25XM1lxbnBLM1BKOEVrNW1qOW5RdDYtV3c2cG1yQk1VN3ZfMGdBaFYyTUNGc3NibktzeGZ0c0pObEt0ZkU5aE53S1FzdWx4a05aeGV2dDVXZHFLSUQ4aXRvX1FTLWdpYnBjejlWZ0J5X25hTHQ3cFdyZjMwTGlQUkdiQVVBN21qMWlkVUwwc3RHal9ZeV95WElMci1GN1d3aW5oXzFvaDBhVVp3?oc=5",
+   "domain": "viterbischool.usc.edu",
    "publishedAt": "2026-07-15T07:00:00.000Z",
-   "companySlug": "egbe",
+   "companySlug": "midjourney",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSjJCNDNKa0Rfb0RmbGVna0dNcDVnOUdKci1hSk4tVlIwT1dnM0xobUYwVGFMX2NVZDBjZThONDRfdnhkLTFRUGh4X25uNUZJbk1IRFoxYWdyWFlnT1N5b2FaUFhlQmhpRXVzN3hxZVcxRWVmdUFXcl8yZDg1UHI0cV9KdmpLZGtsSFNkVGMxSjNaZVpkZkNacHNvV3ExZkpKRE5lbHR6amdnamh3cE55TC1FM1NCVHBRMWpwU1JpT2pTRmpaejlLM2ZXc3ZnQkRMUlR0WUtzX0Zjb0JrSTdYR3lqQ1FUbUZobGh3N0ZtQ1RDam11?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWw5d0U4bkxndDJ4eE1HaDVrY25XM1lxbnBLM1BKOEVrNW1qOW5RdDYtV3c2cG1yQk1VN3ZfMGdBaFYyTUNGc3NibktzeGZ0c0pObEt0ZkU5aE53S1FzdWx4a05aeGV2dDVXZHFLSUQ4aXRvX1FTLWdpYnBjejlWZ0J5X25hTHQ3cFdyZjMwTGlQUkdiQVVBN21qMWlkVUwwc3RHal9ZeV95WElMci1GN1d3aW5oXzFvaDBhVVp3?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "69982dd0e1b3",
+   "title": "Business Applications Jump 24% as AI Lowers Startup Costs",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNWtsZDJ3VkZ4S3ZISVVVNW9SSlFDM1BkRUJyV1RpXzhuVzBzdlJmNXFseVk0cW9NcFM2NTFCenQ3c0lPUlRhZEtEcDROd3lDOWdBVUx0eGV0S25lRVZmbGMxQnAyQWpfNDFySHdOVldSdUQ2VTBlZFBQLWhiOXpDS2lVcGlyVjYxV3RMV2tGMXpyZDRiclVLeTE1SUd3Q29sZXRnaXlrb2NsRjhZT1FyWXpNWFVTcGN6MkpXZTdR?oc=5",
+   "domain": "pymnts.com",
+   "publishedAt": "2026-07-14T07:00:00.000Z",
+   "companySlug": "medvi",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNWtsZDJ3VkZ4S3ZISVVVNW9SSlFDM1BkRUJyV1RpXzhuVzBzdlJmNXFseVk0cW9NcFM2NTFCenQ3c0lPUlRhZEtEcDROd3lDOWdBVUx0eGV0S25lRVZmbGMxQnAyQWpfNDFySHdOVldSdUQ2VTBlZFBQLWhiOXpDS2lVcGlyVjYxV3RMV2tGMXpyZDRiclVLeTE1SUd3Q29sZXRnaXlrb2NsRjhZT1FyWXpNWFVTcGN6MkpXZTdR?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "130f68722b9a",
+   "title": "Wix's CEO runs an AI coding giant. He says the tech still gets 'too much credit.'",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMl9PcVRld3lwNF8wVG93M3hXa2g5OW43dFZjODg1QW0xLVNQMXQwOGNVSnNjZEFiOWMyM0gydUhsT0NHVXAzUmlseXlrWWdMcnRfNTFBbkhEMjZpTHRTQWJLNzJESzdwXzlIR0NWeFRFZFB0ckYxS2RiT3dGV0JMay1tdENtQlZKb3hpZC0yWFNMcUU5Z0M0X1NYOWE?oc=5",
+   "domain": "businessinsider.com",
+   "publishedAt": "2026-07-13T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMl9PcVRld3lwNF8wVG93M3hXa2g5OW43dFZjODg1QW0xLVNQMXQwOGNVSnNjZEFiOWMyM0gydUhsT0NHVXAzUmlseXlrWWdMcnRfNTFBbkhEMjZpTHRTQWJLNzJESzdwXzlIR0NWeFRFZFB0ckYxS2RiT3dGV0JMay1tdENtQlZKb3hpZC0yWFNMcUU5Z0M0X1NYOWE?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "7e9d3c9c857d",
+   "title": "How Many People Work At Midjourney 2026: Lean Team, Big Revenue",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DXzZOTkhYdGs5RVhYbHNuekg5bVNnWnZDbUNWa1lIVEsyWVlXZkd4dGY1Z3ZIcHFjVHdzR1J2NUh0cERxcm4zMGs1Zjg2eHFvcmVJd3ZTTlV6LTdIWnF3RWR4TmZaMU9nUUNRXw?oc=5",
+   "domain": "sqmagazine.co.uk",
+   "publishedAt": "2026-07-13T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DXzZOTkhYdGs5RVhYbHNuekg5bVNnWnZDbUNWa1lIVEsyWVlXZkd4dGY1Z3ZIcHFjVHdzR1J2NUh0cERxcm4zMGs1Zjg2eHFvcmVJd3ZTTlV6LTdIWnF3RWR4TmZaMU9nUUNRXw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "e2c761ec69cd",
+   "title": "USC Study Used Sweat, Brain Signals, Eye Movements and AI to Detect Depression and Suicide Risk",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLVpDeE1iUnU4YzlhaHlJbDZvRFhtU1k4ZHpELXpBZFFHTU5YaEczY2NqZHpMaFZTbUVPODltWl9OVVN4YXZiYWdyeWVMSktwcXZZWlZwSWpXVTJsXzhZTUt5bmJGbzE3MUJHdkVLZGZKTTlvTXNOOFk2b0tDTktWb1hRTXJVbUtNT0Fjc0NhNThTUVgycXRPZDlIRUFqSTNjQUlwWk9rQlpZUHR1WDN3TnE0THZSZnRRM28ydzdMNE9uc1kyanVRSzNSRDkyc2VSN0E0?oc=5",
+   "domain": "viterbischool.usc.edu",
+   "publishedAt": "2026-07-13T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLVpDeE1iUnU4YzlhaHlJbDZvRFhtU1k4ZHpELXpBZFFHTU5YaEczY2NqZHpMaFZTbUVPODltWl9OVVN4YXZiYWdyeWVMSktwcXZZWlZwSWpXVTJsXzhZTUt5bmJGbzE3MUJHdkVLZGZKTTlvTXNOOFk2b0tDTktWb1hRTXJVbUtNT0Fjc0NhNThTUVgycXRPZDlIRUFqSTNjQUlwWk9rQlpZUHR1WDN3TnE0THZSZnRRM28ydzdMNE9uc1kyanVRSzNSRDkyc2VSN0E0?oc=5"
     }
    ],
    "baseScore": 1.1
