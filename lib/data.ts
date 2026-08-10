@@ -110,6 +110,11 @@ export const companies: Company[] = [
     pricing: "$49/mo (hosting, DB, repo, payments, ad accounts, one nightly autonomous task + credits) plus 20% revenue share via Stripe Connect.",
     news: [
       {
+        date: "2026-08",
+        headline:
+          "Sapiom — the spend-routing layer in Polsia's stack — raises a $35M Series A (Dragonfly lead; Anthropic among the backers). Press coverage credits its task-to-cheapest-model routing in Polsia's $1.2M → $100K bill cut, adding third-party corroboration to the founder-reported arc.",
+      },
+      {
         date: "2026-07",
         headline:
           "Self-documentary ('I Built a $250M AI Company. The Bill Is $1.2M a Month') reveals the unit-economics arc: monthly Anthropic bill climbed $500K → $1.2M, then dropped to ~$100K in June after moving routine workloads to open-source models on rented GPUs (Sciforium inference; Sapiom handling agent spend). Next move: a free tier. Figures founder-reported; independent analysts dispute the margin math.",
@@ -1143,7 +1148,7 @@ export const stackTools: StackTool[] = [
   {
     name: "Sapiom",
     url: "https://sapiom.ai",
-    role: "Spend infrastructure for autonomous agents — identity, wallets, policy & settlement so agents can buy APIs and compute",
+    role: "Routes each agent task to the cheapest capable model + spend infrastructure (wallets, policy, settlement). Raised $35M Series A Aug 2026 — Anthropic is a backer",
     referral: null,
     usedBy: ["Polsia"],
     category: "payments",
