@@ -1,24 +1,6 @@
 {
- "generatedAt": "2026-08-10T15:12:08.822Z",
+ "generatedAt": "2026-08-10T15:14:50.800Z",
  "candidates": [
-  {
-   "id": "accd3a355381",
-   "name": "Dili",
-   "evidence": [
-    {
-     "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2diNklURTFGQmJFdUVHd1NmYUd0b0xZNUxDUEpkc0FZY3pVWWYtQ2NMQWJUX3A1WWNXSnVBbkdpSnpGRnF1bHJyb1FyVjQxdUU3UWo4NU5vUFI0UlRNXzUzSkNhak9WdnY4bXlJTFhGWDdrOGRsOEZGdElFWEg3c3NxcmhmdDhLb0RSTVZ2Q3JXcndHMXVkaXk5TnJmeDlJUzdpR0UzY2NZN1U?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-30T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:12:08.822Z",
-   "score": 1,
-   "status": "new"
-  },
   {
    "id": "645e009fd459",
    "name": "Ben Broca",
@@ -100,24 +82,6 @@
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYXlweC1ET05XXzFKeVBQSElTQlA5eGpOaC1YNElzLWhseVNmaGY4WVZHSkNBSV9iNWY3NTc4OWZIRExiSFpnR1d2TU1ZNGdRdjV2T0YxaWZ1cEpxZ0VyN2txSGZsenNkT0pzLVNjRjFUNWFHeUdTLXlSMHVNVGw2YmVpSGlfWmRQM0dnSzFYMHl2bFNhRnRfLWRfR2Q2QXhxSGVZUTVUN0FhdnRIMFdF?oc=5",
      "source": "gnews",
      "publishedAt": "2026-07-16T14:01:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:12:08.822Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "8bf8961b843d",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Unscrambling South African AI business limitations",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTDk1XzFoYXhrZXYwdzNYV3lOaDZLcnFxRTF1ckhKakllZWw5czFtdUpLWFdfTEtRdXdGMVBQZ2tQUGJDT3RFR0FfQ0d2aWNFUU5VNnhRU0dOS1dNVnltazlleWprTm5lZmc2N2kyUjUycHRJT1RCenVueTB4RlNfZnpLWllUUDItUGg2anBMb3BhMWRYU3AyTnRjbW5tQQ?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-30T10:55:34.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -214,6 +178,60 @@
     }
    ],
    "firstSeen": "2026-08-10T15:12:08.822Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "5fa8985c37d1",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+     "url": "https://news.ycombinator.com/item?id=48937020",
+     "source": "hn",
+     "publishedAt": "2026-07-16T16:52:16Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T15:14:50.800Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "f960481db7cd",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Can AI Run a Food Truck Business?",
+     "url": "https://foodtruckbench.com",
+     "source": "hn",
+     "publishedAt": "2026-07-25T02:10:59Z",
+     "matchedKeywords": [
+      "\"AI-run business\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T15:14:50.800Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "5cd3a2e884e9",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI agent startup uses agent to lead 100M round",
+     "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+     "source": "hn",
+     "publishedAt": "2026-07-12T23:15:33Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T15:14:50.800Z",
    "score": 0.5,
    "status": "new"
   }

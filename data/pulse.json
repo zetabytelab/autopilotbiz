@@ -1,17 +1,17 @@
 {
- "generatedAt": "2026-08-10T15:12:08.822Z",
+ "generatedAt": "2026-08-10T15:14:50.800Z",
  "sourcesRun": [
   {
    "id": "gnews",
    "ok": 21,
    "failed": 0,
-   "items": 137
+   "items": 138
   },
   {
    "id": "hn",
-   "ok": 0,
-   "failed": 21,
-   "items": 0
+   "ok": 21,
+   "failed": 0,
+   "items": 196
   },
   {
    "id": "techmeme",
@@ -21,8 +21,8 @@
   },
   {
    "id": "discovery",
-   "ok": 10,
-   "failed": 9,
+   "ok": 19,
+   "failed": 0,
    "items": 0
   }
  ],
@@ -79,6 +79,23 @@
    "hot": true
   },
   {
+   "id": "b83f57a69d21",
+   "title": "Car Photography Company Sues Midjourney for Allegedly Copying Thousands of Its Photos",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOGc0V000anhFYnE0a2Z6TGo1ay1zeFlRTy1WVVFWcTFjN1lhZWxDWVVmNmdoRUJZNEIyUDNhZ2xfLXdpUGotWTFtTEgxMW1oWTlGVDdNTDJxX3BZV2gtQTdTMGMxU1BHOEEwYzNVQXlfaHpvck00S3pwVWVDaVozUjYtRUc3YjlKOW1Yd041eGhlNmR1MzZkWEtMZmc3aVY4a195amxxZnhGRzc5U1JjQU1lNjZKUWxTcElJ?oc=5",
+   "domain": "petapixel.com",
+   "publishedAt": "2026-08-05T12:13:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOGc0V000anhFYnE0a2Z6TGo1ay1zeFlRTy1WVVFWcTFjN1lhZWxDWVVmNmdoRUJZNEIyUDNhZ2xfLXdpUGotWTFtTEgxMW1oWTlGVDdNTDJxX3BZV2gtQTdTMGMxU1BHOEEwYzNVQXlfaHpvck00S3pwVWVDaVozUjYtRUc3YjlKOW1Yd041eGhlNmR1MzZkWEtMZmc3aVY4a195amxxZnhGRzc5U1JjQU1lNjZKUWxTcElJ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "hot": true
+  },
+  {
    "id": "e5e871623ba1",
    "title": "Wix.com Ltd (WIX) (Q2 2026) Earnings Call Highlights: AI-Driven Growth Accelerates as Base44 ...",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTlHNmFlemt0Z2RnNFptZjYyNDcxOFVoSENhQkdDUDF2dzlEUF91MXlhVWV1WHVIZDlGWUh5LTNsOXVmZlRESHpFSlRtVWRyLS11ak1QZlZoTDltaUpXVU5VR2szMjRkdXU0QkZ5dnh2RjFXZGlMVndiQjdaeWxndGQ1anZHYWxSd1E?oc=5",
@@ -92,8 +109,7 @@
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTlHNmFlemt0Z2RnNFptZjYyNDcxOFVoSENhQkdDUDF2dzlEUF91MXlhVWV1WHVIZDlGWUh5LTNsOXVmZlRESHpFSlRtVWRyLS11ak1QZlZoTDltaUpXVU5VR2szMjRkdXU0QkZ5dnh2RjFXZGlMVndiQjdaeWxndGQ1anZHYWxSd1E?oc=5"
     }
    ],
-   "baseScore": 1.1,
-   "hot": true
+   "baseScore": 1.1
   },
   {
    "id": "1ea885c7403f",
@@ -208,6 +224,24 @@
    "baseScore": 1.1
   },
   {
+   "id": "65ec3e14d4ad",
+   "title": "CodeBot: Full details on our New AI for Delphi",
+   "url": "https://blogs.remobjects.com/2026/07/30/codebot-the-story/",
+   "domain": "blogs.remobjects.com",
+   "publishedAt": "2026-08-03T08:10:09Z",
+   "companySlug": "delphi",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49152680",
+     "points": 13,
+     "comments": 1
+    }
+   ],
+   "baseScore": 1.62
+  },
+  {
    "id": "aca43e8c9730",
    "title": "California AI Transparency Act Operative: Midjourney Has No Watermark, Fines Start Today",
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSnNaNk8wb2ZFSVJBZnhJNlNfZm1HdzhEWXBkSzJvWEZZNXRTV1dYbUJXMHZvbm9DSk9yUTJSdmQxdHE4NmhLYnNQMWwxRk9ib2dkTlJaMnVfcExIdktvT0VpcXc0ZFdTeDJpWGpLbXRRd0QyQzk1Vjh6MFBDTm9BX1JJRnVWaFJEaVQ1ejZpVzhhemJMNU9GUkNpYW5UV2pOUGZFenhXZUdWc2VZWUl3RzVHSk8zbUhyV2ZzcGhhOWNpNHZDeVNrd2xvMGMta2YwZFFPM0V6RVU?oc=5",
@@ -272,22 +306,6 @@
    "baseScore": 1.1
   },
   {
-   "id": "5fc782d8da24",
-   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
-   "domain": "allaboutcookies.org",
-   "publishedAt": "2026-07-29T07:11:07.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
    "id": "8c75df503d6a",
    "title": "Artisan Partners (NYSE:APAM) Surprises With Q2 CY2026 Sales",
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObUxWZG16UUpxZDBTZmFMTE5La05yZXNUczIycjZuNHZ2SUx5aktuWnNiNkVsdVZ0ZWJuZkw4MU0wNkFTelRFM3lOdV9UaTZvMjcwblRDQmZCVk5iMHFwN3dySGFQLU40Q04yRkN2eEhyU2loblhMMDBBdUgzMHlkaFZPMFZTdTdIb3FYSEFvQW9RSk96eUlfRVZ0Z09PeEh3dUdmbXowMGs4ZjZKLUUwc2lmSjBHcHVldDEzVkNLbjdxQXJxX1ExSDBGN1dPSHR3MVByOWRVVEg?oc=5",
@@ -331,6 +349,22 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYl81V1dQaWk1cEhGdEhmeVhVSjhjM2NRa2lQTUIwakZ1VHlfdENJLXpNQ3lYdUFTLXN0ZHhqXzlRTmVMcEZ3aFJ3Y2FQZHlyNFB6MmphS2lUTGdFcTFLLW1uSlZja0VwRTlWLWhPZWNDVU03NllYZw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "5fc782d8da24",
+   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -400,6 +434,28 @@
    "baseScore": 1.1
   },
   {
+   "id": "7e45c76a75ef",
+   "title": "Midjourney acquired the astrology app Co-Star",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5",
+   "domain": "techcrunch.com",
+   "publishedAt": "2026-07-24T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5"
+    },
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49041390",
+     "points": 7,
+     "comments": 0
+    }
+   ],
+   "baseScore": 3.26
+  },
+  {
    "id": "dfb01010aa85",
    "title": "Midjourney’s astrology expansion brings AI to the soul",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeXZSVl9ZcXFWNl9TeDlCUTVEaXJvbG9SazhrYl9SRXctWV9JUkwwZ3B3SW5vUEVvczAwc0t6WlNRWlVGaFdNRTRjamM0VFFlTHRIZFdmVzhsWHhLYnI3bFUwb3FEMkhJQk12TTdnMC1PV2hXNjJQaXY3by05VG5sZzF3Y3NwTXhvT3c?oc=5",
@@ -416,20 +472,22 @@
    "baseScore": 1.1
   },
   {
-   "id": "7e45c76a75ef",
-   "title": "Midjourney acquired the astrology app Co-Star",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5",
-   "domain": "techcrunch.com",
-   "publishedAt": "2026-07-24T07:00:00.000Z",
+   "id": "dfce3d65a778",
+   "title": "Midjourney Releasing v8.2",
+   "url": "https://news.ycombinator.com/item?id=49043659",
+   "domain": "news.ycombinator.com",
+   "publishedAt": "2026-07-25T01:30:40Z",
    "companySlug": "midjourney",
-   "kind": "funding",
+   "kind": "social",
    "sources": [
     {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSy1KQ2s1OWdRT3FsVjZHOWpGS1hHVW9xZU9TZnBxMV9UMTljQUhzbnppbkRTNEpfc1dGX2ZYTGF2V3REenpOV3V6ZXFvMXpsUkh0blE2Tkw2NHBYbVRFaFkxTnB1a2VoNTI0RkpDejNUZHVQcWNROGhmd29kQ2tBOC0xNWhDT3c?oc=5"
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49043659",
+     "points": 2,
+     "comments": 2
     }
    ],
-   "baseScore": 2.4
+   "baseScore": 1.49
   },
   {
    "id": "0ad7224aedae",
