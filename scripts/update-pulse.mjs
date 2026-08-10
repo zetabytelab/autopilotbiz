@@ -244,6 +244,51 @@ async function apifyTweets(token) {
   return items;
 }
 
+// Official LinkedIn pages/profiles to watch (URL → slug), hand-verified.
+const LINKEDIN_TARGETS = {
+  "https://www.linkedin.com/company/egbe-ai/": "egbe", // official company page
+  "https://www.linkedin.com/in/vyahhi/": "egbe", // Nikolay Vyahhi, founder
+};
+
+// harvestapi/linkedin-profile-posts (no cookies) — accepts profile AND company
+// URLs. One run per target keeps attribution trivial.
+async function apifyLinkedIn(token) {
+  const items = [];
+  for (const [target, slug] of Object.entries(LINKEDIN_TARGETS)) {
+    const res = await fetch(
+      `https://api.apify.com/v2/acts/harvestapi~linkedin-profile-posts/run-sync-get-dataset-items?token=${token}&timeout=180`,
+      {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ targetUrls: [target], maxPosts: 10, postedLimit: "month", includeReposts: false }),
+      },
+    );
+    if (!res.ok) throw new Error(`apify linkedin: HTTP ${res.status} for ${target}`);
+    const rows = await res.json();
+    for (const r of Array.isArray(rows) ? rows : []) {
+      const text = (r.content ?? r.text ?? "").replace(/\s+/g, " ").trim();
+      const url = r.linkedinUrl ?? r.postUrl ?? r.url;
+      const rawDate = r.postedAt?.date ?? r.postedAt?.timestamp ?? r.postedAt ?? r.date;
+      let publishedAt = null;
+      try {
+        publishedAt = new Date(rawDate).toISOString();
+      } catch {}
+      if (!text || !url || !publishedAt) continue;
+      items.push({
+        title: `LinkedIn: ${text.length > 160 ? text.slice(0, 157) + "…" : text}`,
+        url,
+        domain: "linkedin.com",
+        publishedAt,
+        sourceId: "linkedin",
+        companySlug: slug,
+        points: r.reactionsCount ?? r.likesCount ?? undefined,
+      });
+    }
+    await sleep(500);
+  }
+  return items;
+}
+
 async function youtubeChannel(channelId, slug) {
   const xml = await fetchText(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
   return xmlBlocks(xml, "entry")
@@ -396,6 +441,7 @@ async function main() {
   // (GitHub Actions secret; local runs without it skip silently).
   if (process.env.APIFY_TOKEN) {
     await runSource("x:apify", () => apifyTweets(process.env.APIFY_TOKEN));
+    await runSource("linkedin:apify", () => apifyLinkedIn(process.env.APIFY_TOKEN));
   }
 
   // Discovery queries (candidates + occasionally company news)
@@ -484,7 +530,7 @@ async function main() {
       const trustedBodyMatch = i.sourceId === "gnews" && !DISAMBIG[i.companySlug];
       // Hand-curated official channels/feeds are trusted outright — a founder's
       // video titled "pov: raising $30M using AI" never names the company.
-      const trustedChannel = i.sourceId === "youtube" || i.sourceId === "investor" || i.sourceId === "x";
+      const trustedChannel = ["youtube", "investor", "x", "linkedin"].includes(i.sourceId);
       if (!mentions && !ownDomain && !trustedBodyMatch && !trustedChannel) return false;
       // Ambiguous company names must also match a context regex
       const dis = DISAMBIG[i.companySlug];
