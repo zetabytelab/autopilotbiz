@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-10T16:17:31.602Z",
+ "generatedAt": "2026-08-10T16:25:12.811Z",
  "sourcesRun": [
   {
    "id": "gnews",
    "ok": 21,
    "failed": 0,
-   "items": 125
+   "items": 123
   },
   {
    "id": "hn",
@@ -30,6 +30,12 @@
    "ok": 1,
    "failed": 0,
    "items": 58
+  },
+  {
+   "id": "linkedin",
+   "ok": 1,
+   "failed": 0,
+   "items": 1
   },
   {
    "id": "investor",
@@ -436,6 +442,22 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOGc0V000anhFYnE0a2Z6TGo1ay1zeFlRTy1WVVFWcTFjN1lhZWxDWVVmNmdoRUJZNEIyUDNhZ2xfLXdpUGotWTFtTEgxMW1oWTlGVDdNTDJxX3BZV2gtQTdTMGMxU1BHOEEwYzNVQXlfaHpvck00S3pwVWVDaVozUjYtRUc3YjlKOW1Yd041eGhlNmR1MzZkWEtMZmc3aVY4a195amxxZnhGRzc5U1JjQU1lNjZKUWxTcElJ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "e2caa2d25075",
+   "title": "LinkedIn: Egbe + Z.ai for Startups are teaming up to make AI co-founders real. At Egbe, we're building an AI co-founder that turns ideas into real businesses. It plans…",
+   "url": "https://www.linkedin.com/posts/egbe-ai_egbe-zai-for-startups-are-teaming-up-to-activity-7490729757479821312-dS2B",
+   "domain": "linkedin.com",
+   "publishedAt": "2026-08-05T11:25:45.212Z",
+   "companySlug": "egbe",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "linkedin",
+     "url": "https://www.linkedin.com/posts/egbe-ai_egbe-zai-for-startups-are-teaming-up-to-activity-7490729757479821312-dS2B"
     }
    ],
    "baseScore": 1.1

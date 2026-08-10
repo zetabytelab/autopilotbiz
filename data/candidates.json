@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-10T16:17:31.602Z",
+ "generatedAt": "2026-08-10T16:25:12.811Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -146,24 +146,6 @@
    "status": "new"
   },
   {
-   "id": "8bf8961b843d",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Unscrambling South African AI business limitations",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTDk1XzFoYXhrZXYwdzNYV3lOaDZLcnFxRTF1ckhKakllZWw5czFtdUpLWFdfTEtRdXdGMVBQZ2tQUGJDT3RFR0FfQ0d2aWNFUU5VNnhRU0dOS1dNVnltazlleWprTm5lZmc2N2kyUjUycHRJT1RCenVueTB4RlNfZnpLWllUUDItUGg2anBMb3BhMWRYU3AyTnRjbW5tQQ?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-30T10:55:34.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T16:17:31.602Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "f9bb9f9c02e3",
    "name": null,
    "evidence": [
@@ -254,24 +236,6 @@
    "status": "new"
   },
   {
-   "id": "5fa8985c37d1",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
-     "url": "https://news.ycombinator.com/item?id=48937020",
-     "source": "hn",
-     "publishedAt": "2026-07-16T16:52:16Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T16:17:31.602Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "f960481db7cd",
    "name": null,
    "evidence": [
@@ -282,6 +246,24 @@
      "publishedAt": "2026-07-25T02:10:59Z",
      "matchedKeywords": [
       "\"AI-run business\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "5fa8985c37d1",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+     "url": "https://news.ycombinator.com/item?id=48937020",
+     "source": "hn",
+     "publishedAt": "2026-07-16T16:52:16Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
      ]
     }
    ],
