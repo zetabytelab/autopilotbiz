@@ -14,6 +14,26 @@ export async function GET() {
 
 const GENERIC_OK = { ok: true, message: "Thanks! Your submission is queued for review." };
 
+// In-process fixed-window rate limit: 3 submissions / 10 min / IP. Best-effort —
+// state lives on the warm function instance (Fluid Compute reuses instances), so
+// it resets on cold starts and isn't shared across regions. Good enough as a free
+// throttle on top of the token/BotID/honeypot layers.
+const RL_WINDOW_MS = 10 * 60 * 1000;
+const RL_MAX = 3;
+const rlHits = new Map<string, { count: number; reset: number }>();
+function rateLimited(req: Request): boolean {
+  const ip = (req.headers.get("x-forwarded-for")?.split(",")[0] ?? req.headers.get("x-real-ip") ?? "unknown").trim();
+  const now = Date.now();
+  if (rlHits.size > 5000) for (const [k, v] of rlHits) if (v.reset < now) rlHits.delete(k);
+  const entry = rlHits.get(ip);
+  if (!entry || entry.reset < now) {
+    rlHits.set(ip, { count: 1, reset: now + RL_WINDOW_MS });
+    return false;
+  }
+  entry.count += 1;
+  return entry.count > RL_MAX;
+}
+
 function domainOf(url: string): string | null {
   try {
     return new URL(url).hostname.replace(/^www\./, "").toLowerCase();
@@ -23,6 +43,11 @@ function domainOf(url: string): string | null {
 }
 
 export async function POST(req: Request) {
+  // ⓪ Rate limit before any work.
+  if (rateLimited(req)) {
+    return NextResponse.json({ ok: false, error: "too many submissions — try again later" }, { status: 429 });
+  }
+
   let raw: unknown;
   try {
     raw = await req.json();
