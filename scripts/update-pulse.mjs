@@ -191,7 +191,12 @@ async function bingNews(query) {
 // Founder/company YouTube channels (channel_id → label). Hand-maintained; the
 // only keyless YouTube access is per-channel RSS — there is no keyless search.
 const YOUTUBE_CHANNELS = {
-  // "UCxxxx": "polsia",
+  // Polsia — founder Ben Cera's self-documentary channel (@bencera-aislop),
+  // the primary source for the company's story arc.
+  "UCvONzA-juYE_H7cd9MQhXdw": "polsia",
+  // Official company channels (linked from their sites).
+  "UCFJ2Y3dktNSTFZ1kiMeTNKA": "lindy", // @Lindy-AI
+  "UCg56AMyflQDXRgGL2xLZ73w": "artisan", // @GetArtisanAI
 };
 
 async function youtubeChannel(channelId, slug) {
@@ -345,6 +350,25 @@ async function main() {
   // Discovery queries (candidates + occasionally company news)
   console.log("Running discovery taxonomy…");
   const discoveryItems = [];
+
+  // Investor & accelerator watch — official blogs/newsletters with working RSS
+  // (verified 2026-08). Items naming a tracked company route into its feed;
+  // agent-economy items become radar candidates; the rest are filtered out.
+  const INVESTOR_FEEDS = {
+    usv: "https://blog.usv.com/feed",
+    "y-combinator": "https://www.ycombinator.com/blog/rss",
+    "techcrunch-vc": "https://techcrunch.com/category/venture/feed/",
+    strictlyvc: "https://www.strictlyvc.com/feed/",
+  };
+  for (const [label, url] of Object.entries(INVESTOR_FEEDS)) {
+    await runSource(`investor:${label}`, async () => {
+      const xml = await fetchText(url);
+      const items = parseRssItems(xml, "investor").map((i) => ({ ...i, discoveryQuery: `investor:${label}` }));
+      discoveryItems.push(...items);
+      return [];
+    });
+    await sleep(300);
+  }
   for (const q of TAXONOMY) {
     await runSource(`discover:gnews:${q.slice(0, 24)}`, async () => {
       const items = (await gnews(q)).map((i) => ({ ...i, discoveryQuery: q }));
@@ -407,7 +431,10 @@ async function main() {
       // scoped query is trustworthy even when the headline names only the
       // founder or describes the story obliquely.
       const trustedBodyMatch = i.sourceId === "gnews" && !DISAMBIG[i.companySlug];
-      if (!mentions && !ownDomain && !trustedBodyMatch) return false;
+      // Hand-curated official channels/feeds are trusted outright — a founder's
+      // video titled "pov: raising $30M using AI" never names the company.
+      const trustedChannel = i.sourceId === "youtube" || i.sourceId === "investor";
+      if (!mentions && !ownDomain && !trustedBodyMatch && !trustedChannel) return false;
       // Ambiguous company names must also match a context regex
       const dis = DISAMBIG[i.companySlug];
       if (dis && !ownDomain && !dis.confirm.test(i.title)) return false;

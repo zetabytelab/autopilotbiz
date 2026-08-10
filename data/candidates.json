@@ -1,21 +1,66 @@
 {
- "generatedAt": "2026-08-10T15:34:00.550Z",
+ "generatedAt": "2026-08-10T15:47:44.945Z",
  "candidates": [
   {
-   "id": "accd3a355381",
-   "name": "Dili",
+   "id": "5cd3a2e884e9",
+   "name": null,
    "evidence": [
     {
-     "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2diNklURTFGQmJFdUVHd1NmYUd0b0xZNUxDUEpkc0FZY3pVWWYtQ2NMQWJUX3A1WWNXSnVBbkdpSnpGRnF1bHJyb1FyVjQxdUU3UWo4NU5vUFI0UlRNXzUzSkNhak9WdnY4bXlJTFhGWDdrOGRsOEZGdElFWEg3c3NxcmhmdDhLb0RSTVZ2Q3JXcndHMXVkaXk5TnJmeDlJUzdpR0UzY2NZN1U?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-30T07:00:00.000Z",
+     "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+     "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+     "source": "investor",
+     "publishedAt": "2026-08-03T10:00:00.000Z",
      "matchedKeywords": [
-      "\"autonomous company\""
+      "investor:techcrunch-vc"
+     ]
+    },
+    {
+     "title": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers",
+     "url": "https://techcrunch.com/2026/07/31/repeat-founder-ryan-williams-raises-10m-seed-for-an-ai-startup-for-private-credit-managers/",
+     "source": "investor",
+     "publishedAt": "2026-07-31T12:00:00.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
      ]
     }
    ],
-   "firstSeen": "2026-08-10T15:34:00.550Z",
+   "firstSeen": "2026-08-10T15:47:44.945Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "50034dc880f3",
+   "name": "Smallest.ai",
+   "evidence": [
+    {
+     "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+     "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+     "source": "investor",
+     "publishedAt": "2026-07-31T14:47:11.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T15:47:44.945Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "da028bd817c7",
+   "name": "Inforcer",
+   "evidence": [
+    {
+     "title": "Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks",
+     "url": "https://techcrunch.com/2026/07/30/inforcer-raises-50m-to-help-prepare-smbs-for-a-new-world-of-ai-and-security-risks/",
+     "source": "investor",
+     "publishedAt": "2026-07-30T13:00:00.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T15:47:44.945Z",
    "score": 1,
    "status": "new"
   },
@@ -88,24 +133,6 @@
     }
    ],
    "firstSeen": "2026-08-10T15:12:08.822Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "8bf8961b843d",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Unscrambling South African AI business limitations",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTDk1XzFoYXhrZXYwdzNYV3lOaDZLcnFxRTF1ckhKakllZWw5czFtdUpLWFdfTEtRdXdGMVBQZ2tQUGJDT3RFR0FfQ0d2aWNFUU5VNnhRU0dOS1dNVnltazlleWprTm5lZmc2N2kyUjUycHRJT1RCenVueTB4RlNfZnpLWllUUDItUGg2anBMb3BhMWRYU3AyTnRjbW5tQQ?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-30T10:55:34.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:31:22.107Z",
    "score": 0.5,
    "status": "new"
   },
