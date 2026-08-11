@@ -14,9 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Business on Autopilot — the autonomous-business tracker",
+  metadataBase: new URL("https://autopilotindex.com"),
+  title: "The Autopilot Index — tracking companies run by AI",
   description:
     "Tracking the new class of AI companies that run themselves: who they are, their tech stacks, funding, referral programs, and how to build your own agent-run business.",
+  alternates: { canonical: "/" },
 };
 
 export default function RootLayout({

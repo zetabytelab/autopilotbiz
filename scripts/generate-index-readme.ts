@@ -80,7 +80,7 @@ A new category is forming: businesses where **agents execute and humans direct**
 
 This index tracks that category the way self-driving was tracked: by **autonomy level**, with every metric **evidence-graded and sourced**. Revenue is the least reliable signal in a category this young — autonomy is observable, so that's what we rank.
 
-**Live tracker with full profiles, stack pyramid & news pulse → [autopilotbiz.vercel.app](https://autopilotbiz.vercel.app)**
+**Live tracker with full profiles, stack pyramid & news pulse → [autopilotindex.com](https://autopilotindex.com)**
 
 ---
 
@@ -223,7 +223,7 @@ ${switchRows}
 ## Submitting a company
 
 - **PR** against this README (keep the evidence-grade discipline: every figure needs a source link), or
-- **[Submit via the tracker](https://autopilotbiz.vercel.app/submit)** — goes through automated checks + human vetting.
+- **[Submit via the tracker](https://autopilotindex.com/submit)** — goes through automated checks + human vetting.
 
 Unverifiable claims land on the **Watchlist**, not the Index. That's a feature.
 
