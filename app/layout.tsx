@@ -35,7 +35,7 @@ export default function RootLayout({
         <nav className="sticky top-0 z-50 border-b border-zinc-900 bg-zinc-950/80 backdrop-blur">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6">
             <Link href="/" className="font-mono text-sm font-bold tracking-tight text-zinc-100 hover:text-lime-400">
-              autopilot<span className="text-lime-400">.biz</span>
+              autopilot<span className="text-lime-400">index</span>
             </Link>
             <div className="flex items-center gap-5 text-sm">
               <Link href="/#leaderboard" className="text-zinc-400 hover:text-zinc-100">
