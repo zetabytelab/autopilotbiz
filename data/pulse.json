@@ -1,17 +1,17 @@
 {
- "generatedAt": "2026-08-10T16:25:12.811Z",
+ "generatedAt": "2026-08-11T08:09:31.766Z",
  "sourcesRun": [
   {
    "id": "gnews",
    "ok": 21,
    "failed": 0,
-   "items": 123
+   "items": 119
   },
   {
    "id": "hn",
    "ok": 21,
    "failed": 0,
-   "items": 196
+   "items": 200
   },
   {
    "id": "techmeme",
@@ -58,6 +58,59 @@
  ],
  "items": [
   {
+   "id": "23ba0952e883",
+   "title": "@Bencera: Polsia will be the first $1B company with the whole journey documented on YouTube. That's the goal. I used 10+ growth techniques to get from 0 to 10,000 payi…",
+   "url": "https://x.com/Bencera/status/2086855424318337191",
+   "domain": "x.com",
+   "publishedAt": "2026-08-10T16:41:19.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2086855424318337191",
+     "points": 363
+    }
+   ],
+   "baseScore": 2.22,
+   "hot": true
+  },
+  {
+   "id": "6bf5015fb056",
+   "title": "@Bencera: See the full episode 4 here: https://t.co/WsjdlnfLOe",
+   "url": "https://x.com/Bencera/status/2086855427908587582",
+   "domain": "x.com",
+   "publishedAt": "2026-08-10T16:41:20.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2086855427908587582",
+     "points": 14
+    }
+   ],
+   "baseScore": 1.87,
+   "hot": true
+  },
+  {
+   "id": "9b8a9dc941c4",
+   "title": "Why Artisan Bet on the Fully Autonomous BDR",
+   "url": "https://www.youtube.com/shorts/x-anUqGq54U",
+   "domain": "youtube.com",
+   "publishedAt": "2026-08-10T20:00:23.000Z",
+   "companySlug": "artisan",
+   "kind": "video",
+   "sources": [
+    {
+     "id": "youtube",
+     "url": "https://www.youtube.com/shorts/x-anUqGq54U"
+    }
+   ],
+   "baseScore": 1.3,
+   "hot": true
+  },
+  {
    "id": "508fbb95d683",
    "title": "Sapiom Raises $35M to Route AI Agents to Cheaper Models. Anthropic Is a Backer",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObC1jREUxNmlCOUFaOE5VSWtUY2hVOW1HZzRfaXBHM0FZeWhtSDBjMTd0UVYzOTFIbWRERnFRXzhOSG9DN0Z5UGp5QTBibFA5T0dfN2dYS2w4WDhjNHdZcUlUYThJZkhVd296Z1M3WFF5cTV3U08wZ1VaNHpsbmtGTDdR?oc=5",
@@ -86,10 +139,44 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2086491171765752069",
-     "points": 73
+     "points": 75
     }
    ],
    "baseScore": 1.95,
+   "hot": true
+  },
+  {
+   "id": "4f57c751dcbb",
+   "title": "Can AI Read the Room? USC Study Finds AI Is Better at Reading Than Listening",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHUtZnMyUmtEekVzNnRFSGprbzQwSGo4VV8xWjQyZXFRMGlNbkJOZzRmcG8wU1VNaEFKWjFydjFPcUlXQkJhZ0g1SDlKbElaMXJkU1VzZnRSSHBqWTMtZkE0cER6VGsxMDFHZk5Jdi1TRjdpN0ttNzh6MWU3bjBfNkJOdVlpbEZ4VXdpb0ZXakRrbUFoRDEyTU96TDBXcmlVWVVaRVBiU0s4RHhpbHl5cGJZZDdKWEszaDcw?oc=5",
+   "domain": "viterbischool.usc.edu",
+   "publishedAt": "2026-08-10T18:32:10.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHUtZnMyUmtEekVzNnRFSGprbzQwSGo4VV8xWjQyZXFRMGlNbkJOZzRmcG8wU1VNaEFKWjFydjFPcUlXQkJhZ0g1SDlKbElaMXJkU1VzZnRSSHBqWTMtZkE0cER6VGsxMDFHZk5Jdi1TRjdpN0ttNzh6MWU3bjBfNkJOdVlpbEZ4VXdpb0ZXakRrbUFoRDEyTU96TDBXcmlVWVVaRVBiU0s4RHhpbHl5cGJZZDdKWEszaDcw?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "hot": true
+  },
+  {
+   "id": "64274013d42f",
+   "title": "Bitfarms’ Bitcoin cost basis nearly doubles to $205,946 as company dumps mining for AI",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42WXVGeUIyUmVESk9rTDNfT1NSa0pHRzJnbzZXSWVwZ3MwTGU0R0czUlhObHk2S2x4TDh3cEt4cHR5eTJkUnVNMzhRaXljaXRKc3VyR0ZJUDdTbDdkWVN1Z0ZvempZSGlkQ05KVkVfMVRSTmVmcm12MmN3?oc=5",
+   "domain": "cryptobriefing.com",
+   "publishedAt": "2026-08-10T17:27:47.000Z",
+   "companySlug": "basis",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42WXVGeUIyUmVESk9rTDNfT1NSa0pHRzJnbzZXSWVwZ3MwTGU0R0czUlhObHk2S2x4TDh3cEt4cHR5eTJkUnVNMzhRaXljaXRKc3VyR0ZJUDdTbDdkWVN1Z0ZvempZSGlkQ05KVkVfMVRSTmVmcm12MmN3?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
    "hot": true
   },
   {
@@ -110,6 +197,23 @@
    "hot": true
   },
   {
+   "id": "8c971d234c50",
+   "title": "Convert 1 COAI (ChainOpera AI) to USD (United States Dollar)",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ibnQ3dGJYZmVCSFd4dUtmM2xEMlptUWdEWC1XcXNKVzNxUzJEWVY0RnpkYXpadktZUEFYV0J6QWlaekZCWk1fU2k3ejFXdUhrMGg5bnZzRC1oS0Zn?oc=5",
+   "domain": "bybit.com",
+   "publishedAt": "2026-08-10T00:00:00.000Z",
+   "companySlug": "chainopera-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ibnQ3dGJYZmVCSFd4dUtmM2xEMlptUWdEWC1XcXNKVzNxUzJEWVY0RnpkYXpadktZUEFYV0J6QWlaekZCWk1fU2k3ejFXdUhrMGg5bnZzRC1oS0Zn?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "hot": true
+  },
+  {
    "id": "180353c35d7b",
    "title": "@Bencera: What if it doesn't work out... what if it does? https://t.co/yvVzuyDoMQ",
    "url": "https://x.com/Bencera/status/2086156333582110722",
@@ -121,7 +225,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2086156333582110722",
-     "points": 74
+     "points": 76
     }
    ],
    "baseScore": 1.95,
@@ -139,7 +243,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2085735211791425832",
-     "points": 1669
+     "points": 1672
     }
    ],
    "baseScore": 2.49,
@@ -157,10 +261,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2085747104790552704",
-     "points": 100
+     "points": 103
     }
    ],
-   "baseScore": 2.2,
+   "baseScore": 2.21,
    "hot": true
   },
   {
@@ -193,10 +297,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2085425124778369052",
-     "points": 136
+     "points": 137
     }
    ],
-   "baseScore": 2.05,
+   "baseScore": 2.06,
    "hot": true
   },
   {
@@ -213,8 +317,7 @@
      "url": "https://www.youtube.com/watch?v=AJnDyBLKRZs"
     }
    ],
-   "baseScore": 1.3,
-   "hot": true
+   "baseScore": 1.3
   },
   {
    "id": "6d0fbbf4bcb2",
@@ -230,8 +333,7 @@
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUzY2cWJIRWcyanI3M2NjUUNCSWlRYllLb01odU9qVnFYMXlqUzBDMVZQb1lPLU4xTTBJQXR1UjNFdWZjclAzYmloZERUZHlhbDVqZTJKdVZPMFdsdUtHNlVPMDdRbVcwMHFlaDlRdHRpNHZCVHFXa2dxM21IQ0ExRDlRaS02TWdvTDhtWWZ2bU12T0dISUJsaHdKaU1faUN4dHFn?oc=5"
     }
    ],
-   "baseScore": 1.1,
-   "hot": true
+   "baseScore": 1.1
   },
   {
    "id": "81bb29477716",
@@ -247,8 +349,7 @@
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aX3liMU1WZ1FUTFNNNVlhS0d4UHRCZi1tSC1PUy1XYlI4bTl5eG5mSU5YdFlMTHJvdTBxbmk4MjB2MmFjcHNKdTZNOFhuYzhmQlBHNlBtTGlIOEdjdldsbEs0b0JnTVBi?oc=5"
     }
    ],
-   "baseScore": 1.1,
-   "hot": true
+   "baseScore": 1.1
   },
   {
    "id": "b644e7ec5c61",
@@ -264,8 +365,7 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oMkVLRTE1WGo2aExmd3Z0VllIZVh1Q3NsYjZMbENhMFpONFhIcVZFaWF1XzRkdjk0Sm1wNFRzeEJMLXlwVFExam5Tb3kwMlYwLVphc051SUcwRTFMa3ZuQWc4X1I1WXdtRGVnTWFqSGltM0NUNXJycA?oc=5"
     }
    ],
-   "baseScore": 2.4,
-   "hot": true
+   "baseScore": 2.4
   },
   {
    "id": "4541240a8114",
@@ -311,7 +411,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2085067289741725936",
-     "points": 65
+     "points": 66
     }
    ],
    "baseScore": 1.93
@@ -463,6 +563,22 @@
    "baseScore": 1.1
   },
   {
+   "id": "46056cf88023",
+   "title": "Wix Q2 2026 Results Highlight Base44 LLM Breakthrough and Margin Upside",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQU01tYTV6SWZqMDdDc3pWbU1pNVRVZ3ZiNDVJREEyVTdjMmw1dWdJOVBud2Fva0huVTVhdjkzclcyc0hoam5STnFZZC16MDZPV2hKb3B5VVRyZG14QmYwTVlxam4tR3Zib1lBaDRPYzdIOWdoRVFKWmZDSnRFdlJTa0JLd2VYUFlja1FVN0t1SWFhYUlVREJ0NVdSOE1MUnBaOVEtZm1BZ3JxRmFCYWVPdm4xVXFnTTNrXzhlS3Nad0l3dkdyYVl2VVUzOUcxY0M5R040UXpabEFIdGNfOE1vaWNSYlRPSnlEMFJ3?oc=5",
+   "domain": "theglobeandmail.com",
+   "publishedAt": "2026-08-05T10:58:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQU01tYTV6SWZqMDdDc3pWbU1pNVRVZ3ZiNDVJREEyVTdjMmw1dWdJOVBud2Fva0huVTVhdjkzclcyc0hoam5STnFZZC16MDZPV2hKb3B5VVRyZG14QmYwTVlxam4tR3Zib1lBaDRPYzdIOWdoRVFKWmZDSnRFdlJTa0JLd2VYUFlja1FVN0t1SWFhYUlVREJ0NVdSOE1MUnBaOVEtZm1BZ3JxRmFCYWVPdm4xVXFnTTNrXzhlS3Nad0l3dkdyYVl2VVUzOUcxY0M5R040UXpabEFIdGNfOE1vaWNSYlRPSnlEMFJ3?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "0b7e3a8ec4e3",
    "title": "pov: raising $30M using AI",
    "url": "https://www.youtube.com/shorts/bG-LlpYBGOA",
@@ -559,6 +675,22 @@
    "baseScore": 1.3
   },
   {
+   "id": "e2960202e55f",
+   "title": "WIX: Q2 revenue up 15% YoY, Base44 margin hits 60%, all savings reinvested for growth",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSE5qRmxVdjBRWkxvR0dSUHRvS05IRWpsNHFuSjQtUDctNFZTUVNvYUFjRFBzN1VnT2NISFhoVnZkNjUyMkd2UzRLQW5hemRXTDRmcE56SkRTZklSUXZhdGJBbi12QU41SjFqNC02Sl91SE5ZWFdLTF81TmFKVEFFYWtsbU9MN2UtTVVUYnF0WmxUSi1RUDk3SENOZ18yWTJXOHlaZW01R2Q1anVVQU8tbldoRlh3RVk5bHRZbWxNSDNaVkY3LXRnNWxrc2FlQTZ0UktyYnJKVzBGRlhxVUtHcnJMaEY3ZWJRU1k0aF9tOEloQm9kQW0tbVVSYw?oc=5",
+   "domain": "tradingview.com",
+   "publishedAt": "2026-08-04T14:27:04.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSE5qRmxVdjBRWkxvR0dSUHRvS05IRWpsNHFuSjQtUDctNFZTUVNvYUFjRFBzN1VnT2NISFhoVnZkNjUyMkd2UzRLQW5hemRXTDRmcE56SkRTZklSUXZhdGJBbi12QU41SjFqNC02Sl91SE5ZWFdLTF81TmFKVEFFYWtsbU9MN2UtTVVUYnF0WmxUSi1RUDk3SENOZ18yWTJXOHlaZW01R2Q1anVVQU8tbldoRlh3RVk5bHRZbWxNSDNaVkY3LXRnNWxrc2FlQTZ0UktyYnJKVzBGRlhxVUtHcnJMaEY3ZWJRU1k0aF9tOEloQm9kQW0tbVVSYw?oc=5"
+    }
+   ],
+   "baseScore": 1.25
+  },
+  {
    "id": "1ea885c7403f",
    "title": "Wix Q2 revenue grows 15%, Base44 AI platform ma...",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0xmMTNjLUFLQWNoMGdyaGkxS2cyQzFWeG1jT2RqRVB4WjI0aEtubkl2d1FLcVJQX0ViN0FOWVBlRTdtN3Zfdlc5ZTlLSy1RNmE2OW9NX2ZBbzJvdU01UDY3aW82eHJoWFFpVEg3QXZMYVRhVkswR3JuTml0VmpvVVdQOTNGZVdoRmJPSUVidVpneWl2ZUNkSE5B?oc=5",
@@ -570,6 +702,22 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0xmMTNjLUFLQWNoMGdyaGkxS2cyQzFWeG1jT2RqRVB4WjI0aEtubkl2d1FLcVJQX0ViN0FOWVBlRTdtN3Zfdlc5ZTlLSy1RNmE2OW9NX2ZBbzJvdU01UDY3aW82eHJoWFFpVEg3QXZMYVRhVkswR3JuTml0VmpvVVdQOTNGZVdoRmJPSUVidVpneWl2ZUNkSE5B?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "69635086ddbb",
+   "title": "Wix Q2 results show steady core business and improving Base44 economics",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNFB5c0dLeGx4WG1NUWk3S0plS0ZWVGdYaUFoa0pGcUFvY0x6Z2tsRDhVbDdsXzdWaGVFV0RhOE1XdG5IU2xaX083a2otNFF1SUlfalc4aG1sZXNoVzZMaDluckFzX0owODRsUl9hVVo0YjJiZzN3c3ZVdTQ4cl9pMzdMMkZMS2luNjRlMnBxekpYaFg0RlE?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-08-04T19:35:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNFB5c0dLeGx4WG1NUWk3S0plS0ZWVGdYaUFoa0pGcUFvY0x6Z2tsRDhVbDdsXzdWaGVFV0RhOE1XdG5IU2xaX083a2otNFF1SUlfalc4aG1sZXNoVzZMaDluckFzX0owODRsUl9hVVo0YjJiZzN3c3ZVdTQ4cl9pMzdMMkZMS2luNjRlMnBxekpYaFg0RlE?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -607,17 +755,17 @@
    "baseScore": 1.1
   },
   {
-   "id": "69635086ddbb",
-   "title": "Wix Q2 results show steady core business and improving Base44 economics",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0ZiNURScVB3Q2h6Sm5tWHFCMVlObEd2alJlaUxCaWc2QzF1b3lIdEExMm1XM0I0aHBERF9EWjJ0SzFSU09Mb1lCbzR3WTh5X2xfMmNHc1ZFN05Yd1Z0clZYZk12ZjBvby1welZfTzdiOWllTm8tSDVSanNRcHIyOS14a2JsRkRFMnh3SllqYjVkc1A1elBJUmRhaHNvNzY5Z2JqdFBQTTRyM1Vmd2p1Y0F3MFREbkhETTJHbzZIWTJkeGc5RmM2QjNPbmVDbW4yalRrQS1BUEZEQQ?oc=5",
-   "domain": "proactiveinvestors.com",
-   "publishedAt": "2026-08-04T15:35:00.000Z",
+   "id": "cf191fd0b5c3",
+   "title": "Wix Shares Surge as AI Platform Margins Improve, Crushing Short Sellers",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sQzdONlk2d2pXcUs1QWdYazdoT2ROV2FjdHdKNGlUUUF4cHNXaG5aekkzU05XdUJFb3ZlMWZPOXpUOXNDcFZoRjI0NXpzeDg1amc2aEdVNTlDU0p3RlQ0aHk3UHFjVzhHX0lyZmYyTXRyTk00bkE?oc=5",
+   "domain": "finance.biggo.com",
+   "publishedAt": "2026-08-04T18:15:00.000Z",
    "companySlug": "base44",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0ZiNURScVB3Q2h6Sm5tWHFCMVlObEd2alJlaUxCaWc2QzF1b3lIdEExMm1XM0I0aHBERF9EWjJ0SzFSU09Mb1lCbzR3WTh5X2xfMmNHc1ZFN05Yd1Z0clZYZk12ZjBvby1welZfTzdiOWllTm8tSDVSanNRcHIyOS14a2JsRkRFMnh3SllqYjVkc1A1elBJUmRhaHNvNzY5Z2JqdFBQTTRyM1Vmd2p1Y0F3MFREbkhETTJHbzZIWTJkeGc5RmM2QjNPbmVDbW4yalRrQS1BUEZEQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sQzdONlk2d2pXcUs1QWdYazdoT2ROV2FjdHdKNGlUUUF4cHNXaG5aekkzU05XdUJFb3ZlMWZPOXpUOXNDcFZoRjI0NXpzeDg1amc2aEdVNTlDU0p3RlQ0aHk3UHFjVzhHX0lyZmYyTXRyTk00bkE?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -650,6 +798,38 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQaVhKNWNlQmFrMHRudU9oM2hoUy1raGE5anU1SVNrQWdwcTk5eGdmdzh1bzZPb3QyLTFpTFdlM2dwdkpWLWsyeDZlcGJjNnJPU3cwUm5rTlpUUTlKaWc4UjJZb1RzcTN6ZzNQRlY5VEVkOGZCaWhHcmd5V09ua0N2YUU5Nk9MSlNUOXVwMTlUXzdwQ0RMVUFENUx6M2xESmRUalhWNVZaTzQ5TGlnbWt2VkJvWndNUGxKOXNNbk1vc0RUa0xPenliUGZtcGxMYnc4SkFGUUxtbXZGa3U5akdFT0M2djE2Ym04eGZwSXF2X00zeVdTelk0TlFzLWhEWlFLcUotWGRoUzNiZjA?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "4248456cee1e",
+   "title": "Wix Q2 2026 slides: AI push drives 15% revenue growth, Base44 surges",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNFpQZGdHUnBxb2RBcnNwd2pDaDB1azRTcWZXYkxUODNWODFSQ2dFS1duQ0hmSWs2bk03RVRfVUo3RmVvbXdTemJHeURZOV9oemJ6Sk1oa2FYc0MzZWJySlVPMVFzUlZRMGZnLTUwbDJpaV9xRGR5a1NJZnRZLVNnZ2FLSGZkWEY1bjhTTTdsU05lM1MtX0pETURmU3RvSnN2Ym5mOUF3YXNOVThrM0tGRXgyQkN1WDJsWmdKanJLcw?oc=5",
+   "domain": "investing.com",
+   "publishedAt": "2026-08-04T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNFpQZGdHUnBxb2RBcnNwd2pDaDB1azRTcWZXYkxUODNWODFSQ2dFS1duQ0hmSWs2bk03RVRfVUo3RmVvbXdTemJHeURZOV9oemJ6Sk1oa2FYc0MzZWJySlVPMVFzUlZRMGZnLTUwbDJpaV9xRGR5a1NJZnRZLVNnZ2FLSGZkWEY1bjhTTTdsU05lM1MtX0pETURmU3RvSnN2Ym5mOUF3YXNOVThrM0tGRXgyQkN1WDJsWmdKanJLcw?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
+   "id": "8dea3c4bbae8",
+   "title": "Highly Short Stock Wix Soars After Strong Quarter",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOHlUM2R4eHViZ0tSM05PMFdoT1FPWlBKd0hLR2hBN3VzVXZDR3hkSTVOWkJDdXFTejhxeC1NMHg0alozb0JBY3d5Rl9pcF9jY09KbHFEM1FRQjJaRlNNV2tKWXBTcG9KM1JnaUxpa0pobjVOR1VsNFFwS3hsRDZJSVhyNXN5WGwyOXhuOTRpMjNpaE1tcjB1aHhjV1NPc3A4Tjdz?oc=5",
+   "domain": "sahmcapital.com",
+   "publishedAt": "2026-08-04T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOHlUM2R4eHViZ0tSM05PMFdoT1FPWlBKd0hLR2hBN3VzVXZDR3hkSTVOWkJDdXFTejhxeC1NMHg0alozb0JBY3d5Rl9pcF9jY09KbHFEM1FRQjJaRlNNV2tKWXBTcG9KM1JnaUxpa0pobjVOR1VsNFFwS3hsRDZJSVhyNXN5WGwyOXhuOTRpMjNpaE1tcjB1aHhjV1NPc3A4Tjdz?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -732,7 +912,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2083786345370321345",
-     "points": 208
+     "points": 210
     }
    ],
    "baseScore": 2.13
@@ -765,7 +945,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2083367561329279023",
-     "points": 51
+     "points": 52
     }
    ],
    "baseScore": 1.89
@@ -782,7 +962,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2082987076723872193",
-     "points": 78
+     "points": 79
     }
    ],
    "baseScore": 1.96
@@ -815,7 +995,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2082890354144256507",
-     "points": 83
+     "points": 84
     }
    ],
    "baseScore": 1.97
@@ -832,7 +1012,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2082683439879479762",
-     "points": 55
+     "points": 56
     }
    ],
    "baseScore": 1.9
@@ -849,10 +1029,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2082601603346190443",
-     "points": 39
+     "points": 40
     }
    ],
-   "baseScore": 2.04
+   "baseScore": 2.05
   },
   {
    "id": "c0dd7f7f03a8",
@@ -978,7 +1158,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2082246309181079757",
-     "points": 62
+     "points": 63
     }
    ],
    "baseScore": 1.92
@@ -1011,7 +1191,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2081790522461675763",
-     "points": 1559
+     "points": 1561
     }
    ],
    "baseScore": 2.68
@@ -1130,22 +1310,6 @@
    "baseScore": 1.1
   },
   {
-   "id": "5fc782d8da24",
-   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
-   "domain": "allaboutcookies.org",
-   "publishedAt": "2026-07-28T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
    "id": "0e341531cf07",
    "title": "How To Start Vibe Coding With Base44: A Beginner's Guide to Building Your First App",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03NFZMZF9ySHdWeUFlVDNHdERldF9zVFpReU8wb1M1TEN5RzJmUEQtbG5uNElPMEp2Zm1WRDl5d0FpNTZmWm1la3hkQVZ4c2NNQnpXMVVmYjFXT0ZyTUhOcVRvVHllZVBfalYweG1EYjFpQQ?oc=5",
@@ -1162,6 +1326,22 @@
    "baseScore": 1.1
   },
   {
+   "id": "5fc782d8da24",
+   "title": "5 Reasons the Vibe Coding Trend Is Here to Stay (And Base44 Is Proof)",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5",
+   "domain": "allaboutcookies.org",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LeUp2V0d0QWVrc2hYYjBfSm1vWGJpaUpqejl4Y0VYdEpxd2VVbXpTYktXSG9Eb1hiQVEwZWxkZEFLOXVtN3h3WU82SE85OXEtMDA3Rzl5dnc?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "981bbd6ee26a",
    "title": "Vibe Coding Statistics: Americans Are Using AI Wrong, And Most Know It [Survey]",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wWTdNVThLeTExY1ZTa3lfTGd2eEJZZlRsbGE4SlJKekY4QmVnaC1LdEJSNVYtWEhWaVVSVGhXMWE1S2NXNlliSDJyVjlXaWZiSG9nSU40eEgwbXBpWWR2SmZtclViVWtROHZfZ1dGQQ?oc=5",
@@ -1173,22 +1353,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wWTdNVThLeTExY1ZTa3lfTGd2eEJZZlRsbGE4SlJKekY4QmVnaC1LdEJSNVYtWEhWaVVSVGhXMWE1S2NXNlliSDJyVjlXaWZiSG9nSU40eEgwbXBpWWR2SmZtclViVWtROHZfZ1dGQQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1
-  },
-  {
-   "id": "61ff5ad70334",
-   "title": "Are AI Lawsuits Quietly Rewriting Wix’s (WIX) Cost Structure And Long-Term Investment Narrative?",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWkx0UFAyYWhhWW9adnBWU2JDR2RMeWNzRWxEeHZCdnpHVEloRC1udWVURzhmMEJkX1ZmbVlyTDJzOWJSZi0xQ1o2djA3SVJyRmFYem9KNF9KaVk3MGRKdjRDUkUyMXQ1OEcyM1M0LXhNdXctQzI2dUZXV09PSHpaX1FCdnpCUDhSbDZmcDV6UURhRXdIVjNCR3VVTHVEVkhsOEpLQU1JYlJLX3o5NXZKQVY4MHRxMWhZVGFSbEY2UmJHM25GTHdmb29KN1lIM3pfYTFOLXhsbU80RWtJ?oc=5",
-   "domain": "sahmcapital.com",
-   "publishedAt": "2026-07-28T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWkx0UFAyYWhhWW9adnBWU2JDR2RMeWNzRWxEeHZCdnpHVEloRC1udWVURzhmMEJkX1ZmbVlyTDJzOWJSZi0xQ1o2djA3SVJyRmFYem9KNF9KaVk3MGRKdjRDUkUyMXQ1OEcyM1M0LXhNdXctQzI2dUZXV09PSHpaX1FCdnpCUDhSbDZmcDV6UURhRXdIVjNCR3VVTHVEVkhsOEpLQU1JYlJLX3o5NXZKQVY4MHRxMWhZVGFSbEY2UmJHM25GTHdmb29KN1lIM3pfYTFOLXhsbU80RWtJ?oc=5"
     }
    ],
    "baseScore": 1.1
@@ -1226,6 +1390,22 @@
    "baseScore": 1.1
   },
   {
+   "id": "61ff5ad70334",
+   "title": "Are AI Lawsuits Quietly Rewriting Wix’s (WIX) Cost Structure And Long-Term Investment Narrative?",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWkx0UFAyYWhhWW9adnBWU2JDR2RMeWNzRWxEeHZCdnpHVEloRC1udWVURzhmMEJkX1ZmbVlyTDJzOWJSZi0xQ1o2djA3SVJyRmFYem9KNF9KaVk3MGRKdjRDUkUyMXQ1OEcyM1M0LXhNdXctQzI2dUZXV09PSHpaX1FCdnpCUDhSbDZmcDV6UURhRXdIVjNCR3VVTHVEVkhsOEpLQU1JYlJLX3o5NXZKQVY4MHRxMWhZVGFSbEY2UmJHM25GTHdmb29KN1lIM3pfYTFOLXhsbU80RWtJ?oc=5",
+   "domain": "sahmcapital.com",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWkx0UFAyYWhhWW9adnBWU2JDR2RMeWNzRWxEeHZCdnpHVEloRC1udWVURzhmMEJkX1ZmbVlyTDJzOWJSZi0xQ1o2djA3SVJyRmFYem9KNF9KaVk3MGRKdjRDUkUyMXQ1OEcyM1M0LXhNdXctQzI2dUZXV09PSHpaX1FCdnpCUDhSbDZmcDV6UURhRXdIVjNCR3VVTHVEVkhsOEpLQU1JYlJLX3o5NXZKQVY4MHRxMWhZVGFSbEY2UmJHM25GTHdmb29KN1lIM3pfYTFOLXhsbU80RWtJ?oc=5"
+    }
+   ],
+   "baseScore": 1.1
+  },
+  {
    "id": "51fb24e62766",
    "title": "@Bencera: People don't care which AI model is used. They just want things to work. https://t.co/Ip5ylZlFVS",
    "url": "https://x.com/Bencera/status/2081583977048183044",
@@ -1237,10 +1417,26 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2081583977048183044",
-     "points": 70
+     "points": 71
     }
    ],
    "baseScore": 1.94
+  },
+  {
+   "id": "25aa71abaf14",
+   "title": "AI layoffs mount across Israeli tech companies amid software sector bloodbath",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxeDBuUWxkU3g1eWpoZmhlN1JqZ2dIMXhsQ3BoSkZLX2NZRERnTlljaHMwX1MyZnVONVpZNUd1X25wdkJBOXlER0drQXRBNlZzRjdlN05kUXYtcVhsakxlT3ZMOWVsLW5rYmtIVQ?oc=5",
+   "domain": "jpost.com",
+   "publishedAt": "2026-07-26T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxeDBuUWxkU3g1eWpoZmhlN1JqZ2dIMXhsQ3BoSkZLX2NZRERnTlljaHMwX1MyZnVONVpZNUd1X25wdkJBOXlER0drQXRBNlZzRjdlN05kUXYtcVhsakxlT3ZMOWVsLW5rYmtIVQ?oc=5"
+    }
+   ],
+   "baseScore": 2.4
   },
   {
    "id": "0a36fada9276",
@@ -1340,7 +1536,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2080769736598868231",
-     "points": 97
+     "points": 98
     }
    ],
    "baseScore": 2
@@ -1375,10 +1571,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2080712113434354071",
-     "points": 37
+     "points": 38
     }
    ],
-   "baseScore": 1.83
+   "baseScore": 1.84
   },
   {
    "id": "dfce3d65a778",
@@ -1414,6 +1610,28 @@
     }
    ],
    "baseScore": 1.59
+  },
+  {
+   "id": "f91a4cce19ac",
+   "title": "Midjourney bought the astrology app Co-Star",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMUhub1NVcXU2X3ViTlBxTXo5SExZaTZTRW5ZeGMwelk5M2MxaDRSNTBhY043eFA3YzRrZ0ZLLWFEY1FDcDczTm1NZzAzRkJUeUtZYW02YnhTaUpxd21PWkNFVUYtSXhRaWtTU1JzX1IxQmRWMWJfLVI3ckg4SmpxbmFsVG1iMmE3dEIwYTFETzJ1UWs?oc=5",
+   "domain": "theverge.com",
+   "publishedAt": "2026-07-24T07:00:00.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMUhub1NVcXU2X3ViTlBxTXo5SExZaTZTRW5ZeGMwelk5M2MxaDRSNTBhY043eFA3YzRrZ0ZLLWFEY1FDcDczTm1NZzAzRkJUeUtZYW02YnhTaUpxd21PWkNFVUYtSXhRaWtTU1JzX1IxQmRWMWJfLVI3ckg4SmpxbmFsVG1iMmE3dEIwYTFETzJ1UWs?oc=5"
+    },
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49041390",
+     "points": 7,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.96
   },
   {
    "id": "355aea8e2d8f",
@@ -1459,7 +1677,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2080420944829423862",
-     "points": 59
+     "points": 60
     }
    ],
    "baseScore": 1.91
@@ -1476,10 +1694,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2080318679112466785",
-     "points": 15
+     "points": 16
     }
    ],
-   "baseScore": 1.68
+   "baseScore": 1.69
   },
   {
    "id": "755163062371",
@@ -1493,7 +1711,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2080058852767302134",
-     "points": 134
+     "points": 135
     }
    ],
    "baseScore": 2.25
@@ -1543,7 +1761,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2079747567366352990",
-     "points": 52
+     "points": 53
     }
    ],
    "baseScore": 2.09
@@ -1608,7 +1826,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2079616896597393471",
-     "points": 310
+     "points": 311
     }
    ],
    "baseScore": 2.2
@@ -1674,7 +1892,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2079366999839232208",
-     "points": 64
+     "points": 65
     }
    ],
    "baseScore": 1.93
@@ -1691,10 +1909,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2079327738763305155",
-     "points": 16
+     "points": 17
     }
    ],
-   "baseScore": 1.69
+   "baseScore": 1.7
   },
   {
    "id": "6ca802c6447d",
@@ -1724,7 +1942,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2079047912529809828",
-     "points": 138
+     "points": 139
     }
    ],
    "baseScore": 2.06
@@ -1774,7 +1992,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2078310033889403034",
-     "points": 167
+     "points": 168
     }
    ],
    "baseScore": 2.09
@@ -1791,7 +2009,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2078333359194030279",
-     "points": 55
+     "points": 56
     }
    ],
    "baseScore": 1.9
@@ -1808,7 +2026,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2077950413039608008",
-     "points": 125
+     "points": 126
     }
    ],
    "baseScore": 2.04
@@ -1825,7 +2043,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2077840305723003120",
-     "points": 200
+     "points": 201
     }
    ],
    "baseScore": 2.12
@@ -1842,7 +2060,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2077561711893360874",
-     "points": 139
+     "points": 140
     }
    ],
    "baseScore": 2.06
@@ -1940,10 +2158,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2076385470536433814",
-     "points": 33
+     "points": 34
     }
    ],
-   "baseScore": 1.81
+   "baseScore": 1.82
   },
   {
    "id": "e3964b4b3d92",
@@ -1957,10 +2175,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2081483962220941425",
-     "points": 12
+     "points": 13
     }
    ],
-   "baseScore": 1.65
+   "baseScore": 1.66
   },
   {
    "id": "130f68722b9a",
