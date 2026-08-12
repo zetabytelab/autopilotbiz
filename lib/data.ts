@@ -842,6 +842,48 @@ export const companies: Company[] = [
     },
   },
   {
+    name: "Naïve",
+    slug: "naive",
+    url: "https://usenaive.ai",
+    tagline: "The infrastructure for autonomous companies.",
+    categoryClaim: "Coding agents build the app — Naïve builds the company.",
+    description:
+      "Palo Alto AI lab building the operating stack agents need to run a real business: incorporation, virtual payment cards, email inboxes, phone numbers, compute, model routing, and memory — provisioned behind a single config file and unified API, with governance and budget controls. A coding agent writes the config; Naïve stands up the company around it. Founded by Sean Dorje and Dennis Zax, 20-year-old Berkeley dropouts who have built together since 14 and sold their first startup (ezML) as teenagers. Claims 30,000+ developer customers and sales up more than tenfold in six months.",
+    techStack: ["Single config file + unified API", "Virtual payment cards", "Model router", "Serverless JS runtime", "Mobile emulator"],
+    funding: {
+      totalRaised: "$28.5M+",
+      lastRound: "$28.5M Series A",
+      date: "2026-08",
+      valuation: null,
+      investors: ["Nexus Venture Partners (lead)", "Y Combinator", "Zetta Venture Partners", "Liquid 2 Ventures"],
+    },
+    founders: [
+      { name: "Sean Dorje", background: "Co-founder & CEO; 20; Berkeley dropout; sold ezML as a teenager; YC alum." },
+      { name: "Dennis Zax", background: "Co-founder; 20; Berkeley dropout; building with Dorje since they were 14." },
+    ],
+    metrics: {
+      arr: "Low double-digit $M run-rate (self-reported)",
+      arrUsd: 10_000_000,
+      humans: null,
+      sources: {
+        arr: { name: "SiliconANGLE · self-reported", url: "https://siliconangle.com/2026/08/06/naive-bags-28-5m-funding-automate-creation-day-day-running-almost-business/" },
+        raised: { name: "SiliconANGLE", url: "https://siliconangle.com/2026/08/06/naive-bags-28-5m-funding-automate-creation-day-day-running-almost-business/" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: null,
+    news: [
+      { date: "2026-08", headline: "$28.5M Series A led by Nexus Venture Partners (YC, Zetta, Liquid 2 participating) to build 'the infrastructure for autonomous companies'." },
+    ],
+    verified: true,
+    cohort: "expansion",
+    autopilot: {
+      section: "enabler",
+      story: "One config file → incorporation, cards, inboxes, phone numbers, compute (agents provision the company)",
+      flags: "$28.5M Series A (Nexus); 30K+ devs claimed",
+    },
+  },
+  {
     name: "11x",
     slug: "11x",
     url: "https://11x.ai",
@@ -1357,6 +1399,26 @@ export const caseStudies: CaseStudy[] = [
       legwork:
         "**11,190 calls** to 5,173 French bakeries for the price of a baguette tradition (avg €1.25). Most bakers never noticed she was a machine.",
       cost: "~€30",
+    },
+  },
+  {
+    title: "FoodTruckBench — can AI run a food truck?",
+    who: "Nicholas S., solo developer",
+    date: "July 2026",
+    summary:
+      "The control-group experiment for the autopilot thesis: a 30-day simulated food truck in Austin, TX — $2,000 starting capital, 34 tools covering location choice, dynamic pricing, inventory, staffing, weather, and event calendars — with humans and models competing under identical rules on one leaderboard. 41 models tested: 25 survived, 16 went bankrupt. Best AI run (Claude Opus 5) turned $2,000 into $75K net worth (+3,663% ROI); Gemini 3 Flash once wrote 'Let's go' 574 times in a single response and never went anywhere. The sobering caveat: the best human still beats every model, roughly doubling the top AI score. Simulated rather than real-world — charted as the cleanest benchmark yet of whether agents can actually run a business.",
+    stack: ["Custom 30-day business simulation", "34 agent tools", "12-factor demand model", "41 frontier models (Claude, GPT, Gemini, DeepSeek, Gemma…)"],
+    links: [
+      { label: "foodtruckbench.com", url: "https://foodtruckbench.com/" },
+      { label: "Tuscan Agency write-up", url: "https://www.tuscanagency.com/blog/ai-food-truck-benchmark-business-reasoning-2026" },
+      { label: "Skeptical take (Tech Trenches)", url: "https://techtrenches.dev/p/the-autonomy-illusion" },
+    ],
+    verified: true,
+    index: {
+      agent: "41 LLMs vs. one human, same rules",
+      legwork:
+        "**30 simulated days** running an Austin food truck on $2,000: 16 of 41 models went bankrupt; best AI hit +3,663% ROI — still only half the best human's score.",
+      cost: "$2,000 (simulated)",
     },
   },
 ];
