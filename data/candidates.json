@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-11T08:09:31.766Z",
+ "generatedAt": "2026-08-12T08:15:17.962Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -22,19 +22,10 @@
      "matchedKeywords": [
       "investor:techcrunch-vc"
      ]
-    },
-    {
-     "title": "AI agent startup uses agent to lead 100M round",
-     "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-     "source": "hn",
-     "publishedAt": "2026-07-12T23:15:33Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
     }
    ],
    "firstSeen": "2026-08-10T15:47:44.945Z",
-   "score": 1.5,
+   "score": 1,
    "status": "new"
   },
   {
@@ -88,6 +79,33 @@
     }
    ],
    "firstSeen": "2026-08-11T08:09:31.766Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "b243fd507784",
+   "name": null,
+   "evidence": [
+    {
+     "title": "[AI DAILY NEWS RUNDOWN] Nvidia’s $500B Compute Syndicate, OpenAI Launches GPT-5.6-Cyber, and Meta Releases Muse Glimmer (August 11, 2026)",
+     "url": "https://www.reddit.com/r/u_enoumen/comments/1vlvik7/ai_daily_news_rundown_nvidias_500b_compute/",
+     "source": "reddit",
+     "publishedAt": "2026-08-11T22:03:35.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    },
+    {
+     "title": "It Was Fixed The First Time — AGENTS RUN MY STARTUP EP 24",
+     "url": "https://www.reddit.com/r/ultrathinkart/comments/1vh7f3i/it_was_fixed_the_first_time_agents_run_my_startup/",
+     "source": "reddit",
+     "publishedAt": "2026-08-06T15:27:01.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
    "score": 1,
    "status": "new"
   },
@@ -182,24 +200,6 @@
    "status": "new"
   },
   {
-   "id": "8bf8961b843d",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Unscrambling South African AI business limitations",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTDk1XzFoYXhrZXYwdzNYV3lOaDZLcnFxRTF1ckhKakllZWw5czFtdUpLWFdfTEtRdXdGMVBQZ2tQUGJDT3RFR0FfQ0d2aWNFUU5VNnhRU0dOS1dNVnltazlleWprTm5lZmc2N2kyUjUycHRJT1RCenVueTB4RlNfZnpLWllUUDItUGg2anBMb3BhMWRYU3AyTnRjbW5tQQ?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-30T10:55:34.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-11T08:09:31.766Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "f9bb9f9c02e3",
    "name": null,
    "evidence": [
@@ -254,6 +254,24 @@
    "status": "new"
   },
   {
+   "id": "7b4cad07e4d1",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Acrab Raises US$130 Million Series B, Advancing Agentic AI Compute Platform Commercialization",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQlJkS0dfc0NuZWtfckczVW1RY2M5NVJMeF8yN3ZvVjJYSTlMX2FhYld4a21Fb1lLZFd5bEMtZEE1MjE3UURDMm40Qm8xLWNGVDRFOGdKV2J1QXd3a0tDTkFiUGpMenc1Ynpwc2Vqdlk4WndaUDdoSGpJQXpoeFJ2bVdQdURnazdXS0R5R1dCbldMa3FHbEE?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-06T04:08:00.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-12T08:15:17.962Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
    "id": "500d52dbd93e",
    "name": null,
    "evidence": [
@@ -300,24 +318,6 @@
      "publishedAt": "2026-07-25T02:10:59Z",
      "matchedKeywords": [
       "\"AI-run business\""
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T16:17:31.602Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "b243fd507784",
-   "name": null,
-   "evidence": [
-    {
-     "title": "It Was Fixed The First Time — AGENTS RUN MY STARTUP EP 24",
-     "url": "https://www.reddit.com/r/ultrathinkart/comments/1vh7f3i/it_was_fixed_the_first_time_agents_run_my_startup/",
-     "source": "reddit",
-     "publishedAt": "2026-08-06T15:27:01.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
      ]
     }
    ],
