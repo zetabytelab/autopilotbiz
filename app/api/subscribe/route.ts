@@ -25,8 +25,20 @@ const schema = z
     email: z.string().trim().toLowerCase().email().max(200),
     // Honeypot — real users never fill this.
     website_url: z.string().max(0).optional().or(z.literal("")),
+    // Attribution (both optional): ?ref= campaign tag + pathname the form was on.
+    ref: z.string().max(100).optional(),
+    page: z.string().max(200).optional(),
   })
   .strict();
+
+// Collapse untrusted attribution input to a short [a-z0-9_-] slug.
+const slug = (s: string | undefined) =>
+  (s ?? "")
+    .toLowerCase()
+    .replace(/^\/+|\/+$/g, "")
+    .replace(/\//g, "-")
+    .replace(/[^a-z0-9_-]/g, "")
+    .slice(0, 24);
 
 export async function POST(req: Request) {
   if (rateLimited(req)) {
@@ -54,6 +66,11 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "newsletter is warming up — check back soon" }, { status: 503 });
   }
 
+  // e.g. "news", "news:li", "home:x" — page the form was on, plus campaign ref.
+  const page = slug(parsed.data.page) || "news";
+  const ref = slug(parsed.data.ref);
+  const source = ref ? `${page}:${ref}` : page;
+
   try {
     const res = await fetch("https://api.brevo.com/v3/contacts", {
       method: "POST",
@@ -62,7 +79,7 @@ export async function POST(req: Request) {
         email: parsed.data.email,
         listIds: [Number(BREVO_LIST_ID)],
         updateEnabled: true,
-        attributes: { SOURCE: "autopilotbiz-news" },
+        attributes: { SOURCE: source },
       }),
     });
     // 201 created, 204 already existed & updated — both fine.

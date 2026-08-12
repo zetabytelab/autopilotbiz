@@ -11,11 +11,22 @@ export default function SubscribeForm() {
     e.preventDefault();
     if (state === "sending") return;
     setState("sending");
+    // Best-effort attribution: ?ref= on the current URL wins, else whatever
+    // RefCapture stashed on the landing page. Never blocks the signup.
+    let ref = "";
+    let page = "";
+    try {
+      ref =
+        new URLSearchParams(window.location.search).get("ref") ??
+        sessionStorage.getItem("ap_ref") ??
+        "";
+      page = window.location.pathname;
+    } catch {}
     try {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, website_url: "" }),
+        body: JSON.stringify({ email, website_url: "", ref, page }),
       });
       const data = (await res.json()) as { ok: boolean; message?: string; error?: string };
       if (data.ok) {
