@@ -1,6 +1,60 @@
 {
- "generatedAt": "2026-08-12T08:15:17.962Z",
+ "generatedAt": "2026-08-13T08:19:09.845Z",
  "candidates": [
+  {
+   "id": "b243fd507784",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Startup Roundup — Aug 12: $1.1B for a 2-month-old AI startup, 10x valuation jumps, and an AI that hacked a gym",
+     "url": "https://www.reddit.com/r/Superframeworks/comments/1vmfw4i/startup_roundup_aug_12_11b_for_a_2monthold_ai/",
+     "source": "reddit",
+     "publishedAt": "2026-08-12T14:35:16.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    },
+    {
+     "title": "[AI DAILY NEWS RUNDOWN] Nvidia’s $500B Compute Syndicate, OpenAI Launches GPT-5.6-Cyber, and Meta Releases Muse Glimmer (August 11, 2026)",
+     "url": "https://www.reddit.com/r/u_enoumen/comments/1vlvik7/ai_daily_news_rundown_nvidias_500b_compute/",
+     "source": "reddit",
+     "publishedAt": "2026-08-11T22:03:35.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    },
+    {
+     "title": "It Was Fixed The First Time — AGENTS RUN MY STARTUP EP 24",
+     "url": "https://www.reddit.com/r/ultrathinkart/comments/1vh7f3i/it_was_fixed_the_first_time_agents_run_my_startup/",
+     "source": "reddit",
+     "publishedAt": "2026-08-06T15:27:01.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
+   "score": 1.5,
+   "status": "new"
+  },
+  {
+   "id": "faea8299718d",
+   "name": "OpenAI-backed Thrive Holdings",
+   "evidence": [
+    {
+     "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+     "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+     "source": "investor",
+     "publishedAt": "2026-08-12T17:41:29.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-13T08:19:09.844Z",
+   "score": 1,
+   "status": "new"
+  },
   {
    "id": "5cd3a2e884e9",
    "name": null,
@@ -83,65 +137,20 @@
    "status": "new"
   },
   {
-   "id": "b243fd507784",
+   "id": "2407619aa45c",
    "name": null,
    "evidence": [
     {
-     "title": "[AI DAILY NEWS RUNDOWN] Nvidia’s $500B Compute Syndicate, OpenAI Launches GPT-5.6-Cyber, and Meta Releases Muse Glimmer (August 11, 2026)",
-     "url": "https://www.reddit.com/r/u_enoumen/comments/1vlvik7/ai_daily_news_rundown_nvidias_500b_compute/",
-     "source": "reddit",
-     "publishedAt": "2026-08-11T22:03:35.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    },
-    {
-     "title": "It Was Fixed The First Time — AGENTS RUN MY STARTUP EP 24",
-     "url": "https://www.reddit.com/r/ultrathinkart/comments/1vh7f3i/it_was_fixed_the_first_time_agents_run_my_startup/",
-     "source": "reddit",
-     "publishedAt": "2026-08-06T15:27:01.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T16:17:31.602Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "d09d64d7d96c",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Naïve Raises $28.5M Series A to Build Autonomous Company Infrastructure",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zdHFaTUxkTlFrQXpncDdlLUZHTk42MmtkbHVSVkY2S05Qa1J0T2YyVnkycnN2WDZHbHRPd0NkbnRpRWtZeTkwT1NLYzUwS09nV1o3OWtySGt2d1ExRlZNcA?oc=5",
+     "title": "Kily Raises ₹30 Crore to Expand Autonomous AI Platform for Commerce Brands",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeUt5TG1Sb3JXWHNsLXNUQl9HOUY5czRyTTllMkFuVVUtMmpLQ3c3dHZIRm0ydk5SdHNPSXFWa3pKeEN1ZWZhcl9ZNHZaMHRyOUY0dk5VNUNMODRZeFdYS1d6cXg4ZFJVeEJnRl8zZThuWjV0TWtITFVYcDJzdnVxX25qUnJHMlAwV3ZJVVR5MllLZ3FYMFU3eTAzQ0RhWmIzZTZiUjdkY0F4Y0RTMzBvVUhQMFJ5UQ?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-08-06T17:16:51.000Z",
+     "publishedAt": "2026-08-04T06:05:35.000Z",
      "matchedKeywords": [
       "\"autonomous company\""
      ]
     }
    ],
-   "firstSeen": "2026-08-10T15:12:08.822Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "72b6cab9f2b6",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Naïve Raises $28.5M To Automate Business Setup And AI Agent Operations",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5aR3hJdTRVSWQ3MzI2aUZoc0JLbzNpOVg2ZEdsMTZybi1uc1NsNUgzU0tJel91X2FYdHJmNGltZUVtX1pESEx3X1E0Z2hWaUViN0ZHVTZ4aGp4QzFxWUFOekRQOUdsUWsyWEFjUmdld3EzNXhlaEVMMlZB?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-06T17:25:11.000Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-11T08:09:31.766Z",
+   "firstSeen": "2026-08-13T08:19:09.844Z",
    "score": 0.5,
    "status": "new"
   },
@@ -200,20 +209,38 @@
    "status": "new"
   },
   {
-   "id": "f9bb9f9c02e3",
+   "id": "8bf8961b843d",
    "name": null,
    "evidence": [
     {
-     "title": "Jaipur AI Startup Vardan.ai Selected by MongoDB for Silicon Valley Founder Program",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeU8wNHhHYTBnanR3ZFgzNmZ3TE11ZVNSZUhfWm9tQWVnMFAwOGdkZVNiaG9iMkxDZXVBV0hPMHFMV1R3eC1TSTZoVHpWcDBkVFZMU0FldEFsODFYZHlqQnFiSVVDWW8xNk9reVJOOU1sMmdwMDM2SjlwV3JreG45TnJ3UWZJSGVfU1l5WTlhdU4xU0dBZTZMcmtwSXhfNjJvdkZXZXRXb2NiYUhpTnFEeGE4bE1SeXZZLXVV0gG7AUFVX3lxTFB5TzA0eEdhMGdqdHdkWDM2ZndMTXVlU1JlSF9ab21BZWcwUDA4Z2RlU2Job2IyTENldUFXSE8wcUxXVHd4LVNJNmhUelZwMGRUVkxTQWV0QWw4MVhkeWpCcWJJVUNZbzE2T2t5Uk45TWwyZ3AwMzZKOXBXcmt4bjlOcndRZklIZV9TWXlZOWF1TjFTR0FlNkxya3BJeF82Mm92RldldFdvY2JhSGlOcUR4YThsTVJ5dlktdVU?oc=5",
+     "title": "Unscrambling South African AI business limitations",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTDk1XzFoYXhrZXYwdzNYV3lOaDZLcnFxRTF1ckhKakllZWw5czFtdUpLWFdfTEtRdXdGMVBQZ2tQUGJDT3RFR0FfQ0d2aWNFUU5VNnhRU0dOS1dNVnltazlleWprTm5lZmc2N2kyUjUycHRJT1RCenVueTB4RlNfZnpLWllUUDItUGg2anBMb3BhMWRYU3AyTnRjbW5tQQ?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-08-07T12:21:37.000Z",
+     "publishedAt": "2026-07-30T10:55:34.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
     }
    ],
-   "firstSeen": "2026-08-10T15:12:08.822Z",
+   "firstSeen": "2026-08-13T08:19:09.844Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "d88087bef58e",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Jaipur AI Startup Vardan.ai Selected by MongoDB for Silicon Valley Founder Program",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdEJyc2RmblVGVlRRREpIM25VTTd1NTczYnBrc3FySFpsb3R3SmNHeXo0dHgtN3ZYOW15VFRTdVpNUWVyeEstdUNMX0N0NFZhNVlvT3VuUmdQS1dhdzRHQ19wakhBaGJ3ckZOaDF1NHM3YmFCaC1SUm16Z3dPNVdBLUpkNEwzbDlkaWVycjZLY3h3YkFFcHZnQkVRQXdxbVA5dFVZVmJ4NVQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-07T10:12:55.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-13T08:19:09.844Z",
    "score": 0.5,
    "status": "new"
   },
@@ -254,24 +281,6 @@
    "status": "new"
   },
   {
-   "id": "7b4cad07e4d1",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Acrab Raises US$130 Million Series B, Advancing Agentic AI Compute Platform Commercialization",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQlJkS0dfc0NuZWtfckczVW1RY2M5NVJMeF8yN3ZvVjJYSTlMX2FhYld4a21Fb1lLZFd5bEMtZEE1MjE3UURDMm40Qm8xLWNGVDRFOGdKV2J1QXd3a0tDTkFiUGpMenc1Ynpwc2Vqdlk4WndaUDdoSGpJQXpoeFJ2bVdQdURnazdXS0R5R1dCbldMa3FHbEE?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-06T04:08:00.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-12T08:15:17.962Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "500d52dbd93e",
    "name": null,
    "evidence": [
@@ -290,24 +299,6 @@
    "status": "new"
   },
   {
-   "id": "5fa8985c37d1",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
-     "url": "https://news.ycombinator.com/item?id=48937020",
-     "source": "hn",
-     "publishedAt": "2026-07-16T16:52:16Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T16:17:31.602Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "f960481db7cd",
    "name": null,
    "evidence": [
@@ -318,6 +309,24 @@
      "publishedAt": "2026-07-25T02:10:59Z",
      "matchedKeywords": [
       "\"AI-run business\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "5fa8985c37d1",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+     "url": "https://news.ycombinator.com/item?id=48937020",
+     "source": "hn",
+     "publishedAt": "2026-07-16T16:52:16Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
      ]
     }
    ],
