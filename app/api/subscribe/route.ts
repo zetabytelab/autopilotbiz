@@ -61,7 +61,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "enter a valid email" }, { status: 422 });
   }
 
-  const { BREVO_API_KEY, BREVO_LIST_ID } = process.env;
+  const { BREVO_API_KEY, BREVO_LIST_ID, BREVO_DOI_TEMPLATE_ID } = process.env;
   if (!BREVO_API_KEY || !BREVO_LIST_ID) {
     return NextResponse.json({ ok: false, error: "newsletter is warming up — check back soon" }, { status: 503 });
   }
@@ -71,23 +71,43 @@ export async function POST(req: Request) {
   const ref = slug(parsed.data.ref);
   const source = ref ? `${page}:${ref}` : page;
 
-  try {
-    const res = await fetch("https://api.brevo.com/v3/contacts", {
-      method: "POST",
-      headers: { "api-key": BREVO_API_KEY, "content-type": "application/json" },
-      body: JSON.stringify({
+  // With BREVO_DOI_TEMPLATE_ID set, use double opt-in: Brevo emails a
+  // confirmation link and the contact only joins the list after clicking it.
+  // Without it, fall back to direct list add (single opt-in).
+  const doi = Boolean(BREVO_DOI_TEMPLATE_ID);
+  const url = doi
+    ? "https://api.brevo.com/v3/contacts/doubleOptinConfirmation"
+    : "https://api.brevo.com/v3/contacts";
+  const body = doi
+    ? {
+        email: parsed.data.email,
+        includeListIds: [Number(BREVO_LIST_ID)],
+        templateId: Number(BREVO_DOI_TEMPLATE_ID),
+        redirectionUrl: "https://autopilotindex.com/news?confirmed=1",
+        attributes: { SOURCE: source },
+      }
+    : {
         email: parsed.data.email,
         listIds: [Number(BREVO_LIST_ID)],
         updateEnabled: true,
         attributes: { SOURCE: source },
-      }),
+      };
+
+  try {
+    const res = await fetch(url, {
+      method: "POST",
+      headers: { "api-key": BREVO_API_KEY, "content-type": "application/json" },
+      body: JSON.stringify(body),
     });
     // 201 created, 204 already existed & updated — both fine.
     if (!res.ok && res.status !== 204) {
       console.error("brevo contact create failed:", res.status, await res.text());
       return NextResponse.json({ ok: false, error: "could not subscribe, try again later" }, { status: 502 });
     }
-    return NextResponse.json({ ok: true, message: "You're on the list." });
+    return NextResponse.json({
+      ok: true,
+      message: doi ? "Almost there — check your inbox and confirm." : "You're on the list.",
+    });
   } catch (err) {
     console.error("brevo request failed:", err);
     return NextResponse.json({ ok: false, error: "could not subscribe, try again later" }, { status: 502 });

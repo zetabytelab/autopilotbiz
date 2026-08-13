@@ -1,11 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function SubscribeForm() {
   const [email, setEmail] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [message, setMessage] = useState("");
+
+  // Landing back from the double opt-in confirmation link (?confirmed=1).
+  useEffect(() => {
+    try {
+      if (new URLSearchParams(window.location.search).get("confirmed") === "1") {
+        setState("done");
+        setMessage("Subscription confirmed — you're on the list.");
+      }
+    } catch {}
+  }, []);
 
   async function subscribe(e: React.FormEvent) {
     e.preventDefault();
