@@ -1088,6 +1088,7 @@ export const companies: Company[] = [
 export type StackCategory =
   | "intelligence"
   | "agents"
+  | "sandboxes"
   | "code-deploy"
   | "data"
   | "rails"
@@ -1111,6 +1112,7 @@ export type StackTool = {
 export const stackLayers: { key: StackCategory; label: string; blurb: string }[] = [
   { key: "intelligence", label: "Intelligence — LLMs & engines", blurb: "The models that think, plan, and argue" },
   { key: "agents", label: "Agent infrastructure", blurb: "Inboxes, browsers, voices & compute for agents" },
+  { key: "sandboxes", label: "Sandboxes & GPU compute", blurb: "Isolated containers and neocloud GPUs — where agent code actually runs" },
   { key: "code-deploy", label: "Code & deployment", blurb: "Where agent-written code lives and ships" },
   { key: "data", label: "Databases & backend", blurb: "State for a thousand agent-built apps" },
   { key: "rails", label: "Regulated-industry rails", blurb: "Doctors, pharmacies & compliance as an API — how one human sells in regulated markets" },
@@ -1251,6 +1253,70 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Polsia", "Nanocorp", "Cofounder", "Feltsense", "Atoms"],
     category: "payments",
+  },
+  {
+    name: "Modal",
+    url: "https://modal.com",
+    role: "gVisor-isolated sandboxes + on-demand GPUs (T4→B200) — purpose-built for agent workloads at 100k+ concurrent sessions",
+    referral: null,
+    usedBy: ["Coding agents"],
+    category: "sandboxes",
+  },
+  {
+    name: "E2B",
+    url: "https://e2b.dev",
+    role: "Firecracker microVM sandboxes for untrusted agent code — a billion sandboxes started",
+    referral: null,
+    usedBy: ["Coding agents"],
+    category: "sandboxes",
+  },
+  {
+    name: "Daytona",
+    url: "https://daytona.io",
+    role: "Persistent agent dev environments — auto-stop economics and computer-use support",
+    referral: null,
+    usedBy: ["Coding agents"],
+    category: "sandboxes",
+  },
+  {
+    name: "CoreWeave",
+    url: "https://coreweave.com",
+    role: "The flagship neocloud — GPU capacity at scale behind the model providers themselves",
+    referral: null,
+    usedBy: ["Model providers"],
+    category: "sandboxes",
+  },
+  {
+    name: "Lambda Labs",
+    url: "https://lambda.ai",
+    role: "GPU neocloud — on-demand H100s/B200s priced so a small team can rent frontier compute",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "sandboxes",
+  },
+  {
+    name: "RunPod",
+    url: "https://runpod.io",
+    role: "Per-second GPU rentals & serverless inference endpoints — the solo builder's GPU dealer",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "sandboxes",
+  },
+  {
+    name: "DigitalOcean",
+    url: "https://digitalocean.com",
+    role: "Droplets, managed K8s & GPU droplets — small-team cloud without the hyperscaler bill maze",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "code-deploy",
+  },
+  {
+    name: "Akamai (Linode)",
+    url: "https://www.linode.com",
+    role: "Linode VMs on Akamai's edge — boring, cheap, predictable compute",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "code-deploy",
   },
   {
     name: "Vercel",

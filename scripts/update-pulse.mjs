@@ -52,6 +52,28 @@ const STACK_WATCH = {
   "Sciforium": { query: '"Sciforium"', confirm: /sciforium/i },
   "Z.ai (GLM-5.2)": { query: '"Z.ai" OR "GLM-5"', confirm: /z\.ai|glm|zhipu/i },
   "ElevenLabs": { query: '"ElevenLabs"', confirm: /elevenlabs/i },
+  // Agent infrastructure
+  "AgentMail (YC S25)": { query: '"AgentMail"', confirm: /agentmail/i },
+  "Blaxel (YC X25)": { query: '"Blaxel"', confirm: /blaxel/i },
+  "Anchor Browser": { query: '"Anchor Browser"', confirm: /anchor browser/i },
+  "MCP (Model Context Protocol)": { query: '"Model Context Protocol"', confirm: /model context protocol|\bmcp\b/i },
+  // Sandboxes & GPU compute ("Modal"/"Daytona"/"Lambda" are brutally ambiguous
+  // — Daytona 500, AWS Lambda, UI modals — hence the aggressive confirms)
+  "Modal": { query: '"Modal" AI sandbox OR GPU compute', confirm: /modal[' ]?s? (labs|sandbox|gpu|compute|cloud)|modal\.com|sandbox.*modal|modal.*(sandbox|gpu|serverless)/i },
+  "E2B": { query: '"E2B" sandbox', confirm: /e2b/i },
+  "Daytona": { query: '"Daytona" AI sandbox agents', confirm: /daytona.*(sandbox|agent|\bai\b|dev environment)/i },
+  "CoreWeave": { query: '"CoreWeave"', confirm: /coreweave/i },
+  "Lambda Labs": { query: '"Lambda" GPU cloud OR neocloud', confirm: /lambda ?labs|lambda\.ai|lambda.*(gpu|neocloud)|gpu.*lambda/i },
+  "RunPod": { query: '"RunPod"', confirm: /runpod/i },
+  // Clouds & deploy
+  "Vercel": { query: '"Vercel"', confirm: /vercel/i },
+  "Render": { query: '"Render.com" OR "Render" cloud platform', confirm: /render\.com|render.*(cloud|hosting|deploy|platform)/i },
+  "DigitalOcean": { query: '"DigitalOcean"', confirm: /digital ?ocean/i },
+  "Akamai (Linode)": { query: '"Linode" OR "Akamai" cloud computing', confirm: /linode|akamai.*(cloud|compute|linode)/i },
+  // Data & comms
+  "Neon": { query: '"Neon" Postgres', confirm: /neon.*(postgres|database|serverless)|postgres.*neon/i },
+  "Supabase": { query: '"Supabase"', confirm: /supabase/i },
+  "Postmark": { query: '"Postmark" email', confirm: /postmark/i },
 };
 const stackSlug = (name) =>
   "stack-" +
@@ -97,6 +119,8 @@ const DISAMBIG = {
 // Coverage often names the founder, not the company ("Ben Broca raised $30M…"),
 // so without these the best stories fail the title-mention filter.
 const ALIASES = {
+  // Press says "Lambda", not "Lambda Labs" — confirm regex gates AWS Lambda noise.
+  "stack-lambda-labs": ["Lambda"],
   polsia: ["Ben Broca", "Ben Cera"],
   atoms: ["atoms.dev", "DeepWisdom", "MetaGPT"],
   medvi: ["Matthew Gallagher"],
