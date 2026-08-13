@@ -14,6 +14,9 @@ export type PulseItem = {
   sources: PulseSource[];
   baseScore: number;
   hot?: boolean;
+  // "company" = an indexed company; "stack" = a technology provider behind
+  // them (slug prefixed "stack-"). Absent on items predating the stack track.
+  track?: "company" | "stack";
 };
 
 export type CandidateEvidence = {
@@ -34,6 +37,19 @@ export type Candidate = {
 };
 
 export type SourceRun = { id: string; ok: number; failed: number; items: number };
+
+// Mirrors scripts/update-pulse.mjs stackSlug() — keep the two in sync.
+export function stackSlug(name: string): string {
+  return (
+    "stack-" +
+    name
+      .toLowerCase()
+      .replace(/\(.*?\)/g, "")
+      .trim()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "")
+  );
+}
 
 // Mirrors the script: ~33h half-life on a 48h scale.
 export function decayedScore(baseScore: number, publishedAt: string, now = Date.now()): number {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { companies, caseStudies } from "@/lib/data";
-import type { Candidate, PulseItem, SourceRun } from "@/lib/pulse";
+import { companies, caseStudies, stackTools, switchLog } from "@/lib/data";
+import { stackSlug, type Candidate, type PulseItem, type SourceRun } from "@/lib/pulse";
 import PulseFeed from "@/components/pulse/PulseFeed";
 import SubscribeForm from "@/components/SubscribeForm";
 import pulse from "@/data/pulse.json";
@@ -10,7 +10,7 @@ import candidatesData from "@/data/candidates.json";
 export const metadata: Metadata = {
   title: "News pulse — Business on Autopilot",
   description:
-    "Live signals from the autopilot companies: funding, launches, interviews, social chatter — plus a radar of possible new entrants. Built for angels and VCs who want to know first.",
+    "Live signals from the autopilot companies AND the stack behind them — Claude Code, Codex, OpenClaw, OpenRouter, Hermes and more. Funding, launches, stack switches, plus a radar of new entrants. Built for solo builders, small-team CTOs, and investors who want to know first.",
 };
 
 const MONTHS: Record<string, string> = {
@@ -80,7 +80,8 @@ export default function NewsPage() {
         </h1>
         <p className="mt-3 max-w-2xl text-base leading-relaxed text-zinc-400">
           <span className="font-semibold text-zinc-100">TL;DR: agents read the internet so you don't.</span>{" "}
-          Every funding round, launch and interview from the autopilot economy — deduped, heat-ranked, fresh
+          Every funding round, launch and interview from the autopilot economy — plus the tech stack behind it
+          (Claude Code, Codex, OpenClaw, OpenRouter…) through a solo-builder lens. Deduped, heat-ranked, fresh
           daily.
         </p>
         <SubscribeForm />
@@ -94,13 +95,54 @@ export default function NewsPage() {
         </h2>
         <PulseFeed
           items={items}
-          companies={companies.map((c) => ({ slug: c.slug, name: c.name }))}
+          companies={[
+            ...companies.map((c) => ({ slug: c.slug, name: c.name })),
+            ...stackTools.map((t) => ({ slug: stackSlug(t.name), name: t.name.replace(/\s*\(.*\)\s*/, "") })),
+          ]}
           generatedAt={pulse.generatedAt}
         />
         <p className="mt-2 text-center font-mono text-[11px] text-zinc-700">
           sources:{" "}
           {sourcesRun.map((s) => `${s.id} ${s.failed === 0 ? "✓" : `⚠ ${s.failed} failed`} ${s.items}`).join(" · ")}
         </p>
+      </section>
+
+      {/* Stack switch log */}
+      <section id="switches" className="mt-16 scroll-mt-24">
+        <h2 className="mb-1 text-xl font-bold text-zinc-100">🔀 Stack switch log</h2>
+        <p className="mb-4 max-w-2xl text-sm text-zinc-400">
+          Production workloads voting with their wallets — the strongest infra demand signal there is. When an
+          indexed company moves providers, it lands here.
+        </p>
+        <ul className="space-y-2">
+          {[...switchLog]
+            .sort((a, b) => b.date.localeCompare(a.date))
+            .map((s) => (
+              <li
+                key={`${s.date}-${s.company}`}
+                className="rounded-xl border border-sky-400/20 bg-zinc-950/60 px-4 py-3"
+              >
+                <div className="mb-1 flex flex-wrap items-center gap-2">
+                  <span className="font-mono text-xs text-zinc-500">{s.date}</span>
+                  <span className="rounded-full border border-zinc-800 px-2.5 py-0.5 text-xs text-lime-400">
+                    {s.company}
+                  </span>
+                </div>
+                <p className="text-sm leading-relaxed text-zinc-300">{s.moved}</p>
+                <p className="mt-1 text-sm text-sky-300">
+                  {s.impact.split("**").map((part, idx) =>
+                    idx % 2 === 1 ? (
+                      <strong key={idx} className="font-semibold text-sky-200">
+                        {part}
+                      </strong>
+                    ) : (
+                      part
+                    ),
+                  )}
+                </p>
+              </li>
+            ))}
+        </ul>
       </section>
 
       {/* Radar */}

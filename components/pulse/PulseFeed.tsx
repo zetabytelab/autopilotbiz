@@ -14,6 +14,16 @@ const KINDS: { key: PulseItem["kind"] | "all"; label: string }[] = [
   { key: "other", label: "📰 Press" },
 ];
 
+const TRACKS: { key: "all" | "company" | "stack"; label: string }[] = [
+  { key: "all", label: "🛰 All signals" },
+  { key: "company", label: "🤖 Index companies" },
+  { key: "stack", label: "🧰 Stack providers" },
+];
+
+// Items written before the stack track existed carry no `track` — they were
+// all company signals.
+const trackOf = (i: PulseItem) => i.track ?? (i.companySlug?.startsWith("stack-") ? "stack" : "company");
+
 type Props = {
   items: PulseItem[];
   companies: { slug: string; name: string }[];
@@ -22,6 +32,7 @@ type Props = {
 
 export default function PulseFeed({ items, companies, generatedAt }: Props) {
   const [kind, setKind] = useState<string>("all");
+  const [track, setTrack] = useState<"all" | "company" | "stack">("all");
   const [companySlug, setCompanySlug] = useState<string>("all");
   const [hotOnly, setHotOnly] = useState(false);
   const [sortBy, setSortBy] = useState<"heat" | "newest">("heat");
@@ -48,13 +59,19 @@ export default function PulseFeed({ items, companies, generatedAt }: Props) {
 
   const companyName = useMemo(() => new Map(companies.map((c) => [c.slug, c.name])), [companies]);
   const activeSlugs = useMemo(() => {
-    const withNews = new Set(items.map((i) => i.companySlug).filter(Boolean) as string[]);
+    const withNews = new Set(
+      items
+        .filter((i) => track === "all" || trackOf(i) === track)
+        .map((i) => i.companySlug)
+        .filter(Boolean) as string[],
+    );
     return companies.filter((c) => withNews.has(c.slug));
-  }, [items, companies]);
+  }, [items, companies, track]);
 
   const filtered = useMemo(() => {
     const now = Date.now();
     let out = items.filter((i) => {
+      if (track !== "all" && trackOf(i) !== track) return false;
       if (kind !== "all" && i.kind !== kind) return false;
       if (companySlug !== "all" && i.companySlug !== companySlug) return false;
       if (hotOnly && !i.hot) return false;
@@ -68,7 +85,7 @@ export default function PulseFeed({ items, companies, generatedAt }: Props) {
       return vb - va;
     });
     return out;
-  }, [items, kind, companySlug, hotOnly, query, sortBy, votes]);
+  }, [items, track, kind, companySlug, hotOnly, query, sortBy, votes]);
 
   const chip = (active: boolean) =>
     `rounded-full border px-3 py-1 text-xs transition ${
@@ -82,6 +99,20 @@ export default function PulseFeed({ items, companies, generatedAt }: Props) {
       {/* Filter bar */}
       <div className="space-y-3 rounded-2xl border border-zinc-800 bg-zinc-950/60 p-4">
         <div className="flex flex-wrap items-center gap-1.5">
+          {TRACKS.map((t) => (
+            <button
+              key={t.key}
+              className={chip(track === t.key)}
+              onClick={() => {
+                setTrack(t.key);
+                setCompanySlug("all");
+              }}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-center gap-1.5">
           {KINDS.map((k) => (
             <button key={k.key} className={chip(kind === k.key)} onClick={() => setKind(k.key)}>
               {k.label}
@@ -93,7 +124,7 @@ export default function PulseFeed({ items, companies, generatedAt }: Props) {
         </div>
         <div className="flex flex-wrap items-center gap-1.5">
           <button className={chip(companySlug === "all")} onClick={() => setCompanySlug("all")}>
-            All companies
+            {track === "stack" ? "All providers" : track === "company" ? "All companies" : "Everyone"}
           </button>
           {activeSlugs.map((c) => (
             <button key={c.slug} className={chip(companySlug === c.slug)} onClick={() => setCompanySlug(c.slug)}>
@@ -159,8 +190,13 @@ export default function PulseFeed({ items, companies, generatedAt }: Props) {
                   {mounted && <span className="font-mono">{timeAgo(i.publishedAt)}</span>}
                   {i.domain && <span className="font-mono text-zinc-600">{i.domain}</span>}
                   {i.companySlug && (
-                    <span className="rounded-full border border-zinc-800 px-2 py-0.5 text-lime-400">
-                      {companyName.get(i.companySlug) ?? i.companySlug}
+                    <span
+                      className={`rounded-full border px-2 py-0.5 ${
+                        trackOf(i) === "stack" ? "border-sky-400/30 text-sky-300" : "border-zinc-800 text-lime-400"
+                      }`}
+                    >
+                      {trackOf(i) === "stack" && "🧰 "}
+                      {companyName.get(i.companySlug) ?? i.companySlug.replace(/^stack-/, "")}
                     </span>
                   )}
                   <span className="rounded-full bg-zinc-900 px-2 py-0.5 uppercase tracking-wide text-zinc-500">

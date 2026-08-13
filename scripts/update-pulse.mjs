@@ -34,6 +34,47 @@ function loadCompanies() {
   return out;
 }
 
+// ------------------------------------------------------- stack providers
+// Watched technology providers (the stack behind the companies). Keyed by the
+// EXACT tool name in lib/data.ts stackTools; slug becomes "stack-<kebab>".
+// Every entry is deliberately in DISAMBIG form (query + confirm) — provider
+// names are generic, so body-match trust is always off and a title must pass
+// the confirm regex. Queries stay builder-focused to keep firehose noise out.
+const STACK_WATCH = {
+  "Claude (Anthropic)": { query: '"Anthropic" Claude model OR API OR pricing', confirm: /anthropic|claude/i },
+  "Claude Code": { query: '"Claude Code"', confirm: /claude code/i },
+  "OpenAI Codex": { query: '"Codex" OpenAI', confirm: /codex/i },
+  "Hermes (Nous Research)": { query: '"Nous Research" OR "Hermes" open-source AI model', confirm: /nous research|hermes[- ]?\d|hermes.*(model|llm)/i },
+  "OpenRouter": { query: '"OpenRouter" AI', confirm: /openrouter/i },
+  "OpenClaw": { query: '"OpenClaw"', confirm: /openclaw|clawdbot|moltbot/i },
+  "NanoClaw": { query: '"NanoClaw"', confirm: /nanoclaw/i },
+  "Cursor": { query: '"Cursor" AI coding', confirm: /cursor.*(ai|cod|agent|ide)|anysphere/i },
+  "Sciforium": { query: '"Sciforium"', confirm: /sciforium/i },
+  "Z.ai (GLM-5.2)": { query: '"Z.ai" OR "GLM-5"', confirm: /z\.ai|glm|zhipu/i },
+  "ElevenLabs": { query: '"ElevenLabs"', confirm: /elevenlabs/i },
+};
+const stackSlug = (name) =>
+  "stack-" +
+  name
+    .toLowerCase()
+    .replace(/\(.*?\)/g, "")
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+// Extract watched stack tools from lib/data.ts (blocks have name+url+role —
+// companies have name+slug, so the shapes don't collide).
+function loadStackEntities() {
+  const src = readFileSync(join(ROOT, "lib", "data.ts"), "utf8");
+  const re = /name:\s*"([^"]+)",\s*url:\s*"([^"]+)",\s*role:/g;
+  const out = [];
+  for (const m of src.matchAll(re)) {
+    if (!STACK_WATCH[m[1]]) continue;
+    out.push({ name: m[1], slug: stackSlug(m[1]), url: m[2] });
+  }
+  return out;
+}
+
 // Ambiguous names need extra query context + a confirmation regex on titles.
 const DISAMBIG = {
   // NOTE: Travis Kalanick's industrial-AI startup is also named "Atoms" —
@@ -384,7 +425,11 @@ const decayed = (baseScore, publishedAt) =>
 
 // --------------------------------------------------------------------- main
 async function main() {
-  const companies = loadCompanies();
+  // Stack providers ride the same pipeline as companies, distinguished only by
+  // their "stack-" slug prefix (item.track is derived from it at write time).
+  const stackEntities = loadStackEntities();
+  for (const e of stackEntities) DISAMBIG[e.slug] = STACK_WATCH[e.name];
+  const companies = [...loadCompanies(), ...stackEntities];
   const companyDomains = new Set(companies.map((c) => (c.url ? hostOf(c.url) : null)).filter(Boolean));
   const sourcesRun = [];
   const rawItems = [];
@@ -611,6 +656,11 @@ async function main() {
       }
     } catch {}
   }
+  // Derive the track from the slug prefix (also stamps carried-over items).
+  items = items.map((i) => ({
+    ...i,
+    track: i.companySlug ? (i.companySlug.startsWith("stack-") ? "stack" : "company") : undefined,
+  }));
   items.sort((a, b) => decayed(b.baseScore, b.publishedAt) - decayed(a.baseScore, a.publishedAt));
 
   // hot = top decile by decayed score (min 3 items), or anything scoring > 1.2
