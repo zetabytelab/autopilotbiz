@@ -1091,6 +1091,7 @@ export type StackCategory =
   | "sandboxes"
   | "code-deploy"
   | "data"
+  | "ops"
   | "rails"
   | "payments"
   | "distribution";
@@ -1115,6 +1116,7 @@ export const stackLayers: { key: StackCategory; label: string; blurb: string }[]
   { key: "sandboxes", label: "Sandboxes & GPU compute", blurb: "Isolated containers and neocloud GPUs — where agent code actually runs" },
   { key: "code-deploy", label: "Code & deployment", blurb: "Where agent-written code lives and ships" },
   { key: "data", label: "Databases & backend", blurb: "State for a thousand agent-built apps" },
+  { key: "ops", label: "Ops & observability", blurb: "Tracing, evals & audit trails — how one human trusts what the agents did overnight" },
   { key: "rails", label: "Regulated-industry rails", blurb: "Doctors, pharmacies & compliance as an API — how one human sells in regulated markets" },
   { key: "payments", label: "Payments & money rails", blurb: "How autopilot businesses actually get paid" },
   { key: "distribution", label: "Distribution & comms", blurb: "Ads, email, phone — reaching the real world" },
@@ -1253,6 +1255,106 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Polsia", "Nanocorp", "Cofounder", "Feltsense", "Atoms"],
     category: "payments",
+  },
+  {
+    name: "Together AI",
+    url: "https://together.ai",
+    role: "Open-model inference cloud — frontier OSS models at commodity prices",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "intelligence",
+  },
+  {
+    name: "Groq",
+    url: "https://groq.com",
+    role: "LPU inference — open models at absurd tokens per second",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "intelligence",
+  },
+  {
+    name: "HappyRobot",
+    url: "https://happyrobot.ai",
+    role: "AI workers on the phone — the orchestration layer behind 'Brigitte'",
+    referral: null,
+    usedBy: ["Le Baguette Index"],
+    category: "agents",
+  },
+  {
+    name: "Soniox",
+    url: "https://soniox.com",
+    role: "Real-time speech-to-text — the ears on the Baguette Index calls",
+    referral: null,
+    usedBy: ["Le Baguette Index"],
+    category: "agents",
+  },
+  {
+    name: "Apify",
+    url: "https://apify.com",
+    role: "Actor marketplace for scraping & automation — this index's own pulse runs its X/LinkedIn sources on it",
+    // TODO(referral): join at https://apify.com/partners/affiliate (20% first 3mo → 30%, up to $2.5k/customer) → set referralUrl
+    referral: "Affiliate: 20% → 30% recurring, up to $2,500/customer",
+    usedBy: ["Autopilot Index (this site)"],
+    category: "agents",
+  },
+  {
+    name: "Vapi",
+    url: "https://vapi.ai",
+    role: "Voice agents by API — dial, listen, respond; the fast path to a 'Rachel' of your own",
+    // TODO(referral): join at https://affiliates.vapi.ai (~15% via Tolt) → set referralUrl
+    referral: "Affiliate: ~15% commission",
+    usedBy: ["Solo builders"],
+    category: "agents",
+  },
+  {
+    name: "Browserbase",
+    url: "https://browserbase.com",
+    role: "Headless browsers for agents at scale — sessions, stealth & replays",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "agents",
+  },
+  {
+    name: "Firecrawl",
+    url: "https://firecrawl.dev",
+    role: "Websites → LLM-ready data — the web-reading layer for agent pipelines",
+    // TODO(referral): apply at https://partners.dub.co/firecrawl/apply (25% ×12mo then 15%; Creator/OSS tier 50%) → set referralUrl
+    referral: "Affiliate: 25% for 12 months, then 15%",
+    usedBy: ["Solo builders"],
+    category: "agents",
+  },
+  {
+    name: "n8n",
+    url: "https://n8n.io",
+    role: "Self-hostable workflow automation with agent nodes — the glue of one-person ops",
+    // TODO(referral): join at https://n8n.io/affiliates/ (30% ×12mo on cloud) → set referralUrl
+    referral: "Affiliate: 30% for 12 months (cloud)",
+    usedBy: ["Solo builders"],
+    category: "agents",
+  },
+  {
+    name: "Resend",
+    url: "https://resend.com",
+    role: "The transactional-email API this generation of builders reaches for",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "distribution",
+  },
+  {
+    name: "Polar",
+    url: "https://polar.sh",
+    role: "Merchant of record for one-person software businesses — global sales tax handled, checkout in minutes",
+    referral: null,
+    usedBy: ["Solo builders"],
+    category: "payments",
+  },
+  {
+    name: "Langfuse",
+    url: "https://langfuse.com",
+    role: "Open-source agent/LLM observability — what did my agents actually do overnight?",
+    referral: null,
+    usedBy: ["Small-team CTOs"],
+    category: "ops",
   },
   {
     name: "Modal",

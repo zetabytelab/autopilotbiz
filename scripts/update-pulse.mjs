@@ -74,6 +74,20 @@ const STACK_WATCH = {
   "Neon": { query: '"Neon" Postgres', confirm: /neon.*(postgres|database|serverless)|postgres.*neon/i },
   "Supabase": { query: '"Supabase"', confirm: /supabase/i },
   "Postmark": { query: '"Postmark" email', confirm: /postmark/i },
+  "Resend": { query: '"Resend" email API', confirm: /resend.*(email|api)|email.*resend/i },
+  // Voice & agent tooling
+  "HappyRobot": { query: '"HappyRobot"', confirm: /happyrobot/i },
+  "Soniox": { query: '"Soniox"', confirm: /soniox/i },
+  "Apify": { query: '"Apify"', confirm: /apify/i },
+  "Vapi": { query: '"Vapi" voice AI', confirm: /vapi/i },
+  "Browserbase": { query: '"Browserbase"', confirm: /browserbase/i },
+  "Firecrawl": { query: '"Firecrawl"', confirm: /firecrawl/i },
+  "n8n": { query: '"n8n"', confirm: /n8n/i },
+  // Inference & money & ops ("Together"/"Polar" collide with everyday words)
+  "Together AI": { query: '"Together AI" inference', confirm: /together ?ai|together\.ai|together compute/i },
+  "Groq": { query: '"Groq"', confirm: /groq/i },
+  "Polar": { query: '"Polar.sh" OR "Polar" payments developers', confirm: /polar\.sh|polar.*(payment|merchant|monetiz|billing|checkout)/i },
+  "Langfuse": { query: '"Langfuse"', confirm: /langfuse/i },
 };
 const stackSlug = (name) =>
   "stack-" +
