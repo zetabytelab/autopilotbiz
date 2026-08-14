@@ -884,6 +884,287 @@ export const companies: Company[] = [
     },
   },
   {
+    name: "Moritz",
+    slug: "moritz",
+    url: "https://moritzlegal.com",
+    tagline: "The AI-native law firm.",
+    categoryClaim: "AI does 80% of the work, so you pay elite lawyers for the final 20%.",
+    description:
+      "Oslo-based AI-native law firm (YC W26): agents draft contracts and execute deals, ~10 Harvard/Oxford-trained lawyers review the final 20%, at flat fees ($750–$2,500/doc) with ~4-hour turnarounds. Founded by Pamir Ehsas (former outside counsel to OpenAI and Google) and Stefan Mandaric (AI engineer, ex-MIT Fulbright). The flagship of the 2026 wave of AI-native professional-services firms — the agents do the firm's own billable work.",
+    techStack: [],
+    funding: {
+      totalRaised: "$9M",
+      lastRound: "$9M seed (oversubscribed, closed in 4 days)",
+      date: "2026-05",
+      valuation: null,
+      investors: ["20VC", "Y Combinator", "Urban Innovation Fund", "Inception Fund", "20+ unicorn-founder angels"],
+    },
+    founders: [
+      { name: "Pamir Ehsas", background: "CEO; former outside counsel to OpenAI and Google." },
+      { name: "Stefan Mandaric", background: "AI engineer; ex-MIT Fulbright scholar." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 10,
+      sources: {
+        humans: { name: "Y Combinator", url: "https://www.ycombinator.com/companies/moritz" },
+        raised: { name: "tech.eu", url: "https://tech.eu/2026/05/05/backed-by-y-combinator-and-20-unicorn-founders-moritz-lands-9m/" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: "Flat fee per document, $750–$2,500.",
+    news: [
+      {
+        date: "2026-05",
+        headline:
+          "$9M oversubscribed seed closed in 4 days (20VC, YC, Urban Innovation Fund, Inception Fund, 20+ unicorn-founder angels). Press reports $2B in aggregate contract value across 100+ companies in the first 3 months; YC profile says $3B — figures self-reported.",
+      },
+    ],
+    verified: true,
+    cohort: "expansion",
+    autopilot: {
+      level: "L3",
+      evidence: "C",
+      section: "watchlist",
+      story: "AI-native law firm — agents draft, ~10 lawyers review the final 20% at flat fees.",
+      flags: "$9M seed press-verified; $2B–$3B deal-value claims self-reported; no ARR disclosed",
+    },
+  },
+  {
+    name: "Minimal",
+    slug: "minimal-ai",
+    url: "https://gominimal.ai",
+    tagline: "AI customer support agents for e-commerce.",
+    categoryClaim: "Three humans, agents resolve up to 90% of support tickets.",
+    description:
+      "Amsterdam-based YC S25 startup whose agents autonomously resolve e-commerce support tickets — up to 90% automation (93% in its top case study) — on a 3-person team. Founded by Niek Hogenboom (CEO) and Titus Ex (CTO, ex-ML engineer at Uber). Reports crossing 7-figure ARR (company-stated).",
+    techStack: [],
+    funding: {
+      totalRaised: "$3.6M",
+      lastRound: "Seed",
+      date: "2026-03",
+      valuation: null,
+      investors: ["Y Combinator", "Rebel Fund", "Zeno Partners", "Formosa Capital", "Sunshine Lake", "15 customers as angels"],
+    },
+    founders: [
+      { name: "Niek Hogenboom", background: "CEO; previously founded SitRight." },
+      { name: "Titus Ex", background: "CTO; ex-ML engineer at Uber and Soda." },
+    ],
+    metrics: {
+      arr: "7-figure (self-reported)",
+      arrUsd: 1_000_000,
+      humans: 3,
+      sources: {
+        humans: { name: "Y Combinator", url: "https://www.ycombinator.com/companies/minimal-ai" },
+        arr: { name: "Founder-stated · self-reported", url: "https://www.ycombinator.com/companies/minimal-ai" },
+        raised: { name: "Ziptone", url: "https://www.ziptone.nl/en/nieuws/minimal-ai-haalt-36-miljoen-dollar-op-om-klantenservice-te-automatiseren/" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: null,
+    news: [
+      {
+        date: "2026-03",
+        headline:
+          "$3.6M seed led by YC and Rebel Fund, with 15 of its own customers investing as angels; reports 7-figure ARR resolving up to 90% of e-commerce tickets with a 3-person team.",
+      },
+    ],
+    verified: true,
+    cohort: "expansion",
+    autopilot: {
+      level: "L3",
+      evidence: "C",
+      section: "watchlist",
+      story: "AI support agents resolve up to 90% of e-commerce tickets — 7-figure ARR on 3 humans.",
+      flags: "$3.6M seed press-verified; ARR self-reported",
+    },
+  },
+  {
+    name: "Lunavo",
+    slug: "lunavo",
+    url: "https://lunavo.ai",
+    tagline: "The AI workforce for freight forwarders.",
+    categoryClaim: "85% of repetitive back-office logistics automated within 60 days.",
+    description:
+      "German YC Fall-2025 startup (2 people): an 'AI workforce' for freight forwarders in the DACH region — claims 85% of repetitive carrier back-office work automated within 60 days, 11-second median email replies, and 3× loads per dispatcher. Founded by Felix Lösch (ex-McKinsey) and Niclas Heun (ex-Siemens AI researcher). Backed by YC's standard deal plus Germany's EXIST founder grant — no external seed round yet.",
+    techStack: [],
+    funding: {
+      totalRaised: "YC standard deal (~$500K) + EXIST grant",
+      lastRound: "Y Combinator, Fall 2025 batch",
+      date: "2025-09",
+      valuation: null,
+      investors: ["Y Combinator", "EXIST Gründerstipendium (German government grant)"],
+    },
+    founders: [
+      { name: "Felix Lösch", background: "CEO; ex-McKinsey." },
+      { name: "Niclas Heun", background: "CTO; TU Munich/Waterloo; ex-Siemens AI researcher." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 2,
+      sources: {
+        humans: { name: "Y Combinator", url: "https://www.ycombinator.com/companies/lunavo" },
+        raised: { name: "Y Combinator (standard deal)", url: "https://www.ycombinator.com/companies/lunavo" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: null,
+    news: [
+      {
+        date: "2025-09",
+        headline: "Joins YC Fall 2025; claims 85% of repetitive freight-forwarder back-office work automated within 60 days (self-reported; no third-party coverage yet).",
+      },
+    ],
+    verified: true,
+    cohort: "expansion",
+    autopilot: {
+      level: "L3",
+      evidence: "D",
+      section: "watchlist",
+      story: "AI workforce automating 85% of freight-forwarder back-office ops (DACH).",
+      flags: "All metrics self-reported; YC standard deal only, no external round",
+    },
+  },
+  {
+    name: "Beacon Health",
+    slug: "beacon-health",
+    url: "https://www.beaconhealth.ai",
+    tagline: "AI employees for primary care.",
+    categoryClaim: "Agents work inside the EHR: prior auth, referrals, screenings, risk adjustment.",
+    description:
+      "YC W26 startup (2 people, SF): 'AI employees' for value-based primary care — agents work inside EHRs (Epic, Athena, eCW, Cerner) closing quality gaps, running prior authorizations, referrals and patient outreach. Live with an independent physician association supporting 40,000 patients. Founded by Mark Pothen (CEO) and Obinna Akahara (CTO). Not to be confused with Beacon Health System, the legacy Indiana hospital network.",
+    techStack: [],
+    funding: {
+      totalRaised: "YC standard deal (~$500K)",
+      lastRound: "Y Combinator, Winter 2026 batch",
+      date: "2026-01",
+      valuation: null,
+      investors: ["Y Combinator"],
+    },
+    founders: [
+      { name: "Mark Pothen", background: "CEO." },
+      { name: "Obinna Akahara", background: "CTO; Physics, UT Austin." },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: 2,
+      sources: {
+        humans: { name: "Y Combinator", url: "https://www.ycombinator.com/companies/beacon-health" },
+        raised: { name: "Y Combinator (standard deal)", url: "https://www.ycombinator.com/companies/beacon-health" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: null,
+    news: [
+      {
+        date: "2026-01",
+        headline: "YC W26; goes live with an independent physician association supporting 40,000 patients — agents run prior auth, referrals, screenings and risk adjustment inside the EHR.",
+      },
+    ],
+    verified: true,
+    cohort: "expansion",
+    autopilot: {
+      level: "L3",
+      evidence: "C",
+      section: "watchlist",
+      story: "\"AI employees\" inside the EHR for value-based primary care — live with a 40,000-patient IPA.",
+      flags: "YC-verified traction claim; pre-revenue-disclosure",
+    },
+  },
+  {
+    name: "Gamma",
+    slug: "gamma",
+    url: "https://gamma.app",
+    tagline: "PowerPoint for the AI era.",
+    categoryClaim: "The lean-AI benchmark: $100M ARR on 52 people, profitable, ~$23M primary capital.",
+    description:
+      "AI-native presentation and content platform — the cleanest lean-AI case on record: $100M ARR on 52 people (Nov 2025), profitable for over two years, reached on only ~$23M of primary capital. 70M users, 600K+ paying subscribers, users in 40% of the Fortune 500 (Sacra). $68M Series B led by a16z at a $2.1B valuation.",
+    techStack: [],
+    funding: {
+      totalRaised: "~$90M (incl. secondary)",
+      lastRound: "$68M Series B at $2.1B (a16z lead)",
+      date: "2025-11",
+      valuation: "$2.1B",
+      investors: ["Andreessen Horowitz", "Accel", "Uncork Capital", "South Park Commons", "Hustle Fund"],
+    },
+    founders: [{ name: "Grant Lee", background: "Co-founder & CEO." }],
+    metrics: {
+      arr: "$100M (Nov 2025)",
+      arrUsd: 100_000_000,
+      humans: 52,
+      sources: {
+        humans: { name: "Lean AI Leaderboard / Sacra", url: "https://sacra.com/c/gamma/" },
+        arr: { name: "TechCrunch", url: "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/" },
+        raised: { name: "TechCrunch", url: "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: "Freemium; Pro subscription.",
+    news: [
+      {
+        date: "2025-11",
+        headline: "Passes $100M ARR on 52 people, profitable for 2+ years; $68M Series B led by a16z at a $2.1B valuation (~$20M of it secondary for early employees).",
+      },
+    ],
+    verified: true,
+    cohort: "expansion",
+    autopilot: {
+      level: "L2",
+      evidence: "C",
+      section: "index",
+      story: "$100M ARR · 52 humans · profitable — the lean-AI benchmark, corroborated by TechCrunch/Sacra.",
+      flags: "~$1.9M ARR/human; a16z-led $2.1B valuation",
+    },
+  },
+  {
+    name: "Retell AI",
+    slug: "retell-ai",
+    url: "https://www.retellai.com",
+    tagline: "AI voice agents by API.",
+    categoryClaim: "Voice-agent platform grown to ~$60M annualized on ~$5M raised.",
+    description:
+      "YC W24 voice/phone-agent API platform (founder Bing Wu) — the infrastructure behind many production phone agents. Growth is corroborated (Sacra estimates ~$60M annualized by Apr 2026, +650% YoY, on only ~$5.1M raised), but its famous efficiency claim is not: headcount reports range from 21 (Lean AI Leaderboard, Nov 2025) to 50 (YC directory) to 143 (Tracxn, Jun 2026) — treat ARR-per-human as disputed.",
+    techStack: [],
+    funding: {
+      totalRaised: "~$5.1M",
+      lastRound: "$4.6M seed (Alt Capital lead; YC, Aaron Levie, Michael Seibel among angels)",
+      date: "2024-08",
+      valuation: null,
+      investors: ["Alt Capital", "Y Combinator", "Carya Ventures"],
+    },
+    founders: [{ name: "Bing Wu", background: "Co-founder & CEO; YC W24; pivoted from an AI dubbing platform." }],
+    metrics: {
+      arr: "~$60M annualized (Sacra est., Apr 2026)",
+      arrUsd: 60_000_000,
+      humans: null,
+      sources: {
+        humans: { name: "Disputed: 21 (leaderboard) → 143 (Tracxn)", url: "https://leanaileaderboard.com/" },
+        arr: { name: "Sacra · estimate", url: "https://sacra.com/research/retell-ai-60m-yr-up-650-yoy/" },
+        raised: { name: "Retell blog", url: "https://www.retellai.com/blog/seed-announcement" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: "Usage-based, ~$0.055/min platform fee.",
+    news: [
+      {
+        date: "2026-04",
+        headline: "Sacra estimates ~$60M annualized revenue, up ~650% YoY, on ~$5.1M total raised. Headcount disputed across sources (21–143) — efficiency claims flagged.",
+      },
+    ],
+    verified: true,
+    cohort: "expansion",
+    autopilot: {
+      level: "L2",
+      evidence: "C",
+      section: "watchlist",
+      story: "Voice agents by API — ~$60M annualized (est.) on ~$5M raised; headcount disputed 21–143.",
+      flags: "ARR is analyst estimate; ARR-per-human unreliable due to disputed headcount",
+    },
+  },
+  {
     name: "11x",
     slug: "11x",
     url: "https://11x.ai",
@@ -1581,20 +1862,22 @@ export const caseStudies: CaseStudy[] = [
     who: "Matt Cortland, AI engineer (London)",
     date: "March 2026",
     summary:
-      "Annoyed by a €7.80 Dublin pint, he built an AI voice agent named 'Rachel' (friendly Northern Irish accent) that phoned 3,000+ pubs across all 32 Irish counties asking the price of a pint of Guinness. 2,052 pubs answered; 1,000+ verified prices. National average: €5.95. Cheapest: €3.00 (Glynn's Bar, Dunmore); priciest: €10 (Temple Bar). Total cost: ~€200. Only a handful of publicans realized it was an AI — and at least one pub cut its price €0.40 afterward. Now runs as a crowdsourced 'living CPI for the pint'.",
-    stack: ["ElevenLabs Conversational AI", "Twilio Voice", "Claude / Claude Code", "Google Maps API"],
+      "Annoyed by a €7.80 Dublin pint, he built an AI voice agent named 'Rachel' (friendly Northern Irish accent) that phoned 3,000+ pubs across all 32 Irish counties asking the price of a pint of Guinness. 2,052 pubs answered; 1,000+ verified prices. National average: €5.95. Cheapest: €3.00 (Glynn's Bar, Dunmore); priciest: €10 (Temple Bar). Total cost: ~€200. Only a handful of publicans realized it was an AI — and at least one pub cut its price €0.40 afterward. Now runs as a crowdsourced 'living CPI for the pint'. June 2026: Rachel crossed to the UK (guinndex.co.uk, co-built with AI researcher John Fleming) — 46,237 pubs mapped, 35,659 dialed, 6,544 verified prices across 108 counties, national average £5.82, for ~£500 in API fees. Only 4% of UK publicans detected the AI (0.6% in Northern Ireland, where Rachel matched the local accent). Sister project: Gas Index USA (Apr 2026).",
+    stack: ["ElevenLabs Conversational AI", "Twilio Voice", "Claude / Claude Code", "Google Maps API", "Next.js + Supabase"],
     links: [
       { label: "guinndex.ai", url: "https://guinndex.ai" },
+      { label: "guinndex.co.uk", url: "https://guinndex.co.uk" },
       { label: "Fortune", url: "https://fortune.com/2026/03/30/guinness-beer-prices-ireland-anthropic-claude-ai/" },
       { label: "Vice", url: "https://www.vice.com/en/article/how-one-man-lowered-the-price-of-guinness-by-using-ai-to-call-3000-pubs/" },
       { label: "tech.eu", url: "https://tech.eu/2026/03/20/meet-rachel-the-ai-agent-that-phoned-3000-pubs-to-price-a-pint/" },
+      { label: "Inside the Cask (UK)", url: "https://insidethecask.com/2026/06/04/the-guinndex-uk/" },
     ],
     verified: true,
     index: {
       agent: "\"Rachel\" (ElevenLabs voice + Twilio)",
       legwork:
-        "Phoned **3,000+ Irish pubs** for the price of a pint. 2,052 answered; national average €5.95; at least one pub cut its price after. Now a living CPI for the pint.",
-      cost: "~€200",
+        "Phoned **3,000+ Irish pubs** for the price of a pint (avg €5.95); then **35,659 UK pubs** (6,544 verified prices, avg £5.82). Only 4% of UK publicans detected the AI. A living CPI for the pint.",
+      cost: "~€200 (IE) + ~£500 (UK)",
     },
   },
   {
@@ -1635,6 +1918,60 @@ export const caseStudies: CaseStudy[] = [
       legwork:
         "**30 simulated days** running an Austin food truck on $2,000: 16 of 41 models went bankrupt; best AI hit +3,663% ROI — still only half the best human's score.",
       cost: "$2,000 (simulated)",
+    },
+  },
+  {
+    title: "SliceDex — the NYC pizza slice price index",
+    who: "Juan Pablo Jaramillo (\"JP\"), NYU Stern student",
+    date: "May 2026",
+    summary:
+      "Explicitly inspired by the Guinndex: voice agent 'Heather' (ElevenLabs + Twilio) phoned pizza shops across all five NYC boroughs asking the price of a plain cheese slice. 1,766 shops called, 1,346 answered (76% pick-up), 838 gave a price; 829 prices live in the index across 2,252 shops mapped. Headline average: $3.42 (distribution mean $3.56, σ $0.62); most common price $3.50; range $1.00–$6.00. Claude parsed the call transcripts into structured data. Updated in batches via Heather plus community submissions. Figures site-verified; no mainstream press yet (one independent mention by Lander Analytics).",
+    stack: ["ElevenLabs", "Twilio", "Claude", "Google Places API", "Supabase", "Mapbox"],
+    links: [
+      { label: "slicedex.com", url: "https://slicedex.com" },
+      { label: "Lander Analytics", url: "https://www.landeranalytics.com/post/revisiting-the-pizza-principle-twelve-years-later" },
+    ],
+    verified: true,
+    index: {
+      agent: "\"Heather\" (ElevenLabs + Twilio; Claude parses transcripts)",
+      legwork:
+        "Called **1,766 NYC pizza shops** for the price of a plain cheese slice — 838 priced, avg $3.42, range $1–$6 across all five boroughs.",
+      cost: "Not disclosed",
+    },
+  },
+  {
+    title: "Flat White Index — Sydney",
+    who: "Daniel Hall, Richard Kelsey & Geoff Huens (Agentic Consciousness, AU)",
+    date: "2026",
+    summary:
+      "Voice agent 'Mia' called 847 independent Sydney cafés (chains excluded, weekday business hours only) asking 'How much is a regular flat white?'. Average: A$5.80, range A$4.00 (Ashfield) to A$7.20 (Darling Harbour) across 23 suburbs, re-surveyed monthly. The dataset is published open under CC BY 4.0 (JSON + llms.txt) with the code on GitHub. Melbourne edition slated for 2026. Figures site-verified; self-reported, no independent press yet.",
+    stack: ["AI voice agent (\"Mia\")", "Open data: CC BY 4.0 JSON"],
+    links: [
+      { label: "flatwhiteindex.com.au", url: "https://flatwhiteindex.com.au" },
+      { label: "GitHub", url: "https://github.com/HallyAus/flatwhiteindex" },
+    ],
+    verified: true,
+    index: {
+      agent: "\"Mia\"",
+      legwork:
+        "Called **847 independent Sydney cafés** for the price of a regular flat white — avg A$5.80, mapped by suburb, re-surveyed monthly, data open under CC BY 4.0.",
+      cost: "Not disclosed",
+    },
+  },
+  {
+    title: "London Coffee Index",
+    who: "TheDX (UK voice-agent studio)",
+    date: "August 2026",
+    summary:
+      "A separate project from the Sydney index (different team, independently built): TheDX's voice agents contacted 2,288 independent coffee shops across all 33 London boroughs; 677 responded and 416 flat-white prices were captured. Median £3.50, average £3.40; Westminster the priciest borough (median £3.85). Shop identities anonymised and map points displaced for privacy. Figures site-verified; self-reported, no independent press yet.",
+    stack: ["AI voice agents (vendor undisclosed)"],
+    links: [{ label: "flatwhiteindex.thedx.ai", url: "https://flatwhiteindex.thedx.ai" }],
+    verified: true,
+    index: {
+      agent: "Unnamed voice agents by TheDX",
+      legwork:
+        "Contacted **2,288 independent London coffee shops** across all 33 boroughs — 416 flat-white prices captured, median £3.50, Westminster priciest.",
+      cost: "Not disclosed",
     },
   },
 ];
