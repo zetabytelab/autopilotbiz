@@ -1,29 +1,41 @@
 {
- "generatedAt": "2026-08-13T16:29:54.519Z",
+ "generatedAt": "2026-08-14T08:13:32.726Z",
  "sourcesRun": [
   {
    "id": "gnews",
    "ok": 62,
    "failed": 0,
-   "items": 621
+   "items": 623
   },
   {
    "id": "hn",
    "ok": 62,
    "failed": 0,
-   "items": 597
+   "items": 592
   },
   {
    "id": "techmeme",
    "ok": 1,
    "failed": 0,
-   "items": 0
+   "items": 2
   },
   {
    "id": "youtube",
    "ok": 3,
    "failed": 0,
    "items": 15
+  },
+  {
+   "id": "x",
+   "ok": 1,
+   "failed": 0,
+   "items": 58
+  },
+  {
+   "id": "linkedin",
+   "ok": 1,
+   "failed": 0,
+   "items": 1
   },
   {
    "id": "investor",
@@ -36,9 +48,35 @@
    "ok": 19,
    "failed": 0,
    "items": 0
+  },
+  {
+   "id": "reddit",
+   "ok": 1,
+   "failed": 1,
+   "items": 0
   }
  ],
  "items": [
+  {
+   "id": "102f99142943",
+   "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+   "url": "https://z.ai/blog/glm-5.3",
+   "domain": "z.ai",
+   "publishedAt": "2026-08-14T05:19:59Z",
+   "companySlug": "stack-z-ai",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49294997",
+     "points": 336,
+     "comments": 122
+    }
+   ],
+   "baseScore": 2.53,
+   "track": "stack",
+   "hot": true
+  },
   {
    "id": "cac7924dbb03",
    "title": "Sources: Anthropic's investors expect it to float at a $2T+ valuation in an October IPO and to hit $100B to $120B in annualized revenue by the end of 2026 (Financial Times)",
@@ -54,6 +92,46 @@
     }
    ],
    "baseScore": 2.8,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "36349e28bbf4",
+   "title": "Is HTTPS://status.claude.com loading for you all?",
+   "url": "https://news.ycombinator.com/item?id=49295148",
+   "domain": "news.ycombinator.com",
+   "publishedAt": "2026-08-14T05:51:29Z",
+   "companySlug": "stack-claude",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49295148",
+     "points": 6,
+     "comments": 7
+    }
+   ],
+   "baseScore": 1.72,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "228ad3c41698",
+   "title": "Even Claude Is in the Dark About Dario Amodei's Wife",
+   "url": "https://www.wsj.com/tech/ai/claude-dario-amodei-wife-anthropic-e1eeda7d",
+   "domain": "wsj.com",
+   "publishedAt": "2026-08-14T03:06:04Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49294362",
+     "points": 21,
+     "comments": 4
+    }
+   ],
+   "baseScore": 1.78,
    "track": "stack",
    "hot": true
   },
@@ -78,6 +156,46 @@
    "hot": true
   },
   {
+   "id": "f449e41ab7e3",
+   "title": "Show HN: MCP-stama – An ultra-fast Rust MCP server with no dependencies",
+   "url": "https://github.com/StamManif/mcp-stama",
+   "domain": "github.com",
+   "publishedAt": "2026-08-13T22:26:25Z",
+   "companySlug": "stack-mcp",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49292584",
+     "points": 71,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.84,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "626f874af7ff",
+   "title": "We eliminated 1,400 CVEs in NanoClaw's container images",
+   "url": "https://www.echo.ai/blog/echo-xnanoclaw-under-the-hood",
+   "domain": "echo.ai",
+   "publishedAt": "2026-08-13T14:18:34Z",
+   "companySlug": "stack-nanoclaw",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49286357",
+     "points": 68,
+     "comments": 46
+    }
+   ],
+   "baseScore": 2.17,
+   "track": "stack",
+   "hot": true
+  },
+  {
    "id": "69b764bce3cc",
    "title": "ChatGPT Desktop (Codex Desktop) for Linux",
    "url": "https://openai.com/codex/",
@@ -98,23 +216,42 @@
    "hot": true
   },
   {
-   "id": "626f874af7ff",
-   "title": "We eliminated 1,400 CVEs in NanoClaw's container images",
-   "url": "https://www.echo.ai/blog/echo-xnanoclaw-under-the-hood",
-   "domain": "echo.ai",
-   "publishedAt": "2026-08-13T14:18:34Z",
-   "companySlug": "stack-nanoclaw",
+   "id": "c185ec2515db",
+   "title": "RIP Claude – Aggressively writer-hostile",
+   "url": "https://randsinrepose.com/archives/rip-claude/",
+   "domain": "randsinrepose.com",
+   "publishedAt": "2026-08-14T06:18:27Z",
+   "companySlug": "stack-claude",
    "kind": "other",
    "sources": [
     {
      "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49286357",
-     "points": 29,
-     "comments": 10
+     "url": "https://news.ycombinator.com/item?id=49295288",
+     "points": 2,
+     "comments": 4
     }
    ],
-   "baseScore": 1.9,
+   "baseScore": 1.43,
    "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "a83444c3e2b9",
+   "title": "@Bencera: Always be hustlin' https://t.co/DFDleds45U",
+   "url": "https://x.com/Bencera/status/2087896532783706556",
+   "domain": "x.com",
+   "publishedAt": "2026-08-13T13:38:19.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2087896532783706556",
+     "points": 82
+    }
+   ],
+   "baseScore": 1.97,
+   "track": "company",
    "hot": true
   },
   {
@@ -138,6 +275,46 @@
    "hot": true
   },
   {
+   "id": "347efcbe39a3",
+   "title": "Claude AI Content Marks Will Go Global but Cannot Prove Authorship",
+   "url": "https://www.ainews.com/p/claude-ai-content-marks-will-go-global-but-cannot-prove-authorship",
+   "domain": "ainews.com",
+   "publishedAt": "2026-08-14T07:29:49Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49295656",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.29,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "56d2c998025c",
+   "title": "Show HN: Control Claude Code, Codex, Pi and Gemini CLI from Telegram",
+   "url": "https://github.com/choiyounggi/cliclaw",
+   "domain": "github.com",
+   "publishedAt": "2026-08-14T05:07:01Z",
+   "companySlug": "stack-claude",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49294922",
+     "points": 2,
+     "comments": 1
+    }
+   ],
+   "baseScore": 1.35,
+   "track": "stack",
+   "hot": true
+  },
+  {
    "id": "83bbda33ec4b",
    "title": "DeepSeek V4 Pro 0813",
    "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
@@ -149,11 +326,51 @@
     {
      "id": "hn",
      "url": "https://news.ycombinator.com/item?id=49274600",
-     "points": 1008,
-     "comments": 432
+     "points": 1021,
+     "comments": 442
     }
    ],
    "baseScore": 2.83,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "c4ebf2c2d2f4",
+   "title": "Why Does Claude.md Keep Growing? Catastrophic Remembering in Agentic Coding",
+   "url": "https://arxiv.org/abs/2608.11095",
+   "domain": "arxiv.org",
+   "publishedAt": "2026-08-14T05:58:00Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49295177",
+     "points": 1,
+     "comments": 1
+    }
+   ],
+   "baseScore": 1.28,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "9c8b8d02492a",
+   "title": "How Claude's watermarking (probably) works",
+   "url": "https://johnjwang.com/post/2026/08/12/how-claude-watermarking-probably-works/",
+   "domain": "johnjwang.com",
+   "publishedAt": "2026-08-14T04:24:42Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49294739",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.29,
    "track": "stack",
    "hot": true
   },
@@ -174,6 +391,102 @@
     }
    ],
    "baseScore": 1.74,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "9e4be1d98d75",
+   "title": "What Is Kimi K3? A Complete Developer Guide for 2026",
+   "url": "https://www.firecrawl.dev/blog/kimi-k3",
+   "domain": "firecrawl.dev",
+   "publishedAt": "2026-08-13T18:39:52Z",
+   "companySlug": "stack-firecrawl",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49290202",
+     "points": 8,
+     "comments": 1
+    }
+   ],
+   "baseScore": 1.54,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "179bc0db0f3f",
+   "title": "Accurate local Claude 4.7+ tokenizer",
+   "url": "https://www.tokenize.rs/claude",
+   "domain": "tokenize.rs",
+   "publishedAt": "2026-08-14T02:35:14Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49294186",
+     "points": 1,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.22,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "2f6d96ae5e77",
+   "title": "Z.ai debuts GLM-5.3, using the same base model as GLM-5.2 with scaled post-training for stronger coding and cyber skills, with weights due in two weeks (Z.ai)",
+   "url": "https://www.techmeme.com/260814/p5#a260814p5",
+   "domain": "techmeme.com",
+   "publishedAt": "2026-08-14T06:50:01.000Z",
+   "companySlug": "stack-z-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "techmeme",
+     "url": "https://www.techmeme.com/260814/p5#a260814p5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "b0a7b08b6227",
+   "title": "Z.ai Aims to Catch Anthropic, OpenAI in Coding With New AI Model",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPai1NQklvd1FVc2RJS0dlRzdOc2Q5SWN1QTFSSWlqRmJYNXRvNVh2M3BNWEZjVFUyY0E3U1ZtUW1Bbk02R0ZjeGZIVnNDYTZRUzdZMDYxSVBIVkN3bmV6eVJWWk5EUnlCLWI2T1N5OHZvV1RtWVBsdVlCMTZvRVliMm1WOGFuc21VbDFTeURFb08wTzdUVk1VU1hxWWdKM05PNXdhR0Yyc1E0TGtRS3d3dlNzU3Q?oc=5",
+   "domain": "bloomberg.com",
+   "publishedAt": "2026-08-14T06:08:00.000Z",
+   "companySlug": "stack-z-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPai1NQklvd1FVc2RJS0dlRzdOc2Q5SWN1QTFSSWlqRmJYNXRvNVh2M3BNWEZjVFUyY0E3U1ZtUW1Bbk02R0ZjeGZIVnNDYTZRUzdZMDYxSVBIVkN3bmV6eVJWWk5EUnlCLWI2T1N5OHZvV1RtWVBsdVlCMTZvRVliMm1WOGFuc21VbDFTeURFb08wTzdUVk1VU1hxWWdKM05PNXdhR0Yyc1E0TGtRS3d3dlNzU3Q?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "ad08650f2894",
+   "title": "I built an MCP server so Claude can send my invoices",
+   "url": "https://getholdings.com/mcp",
+   "domain": "getholdings.com",
+   "publishedAt": "2026-08-13T21:26:28Z",
+   "companySlug": "stack-mcp",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49292070",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.29,
    "track": "stack",
    "hot": true
   },
@@ -218,6 +531,24 @@
    "hot": true
   },
   {
+   "id": "37168fe76391",
+   "title": "IBM and Together AI sign $240M AI infrastructure deal",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZE02R1llY3N1RVZEVzE1eHY3bE9TNHk2SDBick95VTcyU0pDQmlLcVFGUXBIY0R4eXpLamJ4N2c4M3hNcHlmdGxQZ2s5VzNRcmkzR1g1NnBjUEJ1M05aOXlGQVRYUnNTSHAtZkR5Y0JuVmMxeXZuSnZVMFVQYWRVOXVmaUtDZ3JsUkE?oc=5",
+   "domain": "portalerp.com",
+   "publishedAt": "2026-08-14T03:37:53.000Z",
+   "companySlug": "stack-together-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZE02R1llY3N1RVZEVzE1eHY3bE9TNHk2SDBick95VTcyU0pDQmlLcVFGUXBIY0R4eXpLamJ4N2c4M3hNcHlmdGxQZ2s5VzNRcmkzR1g1NnBjUEJ1M05aOXlGQVRYUnNTSHAtZkR5Y0JuVmMxeXZuSnZVMFVQYWRVOXVmaUtDZ3JsUkE?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack",
+   "hot": true
+  },
+  {
    "id": "1a4da95a03ba",
    "title": "Elevated Errors on Claude",
    "url": "https://status.claude.com/incidents/j160kkjmm2n1",
@@ -234,6 +565,26 @@
     }
    ],
    "baseScore": 1.44,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "f241fb88b054",
+   "title": "I built a lint for AI-generated evidence",
+   "url": "https://apify.com/filipmajchrzak/ai-claim-checkpoint",
+   "domain": "apify.com",
+   "publishedAt": "2026-08-13T19:40:38Z",
+   "companySlug": "stack-apify",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49290923",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.29,
    "track": "stack",
    "hot": true
   },
@@ -258,6 +609,26 @@
    "hot": true
   },
   {
+   "id": "dbd3663f5dd0",
+   "title": "Caged Code – Vanilla Claude Code Binary in a Webpage",
+   "url": "https://tomlarkworthy.github.io/lopebooks/notebooks/Caged_Code.html",
+   "domain": "tomlarkworthy.github.io",
+   "publishedAt": "2026-08-13T20:54:42Z",
+   "companySlug": "stack-claude-code",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49291723",
+     "points": 1,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.22,
+   "track": "stack",
+   "hot": true
+  },
+  {
    "id": "e2ff28d8f5d3",
    "title": "Delphi 13 Community Edition Is Now Available",
    "url": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
@@ -269,12 +640,32 @@
     {
      "id": "hn",
      "url": "https://news.ycombinator.com/item?id=49270621",
-     "points": 177,
-     "comments": 143
+     "points": 179,
+     "comments": 144
     }
    ],
    "baseScore": 2.43,
    "track": "company",
+   "hot": true
+  },
+  {
+   "id": "69834f6d21ee",
+   "title": "I built a memory tool for Claude Code that never leaves your disk",
+   "url": "https://github.com/georgedagher/deposition",
+   "domain": "github.com",
+   "publishedAt": "2026-08-13T16:53:27Z",
+   "companySlug": "stack-claude-code",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49288724",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.29,
+   "track": "stack",
    "hot": true
   },
   {
@@ -336,6 +727,24 @@
    "hot": true
   },
   {
+   "id": "cf9d6e169917",
+   "title": "A profile of Camilla Clark, quiet adviser to husband Dario Amodei and behind-the-scenes player at Anthropic; she once pitched a porn startup to Jeffrey Epstein (The Information)",
+   "url": "https://www.techmeme.com/260813/p48#a260813p48",
+   "domain": "techmeme.com",
+   "publishedAt": "2026-08-13T22:15:00.000Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "techmeme",
+     "url": "https://www.techmeme.com/260813/p48#a260813p48"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack",
+   "hot": true
+  },
+  {
    "id": "4076864fc2e9",
    "title": "Memento – Shared, durable memory for multiple AI agents, with MCP access",
    "url": "https://rcarmo.github.io/projects/memento/",
@@ -373,6 +782,25 @@
    ],
    "baseScore": 1.29,
    "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "f16fbcddd914",
+   "title": "@Bencera: All the things you wanted to be, then all the things you wish you never wished for... https://t.co/aTLcMP50jp",
+   "url": "https://x.com/Bencera/status/2087608052132315382",
+   "domain": "x.com",
+   "publishedAt": "2026-08-12T18:32:00.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2087608052132315382",
+     "points": 53
+    }
+   ],
+   "baseScore": 1.89,
+   "track": "company",
    "hot": true
   },
   {
@@ -436,23 +864,22 @@
    "hot": true
   },
   {
-   "id": "f16fbcddd914",
-   "title": "@Bencera: All the things you wanted to be, then all the things you wish you never wished for... https://t.co/aTLcMP50jp",
-   "url": "https://x.com/Bencera/status/2087608052132315382",
-   "domain": "x.com",
-   "publishedAt": "2026-08-12T18:32:00.000Z",
-   "companySlug": "polsia",
-   "kind": "social",
+   "id": "8699dede525f",
+   "title": "Cursor Agents Launch 3x Faster",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0M1REtHaDI0OGU2amFZNnpxakN5T1puUFVjRjUweXE4UTczOG9TUjlRYnMxRzZJblpVREh5Q2V4aF9DWGo1LW1pLXlyOVh5XzlYdGNvTTBrTTFtQlBFMHo4cl8zT1YxbDR5UGhqSFRqQXFJU013dHF3cmFmZ0p1Q29lN0hjY2ZkbjNZT3lfY1ZzdFl6TUxHaw?oc=5",
+   "domain": "startuphub.ai",
+   "publishedAt": "2026-08-13T18:52:43.000Z",
+   "companySlug": "stack-cursor",
+   "kind": "other",
    "sources": [
     {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2087608052132315382",
-     "points": 39
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0M1REtHaDI0OGU2amFZNnpxakN5T1puUFVjRjUweXE4UTczOG9TUjlRYnMxRzZJblpVREh5Q2V4aF9DWGo1LW1pLXlyOVh5XzlYdGNvTTBrTTFtQlBFMHo4cl8zT1YxbDR5UGhqSFRqQXFJU013dHF3cmFmZ0p1Q29lN0hjY2ZkbjNZT3lfY1ZzdFl6TUxHaw?oc=5"
     }
    ],
-   "baseScore": 1.84,
-   "hot": true,
-   "track": "company"
+   "baseScore": 1.1,
+   "track": "stack",
+   "hot": true
   },
   {
    "id": "9c8567869048",
@@ -513,21 +940,23 @@
    "hot": true
   },
   {
-   "id": "a3b0f71fb3ac",
-   "title": "Don't mention the war! (2/3) - Capgemini research reveals the good, the bad and the ugly of Aerospace and Defense AI adoption",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSlp5TWZqa1pSRm5mV0dNR1JuMWJ6MDZOa0J1SGdweXhFVkdFbjhvMC02aUMxRnc0YjVoSzBFclJFY0VTS0VzZjdJM0pWNHJSYnJmVEcxN21XMzFiR25kb3ItdEU3bHdKbEREX2ZnQXdfS2Q5c1lmc2tqckh5MnI0LTRDbVdWTVc5SmhQbHB2RDBEWXVmSm8welNicWFsZ1RnOExVMG1YS3BFMUdLWUFTZGwzYTBGTHZwV2FYNlV3?oc=5",
-   "domain": "diginomica.com",
-   "publishedAt": "2026-08-13T16:01:50.000Z",
-   "companySlug": "naive",
-   "kind": "other",
+   "id": "1b8aeda2452c",
+   "title": "Cursor Design Mode",
+   "url": "https://cursor.com/blog/design-mode",
+   "domain": "cursor.com",
+   "publishedAt": "2026-08-12T23:29:36Z",
+   "companySlug": "stack-cursor",
+   "kind": "blog",
    "sources": [
     {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSlp5TWZqa1pSRm5mV0dNR1JuMWJ6MDZOa0J1SGdweXhFVkdFbjhvMC02aUMxRnc0YjVoSzBFclJFY0VTS0VzZjdJM0pWNHJSYnJmVEcxN21XMzFiR25kb3ItdEU3bHdKbEREX2ZnQXdfS2Q5c1lmc2tqckh5MnI0LTRDbVdWTVc5SmhQbHB2RDBEWXVmSm8welNicWFsZ1RnOExVMG1YS3BFMUdLWUFTZGwzYTBGTHZwV2FYNlV3?oc=5"
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49279949",
+     "points": 12,
+     "comments": 0
     }
    ],
-   "baseScore": 1.1,
-   "track": "company",
+   "baseScore": 1.55,
+   "track": "stack",
    "hot": true
   },
   {
@@ -569,37 +998,17 @@
    "hot": true
   },
   {
-   "id": "1b8aeda2452c",
-   "title": "Cursor Design Mode",
-   "url": "https://cursor.com/blog/design-mode",
-   "domain": "cursor.com",
-   "publishedAt": "2026-08-12T23:29:36Z",
-   "companySlug": "stack-cursor",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49279949",
-     "points": 11,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.53,
-   "track": "stack",
-   "hot": true
-  },
-  {
    "id": "350402760cba",
    "title": "Can IBM's Together AI Cloud Deal Boost Its Growth Prospects?",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEJqWXZWR3BQcjA3UWRpaEc4bDBTenN6ckExNC1MRXl4YTdadVVhcTZpRWVBTXpXRUwxUFJNQnJZVEZROHRxRUU1X0VFZ0h6RGd3aHdqbTMzblNOM0ZLU0cxNWpucG1hZTVMaG4wb2dyeVFTenJjbGlhbW9Yb1ZMTWtiZjlpQXo3X2FHS3lWOGhaeGttazNaTkRsRVNudmpR?oc=5",
-   "domain": "zacks.com",
-   "publishedAt": "2026-08-13T14:32:17.000Z",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTmUtQU40SUFIRW9BTEhKWTdVWDN4dG01WHdHOFBjQW03SHhrSVRYUUtGWVhMeUwxQVo1R3B5dTR5Mnp1THJVTFQ0YXpLQnFBUFh5cmlXUjZ3OVlLNVJpWXVRbERiRlRwLUFhYVNyTjFfd0JDX245eVA3SUdjV1dITi1n?oc=5",
+   "domain": "sg.finance.yahoo.com",
+   "publishedAt": "2026-08-13T15:15:00.000Z",
    "companySlug": "stack-together-ai",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEJqWXZWR3BQcjA3UWRpaEc4bDBTenN6ckExNC1MRXl4YTdadVVhcTZpRWVBTXpXRUwxUFJNQnJZVEZROHRxRUU1X0VFZ0h6RGd3aHdqbTMzblNOM0ZLU0cxNWpucG1hZTVMaG4wb2dyeVFTenJjbGlhbW9Yb1ZMTWtiZjlpQXo3X2FHS3lWOGhaeGttazNaTkRsRVNudmpR?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTmUtQU40SUFIRW9BTEhKWTdVWDN4dG01WHdHOFBjQW03SHhrSVRYUUtGWVhMeUwxQVo1R3B5dTR5Mnp1THJVTFQ0YXpLQnFBUFh5cmlXUjZ3OVlLNVJpWXVRbERiRlRwLUFhYVNyTjFfd0JDX245eVA3SUdjV1dITi1n?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -623,6 +1032,42 @@
     }
    ],
    "baseScore": 1.76,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "c99795cb5102",
+   "title": "SAP ERP Exit with the Model Context Protocol - E3-Magazin",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Tc2Y1R1hOVlVjdFZDWEthUnBaX2paRGJvRld1MFo0aWFQcHRmTHpDazlDUWpvcXpPN0tBUlZwR3VKTW9hXzE1RXljdTZWS2Jsalc4b3JFWmR2a0FINnppR0JtRlJyaHZIdzgtdVBEaw?oc=5",
+   "domain": "e3mag.com",
+   "publishedAt": "2026-08-13T14:28:11.000Z",
+   "companySlug": "stack-mcp",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Tc2Y1R1hOVlVjdFZDWEthUnBaX2paRGJvRld1MFo0aWFQcHRmTHpDazlDUWpvcXpPN0tBUlZwR3VKTW9hXzE1RXljdTZWS2Jsalc4b3JFWmR2a0FINnppR0JtRlJyaHZIdzgtdVBEaw?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "a26ad841ffe2",
+   "title": "Together AI expects IBM-backed AI capacity to sell out before launch - fierce-network.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUVIQjNvMm1WX0VySGpJZ1o2azlYelNEU2FDWk5TT1EyZXJSQ0ZuVU4yRUk5X2JFbE42aUZrU0ZyMVItRG1SWVlaNHQtbWdqUk0xYlp6S0FVWUpmQ0lzX0xlaGNIVVJfRUpGcUhvdlk4TjNvc0MwVE8xaEhCZTc3YkJyUTRFakRpQUZBeE9OUTREZXcyWEgtb0gyQQ?oc=5",
+   "domain": "fierce-network.com",
+   "publishedAt": "2026-08-13T14:14:44.000Z",
+   "companySlug": "stack-together-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUVIQjNvMm1WX0VySGpJZ1o2azlYelNEU2FDWk5TT1EyZXJSQ0ZuVU4yRUk5X2JFbE42aUZrU0ZyMVItRG1SWVlaNHQtbWdqUk0xYlp6S0FVWUpmQ0lzX0xlaGNIVVJfRUpGcUhvdlk4TjNvc0MwVE8xaEhCZTc3YkJyUTRFakRpQUZBeE9OUTREZXcyWEgtb0gyQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
    "track": "stack",
    "hot": true
   },
@@ -681,6 +1126,25 @@
    "hot": true
   },
   {
+   "id": "63323a181dbf",
+   "title": "Introducing Grok 4.6",
+   "url": "https://cursor.com/blog/grok-4-6",
+   "domain": "cursor.com",
+   "publishedAt": "2026-08-12T15:52:52Z",
+   "companySlug": "stack-cursor",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49274374",
+     "points": 14,
+     "comments": 1
+    }
+   ],
+   "baseScore": 1.63,
+   "track": "stack"
+  },
+  {
    "id": "aae8495e50c0",
    "title": "Vercel Sandbox Now Runs on Vercel Managed Images",
    "url": "https://vercel.com/changelog/vercel-sandbox-managed-images",
@@ -697,28 +1161,24 @@
     }
    ],
    "baseScore": 1.34,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
-   "id": "63323a181dbf",
-   "title": "Introducing Grok 4.6",
-   "url": "https://cursor.com/blog/grok-4-6",
-   "domain": "cursor.com",
-   "publishedAt": "2026-08-12T15:52:52Z",
-   "companySlug": "stack-cursor",
-   "kind": "blog",
+   "id": "a3b0f71fb3ac",
+   "title": "Don't mention the war! (2/3) - Capgemini research reveals the good, the bad and the ugly of Aerospace and Defense AI adoption",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSlp5TWZqa1pSRm5mV0dNR1JuMWJ6MDZOa0J1SGdweXhFVkdFbjhvMC02aUMxRnc0YjVoSzBFclJFY0VTS0VzZjdJM0pWNHJSYnJmVEcxN21XMzFiR25kb3ItdEU3bHdKbEREX2ZnQXdfS2Q5c1lmc2tqckh5MnI0LTRDbVdWTVc5SmhQbHB2RDBEWXVmSm8welNicWFsZ1RnOExVMG1YS3BFMUdLWUFTZGwzYTBGTHZwV2FYNlV3?oc=5",
+   "domain": "diginomica.com",
+   "publishedAt": "2026-08-13T10:20:01.000Z",
+   "companySlug": "naive",
+   "kind": "other",
    "sources": [
     {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49274374",
-     "points": 13,
-     "comments": 1
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSlp5TWZqa1pSRm5mV0dNR1JuMWJ6MDZOa0J1SGdweXhFVkdFbjhvMC02aUMxRnc0YjVoSzBFclJFY0VTS0VzZjdJM0pWNHJSYnJmVEcxN21XMzFiR25kb3ItdEU3bHdKbEREX2ZnQXdfS2Q5c1lmc2tqckh5MnI0LTRDbVdWTVc5SmhQbHB2RDBEWXVmSm8welNicWFsZ1RnOExVMG1YS3BFMUdLWUFTZGwzYTBGTHZwV2FYNlV3?oc=5"
     }
    ],
-   "baseScore": 1.62,
-   "track": "stack",
-   "hot": true
+   "baseScore": 1.1,
+   "track": "company"
   },
   {
    "id": "7452be256d41",
@@ -735,8 +1195,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "company",
-   "hot": true
+   "track": "company"
   },
   {
    "id": "e8d0d2f4dabc",
@@ -755,8 +1214,24 @@
     }
    ],
    "baseScore": 1.22,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
+  },
+  {
+   "id": "079f537f46e7",
+   "title": "Midjourney Puts You In Water, Then Scans Your Body In 60 Seconds",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBLcWJydE02RzhOdkRtQl9nTHdHbkxORXdCRS1qVlVlVTZ3bzlRdHFLUFpoclhNcV9KN2poczUzamNiYWtOYnEyeFZwVXRYeE5nVjdsNkRwZC1TaE5LMzFJR0Z6VQ?oc=5",
+   "domain": "yellow.com",
+   "publishedAt": "2026-08-13T05:29:12.000Z",
+   "companySlug": "midjourney",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBLcWJydE02RzhOdkRtQl9nTHdHbkxORXdCRS1qVlVlVTZ3bzlRdHFLUFpoclhNcV9KN2poczUzamNiYWtOYnEyeFZwVXRYeE5nVjdsNkRwZC1TaE5LMzFJR0Z6VQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
   },
   {
    "id": "044e14627850",
@@ -773,8 +1248,43 @@
     }
    ],
    "baseScore": 1.65,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
+  },
+  {
+   "id": "a6ab57004bd7",
+   "title": "Akamai Stock Posts Best Week Since 2013 On Buzz Of $1.8B Anthropic Cloud Deal",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcFFpVFQ1OUxoSEs2LU9udGpOUzFfN3VSUEhwb2czRlNUa0xHMVV5enNtd0Q1d003eXpKcWlyTjJyV3Rlb0tqMkx3MDJaN1NrbW13VjdXdkczU2NkbzBOVElCQWxDNXpjSWRGZWZ3dUdya3BEcDhRcnRFS3ZqMkNjaEFUbVA5emdycWpEQ2drY3RtNDExb1RZeE15cDZsbzM0OUZMUzNrclY5blV2b3drT0syeVV0ZV84RHpsMWoyV1lGYWlSdEhBU0JxWkM1RlVJbFJVSV9SUmU?oc=5",
+   "domain": "stocktwits.com",
+   "publishedAt": "2026-08-13T04:38:19.000Z",
+   "companySlug": "stack-akamai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcFFpVFQ1OUxoSEs2LU9udGpOUzFfN3VSUEhwb2czRlNUa0xHMVV5enNtd0Q1d003eXpKcWlyTjJyV3Rlb0tqMkx3MDJaN1NrbW13VjdXdkczU2NkbzBOVElCQWxDNXpjSWRGZWZ3dUdya3BEcDhRcnRFS3ZqMkNjaEFUbVA5emdycWpEQ2drY3RtNDExb1RZeE15cDZsbzM0OUZMUzNrclY5blV2b3drT0syeVV0ZV84RHpsMWoyV1lGYWlSdEhBU0JxWkM1RlVJbFJVSV9SUmU?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "ca380f445870",
+   "title": "Show HN: GitHub Actions self-hosted runners on Modal Sandboxes",
+   "url": "https://github.com/modal-projects/runner-modal",
+   "domain": "github.com",
+   "publishedAt": "2026-08-12T15:46:36Z",
+   "companySlug": "stack-modal",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49274273",
+     "points": 3,
+     "comments": 1
+    }
+   ],
+   "baseScore": 1.4,
+   "track": "stack"
   },
   {
    "id": "0fafd82376d8",
@@ -793,8 +1303,7 @@
     }
    ],
    "baseScore": 1.29,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "9e90563a46c3",
@@ -811,8 +1320,7 @@
     }
    ],
    "baseScore": 1.65,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "6bf6ced19d16",
@@ -829,8 +1337,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "b891d78bc685",
@@ -849,8 +1356,7 @@
     }
    ],
    "baseScore": 1.29,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "1ce07c58403c",
@@ -867,8 +1373,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "3143065d49b2",
@@ -882,13 +1387,12 @@
     {
      "id": "hn",
      "url": "https://news.ycombinator.com/item?id=49268944",
-     "points": 5,
+     "points": 6,
      "comments": 1
     }
    ],
-   "baseScore": 1.47,
-   "track": "stack",
-   "hot": true
+   "baseScore": 1.5,
+   "track": "stack"
   },
   {
    "id": "fa77d912d376",
@@ -905,8 +1409,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "693135763317",
@@ -923,8 +1426,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "a6e22d1021af",
@@ -941,8 +1443,24 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
+  },
+  {
+   "id": "bfe9b5b3a5d3",
+   "title": "Hostinger Managed OpenClaw: How to change the AI model",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnlIXzJiVzRrdU9wSzZCYndGUENoQjZmWDZOMTRXdDkzTlZTSng2V2t2VnRXT2NmbXNaS0RiQ2NBODBCSVpWVDZxV2U5UUoxVG85NXRWQ1Ywdm54VW1vS3dPNFpSU0p1V2xKVllwZ1I5VFBRLWJqU2JBRjh0aHg3Nks4bzFieGhDc3c?oc=5",
+   "domain": "hostinger.com",
+   "publishedAt": "2026-08-12T17:50:24.000Z",
+   "companySlug": "stack-openclaw",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnlIXzJiVzRrdU9wSzZCYndGUENoQjZmWDZOMTRXdDkzTlZTSng2V2t2VnRXT2NmbXNaS0RiQ2NBODBCSVpWVDZxV2U5UUoxVG85NXRWQ1Ywdm54VW1vS3dPNFpSU0p1V2xKVllwZ1I5VFBRLWJqU2JBRjh0aHg3Nks4bzFieGhDc3c?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
   },
   {
    "id": "f6bdf12b12ed",
@@ -959,8 +1477,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "c57c7e66ec8f",
@@ -977,8 +1494,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "80a50be22522",
@@ -995,8 +1511,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "9d9ca544c137",
@@ -1013,8 +1528,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "343ef2c010cb",
@@ -1210,23 +1724,6 @@
    "track": "stack"
   },
   {
-   "id": "bfe9b5b3a5d3",
-   "title": "Hostinger Managed OpenClaw: How to change the AI model",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnlIXzJiVzRrdU9wSzZCYndGUENoQjZmWDZOMTRXdDkzTlZTSng2V2t2VnRXT2NmbXNaS0RiQ2NBODBCSVpWVDZxV2U5UUoxVG85NXRWQ1Ywdm54VW1vS3dPNFpSU0p1V2xKVllwZ1I5VFBRLWJqU2JBRjh0aHg3Nks4bzFieGhDc3c?oc=5",
-   "domain": "hostinger.com",
-   "publishedAt": "2026-08-12T10:02:18.000Z",
-   "companySlug": "stack-openclaw",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnlIXzJiVzRrdU9wSzZCYndGUENoQjZmWDZOMTRXdDkzTlZTSng2V2t2VnRXT2NmbXNaS0RiQ2NBODBCSVpWVDZxV2U5UUoxVG85NXRWQ1Ywdm54VW1vS3dPNFpSU0p1V2xKVllwZ1I5VFBRLWJqU2JBRjh0aHg3Nks4bzFieGhDc3c?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "8bad5954852e",
    "title": "CoreWeave gains 19%, Nebius surges 34% in post-earnings neocloud rally",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SYmhnTVVJV0pFY3VHU2l3dEtSSHdLZUJ0OXUzcVhzZWpib1VxTTlQQjJ4am0tUGRrOU4tdHFLeVlXNlBzbDVSd3JCWFptNmtnQ0FSYkdvTGV5TXNPODZCOEtVTW1YUjJnQ3owZldLRHlNUHdyVmRn0gF8QVVfeXFMTUdIUFhZeGpaQ3BHNUM1Ykszbk8xakpabFlWdDZHNnIyUzFadW42RU9RclRCdTRpNHRodF9HUUhsUjNsdlFyNWdzMkV4Y1IyZWMzWUVVdUc2Y2RYVGx5RElvSmlxaXY5ZXZFd0xtNnUwdk5kQXVaRDlNMURSVA?oc=5",
@@ -1395,7 +1892,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2086855424318337191",
-     "points": 471
+     "points": 472
     }
    ],
    "baseScore": 2.27,
@@ -1416,25 +1913,6 @@
     }
    ],
    "baseScore": 1.65,
-   "track": "stack"
-  },
-  {
-   "id": "088f0238e671",
-   "title": "We set up our cloud agent environment",
-   "url": "https://cursor.com/blog/cloud-agent-environment",
-   "domain": "cursor.com",
-   "publishedAt": "2026-08-11T21:27:13Z",
-   "companySlug": "stack-cursor",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49264737",
-     "points": 1,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.22,
    "track": "stack"
   },
   {
@@ -1599,6 +2077,23 @@
    "track": "stack"
   },
   {
+   "id": "a00d1690fda3",
+   "title": "Daybreak models are now available on AWS",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45SU9RVTVwLVo0ZVNlYVp6Mkd2TGM1dEc3eUtwRHJuQ3ZHeXZqbTd0SHZkZXZsRUhObWd0d2t2WlB3YWUyTVJfdTlNVlpUbkJONGc3N1NqR2hLQVc0N1NIZTlCQi1UOHlwSTJlTjU4TUFfSGxt?oc=5",
+   "domain": "openai.com",
+   "publishedAt": "2026-08-11T21:50:32.000Z",
+   "companySlug": "stack-openai-codex",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45SU9RVTVwLVo0ZVNlYVp6Mkd2TGM1dEc3eUtwRHJuQ3ZHeXZqbTd0SHZkZXZsRUhObWd0d2t2WlB3YWUyTVJfdTlNVlpUbkJONGc3N1NqR2hLQVc0N1NIZTlCQi1UOHlwSTJlTjU4TUFfSGxt?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "8b9dfcf5d67e",
    "title": "Show HN: NextBlock CMS – Open-source full-stack CMS for NextJS 16 and Supabase",
    "url": "https://github.com/nextblock-cms/nextblock",
@@ -1685,6 +2180,23 @@
     }
    ],
    "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "7c253cd391f9",
+   "title": "Langfuse Revenue 2024: $1.1M Est. ARR (Bootstrapped)",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85TndGTGpoNVRRQWRxVEFHVnBOYnREaHdTY3d1V3FiWmMteGFKQnVBWnpLN29zU3Q3cEM2SVVoOW5iX0hCYWk4MUl2U2ZQTGIweFJlRUxB?oc=5",
+   "domain": "getlatka.com",
+   "publishedAt": "2026-08-10T07:00:00.000Z",
+   "companySlug": "stack-langfuse",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85TndGTGpoNVRRQWRxVEFHVnBOYnREaHdTY3d1V3FiWmMteGFKQnVBWnpLN29zU3Q3cEM2SVVoOW5iX0hCYWk4MUl2U2ZQTGIweFJlRUxB?oc=5"
+    }
+   ],
+   "baseScore": 2.4,
    "track": "stack"
   },
   {
@@ -1918,7 +2430,7 @@
    "title": "IBM Lands $240M Together AI Deal To Build Nvidia-Powered Neocloud Cluster",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbnI0QXk5enNkQk5vaUQyM2VFM2FMTXlBU1ZWakN0UEZRM0JveEJyMHI4REVRT05HVVNXT0FtMGlESTBoMnZKaXJqV183TEdwUzdRSGNXVFBGMk9EenlJaGRfX1ZfSEFrNnlCVEhOMUlsNUdoU2lIOXJLMVlYRTBwY1N3MDRvMWE5NzNQZ0N2eDJnTl8yZFp6NlN6c3pUT3VrR0dDQ0Z0djlHRWctTkFpajB0Tnd2eEFDQjJDYnp1aklQMVdOMG1Uc0VRQjdVZmVnM1otdG96aDRiZw?oc=5",
    "domain": "stocktwits.com",
-   "publishedAt": "2026-08-11T13:04:00.000Z",
+   "publishedAt": "2026-08-11T13:06:42.000Z",
    "companySlug": "stack-together-ai",
    "kind": "other",
    "sources": [
@@ -2050,6 +2562,23 @@
    "track": "company"
   },
   {
+   "id": "e8f0fcccdc91",
+   "title": "CoreWeave’s Forecast Is Key to Stopping Another Earnings Selloff",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXBMWmpSeGNRUUtFX19YNlZYa1pSaWxSM0o1YTVjVUlGVGhocHZpakE0bVVhc3dCVlBaQ1Q0TmdMNmhEWG16SEh6S0RFM1FFdHlFZktKZWt3bVVIZmFERTg5TGJCUHJaWnVsV2lBRkNZNm42RGVidlZnS3JmOXFqX2ZNZGFnZU5wSWVDemdlYzBFbk5iOVlEQ1daTHM3X1VCUzFaZDMwWQ?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-08-11T08:44:11.000Z",
+   "companySlug": "stack-coreweave",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXBMWmpSeGNRUUtFX19YNlZYa1pSaWxSM0o1YTVjVUlGVGhocHZpakE0bVVhc3dCVlBaQ1Q0TmdMNmhEWG16SEh6S0RFM1FFdHlFZktKZWt3bVVIZmFERTg5TGJCUHJaWnVsV2lBRkNZNm42RGVidlZnS3JmOXFqX2ZNZGFnZU5wSWVDemdlYzBFbk5iOVlEQ1daTHM3X1VCUzFaZDMwWQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "ae795d7ed28a",
    "title": "Scoping and curating AI eval datasets",
    "url": "https://langfuse.com/academy/datasets/designing-great-datasets",
@@ -2066,23 +2595,6 @@
     }
    ],
    "baseScore": 1.44,
-   "track": "stack"
-  },
-  {
-   "id": "022f6663cc2d",
-   "title": "Previewing GPT-5.6 Sol: a next-generation model",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BR2ZzcDRMbGphY1pfMF9mVWVCZGUyV25mbHpZMnRjQUxWWWgtWGZqSk93eXEweHNlOU1MTW85d2hLc3NvT2E4Znd4ZG5DR1diQTZPcFExTi1wcC1t?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-11T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BR2ZzcDRMbGphY1pfMF9mVWVCZGUyV25mbHpZMnRjQUxWWWgtWGZqSk93eXEweHNlOU1MTW85d2hLc3NvT2E4Znd4ZG5DR1diQTZPcFExTi1wcC1t?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
    "track": "stack"
   },
   {
@@ -2118,6 +2630,23 @@
    ],
    "baseScore": 1.3,
    "track": "company"
+  },
+  {
+   "id": "7019b363dfde",
+   "title": "OpenClaw AI agent asked to book gym class ends up hacking system: What went wrong?",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWnJfMGRMTEdQV0F6WVRsMFRCVVJQWHczcGtNY1EwLURxdUxWRTA2TGhKbHFJeFpXZC1SandBVFlBOFdIdk9yNHRXOEJjNGxkYVBfMnlmWkhHTnRYSGxZSlRoWWN4OEJ3VGFmdDRJUW5nV0dqWlU5dU04czZnOWY4Q1N2N1hycC00YVlHQkRpeFdKVlpkWjRva3VEMUVIVWhRbERhakVOQU4zV29kai1Zdi0zMmxQbXUwLTBiRXZEcC1XTWhiVF9sM0Jzc21WQlZuejViV0lkYXA5MUpVU2tSZNIB5wFBVV95cUxNWTBnVExqWUliZ1BCZGwyRzJpZV9zNEFFQ3NkWXlnWTNrdWU4VHhlQkVWUDFCSmJqTWo4R2JmMTN3WUs5SUo2TEJGZlRmLXd0ZDViQ0tDQkRQeFRIU2ZfTkN3X21tZ3B3Wkd0V3NrZVpCdEdvVFQySDNtWTFxemRnN0lRcXZLUFBPTXU0N2VJcDZvaWhGUFlSTUJfUVdaTG10R19FLWVtVkFucGdqTWpUaWJjVXZzekEwYVFIRHNaRElPMldBVXZvTGpVazBDbmtOMFJPWkM2Y1Z6QXVrYXk0bGhMVk1BSFU?oc=5",
+   "domain": "indianexpress.com",
+   "publishedAt": "2026-08-11T03:43:00.000Z",
+   "companySlug": "stack-openclaw",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWnJfMGRMTEdQV0F6WVRsMFRCVVJQWHczcGtNY1EwLURxdUxWRTA2TGhKbHFJeFpXZC1SandBVFlBOFdIdk9yNHRXOEJjNGxkYVBfMnlmWkhHTnRYSGxZSlRoWWN4OEJ3VGFmdDRJUW5nV0dqWlU5dU04czZnOWY4Q1N2N1hycC00YVlHQkRpeFdKVlpkWjRva3VEMUVIVWhRbERhakVOQU4zV29kai1Zdi0zMmxQbXUwLTBiRXZEcC1XTWhiVF9sM0Jzc21WQlZuejViV0lkYXA5MUpVU2tSZNIB5wFBVV95cUxNWTBnVExqWUliZ1BCZGwyRzJpZV9zNEFFQ3NkWXlnWTNrdWU4VHhlQkVWUDFCSmJqTWo4R2JmMTN3WUs5SUo2TEJGZlRmLXd0ZDViQ0tDQkRQeFRIU2ZfTkN3X21tZ3B3Wkd0V3NrZVpCdEdvVFQySDNtWTFxemRnN0lRcXZLUFBPTXU0N2VJcDZvaWhGUFlSTUJfUVdaTG10R19FLWVtVkFucGdqTWpUaWJjVXZzekEwYVFIRHNaRElPMldBVXZvTGpVazBDbmtOMFJPWkM2Y1Z6QXVrYXk0bGhMVk1BSFU?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
   },
   {
    "id": "1391484457b5",
@@ -2253,6 +2782,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1odlMxT0JTQmJib1RJNnk0T3JlZjh3LU00TTFxd2RhZTVuaFpNc3VFR0Qwc19IeFhmRVFqNGJDTzAtMGNOUUZ2RlhyZ3Q1YVVmTDZaa2JzWGZkTTRPWXZCRFN5ZWtZdlhoSU9GaG4tXzlRSGFH?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "33e6997fede2",
+   "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHhOZWxZTjFGeVhORk1uYkFLc2tpM2d1SmxadExqMU1KM1lrMmt3VVh2SXpFZ01GRGFBSWJYcG1NSU02a1ZLTFEzb3hwd1VJcUt6bk9oam9ZYXZLdFZBTEdveF9SQjl3Z1B5Z3JlOS1uN2pnd1JTclY4b21hREdzUmxSOFZ1alE?oc=5",
+   "domain": "openai.com",
+   "publishedAt": "2026-08-10T18:35:46.000Z",
+   "companySlug": "stack-openai-codex",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHhOZWxZTjFGeVhORk1uYkFLc2tpM2d1SmxadExqMU1KM1lrMmt3VVh2SXpFZ01GRGFBSWJYcG1NSU02a1ZLTFEzb3hwd1VJcUt6bk9oam9ZYXZLdFZBTEdveF9SQjl3Z1B5Z3JlOS1uN2pnd1JTclY4b21hREdzUmxSOFZ1alE?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -2457,6 +3003,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3hlcllmNjYzanQ0R0FHdDJUSFByb1FRYi0taGNiSTEtVVFkakJLWC1LQVJzT3ozZHZ3MEFqX2VxTlZNVURadjhQd2t6QVRORDhjRFZ2ODYxWENzWUgzWnVvVmZyZzdHRURjQm1SS0ZvZWVPNE1qMFUwRmNGXzZZSHJYOVZQOHBVNmd1YkJicW1GT0lwUDdEQXN0UnFhdw?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
+  },
+  {
+   "id": "bf31c52c32b0",
+   "title": "Safe",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE95MXRKTjRpLUhfQmhXNnhtY2Y5aGpHWjhQckF6b0dfY2VoYWlGX0NUX05oY2hsM2JoMFRUa1ZxbjFrQmZBa01Ta253?oc=5",
+   "domain": "theblock.co",
+   "publishedAt": "2026-08-10T06:25:23.000Z",
+   "companySlug": "chainopera-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE95MXRKTjRpLUhfQmhXNnhtY2Y5aGpHWjhQckF6b0dfY2VoYWlGX0NUX05oY2hsM2JoMFRUa1ZxbjFrQmZBa01Ta253?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -2793,23 +3356,6 @@
    "track": "stack"
   },
   {
-   "id": "bab4604f258f",
-   "title": "The fall of AI’s shooting star",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEVzZ5Yi1oVWppQjhpdzhQS0FtblN2bU9FbkRsa3J0NnloQzJhOUZpWFhFR1Zmdm9WNS1DSGlOTWY2Rmt2RW00N1BmUks0dVFFMzdTRV9DdEdOSzFFZ2M2R0dyU0RkYkNaV0hSUlFzOEVDdjR5TXc?oc=5",
-   "domain": "spectator.com.au",
-   "publishedAt": "2026-08-08T18:44:13.000Z",
-   "companySlug": "naive",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEVzZ5Yi1oVWppQjhpdzhQS0FtblN2bU9FbkRsa3J0NnloQzJhOUZpWFhFR1Zmdm9WNS1DSGlOTWY2Rmt2RW00N1BmUks0dVFFMzdTRV9DdEdOSzFFZ2M2R0dyU0RkYkNaV0hSUlFzOEVDdjR5TXc?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
    "id": "e12e0af2244b",
    "title": "Naïve raises $28.5M Series A to let AI agents run companies",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSkVZdFpZMWtqaFZtUjMxVGR0ZWx1MTFPRWFqa3dmU25JSTJNRTZsMlgwUzF2RDZJaThGczIxbDh2TDRLdjM1b0paNTlSOWViS1JLOUZDYXRKLTBsd3ZFNnBSMHpCd3d5UzRaMVR0SEZaakZlYzZEU0VZRjdqb1ZkZFVUTC1wZC1UOEVUYVRzbnJ3S3VzekJV?oc=5",
@@ -2825,6 +3371,29 @@
    ],
    "baseScore": 2.8,
    "track": "company"
+  },
+  {
+   "id": "9c4db884daef",
+   "title": "Strengthening Security of AI Coding: Prisma AIRS API Integration with OpenAI Codex",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT3NPSndEa0h4LUR2bDlCdnd5a2ZEZ3h0RWh5R0l6QVczak5jSHp5cWgxTXZMSzl3NGx4dHdDNmdwVEFyWWhsSU1VVFhEWXpHNnJDMjlkWG9LMy1DRVcySTQzNTNrLUV2ZlBLek01a3RGSGZnWVhnbWtlTXNRNlhkOWNveUFWWVI4c1R3TFpWLTBzYjBaWlhIZVQ2SzBCX0oxMWd0Um1yZUhVckFVNGJqaGVPVm1QQ2k5WHJHZlk5UFRSdW41QTRJ?oc=5",
+   "domain": "paloaltonetworks.com",
+   "publishedAt": "2026-08-07T17:47:06.000Z",
+   "companySlug": "stack-openai-codex",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT3NPSndEa0h4LUR2bDlCdnd5a2ZEZ3h0RWh5R0l6QVczak5jSHp5cWgxTXZMSzl3NGx4dHdDNmdwVEFyWWhsSU1VVFhEWXpHNnJDMjlkWG9LMy1DRVcySTQzNTNrLUV2ZlBLek01a3RGSGZnWVhnbWtlTXNRNlhkOWNveUFWWVI4c1R3TFpWLTBzYjBaWlhIZVQ2SzBCX0oxMWd0Um1yZUhVckFVNGJqaGVPVm1QQ2k5WHJHZlk5UFRSdW41QTRJ?oc=5"
+    },
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49295256",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.79,
+   "track": "stack"
   },
   {
    "id": "23956137f91e",
@@ -2889,6 +3458,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zYXh0eklfZWlFSU5PT0JmX0NwVFFfc1NNcU4tVXBPWHlxVUJkejlVdW91QzV0czU2NTVKcDE2VXFWU3JLZ3loS0RrSndvZ0NuOWYtdXM3TkVkdXNoZzR2MlhxdEFNdnhOUVZJNw?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
+  },
+  {
+   "id": "bab4604f258f",
+   "title": "The fall of AI’s shooting star",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEVzZ5Yi1oVWppQjhpdzhQS0FtblN2bU9FbkRsa3J0NnloQzJhOUZpWFhFR1Zmdm9WNS1DSGlOTWY2Rmt2RW00N1BmUks0dVFFMzdTRV9DdEdOSzFFZ2M2R0dyU0RkYkNaV0hSUlFzOEVDdjR5TXc?oc=5",
+   "domain": "spectator.com.au",
+   "publishedAt": "2026-08-08T07:00:00.000Z",
+   "companySlug": "naive",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEVzZ5Yi1oVWppQjhpdzhQS0FtblN2bU9FbkRsa3J0NnloQzJhOUZpWFhFR1Zmdm9WNS1DSGlOTWY2Rmt2RW00N1BmUks0dVFFMzdTRV9DdEdOSzFFZ2M2R0dyU0RkYkNaV0hSUlFzOEVDdjR5TXc?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -3050,23 +3636,6 @@
    "track": "company"
   },
   {
-   "id": "4541240a8114",
-   "title": "WIX Q2 Deep Dive: AI Platform Expansion Drives Growth and Margin Upside",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT0trYktJTVNpaW9YeU1oV3JzSThaQXp6aW9RQU9rNkhKcU1CSmdJRm1HdDBhbnJNb1RjUXVhNURUN2ZFWEd1eW9nQU1KZVdLUU5wcEItcGtxSDJkbXc2U19PVlRXMDhQeWdZbzRHcmkxQ0czdFFRemEtTGtwclM3Z1JLNTkxNGo2UXpaUWczbTI1UFZ1NWZfampUeFFJQ0xsVU9LTWkwR2JQWGl2Y1BuWkpOc3hhUTRDUzNEZHBwWnI0LVRjb3BybVEyQWJEdGh6RDBHSFVfcmJ0MmFrTEFhOGR3MzVYOUVGSnc?oc=5",
-   "domain": "theglobeandmail.com",
-   "publishedAt": "2026-08-07T20:50:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT0trYktJTVNpaW9YeU1oV3JzSThaQXp6aW9RQU9rNkhKcU1CSmdJRm1HdDBhbnJNb1RjUXVhNURUN2ZFWEd1eW9nQU1KZVdLUU5wcEItcGtxSDJkbXc2U19PVlRXMDhQeWdZbzRHcmkxQ0czdFFRemEtTGtwclM3Z1JLNTkxNGo2UXpaUWczbTI1UFZ1NWZfampUeFFJQ0xsVU9LTWkwR2JQWGl2Y1BuWkpOc3hhUTRDUzNEZHBwWnI0LVRjb3BybVEyQWJEdGh6RDBHSFVfcmJ0MmFrTEFhOGR3MzVYOUVGSnc?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
    "id": "472f4a1bd610",
    "title": "Here’s How Much Traders See CoreWeave Stock Moving After Earnings",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaTVGS2NWek5ycUUxMU9DLW5XNl9ZM3VoejV0NHhrdS1FNXJPcGJRc1VKTjNNSjduVWFrVm5lSTZQZjk1VU82MjVyRmFaaDl1SWM3MWhzRkQtNktnY1pseHVKSEZZREZnT1I2Y1E1LUs3bGs1YzFYdmM2cWtDcUNUajluTlVJQ0FPdVZqaS03R0NPODlmMEpRUjJFTmhWUmJna1BCcDFCejladTh1TkI1bkNYcjg?oc=5",
@@ -3129,23 +3698,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWDd1emdwckJWck5BTlJTSzktQzhqc0JPMzY5RmlaNElKUEc3OUdpVklzOXI1YmJUVk04ZGw2QXRnX0RsTEZqY09FOHZzTHNveGU2Si1yNEk2aDBsTjMxblYyd3hYWFhzbEtPR1YtNzFkU19JOHlNQy1wWU1qNjlIejd6YWV6RHFJWnk5d0N1YW9pdC10NDJ2cEM3OElEc0xwaklTSzViaVc2VEJMa1Vka1FjM2J6NUo3bUN1dk9vcGpuNlgxVEFLQW04ZFZhMW4y?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "9c4db884daef",
-   "title": "Strengthening Security of AI Coding: Prisma AIRS API Integration with OpenAI Codex",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT3NPSndEa0h4LUR2bDlCdnd5a2ZEZ3h0RWh5R0l6QVczak5jSHp5cWgxTXZMSzl3NGx4dHdDNmdwVEFyWWhsSU1VVFhEWXpHNnJDMjlkWG9LMy1DRVcySTQzNTNrLUV2ZlBLek01a3RGSGZnWVhnbWtlTXNRNlhkOWNveUFWWVI4c1R3TFpWLTBzYjBaWlhIZVQ2SzBCX0oxMWd0Um1yZUhVckFVNGJqaGVPVm1QQ2k5WHJHZlk5UFRSdW41QTRJ?oc=5",
-   "domain": "paloaltonetworks.com",
-   "publishedAt": "2026-08-07T17:47:06.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT3NPSndEa0h4LUR2bDlCdnd5a2ZEZ3h0RWh5R0l6QVczak5jSHp5cWgxTXZMSzl3NGx4dHdDNmdwVEFyWWhsSU1VVFhEWXpHNnJDMjlkWG9LMy1DRVcySTQzNTNrLUV2ZlBLek01a3RGSGZnWVhnbWtlTXNRNlhkOWNveUFWWVI4c1R3TFpWLTBzYjBaWlhIZVQ2SzBCX0oxMWd0Um1yZUhVckFVNGJqaGVPVm1QQ2k5WHJHZlk5UFRSdW41QTRJ?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -3254,6 +3806,23 @@
    "track": "company"
   },
   {
+   "id": "0043f5976fe3",
+   "title": "OpenAI, Google, Amazon, and Vercel’s new “Agent Plugins” standard might make devs’ lives easier",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBReTZ3d1VUamJYaEw4dXJKOG9WX1h1cXRGRFBfcXl6MUQxdVBFZUZrLXhBbmFrX2FDMVp3Q21ieVRkZXoxWk5haFR4STJ4YU9hcGZoX1lUbFBLejd2bWc0dHR3MzRISlBRd05lOVV2MjRkbVJxM21ZYW1BckdSUQ?oc=5",
+   "domain": "cybernews.com",
+   "publishedAt": "2026-08-07T09:06:52.000Z",
+   "companySlug": "stack-vercel",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBReTZ3d1VUamJYaEw4dXJKOG9WX1h1cXRGRFBfcXl6MUQxdVBFZUZrLXhBbmFrX2FDMVp3Q21ieVRkZXoxWk5haFR4STJ4YU9hcGZoX1lUbFBLejd2bWc0dHR3MzRISlBRd05lOVV2MjRkbVJxM21ZYW1BckdSUQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "b644e7ec5c61",
    "title": "Sapiom raises $35M to cut AI agent running costs",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oMkVLRTE1WGo2aExmd3Z0VllIZVh1Q3NsYjZMbENhMFpONFhIcVZFaWF1XzRkdjk0Sm1wNFRzeEJMLXlwVFExam5Tb3kwMlYwLVphc051SUcwRTFMa3ZuQWc4X1I1WXdtRGVnTWFqSGltM0NUNXJycA?oc=5",
@@ -3320,6 +3889,23 @@
    ],
    "baseScore": 1.65,
    "track": "stack"
+  },
+  {
+   "id": "4541240a8114",
+   "title": "WIX Q2 Deep Dive: AI Platform Expansion Drives Growth and Margin Upside",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRE5ZR1JNRTlhbV9FLTBWVW1kYlNNdHZOYVE4ODRSZWlYOVdWdWdzLWd5OTNON3ZjLXgtSkhkYU1BMmVRWjdGTE9nVGs4Z0NJNE9jNl84QncwUUNlYThBN0VSTUpGLWdFTVl0UUNFOHVmTzUtdVVabXVFUVU1dHpvelM5WUZxQm1uVVFlWDkzdGlxc3NvQ3cxbk15bzFuTVo0QVNNZ0tDN2hhc1RiZkxWeGk2bWE3b2hvRlpneDBkamViSWZkRkhPaGpnSFU0QQ?oc=5",
+   "domain": "stockstory.org",
+   "publishedAt": "2026-08-07T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRE5ZR1JNRTlhbV9FLTBWVW1kYlNNdHZOYVE4ODRSZWlYOVdWdWdzLWd5OTNON3ZjLXgtSkhkYU1BMmVRWjdGTE9nVGs4Z0NJNE9jNl84QncwUUNlYThBN0VSTUpGLWdFTVl0UUNFOHVmTzUtdVVabXVFUVU1dHpvelM5WUZxQm1uVVFlWDkzdGlxc3NvQ3cxbk15bzFuTVo0QVNNZ0tDN2hhc1RiZkxWeGk2bWE3b2hvRlpneDBkamViSWZkRkhPaGpnSFU0QQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
   },
   {
    "id": "cf4d703ac47c",
@@ -3438,6 +4024,40 @@
     }
    ],
    "baseScore": 1.65,
+   "track": "stack"
+  },
+  {
+   "id": "1d3230f37388",
+   "title": "[Workflow] Optimizing Claude Instructions for Opus 5: A Guide to Adapting CLAUDE.md, Skills, and Hooks",
+   "url": "https://www.reddit.com/r/ClaudeWorkflows/comments/1vhfps7/workflow_optimizing_claude_instructions_for_opus/",
+   "domain": "reddit.com",
+   "publishedAt": "2026-08-06T20:26:23.000Z",
+   "companySlug": "stack-claude",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "reddit",
+     "url": "https://www.reddit.com/r/ClaudeWorkflows/comments/1vhfps7/workflow_optimizing_claude_instructions_for_opus/"
+    }
+   ],
+   "baseScore": 1.2,
+   "track": "stack"
+  },
+  {
+   "id": "8f575b5465f6",
+   "title": "Opus 5: delete your CLAUDE.md? (no. don't)",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1vheltz/opus_5_delete_your_claudemd_no_dont/",
+   "domain": "reddit.com",
+   "publishedAt": "2026-08-06T19:45:27.000Z",
+   "companySlug": "stack-claude",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "reddit",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1vheltz/opus_5_delete_your_claudemd_no_dont/"
+    }
+   ],
+   "baseScore": 1.2,
    "track": "stack"
   },
   {
@@ -3578,23 +4198,6 @@
    "track": "stack"
   },
   {
-   "id": "4e4fe2cce072",
-   "title": "HappyRobot Raises $150 Million Series C At $1.2 Billion Valuation",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdGtjcTlkMnh5aDY4eXZjcUo5T3c4MlhMUzVmVUV6SmJIbUY4RkltU1JSOXdiTk9ycV9vZHFkaHgydjhHbk0zRW5POVU0czQ3d2RvYjdGV1lqQnV0SDBHbVA0dmJjZlNiU2sxYmxQWlhrMGdvUjZaekQ5UjUyVzRueVIyeHMzdHJySkg40gGQAUFVX3lxTE0yeTF1M0w1THRTS2xDWEQ5Z1p2dnZXMUEtYTlTdk41anBoaXdlcnFCUjZPX0VHMVBzbkhYbnJad3NzenlDOGFIR0FvbzZNcnNueXh1RmwtQ3NOVmpqN2VfSG5nZl9rNGVKR0ZMeXFaV1lXMC1tYXFLYUdBYnBDcG5rWXFvdXZxUVI1ZVVjMVZFWA?oc=5",
-   "domain": "pulse2.com",
-   "publishedAt": "2026-08-04T18:38:58.000Z",
-   "companySlug": "stack-happyrobot",
-   "kind": "funding",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdGtjcTlkMnh5aDY4eXZjcUo5T3c4MlhMUzVmVUV6SmJIbUY4RkltU1JSOXdiTk9ycV9vZHFkaHgydjhHbk0zRW5POVU0czQ3d2RvYjdGV1lqQnV0SDBHbVA0dmJjZlNiU2sxYmxQWlhrMGdvUjZaekQ5UjUyVzRueVIyeHMzdHJySkg40gGQAUFVX3lxTE0yeTF1M0w1THRTS2xDWEQ5Z1p2dnZXMUEtYTlTdk41anBoaXdlcnFCUjZPX0VHMVBzbkhYbnJad3NzenlDOGFIR0FvbzZNcnNueXh1RmwtQ3NOVmpqN2VfSG5nZl9rNGVKR0ZMeXFaV1lXMC1tYXFLYUdBYnBDcG5rWXFvdXZxUVI1ZVVjMVZFWA?oc=5"
-    }
-   ],
-   "baseScore": 3,
-   "track": "stack"
-  },
-  {
    "id": "249bd5250366",
    "title": "AI Model Routing: NVIDIA, Cognition, OpenRouter Pan…",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTdoZnBlMEg3OTZWNktYMVpXWnAzcW9vM2R2WGdqVW5hcERCLWE1Qk5QWmZuY29QX3Y5Q2VlQXhRa05fRDJ3clN5aEUwMXQ2WmhoeTlDV2J0VnVvZHh5VDVZRWJRNFRZNFU5Q2lUUlJqMklUeGxFel9UUXhxNFlQWkdsdWNkRWhrUTVrdmxwWFRnaV9uZV9PNU11Y3oweFpXMjZrQ3B3RjFyQjRZLW40ZEVDaw?oc=5",
@@ -3660,6 +4263,23 @@
     }
    ],
    "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "4e4fe2cce072",
+   "title": "HappyRobot Raises $150 Million Series C at $1.2 Billion Valuation",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbXBPX096ZVdCSmhzZ3hmQU95Z3RFM0lXaWVDM1VydDN0OWVsQ3lPSndOUjBHcU1rM0Zibjk5a3ZuYTAwZ05IOVpBLTJIcFpoRWJZM0FkeFFQaTB5Q3RxcFZtZlBqUFpXTC1IT0ZVb1Y1ejliWFFZclpkSjNnSzZHRldPX29wR1d3SXJzTGlKTGRGSXNZdURENWdkNlEzMEE1WFAzbw?oc=5",
+   "domain": "citybiz.co",
+   "publishedAt": "2026-08-04T14:27:20.000Z",
+   "companySlug": "stack-happyrobot",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbXBPX096ZVdCSmhzZ3hmQU95Z3RFM0lXaWVDM1VydDN0OWVsQ3lPSndOUjBHcU1rM0Zibjk5a3ZuYTAwZ05IOVpBLTJIcFpoRWJZM0FkeFFQaTB5Q3RxcFZtZlBqUFpXTC1IT0ZVb1Y1ejliWFFZclpkSjNnSzZHRldPX29wR1d3SXJzTGlKTGRGSXNZdURENWdkNlEzMEE1WFAzbw?oc=5"
+    }
+   ],
+   "baseScore": 3,
    "track": "stack"
   },
   {
@@ -3731,6 +4351,23 @@
    "track": "stack"
   },
   {
+   "id": "fab5f0baa979",
+   "title": "Should You Really Invest in a Semiconductor ETF Right Now? Here's My Honest Take.",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQXVpSGtaelNaQ0htaEFvSnJjSDBUVmpnWTNFT2xGSWprdDVuWC1hQTdBV2YwdXE4V2psdlVYTURJOGl0cERsS09Pem9wb3pDdHNKZmdESVV3cmg3cTBsVEs4YU90MU9ZV2E0NXVCR3M4SjdKbWs3RVFhbHpHUjBWenRKREJNLWxiRGV2b3dNemR2S2pWN1h6ekI3eXh2NWtHaDNkMTVLNDBsd3NEaXNfelQ4bnRPS0NOV3BKZXBLdGVDaURFbVFyOVVzUGJtbXdMV0dsUzU0SS0tbVNJN3hBWXFIdTZGUjA1MnBmUXVXR1BqR2IyTTR4dA?oc=5",
+   "domain": "theglobeandmail.com",
+   "publishedAt": "2026-08-06T12:20:00.000Z",
+   "companySlug": "naive",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQXVpSGtaelNaQ0htaEFvSnJjSDBUVmpnWTNFT2xGSWprdDVuWC1hQTdBV2YwdXE4V2psdlVYTURJOGl0cERsS09Pem9wb3pDdHNKZmdESVV3cmg3cTBsVEs4YU90MU9ZV2E0NXVCR3M4SjdKbWs3RVFhbHpHUjBWenRKREJNLWxiRGV2b3dNemR2S2pWN1h6ekI3eXh2NWtHaDNkMTVLNDBsd3NEaXNfelQ4bnRPS0NOV3BKZXBLdGVDaURFbVFyOVVzUGJtbXdMV0dsUzU0SS0tbVNJN3hBWXFIdTZGUjA1MnBmUXVXR1BqR2IyTTR4dA?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
+  },
+  {
    "id": "42ba5028a1b5",
    "title": "IMC Selects CoreWeave to Scale AI Research",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFR3OHhlVmIyOEx1d0FKdGlfWDlZcjNIWkl2eF9UWHRLbUc2RWVkOGM3MW4xa2x3T0hGXzFBRUw0MFFEVUVsdjVrUzlTXzhSbk4yNS1FLUNDbWVmc09KVlBfOS1lbERETXl1Ymw0UHg5M1V1RDJXTTBtZzRhSTJTd2lFT1ZOUHpMTVBfemR3VFY2UQ?oc=5",
@@ -3799,23 +4436,6 @@
    "track": "stack"
   },
   {
-   "id": "71e3307b1c0f",
-   "title": "How to set up OpenClaw: managed and self-hosted methods",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sdExILTFVaDZ0TkxTMkNqaTVUSVZSYzdMUWlOMmVoUGlNbW1WTUxyYkEwWmlPQXlvZmV6MHJEay11Q0gwTU5KbTdTLUVoOExyQVg3X2JZSjVFSFV3a3hXc1l6dV9XNWNpNUk3eVpXQQ?oc=5",
-   "domain": "hostinger.com",
-   "publishedAt": "2026-08-06T07:00:00.000Z",
-   "companySlug": "stack-openclaw",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sdExILTFVaDZ0TkxTMkNqaTVUSVZSYzdMUWlOMmVoUGlNbW1WTUxyYkEwWmlPQXlvZmV6MHJEay11Q0gwTU5KbTdTLUVoOExyQVg3X2JZSjVFSFV3a3hXc1l6dV9XNWNpNUk3eVpXQQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "369c01d3afab",
    "title": "OpenClaw costs: What running OpenClaw actually costs",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hYktvVkNteXVnWnlwOE9yWDRQX3dwVGctdzVET1pkUUQ5bWs0dndwLS1nanFfUXctOGxZaHgzN1hVZVNscXhYUFFPRktmRzFCTExmS2tXbmg1UVpaR1B6cA?oc=5",
@@ -3861,6 +4481,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEJkTi1RTFJEQXJiYzl1VEdWT2tyZUFLdDhuV3hqOXVENGZMblhYeGQ5VmhIWF9yYlgyVW9kbnJ4dXNhM2VQeFVKTkMwZm1ZaGo4QmVHWGhESDBXM1VFdXBVendsdDJvRXFsUmVKczVmdG96Nzd2cjhOdjluZ2FYZlZadnBoOVV3SnpMcWdnMDdHNkMwSENlTlhNOC0wSkhIWE5jUmdYbjh4UE5TZlczWA?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "71e3307b1c0f",
+   "title": "How to set up OpenClaw: managed and self-hosted methods",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sdExILTFVaDZ0TkxTMkNqaTVUSVZSYzdMUWlOMmVoUGlNbW1WTUxyYkEwWmlPQXlvZmV6MHJEay11Q0gwTU5KbTdTLUVoOExyQVg3X2JZSjVFSFV3a3hXc1l6dV9XNWNpNUk3eVpXQQ?oc=5",
+   "domain": "hostinger.com",
+   "publishedAt": "2026-08-06T07:00:00.000Z",
+   "companySlug": "stack-openclaw",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sdExILTFVaDZ0TkxTMkNqaTVUSVZSYzdMUWlOMmVoUGlNbW1WTUxyYkEwWmlPQXlvZmV6MHJEay11Q0gwTU5KbTdTLUVoOExyQVg3X2JZSjVFSFV3a3hXc1l6dV9XNWNpNUk3eVpXQQ?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -4024,6 +4661,23 @@
    "track": "stack"
   },
   {
+   "id": "d2b7be63aede",
+   "title": "HappyRobot lands $150M Series C to scale agentic AI for enterprise operations",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDFHWUdsbHBOb1NublhOUThsSk9wbkpfMlBqVHR4NUtrT3Z6VjNING1MTzRYNUhXWDFiRzZTREhocGxRRTY0dXExQ3RlLWRqM0VmX3RsS0dtWV9UVjBEOVIzWWJLejJzcTBtMkx2RGFkbGhCdkI4MTdFWmZScEo5TWpLUjNtMWhFQkV4dGw2cWhuU0hsRlRQUWlLSEQ0ZEk2QUJwMzYxUQ?oc=5",
+   "domain": "tech.eu",
+   "publishedAt": "2026-08-04T12:34:58.000Z",
+   "companySlug": "stack-happyrobot",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDFHWUdsbHBOb1NublhOUThsSk9wbkpfMlBqVHR4NUtrT3Z6VjNING1MTzRYNUhXWDFiRzZTREhocGxRRTY0dXExQ3RlLWRqM0VmX3RsS0dtWV9UVjBEOVIzWWJLejJzcTBtMkx2RGFkbGhCdkI4MTdFWmZScEo5TWpLUjNtMWhFQkV4dGw2cWhuU0hsRlRQUWlLSEQ0ZEk2QUJwMzYxUQ?oc=5"
+    }
+   ],
+   "baseScore": 2.4,
+   "track": "stack"
+  },
+  {
    "id": "186afd8ec1b3",
    "title": "Pathward and TabaPay Extend Partnership and Expand Program Offerings",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVNXTGNqd0NzblNqdG50MEJQTF9FMDZQUmRiczZ2OXdMTEE3RF9fYm43NkRLUHdxbmlGWmEzLS1sRUhDQTZsV2hGMi02azB6cEpFSHM0dUtWTFRhN3NsR0V5UjFnXzJnd0Vob2NJa2FIYm9qbXktUWxNM3B4Y042Z0g1Q2UxcGdkeEtPT2dvYw?oc=5",
@@ -4069,23 +4723,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDUHZjSGdNNENWLTdnTDBJSkZwZHB3dFVkcFcyMkszbDd4QlYwQ2pSWDVOeWtrQ3hVb0ZPeWs2WlYzeDI3TGtHNEF4SnVXcXMxdXI1LWdnWDhiY05BMmliWWNqTGdZNWJaT0NOQXFtUVZCbGhEdFE?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "9fa54e83e41a",
-   "title": "Meta Is Challenging Claude Code and Codex With New Muse Code",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeUYwZmVjQ3cwcXIxbWM0NldKYWJIYlZnRTR5UEM0UVhGT0JaOEJRa21iR2ctQnRiZGFMazgzb0NBbWpXQWVJcGVMOXA4c1IxdlB1YmdhSWVyc3NOSFk2NGVuR0tfeS0xWHR2V0pEckkyNl8tblg2dUdzdWZYMUJWbWFkNkk?oc=5",
-   "domain": "cnet.com",
-   "publishedAt": "2026-08-05T21:13:58.000Z",
-   "companySlug": "stack-claude-code",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeUYwZmVjQ3cwcXIxbWM0NldKYWJIYlZnRTR5UEM0UVhGT0JaOEJRa21iR2ctQnRiZGFMazgzb0NBbWpXQWVJcGVMOXA4c1IxdlB1YmdhSWVyc3NOSFk2NGVuR0tfeS0xWHR2V0pEckkyNl8tblg2dUdzdWZYMUJWbWFkNkk?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -4279,6 +4916,23 @@
    "track": "company"
   },
   {
+   "id": "9fa54e83e41a",
+   "title": "Meta Is Challenging Claude Code and Codex With New Muse Code",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeUYwZmVjQ3cwcXIxbWM0NldKYWJIYlZnRTR5UEM0UVhGT0JaOEJRa21iR2ctQnRiZGFMazgzb0NBbWpXQWVJcGVMOXA4c1IxdlB1YmdhSWVyc3NOSFk2NGVuR0tfeS0xWHR2V0pEckkyNl8tblg2dUdzdWZYMUJWbWFkNkk?oc=5",
+   "domain": "cnet.com",
+   "publishedAt": "2026-08-05T07:00:00.000Z",
+   "companySlug": "stack-claude-code",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeUYwZmVjQ3cwcXIxbWM0NldKYWJIYlZnRTR5UEM0UVhGT0JaOEJRa21iR2ctQnRiZGFMazgzb0NBbWpXQWVJcGVMOXA4c1IxdlB1YmdhSWVyc3NOSFk2NGVuR0tfeS0xWHR2V0pEckkyNl8tblg2dUdzdWZYMUJWbWFkNkk?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "fad0ac06452a",
    "title": "Rethinking defense in the wake of OpenClaw attacks",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNzRkdW0yR1EyQkZzaW4xQWtGODR4MUt1RkdMRVRlbTVSMENuRS1zLWpNSldXNmR6a2VzNnU1WEt5SzU3NExwVXdIWVB1TXN1Y04xTDNSNVM5d2djaWtGTEg0S2dXSGJSVDhCTTBadktMVVM5M3l2WGtTa1dnaElpNWtJZlZSUkU?oc=5",
@@ -4307,6 +4961,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSldWWnFkZEhfa2x5U0sxclpEQlRNanhNNDRoRF9WWTV6cUItTmZMUlVNLUpyQmpSM1I3RDdiU2VPVFVSWjc3WFFaVGE3Q2JRaDJiWXRkRWRLTDFrLTJkWXRLb3VzRDdWYnlyQUhZTVNLZVNENDRIZWNjd1hIOUx4WnNMMU5yZFIyNUNJRGd5eHh4ZU9Bb19zcjlCcHhwa19NT1VUazQ1N2o?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "155b47935747",
+   "title": "DigitalOcean: In The Right Place At The Right Time For AI Boom (Upgrade) (NYSE:DOCN)",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd2VicW4wdjhFeHQ0cUtucHVLUWZnQS1YQVQ0aUZNS1pDbDZCc21NMWltcW4wYVQtY1ktMzNkX3daRnFFczc0MUstUkdWNTd4UzJWaUYxTFpSQThna2FnZm1DbTM3cEY3MC1oajJZSjBOOXgzNVA0dHlNYThnc2xtbmgxMUtJSDM5Q3k0Tnk4RVB3ZkhvYVNnUDVvakdlUk5aNk5IbXhKdXM0RmRqSlVJ?oc=5",
+   "domain": "seekingalpha.com",
+   "publishedAt": "2026-08-05T07:00:00.000Z",
+   "companySlug": "stack-digitalocean",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd2VicW4wdjhFeHQ0cUtucHVLUWZnQS1YQVQ0aUZNS1pDbDZCc21NMWltcW4wYVQtY1ktMzNkX3daRnFFczc0MUstUkdWNTd4UzJWaUYxTFpSQThna2FnZm1DbTM3cEY3MC1oajJZSjBOOXgzNVA0dHlNYThnc2xtbmgxMUtJSDM5Q3k0Tnk4RVB3ZkhvYVNnUDVvakdlUk5aNk5IbXhKdXM0RmRqSlVJ?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -4502,23 +5173,6 @@
    "track": "company"
   },
   {
-   "id": "a801ff7f9e01",
-   "title": "New ways to learn and teach with ChatGPT Work and Codex",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GV1MyNmtiTnBOV2JLaWpxQWJad2doUFB3ZmRVLUlOdUVrSkE5bDNGblNWZklQNDBiOGo3NGpTNTZ1YVZJMHBPRU5YNExpbWNzeG9kazh5MFNydUY5UGdFOExQby03SEU?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-04T17:18:29.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GV1MyNmtiTnBOV2JLaWpxQWJad2doUFB3ZmRVLUlOdUVrSkE5bDNGblNWZklQNDBiOGo3NGpTNTZ1YVZJMHBPRU5YNExpbWNzeG9kazh5MFNydUY5UGdFOExQby03SEU?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "f7fca96efcb5",
    "title": "Happyrobot Inc. announced that it has received $150 million in funding from a group of investors",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTmZtSjQ1b2NnazZ5dG9nc0w0c19IRTFjUi1zOVFNUmZ0ajBkTkZGekRGakhFa0c3LUVkb0F5VkZQTGJZdGJNWm1KWWMyS0ViQXdYNzU2LWJlVTBVNXY4NFUxTXJLZUhaaUtpSUswX2VDY3dRVk9jUlhmSTZTSXBmSG5hMm94U2ZmbUJFM0lFQU9QMV9jYm94WVBQUWc4SjdNZFhUbWR2eDV6clVlTm9yMlc1S0VWRV96dkZEeW5zRWM1bFBYSXpmZXBPcXVMeE10Nkoyb1pkRTczWlVRRVU5NQ?oc=5",
@@ -4672,23 +5326,6 @@
    "track": "stack"
   },
   {
-   "id": "e5e871623ba1",
-   "title": "Wix.com Ltd (WIX) (Q2 2026) Earnings Call Highlights: AI-Driven Growth Accelerates as Base44 ...",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTlHNmFlemt0Z2RnNFptZjYyNDcxOFVoSENhQkdDUDF2dzlEUF91MXlhVWV1WHVIZDlGWUh5LTNsOXVmZlRESHpFSlRtVWRyLS11ak1QZlZoTDltaUpXVU5VR2szMjRkdXU0QkZ5dnh2RjFXZGlMVndiQjdaeWxndGQ1anZHYWxSd1E?oc=5",
-   "domain": "finance.yahoo.com",
-   "publishedAt": "2026-08-04T07:00:00.000Z",
-   "companySlug": "base44",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTlHNmFlemt0Z2RnNFptZjYyNDcxOFVoSENhQkdDUDF2dzlEUF91MXlhVWV1WHVIZDlGWUh5LTNsOXVmZlRESHpFSlRtVWRyLS11ak1QZlZoTDltaUpXVU5VR2szMjRkdXU0QkZ5dnh2RjFXZGlMVndiQjdaeWxndGQ1anZHYWxSd1E?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
    "id": "1ea885c7403f",
    "title": "Wix Q2 revenue grows 15%, Base44 AI platform ma...",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0xmMTNjLUFLQWNoMGdyaGkxS2cyQzFWeG1jT2RqRVB4WjI0aEtubkl2d1FLcVJQX0ViN0FOWVBlRTdtN3Zfdlc5ZTlLSy1RNmE2OW9NX2ZBbzJvdU01UDY3aW82eHJoWFFpVEg3QXZMYVRhVkswR3JuTml0VmpvVVdQOTNGZVdoRmJPSUVidVpneWl2ZUNkSE5B?oc=5",
@@ -4708,15 +5345,15 @@
   {
    "id": "69635086ddbb",
    "title": "Wix Q2 results show steady core business and improving Base44 economics",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0ZiNURScVB3Q2h6Sm5tWHFCMVlObEd2alJlaUxCaWc2QzF1b3lIdEExMm1XM0I0aHBERF9EWjJ0SzFSU09Mb1lCbzR3WTh5X2xfMmNHc1ZFN05Yd1Z0clZYZk12ZjBvby1welZfTzdiOWllTm8tSDVSanNRcHIyOS14a2JsRkRFMnh3SllqYjVkc1A1elBJUmRhaHNvNzY5Z2JqdFBQTTRyM1Vmd2p1Y0F3MFREbkhETTJHbzZIWTJkeGc5RmM2QjNPbmVDbW4yalRrQS1BUEZEQQ?oc=5",
-   "domain": "proactiveinvestors.com",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNFB5c0dLeGx4WG1NUWk3S0plS0ZWVGdYaUFoa0pGcUFvY0x6Z2tsRDhVbDdsXzdWaGVFV0RhOE1XdG5IU2xaX083a2otNFF1SUlfalc4aG1sZXNoVzZMaDluckFzX0owODRsUl9hVVo0YjJiZzN3c3ZVdTQ4cl9pMzdMMkZMS2luNjRlMnBxekpYaFg0RlE?oc=5",
+   "domain": "finance.yahoo.com",
    "publishedAt": "2026-08-04T07:00:00.000Z",
    "companySlug": "base44",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0ZiNURScVB3Q2h6Sm5tWHFCMVlObEd2alJlaUxCaWc2QzF1b3lIdEExMm1XM0I0aHBERF9EWjJ0SzFSU09Mb1lCbzR3WTh5X2xfMmNHc1ZFN05Yd1Z0clZYZk12ZjBvby1welZfTzdiOWllTm8tSDVSanNRcHIyOS14a2JsRkRFMnh3SllqYjVkc1A1elBJUmRhaHNvNzY5Z2JqdFBQTTRyM1Vmd2p1Y0F3MFREbkhETTJHbzZIWTJkeGc5RmM2QjNPbmVDbW4yalRrQS1BUEZEQQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNFB5c0dLeGx4WG1NUWk3S0plS0ZWVGdYaUFoa0pGcUFvY0x6Z2tsRDhVbDdsXzdWaGVFV0RhOE1XdG5IU2xaX083a2otNFF1SUlfalc4aG1sZXNoVzZMaDluckFzX0owODRsUl9hVVo0YjJiZzN3c3ZVdTQ4cl9pMzdMMkZMS2luNjRlMnBxekpYaFg0RlE?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -4791,6 +5428,23 @@
    "track": "stack"
   },
   {
+   "id": "a801ff7f9e01",
+   "title": "New ways to learn and teach with ChatGPT Work and Codex",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GV1MyNmtiTnBOV2JLaWpxQWJad2doUFB3ZmRVLUlOdUVrSkE5bDNGblNWZklQNDBiOGo3NGpTNTZ1YVZJMHBPRU5YNExpbWNzeG9kazh5MFNydUY5UGdFOExQby03SEU?oc=5",
+   "domain": "openai.com",
+   "publishedAt": "2026-08-04T07:00:00.000Z",
+   "companySlug": "stack-openai-codex",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GV1MyNmtiTnBOV2JLaWpxQWJad2doUFB3ZmRVLUlOdUVrSkE5bDNGblNWZklQNDBiOGo3NGpTNTZ1YVZJMHBPRU5YNExpbWNzeG9kazh5MFNydUY5UGdFOExQby03SEU?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "b855a4d79e7f",
    "title": "What Is OpenClaw and How to Install It?",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNzNxaUtmQlFPSll3NzNFMlU2TjJGOGUyNmNRbnFlOGNsb3Fwc2hTa21HellwRVlHZG10Yk5ac1otTlJNVi15cEt0ZFcyME5VNTBfX1V4WFR2cTc3WjlDV2JMVlRYY19TdFUzbVVJTUU2SUFmMllCOVoyMlJReFVoQjBIMV9najFkQVE?oc=5",
@@ -4819,6 +5473,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSW04Tk02S1duZjFFQlJ3QzEtRW9wYVZtUno5SlhtaHA0Q0hiSk5kZllMOFR2UmdFYV9ZcFlRSk9rSlhzdEdGSkVkcV9XaFpNdEYwZ1NtSXlobVZWZjhZUFYxY1RqWExmTTRqOGp6NTFfckVYdTAyLVhnUENZc1FPbzQwLWJ2U0tXTjk4TlRSeGViLXdoM2pmX0NR?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "19fbd115f0f0",
+   "title": "CoreWeave to Enter Asian Market With Indonesian Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVXpNWU54Y09pZmh1Vy1kLXNNX2doVmpuRWNSMW1zdm5IdGpDMEdHY1NpdjdmVDhaZTVSc3AyWGozVF9NcS1iY0JUOTZTVzFMWlZDWWJjRlJrOFM2TW1tamdRRTdZX0lNYmNqSmRJYzZwTnY2SXRKbE00UFlIRU1FNU1hMkNheXh3U01RbGVXelV4OENKXzZLakhjT1lYNTlxazR4R1YxdlpFdE5DMzNqcQ?oc=5",
+   "domain": "bloomberg.com",
+   "publishedAt": "2026-08-04T07:00:00.000Z",
+   "companySlug": "stack-coreweave",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVXpNWU54Y09pZmh1Vy1kLXNNX2doVmpuRWNSMW1zdm5IdGpDMEdHY1NpdjdmVDhaZTVSc3AyWGozVF9NcS1iY0JUOTZTVzFMWlZDWWJjRlJrOFM2TW1tamdRRTdZX0lNYmNqSmRJYzZwTnY2SXRKbE00UFlIRU1FNU1hMkNheXh3U01RbGVXelV4OENKXzZLakhjT1lYNTlxazR4R1YxdlpFdE5DMzNqcQ?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -4859,23 +5530,6 @@
    "track": "stack"
   },
   {
-   "id": "92a44cb1b997",
-   "title": "DigitalOcean (NYSE:DOCN) Exceeds Q2 CY2026 Expectations But Stock Drops 10.9%",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaHF1RFgwNnQ0QzFUQ1ZvY1pRU1BKX2czZzM2WVEzVTM0ZnQ0RjNpalBjTkNXQ0hfSkxDWlprWXB6R1JMOWlOdUEybmRxQ2JWR1VLNW9yRnZEcVFZTlFFcGNkV2FLSlB2dDJMdDNjYWxfbFRhLU5UVDdTYjJnT0lpR3RONEluc005dnNuNDdOMmEtdkZSQlpQVGtUX3FULW8?oc=5",
-   "domain": "finance.yahoo.com",
-   "publishedAt": "2026-08-04T07:00:00.000Z",
-   "companySlug": "stack-digitalocean",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaHF1RFgwNnQ0QzFUQ1ZvY1pRU1BKX2czZzM2WVEzVTM0ZnQ0RjNpalBjTkNXQ0hfSkxDWlprWXB6R1JMOWlOdUEybmRxQ2JWR1VLNW9yRnZEcVFZTlFFcGNkV2FLSlB2dDJMdDNjYWxfbFRhLU5UVDdTYjJnT0lpR3RONEluc005dnNuNDdOMmEtdkZSQlpQVGtUX3FULW8?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "81e39317cca4",
    "title": "DigitalOcean (DOCN) Is Up 14.6% After Raising 2026 Revenue Outlook On AI Cloud Demand - What's Changed",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdlZ1NUwwaFZoTjNiY1hHOENWR2tCN1FoUUtwbkd2cEttM0lHQi0zbmtsSGJlbVRmVDNFTDJFUG54encxMnZGTzNTZjFmMnRjVV9lSG1felViOXhiby1aSU52YnAza1ppZzhlMUFSR1ZteWVpcFZ6cjl0aFlTUDR6RlFfTWpFNHcxYzhCRDk0SUtVSlcybnIwTjlB?oc=5",
@@ -4887,6 +5541,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdlZ1NUwwaFZoTjNiY1hHOENWR2tCN1FoUUtwbkd2cEttM0lHQi0zbmtsSGJlbVRmVDNFTDJFUG54encxMnZGTzNTZjFmMnRjVV9lSG1felViOXhiby1aSU52YnAza1ppZzhlMUFSR1ZteWVpcFZ6cjl0aFlTUDR6RlFfTWpFNHcxYzhCRDk0SUtVSlcybnIwTjlB?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "92a44cb1b997",
+   "title": "DigitalOcean (NYSE:DOCN) Exceeds Q2 CY2026 Expectations But Stock Drops 10.9%",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaHF1RFgwNnQ0QzFUQ1ZvY1pRU1BKX2czZzM2WVEzVTM0ZnQ0RjNpalBjTkNXQ0hfSkxDWlprWXB6R1JMOWlOdUEybmRxQ2JWR1VLNW9yRnZEcVFZTlFFcGNkV2FLSlB2dDJMdDNjYWxfbFRhLU5UVDdTYjJnT0lpR3RONEluc005dnNuNDdOMmEtdkZSQlpQVGtUX3FULW8?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-08-04T07:00:00.000Z",
+   "companySlug": "stack-digitalocean",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaHF1RFgwNnQ0QzFUQ1ZvY1pRU1BKX2czZzM2WVEzVTM0ZnQ0RjNpalBjTkNXQ0hfSkxDWlprWXB6R1JMOWlOdUEybmRxQ2JWR1VLNW9yRnZEcVFZTlFFcGNkV2FLSlB2dDJMdDNjYWxfbFRhLU5UVDdTYjJnT0lpR3RONEluc005dnNuNDdOMmEtdkZSQlpQVGtUX3FULW8?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -4925,6 +5596,23 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
+  },
+  {
+   "id": "e5e871623ba1",
+   "title": "Wix.com Ltd (WIX) (Q2 2026) Earnings Call Highlights: AI-Driven Growth Accelerates as Base44 ...",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTlHNmFlemt0Z2RnNFptZjYyNDcxOFVoSENhQkdDUDF2dzlEUF91MXlhVWV1WHVIZDlGWUh5LTNsOXVmZlRESHpFSlRtVWRyLS11ak1QZlZoTDltaUpXVU5VR2szMjRkdXU0QkZ5dnh2RjFXZGlMVndiQjdaeWxndGQ1anZHYWxSd1E?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-08-04T07:00:00.000Z",
+   "companySlug": "base44",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTlHNmFlemt0Z2RnNFptZjYyNDcxOFVoSENhQkdDUDF2dzlEUF91MXlhVWV1WHVIZDlGWUh5LTNsOXVmZlRESHpFSlRtVWRyLS11ak1QZlZoTDltaUpXVU5VR2szMjRkdXU0QkZ5dnh2RjFXZGlMVndiQjdaeWxndGQ1anZHYWxSd1E?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
   },
   {
    "id": "46e5804f35e7",
@@ -5110,11 +5798,11 @@
     {
      "id": "hn",
      "url": "https://news.ycombinator.com/item?id=49148163",
-     "points": 14,
+     "points": 15,
      "comments": 10
     }
    ],
-   "baseScore": 1.78,
+   "baseScore": 1.79,
    "track": "stack"
   },
   {
@@ -5557,6 +6245,23 @@
    "track": "stack"
   },
   {
+   "id": "8f3eb6b92b17",
+   "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85NGFHYWhZdUVHV1ZOd1RGeHI4RzNhWGJnZUwybFRBVEQzSVhSbzZudkNMSXBDX2FQSTBoelBrVWxNVUZpLUw2alhBRnlET1RfQTRRN2dsWU9ZNVpfYVktTEtIR0FYRlJKRkhvWmpKbkRCNTJOcnRBOFNma05VZw?oc=5",
+   "domain": "thehackernews.com",
+   "publishedAt": "2026-07-31T07:00:00.000Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85NGFHYWhZdUVHV1ZOd1RGeHI4RzNhWGJnZUwybFRBVEQzSVhSbzZudkNMSXBDX2FQSTBoelBrVWxNVUZpLUw2alhBRnlET1RfQTRRN2dsWU9ZNVpfYVktTEtIR0FYRlJKRkhvWmpKbkRCNTJOcnRBOFNma05VZw?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "f6ce86450db0",
    "title": "Anthropic says its Claude models hacked three real companies during internal testing",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFBSQ0tiNFptYWQwY1ZLeEUwSnBRVFZ5Q1prZUxER3I2TzJ6SktUMk9ZZU1qQXp3OGJUYzJsV0VFV2Joc3NBR051SFBsbjlRUlhvLXo3d0JVaFZmVUFncHoyUHVFajU0WWRxUEd1bkRnSkRMdHlJdjVIeWh0VFJtNFR1TXdMXzZTMkk5eEpUWndSbFQxSFE?oc=5",
@@ -5568,6 +6273,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFBSQ0tiNFptYWQwY1ZLeEUwSnBRVFZ5Q1prZUxER3I2TzJ6SktUMk9ZZU1qQXp3OGJUYzJsV0VFV2Joc3NBR051SFBsbjlRUlhvLXo3d0JVaFZmVUFncHoyUHVFajU0WWRxUEd1bkRnSkRMdHlJdjVIeWh0VFJtNFR1TXdMXzZTMkk5eEpUWndSbFQxSFE?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "b6e2f9903221",
+   "title": "Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPajZvTXhORFdCV2FVQ1RKNUpvVkFRN2liWVhIM01TVk5tOHYxVzlGTWhkdW0tUFVKcUMyUUhGaWJ6ZTJIa0JNc1VBaGlaLTVlaF93eEozdncwMFNwTjc4eS1BZy1vOVhtTGZ0dnkyMEZBY0lFZEpTUGpENl9CYnNTT2VkaWt4Rnp5R1dMUVRyS2pLMmRfQk1hLUdZVjJkZEduZFJveUtaRTdjalVGZ2dtTDZQRVVXYjNsbERTOGJZNHkzcVdIcGtLeEpwcGk2Q3M0Q1BYeFlHamZzR29mT1lSRHZvX193Y1pFOWp5TmVGLTQ3ME4tRmtpdHZUaUxGX2NIZ3RmbnpjLVh1R0M1OHc?oc=5",
+   "domain": "tomshardware.com",
+   "publishedAt": "2026-07-31T07:00:00.000Z",
+   "companySlug": "stack-openclaw",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPajZvTXhORFdCV2FVQ1RKNUpvVkFRN2liWVhIM01TVk5tOHYxVzlGTWhkdW0tUFVKcUMyUUhGaWJ6ZTJIa0JNc1VBaGlaLTVlaF93eEozdncwMFNwTjc4eS1BZy1vOVhtTGZ0dnkyMEZBY0lFZEpTUGpENl9CYnNTT2VkaWt4Rnp5R1dMUVRyS2pLMmRfQk1hLUdZVjJkZEduZFJveUtaRTdjalVGZ2dtTDZQRVVXYjNsbERTOGJZNHkzcVdIcGtLeEpwcGk2Q3M0Q1BYeFlHamZzR29mT1lSRHZvX193Y1pFOWp5TmVGLTQ3ME4tRmtpdHZUaUxGX2NIZ3RmbnpjLVh1R0M1OHc?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -5661,6 +6383,23 @@
    "track": "company"
   },
   {
+   "id": "2ad6846e7dd6",
+   "title": "Cursor Launches Benchmark Partners Program with AWS, BCG, Databricks, McKinsey, NVIDIA, and Snowflake to Deliver First Referenceable Enterprise AI Adoption Stack",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOGdrUjh2R000YnZ5S3pMUjBMQVZCSUxaTzRXbmxxdkZRZWlFWFdydFZrYjhSYXZRc3pfWVhHMWYwdFZkTmhhSVFXNTctVGVXTWRtMWZkZElvc2VRM0hqbTNKMUQ4WUVjWDRlNG1LMnhJUUhsLUs1SkxXNm1zNUFlTklZb1hUOURXSzJKeWt2aVBTLUhNVnEwT3g0a25PU1l4OU5ST0F4OUs5dw?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-07-30T07:00:00.000Z",
+   "companySlug": "stack-cursor",
+   "kind": "product",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOGdrUjh2R000YnZ5S3pMUjBMQVZCSUxaTzRXbmxxdkZRZWlFWFdydFZrYjhSYXZRc3pfWVhHMWYwdFZkTmhhSVFXNTctVGVXTWRtMWZkZElvc2VRM0hqbTNKMUQ4WUVjWDRlNG1LMnhJUUhsLUs1SkxXNm1zNUFlTklZb1hUOURXSzJKeWt2aVBTLUhNVnEwT3g0a25PU1l4OU5ST0F4OUs5dw?oc=5"
+    }
+   ],
+   "baseScore": 1.65,
+   "track": "stack"
+  },
+  {
    "id": "9b39916dc208",
    "title": "How Vercel Runs on AI Agents: 96% of Marketing, 93% of Support, and an SDR Team Reabsorbed. A Deep Dive With CPO Tom Occhino",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPajNmQ2xwSlJMZEdOZFQ2OHB0Yk9oc05VQ05rNGNNUEF5Y2Z5ZlA0NE5FSjdhc0RHZ01yUjBLSjRxcnBsQU1VaTZUeERta1E4YThtNjlUMEhFZmJvZEpaUnJ5N2p2a0Jqb0V1b0k0SFNRSWRSTGlFeTlmdkQ1UVRwZmVWMGRSYXpld2hrbjIxdkZYNzZpRmRMWTBwTlZmSEZfNTBSZGVVSGplU29YLUJhZzh5dU4tdUxpbFNNZFNEQ0tTTTAzLVR3dzFIa2xTelFuT0NzbktVWWlkZw?oc=5",
@@ -5676,23 +6415,6 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
-  },
-  {
-   "id": "9bb6e9f81f60",
-   "title": "Silicon Valley’s AI Giants Go Shopping Off Their Turf",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjlOUzdEV1RMNDcxRkVodGg5UUJKQ25oNkFQZmxYczFmeHBiUUp3dzdlak1FbmlsUjBQZ29BYkpESE5ZTmtyTTNhYXZ5eUVJWkhPNloxalpabGZFSTVORTlaQU1Zbll6akdpdHhiWWhJRHJkcGU5Ui0tZWhJYnZadWhyM3ZsT1lmTlFKLUJFVDF6anBYWlRnTDlQN29rOUhVYjRPV1BqQlBzakFvQWc?oc=5",
-   "domain": "pymnts.com",
-   "publishedAt": "2026-07-30T16:46:05.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjlOUzdEV1RMNDcxRkVodGg5UUJKQ25oNkFQZmxYczFmeHBiUUp3dzdlak1FbmlsUjBQZ29BYkpESE5ZTmtyTTNhYXZ5eUVJWkhPNloxalpabGZFSTVORTlaQU1Zbll6akdpdHhiWWhJRHJkcGU5Ui0tZWhJYnZadWhyM3ZsT1lmTlFKLUJFVDF6anBYWlRnTDlQN29rOUhVYjRPV1BqQlBzakFvQWc?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
   },
   {
    "id": "36ea99d46acc",
@@ -5714,38 +6436,21 @@
    "track": "stack"
   },
   {
-   "id": "bf31c52c32b0",
-   "title": "Safe",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE95MXRKTjRpLUhfQmhXNnhtY2Y5aGpHWjhQckF6b0dfY2VoYWlGX0NUX05oY2hsM2JoMFRUa1ZxbjFrQmZBa01Ta253?oc=5",
-   "domain": "theblock.co",
+   "id": "9bb6e9f81f60",
+   "title": "Silicon Valley’s AI Giants Go Shopping Off Their Turf",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjlOUzdEV1RMNDcxRkVodGg5UUJKQ25oNkFQZmxYczFmeHBiUUp3dzdlak1FbmlsUjBQZ29BYkpESE5ZTmtyTTNhYXZ5eUVJWkhPNloxalpabGZFSTVORTlaQU1Zbll6akdpdHhiWWhJRHJkcGU5Ui0tZWhJYnZadWhyM3ZsT1lmTlFKLUJFVDF6anBYWlRnTDlQN29rOUhVYjRPV1BqQlBzakFvQWc?oc=5",
+   "domain": "pymnts.com",
    "publishedAt": "2026-07-30T07:00:00.000Z",
-   "companySlug": "chainopera-ai",
+   "companySlug": "midjourney",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE95MXRKTjRpLUhfQmhXNnhtY2Y5aGpHWjhQckF6b0dfY2VoYWlGX0NUX05oY2hsM2JoMFRUa1ZxbjFrQmZBa01Ta253?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjlOUzdEV1RMNDcxRkVodGg5UUJKQ25oNkFQZmxYczFmeHBiUUp3dzdlak1FbmlsUjBQZ29BYkpESE5ZTmtyTTNhYXZ5eUVJWkhPNloxalpabGZFSTVORTlaQU1Zbll6akdpdHhiWWhJRHJkcGU5Ui0tZWhJYnZadWhyM3ZsT1lmTlFKLUJFVDF6anBYWlRnTDlQN29rOUhVYjRPV1BqQlBzakFvQWc?oc=5"
     }
    ],
    "baseScore": 1.1,
    "track": "company"
-  },
-  {
-   "id": "20888cb54862",
-   "title": "Anthropic says Claude models ‘gained unauthorized access’ to 3 companies during cyber test",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlBQd0ZtRVozMGllWHIyUmh0dkstVDN0OXg0WFhJZnFzd3hMZEd5WGZfMU9xS09pV0lQWUlWZmN0LS0wVFNHZk9UMUZkTUd0YVBKaXFOalVLVXhxMGV6NTJINjY3MFIzT0lpMnZvbFpJVzF3ekw2RUhqM3VaNnJJSzRZeHFRUEhaZzBYMy1KZ9IBlAFBVV95cUxQOVNRTEwzTXMzNDAycVZSN3hxYXAtSF9Sd1R3ZXNIQ1ZuVnJDOEE3LVlOUm1pWjdZOElPRkEzczZkWFZMajNwOVFjWEl3a0J1VHpWZlQzVFdkdlpIS0xSZ0FSUzR6MERuX3I5a2V5RExvT3pJaVRzYWlTeUdUM2h4cWhCNHp1WjREVU8yVnlnbmRRdjRi?oc=5",
-   "domain": "thehill.com",
-   "publishedAt": "2026-07-30T07:00:00.000Z",
-   "companySlug": "stack-claude",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlBQd0ZtRVozMGllWHIyUmh0dkstVDN0OXg0WFhJZnFzd3hMZEd5WGZfMU9xS09pV0lQWUlWZmN0LS0wVFNHZk9UMUZkTUd0YVBKaXFOalVLVXhxMGV6NTJINjY3MFIzT0lpMnZvbFpJVzF3ekw2RUhqM3VaNnJJSzRZeHFRUEhaZzBYMy1KZ9IBlAFBVV95cUxQOVNRTEwzTXMzNDAycVZSN3hxYXAtSF9Sd1R3ZXNIQ1ZuVnJDOEE3LVlOUm1pWjdZOElPRkEzczZkWFZMajNwOVFjWEl3a0J1VHpWZlQzVFdkdlpIS0xSZ0FSUzR6MERuX3I5a2V5RExvT3pJaVRzYWlTeUdUM2h4cWhCNHp1WjREVU8yVnlnbmRRdjRi?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
   },
   {
    "id": "5dbf403bd896",
@@ -5816,6 +6521,23 @@
    "track": "stack"
   },
   {
+   "id": "76126eec92f9",
+   "title": "With a stateless makeover, new MCP spec targets enterprise scale",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRFE2MGVGclktVHNJNk5mX1daT0d0OWNYc05qbTJEal9QV2pJa0xvUXEydGlVZzFsdVo0NzlBd1hUV1lablo4M1NtTnQwVXNjQWp1LUN4UU1pWW1hbDZfNVg0S1dTV1NBYXJ2QV9TYTBiVVBVYTZzNUZmcjlRckFXNjYwM25yOE00ZHhpaHIxYkJMbzNHV1JhV0l6NWxlMXBR?oc=5",
+   "domain": "arstechnica.com",
+   "publishedAt": "2026-07-30T07:00:00.000Z",
+   "companySlug": "stack-mcp",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRFE2MGVGclktVHNJNk5mX1daT0d0OWNYc05qbTJEal9QV2pJa0xvUXEydGlVZzFsdVo0NzlBd1hUV1lablo4M1NtTnQwVXNjQWp1LUN4UU1pWW1hbDZfNVg0S1dTV1NBYXJ2QV9TYTBiVVBVYTZzNUZmcjlRckFXNjYwM25yOE00ZHhpaHIxYkJMbzNHV1JhV0l6NWxlMXBR?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "18213529079e",
    "title": "Alberobello marks 30 years as UNESCO site: commemorative postmark and",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd3BNRmh2MlhLR2xiOFpvdXV6MXV0bzRrQ3VsRURxbkVIRkh5NGdVQ19qMVdnVXY4NWV4WWI4aWtvaC0tTW5yWWtUbWVSV244Zmg0TVh0S0FfVVpsRklLSm83STBiYXRtOXpwd1VkUVRVeVh1dGdlUzBYU1VHTjI1LVR0OUxWTkJCV0xycWZueWJZUmIta1BhLUNlXy0tWUwxR05LdXJ2ek8yMzdr?oc=5",
@@ -5833,17 +6555,17 @@
    "track": "stack"
   },
   {
-   "id": "76126eec92f9",
-   "title": "With a stateless makeover, new MCP spec targets enterprise scale",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRFE2MGVGclktVHNJNk5mX1daT0d0OWNYc05qbTJEal9QV2pJa0xvUXEydGlVZzFsdVo0NzlBd1hUV1lablo4M1NtTnQwVXNjQWp1LUN4UU1pWW1hbDZfNVg0S1dTV1NBYXJ2QV9TYTBiVVBVYTZzNUZmcjlRckFXNjYwM25yOE00ZHhpaHIxYkJMbzNHV1JhV0l6NWxlMXBR?oc=5",
-   "domain": "arstechnica.com",
+   "id": "20888cb54862",
+   "title": "Anthropic says Claude models ‘gained unauthorized access’ to 3 companies during cyber test",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlBQd0ZtRVozMGllWHIyUmh0dkstVDN0OXg0WFhJZnFzd3hMZEd5WGZfMU9xS09pV0lQWUlWZmN0LS0wVFNHZk9UMUZkTUd0YVBKaXFOalVLVXhxMGV6NTJINjY3MFIzT0lpMnZvbFpJVzF3ekw2RUhqM3VaNnJJSzRZeHFRUEhaZzBYMy1KZ9IBlAFBVV95cUxQOVNRTEwzTXMzNDAycVZSN3hxYXAtSF9Sd1R3ZXNIQ1ZuVnJDOEE3LVlOUm1pWjdZOElPRkEzczZkWFZMajNwOVFjWEl3a0J1VHpWZlQzVFdkdlpIS0xSZ0FSUzR6MERuX3I5a2V5RExvT3pJaVRzYWlTeUdUM2h4cWhCNHp1WjREVU8yVnlnbmRRdjRi?oc=5",
+   "domain": "thehill.com",
    "publishedAt": "2026-07-30T07:00:00.000Z",
-   "companySlug": "stack-mcp",
+   "companySlug": "stack-claude",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRFE2MGVGclktVHNJNk5mX1daT0d0OWNYc05qbTJEal9QV2pJa0xvUXEydGlVZzFsdVo0NzlBd1hUV1lablo4M1NtTnQwVXNjQWp1LUN4UU1pWW1hbDZfNVg0S1dTV1NBYXJ2QV9TYTBiVVBVYTZzNUZmcjlRckFXNjYwM25yOE00ZHhpaHIxYkJMbzNHV1JhV0l6NWxlMXBR?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlBQd0ZtRVozMGllWHIyUmh0dkstVDN0OXg0WFhJZnFzd3hMZEd5WGZfMU9xS09pV0lQWUlWZmN0LS0wVFNHZk9UMUZkTUd0YVBKaXFOalVLVXhxMGV6NTJINjY3MFIzT0lpMnZvbFpJVzF3ekw2RUhqM3VaNnJJSzRZeHFRUEhaZzBYMy1KZ9IBlAFBVV95cUxQOVNRTEwzTXMzNDAycVZSN3hxYXAtSF9Sd1R3ZXNIQ1ZuVnJDOEE3LVlOUm1pWjdZOElPRkEzczZkWFZMajNwOVFjWEl3a0J1VHpWZlQzVFdkdlpIS0xSZ0FSUzR6MERuX3I5a2V5RExvT3pJaVRzYWlTeUdUM2h4cWhCNHp1WjREVU8yVnlnbmRRdjRi?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -6051,7 +6773,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2081790522461675763",
-     "points": 1561
+     "points": 1560
     }
    ],
    "baseScore": 2.68,
@@ -6120,6 +6842,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BVE1UdnNURWZXWHE3dlU1Q0NDanNJdlRWODRrenIwTGZiSFBYTk02QUs4bEtRUmRuZU5vMlBmQm1TNGtXblhzdGVrM1E4R01JYkpnQ3MzUldxOHJJejRXeU9uQndxM2REOXZyN1Y5ckFsNjRq?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "d4c7d0fdac74",
+   "title": "OpenRouter Financials Suggest Steep Price For Possible Acquirer Stripe",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcjVHSVRDOGVRbkIxWXZQMHRxSWE5dUJPdDYtRHVoUlF6dzlsX0lLTEYxNFAwcnRVc1FtSEgtdEl3TmRuaVZsVE1yQ3ptU0ZOVzhkTG11bmFteGpRRDlqRUs2LU9OLVNxR1p0aEtwWVVQZjRaa2VSUFktd1F2a3BBTVR5YnhHTXJxeHdmY1o4Qmd5Z2I5azF2d2ZNU1FhdEFIbWtYU0VUWjlhdw?oc=5",
+   "domain": "theinformation.com",
+   "publishedAt": "2026-07-29T07:00:00.000Z",
+   "companySlug": "stack-openrouter",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcjVHSVRDOGVRbkIxWXZQMHRxSWE5dUJPdDYtRHVoUlF6dzlsX0lLTEYxNFAwcnRVc1FtSEgtdEl3TmRuaVZsVE1yQ3ptU0ZOVzhkTG11bmFteGpRRDlqRUs2LU9OLVNxR1p0aEtwWVVQZjRaa2VSUFktd1F2a3BBTVR5YnhHTXJxeHdmY1o4Qmd5Z2I5azF2d2ZNU1FhdEFIbWtYU0VUWjlhdw?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -6281,23 +7020,6 @@
    "track": "stack"
   },
   {
-   "id": "8c75df503d6a",
-   "title": "Artisan Partners (NYSE:APAM) Surprises With Q2 CY2026 Sales",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObUxWZG16UUpxZDBTZmFMTE5La05yZXNUczIycjZuNHZ2SUx5aktuWnNiNkVsdVZ0ZWJuZkw4MU0wNkFTelRFM3lOdV9UaTZvMjcwblRDQmZCVk5iMHFwN3dySGFQLU40Q04yRkN2eEhyU2loblhMMDBBdUgzMHlkaFZPMFZTdTdIb3FYSEFvQW9RSk96eUlfRVZ0Z09PeEh3dUdmbXowMGs4ZjZKLUUwc2lmSjBHcHVldDEzVkNLbjdxQXJxX1ExSDBGN1dPSHR3MVByOWRVVEg?oc=5",
-   "domain": "theglobeandmail.com",
-   "publishedAt": "2026-07-28T21:48:00.000Z",
-   "companySlug": "artisan",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObUxWZG16UUpxZDBTZmFMTE5La05yZXNUczIycjZuNHZ2SUx5aktuWnNiNkVsdVZ0ZWJuZkw4MU0wNkFTelRFM3lOdV9UaTZvMjcwblRDQmZCVk5iMHFwN3dySGFQLU40Q04yRkN2eEhyU2loblhMMDBBdUgzMHlkaFZPMFZTdTdIb3FYSEFvQW9RSk96eUlfRVZ0Z09PeEh3dUdmbXowMGs4ZjZKLUUwc2lmSjBHcHVldDEzVkNLbjdxQXJxX1ExSDBGN1dPSHR3MVByOWRVVEg?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
    "id": "8817ff21150e",
    "title": "@Bencera: Watch it on YouTube: https://t.co/WsjdlngjDM Thanks to @sapiom @sciforium @i_zerbib for helping me kill the bill.",
    "url": "https://x.com/Bencera/status/2081790524835713481",
@@ -6395,6 +7117,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPenRjR2dJOExKY0kzcXFaZWR0UnljclE5UUdfYUg2cUhTRUpidnlZa2FjVmpUZzNVdUxLV1lpbXRzMklkeGNicXV0VVNlZEFQRjZtN3YyLTZ5S2ZPRVdwNTRIRmlvLVRnaUZZSFdkd1NfUlFOTnIwSTZNU1hOakRvM3NOWUtHS3hzenk5c1lpZ2tUajQxMkt5clFtdGJtUllMOUlZUUpUSUdwb05uVDhYTDJqbk4wRW1fOVd3LUZ3a1NfY2VlVmdJZmVWYTJVLXMyc3lESUxSLTc2U2VnWVBLdTZONVFjLVJxNUIyUVpNRHFSdEVNTGxIVlBFaGQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "2454ac2268f0",
+   "title": "Cursor Debuts ₹649 India Plan as AI Price Battle Heats Up",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRVFFLTXJUUmx5MXBlLWIxajQ4aXRBUGE5dW1IblQybEdFaktYWWRDOVE3dWlubEdfSV9JY1ZGdFpLMFpONTJZTG5VaGxCLVpEMWJJUVV2X3pyRER3RDduS3llT2RCTVJY?oc=5",
+   "domain": "sqmagazine.co.uk",
+   "publishedAt": "2026-07-28T10:51:12.000Z",
+   "companySlug": "stack-cursor",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRVFFLTXJUUmx5MXBlLWIxajQ4aXRBUGE5dW1IblQybEdFaktYWWRDOVE3dWlubEdfSV9JY1ZGdFpLMFpONTJZTG5VaGxCLVpEMWJJUVV2X3pyRER3RDduS3llT2RCTVJY?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -6520,6 +7259,23 @@
    "track": "company"
   },
   {
+   "id": "8c75df503d6a",
+   "title": "Artisan Partners (NYSE:APAM) Surprises With Q2 CY2026 Sales",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObUxWZG16UUpxZDBTZmFMTE5La05yZXNUczIycjZuNHZ2SUx5aktuWnNiNkVsdVZ0ZWJuZkw4MU0wNkFTelRFM3lOdV9UaTZvMjcwblRDQmZCVk5iMHFwN3dySGFQLU40Q04yRkN2eEhyU2loblhMMDBBdUgzMHlkaFZPMFZTdTdIb3FYSEFvQW9RSk96eUlfRVZ0Z09PeEh3dUdmbXowMGs4ZjZKLUUwc2lmSjBHcHVldDEzVkNLbjdxQXJxX1ExSDBGN1dPSHR3MVByOWRVVEg?oc=5",
+   "domain": "theglobeandmail.com",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "artisan",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObUxWZG16UUpxZDBTZmFMTE5La05yZXNUczIycjZuNHZ2SUx5aktuWnNiNkVsdVZ0ZWJuZkw4MU0wNkFTelRFM3lOdV9UaTZvMjcwblRDQmZCVk5iMHFwN3dySGFQLU40Q04yRkN2eEhyU2loblhMMDBBdUgzMHlkaFZPMFZTdTdIb3FYSEFvQW9RSk96eUlfRVZ0Z09PeEh3dUdmbXowMGs4ZjZKLUUwc2lmSjBHcHVldDEzVkNLbjdxQXJxX1ExSDBGN1dPSHR3MVByOWRVVEg?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
+  },
+  {
    "id": "2f63abf69858",
    "title": "An Anthropic Claude AI Model Finds Flaws in Tough-to-Crack Encryption Algorithms",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMUZ6UGlFUVFUZk51VFBqdW9TcThwY21DVDRvVkhVRWJSNnM2LUtBQm52MC1TcVhyS1hXMWpmRVhNNkM0cVk4WFVsWG1nRVR0bVJnTHk4eWxMZU5SQUtVRVlzaHVPMHZ3bHlSLXRHRlFjSUQ1Ylo2V3JMOUlnNUh4b2dBVzhBOFFzN0RtcHJhdE1fUQ?oc=5",
@@ -6548,23 +7304,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13elp4eC1EQlJMdmtBdDZYaGQ0UXJoVE9sOGNtSDZIRFRYV3pkU1E4TnlNX3BTai1QVjduNVJUampVZGVySmlKRmVtcUFXcDBlNFVTQVdHN2ZiUUdjSlNtLUhXb3JialVEWGprd0tjdUVZQ2dhSFExaUtoTQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "b75a3e2dc6df",
-   "title": "AI Agents Gain Financial Independence: Apify Adds 20,000 Tools to Coinbase’s x402 Standard",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQi1VSjE5M1RybHc0dU1XQkRoSGVDWnRMekZnM1hTX3V0c1phRlhUZkltXzVEUzJJMGJYZHJ6Nkg3WEZNaU5Zd2ZFckh1eXJNNWc1ckl6d1ZSZC1mSnh6UWh0aGhqMHRNTFkzR0gtMVhHV2NvaFA1Ri1FMUh4OVNjcDJ0SXBSZmtfaDBnN1E3WTN0U2d0bHNLYUUzOGNBanpreV9SMmV4VFR0R2xWTTdiWQ?oc=5",
-   "domain": "ffnews.com",
-   "publishedAt": "2026-07-28T07:00:00.000Z",
-   "companySlug": "stack-apify",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQi1VSjE5M1RybHc0dU1XQkRoSGVDWnRMekZnM1hTX3V0c1phRlhUZkltXzVEUzJJMGJYZHJ6Nkg3WEZNaU5Zd2ZFckh1eXJNNWc1ckl6d1ZSZC1mSnh6UWh0aGhqMHRNTFkzR0gtMVhHV2NvaFA1Ri1FMUh4OVNjcDJ0SXBSZmtfaDBnN1E3WTN0U2d0bHNLYUUzOGNBanpreV9SMmV4VFR0R2xWTTdiWQ?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -6616,6 +7355,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbG9iY1dlT2d6ZWZXYU5YOVljdWtMbzF2ZFVzTUI2MkV3NjJkZlowTVc0RmFiUXFQMWVEdXhWbHlFMzdCdG5fcE1HRFJkWV9NV0R1ck5oTVYwQ1JnQW1LcnlkRjNFdkUzQl9QZnNfdHNHM1FWVkxLX2dNT1ZCLXp6eTFrRWEyc0x4WURFNTlXMVRIQQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "b75a3e2dc6df",
+   "title": "AI Agents Gain Financial Independence: Apify Adds 20,000 Tools to Coinbase’s x402 Standard",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQi1VSjE5M1RybHc0dU1XQkRoSGVDWnRMekZnM1hTX3V0c1phRlhUZkltXzVEUzJJMGJYZHJ6Nkg3WEZNaU5Zd2ZFckh1eXJNNWc1ckl6d1ZSZC1mSnh6UWh0aGhqMHRNTFkzR0gtMVhHV2NvaFA1Ri1FMUh4OVNjcDJ0SXBSZmtfaDBnN1E3WTN0U2d0bHNLYUUzOGNBanpreV9SMmV4VFR0R2xWTTdiWQ?oc=5",
+   "domain": "ffnews.com",
+   "publishedAt": "2026-07-28T07:00:00.000Z",
+   "companySlug": "stack-apify",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQi1VSjE5M1RybHc0dU1XQkRoSGVDWnRMekZnM1hTX3V0c1phRlhUZkltXzVEUzJJMGJYZHJ6Nkg3WEZNaU5Zd2ZFckh1eXJNNWc1ckl6d1ZSZC1mSnh6UWh0aGhqMHRNTFkzR0gtMVhHV2NvaFA1Ri1FMUh4OVNjcDJ0SXBSZmtfaDBnN1E3WTN0U2d0bHNLYUUzOGNBanpreV9SMmV4VFR0R2xWTTdiWQ?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -6919,6 +7675,23 @@
    "track": "stack"
   },
   {
+   "id": "c26f6f97f5ff",
+   "title": "Why CoreWeave Stock Fell 30% in Just 1 Month",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS1BFS2szLTNRWHU2T3NGRE1UanVna2xicENndXFkZ0ZFUmZWb0VtaWJBVHZJLVM1VFh3cGw4MU4tamdfS21rVC02Vm5TRnBiUFpPUlc4aVNjYkwwaFZuOEU0R2Z4Y0g1YWhhSkZlOTNLRW5GeVB5RjVCZlV6ek0zMEJnT1dOVkxzeWl0bEdhWQ?oc=5",
+   "domain": "fool.com",
+   "publishedAt": "2026-07-26T07:00:00.000Z",
+   "companySlug": "stack-coreweave",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS1BFS2szLTNRWHU2T3NGRE1UanVna2xicENndXFkZ0ZFUmZWb0VtaWJBVHZJLVM1VFh3cGw4MU4tamdfS21rVC02Vm5TRnBiUFpPUlc4aVNjYkwwaFZuOEU0R2Z4Y0g1YWhhSkZlOTNLRW5GeVB5RjVCZlV6ek0zMEJnT1dOVkxzeWl0bEdhWQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "dfb01010aa85",
    "title": "Midjourney’s astrology expansion brings AI to the soul",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeXZSVl9ZcXFWNl9TeDlCUTVEaXJvbG9SazhrYl9SRXctWV9JUkwwZ3B3SW5vUEVvczAwc0t6WlNRWlVGaFdNRTRjamM0VFFlTHRIZFdmVzhsWHhLYnI3bFUwb3FEMkhJQk12TTdnMC1PV2hXNjJQaXY3by05VG5sZzF3Y3NwTXhvT3c?oc=5",
@@ -7171,23 +7944,6 @@
    "track": "stack"
   },
   {
-   "id": "941fcf3f074d",
-   "title": "US-based platform Vercel acquires Egyptian tech infrastructure startup Stakpak",
-   "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE8zT3l0MFU2TFpzeWJ5UnluTGxFSldUbDZoN3g5T2k5NWZuak5fQjlyd3NZMTZ1a19DZnB3c1BhYw?oc=5",
-   "domain": "jawlah.co",
-   "publishedAt": "2026-07-23T07:00:00.000Z",
-   "companySlug": "stack-vercel",
-   "kind": "funding",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE8zT3l0MFU2TFpzeWJ5UnluTGxFSldUbDZoN3g5T2k5NWZuak5fQjlyd3NZMTZ1a19DZnB3c1BhYw?oc=5"
-    }
-   ],
-   "baseScore": 2.4,
-   "track": "stack"
-  },
-  {
    "id": "a8551acc8186",
    "title": "Egyptian infrastructure startup Stakpak acquired by US cloud company Vercel -",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZk1oWlFPQmF4NWdDM3ZrZ2dGa2FZY0phX2dldkdNdlV0TFplSVRSRHVxb094RU5HMGlSa2VkZGNpSW1McXVKWUhKTFNFN0JDZko3Sm9pMFNpQWpOcGpVS3hBU2tWUUNQSThOVDYxdVZ6eG5EczZyU0RKa19HZVVLMDFLTEo5dkY2VjNodDB4cFd4S1NWYmdCT2xkVE40bTdsQ003QjNrSjc2Q0VMMzA4OFVoSQ?oc=5",
@@ -7199,6 +7955,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZk1oWlFPQmF4NWdDM3ZrZ2dGa2FZY0phX2dldkdNdlV0TFplSVRSRHVxb094RU5HMGlSa2VkZGNpSW1McXVKWUhKTFNFN0JDZko3Sm9pMFNpQWpOcGpVS3hBU2tWUUNQSThOVDYxdVZ6eG5EczZyU0RKa19HZVVLMDFLTEo5dkY2VjNodDB4cFd4S1NWYmdCT2xkVE40bTdsQ003QjNrSjc2Q0VMMzA4OFVoSQ?oc=5"
+    }
+   ],
+   "baseScore": 2.4,
+   "track": "stack"
+  },
+  {
+   "id": "941fcf3f074d",
+   "title": "US-based platform Vercel acquires Egyptian tech infrastructure startup Stakpak",
+   "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE8zT3l0MFU2TFpzeWJ5UnluTGxFSldUbDZoN3g5T2k5NWZuak5fQjlyd3NZMTZ1a19DZnB3c1BhYw?oc=5",
+   "domain": "jawlah.co",
+   "publishedAt": "2026-07-23T07:00:00.000Z",
+   "companySlug": "stack-vercel",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE8zT3l0MFU2TFpzeWJ5UnluTGxFSldUbDZoN3g5T2k5NWZuak5fQjlyd3NZMTZ1a19DZnB3c1BhYw?oc=5"
     }
    ],
    "baseScore": 2.4,
@@ -7268,7 +8041,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2080058852767302134",
-     "points": 135
+     "points": 134
     }
    ],
    "baseScore": 2.25,
@@ -7672,6 +8445,23 @@
    "track": "stack"
   },
   {
+   "id": "6bcc0cff6147",
+   "title": "AMD Fires Back At NVIDIA’s Groq Bet, Fuses The Cerebras Wafer-Scale Engine With Helios For 5x Higher Tokens Per Second Per Watt",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeVU5S04wUHdkX0szVWpmazFXUEVFRUJJNFJLMllyc3BsbmIxUkJUeVhYV25NNmZVTUNoVlpYcGMweTFmN0lucGJQalZYZWpkd1lJZ3BaaHBNemdBUldWMzVDd05OdDd1Rm56UXNqbmpOcF9zMTRFME5xYmRkcVZaOXFwNk02NVFSTFhGOFV4ZEl1WDhURGtQUWZIM3BhS21ON2w1VXMyTUV4Zk1BdTgtNWdQOFgxYTR3QWZKRFl3MHVqazJNN192cWNOckJkZFhhTF96d2FjZFVYcmlFX2QycdIB5gFBVV95cUxOaWFaUnBra1k3VmZETDV6TmdDWXo0dWljV2lNRW4zSzE4aDhyLVpzQkFjR1FsT0Z6MnhFMU01NnNwaFhiaUIwSlV1SjdFaVhNa0VWVkhsUVE0eFc3Q1ZvZ0Zpc1RhSlpzbkNmZGlSdG5JbUl5V04wOVFRVV9CR3h6aWh4ckRMTlRPSUEyOXBYMEVLVmlzQ2RfWkVsMlBDWlBaWnlSVi12Uzl2anpRWjFuNWowTWV4T1U2QVVJWnUzRk5vajNuNEZjblVYMU1hZjl5UUxzdnhPQTZXS0hLT0xiaFJJMDZXZw?oc=5",
+   "domain": "wccftech.com",
+   "publishedAt": "2026-07-23T07:00:00.000Z",
+   "companySlug": "stack-groq",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeVU5S04wUHdkX0szVWpmazFXUEVFRUJJNFJLMllyc3BsbmIxUkJUeVhYV25NNmZVTUNoVlpYcGMweTFmN0lucGJQalZYZWpkd1lJZ3BaaHBNemdBUldWMzVDd05OdDd1Rm56UXNqbmpOcF9zMTRFME5xYmRkcVZaOXFwNk02NVFSTFhGOFV4ZEl1WDhURGtQUWZIM3BhS21ON2w1VXMyTUV4Zk1BdTgtNWdQOFgxYTR3QWZKRFl3MHVqazJNN192cWNOckJkZFhhTF96d2FjZFVYcmlFX2QycdIB5gFBVV95cUxOaWFaUnBra1k3VmZETDV6TmdDWXo0dWljV2lNRW4zSzE4aDhyLVpzQkFjR1FsT0Z6MnhFMU01NnNwaFhiaUIwSlV1SjdFaVhNa0VWVkhsUVE0eFc3Q1ZvZ0Zpc1RhSlpzbkNmZGlSdG5JbUl5V04wOVFRVV9CR3h6aWh4ckRMTlRPSUEyOXBYMEVLVmlzQ2RfWkVsMlBDWlBaWnlSVi12Uzl2anpRWjFuNWowTWV4T1U2QVVJWnUzRk5vajNuNEZjblVYMU1hZjl5UUxzdnhPQTZXS0hLT0xiaFJJMDZXZw?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "92599ba8651a",
    "title": "Firecrawl Pricing 2026: Plans, Credits and Cost Per Page",
    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rT3RvM0NuQ3RPRzFFYVVfOHUzYUxxM1Q4M19jdVJhUjJpYmM5ZXk5TWctaVBNY2lHQmRxYXVCUGllLTZlZ1ZtS0tCSzR5dm8?oc=5",
@@ -7967,6 +8757,23 @@
    "track": "stack"
   },
   {
+   "id": "0ba33f570dda",
+   "title": "CoreWeave, DigitalOcean, Nebius win analyst support amid AI inference shift",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR2pBcUJEX3dJRWxGOEpQLW9nbnlXUEUxWXktWDhRTUduejFoZ250RU9UWUtNak4xa3JDc253QzJEVGhGX3dUbUVTZFpyU2pGYk1fVnFWVmd1R3luMkJOQkJVb25iekMySEl1dzdBRGs4VjJvUnJ2N0dvQ0FkNGpjNXVBUkhqZm5MQVl5OXB0OExmUXFDdFB1ZWtMTmY5dHZZSVR1ajNGc2M?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-07-22T07:00:00.000Z",
+   "companySlug": "stack-digitalocean",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR2pBcUJEX3dJRWxGOEpQLW9nbnlXUEUxWXktWDhRTUduejFoZ250RU9UWUtNak4xa3JDc253QzJEVGhGX3dUbUVTZFpyU2pGYk1fVnFWVmd1R3luMkJOQkJVb25iekMySEl1dzdBRGs4VjJvUnJ2N0dvQ0FkNGpjNXVBUkhqZm5MQVl5OXB0OExmUXFDdFB1ZWtMTmY5dHZZSVR1ajNGc2M?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "e302ec53bed0",
    "title": "Supabase - 2026 Funding Rounds & List of Investors",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNmx6bk5lSllRZlIwQUtUMFJuR2RhRWUzYXJtYjhjMGFkUGp2ZzNZUjJ5dEduOE5aaGFPUnZvUzRaUGgyMXNRSkFPdjlqRTNEVjJxYlVXOWxweUJ1Q0o4ZTRoZEhaY0d6M08tcGlFZWFFdUNId21nYjlzR2ViLUgzMTRjZGU4a3ZQRWdCb0xQcEp4Q0VRY09oc0JIa2E3VnJWZGNqMWxNTFpxQVk?oc=5",
@@ -8216,6 +9023,23 @@
    "track": "stack"
   },
   {
+   "id": "44e101c7e44c",
+   "title": "Chinese AI agent outperforms Anthropic’s Claude Code in autonomous research",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSXJuMjJKb1l6ajJGdjVnMnV3YmppZmtTN2JMRWpuRktyam9NcXg2MkhtbjYwWG1zR0l1SEdmMzU4eDk5MXdZODl3RVlkdU9Jbk5wLV8xbUNKQ2VKdE56d2F3a1Y3NzNROTA1d2N3d1dJVi1kbVZtUVFLZHlJbzRZYnBaTjZjWmQ4Y1hwcWI3bng1N0ZhRlVpZ2RpWG5IVDlZb1dHajNSX0x4dXY4Zy1vV0IwWjBielhCWWYzcTFqX2RZS2Vhc1HSAcYBQVVfeXFMT0NxY1hqdEhNY3NaRGkwX1lOelI2cW5XLVN4TmV2T2U0SXdqY2lJTW5sRFBPaGR0NkpEYV82dnhGZ0ZDWWNWblJFNzRERGdhd003VUdQQ2g4amN2ZXRlTW1hQUhwY0txVVcxeVozTkwtR01iMV9vajFqWFdTWEdiWWVpUHRWX1VxbjllRWxueWZWamNEd2k2OFV4TEhkS3JxazFjdVdkYjZQSkl0ZXpqXzh6eWVVUnZIRHhLc3RKX1o4X0U3RHZ3?oc=5",
+   "domain": "scmp.com",
+   "publishedAt": "2026-07-21T07:00:00.000Z",
+   "companySlug": "stack-claude-code",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSXJuMjJKb1l6ajJGdjVnMnV3YmppZmtTN2JMRWpuRktyam9NcXg2MkhtbjYwWG1zR0l1SEdmMzU4eDk5MXdZODl3RVlkdU9Jbk5wLV8xbUNKQ2VKdE56d2F3a1Y3NzNROTA1d2N3d1dJVi1kbVZtUVFLZHlJbzRZYnBaTjZjWmQ4Y1hwcWI3bng1N0ZhRlVpZ2RpWG5IVDlZb1dHajNSX0x4dXY4Zy1vV0IwWjBielhCWWYzcTFqX2RZS2Vhc1HSAcYBQVVfeXFMT0NxY1hqdEhNY3NaRGkwX1lOelI2cW5XLVN4TmV2T2U0SXdqY2lJTW5sRFBPaGR0NkpEYV82dnhGZ0ZDWWNWblJFNzRERGdhd003VUdQQ2g4amN2ZXRlTW1hQUhwY0txVVcxeVozTkwtR01iMV9vajFqWFdTWEdiWWVpUHRWX1VxbjllRWxueWZWamNEd2k2OFV4TEhkS3JxazFjdVdkYjZQSkl0ZXpqXzh6eWVVUnZIRHhLc3RKX1o4X0U3RHZ3?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "8e2ad7537330",
    "title": "Meta’s AI Incubator Is Developing an OpenRouter Rival to Cut Coding Costs",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGdQQ202bE1TVlRUcUpHLWlYaHk3eVdhNjdwdlNPX0R2UEc0V2JEMTdXX00tS0tWYnBkdEpGR3NwZVo2S2JfbXFiMUU1aTM3Vm9DcDBuQThEZHJLVkR1QWhxTW1nQUU3Z1gtbloxZm5TZllTcWwyYmtsSkJQZzREcGpwd095RzRXRmprMXBFVlZVcUFDOEJ1ZURtRFpiZ09UYU8wd3dB?oc=5",
@@ -8227,6 +9051,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGdQQ202bE1TVlRUcUpHLWlYaHk3eVdhNjdwdlNPX0R2UEc0V2JEMTdXX00tS0tWYnBkdEpGR3NwZVo2S2JfbXFiMUU1aTM3Vm9DcDBuQThEZHJLVkR1QWhxTW1nQUU3Z1gtbloxZm5TZllTcWwyYmtsSkJQZzREcGpwd095RzRXRmprMXBFVlZVcUFDOEJ1ZURtRFpiZ09UYU8wd3dB?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "219751cfbf37",
+   "title": "Happyrobot Inc. announced that it expects to receive $125.713932 million in funding",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNY0JDVTNVemtBZ3plMDBBalRHS3VOT1JFanRtVldsdGRieUUxQ2NaZWpGcnJwRUlGQ0NESk1hNndTM0d1ZlZOZTktRWFuV0NPR0JHTDFRRi1uRjFYclY0cjdUb014VDhXcmMzSDdEYWNMaVVXV1dETlpyQWNrOHF3V19ISmoxNmFpYWNYMEhNVXFxUmJ5a1NoRGtGdjltdVVGS0JuSTVPbXNZaUtRSXJNZnhjby1tWTdNaVZadGstaGhWbzNXMkx6Z1N4N2FpSDg?oc=5",
+   "domain": "marketscreener.com",
+   "publishedAt": "2026-07-21T07:00:00.000Z",
+   "companySlug": "stack-happyrobot",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNY0JDVTNVemtBZ3plMDBBalRHS3VOT1JFanRtVldsdGRieUUxQ2NaZWpGcnJwRUlGQ0NESk1hNndTM0d1ZlZOZTktRWFuV0NPR0JHTDFRRi1uRjFYclY0cjdUb014VDhXcmMzSDdEYWNMaVVXV1dETlpyQWNrOHF3V19ISmoxNmFpYWNYMEhNVXFxUmJ5a1NoRGtGdjltdVVGS0JuSTVPbXNZaUtRSXJNZnhjby1tWTdNaVZadGstaGhWbzNXMkx6Z1N4N2FpSDg?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -8320,23 +9161,6 @@
    "track": "stack"
   },
   {
-   "id": "3e6951c55cf4",
-   "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWDNUVmE2SkJYTld0S2FyQ3FsVTN0QngweFpYWkxLeW1FNFJyNXhrNmF3d3ljbDZJZW9zMWZuTnkyak5vRTg0N2R5MC1KeWI5U05UbHktWTRaY1JveGtHdDBQLWcwX0VzcHpqTmxsMXFWeHgxUjAwcWRqNXQyNkFsRUZaWTlldWxsVGYyelFXR19NSEtQUFBpY3lGRXg4RU1KLWE4RDhXaDRWQdIBrwFBVV95cUxNMFl6UmZQc0tFdTdVUEZhdm1IbEMxdnFueE1uV1AyLWJRUHhWTnJKUUNkRWx3VFFVcW5ZRWdySTVfY3JsMENiUGR6b08wMDlFT2RnYlpER1RWM2xEbzZvUTViRGc0NmZndXNXd0RpS0ZCSUkxY3JoOVhnRWtWbEp6aG9IWnJrbG82SFpuQTBvZkF5ZlluX2xNaWxrWS1tUmM4LTRmOVRCNWQ5aDdCZVFV?oc=5",
-   "domain": "bleepingcomputer.com",
-   "publishedAt": "2026-07-20T07:00:00.000Z",
-   "companySlug": "stack-cursor",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWDNUVmE2SkJYTld0S2FyQ3FsVTN0QngweFpYWkxLeW1FNFJyNXhrNmF3d3ljbDZJZW9zMWZuTnkyak5vRTg0N2R5MC1KeWI5U05UbHktWTRaY1JveGtHdDBQLWcwX0VzcHpqTmxsMXFWeHgxUjAwcWRqNXQyNkFsRUZaWTlldWxsVGYyelFXR19NSEtQUFBpY3lGRXg4RU1KLWE4RDhXaDRWQdIBrwFBVV95cUxNMFl6UmZQc0tFdTdVUEZhdm1IbEMxdnFueE1uV1AyLWJRUHhWTnJKUUNkRWx3VFFVcW5ZRWdySTVfY3JsMENiUGR6b08wMDlFT2RnYlpER1RWM2xEbzZvUTViRGc0NmZndXNXd0RpS0ZCSUkxY3JoOVhnRWtWbEp6aG9IWnJrbG82SFpuQTBvZkF5ZlluX2xNaWxrWS1tUmM4LTRmOVRCNWQ5aDdCZVFV?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "7c4d1f482d86",
    "title": "Agent swarms and the new model economics",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGeWUxQmdKX1g3cUJ3VkE1TmxhckE5Z05PVFN2a1FmWWw0MXdWUzdqZXA4aEtVSDhVUXhIdXRWcF8yY1VaSFpCaTdlY1pvZTJmdGtSbFB2WW8tV0JQcGRoSg?oc=5",
@@ -8388,6 +9212,23 @@
    "track": "stack"
   },
   {
+   "id": "3e6951c55cf4",
+   "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWDNUVmE2SkJYTld0S2FyQ3FsVTN0QngweFpYWkxLeW1FNFJyNXhrNmF3d3ljbDZJZW9zMWZuTnkyak5vRTg0N2R5MC1KeWI5U05UbHktWTRaY1JveGtHdDBQLWcwX0VzcHpqTmxsMXFWeHgxUjAwcWRqNXQyNkFsRUZaWTlldWxsVGYyelFXR19NSEtQUFBpY3lGRXg4RU1KLWE4RDhXaDRWQdIBrwFBVV95cUxNMFl6UmZQc0tFdTdVUEZhdm1IbEMxdnFueE1uV1AyLWJRUHhWTnJKUUNkRWx3VFFVcW5ZRWdySTVfY3JsMENiUGR6b08wMDlFT2RnYlpER1RWM2xEbzZvUTViRGc0NmZndXNXd0RpS0ZCSUkxY3JoOVhnRWtWbEp6aG9IWnJrbG82SFpuQTBvZkF5ZlluX2xNaWxrWS1tUmM4LTRmOVRCNWQ5aDdCZVFV?oc=5",
+   "domain": "bleepingcomputer.com",
+   "publishedAt": "2026-07-20T07:00:00.000Z",
+   "companySlug": "stack-cursor",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWDNUVmE2SkJYTld0S2FyQ3FsVTN0QngweFpYWkxLeW1FNFJyNXhrNmF3d3ljbDZJZW9zMWZuTnkyak5vRTg0N2R5MC1KeWI5U05UbHktWTRaY1JveGtHdDBQLWcwX0VzcHpqTmxsMXFWeHgxUjAwcWRqNXQyNkFsRUZaWTlldWxsVGYyelFXR19NSEtQUFBpY3lGRXg4RU1KLWE4RDhXaDRWQdIBrwFBVV95cUxNMFl6UmZQc0tFdTdVUEZhdm1IbEMxdnFueE1uV1AyLWJRUHhWTnJKUUNkRWx3VFFVcW5ZRWdySTVfY3JsMENiUGR6b08wMDlFT2RnYlpER1RWM2xEbzZvUTViRGc0NmZndXNXd0RpS0ZCSUkxY3JoOVhnRWtWbEp6aG9IWnJrbG82SFpuQTBvZkF5ZlluX2xNaWxrWS1tUmM4LTRmOVRCNWQ5aDdCZVFV?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "e9cfad2f6df7",
    "title": "@Bencera: Founder mode is the only mode",
    "url": "https://x.com/Bencera/status/2078492034202235336",
@@ -8399,7 +9240,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2078492034202235336",
-     "points": 210
+     "points": 209
     }
    ],
    "baseScore": 2.13,
@@ -8457,6 +9298,23 @@
    ],
    "baseScore": 1.91,
    "track": "company"
+  },
+  {
+   "id": "5fd43cb3bf84",
+   "title": "China’s Z.ai reaches USD 1 billion in ARR after 15-fold growth in six months - kr-asia.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLUNuNDZmOTN4SUl1MVJnU2w0alBHOXJTQjlocXYzMVBhMDJvWUVMZXNLTURtQ25PMkxvcWthS0pidVRZUHJHTHNKV1R2YllUNHFhcFdKanJBMUstY0VTRGVuSWUyMFk4dUZxOXdnWmhyazIxV3NRUjJKRnRxeTlPcXo1eTNHZWhta0tvZVp2RElIZDVNZ0J2MHB5QQ?oc=5",
+   "domain": "kr-asia.com",
+   "publishedAt": "2026-07-17T07:00:00.000Z",
+   "companySlug": "stack-z-ai",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLUNuNDZmOTN4SUl1MVJnU2w0alBHOXJTQjlocXYzMVBhMDJvWUVMZXNLTURtQ25PMkxvcWthS0pidVRZUHJHTHNKV1R2YllUNHFhcFdKanJBMUstY0VTRGVuSWUyMFk4dUZxOXdnWmhyazIxV3NRUjJKRnRxeTlPcXo1eTNHZWhta0tvZVp2RElIZDVNZ0J2MHB5QQ?oc=5"
+    }
+   ],
+   "baseScore": 2.4,
+   "track": "stack"
   },
   {
    "id": "9731f4b5b199",
@@ -8641,23 +9499,6 @@
    "track": "company"
   },
   {
-   "id": "4e43a4ecb985",
-   "title": "‘Culture of secrecy’: PM won’t answer what Rudd and Gillard revealed",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOM3g1QUN6a0RQU3BrdnN1REJUMGFkQV9ka3JFcFBqYUY5dFkwNW5DN3ZzY1VidWcxeGtPR0VGcV9fYlNEMGtudFViVFhhenlRUTVsZFBheEdqSWhQVEhzdkgxS3M2VXpsN2d0S0ZOR0U2Qm9URzZfUDg4eGxod1hrRFBjUzNoeFAtR183Ty1HQjNLT3NrSHZmQkVQR29yakM0YVllR056c3ZqM2k2dHhWeWtYUnJFbG9Pd2NEa3J6dzlCc3BoS1JiUDlTMkxMekd6OE5NRklaa0J5WUdzYzY2d0EyejNFSGFVR014Ty1YQWdwSC1QdzZTRVpfU0FnaTZNcmtwb3pCWdIBjAJBVV95cUxOTXEtYW9oVndhS0hhYk1SNkVkcTlXVzlaUUd5Rk5iOHU4cXVTUER2VUxsNVlVcHBXRjR2bFdjb0hLbGluMlFWVjA5X3RSNjY1ZHlOX3ljeEJLak5MXzVKY3NYcHNEM2VLSGdkbFExYWxCMHlXY3ZfWWx0ckk2bDU5Mk1GTFoxN2oxVkIzQjlUZnBYNGhEQmNROEJTUzhaQklsLWNXMFRGZmdMRGU2WWsyRUhyRTNhSnlHa3JXMnkzVXc5Q2w1a2tacFlDV0lCOXBtV3luM0ZzSjBoVFExNVpQTWpsdVd4WjdtSEpFd3Y2bk9yZVNxaFZ3dDBEeDFVZmNtdHJWOU5UZUpxQzBp?oc=5",
-   "domain": "theaustralian.com.au",
-   "publishedAt": "2026-07-17T07:00:00.000Z",
-   "companySlug": "payman",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOM3g1QUN6a0RQU3BrdnN1REJUMGFkQV9ka3JFcFBqYUY5dFkwNW5DN3ZzY1VidWcxeGtPR0VGcV9fYlNEMGtudFViVFhhenlRUTVsZFBheEdqSWhQVEhzdkgxS3M2VXpsN2d0S0ZOR0U2Qm9URzZfUDg4eGxod1hrRFBjUzNoeFAtR183Ty1HQjNLT3NrSHZmQkVQR29yakM0YVllR056c3ZqM2k2dHhWeWtYUnJFbG9Pd2NEa3J6dzlCc3BoS1JiUDlTMkxMekd6OE5NRklaa0J5WUdzYzY2d0EyejNFSGFVR014Ty1YQWdwSC1QdzZTRVpfU0FnaTZNcmtwb3pCWdIBjAJBVV95cUxOTXEtYW9oVndhS0hhYk1SNkVkcTlXVzlaUUd5Rk5iOHU4cXVTUER2VUxsNVlVcHBXRjR2bFdjb0hLbGluMlFWVjA5X3RSNjY1ZHlOX3ljeEJLak5MXzVKY3NYcHNEM2VLSGdkbFExYWxCMHlXY3ZfWWx0ckk2bDU5Mk1GTFoxN2oxVkIzQjlUZnBYNGhEQmNROEJTUzhaQklsLWNXMFRGZmdMRGU2WWsyRUhyRTNhSnlHa3JXMnkzVXc5Q2w1a2tacFlDV0lCOXBtV3luM0ZzSjBoVFExNVpQTWpsdVd4WjdtSEpFd3Y2bk9yZVNxaFZ3dDBEeDFVZmNtdHJWOU5UZUpxQzBp?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
    "id": "4248cf4a277f",
    "title": "Startup OpenRouter Fields Multibillion-Dollar Takeover Interest",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN2VQbmhORjk3WnBTTzJEUDM4cy1kZFJBV3U5R3BzZ1NYejVKbkNWZWtoN3NlWFFGbXBmVHpDZVhLbnBJWGZHcmtZdEh5Z2tOdHFXbERyZUlTRXM5SVVlSU5seHF0V0VEVW9IcExlT21aeG9EWGJwUmVWWFdQNVQzaFhRekc2cVM0Q0JRdEF4LWN6WlpiaHhSRFFyekFaRE5aR2FBNmtLdw?oc=5",
@@ -8673,6 +9514,23 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
+  },
+  {
+   "id": "4e43a4ecb985",
+   "title": "‘Culture of secrecy’: PM won’t answer what Rudd and Gillard revealed",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOM3g1QUN6a0RQU3BrdnN1REJUMGFkQV9ka3JFcFBqYUY5dFkwNW5DN3ZzY1VidWcxeGtPR0VGcV9fYlNEMGtudFViVFhhenlRUTVsZFBheEdqSWhQVEhzdkgxS3M2VXpsN2d0S0ZOR0U2Qm9URzZfUDg4eGxod1hrRFBjUzNoeFAtR183Ty1HQjNLT3NrSHZmQkVQR29yakM0YVllR056c3ZqM2k2dHhWeWtYUnJFbG9Pd2NEa3J6dzlCc3BoS1JiUDlTMkxMekd6OE5NRklaa0J5WUdzYzY2d0EyejNFSGFVR014Ty1YQWdwSC1QdzZTRVpfU0FnaTZNcmtwb3pCWdIBjAJBVV95cUxOTXEtYW9oVndhS0hhYk1SNkVkcTlXVzlaUUd5Rk5iOHU4cXVTUER2VUxsNVlVcHBXRjR2bFdjb0hLbGluMlFWVjA5X3RSNjY1ZHlOX3ljeEJLak5MXzVKY3NYcHNEM2VLSGdkbFExYWxCMHlXY3ZfWWx0ckk2bDU5Mk1GTFoxN2oxVkIzQjlUZnBYNGhEQmNROEJTUzhaQklsLWNXMFRGZmdMRGU2WWsyRUhyRTNhSnlHa3JXMnkzVXc5Q2w1a2tacFlDV0lCOXBtV3luM0ZzSjBoVFExNVpQTWpsdVd4WjdtSEpFd3Y2bk9yZVNxaFZ3dDBEeDFVZmNtdHJWOU5UZUpxQzBp?oc=5",
+   "domain": "theaustralian.com.au",
+   "publishedAt": "2026-07-17T07:00:00.000Z",
+   "companySlug": "payman",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOM3g1QUN6a0RQU3BrdnN1REJUMGFkQV9ka3JFcFBqYUY5dFkwNW5DN3ZzY1VidWcxeGtPR0VGcV9fYlNEMGtudFViVFhhenlRUTVsZFBheEdqSWhQVEhzdkgxS3M2VXpsN2d0S0ZOR0U2Qm9URzZfUDg4eGxod1hrRFBjUzNoeFAtR183Ty1HQjNLT3NrSHZmQkVQR29yakM0YVllR056c3ZqM2k2dHhWeWtYUnJFbG9Pd2NEa3J6dzlCc3BoS1JiUDlTMkxMekd6OE5NRklaa0J5WUdzYzY2d0EyejNFSGFVR014Ty1YQWdwSC1QdzZTRVpfU0FnaTZNcmtwb3pCWdIBjAJBVV95cUxOTXEtYW9oVndhS0hhYk1SNkVkcTlXVzlaUUd5Rk5iOHU4cXVTUER2VUxsNVlVcHBXRjR2bFdjb0hLbGluMlFWVjA5X3RSNjY1ZHlOX3ljeEJLak5MXzVKY3NYcHNEM2VLSGdkbFExYWxCMHlXY3ZfWWx0ckk2bDU5Mk1GTFoxN2oxVkIzQjlUZnBYNGhEQmNROEJTUzhaQklsLWNXMFRGZmdMRGU2WWsyRUhyRTNhSnlHa3JXMnkzVXc5Q2w1a2tacFlDV0lCOXBtV3luM0ZzSjBoVFExNVpQTWpsdVd4WjdtSEpFd3Y2bk9yZVNxaFZ3dDBEeDFVZmNtdHJWOU5UZUpxQzBp?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
   },
   {
    "id": "8014fea4b304",
@@ -8756,95 +9614,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTBUV3VuSHRPM1IzN29RUklDUDNGTEFmdUd4dXdVQ1k0dF8tWFJUbVdOcnpPN0dqbFJlNmZ4cGY5NFNjbGdlM01CeWttbjB3TlhRZHdhNS01cUkwNHU5b3l6VGtvQWdkcV9FZmFzT1FnWUt0MnFkRXc0dWFtRzdnd2h1OUxERE1jNGlzV1pFcmx6QjhxX2xZVDZXRjZfem11TTl3WW1pNzhYN3U0d0Y5RllwMUE1aURISHg1TWh2aWVmY3lX?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
-   "id": "106a99cf50b5",
-   "title": "CoreWeave considers derivatives to hedge against falling memory prices",
-   "url": "https://finance.yahoo.com/markets/options/articles/exclusive-ai-cloud-company-coreweave-235016062.html",
-   "domain": "finance.yahoo.com",
-   "publishedAt": "2026-07-15T03:14:01Z",
-   "companySlug": "stack-coreweave",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48915811",
-     "points": 3,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.34,
-   "track": "stack"
-  },
-  {
-   "id": "ce0f82b8722a",
-   "title": "CoreWeave explores Wall Street playbook to hedge memory-chip price risk",
-   "url": "https://www.reuters.com/world/ai-cloud-company-coreweave-explores-wall-street-playbook-hedge-memory-chip-price-2026-07-14/",
-   "domain": "reuters.com",
-   "publishedAt": "2026-07-15T00:53:11Z",
-   "companySlug": "stack-coreweave",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=48914901",
-     "points": 3,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.34,
-   "track": "stack"
-  },
-  {
-   "id": "ad6207ff6b87",
-   "title": "DigitalOcean Announces Repurchase of Up to $500.0 Million Aggregate Principal Amount of 2030 Convertible Senior Notes. The Transaction Will Be Funded by a Concurrent Registered Direct Offering of Common Stock.",
-   "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQbTIwOTgtTjJqTS1kWHlzeDJ3QmNET3hmaXI0WW1xcFZwdVF4WUMtOHFxXzh5dTRnd18xMktnb2xjbUs0NVRtaHNKU3BrSkJIY2ZGVHhYcVNlbVlveGx1WnY4cWhLYlo0bGNLcGNRTE5jU1Q4MmRCcktLVFlPVHFnS2R3bGNZRHpfUUtWYnJmS2J3WElwS1dZS0h2Yk1ib0t0SGpKekt6ckt2Vm1EdXNneTIzdG9sVDYyYlZqeXdJVFBDYW1zTi1uaU1JNG5MQUJ6dlJaSThDdmp6Q2ZQclYwaTE3ZExQUnJBc1hHWDR4OFJ0WVp6Rm1vblhYV3FNejRhajFZMlN0OTVBbG9rSmVCeTlwNkU2OTQ5RzJyRmQ5QXBmVFU1VC1RNWNJanNJU1RkSmw5OVF1aU9PeWQ2eGM4OWE2TjdXamhNQy1uOE1Mc1diZzhYdTFvYzJuLVNxbFhCNVZ5QzBZWlV3NTJpaGhibVVhYTZxU3Nxd3RkSG9jQ1gxUQ?oc=5",
-   "domain": "businesswire.com",
-   "publishedAt": "2026-07-15T07:00:00.000Z",
-   "companySlug": "stack-digitalocean",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQbTIwOTgtTjJqTS1kWHlzeDJ3QmNET3hmaXI0WW1xcFZwdVF4WUMtOHFxXzh5dTRnd18xMktnb2xjbUs0NVRtaHNKU3BrSkJIY2ZGVHhYcVNlbVlveGx1WnY4cWhLYlo0bGNLcGNRTE5jU1Q4MmRCcktLVFlPVHFnS2R3bGNZRHpfUUtWYnJmS2J3WElwS1dZS0h2Yk1ib0t0SGpKekt6ckt2Vm1EdXNneTIzdG9sVDYyYlZqeXdJVFBDYW1zTi1uaU1JNG5MQUJ6dlJaSThDdmp6Q2ZQclYwaTE3ZExQUnJBc1hHWDR4OFJ0WVp6Rm1vblhYV3FNejRhajFZMlN0OTVBbG9rSmVCeTlwNkU2OTQ5RzJyRmQ5QXBmVFU1VC1RNWNJanNJU1RkSmw5OVF1aU9PeWQ2eGM4OWE2TjdXamhNQy1uOE1Mc1diZzhYdTFvYzJuLVNxbFhCNVZ5QzBZWlV3NTJpaGhibVVhYTZxU3Nxd3RkSG9jQ1gxUQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "4d343583a803",
-   "title": "Together, Runpod and Nebius capitalize on AWS GPU shortages to lure AI startups",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmLV9TbFEwc1J4YU1WeXlNS29Dd3JITUdlaV9VQlFxYnBUdTI0djcwQTVVRjl2TnJkak8xQmNyMndyVU95Y2ZLVWh0NENNUkZNZWMzQ0RZZHN3LU1fTVBjd014clVWM3RBV3ZNRHRYVHdEaHFpQmtR?oc=5",
-   "domain": "cryptobriefing.com",
-   "publishedAt": "2026-07-15T07:00:00.000Z",
-   "companySlug": "stack-runpod",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmLV9TbFEwc1J4YU1WeXlNS29Dd3JITUdlaV9VQlFxYnBUdTI0djcwQTVVRjl2TnJkak8xQmNyMndyVU95Y2ZLVWh0NENNUkZNZWMzQ0RZZHN3LU1fTVBjd014clVWM3RBV3ZNRHRYVHdEaHFpQmtR?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "13c2c75d9f0b",
-   "title": "USC Advances Humanoid Robotics, Robot Learning and 3D Manipulation at RSS 2026",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWw5d0U4bkxndDJ4eE1HaDVrY25XM1lxbnBLM1BKOEVrNW1qOW5RdDYtV3c2cG1yQk1VN3ZfMGdBaFYyTUNGc3NibktzeGZ0c0pObEt0ZkU5aE53S1FzdWx4a05aeGV2dDVXZHFLSUQ4aXRvX1FTLWdpYnBjejlWZ0J5X25hTHQ3cFdyZjMwTGlQUkdiQVVBN21qMWlkVUwwc3RHal9ZeV95WElMci1GN1d3aW5oXzFvaDBhVVp3?oc=5",
-   "domain": "viterbischool.usc.edu",
-   "publishedAt": "2026-07-15T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWw5d0U4bkxndDJ4eE1HaDVrY25XM1lxbnBLM1BKOEVrNW1qOW5RdDYtV3c2cG1yQk1VN3ZfMGdBaFYyTUNGc3NibktzeGZ0c0pObEt0ZkU5aE53S1FzdWx4a05aeGV2dDVXZHFLSUQ4aXRvX1FTLWdpYnBjejlWZ0J5X25hTHQ3cFdyZjMwTGlQUkdiQVVBN21qMWlkVUwwc3RHal9ZeV95WElMci1GN1d3aW5oXzFvaDBhVVp3?oc=5"
     }
    ],
    "baseScore": 1.1,
