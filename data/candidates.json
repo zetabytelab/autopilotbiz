@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-14T08:13:32.726Z",
+ "generatedAt": "2026-08-15T07:30:03.340Z",
  "candidates": [
   {
    "id": "faea8299718d",
@@ -101,6 +101,24 @@
    "status": "new"
   },
   {
+   "id": "d85cd01f6fa2",
+   "name": "Fish Audio",
+   "evidence": [
+    {
+     "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaFV3aDlXcFpxejgwQ05ocWpObXd4VlJBTmlreWxuRW9jMm5mRVJsN1kwaXlJc19HWXdtVnM0WThiZ2NTYkUtSDE2TGliWkpzUzBDN05XWTExSWRscjdNNW95UFVra0lKX0hUVVNJUlBVeEtoUWhDQzlnQkp1c2dqREYwMy1MaGF5VGZYRFlDeXU5TmxQUHBiRVA2VHZFalhURm50TUE4VmxIQ3hOVDhsN0ROWS1fUQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-28T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-15T07:30:03.340Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
    "id": "b243fd507784",
    "name": null,
    "evidence": [
@@ -146,24 +164,6 @@
    "status": "new"
   },
   {
-   "id": "c6a3ab7851d1",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Sequoia leads $45 million bet on Israeli entrepreneur building the next generation of AI employees",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GVXZTcGt5djRlanhoZ2tVcjBFVGt5TG1FTGRydWloX093TDBUTzcyRGJxbUYyREg0SWdHd2l6Zm1ET2piX3dkOVNzZ01mN2hyb3M3NHN2b2hJT0VsRlFkekhaSHhRbUpo?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-16T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:12:08.822Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "05806f33b330",
    "name": null,
    "evidence": [
@@ -171,7 +171,7 @@
      "title": "Exclusive / Startup Sapiom routes clients’ AI to lowest-cost tokens",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanR4X2trS0pNOXFVOXJZRHpGQkl4NTNTOUpCUlJfUGdlYm1ybjVkeVc0RlRPclAwdUUxUFptS3hWNS03dm5WemdQeExNcmpiaDEwR1NST05YczcwaGVFTXUzb0Y0SlRWMnJsUjczVnh2QXd6TXRhNVlsWE9wNGE0OXlOdVB1dXdnYWJwTTFvbkE0eFd3SHItTE50UE56dw?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-08-05T16:19:00.000Z",
+     "publishedAt": "2026-08-05T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -200,6 +200,24 @@
    "status": "new"
   },
   {
+   "id": "5a4b37cc26e3",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Japan becomes a testing ground for AI employees",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLXo5eU9GY1pYcFZiZHBOUGFFdXlkZTR1UnQxOUcyZGh3LV9KeUhYMUd2REtaZEt1aWlhZnROTkF3ZVhjUDhmUERJd2JYWjZMU2VZeUt4WUI5TXdzeWZqblRPLV8ybmswd3VlaHBOYlFqRUJXbDNGSWN0UldwNXRGUDNpWmdEeExRX0RUMg?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-22T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-15T07:30:03.340Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
    "id": "c847c568a23c",
    "name": null,
    "evidence": [
@@ -218,20 +236,20 @@
    "status": "new"
   },
   {
-   "id": "d88087bef58e",
+   "id": "f9bb9f9c02e3",
    "name": null,
    "evidence": [
     {
      "title": "Jaipur AI Startup Vardan.ai Selected by MongoDB for Silicon Valley Founder Program",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdEJyc2RmblVGVlRRREpIM25VTTd1NTczYnBrc3FySFpsb3R3SmNHeXo0dHgtN3ZYOW15VFRTdVpNUWVyeEstdUNMX0N0NFZhNVlvT3VuUmdQS1dhdzRHQ19wakhBaGJ3ckZOaDF1NHM3YmFCaC1SUm16Z3dPNVdBLUpkNEwzbDlkaWVycjZLY3h3YkFFcHZnQkVRQXdxbVA5dFVZVmJ4NVQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeU8wNHhHYTBnanR3ZFgzNmZ3TE11ZVNSZUhfWm9tQWVnMFAwOGdkZVNiaG9iMkxDZXVBV0hPMHFMV1R3eC1TSTZoVHpWcDBkVFZMU0FldEFsODFYZHlqQnFiSVVDWW8xNk9reVJOOU1sMmdwMDM2SjlwV3JreG45TnJ3UWZJSGVfU1l5WTlhdU4xU0dBZTZMcmtwSXhfNjJvdkZXZXRXb2NiYUhpTnFEeGE4bE1SeXZZLXVV0gG7AUFVX3lxTFB5TzA0eEdhMGdqdHdkWDM2ZndMTXVlU1JlSF9ab21BZWcwUDA4Z2RlU2Job2IyTENldUFXSE8wcUxXVHd4LVNJNmhUelZwMGRUVkxTQWV0QWw4MVhkeWpCcWJJVUNZbzE2T2t5Uk45TWwyZ3AwMzZKOXBXcmt4bjlOcndRZklIZV9TWXlZOWF1TjFTR0FlNkxya3BJeF82Mm92RldldFdvY2JhSGlOcUR4YThsTVJ5dlktdVU?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-08-07T10:12:55.000Z",
+     "publishedAt": "2026-08-07T12:21:37.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
     }
    ],
-   "firstSeen": "2026-08-13T08:19:09.844Z",
+   "firstSeen": "2026-08-15T07:30:03.340Z",
    "score": 0.5,
    "status": "new"
   },
@@ -308,24 +326,6 @@
    "status": "new"
   },
   {
-   "id": "5fa8985c37d1",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
-     "url": "https://news.ycombinator.com/item?id=48937020",
-     "source": "hn",
-     "publishedAt": "2026-07-16T16:52:16Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T16:17:31.602Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "f960481db7cd",
    "name": null,
    "evidence": [
@@ -336,6 +336,24 @@
      "publishedAt": "2026-07-25T02:10:59Z",
      "matchedKeywords": [
       "\"AI-run business\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "5fa8985c37d1",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+     "url": "https://news.ycombinator.com/item?id=48937020",
+     "source": "hn",
+     "publishedAt": "2026-07-16T16:52:16Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
      ]
     }
    ],
