@@ -1,33 +1,6 @@
 {
- "generatedAt": "2026-08-16T07:29:36.066Z",
+ "generatedAt": "2026-08-17T07:52:04.656Z",
  "candidates": [
-  {
-   "id": "50034dc880f3",
-   "name": "Smallest.ai",
-   "evidence": [
-    {
-     "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-     "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-     "source": "investor",
-     "publishedAt": "2026-07-31T14:47:11.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
-    },
-    {
-     "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV2tkUENnUm5HSkdObkNiNU1CZEwybnA4X2hCQ216d3FMdFhINmdEWVg0ZzNOQnMwQ0dTMXRHZHpIWVpQSzZhVjVyV19QTklKaXlnd0Y4MUZIcExLU0FFaEZRZnNzeDJaZGxuWkk1Z0d0cWxxR09LM2EzQlJ6X1IxNHZGZnhqMzlGRFd2N25JREl0QU9pTmp1cDlERFJyZEc5azJkb1llNmZoRGhIRWZRZFdHTW8?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-31T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:47:44.945Z",
-   "score": 1.5,
-   "status": "new"
-  },
   {
    "id": "faea8299718d",
    "name": "OpenAI-backed Thrive Holdings",
@@ -74,6 +47,24 @@
    "status": "new"
   },
   {
+   "id": "50034dc880f3",
+   "name": "Smallest.ai",
+   "evidence": [
+    {
+     "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+     "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+     "source": "investor",
+     "publishedAt": "2026-07-31T14:47:11.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T15:47:44.945Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
    "id": "da028bd817c7",
    "name": "Inforcer",
    "evidence": [
@@ -110,24 +101,6 @@
    "status": "new"
   },
   {
-   "id": "678b8918c577",
-   "name": "Encore AI",
-   "evidence": [
-    {
-     "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZVM2M2g4bFd4X0VlNzNTY3Z2TE9hVEsxSk1Rd2o0VFQ5M1VNb25VNVRsd0pMbUNPNVowbGQxa2R4VU5QYWxhREE4WlF2ajJ3SlJaSVlTSV9LMTh5N0ViZkJ2V2JDcFZpcUxOQUU1UzFYd0JfMXBmOXlLb283dXcycldnSUl1VUVZWkd3WGpPR0pPaFhMcnlKVnl4Y1QzNDdzVGZTVkd1R20?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-29T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-16T07:29:36.066Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
    "id": "11e60b0eaade",
    "name": "Natural",
    "evidence": [
@@ -142,24 +115,6 @@
     }
    ],
    "firstSeen": "2026-08-16T07:29:36.066Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "d85cd01f6fa2",
-   "name": "Fish Audio",
-   "evidence": [
-    {
-     "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaFV3aDlXcFpxejgwQ05ocWpObXd4VlJBTmlreWxuRW9jMm5mRVJsN1kwaXlJc19HWXdtVnM0WThiZ2NTYkUtSDE2TGliWkpzUzBDN05XWTExSWRscjdNNW95UFVra0lKX0hUVVNJUlBVeEtoUWhDQzlnQkp1c2dqREYwMy1MaGF5VGZYRFlDeXU5TmxQUHBiRVA2VHZFalhURm50TUE4VmxIQ3hOVDhsN0ROWS1fUQ?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-28T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-15T07:30:03.340Z",
    "score": 1,
    "status": "new"
   },
@@ -188,6 +143,24 @@
    ],
    "firstSeen": "2026-08-14T08:13:32.726Z",
    "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "1ead6db5790c",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Autonomous Company Deep Research Agent Earns a 52 Proof of Usefulness Score by Building Automated VC-Style Company Research Reports",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQlAyZ0dNcDdncWZjX2FpME44UEM4cGs4SzVFZG9CRlRHcWZvV3dSSHRiT3N0OXJZYk9hb2hrc19qa2l0Z3ktZHI4WE1YNmpGMHRGMEpyZDFfbDF5QU43czVvckNDMWxBQUhOOE1NdHNDTlVtUm5JWExTUzdvRno5aGREbjd2UDhkNDNaaTU5QmZLQXZTS3RHVlp3TnhVQnJzem5YSm4wT041LWdOa2N5cVUyanI5a1ZBTlFuZ0hwRjFmazZjQ09zSW5paDZpR0dTcXgzLWM2MmpONzA4SVJZdXVOOG5td215Z1E?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-16T17:34:21.000Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-17T07:52:04.656Z",
+   "score": 0.5,
    "status": "new"
   },
   {
