@@ -112,6 +112,11 @@ export const companies: Company[] = [
       {
         date: "2026-08",
         headline:
+          "DISPUTED: 'hollow shell' allegations — an independent X investigation spot-checked three Polsia-launched businesses and found landing pages with no working product; Trustpilot at 1.9/5 (74 reviews) citing unauthorized redeployments and unapproved cold outreach. Counterpoints: documented rapid autonomous output (Granot, Klinger) and unusual founder transparency — Ben Cera discloses ~50% month-one churn and that ~10% of customer companies have made at least a dollar. An ARR breakdown pegs subscriptions at $6.96M of the $10.22M headline (~1/3 non-recurring).",
+      },
+      {
+        date: "2026-08",
+        headline:
           "Sapiom — the spend-routing layer in Polsia's stack — raises a $35M Series A (Dragonfly lead; Anthropic among the backers). Press coverage credits its task-to-cheapest-model routing in Polsia's $1.2M → $100K bill cut, adding third-party corroboration to the founder-reported arc.",
       },
       {
@@ -139,7 +144,7 @@ export const companies: Company[] = [
       section: "index",
       story:
         "AI runs the company while the founder sleeps; raised $30M at $250M with zero employees. Cut its $1.2M/mo Anthropic bill to ~$100K via open-source inference.",
-      flags: "Figures founder-reported; margin math disputed",
+      flags: "Figures founder-reported; margin math disputed; Aug 2026 'hollow shell' allegations disputed — ARR breakdown shows ~1/3 non-recurring",
     },
   },
   {
