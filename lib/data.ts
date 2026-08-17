@@ -1604,8 +1604,8 @@ export const stackTools: StackTool[] = [
     name: "Firecrawl",
     url: "https://firecrawl.dev",
     role: "Websites → LLM-ready data — the web-reading layer for agent pipelines",
-    // TODO(referral): apply at https://partners.dub.co/firecrawl/apply (25% ×12mo then 15%; Creator/OSS tier 50%) → set referralUrl
-    referral: "Affiliate: 25% for 12 months, then 15%",
+    referral: "Affiliate link — referred users get 20% off for 3 months",
+    referralUrl: "https://firecrawl.link/autopilot-index",
     usedBy: ["Solo builders"],
     category: "agents",
   },
