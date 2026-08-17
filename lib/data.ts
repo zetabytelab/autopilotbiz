@@ -1794,8 +1794,8 @@ export const stackTools: StackTool[] = [
     name: "ElevenLabs",
     url: "https://elevenlabs.io",
     role: "Conversational voice agents — the voice behind 'Rachel' and 'Brigitte'",
-    // TODO(referral): apply at https://elevenlabs.io/affiliates/app/sign-up → set referralUrl
     referral: "Affiliate: 22% of revenue, first 12 months",
+    referralUrl: "https://try.elevenlabs.io/y2flg9vj1gr0",
     usedBy: ["Guinndex", "Le Baguette Index"],
     category: "agents",
   },
