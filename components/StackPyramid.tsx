@@ -34,7 +34,7 @@ export default function StackPyramid() {
                   key={t.name}
                   href={t.referralUrl ?? t.url}
                   target="_blank"
-                  rel="noopener noreferrer sponsored"
+                  rel={t.referralUrl ? "noopener noreferrer sponsored" : "noopener noreferrer"}
                   title={t.role}
                   className={`group flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm transition ${
                     t.referral
@@ -46,7 +46,7 @@ export default function StackPyramid() {
                   <span className="font-medium text-zinc-200 group-hover:text-zinc-50">{t.name}</span>
                   {t.referral && (
                     <span className="rounded-full bg-lime-400/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-lime-400">
-                      offer
+                      pilot&nbsp;perk
                     </span>
                   )}
                 </a>
@@ -58,10 +58,11 @@ export default function StackPyramid() {
 
       <p className="mt-4 max-w-xl text-center text-xs text-zinc-500">
         <span className="rounded-full bg-lime-400/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-lime-400">
-          offer
+          pilot&nbsp;perk
         </span>{" "}
-        = referral program, startup credits or discount available — hover a tool for its role, click to check
-        current terms. Building your own autopilot company? Start at the base and work up.
+        = a deal, credits or discount for you — some are referral links that also support the index (never
+        pay-for-inclusion). Hover a tool for its role, click to check current terms. Building your own autopilot
+        company? Start at the base and work up.
       </p>
     </div>
   );
