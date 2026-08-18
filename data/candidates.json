@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-17T07:52:04.656Z",
+ "generatedAt": "2026-08-18T07:36:00.036Z",
  "candidates": [
   {
    "id": "faea8299718d",
@@ -97,24 +97,6 @@
     }
    ],
    "firstSeen": "2026-08-11T08:09:31.766Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "11e60b0eaade",
-   "name": "Natural",
-   "evidence": [
-    {
-     "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-20T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-16T07:29:36.066Z",
    "score": 1,
    "status": "new"
   },
@@ -243,7 +225,7 @@
      "title": "Why AI Agent Startups Are Becoming The New Solo-Founder Playbook",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVWZGNC1XVjcwYjFaYVpxZVdHekUwSGxOVnk2dkVEeEh6bEZoM3g1eW0zU0s0Z1lzUGNRc2oxMXEwT0ZIRVh4b3JWM252Y1NvZTJjV3FqeWhYQ0lxVWlNeGxmMEJaczF0dmZzWWk2azlPSDJEQVpocVpEdmxFVFVzVVdOX3o0RmpvRFdZMXNEdXZNNDR0aG5RNXN6YS1SVUs0UTFxNFA4d2docGl2a253M0ZqOWhWUQ?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-08-03T07:44:49.000Z",
+     "publishedAt": "2026-08-03T07:00:00.000Z",
      "matchedKeywords": [
       "\"zero employees\" startup AI"
      ]
