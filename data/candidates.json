@@ -1,6 +1,24 @@
 {
- "generatedAt": "2026-08-18T07:36:00.036Z",
+ "generatedAt": "2026-08-19T07:37:03.393Z",
  "candidates": [
+  {
+   "id": "d83ad3025889",
+   "name": "Reach Capital",
+   "evidence": [
+    {
+     "title": "Reach Capital raises $265M Fund V to back AI founders building to ‘expand human potential’",
+     "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/",
+     "source": "investor",
+     "publishedAt": "2026-08-18T11:00:00.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-19T07:37:03.392Z",
+   "score": 1,
+   "status": "new"
+  },
   {
    "id": "faea8299718d",
    "name": "OpenAI-backed Thrive Holdings",
@@ -16,33 +34,6 @@
     }
    ],
    "firstSeen": "2026-08-13T08:19:09.844Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "5cd3a2e884e9",
-   "name": null,
-   "evidence": [
-    {
-     "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-     "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
-     "source": "investor",
-     "publishedAt": "2026-08-03T10:00:00.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
-    },
-    {
-     "title": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers",
-     "url": "https://techcrunch.com/2026/07/31/repeat-founder-ryan-williams-raises-10m-seed-for-an-ai-startup-for-private-credit-managers/",
-     "source": "investor",
-     "publishedAt": "2026-07-31T12:00:00.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:47:44.945Z",
    "score": 1,
    "status": "new"
   },
@@ -65,83 +56,47 @@
    "status": "new"
   },
   {
-   "id": "da028bd817c7",
-   "name": "Inforcer",
+   "id": "97ea3bd650fd",
+   "name": null,
    "evidence": [
     {
-     "title": "Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks",
-     "url": "https://techcrunch.com/2026/07/30/inforcer-raises-50m-to-help-prepare-smbs-for-a-new-world-of-ai-and-security-risks/",
+     "title": "Why AI Agent Startups Are Becoming The New Solo-Founder Playbook",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVWZGNC1XVjcwYjFaYVpxZVdHekUwSGxOVnk2dkVEeEh6bEZoM3g1eW0zU0s0Z1lzUGNRc2oxMXEwT0ZIRVh4b3JWM252Y1NvZTJjV3FqeWhYQ0lxVWlNeGxmMEJaczF0dmZzWWk2azlPSDJEQVpocVpEdmxFVFVzVVdOX3o0RmpvRFdZMXNEdXZNNDR0aG5RNXN6YS1SVUs0UTFxNFA4d2docGl2a253M0ZqOWhWUQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-03T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"zero employees\" startup AI"
+     ]
+    },
+    {
+     "title": "70% Of Businesses Never Sell. AI Is Widening The Gap",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbWxPTkpaWUlOdExBeVM1VmQ3X0puMlhoalZZRUNDUUZjdjQ1d25WX3MwMUhVelNuMVU4WmF3cVpzanExUDVWVWpaX1J6MXBYQXRwc2VpeU43bzFJaFJlNFk3UThGTGt0eWFhOGMyWWlyUzA5QjAwVmM5YV9ES2NxWTBxcWRKZFNhSEtEWE5ybFZPQmVmTHJQZ3diTF9vWkQ4d0J3QWtNaXE?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-07-23T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "5cd3a2e884e9",
+   "name": null,
+   "evidence": [
+    {
+     "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+     "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
      "source": "investor",
-     "publishedAt": "2026-07-30T13:00:00.000Z",
+     "publishedAt": "2026-08-03T10:00:00.000Z",
      "matchedKeywords": [
       "investor:techcrunch-vc"
      ]
     }
    ],
    "firstSeen": "2026-08-10T15:47:44.945Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "d5c67f980dc2",
-   "name": "Runflow",
-   "evidence": [
-    {
-     "title": "Runflow raises R$7M pre-seed to manage corporate AI agents",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWi1OQU0wb3JheHd0SnFkWmNTMDh3ajJmdkVIYnN2U2NVeWg3bl8yNjhIVy1HNFpCa0xpbmM3c09KaUtEaVM1ZzYtdFBIZElybWM4cmEtMk1KbjNsUFVNRDRFalhNd2Itb1RQUTlxZ0tRYUZIM2d0T2xuaEZ2YTRrUS1OSTFyM1JQeFVaOEtEa2pRYnNQWlhF?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-31T05:18:37.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-11T08:09:31.766Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "b243fd507784",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Startup Roundup — Aug 12: $1.1B for a 2-month-old AI startup, 10x valuation jumps, and an AI that hacked a gym",
-     "url": "https://www.reddit.com/r/Superframeworks/comments/1vmfw4i/startup_roundup_aug_12_11b_for_a_2monthold_ai/",
-     "source": "reddit",
-     "publishedAt": "2026-08-12T14:35:16.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    },
-    {
-     "title": "[AI DAILY NEWS RUNDOWN] Nvidia’s $500B Compute Syndicate, OpenAI Launches GPT-5.6-Cyber, and Meta Releases Muse Glimmer (August 11, 2026)",
-     "url": "https://www.reddit.com/r/u_enoumen/comments/1vlvik7/ai_daily_news_rundown_nvidias_500b_compute/",
-     "source": "reddit",
-     "publishedAt": "2026-08-11T22:03:35.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-14T08:13:32.726Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "1ead6db5790c",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Autonomous Company Deep Research Agent Earns a 52 Proof of Usefulness Score by Building Automated VC-Style Company Research Reports",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQlAyZ0dNcDdncWZjX2FpME44UEM4cGs4SzVFZG9CRlRHcWZvV3dSSHRiT3N0OXJZYk9hb2hrc19qa2l0Z3ktZHI4WE1YNmpGMHRGMEpyZDFfbDF5QU43czVvckNDMWxBQUhOOE1NdHNDTlVtUm5JWExTUzdvRno5aGREbjd2UDhkNDNaaTU5QmZLQXZTS3RHVlp3TnhVQnJzem5YSm4wT041LWdOa2N5cVUyanI5a1ZBTlFuZ0hwRjFmazZjQ09zSW5paDZpR0dTcXgzLWM2MmpONzA4SVJZdXVOOG5td215Z1E?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-16T17:34:21.000Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-17T07:52:04.656Z",
    "score": 0.5,
    "status": "new"
   },
@@ -218,20 +173,20 @@
    "status": "new"
   },
   {
-   "id": "97ea3bd650fd",
+   "id": "2c60ceb9872c",
    "name": null,
    "evidence": [
     {
-     "title": "Why AI Agent Startups Are Becoming The New Solo-Founder Playbook",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVWZGNC1XVjcwYjFaYVpxZVdHekUwSGxOVnk2dkVEeEh6bEZoM3g1eW0zU0s0Z1lzUGNRc2oxMXEwT0ZIRVh4b3JWM252Y1NvZTJjV3FqeWhYQ0lxVWlNeGxmMEJaczF0dmZzWWk2azlPSDJEQVpocVpEdmxFVFVzVVdOX3o0RmpvRFdZMXNEdXZNNDR0aG5RNXN6YS1SVUs0UTFxNFA4d2docGl2a253M0ZqOWhWUQ?oc=5",
+     "title": "How Does AI Agent Sandboxing Actually Work, and Why Founders Skip It",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc3JJa2tQSi1GUG0tWHFpU1NjUlNnUDZhQTRhV0lNTDJuTF9FWENfV0FpbzZHSTI4QzJNdXBGdFdUUUdWTy0yQ1NnNVNSV3RqODNHTV83cEJYdUNqMmFPbHpPMjhJVTlLU2hiNEpOOW1RQlQ3MlkwMjlzZDBRSk5YWHl1aWxKb1oycjVWYzZwQ3BoOE9DR2tmTk5Rcw?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-08-03T07:00:00.000Z",
+     "publishedAt": "2026-08-19T02:34:05.000Z",
      "matchedKeywords": [
-      "\"zero employees\" startup AI"
+      "\"agent-run\" startup"
      ]
     }
    ],
-   "firstSeen": "2026-07-13T08:21:28.684Z",
+   "firstSeen": "2026-08-19T07:37:03.392Z",
    "score": 0.5,
    "status": "new"
   },
@@ -286,6 +241,24 @@
     }
    ],
    "firstSeen": "2026-08-10T16:17:31.602Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "b243fd507784",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Startup Roundup — Aug 12: $1.1B for a 2-month-old AI startup, 10x valuation jumps, and an AI that hacked a gym",
+     "url": "https://www.reddit.com/r/Superframeworks/comments/1vmfw4i/startup_roundup_aug_12_11b_for_a_2monthold_ai/",
+     "source": "reddit",
+     "publishedAt": "2026-08-12T14:35:16.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-14T08:13:32.726Z",
    "score": 0.5,
    "status": "new"
   }
