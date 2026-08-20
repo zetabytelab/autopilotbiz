@@ -46,6 +46,9 @@ export default function RootLayout({
               <Link href="/#stack" className="hidden text-zinc-400 hover:text-zinc-100 sm:inline">
                 Stack
               </Link>
+              <Link href="/pulse" className="hidden text-zinc-400 hover:text-zinc-100 sm:inline">
+                Editions
+              </Link>
               <Link href="/submit" className="text-zinc-400 hover:text-zinc-100">
                 Submit
               </Link>
