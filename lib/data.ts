@@ -1613,8 +1613,8 @@ export const stackTools: StackTool[] = [
     name: "n8n",
     url: "https://n8n.io",
     role: "Self-hostable workflow automation with agent nodes — the glue of one-person ops",
-    // TODO(referral): join at https://n8n.io/affiliates/ (30% ×12mo on cloud) → set referralUrl
     referral: "Affiliate: 30% for 12 months (cloud)",
+    referralUrl: "https://n8n.partnerlinks.io/v62otr8v5os3",
     usedBy: ["Solo builders"],
     category: "agents",
   },
