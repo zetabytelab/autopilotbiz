@@ -539,6 +539,12 @@ async function main() {
     "y-combinator": "https://www.ycombinator.com/blog/rss",
     "techcrunch-vc": "https://techcrunch.com/category/venture/feed/",
     strictlyvc: "https://www.strictlyvc.com/feed/",
+    // Accelerator radar (2026-08-20): programs explicitly backing agent-run /
+    // tiny-team companies — demo-day cohorts feed the candidates pipeline.
+    neo: "https://neo.substack.com/feed",
+    spc: "https://blog.southparkcommons.com/feed",
+    a16z: "https://a16z.com/feed/",
+    lobstercap: "https://lobstercap.substack.com/feed",
   };
   for (const [label, url] of Object.entries(INVESTOR_FEEDS)) {
     await runSource(`investor:${label}`, async () => {
