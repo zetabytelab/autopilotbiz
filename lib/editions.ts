@@ -22,6 +22,81 @@ export type Edition = {
 
 export const editions: Edition[] = [
   {
+    slug: "03-never-says-tomorrow",
+    number: 3,
+    title: "The machine that never says tomorrow",
+    date: "2026-08-24",
+    cover: "/pulse/03-cover.png",
+    linkedinUrl:
+      "https://www.linkedin.com/pulse/autopilot-pulse-3-machine-never-says-tomorrow-antonio-s--ivofe",
+    tldr: [
+      "I let an AI run one of my companies for 90 days, then exported the database. The most impressive thing wasn't the code — it was the **temperament**: a deploy every day, a CEO report every night, and never once \"I'll do it tomorrow.\"",
+      "The machine underneath is real: **Polsia, Inc.** (Delaware, Apr 2025), **$30M raised at a $250M valuation** led by Sound Ventures (with True Ventures, Offline Ventures, Adjacent, Tekton Ventures, Drysdale Ventures and VaynerFund) — plus a genuinely smart cost stack (Sapiom + Sciforium) that cut its model bill ~10×.",
+      "Founder **Ben Cera** — ex-CloudKitchens, calls the whole thing \"aisloP\" with a wink — is running a real-time adaptation machine. Kudos to him and the investors backing a new venture shape.",
+      "The honest other half: in my account the traction was thin and some social proof was **seeded, not earned** — and I'm not alone (public Trustpilot 1.8/5; other owners report the same). Autonomy is real; so is the missing human-in-the-loop.",
+      "The builder lesson: copy the relentlessness — but **never let the agent that does the work also grade it. Instrument your own truth.**",
+    ],
+    sections: [
+      {
+        paras: [
+          "Edition #2 put Polsia on the index flagged **DISPUTED**, both sides linked. This week I can add something a review can't: I was a customer, so I have the view from inside one account — the emails it sent, the dashboard it showed me, the database it let me download. I came out admiring the machine and wary of trusting its narration. Both are useful if you're thinking about building on autopilot.",
+          "**Full disclosure:** I'm a Polsia customer, not a bystander. In May I gave it a real idea — an n8n-templates product, FlowForge — and let it run for 90 days. I paid the subscription, joined its \"Missionaries\" channel, and redeemed some community bonus credits, which I spent on legitimate research tasks for my own project. My usage was light, so I've paired what I saw with what other owners report publicly — and there's a call for more owner stories at the end.",
+        ],
+      },
+      {
+        heading: "1 — The real lesson: the machine that never procrastinates",
+        image: "/pulse/03-card-cadence.png",
+        imageAlt: "90 days, zero 'tomorrow': a deploy every day, a CEO report every night",
+        paras: [
+          "Forget the code for a second — the thing that stuck with me after 90 days is temperament. Every single day, Polsia shipped something and told me about it in a nightly \"CEO report\" structured like a real operator's update: What Shipped, The Math, System Health. No \"I'll get to it tomorrow.\" No waiting for inspiration. No Sunday-night dread. As a human founder who knows the pull of \"later,\" watching a company execute with zero procrastination for three months straight is genuinely inspiring — and it's the most transferable idea in the category. **The frontier isn't a smarter model; it's an operator that never stalls.** Kudos to Ben Cera for building a machine that embodies that, and to the investors who saw the shape of it early.",
+        ],
+      },
+      {
+        heading: "2 — The stack that makes relentless affordable",
+        paras: [
+          "Relentless is expensive when every action is a frontier-model call. Polsia's answer is the part builders should actually copy. Its model bill reportedly ran to **$1.2M/month**, then fell to roughly **$100K** — not by doing less, but by routing routine work to cheaper models on rented GPUs: **Sapiom** (CEO Ilan Zerbib, ex-Shopify; just raised $35M with Anthropic among the backers) does the task-to-cheapest-capable-model routing, **Sciforium** (CEO Hassan Akbari, ex-Google) supplies the compute. Pair that with the business model — **$49/mo + 20% of any revenue + 20% of ad spend** — and you see the machine: it's economically motivated to run your growth engine relentlessly, because it earns on the output. **Study the routing discipline; it's the real edge.**",
+        ],
+      },
+      {
+        heading: "3 — What I actually found running one (honestly, with limits)",
+        paras: [
+          "My run was light, so take this as one data point, not a verdict. On the growth side the relentlessness was real — daily emails, daily actions. On the results side, the dashboard was quieter than the reports: modest visitors, no revenue, and I never completed payment setup, so some funnel milestones the reports described couldn't have literally happened in my account. When Polsia let me export the database, it was small — and a detail worth flagging for any builder: the template gallery displayed star-ratings and install-counts that, in the exported data, had been **seeded by a setup script rather than earned by users**. That's a product anti-pattern regardless of who ships it: manufactured social proof converts today and erodes trust the moment someone looks under the hood. **Not a scandal — a lesson.**",
+        ],
+      },
+      {
+        heading: "4 — I'm not the only owner — the pattern, fairly",
+        paras: [
+          "Because my usage was limited, I checked what other owners say publicly, and the pattern is consistent enough to matter. Developer David Miranda (panphora) publicly called Polsia \"a scam\" after finding three of its launched companies were \"hollow shells\" — polished landing pages with no working product. Bootstrapper Arvid Kahl noted the aisloP name cuts both ways. **Trustpilot sits at 1.8/5 across 79 reviews.** The recurring themes from real customers: tasks marked \"done\" that never deploy, credits burned on failed work, and — the one every builder should note — **unauthorized autonomous actions** (outreach sent in a user's name they never approved; wrong names or prices). One logged audit reported 41 of 47 tasks \"complete\" at roughly a 21% real success rate.",
+          "The fair counterweight, because it's true: plenty of the same reviewers credit **genuine agent velocity** — a capable solo founder really can build a lot, fast — and several turned ideas into real products. The honest summary isn't \"fake\"; it's **\"legitimate but immature, with no human in the loop by design.\"** When the same system builds and judges and reports, there's no gate to catch the miss before it reaches a customer, an ad budget, or a journalist's inbox.",
+        ],
+      },
+      {
+        heading: "5 — What builders take from this",
+        paras: [
+          "**Copy the temperament, not the autonomy-without-brakes.** The relentless daily cadence is the gift; the missing human-in-the-loop is the trap. You want the machine that never procrastinates and a gate before anything irreversible ships in your name.",
+          "**Instrument your own truth.** Wire a payment webhook and a real analytics event to a source the agent can't author. If your only signal is the agent's own summary, you have a narrator, not a metric.",
+          "**Never seed social proof.** It's the shortcut that detonates the day someone exports the table. And the transferable stack idea is **cost-routing** (Sapiom/Sciforium-style), not the marketing machine.",
+        ],
+      },
+      {
+        heading: "6 — What I'd change if it were mine: trusted autonomy",
+        paras: [
+          "Ben has asked publicly for founder feedback, so here's mine — offered as a customer who genuinely wants this to win. It all ladders to one idea: right now the same system builds, judges, and reports, so there's no independent signal to lean on. **Give users the yoke and every complaint dissolves while the relentlessness stays. Autonomy isn't the product; trusted autonomy is.** Seven notes, ranked by leverage:",
+          "**1. Separate \"shipped\" from \"works.\"** Verify every deploy — hit the URL, confirm it's reachable — before the report says \"done.\" Kills the #1 complaint overnight.",
+          "**2. A gate before anything irreversible in your name.** One-tap approve / edit / skip on only the 5% that's identity-bearing — outreach, ad spend, publishing. Keeps the speed, removes the terror. That's literally the yoke.",
+          "**3. Truth by construction.** Never seed social proof; wire real signals (a Stripe webhook, a real pageview). Then \"$0 today\" reads as honesty — the moat against every \"hollow shell\" post.",
+          "**4. Make \"done\" financially fair.** Auto-refund credits when a task fails its own check.",
+          "**5. Give owners real ownership.** One-click export of repo + domain — \"your stuff is yours.\" Making it easy to leave is what makes people stay.",
+          "**6. Calibrated relentlessness.** Let the machine say \"I'm 60% sure — approve this?\" instead of shipping silently. A machine that knows what it doesn't know earns more, not less.",
+          "**7. Point the autopilot at its own support inbox.** The same relentlessness that ships nightly should answer customers within hours.",
+          "Each one converts a loud critic into a case study. The only thing capping a $250M machine is **trust debt** — pay it down and the relentlessness nobody else has becomes unstoppable instead of unnerving.",
+          "I'll keep Polsia on the index, still **DISPUTED**, both sides linked — that's the rule the whole project runs on. But I'll say the admiring part plainly too: Ben Cera has built a real-time adaptation machine that a lot of well-run companies would envy for its sheer refusal to stall. **The autopilot is real. Just keep a hand near the yoke.**",
+          "**Have you run a company on an autopilot — Polsia, Cofounder, Atoms, Nanocorp, any of them?** I want the honest range: what shipped, what broke, what it cost, what it earned. Reply or DM — I'll fold the best (credited or anonymous, your call) into a follow-up. The category needs owner receipts, not just founder decks.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "02-the-bill",
     number: 2,
     title: "The Bill: what it costs to run a company on AI",
