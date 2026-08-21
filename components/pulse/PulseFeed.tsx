@@ -24,6 +24,34 @@ const TRACKS: { key: "all" | "company" | "stack"; label: string }[] = [
 // all company signals.
 const trackOf = (i: PulseItem) => i.track ?? (i.companySlug?.startsWith("stack-") ? "stack" : "company");
 
+// Publisher host for a source URL (drops www.; google-news redirects aren't
+// useful publishers). Returns null when it can't be shown.
+function hostLabel(url: string): string | null {
+  try {
+    const h = new URL(url).hostname.replace(/^www\./, "");
+    if (h === "news.google.com") return null;
+    return h;
+  } catch {
+    return null;
+  }
+}
+
+// The distinct publisher sources to offer beyond the headline link, deduped by
+// host and excluding the one the title already points at. Capped for tidiness.
+function extraSources(i: PulseItem): { host: string; url: string }[] {
+  const primary = (i.domain || "").replace(/^www\./, "");
+  const seen = new Set<string>([primary]);
+  const out: { host: string; url: string }[] = [];
+  for (const s of i.sources) {
+    const host = hostLabel(s.url);
+    if (!host || seen.has(host)) continue;
+    seen.add(host);
+    out.push({ host, url: s.url });
+    if (out.length >= 6) break;
+  }
+  return out;
+}
+
 type Props = {
   items: PulseItem[];
   companies: { slug: string; name: string }[];
@@ -202,12 +230,29 @@ export default function PulseFeed({ items, companies, generatedAt }: Props) {
                   <span className="rounded-full bg-zinc-900 px-2 py-0.5 uppercase tracking-wide text-zinc-500">
                     {i.kind}
                   </span>
-                  {i.sources.length > 1 && (
-                    <span className="rounded-full bg-lime-400/10 px-2 py-0.5 text-lime-400">
-                      {i.sources.length} sources
-                    </span>
-                  )}
                 </p>
+                {(() => {
+                  const extra = extraSources(i);
+                  if (extra.length === 0) return null;
+                  return (
+                    <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] text-zinc-600">
+                      <span className="text-zinc-700">also via</span>
+                      {extra.map((s, idx) => (
+                        <span key={s.url} className="inline-flex items-center gap-2">
+                          {idx > 0 && <span className="text-zinc-800">·</span>}
+                          <a
+                            href={s.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-mono text-zinc-500 underline decoration-zinc-800 hover:text-lime-400"
+                          >
+                            {s.host}
+                          </a>
+                        </span>
+                      ))}
+                    </p>
+                  );
+                })()}
               </div>
             </li>
           );

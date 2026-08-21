@@ -425,6 +425,28 @@ function jaccard(a, b) {
   for (const t of a) if (b.has(t)) inter++;
   return inter / (a.size + b.size - inter);
 }
+// Money / M&A vocabulary — deliberately broader than TIER1 (adds buy/join/deal/
+// merger/takeover) because acquisition headlines get re-worded wildly.
+const MONEY_MA = /\b(raises?|raised|series [a-e]\b|seed round|pre-seed|valuation|acquires?|acquired|acquisition|buys?|buying|to buy|bought|merges?|merger|takeover|joins?|joining|snaps? up|strikes? a deal|\bdeal\b|ipo|arr\b|shuts? down|lays? off|layoffs|unicorn)\b/i;
+// Are two stories the same event? Used both within a run and against
+// carried-over items, so a story re-reported on a later day or by another
+// outlet folds its source in instead of spawning a near-duplicate card.
+function isDupCluster(mTokens, mTitle, mSlug, mPub, tokens, title, slug, pub) {
+  const j = jaccard(mTokens, tokens);
+  if (j >= 0.5) return true;
+  if (tokens.size <= 5 && [...tokens].every((t) => mTokens.has(t))) return true;
+  // Same company + both money/M&A headlines + tight window ⇒ almost certainly
+  // the same deal (a company rarely has two distinct money events in 6 days).
+  // A low overlap floor still guards against a raise-vs-acquisition false merge.
+  if (mSlug && mSlug === slug && MONEY_MA.test(mTitle) && MONEY_MA.test(title) &&
+      Math.abs(Date.parse(mPub) - Date.parse(pub)) < 6 * 864e5 && j >= 0.2) return true;
+  return false;
+}
+// A source's identity for display/dedup is its PUBLISHER host (many outlets
+// arrive through one pipeline id like "gnews"), falling back to the pipeline id.
+function srcKey(s) {
+  return hostOf(s.url) || s.id;
+}
 const sha1 = (s) => createHash("sha1").update(s).digest("hex").slice(0, 12);
 
 // ------------------------------------------------------------ classification
@@ -636,15 +658,13 @@ async function main() {
     let target = key && byUrl.get(key);
     if (!target) {
       const tokens = titleTokens(item.title);
-      target = merged.find((m) => {
-        const j = jaccard(m._tokens, tokens);
-        return j >= 0.6 || (tokens.size <= 5 && [...tokens].every((t) => m._tokens.has(t)));
-      });
+      target = merged.find((m) =>
+        isDupCluster(m._tokens, m.title, m.companySlug, m.publishedAt, tokens, item.title, item.companySlug, item.publishedAt),
+      );
     }
     if (target) {
-      if (!target.sources.some((s) => s.id === item.sourceId)) {
-        target.sources.push(srcEntry(item));
-      }
+      const e = srcEntry(item);
+      if (!target.sources.some((s) => srcKey(s) === srcKey(e))) target.sources.push(e);
       if (Date.parse(item.publishedAt) < Date.parse(target.publishedAt)) target.publishedAt = item.publishedAt;
       if ((target.domain ?? "").includes("news.google.com") && !item.url.includes("news.google.com")) {
         target.url = item.url;
@@ -690,13 +710,30 @@ async function main() {
     try {
       const prev = JSON.parse(readFileSync(prevPath, "utf8"));
       const seen = new Set(items.map((i) => i.id));
+      // Cluster carried-over items against the fresh set by title similarity,
+      // not just id — otherwise the same story re-reported on a later day (or
+      // by another outlet) piles up as a near-duplicate card. A match folds its
+      // sources into the existing item; only genuinely new stories are kept.
+      const clusterIdx = items.map((i) => ({ item: i, tokens: titleTokens(i.title) }));
       for (const p of prev.items ?? []) {
         if (seen.has(p.id) || Date.parse(p.publishedAt) < cutoff) continue;
         // Re-validate carried-over company items against current DISAMBIG
         // rules, so a tightened confirm regex also purges old misattributions.
         const dis = p.companySlug && DISAMBIG[p.companySlug];
         if (dis && !dis.confirm.test(p.title)) continue;
+        const ptokens = titleTokens(p.title);
+        const hit = clusterIdx.find(({ item, tokens }) =>
+          isDupCluster(tokens, item.title, item.companySlug, item.publishedAt, ptokens, p.title, p.companySlug, p.publishedAt),
+        );
+        if (hit) {
+          for (const s of p.sources ?? []) {
+            if (!hit.item.sources.some((x) => srcKey(x) === srcKey(s))) hit.item.sources.push(s);
+          }
+          if (Date.parse(p.publishedAt) < Date.parse(hit.item.publishedAt)) hit.item.publishedAt = p.publishedAt;
+          continue;
+        }
         items.push(p);
+        clusterIdx.push({ item: p, tokens: ptokens });
       }
     } catch {}
   }
