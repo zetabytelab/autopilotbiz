@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description:
     "The Autopilot Index, building in public. Live view of what's shipping, the numbers, the tech stack in use, and the growth actions — one operator, agents on the night shift.",
   alternates: { canonical: "/live" },
+  // Private ops cockpit for now — reachable by direct URL, but unlisted and not
+  // indexed until the numbers are a flex, not a tell.
+  robots: { index: false, follow: false },
 };
 
 const TAG_COLORS: Record<string, string> = {

@@ -49,9 +49,6 @@ export default function RootLayout({
               <Link href="/pulse" className="hidden text-zinc-400 hover:text-zinc-100 sm:inline">
                 Editions
               </Link>
-              <Link href="/live" className="hidden text-zinc-400 hover:text-zinc-100 sm:inline">
-                Live
-              </Link>
               <Link href="/submit" className="text-zinc-400 hover:text-zinc-100">
                 Submit
               </Link>
