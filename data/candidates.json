@@ -1,6 +1,33 @@
 {
- "generatedAt": "2026-08-21T07:40:57.379Z",
+ "generatedAt": "2026-08-22T07:29:38.532Z",
  "candidates": [
+  {
+   "id": "5cd3a2e884e9",
+   "name": null,
+   "evidence": [
+    {
+     "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
+     "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
+     "source": "investor",
+     "publishedAt": "2026-08-21T22:10:01.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    },
+    {
+     "title": "For a16z, AI gives foreign founders an advantage",
+     "url": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
+     "source": "investor",
+     "publishedAt": "2026-08-20T13:00:00.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T15:47:44.945Z",
+   "score": 1,
+   "status": "new"
+  },
   {
    "id": "d83ad3025889",
    "name": "Reach Capital",
@@ -38,21 +65,30 @@
    "status": "new"
   },
   {
-   "id": "5cd3a2e884e9",
+   "id": "2c60ceb9872c",
    "name": null,
    "evidence": [
     {
-     "title": "For a16z, AI gives foreign founders an advantage",
-     "url": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
-     "source": "investor",
-     "publishedAt": "2026-08-20T13:00:00.000Z",
+     "title": "How Does AI Agent Sandboxing Actually Work, and Why Founders Skip It",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc3JJa2tQSi1GUG0tWHFpU1NjUlNnUDZhQTRhV0lNTDJuTF9FWENfV0FpbzZHSTI4QzJNdXBGdFdUUUdWTy0yQ1NnNVNSV3RqODNHTV83cEJYdUNqMmFPbHpPMjhJVTlLU2hiNEpOOW1RQlQ3MlkwMjlzZDBRSk5YWHl1aWxKb1oycjVWYzZwQ3BoOE9DR2tmTk5Rcw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-19T02:34:05.000Z",
      "matchedKeywords": [
-      "investor:techcrunch-vc"
+      "\"agent-run\" startup"
+     ]
+    },
+    {
+     "title": "Best AI Agent Platforms for Founders in 2026: A No-Nonsense Comparison",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMzA0bE9xU3hBV21BVTRDQjllblY3RVdDRmVLa0QwU2VrUTloVlpRN3dfbVNFZTV6bzNBRElmc09rUzR5VWJ3UHlGYldOVW9jS3VIZ0Z5dWxVcl9YUzdzVndOVGRsZ0pvazktRmlWT1pFMVk1R1VoOUxQdDlzY1U3R3hxZUdhRktROVBHVVRCbTRERzEyWFFpLTNLSF9Ddw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-04T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
      ]
     }
    ],
-   "firstSeen": "2026-08-10T15:47:44.945Z",
-   "score": 0.5,
+   "firstSeen": "2026-08-19T07:37:03.392Z",
+   "score": 1,
    "status": "new"
   },
   {
@@ -128,38 +164,20 @@
    "status": "new"
   },
   {
-   "id": "2c60ceb9872c",
+   "id": "7f112d5267a1",
    "name": null,
    "evidence": [
     {
-     "title": "How Does AI Agent Sandboxing Actually Work, and Why Founders Skip It",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc3JJa2tQSi1GUG0tWHFpU1NjUlNnUDZhQTRhV0lNTDJuTF9FWENfV0FpbzZHSTI4QzJNdXBGdFdUUUdWTy0yQ1NnNVNSV3RqODNHTV83cEJYdUNqMmFPbHpPMjhJVTlLU2hiNEpOOW1RQlQ3MlkwMjlzZDBRSk5YWHl1aWxKb1oycjVWYzZwQ3BoOE9DR2tmTk5Rcw?oc=5",
+     "title": "[Korean Startup Weekly News #132] Record Investment Surge Powers AI",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xekMzbzBvZC1FR2ZGTUJvcUtYanowV196VjNleVR1eXp0T1pWcnh0bFZ1bmswQ3FZS1RtbUNnQ0hENjRkSEhJbnpGX2RJTUNQRGQ4?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-08-19T02:34:05.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-19T07:37:03.392Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "500d52dbd93e",
-   "name": null,
-   "evidence": [
-    {
-     "title": "AI Is Letting Solo Founders Build Startups Without Hiring. Here's What AI Couldn’t Do for Them",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaUN6TXVjYVphS1ZUY3p1OEJaanBJd1hQTDlldWU0eFRKUEFVY2xxZVMwYzl1TjltUDVFc2hOLWNGdWxYMXozSENkWERwc0g0bkJYTmJSVFlTeWl2SG5jUWxVcXBucnJLMTRUUnVHb2tTMFlnNW9xNjJmNHRydV90ZlpOVVppRTdNT2pKNEgyOHQyd0hq?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-07-23T07:00:00.000Z",
+     "publishedAt": "2026-08-22T06:41:57.000Z",
      "matchedKeywords": [
       "\"solo founder\" AI agents raises"
      ]
     }
    ],
-   "firstSeen": "2026-08-10T15:12:08.822Z",
+   "firstSeen": "2026-08-22T07:29:38.532Z",
    "score": 0.5,
    "status": "new"
   },
@@ -182,24 +200,6 @@
    "status": "new"
   },
   {
-   "id": "f960481db7cd",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Can AI Run a Food Truck Business?",
-     "url": "https://foodtruckbench.com",
-     "source": "hn",
-     "publishedAt": "2026-07-25T02:10:59Z",
-     "matchedKeywords": [
-      "\"AI-run business\""
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T16:17:31.602Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "5fa8985c37d1",
    "name": null,
    "evidence": [
@@ -214,6 +214,24 @@
     }
    ],
    "firstSeen": "2026-08-20T07:39:55.441Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "f960481db7cd",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Can AI Run a Food Truck Business?",
+     "url": "https://foodtruckbench.com",
+     "source": "hn",
+     "publishedAt": "2026-07-25T02:10:59Z",
+     "matchedKeywords": [
+      "\"AI-run business\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-10T16:17:31.602Z",
    "score": 0.5,
    "status": "new"
   }
