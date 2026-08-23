@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-22T07:29:38.532Z",
+ "generatedAt": "2026-08-23T07:32:03.877Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -61,33 +61,6 @@
     }
    ],
    "firstSeen": "2026-08-13T08:19:09.844Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "2c60ceb9872c",
-   "name": null,
-   "evidence": [
-    {
-     "title": "How Does AI Agent Sandboxing Actually Work, and Why Founders Skip It",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc3JJa2tQSi1GUG0tWHFpU1NjUlNnUDZhQTRhV0lNTDJuTF9FWENfV0FpbzZHSTI4QzJNdXBGdFdUUUdWTy0yQ1NnNVNSV3RqODNHTV83cEJYdUNqMmFPbHpPMjhJVTlLU2hiNEpOOW1RQlQ3MlkwMjlzZDBRSk5YWHl1aWxKb1oycjVWYzZwQ3BoOE9DR2tmTk5Rcw?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-19T02:34:05.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    },
-    {
-     "title": "Best AI Agent Platforms for Founders in 2026: A No-Nonsense Comparison",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMzA0bE9xU3hBV21BVTRDQjllblY3RVdDRmVLa0QwU2VrUTloVlpRN3dfbVNFZTV6bzNBRElmc09rUzR5VWJ3UHlGYldOVW9jS3VIZ0Z5dWxVcl9YUzdzVndOVGRsZ0pvazktRmlWT1pFMVk1R1VoOUxQdDlzY1U3R3hxZUdhRktROVBHVVRCbTRERzEyWFFpLTNLSF9Ddw?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-04T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-19T07:37:03.392Z",
    "score": 1,
    "status": "new"
   },
@@ -160,6 +133,24 @@
     }
    ],
    "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "2c60ceb9872c",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Best AI Agent Platforms for Founders in 2026: A No-Nonsense Comparison",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMzA0bE9xU3hBV21BVTRDQjllblY3RVdDRmVLa0QwU2VrUTloVlpRN3dfbVNFZTV6bzNBRElmc09rUzR5VWJ3UHlGYldOVW9jS3VIZ0Z5dWxVcl9YUzdzVndOVGRsZ0pvazktRmlWT1pFMVk1R1VoOUxQdDlzY1U3R3hxZUdhRktROVBHVVRCbTRERzEyWFFpLTNLSF9Ddw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-04T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-19T07:37:03.392Z",
    "score": 0.5,
    "status": "new"
   },
