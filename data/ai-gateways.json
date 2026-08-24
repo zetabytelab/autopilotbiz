@@ -1,0 +1,57 @@
+{
+  "updatedAt": "2026-08-24",
+  "note": "Living map of the AI-gateway / model-routing layer. Facts labeled; funding and deal figures are enriched from sourced research and marked when unverified.",
+  "segments": [
+    {
+      "key": "independent",
+      "label": "Independent gateways & routers",
+      "blurb": "Startups whose whole product is the routing/observability/spend layer between apps and models.",
+      "gateways": [
+        { "name": "OpenRouter", "owner": "Stripe (acquisition reported)", "does": "Model marketplace + unified API over 400+ models; routing, fallback, spend", "model": "managed", "status": "acquired" },
+        { "name": "LiteLLM", "owner": "BerriAI", "does": "Open-source unified API/proxy across 100+ providers; self-host or managed", "model": "open-source + managed", "status": "active" },
+        { "name": "Portkey", "owner": "Portkey", "does": "AI gateway + observability, guardrails, caching, fallback", "model": "managed", "status": "active" },
+        { "name": "Helicone", "owner": "Helicone", "does": "Open-source LLM observability + gateway (proxy)", "model": "open-source + managed", "status": "active" },
+        { "name": "Kong AI Gateway", "owner": "Kong", "does": "API gateway extended for LLM traffic (routing, rate-limit, governance)", "model": "managed + self-host", "status": "active" },
+        { "name": "Martian", "owner": "Martian", "does": "Model router — picks the cheapest capable model per request", "model": "managed", "status": "active" },
+        { "name": "Not Diamond", "owner": "Not Diamond", "does": "Intelligent model routing / evaluation-driven selection", "model": "managed", "status": "active" },
+        { "name": "TrueFoundry", "owner": "TrueFoundry", "does": "LLM gateway + ML infra platform", "model": "managed + self-host", "status": "active" },
+        { "name": "Sapiom", "owner": "Sapiom", "does": "Agent cost-routing to cheapest capable model (covered in Proof of Stack)", "model": "managed", "status": "active" }
+      ]
+    },
+    {
+      "key": "platform",
+      "label": "Platform-owned gateways",
+      "blurb": "Dev-platforms and data clouds bundling a gateway to keep builders inside their ecosystem.",
+      "gateways": [
+        { "name": "Vercel AI Gateway", "owner": "Vercel", "does": "Unified model access inside the Vercel/AI-SDK stack; fallback, observability", "model": "managed", "status": "active" },
+        { "name": "Databricks (Mosaic AI Gateway)", "owner": "Databricks", "does": "Model serving + gateway inside the data platform", "model": "managed", "status": "active" },
+        { "name": "Bedrock / Azure AI / Vertex", "owner": "AWS · Microsoft · Google", "does": "Hyperscaler model access layers with routing/guardrails", "model": "managed", "status": "active" }
+      ]
+    },
+    {
+      "key": "edge",
+      "label": "Edge / CDN players",
+      "blurb": "The CDN incumbents moving up-stack — inference at the edge, gateways at the network layer.",
+      "gateways": [
+        { "name": "Cloudflare AI Gateway", "owner": "Cloudflare", "does": "Gateway with caching, analytics, rate-limiting; pairs with Workers AI", "model": "managed", "status": "active" },
+        { "name": "Akamai", "owner": "Akamai", "does": "Edge/inference moves into AI delivery (see research)", "model": "managed", "status": "watch" },
+        { "name": "Fastly", "owner": "Fastly", "does": "Edge platform; AI-delivery positioning (see research)", "model": "managed", "status": "watch" }
+      ]
+    },
+    {
+      "key": "fintech",
+      "label": "Payments / fintech-owned",
+      "blurb": "The surprise entrants — payments and spend-management platforms owning the metering layer.",
+      "gateways": [
+        { "name": "Stripe (via OpenRouter)", "owner": "Stripe", "does": "Model gateway folded into a payments giant — metering + billing for AI", "model": "managed", "status": "active" },
+        { "name": "Ramp", "owner": "Ramp", "does": "Reported to have launched its own AI gateway (spend-management angle)", "model": "managed", "status": "watch" }
+      ]
+    }
+  ],
+  "investors": [
+    { "firm": "a16z", "bets": "AI-infra broadly; model/agent layer", "note": "led Wabi; active across agent infra" },
+    { "firm": "Sequoia", "bets": "AI-infra + agent tooling", "note": "" },
+    { "firm": "Menlo Ventures", "bets": "AI-infra, agent tooling", "note": "" },
+    { "firm": "Dragonfly", "bets": "Sapiom (agent cost-routing) — $35M Series A", "note": "Anthropic co-invested" }
+  ]
+}
