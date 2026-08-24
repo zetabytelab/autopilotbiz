@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-23T07:32:03.877Z",
+ "generatedAt": "2026-08-24T07:56:38.940Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -205,24 +205,6 @@
     }
    ],
    "firstSeen": "2026-08-20T07:39:55.441Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "f960481db7cd",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Can AI Run a Food Truck Business?",
-     "url": "https://foodtruckbench.com",
-     "source": "hn",
-     "publishedAt": "2026-07-25T02:10:59Z",
-     "matchedKeywords": [
-      "\"AI-run business\""
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T16:17:31.602Z",
    "score": 0.5,
    "status": "new"
   }
