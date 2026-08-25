@@ -38,6 +38,19 @@ export default function AiGatewaysGuide() {
         <p className="mt-3 font-mono text-xs text-zinc-600">{gw.note}</p>
       </header>
 
+      {/* Recent moves */}
+      <section className="mb-10 rounded-2xl border border-amber-400/25 bg-amber-400/[0.05] p-6">
+        <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-amber-300">The consolidation — Aug 2026</h2>
+        <ul className="mt-3 space-y-2">
+          {gw.moves.map((m, i) => (
+            <li key={i} className="flex gap-2 text-sm leading-snug text-zinc-300">
+              <span className="text-amber-300">→</span>
+              {m}
+            </li>
+          ))}
+        </ul>
+      </section>
+
       {/* Segments */}
       {gw.segments.map((seg) => (
         <section key={seg.key} className="mb-10">
@@ -58,6 +71,10 @@ export default function AiGatewaysGuide() {
                 </div>
                 <p className="mt-1 font-mono text-[11px] text-zinc-500">{g.owner}</p>
                 <p className="mt-2 text-xs leading-snug text-zinc-400">{g.does}</p>
+                {g.funding ? (
+                  <p className="mt-2 font-mono text-[10px] text-lime-400/80">{g.funding}</p>
+                ) : null}
+                {g.note ? <p className="mt-1 text-[11px] italic leading-snug text-zinc-500">{g.note}</p> : null}
                 <p className="mt-2 font-mono text-[10px] uppercase tracking-wide text-zinc-600">{g.model}</p>
               </article>
             ))}
