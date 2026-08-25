@@ -1578,7 +1578,7 @@ export const stackTools: StackTool[] = [
     name: "Apify",
     url: "https://apify.com",
     role: "Actor marketplace for scraping & automation — this index's own pulse runs its X/LinkedIn sources on it",
-    // TODO(referral): join at https://apify.com/partners/affiliate (20% first 3mo → 30%, up to $2.5k/customer) → set referralUrl
+    referralUrl: "https://www.apify.com?fpr=723ji2",
     referral: "Affiliate: 20% → 30% recurring, up to $2,500/customer",
     usedBy: ["Autopilot Index (this site)"],
     category: "agents",
