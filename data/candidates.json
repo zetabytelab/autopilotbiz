@@ -1,10 +1,19 @@
 {
- "generatedAt": "2026-08-24T07:56:38.940Z",
+ "generatedAt": "2026-08-25T07:42:34.204Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
    "name": null,
    "evidence": [
+    {
+     "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+     "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+     "source": "investor",
+     "publishedAt": "2026-08-24T15:24:18.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    },
     {
      "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
      "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
@@ -25,7 +34,7 @@
     }
    ],
    "firstSeen": "2026-08-10T15:47:44.945Z",
-   "score": 1,
+   "score": 1.5,
    "status": "new"
   },
   {
@@ -83,24 +92,6 @@
    "status": "new"
   },
   {
-   "id": "05806f33b330",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Exclusive / Startup Sapiom routes clients’ AI to lowest-cost tokens",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanR4X2trS0pNOXFVOXJZRHpGQkl4NTNTOUpCUlJfUGdlYm1ybjVkeVc0RlRPclAwdUUxUFptS3hWNS03dm5WemdQeExNcmpiaDEwR1NST05YczcwaGVFTXUzb0Y0SlRWMnJsUjczVnh2QXd6TXRhNVlsWE9wNGE0OXlOdVB1dXdnYWJwTTFvbkE0eFd3SHItTE50UE56dw?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-05T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:12:08.822Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "6171d1de42ca",
    "name": null,
    "evidence": [
@@ -133,24 +124,6 @@
     }
    ],
    "firstSeen": "2026-07-13T08:21:28.684Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "2c60ceb9872c",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Best AI Agent Platforms for Founders in 2026: A No-Nonsense Comparison",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMzA0bE9xU3hBV21BVTRDQjllblY3RVdDRmVLa0QwU2VrUTloVlpRN3dfbVNFZTV6bzNBRElmc09rUzR5VWJ3UHlGYldOVW9jS3VIZ0Z5dWxVcl9YUzdzVndOVGRsZ0pvazktRmlWT1pFMVk1R1VoOUxQdDlzY1U3R3hxZUdhRktROVBHVVRCbTRERzEyWFFpLTNLSF9Ddw?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-04T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-19T07:37:03.392Z",
    "score": 0.5,
    "status": "new"
   },
