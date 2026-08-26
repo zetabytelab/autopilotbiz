@@ -30,7 +30,7 @@
       "label": "Platform-owned gateways",
       "blurb": "Dev-platforms and data clouds bundling a gateway to keep builders inside their ecosystem.",
       "gateways": [
-        { "name": "Vercel AI Gateway", "owner": "Vercel", "does": "Unified model access inside the Vercel/AI-SDK stack; fallback, observability, public model leaderboards", "model": "managed", "status": "active", "funding": "", "note": "In beta; publishes a production model index" },
+        { "name": "Vercel AI Gateway", "owner": "Vercel", "does": "Unified model access inside the Vercel/AI-SDK stack; routing, fallback, observability, public model leaderboards", "model": "managed", "status": "active", "funding": "", "note": "GA (runs on Fluid compute). Angle: developer-experience lock-in — keep AI-app builders inside the Vercel stack, prototype to production." },
         { "name": "Databricks Unity AI Gateway", "owner": "Databricks", "does": "Model serving + gateway + agent governance inside the data platform", "model": "managed", "status": "active", "funding": "", "note": "Shipped after reportedly losing the OpenRouter bid" },
         { "name": "Bedrock / Azure AI / Vertex", "owner": "AWS · Microsoft · Google", "does": "Hyperscaler model access layers with routing/guardrails", "model": "managed", "status": "active", "funding": "", "note": "" }
       ]
@@ -41,7 +41,7 @@
       "blurb": "CDN incumbents moving up-stack — inference at the edge, gateways at the network layer.",
       "gateways": [
         { "name": "Cloudflare AI Gateway", "owner": "Cloudflare", "does": "Gateway with caching, analytics, rate-limiting; pairs with Workers AI inference", "model": "managed", "status": "active", "funding": "", "note": "The most mature edge-native gateway" },
-        { "name": "Akamai", "owner": "Akamai", "does": "Edge/inference delivery positioning", "model": "managed", "status": "watch", "funding": "", "note": "Edge play; dedicated gateway unconfirmed" },
+        { "name": "Akamai AI & API Manager", "owner": "Akamai (Zuplo-powered)", "does": "Zuplo-powered AI & API gateway on Akamai Cloud — native OpenAI / Claude / Gemini + API/MCP governance", "model": "managed", "status": "active", "funding": "", "note": "Angle: edge distribution + API/AI monetization (AccuWeather is the proof customer). Zuplo tech, Akamai reach. Announced Dec 2025." },
         { "name": "Fastly", "owner": "Fastly", "does": "Edge platform; AI-delivery positioning", "model": "managed", "status": "watch", "funding": "", "note": "Edge play; dedicated gateway unconfirmed" }
       ]
     },
