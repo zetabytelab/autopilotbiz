@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T07:44:29.361Z",
+ "generatedAt": "2026-08-27T18:06:08.320Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -52,24 +52,6 @@
     }
    ],
    "firstSeen": "2026-08-19T07:37:03.392Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "faea8299718d",
-   "name": "OpenAI-backed Thrive Holdings",
-   "evidence": [
-    {
-     "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
-     "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
-     "source": "investor",
-     "publishedAt": "2026-08-12T17:41:29.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-13T08:19:09.844Z",
    "score": 1,
    "status": "new"
   },
@@ -137,6 +119,24 @@
    "status": "new"
   },
   {
+   "id": "05806f33b330",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Exclusive / Startup Sapiom routes clients’ AI to lowest-cost tokens",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanR4X2trS0pNOXFVOXJZRHpGQkl4NTNTOUpCUlJfUGdlYm1ybjVkeVc0RlRPclAwdUUxUFptS3hWNS03dm5WemdQeExNcmpiaDEwR1NST05YczcwaGVFTXUzb0Y0SlRWMnJsUjczVnh2QXd6TXRhNVlsWE9wNGE0OXlOdVB1dXdnYWJwTTFvbkE0eFd3SHItTE50UE56dw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-05T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-27T18:06:08.320Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
    "id": "6171d1de42ca",
    "name": null,
    "evidence": [
@@ -191,24 +191,6 @@
    "status": "new"
   },
   {
-   "id": "664afced7fe9",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Indian-origin engineer Apurva Shrivastava's AI startup in US Avoca hits $1 billion valuation",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuRmxrYkd1NF9xVVJJaFRPSXVWSVIzaDA3UHo5bmlUXzNHdlBwN1RpRWNsZ1U0ZTQ0LWhnY3c4N1M2MUwzZmw5UC1kSHBreW9uSmZ5NlFEeHFQTDhkV1BqUmRVRnBsVGIyU0E?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-26T02:45:28.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-26T07:44:29.361Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "5fa8985c37d1",
    "name": null,
    "evidence": [
@@ -223,6 +205,24 @@
     }
    ],
    "firstSeen": "2026-08-20T07:39:55.441Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "b243fd507784",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
+     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
+     "source": "reddit",
+     "publishedAt": "2026-08-27T07:25:11.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-27T18:06:08.320Z",
    "score": 0.5,
    "status": "new"
   }
