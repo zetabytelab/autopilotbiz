@@ -27,7 +27,7 @@ export const editions: Edition[] = [
     title: "The AI gateway wars",
     date: "2026-08-31",
     cover: "/pulse/04-cover.png",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/pulse/ai-gateway-wars-antonio-s--bemwe",
     tldr: [
       "The **gateway layer** — the pipe between your app and every model — just became the most contested real estate in AI. In ~3 months two of the biggest got acquired and everyone else shipped their own.",
       "**Stripe is acquiring OpenRouter** for a reported **$7B+** (sources range $7–10B) — roughly **5× the $1.3B valuation** it set three months earlier. Signed; closing expected in weeks.",
