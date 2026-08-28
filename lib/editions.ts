@@ -22,6 +22,65 @@ export type Edition = {
 
 export const editions: Edition[] = [
   {
+    slug: "04-ai-gateway-wars",
+    number: 4,
+    title: "The AI gateway wars",
+    date: "2026-08-31",
+    cover: "/pulse/04-cover.png",
+    linkedinUrl: "",
+    tldr: [
+      "The **gateway layer** — the pipe between your app and every model — just became the most contested real estate in AI. In ~3 months two of the biggest got acquired and everyone else shipped their own.",
+      "**Stripe is acquiring OpenRouter** for a reported **$7B+** (sources range $7–10B) — roughly **5× the $1.3B valuation** it set three months earlier. Signed; closing expected in weeks.",
+      "**Palo Alto Networks bought Portkey** (closed May 2026), folding it into agent-security — a second gateway acquisition in one quarter.",
+      "The platforms are hoarding the layer: **Databricks** (reportedly bid, lost, shipped its own Unity AI Gateway), **Vercel**, **Ramp**, plus incumbents **Cloudflare** and **Kong** ($2B valuation).",
+      "The builder lesson: **don't single-thread your gateway, own your fallback, and treat cost-routing as a first-class lever** — the difference between a $1.2M and a $100K model bill.",
+    ],
+    sections: [
+      {
+        paras: [
+          "The least glamorous layer of the AI stack is the routing/spend/fallback \"gateway\" that sits between your app and every model provider. In 2026 it became the most strategic — because whoever owns the meter owns the margin. Here's the consolidation, who owns what now, and what a builder should actually do about it.",
+        ],
+      },
+      {
+        heading: "1 — The consolidation, dated",
+        image: "/pulse/04-sankey.png",
+        imageAlt: "Consolidation flow: OpenRouter (~100T tokens/mo) → Stripe; Portkey → Palo Alto; Helicone → Mintlify; Seldon → TrueFoundry",
+        paras: [
+          "**Stripe agreed to buy OpenRouter.** Reporting ran from Axios and Bloomberg into Stripe's own newsroom around Aug 19–21; the deal is signed, not yet closed. The price is genuinely unsettled — outlets range **$7B to $10B**, with **$7.5B** the best point estimate — a ~5× markup on the **$1.3B** valuation OpenRouter set just three months earlier. **[HIGH** the deal is real; **MED** on the exact figure.** Stripe's Patrick Collison put the thesis plainly: *\"Tokens are the central currency for companies building with AI.\"*",
+          "**Palo Alto Networks bought Portkey** (announced April, closed May 2026), folding it into its Prisma AIRS agent-security product **[HIGH]** — the second gateway swallowed in a single quarter. And **Databricks reportedly bid for OpenRouter, lost, and shipped its own Unity AI Gateway** instead **[MED** on the bid; **HIGH** on the product**]**. Even a PitchBook piece asked the quiet part out loud: *\"Everyone is building AI routers. Are they a dead end?\"*",
+        ],
+      },
+      {
+        heading: "2 — The battlefield, mapped",
+        image: "/pulse/04-quadrant.png",
+        imageAlt: "The AI Gateway Quadrant — leaders, challengers, visionaries and niche players across control-plane breadth and execution",
+        paras: [
+          "**Independent gateways** are where the action (and the exits) are: **OpenRouter** (500+ models, ~5.5% markup) now Stripe-bound; **LiteLLM** (open-source, ~$7M ARR, the self-host default); **Kong** ($175M at $2B) shipping AI Gateway 2.0; **Requesty** (600+ models, the broadest); **Not Diamond** ($0.05/M tokens routed); and **Sapiom** ($50M raised — Accel seed + Dragonfly A), the cost-router we covered whose routing cut one bill ~10×. The churn is just as telling: **Helicone was absorbed by Mintlify, Martian pivoted to research, and Unify left for agents** — three would-be gateways gone in a quarter.",
+          "**Platform-owned** gateways come at the layer from opposite ends. **Vercel AI Gateway** (now GA, on Fluid compute) is a developer-experience play — keep AI-app builders inside the Vercel/AI-SDK stack from prototype to production. **Akamai's AI & API Manager** (Zuplo-powered, on Akamai Cloud, native to OpenAI/Claude/Gemini) is the opposite: edge distribution plus **API/AI monetization** to its enterprise base — AccuWeather is the proof customer. Same layer, opposite go-to-markets. **Databricks** (Unity AI Gateway, now GA) and the hyperscalers bundle it into the data/cloud estate.",
+          "And the surprise segment — **payments/fintech-owned** (Stripe via OpenRouter, Ramp's own gateway) — understands the real prize: the metering layer, not the models. **The full segmented map, with funding and who-owns-what, lives on the index.**",
+        ],
+      },
+      {
+        heading: "3 — The money — who's funding the layer",
+        paras: [
+          "Worth tracking, because the money signals where the next moat forms. **CapitalG** (Alphabet) led OpenRouter's $113M Series B; **Menlo Ventures** led its Series A and has been the layer's most vocal thesis-holder; **a16z, Sequoia** and **NVIDIA's NVentures** all piled into OpenRouter (NVIDIA strategically — routing sells more GPUs). **Dragonfly** backed Sapiom (with Anthropic); **Elevation** and **Lightspeed** backed Portkey pre-acquisition; **Balderton** backed Kong. When the routing layer draws both Alphabet and NVIDIA onto the same cap table, it's not a side quest.",
+        ],
+      },
+      {
+        heading: "4 — So which one should you use?",
+        image: "/pulse/04-decision-guide.png",
+        imageAlt: "Post-consolidation decision guide: pick by priority — broadest models & billing, security, independence, self-host, ecosystem, or cost",
+        paras: [
+          "The honest answer isn't \"switch away.\" An acquisition can make a gateway *stronger*: **OpenRouter gains Stripe's billing rails; Portkey gains Palo Alto's security.** Pick by what you prioritise — broadest models + billing (OpenRouter/Stripe), enterprise security (Prisma AIRS), independent-managed (Requesty), own-it/self-host (LiteLLM, open-source), your existing ecosystem (Vercel, Cloudflare), or pure cost-cutting (add a router like Sapiom or Not Diamond behind whatever you run).",
+          "**Don't single-thread your gateway.** The one you pick today may not exist as an independent company by renewal (see Stripe↔OpenRouter, PANW↔Portkey). Keep it swappable.",
+          "**Own your fallback.** When a provider degrades or a deal closes, the gateway is what keeps you running — make provider failover a hard requirement, not a nice-to-have.",
+          "**Make cost-routing first-class.** Routing routine calls to cheaper models (Sapiom/Sciforium-style) is the single biggest lever on your model bill — the difference between $1.2M and $100K a month. **The neutral, portable gateway is the one that lets you pull it.**",
+          "We're mapping the whole battlefield on the index — every gateway, who owns them now, and the VCs circling. **If you run a business on autopilot, which gateway do you trust — and why?** Reply and tell me; the honest answers go into the next update.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "03-never-says-tomorrow",
     number: 3,
     title: "The machine that never says tomorrow",
