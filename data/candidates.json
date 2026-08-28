@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T18:06:08.320Z",
+ "generatedAt": "2026-08-28T19:15:21.946Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -38,24 +38,6 @@
    "status": "new"
   },
   {
-   "id": "d83ad3025889",
-   "name": "Reach Capital",
-   "evidence": [
-    {
-     "title": "Reach Capital raises $265M Fund V to back AI founders building to ‘expand human potential’",
-     "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/",
-     "source": "investor",
-     "publishedAt": "2026-08-18T11:00:00.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-19T07:37:03.392Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
    "id": "97ea3bd650fd",
    "name": null,
    "evidence": [
@@ -80,24 +62,6 @@
    ],
    "firstSeen": "2026-07-13T08:21:28.684Z",
    "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "02e26f750417",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Delaware AI Company Proposal Needs Details Before Road Testing",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbUl6cklfWHJiMkp1NzhTbGtULUJ0NVpWSDJiNk1WYlJYSjBXR0dpalFLTHpuMWc1WEJWNzhRYzJEZnNfNGxtYkM0YjVEeUlkc2U0NF9kVmp1U1RleXhzRDF4ZEhrNTRQeFRQaXFZdkJQamhBWEJpOUVyYjQ3NGhYZUVXSWhleXMtYWRHU05HcndEQURvcVg1bENFU0FYSUxUQ2h3OEZIcVlJbnNpb3U2OExoYkw4dHJJdUJGNXVlQUVCbEtZN0xqaVdhNA?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-03T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-26T07:44:29.361Z",
-   "score": 0.5,
    "status": "new"
   },
   {
@@ -169,24 +133,6 @@
     }
    ],
    "firstSeen": "2026-08-26T07:44:29.361Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "7f112d5267a1",
-   "name": null,
-   "evidence": [
-    {
-     "title": "[Korean Startup Weekly News #132] Record Investment Surge Powers AI",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xekMzbzBvZC1FR2ZGTUJvcUtYanowV196VjNleVR1eXp0T1pWcnh0bFZ1bmswQ3FZS1RtbUNnQ0hENjRkSEhJbnpGX2RJTUNQRGQ4?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-22T06:41:57.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-22T07:29:38.532Z",
    "score": 0.5,
    "status": "new"
   },
