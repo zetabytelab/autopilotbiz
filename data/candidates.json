@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T19:15:21.946Z",
+ "generatedAt": "2026-08-29T12:58:06.933Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -61,6 +61,33 @@
     }
    ],
    "firstSeen": "2026-07-13T08:21:28.684Z",
+   "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "b243fd507784",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
+     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
+     "source": "reddit",
+     "publishedAt": "2026-08-27T07:25:11.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    },
+    {
+     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
+     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
+     "source": "reddit",
+     "publishedAt": "2026-08-27T07:25:11.000Z",
+     "matchedKeywords": [
+      "\"autonomous company\" AI"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-27T18:06:08.320Z",
    "score": 1,
    "status": "new"
   },
@@ -151,24 +178,6 @@
     }
    ],
    "firstSeen": "2026-08-20T07:39:55.441Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "b243fd507784",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
-     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
-     "source": "reddit",
-     "publishedAt": "2026-08-27T07:25:11.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-27T18:06:08.320Z",
    "score": 0.5,
    "status": "new"
   }
