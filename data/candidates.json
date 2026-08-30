@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-29T12:58:06.933Z",
+ "generatedAt": "2026-08-30T12:56:20.552Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -22,145 +22,10 @@
      "matchedKeywords": [
       "investor:techcrunch-vc"
      ]
-    },
-    {
-     "title": "For a16z, AI gives foreign founders an advantage",
-     "url": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
-     "source": "investor",
-     "publishedAt": "2026-08-20T13:00:00.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
     }
    ],
    "firstSeen": "2026-08-10T15:47:44.945Z",
-   "score": 1.5,
-   "status": "new"
-  },
-  {
-   "id": "97ea3bd650fd",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Why AI Agent Startups Are Becoming The New Solo-Founder Playbook",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVWZGNC1XVjcwYjFaYVpxZVdHekUwSGxOVnk2dkVEeEh6bEZoM3g1eW0zU0s0Z1lzUGNRc2oxMXEwT0ZIRVh4b3JWM252Y1NvZTJjV3FqeWhYQ0lxVWlNeGxmMEJaczF0dmZzWWk2azlPSDJEQVpocVpEdmxFVFVzVVdOX3o0RmpvRFdZMXNEdXZNNDR0aG5RNXN6YS1SVUs0UTFxNFA4d2docGl2a253M0ZqOWhWUQ?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-03T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"zero employees\" startup AI"
-     ]
-    },
-    {
-     "title": "Why AI Agent Startups Are Becoming The New Solo-Founder Playbook",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVWZGNC1XVjcwYjFaYVpxZVdHekUwSGxOVnk2dkVEeEh6bEZoM3g1eW0zU0s0Z1lzUGNRc2oxMXEwT0ZIRVh4b3JWM252Y1NvZTJjV3FqeWhYQ0lxVWlNeGxmMEJaczF0dmZzWWk2azlPSDJEQVpocVpEdmxFVFVzVVdOX3o0RmpvRFdZMXNEdXZNNDR0aG5RNXN6YS1SVUs0UTFxNFA4d2docGl2a253M0ZqOWhWUQ?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-03T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "firstSeen": "2026-07-13T08:21:28.684Z",
    "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "b243fd507784",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
-     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
-     "source": "reddit",
-     "publishedAt": "2026-08-27T07:25:11.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    },
-    {
-     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
-     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
-     "source": "reddit",
-     "publishedAt": "2026-08-27T07:25:11.000Z",
-     "matchedKeywords": [
-      "\"autonomous company\" AI"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-27T18:06:08.320Z",
-   "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "ee2ddd5dc9e6",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Exclusive: This $100 million startup wants to give companies AI employees",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZk9UUHFsVk9oME5iUEdWODd4T3EzazlxUm5VOVhmc2I1VFhQam15Z0hEUmhPMnctX3RCU0NIZWJmN1J3UkVqWE9yRjNuVXV3c1dRUWtaeHJzMUNvTW00WXlsa0RtZlhSQjdVMEphUkJ5NHpNYlBKbWRSaHRkMzBhLS1oeEZpZVg4SlloMmlZQnVnblZTRElNRmlST3FFQmZWeTk2aXhkNFh2QWVm?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-20T13:12:37.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-21T07:40:57.379Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "05806f33b330",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Exclusive / Startup Sapiom routes clients’ AI to lowest-cost tokens",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanR4X2trS0pNOXFVOXJZRHpGQkl4NTNTOUpCUlJfUGdlYm1ybjVkeVc0RlRPclAwdUUxUFptS3hWNS03dm5WemdQeExNcmpiaDEwR1NST05YczcwaGVFTXUzb0Y0SlRWMnJsUjczVnh2QXd6TXRhNVlsWE9wNGE0OXlOdVB1dXdnYWJwTTFvbkE0eFd3SHItTE50UE56dw?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-05T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-27T18:06:08.320Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "6171d1de42ca",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The rise of the one employee unicorn and the AI first software revolution",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNejFIVl8zRFpwbTFOU3RwZ0YxZ3g1dzRGeXpRQThMSXpKNHE1VDgzWl9lZFlyVDRfQVNQYlRxa0RYOEhvd1VMeE10QVJJTEdZb05NajlBbVA1eFZ6SEcxX283ZGFJRzZ0cHZvandxYjZkLUJ5SGQ4X0s0ME9wNXh5UHh4SEVseXBjSzAteXYyYjJSUWJIUUpzQ214cDlJeGU5OHdfZHBYc1cwZ3VKM1FnQWE3X0tRWTZmWS0zZTFn?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-05T13:57:14.000Z",
-     "matchedKeywords": [
-      "\"zero employees\" startup AI"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:12:08.822Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "ee55c314eeed",
-   "name": null,
-   "evidence": [
-    {
-     "title": "New Startups Today on StartupHub.ai: August 21, 2026",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR1N4V3BMbEZMa0ZBa01VX3BnYmhkUmQ3Yml3LXVJem9CRlBkRDB3eXZjZDhnaTVRU0NYRkw0aG5uM1p5ZFFSbUtiVlhVWHJ3VHp1ejVKeUZ3TFZxYlI0eWZjcWdseU1XWElfZG14WV9uOG5vWXdxb1ZSS1pqVUxlNFdDdGs2ZzQ2N1BxYUxIdDhEVUphSDdSRVNSNW10Ync?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-21T16:01:06.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-26T07:44:29.361Z",
-   "score": 0.5,
    "status": "new"
   },
   {
@@ -178,6 +43,24 @@
     }
    ],
    "firstSeen": "2026-08-20T07:39:55.441Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "b243fd507784",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
+     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
+     "source": "reddit",
+     "publishedAt": "2026-08-27T07:25:11.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-27T18:06:08.320Z",
    "score": 0.5,
    "status": "new"
   }

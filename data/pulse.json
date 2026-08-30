@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-29T12:58:06.934Z",
+ "generatedAt": "2026-08-30T12:56:20.552Z",
  "sourcesRun": [
   {
    "id": "gnews",
-   "ok": 68,
-   "failed": 0,
-   "items": 713
+   "ok": 0,
+   "failed": 68,
+   "items": 0
   },
   {
    "id": "hn",
@@ -17,7 +17,7 @@
    "id": "techmeme",
    "ok": 1,
    "failed": 0,
-   "items": 2
+   "items": 3
   },
   {
    "id": "youtube",
@@ -45,18 +45,174 @@
   },
   {
    "id": "discovery",
-   "ok": 19,
-   "failed": 0,
+   "ok": 9,
+   "failed": 10,
    "items": 0
   },
   {
    "id": "reddit",
-   "ok": 2,
-   "failed": 0,
+   "ok": 1,
+   "failed": 1,
    "items": 0
   }
  ],
  "items": [
+  {
+   "id": "d3b11d156a52",
+   "title": "Anthropic will \"permanently\" raise weekly Claude Code limits by 25% on Sept. 14 for most plans, which will work out a 17% reduction, given the current 50% boost (@claudedevs)",
+   "url": "https://www.techmeme.com/260829/p13#a260829p13",
+   "domain": "techmeme.com",
+   "publishedAt": "2026-08-29T18:05:01.000Z",
+   "companySlug": "stack-claude",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "techmeme",
+     "url": "https://www.techmeme.com/260829/p13#a260829p13"
+    }
+   ],
+   "baseScore": 2.4,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "c3b173c06e56",
+   "title": "@Bencera: Just keep on hustlin. No matter what. https://t.co/cpQAwa8EQ4",
+   "url": "https://x.com/Bencera/status/2093856614789042410",
+   "domain": "x.com",
+   "publishedAt": "2026-08-30T00:21:33.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2093856614789042410",
+     "points": 138
+    }
+   ],
+   "baseScore": 2.06,
+   "track": "company",
+   "hot": true
+  },
+  {
+   "id": "6021851699c4",
+   "title": "Warp builds self-improving agents on Claude",
+   "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+   "domain": "claude.com",
+   "publishedAt": "2026-08-29T19:09:33Z",
+   "companySlug": "stack-claude",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49492432",
+     "points": 58,
+     "comments": 57
+    }
+   ],
+   "baseScore": 2.16,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "44dfd7c34c16",
+   "title": "@Bencera: Can’t wait until we can say “build me a $1M company, make no mistakes.” And 3 months later we actually have $1M in our bank account. The time is coming.",
+   "url": "https://x.com/Bencera/status/2093737079695876524",
+   "domain": "x.com",
+   "publishedAt": "2026-08-29T16:26:34.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2093737079695876524",
+     "points": 466
+    }
+   ],
+   "baseScore": 2.27,
+   "track": "company",
+   "hot": true
+  },
+  {
+   "id": "c9ec68de075b",
+   "title": "AgentObs – a hook that blocks Claude Code before you hit your limit",
+   "url": "https://news.ycombinator.com/item?id=49497992",
+   "domain": "news.ycombinator.com",
+   "publishedAt": "2026-08-30T12:12:37Z",
+   "companySlug": "stack-claude",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49497992",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.39,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "7220f730119f",
+   "title": "Breaking Claude Code Opus 5 Auto Mode",
+   "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+   "domain": "embracethered.com",
+   "publishedAt": "2026-08-30T05:04:10Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49495858",
+     "points": 8,
+     "comments": 2
+    }
+   ],
+   "baseScore": 1.58,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "07e95a3acf34",
+   "title": "Claude Code is going reduce limits by 25% from September 14",
+   "url": "https://twitter.com/ClaudeDevs/status/2093742321473065266",
+   "domain": "twitter.com",
+   "publishedAt": "2026-08-29T17:27:31Z",
+   "companySlug": "stack-claude-code",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49491631",
+     "points": 26,
+     "comments": 13
+    }
+   ],
+   "baseScore": 2,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "9227a6974677",
+   "title": "Ask HN: How to break Claude Code addiction?",
+   "url": "https://news.ycombinator.com/item?id=49491745",
+   "domain": "news.ycombinator.com",
+   "publishedAt": "2026-08-29T17:43:13Z",
+   "companySlug": "stack-claude-code",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49491745",
+     "points": 15,
+     "comments": 18
+    }
+   ],
+   "baseScore": 1.94,
+   "track": "stack",
+   "hot": true
+  },
   {
    "id": "e2b188da7172",
    "title": "@Bencera: This is how I raised $30M with AI doing all the work: 1. I taught it the business. I connected Polsia to my inbox so it could reply to investors directly. Th…",
@@ -69,11 +225,111 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2093386428772233293",
-     "points": 105
+     "points": 113
     }
    ],
-   "baseScore": 3.21,
+   "baseScore": 3.22,
    "track": "company",
+   "hot": true
+  },
+  {
+   "id": "9977059470ee",
+   "title": "Claude Team Plan for Scientists",
+   "url": "https://claude.com/programs/team-plan-for-scientists",
+   "domain": "claude.com",
+   "publishedAt": "2026-08-30T12:33:38Z",
+   "companySlug": "stack-claude",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49498105",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.29,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "2d49a8354afe",
+   "title": "Anthropic warns users of possible token theft",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1jqsh/thank_you_anthropic_really/",
+   "domain": "reddit.com",
+   "publishedAt": "2026-08-30T06:57:39Z",
+   "companySlug": "stack-claude",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49496315",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.39,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "7f538dfb4842",
+   "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+   "url": "https://github.com/anthropics/claude-code/issues/66504",
+   "domain": "github.com",
+   "publishedAt": "2026-08-30T12:50:54Z",
+   "companySlug": "stack-claude",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49498201",
+     "points": 1,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.22,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "cc2c8c3e8d6c",
+   "title": "Memctl: Versioned memory for your coding agent (Claude.md / AGENTS.md)",
+   "url": "https://github.com/EltonCherrington/memctl",
+   "domain": "github.com",
+   "publishedAt": "2026-08-30T08:38:00Z",
+   "companySlug": "stack-claude",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49496852",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.29,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "a05c362111c3",
+   "title": "Ask HN: Is OpenClaw Still Worth Exploring or Is It “So Last Year”?",
+   "url": "https://news.ycombinator.com/item?id=49491979",
+   "domain": "news.ycombinator.com",
+   "publishedAt": "2026-08-29T18:11:00Z",
+   "companySlug": "stack-openclaw",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49491979",
+     "points": 5,
+     "comments": 7
+    }
+   ],
+   "baseScore": 1.69,
+   "track": "stack",
    "hot": true
   },
   {
@@ -95,6 +351,86 @@
    "hot": true
   },
   {
+   "id": "580aeda77137",
+   "title": "OpenRouter is advertising popular Chinese models as based in Singapore",
+   "url": "https://openrouter.ai/providers",
+   "domain": "openrouter.ai",
+   "publishedAt": "2026-08-30T03:50:56Z",
+   "companySlug": "stack-openrouter",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49495527",
+     "points": 3,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.34,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "f73868f0ae3b",
+   "title": "Anthropic's Claude for Mac desktop app now has built-in browser",
+   "url": "https://thenewstack.io/claude-built-in-browser-cowork/",
+   "domain": "thenewstack.io",
+   "publishedAt": "2026-08-30T01:08:27Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49494744",
+     "points": 5,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.41,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "b143d6f3b129",
+   "title": "Show HN: N8n community node for Shotium – screenshot and OG image API",
+   "url": "https://github.com/shotium/n8n-nodes-shotium",
+   "domain": "github.com",
+   "publishedAt": "2026-08-30T05:16:54Z",
+   "companySlug": "stack-n8n",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49495905",
+     "points": 2,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.29,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "c8946b3d6550",
+   "title": "Show HN: Flint – A minimal C/C++ package manager and build tool written in C",
+   "url": "https://github.com/mainak55512/flint",
+   "domain": "github.com",
+   "publishedAt": "2026-08-29T17:44:37Z",
+   "companySlug": "minimal-ai",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49491755",
+     "points": 11,
+     "comments": 2
+    }
+   ],
+   "baseScore": 1.63,
+   "track": "company",
+   "hot": true
+  },
+  {
    "id": "5ecef4d4e24c",
    "title": "Would SpaceXAI Acquire Vercel?",
    "url": "https://twitter.com/jessethanley/status/2093298774949146796",
@@ -111,6 +447,26 @@
     }
    ],
    "baseScore": 2.59,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "194c4f15dcdb",
+   "title": "Show HN: Memnest, local-first memory shared by pi, Claude Code and Codex",
+   "url": "https://github.com/Blue-B/memnest",
+   "domain": "github.com",
+   "publishedAt": "2026-08-30T03:04:35Z",
+   "companySlug": "stack-claude",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49495320",
+     "points": 1,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.22,
    "track": "stack",
    "hot": true
   },
@@ -153,6 +509,26 @@
    "hot": true
   },
   {
+   "id": "dfe0c0719f18",
+   "title": "Will it be Anthropic or X AI after Cursor getting no access to OpenAI?",
+   "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+   "domain": "cnbc.com",
+   "publishedAt": "2026-08-29T21:03:16Z",
+   "companySlug": "stack-cursor",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49493319",
+     "points": 1,
+     "comments": 3
+    }
+   ],
+   "baseScore": 1.34,
+   "track": "stack",
+   "hot": true
+  },
+  {
    "id": "da6059350f5d",
    "title": "@Bencera: I built a $250M company in 3 months and all I did was: Make my product better Talk to customers Post founder-led content You can do it too if you ruthlessly …",
    "url": "https://x.com/Bencera/status/2093281232058470517",
@@ -164,11 +540,31 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2093281232058470517",
-     "points": 814
+     "points": 895
     }
    ],
-   "baseScore": 2.56,
+   "baseScore": 2.58,
    "track": "company",
+   "hot": true
+  },
+  {
+   "id": "7370bd3b34f1",
+   "title": "Show HN: Seedeep – I couldn't see what Claude Code was doing, so I drew it",
+   "url": "https://github.com/duqaXxX/seedeep",
+   "domain": "github.com",
+   "publishedAt": "2026-08-29T15:36:09Z",
+   "companySlug": "stack-claude-code",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49490770",
+     "points": 3,
+     "comments": 0
+    }
+   ],
+   "baseScore": 1.34,
+   "track": "stack",
    "hot": true
   },
   {
@@ -196,6 +592,25 @@
    "hot": true
   },
   {
+   "id": "e7565932b9d7",
+   "title": "@Bencera: I want to build a brand as iconic as Daft Punk. AI now automates 80% of the work. The only thing left is taste. So that's where my time goes: branding, UI th…",
+   "url": "https://x.com/Bencera/status/2093366805675040965",
+   "domain": "x.com",
+   "publishedAt": "2026-08-28T15:55:14.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2093366805675040965",
+     "points": 295
+    }
+   ],
+   "baseScore": 2.19,
+   "track": "company",
+   "hot": true
+  },
+  {
    "id": "5c1f7d5fd6d8",
    "title": "Researcher Tricked Claude, Codex and Hermes into Running Malware",
    "url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware/",
@@ -216,22 +631,43 @@
    "hot": true
   },
   {
-   "id": "e7565932b9d7",
-   "title": "@Bencera: I want to build a brand as iconic as Daft Punk. AI now automates 80% of the work. The only thing left is taste. So that's where my time goes: branding, UI th…",
-   "url": "https://x.com/Bencera/status/2093366805675040965",
-   "domain": "x.com",
-   "publishedAt": "2026-08-28T15:55:14.000Z",
-   "companySlug": "polsia",
-   "kind": "social",
+   "id": "b5a13b144448",
+   "title": "The Email Verification API",
+   "url": "https://resend.com/blog/email-verification-api",
+   "domain": "resend.com",
+   "publishedAt": "2026-08-29T16:50:13Z",
+   "companySlug": "stack-resend",
+   "kind": "blog",
    "sources": [
     {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2093366805675040965",
-     "points": 268
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49491377",
+     "points": 1,
+     "comments": 0
     }
    ],
-   "baseScore": 2.17,
-   "track": "company",
+   "baseScore": 1.22,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "ec30071834eb",
+   "title": "Show HN: Itsuki – shared memory for Claude Code, Cursor and 24 other AI tools",
+   "url": "https://itsuki.app/",
+   "domain": "itsuki.app",
+   "publishedAt": "2026-08-29T07:50:32Z",
+   "companySlug": "stack-cursor",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49487838",
+     "points": 3,
+     "comments": 2
+    }
+   ],
+   "baseScore": 1.44,
+   "track": "stack",
    "hot": true
   },
   {
@@ -271,26 +707,6 @@
     }
    ],
    "baseScore": 1.28,
-   "track": "stack",
-   "hot": true
-  },
-  {
-   "id": "ec30071834eb",
-   "title": "Show HN: Itsuki – open-source memory engine for AI agents (API and MCP)",
-   "url": "https://itsuki.app/",
-   "domain": "itsuki.app",
-   "publishedAt": "2026-08-29T07:50:32Z",
-   "companySlug": "stack-mcp",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49487838",
-     "points": 2,
-     "comments": 2
-    }
-   ],
-   "baseScore": 1.39,
    "track": "stack",
    "hot": true
   },
@@ -350,6 +766,42 @@
    ],
    "baseScore": 1.22,
    "track": "company",
+   "hot": true
+  },
+  {
+   "id": "8ff7d5825dca",
+   "title": "Sony Music and Warner Chappell sue Anthropic, Dario Amodei, and Benjamin Mann, alleging tens of thousands of copyrighted songs were used to train Claude's LLMs (Tim Ingham/Music Business Worldwide)",
+   "url": "https://www.techmeme.com/260829/p11#a260829p11",
+   "domain": "techmeme.com",
+   "publishedAt": "2026-08-29T15:30:01.000Z",
+   "companySlug": "stack-claude",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "techmeme",
+     "url": "https://www.techmeme.com/260829/p11#a260829p11"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "c15d3255aa4b",
+   "title": "Cursor co-founder Michael Truell says OpenAI represents just 5% of Cursor's traffic and Cursor trusted OpenAI to be \"neutral\"; Musk says he \"couldn't care less\" (Amir Efrati/The Information)",
+   "url": "https://www.techmeme.com/260829/p10#a260829p10",
+   "domain": "techmeme.com",
+   "publishedAt": "2026-08-29T14:15:01.000Z",
+   "companySlug": "stack-cursor",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "techmeme",
+     "url": "https://www.techmeme.com/260829/p10#a260829p10"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack",
    "hot": true
   },
   {
@@ -462,11 +914,11 @@
     {
      "id": "hn",
      "url": "https://news.ycombinator.com/item?id=49471407",
-     "points": 210,
+     "points": 219,
      "comments": 46
     }
    ],
-   "baseScore": 2.36,
+   "baseScore": 2.37,
    "track": "stack",
    "hot": true
   },
@@ -580,10 +1032,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2093113392559276459",
-     "points": 268
+     "points": 279
     }
    ],
-   "baseScore": 2.17,
+   "baseScore": 2.18,
    "track": "company",
    "hot": true
   },
@@ -686,26 +1138,6 @@
    "hot": true
   },
   {
-   "id": "4176b9ec21c8",
-   "title": "WAL and S3: Lakebase storage for the era of agents",
-   "url": "https://neon.com/blog/wal-s3-lakebase-storage-for-the-era-of-agents",
-   "domain": "neon.com",
-   "publishedAt": "2026-08-28T17:38:30Z",
-   "companySlug": "stack-neon",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49481942",
-     "points": 4,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.38,
-   "track": "stack",
-   "hot": true
-  },
-  {
    "id": "1aaa2600ae24",
    "title": "OpenRouter Is Having Issues",
    "url": "https://status.openrouter.ai/?date=2026-08-28",
@@ -784,26 +1216,6 @@
    "hot": true
   },
   {
-   "id": "7220f730119f",
-   "title": "Breaking Claude Code Opus 5 Auto Mode",
-   "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
-   "domain": "embracethered.com",
-   "publishedAt": "2026-08-28T15:05:55Z",
-   "companySlug": "stack-claude",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49479661",
-     "points": 4,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.38,
-   "track": "stack",
-   "hot": true
-  },
-  {
    "id": "99ec216af62f",
    "title": "Your MCP Client Trusts Too Much: What a Capability Layer Stops",
    "url": "https://naftiko.io/blog/your-mcp-client-trusts-too-much/",
@@ -820,26 +1232,6 @@
     }
    ],
    "baseScore": 1.34,
-   "track": "stack",
-   "hot": true
-  },
-  {
-   "id": "9977059470ee",
-   "title": "Claude: Free Plan for Scientists",
-   "url": "https://claude.com/programs/team-plan-for-scientists",
-   "domain": "claude.com",
-   "publishedAt": "2026-08-28T17:51:17Z",
-   "companySlug": "stack-claude",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49482098",
-     "points": 2,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.29,
    "track": "stack",
    "hot": true
   },
@@ -880,6 +1272,25 @@
    "hot": true
   },
   {
+   "id": "9722d85af0dc",
+   "title": "@Bencera: Sometimes I think about all the new jobs that will exist in 5 years. Things humans can’t even imagine yet. Like bot marriage counselors or deprecated model n…",
+   "url": "https://x.com/Bencera/status/2093061881225220531",
+   "domain": "x.com",
+   "publishedAt": "2026-08-27T19:43:34.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2093061881225220531",
+     "points": 61
+    }
+   ],
+   "baseScore": 1.92,
+   "track": "company",
+   "hot": true
+  },
+  {
    "id": "5b82ed842ee8",
    "title": "@Bencera: Anyone in tech should be in SF. Everyone around you is motivated to change the world. Unlimited investors are ready spend money on your ideas. The entire cit…",
    "url": "https://x.com/Bencera/status/2092924789845274896",
@@ -891,7 +1302,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092924789845274896",
-     "points": 588
+     "points": 590
     }
    ],
    "baseScore": 2.31,
@@ -936,25 +1347,6 @@
    ],
    "baseScore": 1.49,
    "track": "stack",
-   "hot": true
-  },
-  {
-   "id": "9722d85af0dc",
-   "title": "@Bencera: Sometimes I think about all the new jobs that will exist in 5 years. Things humans can’t even imagine yet. Like bot marriage counselors or deprecated model n…",
-   "url": "https://x.com/Bencera/status/2093061881225220531",
-   "domain": "x.com",
-   "publishedAt": "2026-08-27T19:43:34.000Z",
-   "companySlug": "polsia",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2093061881225220531",
-     "points": 56
-    }
-   ],
-   "baseScore": 1.9,
-   "track": "company",
    "hot": true
   },
   {
@@ -1338,6 +1730,26 @@
     }
    ],
    "baseScore": 1.29,
+   "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "4a5b9c03534d",
+   "title": "GLM-5.3-Flash",
+   "url": "https://z.ai/blog/glm-5.3-flash",
+   "domain": "z.ai",
+   "publishedAt": "2026-08-26T14:08:50Z",
+   "companySlug": "stack-z-ai",
+   "kind": "blog",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49449507",
+     "points": 1128,
+     "comments": 575
+    }
+   ],
+   "baseScore": 2.87,
    "track": "stack",
    "hot": true
   },
@@ -1751,7 +2163,7 @@
     {
      "id": "hn",
      "url": "https://news.ycombinator.com/item?id=49446422",
-     "points": 433,
+     "points": 434,
      "comments": 146
     }
    ],
@@ -1809,12 +2221,11 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092632448056086850",
-     "points": 442
+     "points": 446
     }
    ],
    "baseScore": 2.26,
-   "track": "company",
-   "hot": true
+   "track": "company"
   },
   {
    "id": "258878657d10",
@@ -1833,8 +2244,7 @@
     }
    ],
    "baseScore": 1.22,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "ea198d2208e4",
@@ -1853,8 +2263,7 @@
     }
    ],
    "baseScore": 1.38,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "3934402f7c5c",
@@ -1873,8 +2282,7 @@
     }
    ],
    "baseScore": 1.4,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "fe1af222ad34",
@@ -1893,8 +2301,7 @@
     }
    ],
    "baseScore": 1.29,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "d4b0bd9eced9",
@@ -1913,8 +2320,7 @@
     }
    ],
    "baseScore": 1.34,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "817d1900502c",
@@ -1933,8 +2339,7 @@
     }
    ],
    "baseScore": 1.35,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "40c2589f86a7",
@@ -1951,8 +2356,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "a219319a7de3",
@@ -1969,8 +2373,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "10fc5cbac325",
@@ -1988,8 +2391,7 @@
     }
    ],
    "baseScore": 2.06,
-   "track": "company",
-   "hot": true
+   "track": "company"
   },
   {
    "id": "45577c07f68d",
@@ -2008,8 +2410,25 @@
     }
    ],
    "baseScore": 1.34,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
+  },
+  {
+   "id": "9217dd3815a5",
+   "title": "@Bencera: https://t.co/GkIbku0Jwj",
+   "url": "https://x.com/Bencera/status/2092595983905362308",
+   "domain": "x.com",
+   "publishedAt": "2026-08-26T12:52:15.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2092595983905362308",
+     "points": 436
+    }
+   ],
+   "baseScore": 2.26,
+   "track": "company"
   },
   {
    "id": "975ab80840c9",
@@ -2028,27 +2447,7 @@
     }
    ],
    "baseScore": 1.29,
-   "track": "stack",
-   "hot": true
-  },
-  {
-   "id": "9217dd3815a5",
-   "title": "@Bencera: https://t.co/GkIbku0Jwj",
-   "url": "https://x.com/Bencera/status/2092595983905362308",
-   "domain": "x.com",
-   "publishedAt": "2026-08-26T12:52:15.000Z",
-   "companySlug": "polsia",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2092595983905362308",
-     "points": 433
-    }
-   ],
-   "baseScore": 2.25,
-   "track": "company",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "48f66cf6247c",
@@ -2062,12 +2461,11 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092699478566556062",
-     "points": 68
+     "points": 70
     }
    ],
    "baseScore": 1.94,
-   "track": "company",
-   "hot": true
+   "track": "company"
   },
   {
    "id": "012d1dec5b06",
@@ -2084,8 +2482,7 @@
     }
    ],
    "baseScore": 1.25,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "0399a958a463",
@@ -2104,8 +2501,7 @@
     }
    ],
    "baseScore": 1.32,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "65deacaa206b",
@@ -2122,8 +2518,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "35d5c0df6246",
@@ -2140,8 +2535,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "f9aee9282bc6",
@@ -2158,8 +2552,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "cedc4487a47c",
@@ -2176,8 +2569,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "c2a3859343f0",
@@ -2194,8 +2586,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "e379ee891e20",
@@ -2336,29 +2727,6 @@
    "track": "stack"
   },
   {
-   "id": "90303ccd6581",
-   "title": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5",
-   "domain": "bloomberg.com",
-   "publishedAt": "2026-08-26T09:48:22Z",
-   "companySlug": "stack-z-ai",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5"
-    },
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49446312",
-     "points": 5,
-     "comments": 2
-    }
-   ],
-   "baseScore": 2.01,
-   "track": "stack"
-  },
-  {
    "id": "61ca77276ebb",
    "title": "Sources: Meta internally projected that it could spend as much as $10B annually on Anthropic's AI models, even as Zuckerberg publicly criticized Anthropic (New York Times)",
    "url": "https://www.techmeme.com/260827/p31#a260827p31",
@@ -2495,6 +2863,29 @@
    "track": "company"
   },
   {
+   "id": "84f9d48882dd",
+   "title": "Gamma acquires Accel-backed design startup Lica",
+   "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+   "domain": "techcrunch.com",
+   "publishedAt": "2026-08-25T15:00:00.000Z",
+   "companySlug": "gamma",
+   "kind": "funding",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49436877",
+     "points": 3,
+     "comments": 0
+    },
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVmRfREZUM1BYY1VBaUtNY0E1NVhFcjRGOEVCNkc3WDJQUmx3ampUaGhDQWQ0NXpTemROMzBHWEJBNkpFN1BtWGpsQ0xwRGRDRUpwelhiZkJDbGU0QXI4c2xMMjdkTFBDMG56ZWhRN3k4UjQ0RWNoSFhfQnhZZFBjeGRGVGQ1OGJudUE?oc=5"
+    }
+   ],
+   "baseScore": 2.64,
+   "track": "company"
+  },
+  {
    "id": "e6882e0d6b6d",
    "title": "Alice Raises $140M to Secure AI Models",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORURjMzlYTTF0V3dOWHl4S2lOZnE3WHFDWExZc0x3UDZQLWJTZlZTZEtjYWhZRHEyVHJyX2JfV2s0VVdfN2duNFJCQUNEVXh4RVRlMk96TWFHdEdCeVgtUWE4RGJVSm85a0c0cTNYS1NKbEU1UnpqQnUyRGc2eGJOelFoaDJhcFY1dUk2YjJ3emExMXM3?oc=5",
@@ -2546,25 +2937,6 @@
    ],
    "baseScore": 1.1,
    "track": "company"
-  },
-  {
-   "id": "c16430c05d83",
-   "title": "Gemini Flash 3.7 with 75% discount on Open Router",
-   "url": "https://openrouter.ai/models",
-   "domain": "openrouter.ai",
-   "publishedAt": "2026-08-26T20:29:59Z",
-   "companySlug": "stack-openrouter",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49455424",
-     "points": 3,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.34,
-   "track": "stack"
   },
   {
    "id": "5073aaba1a60",
@@ -2620,23 +2992,6 @@
    "track": "stack"
   },
   {
-   "id": "9cf6d7ef2535",
-   "title": "Gamma acquires Accel-backed design startup Lica",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVmRfREZUM1BYY1VBaUtNY0E1NVhFcjRGOEVCNkc3WDJQUmx3ampUaGhDQWQ0NXpTemROMzBHWEJBNkpFN1BtWGpsQ0xwRGRDRUpwelhiZkJDbGU0QXI4c2xMMjdkTFBDMG56ZWhRN3k4UjQ0RWNoSFhfQnhZZFBjeGRGVGQ1OGJudUE?oc=5",
-   "domain": "techcrunch.com",
-   "publishedAt": "2026-08-25T15:00:00.000Z",
-   "companySlug": "gamma",
-   "kind": "funding",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVmRfREZUM1BYY1VBaUtNY0E1NVhFcjRGOEVCNkc3WDJQUmx3ampUaGhDQWQ0NXpTemROMzBHWEJBNkpFN1BtWGpsQ0xwRGRDRUpwelhiZkJDbGU0QXI4c2xMMjdkTFBDMG56ZWhRN3k4UjQ0RWNoSFhfQnhZZFBjeGRGVGQ1OGJudUE?oc=5"
-    }
-   ],
-   "baseScore": 2.4,
-   "track": "company"
-  },
-  {
    "id": "1a2defb3777f",
    "title": "@Bencera: Here's how I reduced my AI bill from $1M to $100k using Open Source Models https://t.co/BF06kJA7Np",
    "url": "https://x.com/Bencera/status/2092342918074040491",
@@ -2648,10 +3003,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092342918074040491",
-     "points": 192
+     "points": 195
     }
    ],
-   "baseScore": 2.11,
+   "baseScore": 2.12,
    "track": "company"
   },
   {
@@ -2703,6 +3058,29 @@
     }
    ],
    "baseScore": 2.4,
+   "track": "stack"
+  },
+  {
+   "id": "a8014056e528",
+   "title": "China's Z.AI made Ox Alpha stealth model that rivals DeepSeek",
+   "url": "https://www.theedgesingapore.com/news/artificial-intelligence/chinas-zai-made-ox-alpha-stealth-model-rivals-deepseek",
+   "domain": "theedgesingapore.com",
+   "publishedAt": "2026-08-26T09:48:22Z",
+   "companySlug": "stack-z-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "hn",
+     "url": "https://news.ycombinator.com/item?id=49446312",
+     "points": 5,
+     "comments": 2
+    },
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5"
+    }
+   ],
+   "baseScore": 1.51,
    "track": "stack"
   },
   {
@@ -2980,10 +3358,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092259269512970472",
-     "points": 76
+     "points": 77
     }
    ],
-   "baseScore": 1.95,
+   "baseScore": 1.96,
    "track": "company"
   },
   {
@@ -3616,7 +3994,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2091908458907845078",
-     "points": 75
+     "points": 76
     }
    ],
    "baseScore": 1.95,
@@ -4028,7 +4406,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2091671099205665115",
-     "points": 103
+     "points": 104
     }
    ],
    "baseScore": 2.01,
@@ -4203,10 +4581,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2091676616292434303",
-     "points": 12
+     "points": 13
     }
    ],
-   "baseScore": 1.65,
+   "baseScore": 1.66,
    "track": "company"
   },
   {
@@ -5049,10 +5427,6 @@
      "id": "x",
      "url": "https://x.com/Bencera/status/2090877452658626700",
      "points": 739
-    },
-    {
-     "id": "youtube",
-     "url": "https://www.youtube.com/shorts/nNsy6NJ7fOU"
     }
    ],
    "baseScore": 2.35,
@@ -6349,7 +6723,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2090095191076360423",
-     "points": 530
+     "points": 528
     }
    ],
    "baseScore": 2.29,
@@ -6831,23 +7205,6 @@
    "track": "stack"
   },
   {
-   "id": "ba43f56ac69f",
-   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5XYTJZcnp3a2JjdXJmcjFvdFRQQTJKV2hKOE9KR0ZBQ19qV09WYjVENXpKdzdQTkNPQ0VoSXdzc1lNZlFFWjI2dg?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-20T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5XYTJZcnp3a2JjdXJmcjFvdFRQQTJKV2hKOE9KR0ZBQ19qV09WYjVENXpKdzdQTkNPQ0VoSXdzc1lNZlFFWjI2dg?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "5ceb839bc73c",
    "title": "NanoClaw comes to Slack, letting you create persistent AI agent teams and colleagues from a single message",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM1lYa2lMREliUTk4b211ZmUzM1RkOWZBcVo0UDNSNW9HQ1E4LXpmRjhici1IQXhIZHM4NlZzaXIzdW80MHlhV2swWVF0MjV4WGdpMUhpU0VIQkV4ckFnRjRtUUNtbUdYbnZZc3g1di0xN1NXNEZoanJBR0pYdUxPLUQyTU9hU3JhSlBIOWU4LVo4Slp4dF9ZanlIZzFpdnIwNzBXRFNXcWMyVnBtdWJPaW9yazNzdlV2ckdmQXJUX3JOVmxueWN1MENPNEp2ZnZWcG53eW9paktheEU?oc=5",
@@ -6961,7 +7318,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2089728188075159812",
-     "points": 1891
+     "points": 1887
     }
    ],
    "baseScore": 2.51,
@@ -9869,23 +10226,6 @@
    "track": "stack"
   },
   {
-   "id": "495aee04b1b5",
-   "title": "OpenAI joins PORTS-Pike project",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lSDRzTDRmOXVNbmJMNmR5UUVvT1ozbmsweTU4aG9Da1RSc29vbHY5M05SblZFODNDeHFCYjJoMkJpUllJQk5oQmw3MU5LbnNqMjh3MkRqelMyQl9zRHBHSi14S1BxTkQ4?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-17T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lSDRzTDRmOXVNbmJMNmR5UUVvT1ozbmsweTU4aG9Da1RSc29vbHY5M05SblZFODNDeHFCYjJoMkJpUllJQk5oQmw3MU5LbnNqMjh3MkRqelMyQl9zRHBHSi14S1BxTkQ4?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "b7aa67a3f940",
    "title": "DigitalOcean Climbs 5% on Managed AI Agents Launch, Fastly Falls 4%",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRUZxZzh4NzR0Q09lX0s1S3duRzZ3NkZ2ZkhsMGxYVXowU2JIZjNoRWFvMS1LeVlfS2VyNlZfSjFKaEFaRV8xaG9FbEljbHBiZjNuamVyWnBLSHJDQ0NsUDJVcEhldy1XbzlZdEprVU5Hd3htRVdJcDMySnhtM3BLQmlNYXZVTXhaelFpOW9fMUdXUFdISUthTjlQUGJPNG1tY3p4YkxUUkp5RjZw?oc=5",
@@ -11373,7 +11713,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2089020368111481052",
-     "points": 145
+     "points": 146
     }
    ],
    "baseScore": 2.07,
@@ -13527,40 +13867,6 @@
    "track": "stack"
   },
   {
-   "id": "2de2b469279d",
-   "title": "From assistance to execution: How enterprises put AI to work",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tWU9Wam51YVk5a1BYMlpjSFVMSy1UWDUwcHdFM2o1aUJRTUVzVHhPZVg3MzB4Q3l5UVVtemJzRnFyRU84YTNNeE1fUEt1Y3NXU25Db09pUFZuSXpLby1rZ2FzbDJPb3c?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-12T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tWU9Wam51YVk5a1BYMlpjSFVMSy1UWDUwcHdFM2o1aUJRTUVzVHhPZVg3MzB4Q3l5UVVtemJzRnFyRU84YTNNeE1fUEt1Y3NXU25Db09pUFZuSXpLby1rZ2FzbDJPb3c?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "1ce07c58403c",
-   "title": "How RingCentral builds AI-native work from engineering to ops",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6YjkxSFpWQWstTXk1a0E2ZWhQazd1U2tIekZJd2F4aXhmYkpGLUY3elo4aE5RbkhDamR2LVhyUVVBMHlNY0dWbHY1VGpBZw?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-12T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6YjkxSFpWQWstTXk1a0E2ZWhQazd1U2tIekZJd2F4aXhmYkpGLUY3elo4aE5RbkhDamR2LVhyUVVBMHlNY0dWbHY1VGpBZw?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "6bf6ced19d16",
    "title": "IBM Cloud to Host $240M Together AI Inference Cluster",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNelpLMGlJOXRVZ2xONF9rRWxXSG1hZ1lmcU1acGR6c1VhUXI0S19ZS0wyU2l3R2ZqeVZ0SDVjLWxnNjJSLVdzM0FFSTl3eDRzUDRnN05VNVVEZDV3YkVrODZKZE8zTjNFakY3ZEJKWDZWdWpNYUlZYmxhc2xkaGwwVA?oc=5",
@@ -13882,7 +14188,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2086855424318337191",
-     "points": 512
+     "points": 511
     }
    ],
    "baseScore": 2.28,
@@ -14514,23 +14820,6 @@
    "track": "company"
   },
   {
-   "id": "a00d1690fda3",
-   "title": "Daybreak models are now available on AWS",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45SU9RVTVwLVo0ZVNlYVp6Mkd2TGM1dEc3eUtwRHJuQ3ZHeXZqbTd0SHZkZXZsRUhObWd0d2t2WlB3YWUyTVJfdTlNVlpUbkJONGc3N1NqR2hLQVc0N1NIZTlCQi1UOHlwSTJlTjU4TUFfSGxt?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-11T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45SU9RVTVwLVo0ZVNlYVp6Mkd2TGM1dEc3eUtwRHJuQ3ZHeXZqbTd0SHZkZXZsRUhObWd0d2t2WlB3YWUyTVJfdTlNVlpUbkJONGc3N1NqR2hLQVc0N1NIZTlCQi1UOHlwSTJlTjU4TUFfSGxt?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "7019b363dfde",
    "title": "OpenClaw AI agent asked to book gym class ends up hacking system: What went wrong?",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWnJfMGRMTEdQV0F6WVRsMFRCVVJQWHczcGtNY1EwLURxdUxWRTA2TGhKbHFJeFpXZC1SandBVFlBOFdIdk9yNHRXOEJjNGxkYVBfMnlmWkhHTnRYSGxZSlRoWWN4OEJ3VGFmdDRJUW5nV0dqWlU5dU04czZnOWY4Q1N2N1hycC00YVlHQkRpeFdKVlpkWjRva3VEMUVIVWhRbERhakVOQU4zV29kai1Zdi0zMmxQbXUwLTBiRXZEcC1XTWhiVF9sM0Jzc21WQlZuejViV0lkYXA5MUpVU2tSZNIB5wFBVV95cUxNWTBnVExqWUliZ1BCZGwyRzJpZV9zNEFFQ3NkWXlnWTNrdWU4VHhlQkVWUDFCSmJqTWo4R2JmMTN3WUs5SUo2TEJGZlRmLXd0ZDViQ0tDQkRQeFRIU2ZfTkN3X21tZ3B3Wkd0V3NrZVpCdEdvVFQySDNtWTFxemRnN0lRcXZLUFBPTXU0N2VJcDZvaWhGUFlSTUJfUVdaTG10R19FLWVtVkFucGdqTWpUaWJjVXZzekEwYVFIRHNaRElPMldBVXZvTGpVazBDbmtOMFJPWkM2Y1Z6QXVrYXk0bGhMVk1BSFU?oc=5",
@@ -15118,40 +15407,6 @@
    "track": "stack"
   },
   {
-   "id": "ddf32981b540",
-   "title": "Premium seats are coming to ChatGPT Business",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QbFoyeEpDQWY4c3hYV2NQSlBfcWhvZF9jR3BMdDBDdmpKbE9xZ1NFRHVBY1lldEZ2YXJLTmNwUlB6VkNXVGN3Z2ppdEZBVkxUNHY0OUltRTR6MkFGRUE3ZlI5MGZFOTg?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-10T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QbFoyeEpDQWY4c3hYV2NQSlBfcWhvZF9jR3BMdDBDdmpKbE9xZ1NFRHVBY1lldEZ2YXJLTmNwUlB6VkNXVGN3Z2ppdEZBVkxUNHY0OUltRTR6MkFGRUE3ZlI5MGZFOTg?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "33e6997fede2",
-   "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHhOZWxZTjFGeVhORk1uYkFLc2tpM2d1SmxadExqMU1KM1lrMmt3VVh2SXpFZ01GRGFBSWJYcG1NSU02a1ZLTFEzb3hwd1VJcUt6bk9oam9ZYXZLdFZBTEdveF9SQjl3Z1B5Z3JlOS1uN2pnd1JTclY4b21hREdzUmxSOFZ1alE?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-10T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHhOZWxZTjFGeVhORk1uYkFLc2tpM2d1SmxadExqMU1KM1lrMmt3VVh2SXpFZ01GRGFBSWJYcG1NSU02a1ZLTFEzb3hwd1VJcUt6bk9oam9ZYXZLdFZBTEdveF9SQjl3Z1B5Z3JlOS1uN2pnd1JTclY4b21hREdzUmxSOFZ1alE?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "c99027476d9a",
    "title": "An OpenClaw agent reportedly hacked a gym's booking system and kicked someone off a waiting list",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUFvazE3SVVfbFdlb1FFUlVEX2Z2d09VY0s1ckxzWjJYc2lOMmx2Qmp0amFSV0NTWHRQekg3SGQtSElET243MVBZTW5JMjRON1VUTjV6Q1dFYUJ6VUtIekFqM3NIQWtRMkZQTnMyaTlQZVpUV0h2MDU1cU1yVFVibXc1T1BBRVFlVmRrX19sNlV4RkFySHZmTDJWYlhud0Y3TEw1SlU0Rk5rU2dIQTFDU09xN0tabmZKX1pESWkwTDc4OWZELTl3?oc=5",
@@ -15504,7 +15759,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2085735211791425832",
-     "points": 1660
+     "points": 1662
     }
    ],
    "baseScore": 2.49,
@@ -16688,23 +16943,6 @@
    ],
    "baseScore": 1.1,
    "track": "company"
-  },
-  {
-   "id": "ab48c0d29b39",
-   "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zTk15ZjhTalBJMUpDa0FudE9faExCSHJoNzVmeG5XUUJleUg2ZlcwbEwwUnhCTXlZVVZJUXgwTXg0N092UnNCaERsZVZIYWNrMUo0QTJUc3BZSUJiLTRzN1hfSGxoN1lMZVE?oc=5",
-   "domain": "openai.com",
-   "publishedAt": "2026-08-06T07:00:00.000Z",
-   "companySlug": "stack-openai-codex",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zTk15ZjhTalBJMUpDa0FudE9faExCSHJoNzVmeG5XUUJleUg2ZlcwbEwwUnhCTXlZVVZJUXgwTXg0N092UnNCaERsZVZIYWNrMUo0QTJUc3BZSUJiLTRzN1hfSGxoN1lMZVE?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
   },
   {
    "id": "369c01d3afab",
@@ -19033,23 +19271,6 @@
    "track": "company"
   },
   {
-   "id": "6583a726e8ab",
-   "title": "Nscale to acquire Romanian co-founded AI startup Anyscale in reportedly USD 1.65 billion deal",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV0kzS0M2QmwxZ2ctaFBGQlNTb2NBOHBkTHRxMTVtMDlKWjVHaFUxbU9lcVhWOU01NW1vdGNOSUszMmdGbjdQZUZKRFJDUHFsUHZuRG90Tl82TnJnVUR2c0pncUtQOFRXb2pOMUZxNTE2N0dtMTJ3S2s1dXhvQ3JfSFdUZDBSWEQtVE5vSlFiR0lEaDYzd2x3WEVvbTjSAaIBQVVfeXFMTVVaWE9XN1Rua1NRUks3ckU5bmNleWxiT19xTFVSUmlrRXRybS1ETUZrYnl5bzQ5eFRZTmEzUEVDQWZPTzZ6dEFpR2FEN3BoWFpJS09jZmY4TjJWNEdhc3dmTVVKeEt3dGg2ajJuQ3lUcnJBMHdhZGVMOHpwR2U5VlVfMUMteVUxWlNHOHhsaGFLOXlRb1h1RWxGajlQWVRMVW53?oc=5",
-   "domain": "romania-insider.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "moritz",
-   "kind": "funding",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV0kzS0M2QmwxZ2ctaFBGQlNTb2NBOHBkTHRxMTVtMDlKWjVHaFUxbU9lcVhWOU01NW1vdGNOSUszMmdGbjdQZUZKRFJDUHFsUHZuRG90Tl82TnJnVUR2c0pncUtQOFRXb2pOMUZxNTE2N0dtMTJ3S2s1dXhvQ3JfSFdUZDBSWEQtVE5vSlFiR0lEaDYzd2x3WEVvbTjSAaIBQVVfeXFMTVVaWE9XN1Rua1NRUks3ckU5bmNleWxiT19xTFVSUmlrRXRybS1ETUZrYnl5bzQ5eFRZTmEzUEVDQWZPTzZ6dEFpR2FEN3BoWFpJS09jZmY4TjJWNEdhc3dmTVVKeEt3dGg2ajJuQ3lUcnJBMHdhZGVMOHpwR2U5VlVfMUMteVUxWlNHOHhsaGFLOXlRb1h1RWxGajlQWVRMVW53?oc=5"
-    }
-   ],
-   "baseScore": 2.4,
-   "track": "company"
-  },
-  {
    "id": "8b1780fe90b4",
    "title": "Voters Urged to Use Ballot Drop Boxes as Mail Postmark Delays Put Ballots at Risk",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZm9POVdZWTNMZVdRWjNmRXJmNmFaSHFSNVhaTUlZRmdxNENMS2N1RkNnUlhGQnVNV2VqQ0ZCQTFxY2VPbXlkWl9pbk1pYlprZERRMkg4VUx5eDNDQzJYdUFxWjJSX0RZWDJ1Z1BPbFBtVjkyYkduVTFKOGRfVFVUMWg5MzRBNExGWGZ2VFBfMTcxX2dkVjg5WWhKZTdHTWJMNXR3SnR3cWhfSlNJNjc4?oc=5",
@@ -19173,41 +19394,6 @@
    "track": "stack"
   },
   {
-   "id": "856b32caa5bf",
-   "title": "@Bencera: Serving OSS models at scale is no joke. https://t.co/aWsgc7oxXW",
-   "url": "https://x.com/Bencera/status/2082987076723872193",
-   "domain": "x.com",
-   "publishedAt": "2026-07-31T00:29:53.000Z",
-   "companySlug": "polsia",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2082987076723872193",
-     "points": 81
-    }
-   ],
-   "baseScore": 1.97,
-   "track": "company"
-  },
-  {
-   "id": "a416e371dc3b",
-   "title": "Nous Research Ships Three Integration Paths for Hermes Agent and Buzz, Block’s Open Source Nostr Workspace for Humans and Agents",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOWFGdERBYThhQnVPQVJGdFBiTDlQdU1mWG04UFo0LXZoWGhTSC1Hb09FOGRtamFrOFZOZ1RzVjhOeGZ3aWJBaE9BbUJlRkpFOWl3Mld4cFZIcXJoUDBoa2RiVkJWUFFBRmROajktdnlxVVNKdDNNbHFZdVM1bmxWSUQwSjhYajVETV9oS211bjh3Ni1ITWlYUWlnbi1sT0Q3d0ZUV3p6SkJhNHIzNHVwS1lsNXM2MjZNSmZvOWR5MXdSaHRGYnQtTlFwbUR6enhBckZfZ09mMEFSRFFxOUZPV2dvcWNDUFN5ZFFuVXprSjJ1cngxOXplUy1BNNIBgAJBVV95cUxQa09rOHRKSGNWbk9nUnJWODJDalhJLVM4TTVIS3MyQThOUTdLeGRKdlcxbUFpaHREMGVHWm0xWFhDMUlKRjFRVDNyRF9FbTNKZTN6ZGp5X1ZKTk5BTmpKeHhhVF9ZcWpPdG41MGpwczFONGJIM2wyTk9aY0JjVTd2R2JkcHN6bHlBSHBuLU5LVTEzNi1DS0V0TlFLdmFkd185VmpwcXUyU3h1ZVhDRndKcW9Lc1FTZzNUdkNnTFpmN0hma25VMEV2ZlpPVElfY2dKUmdCcGYySlJ5YXhuX2pZV2JjbWFqT2VsaFIwTmJjZTVtOEJUMktFcjgwQWw1WC1B?oc=5",
-   "domain": "marktechpost.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "stack-hermes",
-   "kind": "product",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOWFGdERBYThhQnVPQVJGdFBiTDlQdU1mWG04UFo0LXZoWGhTSC1Hb09FOGRtamFrOFZOZ1RzVjhOeGZ3aWJBaE9BbUJlRkpFOWl3Mld4cFZIcXJoUDBoa2RiVkJWUFFBRmROajktdnlxVVNKdDNNbHFZdVM1bmxWSUQwSjhYajVETV9oS211bjh3Ni1ITWlYUWlnbi1sT0Q3d0ZUV3p6SkJhNHIzNHVwS1lsNXM2MjZNSmZvOWR5MXdSaHRGYnQtTlFwbUR6enhBckZfZ09mMEFSRFFxOUZPV2dvcWNDUFN5ZFFuVXprSjJ1cngxOXplUy1BNNIBgAJBVV95cUxQa09rOHRKSGNWbk9nUnJWODJDalhJLVM4TTVIS3MyQThOUTdLeGRKdlcxbUFpaHREMGVHWm0xWFhDMUlKRjFRVDNyRF9FbTNKZTN6ZGp5X1ZKTk5BTmpKeHhhVF9ZcWpPdG41MGpwczFONGJIM2wyTk9aY0JjVTd2R2JkcHN6bHlBSHBuLU5LVTEzNi1DS0V0TlFLdmFkd185VmpwcXUyU3h1ZVhDRndKcW9Lc1FTZzNUdkNnTFpmN0hma25VMEV2ZlpPVElfY2dKUmdCcGYySlJ5YXhuX2pZV2JjbWFqT2VsaFIwTmJjZTVtOEJUMktFcjgwQWw1WC1B?oc=5"
-    }
-   ],
-   "baseScore": 1.65,
-   "track": "stack"
-  },
-  {
    "id": "0fc9434d1490",
    "title": "Midjourney Copied Thousands of Car Photos to Train AI, Suit Says",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRWN3NGh5LS1oWVFuRTVsZUdLM1RaaW9HWGFJQzhUQ19KSUtHTFBCUVV0bXZfemo5bGU5S0gwV1U4YkR0c0ZKUXc3NnRadnFNRXU3bTl2bkJjZW9ZS3ZrcGxqTmdlZjhfcno2S0wzTTlJXzJJaEhNSGNPaWJKMkNlZHMxNDNKUjhOYnJ5MC14RnEyR2g0LUVrMHVpVV83cnFyWUE?oc=5",
@@ -19225,24 +19411,6 @@
    "track": "company"
   },
   {
-   "id": "726d8ac940ac",
-   "title": "@Bencera: hi @Polymarket",
-   "url": "https://x.com/Bencera/status/2082890354144256507",
-   "domain": "x.com",
-   "publishedAt": "2026-07-30T18:05:33.000Z",
-   "companySlug": "polsia",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2082890354144256507",
-     "points": 86
-    }
-   ],
-   "baseScore": 1.98,
-   "track": "company"
-  },
-  {
    "id": "3b52a3e9a4be",
    "title": "Primary election ballot reminder: postmark it or drop off by Tuesday Aug. 4",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbTYwRENBOEc2ZWt1ZThXRjZNOEVLdzRFSld6U1JOWTZjTUhRSW91X3NmQWN5ZTVkdVhLRjJBaFc5eUxDMS1JU0lpY2lNOTkya2NhLUh3STNoRGt1Zm56bXM2NUFGZVVMREZNSENaNUk5Uzd1S1I1dmFkcVlRQ2ZWbElRbDIzWVdYR3NHeV8yeDJjRjhDcVQ1WGVsSDFWQk9iRDRvemFpZDRSQmU3WGdsWDNLaw?oc=5",
@@ -19254,231 +19422,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbTYwRENBOEc2ZWt1ZThXRjZNOEVLdzRFSld6U1JOWTZjTUhRSW91X3NmQWN5ZTVkdVhLRjJBaFc5eUxDMS1JU0lpY2lNOTkya2NhLUh3STNoRGt1Zm56bXM2NUFGZVVMREZNSENaNUk5Uzd1S1I1dmFkcVlRQ2ZWbElRbDIzWVdYR3NHeV8yeDJjRjhDcVQ1WGVsSDFWQk9iRDRvemFpZDRSQmU3WGdsWDNLaw?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "269434640bf1",
-   "title": "YouTube Shorts Scraper and MCP Connector",
-   "url": "https://apify.com/techforce.global/youtube-shorts-scraper",
-   "domain": "apify.com",
-   "publishedAt": "2026-07-31T06:23:39Z",
-   "companySlug": "stack-apify",
-   "kind": "blog",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49119659",
-     "points": 2,
-     "comments": 0
-    }
-   ],
-   "baseScore": 1.29,
-   "track": "stack"
-  },
-  {
-   "id": "45d5a99cb961",
-   "title": "CoreWeave bows to investor pushback on debt linked to Anthropic contracts",
-   "url": "https://www.ft.com/content/9d2117af-b3ec-4ca4-b00f-6813ab5075ec",
-   "domain": "ft.com",
-   "publishedAt": "2026-07-30T22:25:05Z",
-   "companySlug": "stack-coreweave",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "hn",
-     "url": "https://news.ycombinator.com/item?id=49116658",
-     "points": 5,
-     "comments": 1
-    }
-   ],
-   "baseScore": 1.47,
-   "track": "stack"
-  },
-  {
-   "id": "6e983020fc3f",
-   "title": "Midjourney | AI Technology, Discord, Tools, Versions, & History",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVNmJZel9LNUhrbDdZU1V5d19iblRKRGZZd0VHaHRzOGdOdlhUeU1NZDV0MjF3ajN3SEFLTXo3b0JySTc3dGFCaWxUSmc0UHhTb0QwSkZIemNSZjdI?oc=5",
-   "domain": "britannica.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "midjourney",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVNmJZel9LNUhrbDdZU1V5d19iblRKRGZZd0VHaHRzOGdOdlhUeU1NZDV0MjF3ajN3SEFLTXo3b0JySTc3dGFCaWxUSmc0UHhTb0QwSkZIemNSZjdI?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
-   "id": "06ce4c58cdff",
-   "title": "How TD developed its first agentic AI tool",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwLThkZEZVZjJXeVlyWE01emFJQ1NfOTdZRE5zRWxoUm1xMlE4VVZqN0JGU3ZtQkF1VjhFN0VyVzE0TXFQVnBIc3ZmazRtdmNfdTdnLTBVb1RfOXM?oc=5",
-   "domain": "stories.td.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "minimal-ai",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwLThkZEZVZjJXeVlyWE01emFJQ1NfOTdZRE5zRWxoUm1xMlE4VVZqN0JGU3ZtQkF1VjhFN0VyVzE0TXFQVnBIc3ZmazRtdmNfdTdnLTBVb1RfOXM?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
-   "id": "c21eb269343a",
-   "title": "Strange gamma rays could reveal how stars forge heavy elements",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IYmlmM2hhMWx3cmdOUkJDTWF0YVNFRVVTdk9QOXNKS3FZNlhZOEJmZU1iazdZNUpKNy1HOTZRbS03RU5zdkpzS1J6SWJBUWFUSGdSZGlKcTl1V0JZRmxSTHNFSjF5Y1BGMm5BdUZnaw?oc=5",
-   "domain": "sciencedaily.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "gamma",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IYmlmM2hhMWx3cmdOUkJDTWF0YVNFRVVTdk9QOXNKS3FZNlhZOEJmZU1iazdZNUpKNy1HOTZRbS03RU5zdkpzS1J6SWJBUWFUSGdSZGlKcTl1V0JZRmxSTHNFSjF5Y1BGMm5BdUZnaw?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
-   "id": "e03c1cb00cf1",
-   "title": "Audio-Native, TTS-Optional: PolyAI's Dialog-RSN-1 Carves Out Third Enterprise Voice AI Architecture",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNEdmaW9WZGktSnJONmY5ZFVNMjJMS0JKbDRaZzRHZGFCMjBGNEJiTTUxbU9PaHdlZWx6d3NUMlY1MzJvMlc5SkQ1ZU5KQ3k5NE1FOTJBeGpyTnlKR1VVdUdScHVfUkhsZUVmMFNBbUVodUZHbzJwc1ZIdzhBOHltVkZhelI5UDRGUXo3ckR5RUotN2NGYlREdldpOXZfa3hSdEc3c0NFVEVBVTNzVGtqTVdfRGoySGJNem9EYU1wYVZHN2pua2ZYTm1kaXVVcUNQWEI4OE9FSkYyMjJ5Nmx4ZjBwVnl3dw?oc=5",
-   "domain": "techtimes.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "retell-ai",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNEdmaW9WZGktSnJONmY5ZFVNMjJMS0JKbDRaZzRHZGFCMjBGNEJiTTUxbU9PaHdlZWx6d3NUMlY1MzJvMlc5SkQ1ZU5KQ3k5NE1FOTJBeGpyTnlKR1VVdUdScHVfUkhsZUVmMFNBbUVodUZHbzJwc1ZIdzhBOHltVkZhelI5UDRGUXo3ckR5RUotN2NGYlREdldpOXZfa3hSdEc3c0NFVEVBVTNzVGtqTVdfRGoySGJNem9EYU1wYVZHN2pua2ZYTm1kaXVVcUNQWEI4OE9FSkYyMjJ5Nmx4ZjBwVnl3dw?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
-   "id": "fcb6d4c16261",
-   "title": "Anthropic says human error let Claude AI models escape test environment and hack third parties",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWmtMWmdtVmdWUjBRa1ZqcXpsOGpOUkJTQThkUzEtZnU5WW5qRnU0d2w0WHdwdHJkTF85OUJlX29hanhuNlNsR2g3WXhuU0xGbUpuU2lWRkI1bDlFeExfTWNDRWNRdlZoeDg5WFdtOGJ5TS1SUThvYjhfS292TEZ2MzcxRmJPZw?oc=5",
-   "domain": "cybersecuritydive.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "stack-claude",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWmtMWmdtVmdWUjBRa1ZqcXpsOGpOUkJTQThkUzEtZnU5WW5qRnU0d2w0WHdwdHJkTF85OUJlX29hanhuNlNsR2g3WXhuU0xGbUpuU2lWRkI1bDlFeExfTWNDRWNRdlZoeDg5WFdtOGJ5TS1SUThvYjhfS292TEZ2MzcxRmJPZw?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "f6ce86450db0",
-   "title": "Anthropic says its Claude models hacked three real companies during internal testing",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFBSQ0tiNFptYWQwY1ZLeEUwSnBRVFZ5Q1prZUxER3I2TzJ6SktUMk9ZZU1qQXp3OGJUYzJsV0VFV2Joc3NBR051SFBsbjlRUlhvLXo3d0JVaFZmVUFncHoyUHVFajU0WWRxUEd1bkRnSkRMdHlJdjVIeWh0VFJtNFR1TXdMXzZTMkk5eEpUWndSbFQxSFE?oc=5",
-   "domain": "fortune.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "stack-claude",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFBSQ0tiNFptYWQwY1ZLeEUwSnBRVFZ5Q1prZUxER3I2TzJ6SktUMk9ZZU1qQXp3OGJUYzJsV0VFV2Joc3NBR051SFBsbjlRUlhvLXo3d0JVaFZmVUFncHoyUHVFajU0WWRxUEd1bkRnSkRMdHlJdjVIeWh0VFJtNFR1TXdMXzZTMkk5eEpUWndSbFQxSFE?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "8f3eb6b92b17",
-   "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85NGFHYWhZdUVHV1ZOd1RGeHI4RzNhWGJnZUwybFRBVEQzSVhSbzZudkNMSXBDX2FQSTBoelBrVWxNVUZpLUw2alhBRnlET1RfQTRRN2dsWU9ZNVpfYVktTEtIR0FYRlJKRkhvWmpKbkRCNTJOcnRBOFNma05VZw?oc=5",
-   "domain": "thehackernews.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "stack-claude",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85NGFHYWhZdUVHV1ZOd1RGeHI4RzNhWGJnZUwybFRBVEQzSVhSbzZudkNMSXBDX2FQSTBoelBrVWxNVUZpLUw2alhBRnlET1RfQTRRN2dsWU9ZNVpfYVktTEtIR0FYRlJKRkhvWmpKbkRCNTJOcnRBOFNma05VZw?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "c6fdfa0f1639",
-   "title": "Anthropic's Claude AI escapes tests to hack three organisations",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2QlZMcUJ4dUVteXdkZVAxOElRaVhib0pnTVZuZzBQY043YzMySTE0NUtkQ1Y3NnY5MTJkOHdaemxhdkFjdmJmY2U0cmdDRGYtdnEzUVZvMXZjZw?oc=5",
-   "domain": "bbc.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "stack-claude",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2QlZMcUJ4dUVteXdkZVAxOElRaVhib0pnTVZuZzBQY043YzMySTE0NUtkQ1Y3NnY5MTJkOHdaemxhdkFjdmJmY2U0cmdDRGYtdnEzUVZvMXZjZw?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "b6e2f9903221",
-   "title": "Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPajZvTXhORFdCV2FVQ1RKNUpvVkFRN2liWVhIM01TVk5tOHYxVzlGTWhkdW0tUFVKcUMyUUhGaWJ6ZTJIa0JNc1VBaGlaLTVlaF93eEozdncwMFNwTjc4eS1BZy1vOVhtTGZ0dnkyMEZBY0lFZEpTUGpENl9CYnNTT2VkaWt4Rnp5R1dMUVRyS2pLMmRfQk1hLUdZVjJkZEduZFJveUtaRTdjalVGZ2dtTDZQRVVXYjNsbERTOGJZNHkzcVdIcGtLeEpwcGk2Q3M0Q1BYeFlHamZzR29mT1lSRHZvX193Y1pFOWp5TmVGLTQ3ME4tRmtpdHZUaUxGX2NIZ3RmbnpjLVh1R0M1OHc?oc=5",
-   "domain": "tomshardware.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "stack-openclaw",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPajZvTXhORFdCV2FVQ1RKNUpvVkFRN2liWVhIM01TVk5tOHYxVzlGTWhkdW0tUFVKcUMyUUhGaWJ6ZTJIa0JNc1VBaGlaLTVlaF93eEozdncwMFNwTjc4eS1BZy1vOVhtTGZ0dnkyMEZBY0lFZEpTUGpENl9CYnNTT2VkaWt4Rnp5R1dMUVRyS2pLMmRfQk1hLUdZVjJkZEduZFJveUtaRTdjalVGZ2dtTDZQRVVXYjNsbERTOGJZNHkzcVdIcGtLeEpwcGk2Q3M0Q1BYeFlHamZzR29mT1lSRHZvX193Y1pFOWp5TmVGLTQ3ME4tRmtpdHZUaUxGX2NIZ3RmbnpjLVh1R0M1OHc?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "fd7d3b762eb9",
-   "title": "Claude published malicious code to the Internet and attacked 3 real companies",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTTRWNDd6Z3FzOGRseFdhbVR1c1QtMkp0NmNHMGpSWlVMTFhRVklySFppd0x6al9FVXMyOHlaci02Um1JUWdvM3ZUSFdXeTQ4a29MSDh0bHdvTHpCbUdXZFF5dnVaYnRUOVo2MFpQbzFheDV4aWg2cnRQN2RzQUJqVFk5UWZrdXVQQy1rSXg1MlE1WFA0TFZjaXhkbTZQOTE4Y0ZzbXUyOE94UGpJUkluSDFwZmlrVE5HcEk0MU1nZTRMVm5abUE?oc=5",
-   "domain": "arstechnica.com",
-   "publishedAt": "2026-07-31T07:00:00.000Z",
-   "companySlug": "stack-claude",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTTRWNDd6Z3FzOGRseFdhbVR1c1QtMkp0NmNHMGpSWlVMTFhRVklySFppd0x6al9FVXMyOHlaci02Um1JUWdvM3ZUSFdXeTQ4a29MSDh0bHdvTHpCbUdXZFF5dnVaYnRUOVo2MFpQbzFheDV4aWg2cnRQN2RzQUJqVFk5UWZrdXVQQy1rSXg1MlE1WFA0TFZjaXhkbTZQOTE4Y0ZzbXUyOE94UGpJUkluSDFwZmlrVE5HcEk0MU1nZTRMVm5abUE?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "9b39916dc208",
-   "title": "How Vercel Runs on AI Agents: 96% of Marketing, 93% of Support, and an SDR Team Reabsorbed. A Deep Dive With CPO Tom Occhino",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPajNmQ2xwSlJMZEdOZFQ2OHB0Yk9oc05VQ05rNGNNUEF5Y2Z5ZlA0NE5FSjdhc0RHZ01yUjBLSjRxcnBsQU1VaTZUeERta1E4YThtNjlUMEhFZmJvZEpaUnJ5N2p2a0Jqb0V1b0k0SFNRSWRSTGlFeTlmdkQ1UVRwZmVWMGRSYXpld2hrbjIxdkZYNzZpRmRMWTBwTlZmSEZfNTBSZGVVSGplU29YLUJhZzh5dU4tdUxpbFNNZFNEQ0tTTTAzLVR3dzFIa2xTelFuT0NzbktVWWlkZw?oc=5",
-   "domain": "saastr.com",
-   "publishedAt": "2026-07-30T21:51:51.000Z",
-   "companySlug": "stack-vercel",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPajNmQ2xwSlJMZEdOZFQ2OHB0Yk9oc05VQ05rNGNNUEF5Y2Z5ZlA0NE5FSjdhc0RHZ01yUjBLSjRxcnBsQU1VaTZUeERta1E4YThtNjlUMEhFZmJvZEpaUnJ5N2p2a0Jqb0V1b0k0SFNRSWRSTGlFeTlmdkQ1UVRwZmVWMGRSYXpld2hrbjIxdkZYNzZpRmRMWTBwTlZmSEZfNTBSZGVVSGplU29YLUJhZzh5dU4tdUxpbFNNZFNEQ0tTTTAzLVR3dzFIa2xTelFuT0NzbktVWWlkZw?oc=5"
     }
    ],
    "baseScore": 1.1,
