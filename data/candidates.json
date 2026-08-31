@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-30T12:56:20.552Z",
+ "generatedAt": "2026-08-31T14:49:35.266Z",
  "candidates": [
   {
    "id": "5cd3a2e884e9",
@@ -26,6 +26,78 @@
    ],
    "firstSeen": "2026-08-10T15:47:44.945Z",
    "score": 1,
+   "status": "new"
+  },
+  {
+   "id": "02e26f750417",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Delaware AI Company Proposal Needs Details Before Road Testing",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbUl6cklfWHJiMkp1NzhTbGtULUJ0NVpWSDJiNk1WYlJYSjBXR0dpalFLTHpuMWc1WEJWNzhRYzJEZnNfNGxtYkM0YjVEeUlkc2U0NF9kVmp1U1RleXhzRDF4ZEhrNTRQeFRQaXFZdkJQamhBWEJpOUVyYjQ3NGhYZUVXSWhleXMtYWRHU05HcndEQURvcVg1bENFU0FYSUxUQ2h3OEZIcVlJbnNpb3U2OExoYkw4dHJJdUJGNXVlQUVCbEtZN0xqaVdhNA?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-03T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-31T14:49:35.265Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "ee2ddd5dc9e6",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Exclusive: This $100 million startup wants to give companies AI employees",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZk9UUHFsVk9oME5iUEdWODd4T3EzazlxUm5VOVhmc2I1VFhQam15Z0hEUmhPMnctX3RCU0NIZWJmN1J3UkVqWE9yRjNuVXV3c1dRUWtaeHJzMUNvTW00WXlsa0RtZlhSQjdVMEphUkJ5NHpNYlBKbWRSaHRkMzBhLS1oeEZpZVg4SlloMmlZQnVnblZTRElNRmlST3FFQmZWeTk2aXhkNFh2QWVm?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-20T13:12:37.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-31T14:49:35.265Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "6171d1de42ca",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The rise of the one employee unicorn and the AI first software revolution",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNejFIVl8zRFpwbTFOU3RwZ0YxZ3g1dzRGeXpRQThMSXpKNHE1VDgzWl9lZFlyVDRfQVNQYlRxa0RYOEhvd1VMeE10QVJJTEdZb05NajlBbVA1eFZ6SEcxX283ZGFJRzZ0cHZvandxYjZkLUJ5SGQ4X0s0ME9wNXh5UHh4SEVseXBjSzAteXYyYjJSUWJIUUpzQ214cDlJeGU5OHdfZHBYc1cwZ3VKM1FnQWE3X0tRWTZmWS0zZTFn?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-05T13:57:14.000Z",
+     "matchedKeywords": [
+      "\"zero employees\" startup AI"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-31T14:49:35.265Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "35a284664e4f",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Romanian tech executives launch Outcome1.AI to develop ‘Digital Employees’ for European SMEs",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOckx3UkU4VDBhTGRYalVmOGtjN3NKalZFdzhzZVRaYS1fQXJ2N0RyOTFMM0c5Z1RHRThVa21RUThzQWVyT0tJdkR2c1dVYzYxSHkzNHJzWnB5NExZTkxHc2RsMDU5THFxVDBxblA5Y0o3Y1FpMGVxYVZWZlpQSHlTUUdNVzhDck540gGOAUFVX3lxTE9pblQtVjJpMlZHUkNlamxBa3ZZQ1RiTmdSQUI1WFMwN0xqeTlVaWZId085aGJxc3p1ekVhNjc0dWJMLS1xVndyc2dqbl8wZHYzQzVtZFNDRTQwNnZEX1ZWckd4aUNucUlrSXhnR3VhODRFZTlfaHBReEtIZ0tjd3gwTHc1SGJjVFEwNW1zcHc?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-25T08:42:05.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-08-31T14:49:35.265Z",
+   "score": 0.5,
    "status": "new"
   },
   {
