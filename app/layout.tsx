@@ -20,6 +20,21 @@ export const metadata: Metadata = {
   description:
     "Tracking the new class of AI companies that run themselves: who they are, their tech stacks, funding, referral programs, and how to build your own agent-run business.",
   alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "The Autopilot Index",
+    url: "https://autopilotindex.com",
+    title: "The Autopilot Index — tracking companies run by AI",
+    description:
+      "The index of companies run by AI — and the tech stack behind them. Plus Autopilot Pulse, a weekly newsletter.",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "The Autopilot Index — business on autopilot" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Autopilot Index — tracking companies run by AI",
+    description: "The index of companies run by AI — and the tech stack behind them.",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
@@ -71,6 +86,13 @@ export default function RootLayout({
           >
             ☕ Buy me a coffee — one human maintains this (the agents work for free)
           </a>
+          <nav className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs text-zinc-500">
+            <Link href="/about" className="hover:text-lime-400">About</Link>
+            <Link href="/contact" className="hover:text-lime-400">Contact</Link>
+            <Link href="/privacy" className="hover:text-lime-400">Privacy</Link>
+            <a href="/llms.txt" className="hover:text-lime-400">llms.txt</a>
+            <a href="https://github.com/zetabytelab/autopilot" target="_blank" rel="noopener noreferrer" className="hover:text-lime-400">GitHub</a>
+          </nav>
         </footer>
       </body>
     </html>

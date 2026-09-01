@@ -15,9 +15,47 @@ function SectionTitle({ kicker, title, sub }: { kicker: string; title: string; s
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://autopilotindex.com/#organization",
+      name: "The Autopilot Index",
+      url: "https://autopilotindex.com",
+      description:
+        "Tracking the new class of AI companies that run themselves: who they are, their tech stacks, funding, and how to build your own agent-run business.",
+      sameAs: [
+        "https://x.com/autopilotindex",
+        "https://github.com/zetabytelab/autopilot",
+      ],
+      contactPoint: {
+        "@type": "ContactPoint",
+        email: "hello@autopilotindex.com",
+        contactType: "customer support",
+        url: "https://autopilotindex.com/contact",
+      },
+      address: { "@type": "PostalAddress", addressCountry: "GB" },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://autopilotindex.com/#website",
+      url: "https://autopilotindex.com",
+      name: "The Autopilot Index",
+      publisher: { "@id": "https://autopilotindex.com/#organization" },
+      description:
+        "The index of companies run by AI — and the tech stack behind them. Plus Autopilot Pulse, a weekly newsletter.",
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <main className="mx-auto max-w-6xl px-4 pb-24 sm:px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <header className="grid items-center gap-12 py-20 sm:py-24 lg:grid-cols-[1.1fr_1fr]">
         <div className="flex flex-col items-center gap-6 text-center lg:items-start lg:text-left">
