@@ -9,6 +9,7 @@ const STATIC_PATHS = [
   "/pulse",
   "/news",
   "/submit",
+  "/pricing",
   "/about",
   "/contact",
   "/privacy",

@@ -88,6 +88,7 @@ export default function RootLayout({
           </a>
           <nav className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs text-zinc-500">
             <Link href="/about" className="hover:text-lime-400">About</Link>
+            <Link href="/pricing" className="hover:text-lime-400">Pricing</Link>
             <Link href="/contact" className="hover:text-lime-400">Contact</Link>
             <Link href="/privacy" className="hover:text-lime-400">Privacy</Link>
             <a href="/llms.txt" className="hover:text-lime-400">llms.txt</a>

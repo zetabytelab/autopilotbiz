@@ -61,6 +61,7 @@ export const config = {
     "/pulse/:path*",
     "/news",
     "/submit",
+    "/pricing",
     "/about",
     "/contact",
     "/privacy",

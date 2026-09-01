@@ -45,6 +45,15 @@ const jsonLd = {
       publisher: { "@id": "https://autopilotindex.com/#organization" },
       description:
         "The index of companies run by AI — and the tech stack behind them. Plus Autopilot Pulse, a weekly newsletter.",
+      isAccessibleForFree: true,
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+        url: "https://autopilotindex.com/pricing",
+        description: "Free — no paid tiers, no paywall.",
+      },
     },
   ],
 };
