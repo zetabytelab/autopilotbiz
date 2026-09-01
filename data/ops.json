@@ -1,62 +1,67 @@
 {
-  "updatedAt": "2026-08-21T16:00:00Z",
+  "updatedAt": "2026-09-01T09:00:00Z",
   "status": "shipping",
-  "statusNote": "Edition #3 live · news pulse de-duped · building the owned list",
+  "statusNote": "Edition #4 live · /live gated private · pivoting from depth to distribution",
   "dailyReport": {
-    "date": "2026-08-21",
-    "title": "Day 10 — The Receipts, live",
+    "date": "2026-09-01",
+    "title": "Day 21 — Reach is the bottleneck now",
     "shipped": [
-      "Autopilot Pulse #3 'The machine that never says tomorrow' — published to LinkedIn, X and the site",
-      "The Receipts #1 — a 90-day first-party audit of a company run by AI, fully fact-checked",
-      "News pulse: clustered duplicate stories into one card with clickable sources"
+      "Autopilot Pulse #4 'The AI gateway wars' — edition, LinkedIn newsletter, carousel + 3 visuals, /guides/ai-gateways map",
+      "/live locked behind Basic Auth — private ops cockpit until the numbers are a flex",
+      "Distribution playbook — warm-DM machine + HN/Reddit ICP plays to bypass the dead feed"
     ],
-    "math": "Newsletter 712 (+430 wk) · impressions 2,510 (+182%) · owner-hours 2.5",
-    "next": "Convert rented LinkedIn reach into an owned email list — the one move that compounds."
+    "math": "LinkedIn 811 (+60/wk, ▼45.5% velocity) · newsletter impressions 628 (▼48%) · email 4 · owner-hours ~2.5",
+    "next": "Stop optimising depth. Distribute where the ICP lives (HN/Reddit + warm DMs) and convert to the owned list."
   },
   "metrics": [
-    { "label": "LinkedIn subscribers", "value": "712", "delta": "+430 this week", "kind": "audience" },
-    { "label": "Email subscribers (owned)", "value": "4", "delta": "the asset to grow", "kind": "audience" },
-    { "label": "LinkedIn followers", "value": "18,888", "delta": "reach", "kind": "audience" },
-    { "label": "Editions shipped", "value": "3", "delta": "weekly", "kind": "output" },
-    { "label": "7-day impressions", "value": "2,510", "delta": "+182% WoW", "kind": "reach" },
+    { "label": "LinkedIn subscribers", "value": "811", "delta": "+60/wk (▼45.5% velocity)", "kind": "audience" },
+    { "label": "Email subscribers (owned)", "value": "4", "delta": "the asset — still the gap", "kind": "audience" },
+    { "label": "LinkedIn followers", "value": "18,900", "delta": "mostly non-ICP — vanity reach", "kind": "audience" },
+    { "label": "Editions shipped", "value": "4", "delta": "weekly", "kind": "output" },
+    { "label": "7-day impressions", "value": "628", "delta": "▼48% WoW — reach cooling", "kind": "reach" },
+    { "label": "Audience quality", "value": "~14%", "delta": "founders / CEOs / co-founders", "kind": "audience" },
     { "label": "Owner-hours / day", "value": "~2.5", "delta": "agents did the rest", "kind": "effort" }
   ],
   "actions": [
-    { "at": "2026-08-21", "tag": "EDITION", "text": "Shipped Autopilot Pulse #3 — The machine that never says tomorrow" },
+    { "at": "2026-09-01", "tag": "GROWTH", "text": "Newsletter at 811 — but new-sub velocity decelerating (430→105→60/wk); reach is the constraint, not content" },
+    { "at": "2026-09-01", "tag": "PRODUCT", "text": "/live gated behind Basic Auth — private ops cockpit" },
+    { "at": "2026-09-01", "tag": "GROWTH", "text": "Distribution playbook shipped — warm DMs + HN/Reddit to reach the ICP" },
+    { "at": "2026-08-28", "tag": "EDITION", "text": "Autopilot Pulse #4 — The AI gateway wars (+ /guides/ai-gateways map)" },
+    { "at": "2026-08-21", "tag": "EDITION", "text": "Autopilot Pulse #3 — The machine that never says tomorrow" },
     { "at": "2026-08-21", "tag": "RESEARCH", "text": "The Receipts #1 — 90-day first-party audit of an AI-run company" },
-    { "at": "2026-08-21", "tag": "PRODUCT", "text": "News pulse: de-duplicated stories, clickable multi-source links" },
-    { "at": "2026-08-21", "tag": "GROWTH", "text": "Newsletter crossed 712 subscribers" },
     { "at": "2026-08-19", "tag": "SERIES", "text": "Proof of Stack #01 published; X presence launched" },
     { "at": "2026-08-17", "tag": "EDITION", "text": "Autopilot Pulse #2 — The Bill: what it costs to run a company on AI" },
     { "at": "2026-08-14", "tag": "EDITION", "text": "Autopilot Pulse #1 — The org chart is now a prompt; project launched" }
   ],
   "focus": [
-    { "text": "Wire LinkedIn → owned email list (+ lead magnet)", "status": "next" },
-    { "text": "Renew the Apify token before Aug 31", "status": "next" },
-    { "text": "Stand up the daily-drill automation (agents draft, I steer)", "status": "queued" },
-    { "text": "The Receipts #2 — audit atoms.dev", "status": "queued" },
-    { "text": "Affiliate revenue: activate the Dub trio, clear pending reviews", "status": "queued" }
+    { "text": "Warm-DM machine — 20/day to ICP followers (bypass the feed)", "status": "next" },
+    { "text": "Post the gateway piece where the ICP lives — HN + Reddit", "status": "next" },
+    { "text": "Convert reach → owned email (still 4; the number a buyer pays for)", "status": "next" },
+    { "text": "Proof of Stack — TimesFM-3 vs the forecasting field (n8n workflow angle)", "status": "queued" },
+    { "text": "The Receipts #2 — audit atoms.dev", "status": "queued" }
   ],
   "stack": [
     { "layer": "Site & deploy", "tools": ["Next.js (App Router)", "Vercel", "Cloudflare"] },
     { "layer": "Signals pipeline", "tools": ["Node pulse job", "Google News / HN / Techmeme RSS", "cloud research routines"] },
     { "layer": "Email", "tools": ["Brevo (double opt-in)", "Gmail Send-as aliases"] },
-    { "layer": "Distribution", "tools": ["LinkedIn newsletter", "X / @autopilotindex", "YouTube"] },
+    { "layer": "Distribution", "tools": ["LinkedIn newsletter", "X / @autopilotindex", "Hacker News + Reddit", "YouTube"] },
     { "layer": "Source & CI", "tools": ["GitHub", "GitHub Actions (daily pulse)"] },
     { "layer": "Automation", "tools": ["Claude Code", "cloud agent routines"] },
     { "layer": "Monetization", "tools": ["PartnerStack", "Dub Partners", "Buy Me a Coffee"] }
   ],
   "channels": [
-    { "name": "LinkedIn newsletter", "detail": "712 subs · weekly editions", "state": "live" },
+    { "name": "LinkedIn newsletter", "detail": "811 subs · weekly editions", "state": "live" },
     { "name": "X — @autopilotindex", "detail": "signal shares", "state": "live" },
     { "name": "The site — /pulse + /news", "detail": "canonical home + live signals", "state": "live" },
+    { "name": "Hacker News + Reddit", "detail": "where the ICP actually reads", "state": "warming" },
     { "name": "YouTube", "detail": "channel claimed", "state": "warming" }
   ],
   "affiliates": [
-    { "name": "n8n", "state": "active" },
+    { "name": "n8n (PartnerStack)", "state": "active" },
     { "name": "ElevenLabs", "state": "active" },
     { "name": "Firecrawl", "state": "active" },
+    { "name": "Apify", "state": "active" },
     { "name": "Dub trio (Viktor / Context.dev / Marblism)", "state": "pending" },
-    { "name": "Apify · RunPod", "state": "review" }
+    { "name": "RunPod", "state": "review" }
   ]
 }
