@@ -1,0 +1,80 @@
+{
+  "updatedAt": "2026-09-01",
+  "source": "r/n8n — “Agentic coding has kind of made n8n obsolete” (from Josh Sorenson on LinkedIn)",
+  "totalComments": 72,
+  "topScore": 98,
+  "spark": "A developer killed his n8n server and said agentic coding had made it obsolete: Claude got good enough that writing the code beat dragging nodes. The thread that followed was the sharpest systems-design argument of the season — and the community answer was not the one the headline predicted.",
+  "camps": [
+    {
+      "key": "layers",
+      "label": "They're different layers",
+      "weight": "the winning reframe · +98",
+      "blurb": "The most-upvoted answer flatly rejected the framing. Claude and n8n aren't substitutes — one implements, the other orchestrates. Delete the platform and the orchestration requirement is still there.",
+      "voices": [
+        { "who": "evanmac42", "score": 98, "point": "“Code implements things; n8n orchestrates things.” Sometimes a script is enough; sometimes the workflow itself is part of the system." },
+        { "who": "tken3", "score": 14, "point": "They do two different things — deterministic serviceable flows vs deep one-off integration. They complement, they don't substitute." },
+        { "who": "sartek1", "score": 5, "point": "The decline is overblown. Claude sits a layer above both n8n and Python — it's a way to create either, not a replacement for the runtime." }
+      ]
+    },
+    {
+      "key": "scaffolding",
+      "label": "The scaffolding is the real work",
+      "weight": "the sleeper argument",
+      "blurb": "The “just code it” camp keeps costing the logic, not the system around it. The script is the small part.",
+      "voices": [
+        { "who": "akl773", "score": 2, "point": "~200 lines of logic, but scheduling, backoff, credential storage and a silent-failure alert ended up longer. Went back to n8n for a client who wanted to edit text without a deploy." },
+        { "who": "Feeling_Dog9493", "score": 4, "point": "Every script needs the bells and whistles around it — logging, break-notifications, a deploy environment, find-fix-redeploy when it breaks. For a 10-step flow, too much hassle." },
+        { "who": "mmalmeida", "score": 2, "point": "You end up with dark code no one will touch, and you re-inherit solved problems like where to store credentials. Speed-to-create is only half; maintenance is the other." }
+      ]
+    },
+    {
+      "key": "deterministic",
+      "label": "Automation isn't AI",
+      "weight": "the clarity point",
+      "blurb": "A recurring correction: deterministic work should stay boringly deterministic. AI belongs as one component when reasoning helps — not as the reason the workflow exists.",
+      "voices": [
+        { "who": "maxpred", "score": 6, "point": "“In n8n I can make workflows that use 0 AI and actually do what they're supposed to do.”" },
+        { "who": "Feeling_Dog9493", "score": 4, "point": "One AI task inside an otherwise deterministic flow — and a cheap model for it. No need to burn tokens having a frontier model re-derive what a rule already knew." }
+      ]
+    },
+    {
+      "key": "cost",
+      "label": "Cost & reliability",
+      "weight": "the dissent · +8",
+      "blurb": "The strongest pushback on the whole premise: running deterministic work through tokens is the expensive way round.",
+      "voices": [
+        { "who": "swagner27", "score": 8, "point": "You can run an n8n automation far cheaper and more reliably than agentic. Burning tokens to produce what a low-cost automation already does is myopic." }
+      ]
+    },
+    {
+      "key": "deploy-target",
+      "label": "n8n becomes a deployment target",
+      "weight": "the emerging synthesis · +15",
+      "blurb": "The most forward view: agents don't replace n8n, they write to it. Via MCP, n8n stops being a canvas you drag on and becomes the runtime the agent deploys into. You specify behaviour and review output.",
+      "voices": [
+        { "who": "TheTradePrince", "score": 15, "point": "Uses Claude Code to write workflows via MCP — no dragging. The question isn't speed, it's where you host: n8n gives scheduling, retries, credential storage and execution logs for free." },
+        { "who": "cosmic_experiment", "score": 4, "point": "Drives Claude through n8n-mcp; iterates node-by-node. “n8n stops being a canvas I drag things around on and becomes a deployment target.”" },
+        { "who": "Marathon2021", "score": 2, "point": "Feed the n8n JSON to Claude, say “run it every hour” — Claude's scheduled tasks became the last piece and killed the n8n subscription for simple jobs." }
+      ]
+    },
+    {
+      "key": "visual",
+      "label": "Visual = trust & prototyping",
+      "weight": "the practitioner's reason",
+      "blurb": "For prototyping unknowns, non-engineers, and regulated work, the visual map isn't overhead — it's the point.",
+      "voices": [
+        { "who": "Kindly-Mine6275", "score": 2, "point": "There's something nice about throwing a workflow together visually when you don't yet know if it's worth keeping. Half of them aren't worth turning into real code on day one." },
+        { "who": "epistasisdotorg", "score": 1, "point": "In healthcare, control, trust and transparency matter — being able to show clients exactly what the agents do. n8n checks those boxes." },
+        { "who": "coinclink", "score": 2, "point": "Enterprises can now define building blocks in something like AgentCore and expose them via natural language — n8n keeps a place, but won't see many new buyers." }
+      ]
+    }
+  ],
+  "synthesis": [
+    "The headline lost. “n8n is obsolete” was the weak version; the thread's own top comment (+98) dragged it somewhere sharper, and the poster half-conceded by the end.",
+    "Orchestration never disappears — it relocates. Retries, credential storage, “which step failed at 3am and what had already run” don't vanish when you delete n8n; you move them into your repo and maintain them yourself. Sometimes that's right. Often it isn't.",
+    "Automation isn't AI. Deterministic work should be boring, testable code (AI-written, in git). The mistake isn't choosing code — it's putting an LLM inside the runtime to decide things a rule should decide.",
+    "The real 2026 shift is quieter than “code kills n8n.” It's that n8n becomes the thing agents write to. You specify behaviour and review diffs; the runtime keeps the scheduling, credentials and observability. Agentic coding isn't competing with the orchestration layer — it's changing how you build on it.",
+    "We run The Autopilot Index on exactly this split: Claude Code writes the logic, GitHub Actions and n8n orchestrate it, Vercel serves it. Not obsolete — demoted, and better for it."
+  ],
+  "meta": "The thread's quiet joke: a community arguing over whether AI killed their tool, while accusing each other's comments of being written by AI. The autopilot economy in one page."
+}
