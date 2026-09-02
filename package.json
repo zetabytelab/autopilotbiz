@@ -11,6 +11,7 @@
     "send:edition": "node --experimental-strip-types scripts/send-edition.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "botid": "^1.5.11",
     "next": "16.2.10",
     "octokit": "^5.0.5",
