@@ -83,11 +83,14 @@ export default function Developers() {
       <p className="mt-3 text-sm text-zinc-400">Tools: <code className="text-zinc-200">search_companies</code>, <code className="text-zinc-200">get_company</code>, <code className="text-zinc-200">list_stack_tools</code>, <code className="text-zinc-200">list_editions</code>.</p>
 
       {/* CLI */}
-      <h2 className="mt-12 text-xl font-bold text-zinc-100">CLI</h2>
-      <p className="mt-2 text-sm text-zinc-400">Query the index from your terminal:</p>
-      <Code>{`npx autopilot-index companies --q "gateway" --limit 5
-npx autopilot-index company polsia
-npx autopilot-index stack --category agents`}</Code>
+      <h2 className="mt-12 text-xl font-bold text-zinc-100">From the terminal</h2>
+      <p className="mt-2 text-sm text-zinc-400">
+        The API is plain JSON over HTTPS, so no client is needed — pipe it to <code className="rounded bg-zinc-800 px-1 text-xs text-lime-400">jq</code>:
+      </p>
+      <Code>{`curl -s "https://autopilotindex.com/api/v1/companies?sort=arr&limit=5" | jq '.items[].name'
+curl -s "https://autopilotindex.com/api/v1/companies/polsia" | jq '.techStack'
+curl -s "https://autopilotindex.com/api/v1/stack?category=agents" | jq '.items[].name'`}</Code>
+      <p className="mt-3 text-sm text-zinc-500">A native <code className="text-zinc-300">npx autopilot-index</code> CLI is on the roadmap.</p>
 
       <p className="mt-12 text-sm text-zinc-500">
         Questions? <Link href="/contact" className="text-lime-400 hover:underline">Contact</Link>. The index is{" "}
