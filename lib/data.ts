@@ -1718,8 +1718,9 @@ export const stackTools: StackTool[] = [
     name: "Vercel",
     url: "https://vercel.com",
     role: "Instant deployment for agent-built products",
-    // TODO(referral): join at https://vercel.com/affiliates (Dub-run, open to individuals) → set referralUrl
-    referral: "Affiliate program (per-signup commission)",
+    // No public referral/affiliate program anymore (retired) — only the Partner
+    // program (vercel.com/partners) and the Insider program. No referralUrl.
+    referral: null,
     usedBy: ["Nanocorp", "Cofounder"],
     category: "code-deploy",
   },
