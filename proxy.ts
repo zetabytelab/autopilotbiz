@@ -62,6 +62,7 @@ export const config = {
     "/news",
     "/submit",
     "/pricing",
+    "/developers",
     "/about",
     "/contact",
     "/privacy",

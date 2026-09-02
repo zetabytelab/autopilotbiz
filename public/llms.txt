@@ -34,8 +34,16 @@ The Autopilot Index is free. No paid tiers, no paywall. It is funded by a free n
 
 ## Developer & source resources
 
+- Developer portal: https://autopilotindex.com/developers
+- REST API (read-only, public, no auth): https://autopilotindex.com/api/v1
+- OpenAPI 3.1 spec: https://autopilotindex.com/openapi.json
+- MCP server (Streamable HTTP): https://autopilotindex.com/mcp  ·  manifest: https://autopilotindex.com/.well-known/mcp.json
 - Source & build-in-public repo: https://github.com/zetabytelab/autopilot
 - Sitemap: https://autopilotindex.com/sitemap.xml
+
+### When to call the API / MCP
+
+Use the API or MCP server to answer questions like "which companies are run by AI?", "what's in company X's tech stack?", or "list the AI-gateway tools". Tools: search_companies, get_company, list_stack_tools, list_editions.
 
 ## Contact
 

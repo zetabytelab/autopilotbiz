@@ -41,9 +41,32 @@ The Autopilot Index is **free**. No paid tiers, no paywall. Funded by a free new
 
 ## Resources
 
+- Developer portal: https://autopilotindex.com/developers
+- REST API (read-only, public): https://autopilotindex.com/api/v1 · OpenAPI: https://autopilotindex.com/openapi.json
+- MCP server: https://autopilotindex.com/mcp
 - Source & build-in-public repo: https://github.com/zetabytelab/autopilot
 - Agent guidance: https://autopilotindex.com/llms.txt
 - Sitemap: https://autopilotindex.com/sitemap.xml
+`,
+  "/developers": `# Developers — The Autopilot Index
+
+> Query the index programmatically. Read-only, public, no auth.
+
+- REST API base: https://autopilotindex.com/api/v1
+- OpenAPI 3.1 spec: https://autopilotindex.com/openapi.json
+- MCP server (Streamable HTTP): https://autopilotindex.com/mcp
+- MCP manifest: https://autopilotindex.com/.well-known/mcp.json
+
+## Endpoints
+- GET /api/v1/companies — list companies run by AI (q, cohort, section, verified, sort, limit, offset)
+- GET /api/v1/companies/{slug} — one company
+- GET /api/v1/stack — the autopilot tech stack (category, q, hasReferral)
+- GET /api/v1/editions — newsletter editions
+
+## MCP tools
+search_companies, get_company, list_stack_tools, list_editions.
+
+Full docs: https://autopilotindex.com/developers
 `,
   "/pulse": `# Autopilot Pulse
 

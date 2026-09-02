@@ -1,0 +1,17 @@
+{
+  "name": "autopilot-index",
+  "version": "1.0.0",
+  "description": "Read-only MCP server over The Autopilot Index: companies run by AI and their tech stack.",
+  "protocol": "mcp",
+  "protocolVersion": "2025-06-18",
+  "transport": "streamable-http",
+  "endpoint": "https://autopilotindex.com/mcp",
+  "documentation": "https://autopilotindex.com/developers",
+  "openapi": "https://autopilotindex.com/openapi.json",
+  "tools": [
+    { "name": "search_companies", "description": "Search companies run by AI." },
+    { "name": "get_company", "description": "Get one company by slug." },
+    { "name": "list_stack_tools", "description": "List tools in the autopilot tech stack." },
+    { "name": "list_editions", "description": "List Autopilot Pulse editions." }
+  ]
+}
