@@ -1643,6 +1643,14 @@ export const stackTools: StackTool[] = [
     category: "ops",
   },
   {
+    name: "Is Agentic",
+    url: "https://is-agentic.com",
+    role: "Agent-readiness scoring — audits how well AI agents can read, trust & use your site (Vercel, powered by Ora · ora.ai). We used it to take this site 68 → 90.",
+    referral: null,
+    usedBy: ["Autopilot Index (this site)"],
+    category: "ops",
+  },
+  {
     name: "Modal",
     url: "https://modal.com",
     role: "gVisor-isolated sandboxes + on-demand GPUs (T4→B200) — purpose-built for agent workloads at 100k+ concurrent sessions",
