@@ -27,6 +27,7 @@ The Autopilot Index is free. No paid tiers, no paywall. It is funded by a free n
 
 ## Guides (Proof of Stack)
 
+- [The Agent-Ready Web](https://autopilotindex.com/guides/agent-ready-web): a CTO's 0→1 playbook + every agent-readiness grader compared (Vercel, Cloudflare, Ora). Request with Accept: text/markdown for the executable checklist version.
 - [AI gateways, mapped](https://autopilotindex.com/guides/ai-gateways): who owns the model-routing layer in 2026.
 - [Is n8n obsolete?](https://autopilotindex.com/guides/is-n8n-obsolete): code vs orchestration, a 72-comment debate mapped.
 - [The autopilot lead machine (Apify × n8n)](https://autopilotindex.com/guides/apify-n8n-lead-machine): scrape → orchestrate → CRM, unattended.

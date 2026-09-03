@@ -1,0 +1,143 @@
+{
+  "updatedAt": "2026-09-03",
+  "graders": [
+    {
+      "name": "Vercel is-agentic",
+      "owner": "Ora engine",
+      "url": "https://is-agentic.com",
+      "method": "Static + behavioral",
+      "methodNote": "agent journey",
+      "checks": "118",
+      "categories": "Discovery · Access · Usability · Payments",
+      "catNote": "shown Essential / Recommended / Bonus",
+      "signals": ["task-completion journey", "prompt-to-fix", "agent CLI"],
+      "bestFor": "Next.js / Vercel builders who want behavioral proof"
+    },
+    {
+      "name": "Ora ax",
+      "owner": "Era Labs",
+      "url": "https://ora.ai",
+      "method": "Static + behavioral",
+      "checks": "118",
+      "categories": "Discovery 20 · Access 30 · Usability 40 · Payments 10",
+      "catNote": "graded A+ to F",
+      "signals": ["reverse-engineered from real agent runs"],
+      "bestFor": "The raw engine — the hardest, most outcome-driven grader"
+    },
+    {
+      "name": "Cloudflare",
+      "owner": "Agent Readiness",
+      "url": "https://isitagentready.com",
+      "method": "Static / protocol",
+      "checks": "16",
+      "categories": "Discoverability · Content · Bot Access Control · Capabilities · Commerce",
+      "signals": ["Web Bot Auth", "Content Signals", "MCP Server Card", "API Catalog", "Agent Skills", "WebMCP", "x402 · ACP · UCP"],
+      "signalsAccent": "sky",
+      "bestFor": "Protocol / standards adoption + agentic commerce; enterprise"
+    },
+    {
+      "name": "Glippy",
+      "owner": "glippy.dev",
+      "url": "https://glippy.dev",
+      "method": "Static + LLM",
+      "checks": "240+",
+      "categories": "16 GEO categories · 31 languages",
+      "signals": ["WebMCP", "AI-search / GEO", "accessibility"],
+      "bestFor": "GEO / AI-search visibility; the most granular checklist"
+    },
+    {
+      "name": "agentchecker.ai",
+      "owner": "L. Wharmby",
+      "url": "https://agentchecker.ai",
+      "method": "Behavioral",
+      "methodNote": "no tokens",
+      "checks": "—",
+      "categories": "Where the agent gets stuck · what it costs",
+      "signals": ["agency white-label"],
+      "bestFor": "Agencies producing client-facing readiness reports"
+    },
+    {
+      "name": "aeojs",
+      "owner": "open source",
+      "url": "https://aeojs.org",
+      "method": "Static",
+      "checks": "—",
+      "categories": "AEO / GEO for AI search engines",
+      "signals": ["open rules", "ChatGPT · Perplexity · AI Overviews"],
+      "bestFor": "Open-source teams who want to read the rules directly"
+    }
+  ],
+  "taxonomy": [
+    { "n": "01", "name": "Access", "q": "Can an agent get in and read the raw response?", "body": "Crawler reachability, AI-bot rules, no JS-only wall, no login wall, clean redirects, Web Bot Auth." },
+    { "n": "02", "name": "Discovery", "q": "Can it find the map of your site?", "body": "robots.txt (+ Content Signals), sitemap.xml, RFC 8288 Link headers, llms.txt with a 'when to use' section." },
+    { "n": "03", "name": "Identity", "q": "Can it tell who you are and trust you?", "body": "JSON-LD (Organization + WebSite), real About / Contact / Pricing pages, complete metadata, brand discoverability." },
+    { "n": "04", "name": "Usability", "q": "Can it read you efficiently?", "body": "Server-rendered content, markdown content negotiation, agent-friendly 404s, page token budget, accessible structure." },
+    { "n": "05", "name": "Capabilities", "q": "Can it DO something — call you?", "body": "Public API + OpenAPI / API Catalog, MCP server + MCP Server Card, Agent Skills, WebMCP, function-calling schemas." },
+    { "n": "06", "name": "Commerce", "q": "Can it transact with you?", "body": "Agentic-checkout discovery: x402 payments, OpenAI's ACP, Google's UCP. Only if you sell." },
+    { "n": "★", "name": "Behavioral overlay", "q": "Can a real agent actually complete a task on your site?", "body": "The outcome test no checklist captures — and the one that matters. A perfect static score with a failed task is still a failure. Validate with a real agent run.", "beh": true }
+  ],
+  "ladder": [
+    { "lv": "L0", "t": "Invisible", "note": "agents can't read you", "body": "JS-only shell, blocked crawlers, no sitemap. Your content doesn't exist to an agent." },
+    { "lv": "L1", "t": "Readable", "note": "agents can enter & read", "body": "Server-rendered HTML, robots + sitemap, real 404s. The door is open." },
+    { "lv": "L2", "t": "Legible", "note": "agents know who you are", "body": "llms.txt, JSON-LD identity, trust pages. An agent can represent and trust you." },
+    { "lv": "L3", "t": "Efficient", "note": "agents read you cheaply", "body": "Markdown content negotiation, clean structure, sane token budget. Low friction, low cost.", "mid": true },
+    { "lv": "L4", "t": "Callable", "note": "agents can use you", "body": "Public API + OpenAPI + MCP server. You go from a page an agent scrapes to a tool it invokes.", "on": true },
+    { "lv": "L5", "t": "Transactable", "note": "agents can buy from you", "body": "Agentic commerce (x402 / ACP / UCP). An agent completes a purchase without a human in the loop.", "on": true }
+  ],
+  "tiers": [
+    {
+      "t": "T1", "title": "Access & Discovery", "eff": "~ an afternoon · highest impact/hour", "kind": "base",
+      "steps": [
+        { "s1": "Serve real content without JavaScript", "s2": "Server-render (or SSG) the meaningful content so it's in the raw HTML. The single biggest cause of L0.", "sat": "Access · all graders" },
+        { "s1": "robots.txt + AI-bot rules + Content Signals", "s2": "Explicitly welcome AI crawlers (ChatGPT-User, ClaudeBot, Google-Extended). Declare usage preferences with Content Signals.", "sat": "Access · Discovery — Cloudflare, is-agentic" },
+        { "s1": "sitemap.xml + RFC 8288 Link headers", "s2": "A complete sitemap with lastmod. Add Link headers pointing to canonical and alternates.", "sat": "Discovery — Cloudflare, is-agentic, aeojs" },
+        { "s1": "llms.txt with a 'when to use this' section", "s2": "The underrated one. Tell agents your best-fit use cases and key URLs in plain markdown at /llms.txt.", "sat": "Discovery — is-agentic, Cloudflare, Glippy" },
+        { "s1": "Real HTTP 404s with recovery links", "s2": "Never return 200 with your app shell for missing paths — it tells agents every URL exists. Add a short body linking to the sitemap.", "sat": "Usability — is-agentic (Essential)" }
+      ]
+    },
+    {
+      "t": "T2", "title": "Identity & Trust", "eff": "~ an afternoon", "kind": "base",
+      "steps": [
+        { "s1": "JSON-LD: Organization + WebSite", "s2": "Machine-readable identity on the homepage — name, url, description, contactPoint, isAccessibleForFree. Agents parse this, not your hero copy.", "sat": "Identity — is-agentic, Cloudflare, Glippy, aeojs" },
+        { "s1": "Real About / Contact / Pricing pages", "s2": "Agents check these to decide you're legitimate before recommending you. 500+ chars each; a real pricing answer (even 'free').", "sat": "Identity — is-agentic (trust anchors)" },
+        { "s1": "Complete metadata", "s2": "canonical, lang, og:image, og:type. Used for entity resolution and attribution.", "sat": "Identity — is-agentic, Glippy" }
+      ]
+    },
+    {
+      "t": "T3", "title": "Usability", "eff": "~ half a day · cheap to be early", "kind": "base",
+      "steps": [
+        { "s1": "Markdown content negotiation", "s2": "Serve text/markdown when an agent sends Accept: text/markdown, with Vary: Accept. Only ~4% of the top web does this — cheap differentiation.", "sat": "Usability — Cloudflare (Content), is-agentic, Glippy" },
+        { "s1": "Keep pages within an agent token budget", "s2": "Split oversized pages so extracted text fits a context window (~25K tokens). Agents read the text, not the raw HTML.", "sat": "Usability — is-agentic" },
+        { "s1": "Accessible, semantic structure", "s2": "One H1, sequential headings, landmarks, accessible names on controls, no div-soup. Good a11y is good agent-readiness.", "sat": "Usability — is-agentic, Glippy" }
+      ]
+    },
+    {
+      "t": "T4", "title": "Capabilities — the moat", "eff": "~ 1–2 days · where you win", "kind": "moat",
+      "steps": [
+        { "s1": "A public, read-only API + OpenAPI spec", "s2": "If your product is data (a catalog, index, docs), expose it as JSON with an OpenAPI 3.1 spec at /openapi.json — operationIds enable function-calling. Generates the API Catalog.", "sat": "Capabilities — Cloudflare, is-agentic (dev tier)" },
+        { "s1": "An MCP server + MCP Server Card", "s2": "Expose read-only tools over Model Context Protocol so agents call you natively. Publish an MCP Server Card for discovery. Fewer than 15 sites globally have one.", "sat": "Capabilities — Cloudflare, is-agentic" },
+        { "s1": "Agent Skills / WebMCP (optional)", "s2": "Publish a Skills index or WebMCP tools for in-page agent actions. Emerging, but early.", "sat": "Capabilities — Cloudflare, Glippy" }
+      ]
+    },
+    {
+      "t": "T5", "title": "Commerce — the frontier", "eff": "a project · only if you sell", "kind": "frontier",
+      "steps": [
+        { "s1": "Agentic-checkout discovery", "s2": "Publish discovery files for agent payments: an x402 endpoint, OpenAI's Agentic Commerce Protocol (ACP), Google's Universal Commerce Protocol (UCP). Lets an agent buy without a human.", "sat": "Commerce — Cloudflare, Ora (Payments)" }
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "llms.txt", "def": "A markdown file at /llms.txt telling agents what your site is and when to use it." },
+    { "term": "Content Signals", "def": "Directives in robots.txt declaring how AI may use your content (search / train / etc.)." },
+    { "term": "Web Bot Auth", "def": "Cryptographic signatures that let good agents prove identity so you can allow them." },
+    { "term": "RFC 8288 Link headers", "def": "HTTP Link headers exposing canonical/alternate relationships to non-HTML clients." },
+    { "term": "JSON-LD", "def": "Schema.org structured data an agent parses for your identity and offers." },
+    { "term": "MCP + Server Card", "def": "Model Context Protocol server exposing tools agents call natively; the Card advertises it." },
+    { "term": "OpenAPI / API Catalog", "def": "A machine-readable API spec (operationIds) enabling agent function-calling." },
+    { "term": "Agent Skills", "def": "A published index of discrete actions an agent can perform on your site." },
+    { "term": "WebMCP", "def": "In-page MCP tools letting an agent act within the browser context." },
+    { "term": "x402", "def": "An HTTP-native payment endpoint standard for machine-to-machine payments." },
+    { "term": "ACP (OpenAI)", "def": "Agentic Commerce Protocol — discovery + checkout for agent purchases." },
+    { "term": "UCP (Google)", "def": "Universal Commerce Protocol — Google's agentic-commerce profile." }
+  ]
+}

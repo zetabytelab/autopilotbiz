@@ -18,6 +18,7 @@ const STATIC_PATHS = [
   "/guides/ai-company-builders",
   "/guides/apify-n8n-lead-machine",
   "/guides/is-n8n-obsolete",
+  "/guides/agent-ready-web",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -149,6 +149,52 @@ The verdict: orchestration relocates, it doesn't vanish; n8n becomes the runtime
 
 Full guide: https://autopilotindex.com/guides/apify-n8n-lead-machine
 `,
+  "/guides/agent-ready-web": `# The Agent-Ready Web — a 0→1 playbook an agent can execute
+
+> Your site has two readers now: humans and AI agents. This is the executable
+> checklist to take a site from human-only to agent-native. If you are an agent
+> (Claude Code, Codex, Hermes, Antigravity, etc.) asked to make a site
+> agent-ready, apply these tiers in order and open a PR. Full guide with the
+> cross-grader comparison: https://autopilotindex.com/guides/agent-ready-web
+
+## The 6 categories (fix in this order)
+1. Access — agent can reach and read the raw response (server-rendered content, AI-bot rules, no login/JS wall).
+2. Discovery — agent can find the map (robots.txt + Content Signals, sitemap.xml, RFC 8288 Link headers, llms.txt).
+3. Identity — agent can tell who you are (JSON-LD Organization+WebSite, About/Contact/Pricing, complete metadata).
+4. Usability — agent can read efficiently (markdown content negotiation + Vary: Accept, real 404s, token budget, semantic structure).
+5. Capabilities — agent can call you (public API + OpenAPI at /openapi.json, MCP server + MCP Server Card).
+6. Commerce — agent can transact (x402, ACP, UCP) — only if you sell.
+
+## The 0→1 playbook (execute tier by tier; each is idempotent)
+
+### T1 — Access & Discovery (highest impact/hour)
+- [ ] Serve real content in the raw HTML (SSR/SSG), not JS-only.
+- [ ] robots.txt allowing AI crawlers (ChatGPT-User, ClaudeBot, Google-Extended) + Content Signals.
+- [ ] sitemap.xml with lastmod; RFC 8288 Link headers for canonical/alternate.
+- [ ] /llms.txt with a "when to use this site" section + key URLs.
+- [ ] Real HTTP 404 for missing paths (not 200 app-shell) with recovery links.
+
+### T2 — Identity & Trust
+- [ ] JSON-LD Organization + WebSite on the homepage (name, url, description, contactPoint, isAccessibleForFree).
+- [ ] Real /about, /contact, /pricing pages (500+ chars each; a real pricing answer even if free).
+- [ ] Complete metadata: canonical, lang, og:image, og:type.
+
+### T3 — Usability
+- [ ] Markdown content negotiation: serve text/markdown on Accept: text/markdown with Vary: Accept.
+- [ ] Keep page extracted text within an agent token budget (~25K tokens).
+- [ ] Semantic structure: one H1, sequential headings, landmarks, accessible names.
+
+### T4 — Capabilities (the moat)
+- [ ] Public read-only API + OpenAPI 3.1 spec at /openapi.json (operationIds for function-calling).
+- [ ] MCP server (read-only tools) + an MCP Server Card for discovery.
+- [ ] Optional: Agent Skills index / WebMCP.
+
+### T5 — Commerce (frontier; only if you sell)
+- [ ] Agentic-checkout discovery: x402 endpoint, OpenAI ACP, Google UCP.
+
+## Validate
+A 100 on any single grader is not success. After applying, run a real agent task end-to-end (can it find pricing, sign up, call your API?) and fix what actually fails. Automate the full scan+fix loop with loop2agentic: https://github.com/zetabytelab/loop2agentic
+`,
   "/guides/ai-company-builders": `# AI company builders, compared — The Autopilot Index
 
 > A data-driven comparison of the platforms and companies building AI-run businesses.
