@@ -22,6 +22,59 @@ export type Edition = {
 
 export const editions: Edition[] = [
   {
+    slug: "05-two-readers",
+    number: 5,
+    title: "Your website has two readers now",
+    date: "2026-09-03",
+    cover: "/pulse/05-cover.png",
+    linkedinUrl: "", // TODO after publishing
+    tldr: [
+      "Your website has **two readers** now — a human, and an AI agent that reads your raw response as data and decides in one pass whether it can use you. In 2026 **Vercel, Cloudflare and Ora** all shipped a 0–100 agent-readiness score.",
+      "The graders **disagree**: behavioral (Ora/Vercel watch an agent attempt a task) vs protocol (Cloudflare — Web Bot Auth, MCP cards, agentic commerce) vs GEO (Glippy, aeojs). A 100 on one is not a 100 on another.",
+      "**Readability is table stakes; being *callable* is the moat.** Most of the web is invisible to agents — only **~4%** do markdown content negotiation and **fewer than 15 sites globally** publish an MCP Server Card **[HIGH]**.",
+      "I took my own site **68 → 90** in a day of fixes, then built a public **API + MCP server** so an agent can *use* the index, not just read it.",
+      "The full playbook — every grader compared, the six-category taxonomy, the L0→L5 ladder, the tiered 0→1 steps, and an **agent-executable** version — lives at **autopilotindex.com/guides/agent-ready-web**.",
+    ],
+    sections: [
+      {
+        paras: [
+          "For most of the web's life it had one kind of reader: a human, with eyes, on a page. That assumption is quietly breaking. Your site now has a second reader — an AI agent, arriving with a task, reading your HTML as data, and deciding in seconds whether it can use you or should move on. Here's the shift, what I did about it on this very site, and the playbook to do it yourself.",
+        ],
+      },
+      {
+        heading: "1 — Two infra giants built the same scoreboard",
+        paras: [
+          "This year **both Vercel and Cloudflare shipped a 0-to-100 agent-readiness score** — Vercel's `is-agentic` (powered by Ora / Era Labs), Cloudflare's at isitagentready.com **[HIGH]**. When the two companies that route a huge share of the internet build the same scoreboard in the same year, it isn't a gimmick — it's a signal about where traffic is going.",
+          "They don't agree on what to measure. Ora and Vercel are **behavioral** — they send a real agent to complete a task on your live site and watch where it gets stuck. Cloudflare is **protocol-first** — it checks whether you speak the emerging standards (Web Bot Auth, Content Signals, MCP Server Cards, agentic commerce). GEO tools like Glippy and aeojs check AI-search visibility. A 100 on one is not a 100 on the others — which is exactly why a consensus view matters.",
+        ],
+      },
+      {
+        heading: "2 — The day of fixes (68 → 90)",
+        image: "/pulse/05-before-after.png",
+        imageAlt: "is-agentic score before and after: 68 'Important blockers remain' to 90 'Strong technical baseline'",
+        paras: [
+          "I ran it on this site and got **68/100 — \"important blockers remain.\"** Most of the gap closed in an afternoon, in public: a **sitemap** and an **llms.txt** with a \"when to use this\" section, **JSON-LD** so an agent can parse who I am, real **About / Contact / Pricing** pages (agents check these to decide you're legitimate), **404s that actually return 404**, and **markdown content negotiation**.",
+          "That got me into the 80s. The uncomfortable framing from Cloudflare's own data: across the 200,000 most-visited domains, only **~3.9%** support markdown negotiation and **~4%** declare AI usage preferences **[HIGH]**. Most of the web is invisible to the second reader — so being early here is cheap and rare.",
+        ],
+      },
+      {
+        heading: "3 — Read vs use: the part most sites miss",
+        paras: [
+          "The check I couldn't fake was the one that reframed everything: no API, no OpenAPI spec, no MCP server. It made me ask what an index is actually *for*. A human reads it. An agent should be able to **call** it.",
+          "So I built that: a public, read-only REST API, an OpenAPI 3.1 spec, and — the part that matters — an **MCP server**, so any agent can query the index natively. Security-hardened: read-only, whitelisted fields, validated inputs. The tell on how early this is: Cloudflare found **fewer than 15 sites globally** publish an MCP Server Card **[MED]**. Final score: **90/100 — \"strong technical baseline.\"** But the 90 isn't the win. The win is that the index went from something an agent can *read* to something an agent can *use*.",
+        ],
+      },
+      {
+        heading: "4 — What a builder should do about it",
+        paras: [
+          "**Ship the plumbing now — it's cheap and rare.** Sitemap, llms.txt with when-to-use, JSON-LD, real trust pages, honest 404s. An afternoon of work that ~96% of the web hasn't done.",
+          "**Decide what an agent should be able to *do*, not just read.** If your product is data — a catalog, an index, a directory, docs — an API + MCP server turns it from a page an agent scrapes into a tool an agent calls. That's a different, more durable relationship.",
+          "**Don't optimize the badge — optimize the outcome.** A 100 doesn't mean an agent can complete a real task on your site. Fix the checks, then watch an agent actually try to use you. The full playbook — every grader compared, the maturity ladder, the tiered steps, and a version you can point Claude Code or Codex straight at — is at **autopilotindex.com/guides/agent-ready-web**. If you run a business on autopilot, what's the first thing you'd want an agent to *do* on your site — not just read?",
+        ],
+      },
+    ],
+  },
+  {
     slug: "04-ai-gateway-wars",
     number: 4,
     title: "The AI gateway wars",
