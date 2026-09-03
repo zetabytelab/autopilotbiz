@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T11:57:16.034Z",
+ "generatedAt": "2026-09-03T11:55:39.269Z",
  "candidates": [
   {
    "id": "15f4918d2235",
@@ -65,20 +65,38 @@
    "status": "new"
   },
   {
-   "id": "6171d1de42ca",
+   "id": "f23d765b083d",
    "name": null,
    "evidence": [
     {
-     "title": "The rise of the one employee unicorn and the AI first software revolution",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNejFIVl8zRFpwbTFOU3RwZ0YxZ3g1dzRGeXpRQThMSXpKNHE1VDgzWl9lZFlyVDRfQVNQYlRxa0RYOEhvd1VMeE10QVJJTEdZb05NajlBbVA1eFZ6SEcxX283ZGFJRzZ0cHZvandxYjZkLUJ5SGQ4X0s0ME9wNXh5UHh4SEVseXBjSzAteXYyYjJSUWJIUUpzQ214cDlJeGU5OHdfZHBYc1cwZ3VKM1FnQWE3X0tRWTZmWS0zZTFn?oc=5",
+     "title": "Adobe acquires Peak XV-backed Indian AI startup Rilo to expand agentic marketing capabilities",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWGZjT0kyakRNTnRSZHFtSnN6THJIdXNUUDNTd2RNaE41M0pwczdoYXprM2tTZDJlUVlXTE9qOGI2S3AzaFZfRFp4YTc0ZloyVGVkakFwTlJqeEdJX3pkanpNTFBZMnAxVktLcnM1WFlLbTRyQWVDMGV1bTJzamw4M2xET25XYktGR1ZjVkxRNkNmSmw4X0VhU3V1eEJjaTQwYWdNWWg0SXVJRFl5SkFyVzY5NWUxS1lMUXZTS3F2aTVLZXpFZnRzVHI3NVNydHB1VFR0V19LQlVUaVIzeW1seld0b2hWSzc30gHoAUFVX3lxTE1YZmNPSTJqRE1OdFJkcW1Kc3pMckh1c1RQM1N3ZE1oTjUzSnBzN2hhemsza1NkMmVRWVdMT2o4YjZLcDNoVl9EWnhhNzRmWjJUZWRqQXBOUmp4R0lfemRqek1MUFkycDFWS0tyczVYWUttNHJBZUMwZXVtMnNqbDgzbERPbldiS0ZHVmNWTFE2Q2ZKbDhfRWFTdXV4QmNpNDBhZ01ZaDRJdUlEWXlKQXJXNjk1ZTFLWUxRdlNLcXZpNUtlekVmdHNUcjc1U3J0cHVUVHRXX0tCVVRpUjN5bWx6V3RvaFZLNzc?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-08-05T13:57:14.000Z",
+     "publishedAt": "2026-09-03T08:04:14.000Z",
      "matchedKeywords": [
-      "\"zero employees\" startup AI"
+      "\"AI employees\" startup"
      ]
     }
    ],
-   "firstSeen": "2026-08-31T14:49:35.265Z",
+   "firstSeen": "2026-09-03T11:55:39.268Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "236e5b324bbb",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI Digital Employees in Accounting: The next stage of automation",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaF90Z3pINEFnaU9qWGpsTmc4cHNQaVNCVmt5dklGdjZZYThON3U3YlF3M2JpS0hfQzhDbFJNYVc0a3hSeEhsWTJVeHl0N29OMk1QUGhRbDZNd2FXWDZBTzkyU2c4V0R5Q3QwMkZZVUJrTFVXY0NpNXZrR21RVzF5eW54eVRVMnEzUEdqbg?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-02T12:20:04.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-03T11:55:39.269Z",
    "score": 0.5,
    "status": "new"
   },
