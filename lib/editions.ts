@@ -27,7 +27,7 @@ export const editions: Edition[] = [
     title: "Your website has two readers now",
     date: "2026-09-03",
     cover: "/pulse/05-cover.png",
-    linkedinUrl: "", // TODO after publishing
+    linkedinUrl: "https://www.linkedin.com/pulse/autopilot-pulse-5-your-website-has-two-readers-now-agents-antonio-s--7jjde/",
     tldr: [
       "Your website has **two readers** now — a human, and an AI agent that reads your raw response as data and decides in one pass whether it can use you. In 2026 **Vercel, Cloudflare and Ora** all shipped a 0–100 agent-readiness score.",
       "The graders **disagree**: behavioral (Ora/Vercel watch an agent attempt a task) vs protocol (Cloudflare — Web Bot Auth, MCP cards, agentic commerce) vs GEO (Glippy, aeojs). A 100 on one is not a 100 on another.",
