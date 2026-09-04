@@ -1,33 +1,6 @@
 {
- "generatedAt": "2026-09-03T11:55:39.269Z",
+ "generatedAt": "2026-09-04T11:58:18.925Z",
  "candidates": [
-  {
-   "id": "15f4918d2235",
-   "name": null,
-   "evidence": [
-    {
-     "title": "What Is an Agentic Startup Accelerator? The New Model Built for AI-Native Founders in 2026",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEZ3RUdjMm93aEVEekpTUWVsMVh0NzBCempNQVNmYW9NejNmVlgxWEkwcGRlUUZ1UW95c056SzJrM3dKcTdfcEpfU2ZoWWRCaTFGVmQ0MF81Z0dVSm1UYUd0MFR3MmpiWlBxbzNUN0gzaXc5UnpwTlVscDZ6M0I2bFg4ZGt5aENzYUp6OFFCM3VVeTRXZnE1T3A2M2RxcDlaY1B1dHdaRE9RdUlrQzR2NA?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-09-02T02:59:37.000Z",
-     "matchedKeywords": [
-      "\"one-person unicorn\""
-     ]
-    },
-    {
-     "title": "What Is an Agentic Startup Accelerator? The New Model Built for AI-Native Founders in 2026",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEZ3RUdjMm93aEVEekpTUWVsMVh0NzBCempNQVNmYW9NejNmVlgxWEkwcGRlUUZ1UW95c056SzJrM3dKcTdfcEpfU2ZoWWRCaTFGVmQ0MF81Z0dVSm1UYUd0MFR3MmpiWlBxbzNUN0gzaXc5UnpwTlVscDZ6M0I2bFg4ZGt5aENzYUp6OFFCM3VVeTRXZnE1T3A2M2RxcDlaY1B1dHdaRE9RdUlrQzR2NA?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-09-02T02:59:37.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "firstSeen": "2026-09-02T11:57:16.034Z",
-   "score": 1,
-   "status": "new"
-  },
   {
    "id": "5cd3a2e884e9",
    "name": null,
@@ -65,12 +38,30 @@
    "status": "new"
   },
   {
+   "id": "978a68445cdc",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Adobe just acquired this Indian AI startup less than a year after it launched",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYW13S0VFenZYRHdOZ0xBbTF6aHB3YzBsWjk4SVRaV3B6Y2xVX0NROTRERkJCak9DdllFLXZBaEItaXFzUnZxNUR1bXNUdTVpcWRERllKMGJQc2JSc2FoUEN0UU51a3VDVG9IWmVzY0hVbmd5QmZfa1ROX2pKcFNLejVjUHVsRUFpeGxLTkg3N1VxdnhsMDA2Mnln?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-03T14:39:15.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-04T11:58:18.925Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
    "id": "f23d765b083d",
    "name": null,
    "evidence": [
     {
      "title": "Adobe acquires Peak XV-backed Indian AI startup Rilo to expand agentic marketing capabilities",
-     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWGZjT0kyakRNTnRSZHFtSnN6THJIdXNUUDNTd2RNaE41M0pwczdoYXprM2tTZDJlUVlXTE9qOGI2S3AzaFZfRFp4YTc0ZloyVGVkakFwTlJqeEdJX3pkanpNTFBZMnAxVktLcnM1WFlLbTRyQWVDMGV1bTJzamw4M2xET25XYktGR1ZjVkxRNkNmSmw4X0VhU3V1eEJjaTQwYWdNWWg0SXVJRFl5SkFyVzY5NWUxS1lMUXZTS3F2aTVLZXpFZnRzVHI3NVNydHB1VFR0V19LQlVUaVIzeW1seld0b2hWSzc30gHoAUFVX3lxTE1YZmNPSTJqRE1OdFJkcW1Kc3pMckh1c1RQM1N3ZE1oTjUzSnBzN2hhemsza1NkMmVRWVdMT2o4YjZLcDNoVl9EWnhhNzRmWjJUZWRqQXBOUmp4R0lfemRqek1MUFkycDFWS0tyczVYWUttNHJBZUMwZXVtMnNqbDgzbERPbldiS0ZHVmNWTFE2Q2ZKbDhfRWFTdXV4QmNpNDBhZ01ZaDRJdUlEWXlKQXJXNjk1ZTFLWUxRdlNLcXZpNUtlekVmdHNUcjc1U3J0cHVUVHRXX0tCVVRpUjN5bWx6V3RvaFZLNzc?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSTFRTU1mQ00xbzVuVVlGTVhXR1N1Smtza0dVT24tb2ppT0JkN1dEZ1ViRVI3NlRvclh6elJSQjFySEhFRDNUcFpIMWx2NTMzazl6SktmYm96RzlZdWcwbFJoVVBXeWdrV0VLSzIxWXk5bEVfT0xkU0YzWEJPbUNScWVabW1lRFQ2YTlRY196LWVmak1wNmF3dFhmQUVqejN4UkZOd20tU0hYWFVyUmRMMDZxc2JadDNYb0VKZmFVOFdQVUxjeUNuZTZUUzBxdGdVb0RPbkdPMHZaMi1hSk5lU1Y0Z9IB6AFBVV95cUxNWGZjT0kyakRNTnRSZHFtSnN6THJIdXNUUDNTd2RNaE41M0pwczdoYXprM2tTZDJlUVlXTE9qOGI2S3AzaFZfRFp4YTc0ZloyVGVkakFwTlJqeEdJX3pkanpNTFBZMnAxVktLcnM1WFlLbTRyQWVDMGV1bTJzamw4M2xET25XYktGR1ZjVkxRNkNmSmw4X0VhU3V1eEJjaTQwYWdNWWg0SXVJRFl5SkFyVzY5NWUxS1lMUXZTS3F2aTVLZXpFZnRzVHI3NVNydHB1VFR0V19LQlVUaVIzeW1seld0b2hWSzc3?oc=5",
      "source": "gnews",
      "publishedAt": "2026-09-03T08:04:14.000Z",
      "matchedKeywords": [
@@ -83,11 +74,83 @@
    "status": "new"
   },
   {
+   "id": "0cf2a8eee9a0",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-03T18:35:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-04T11:58:18.925Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "f7fd239f686d",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-02T16:33:43.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-04T11:58:18.925Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "438b1da9fcf0",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Adobe Acquires Indian AI Startup Rilo to Boost Marketing Automation",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaFR3blVPbkx1c0lfX2xYXzJOeDNWWnhxSE84NWVubFVRc1RQVXd3U0UtNlh6LVl4MTNnM2Z3TDh5NzVEeTNFdUZ1bDNqT2RQR2RfdVZpdFROVk8yM0dCTTlnVG5RNWQwX3pXcUYzdURyWmxWbGE0enhYMWFoV3N4eGRycEJSSnl6U2tXODZWU0tuSzhuREd4STZ1UHhEcXdTWjUwZGV3ZTRCWjRrbzZENjQ5NE1UQdIBtgFBVV95cUxQaFR3blVPbkx1c0lfX2xYXzJOeDNWWnhxSE84NWVubFVRc1RQVXd3U0UtNlh6LVl4MTNnM2Z3TDh5NzVEeTNFdUZ1bDNqT2RQR2RfdVZpdFROVk8yM0dCTTlnVG5RNWQwX3pXcUYzdURyWmxWbGE0enhYMWFoV3N4eGRycEJSSnl6U2tXODZWU0tuSzhuREd4STZ1UHhEcXdTWjUwZGV3ZTRCWjRrbzZENjQ5NE1UQQ?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-03T09:32:21.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-04T11:58:18.925Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "ee5bbd18c84c",
+   "name": null,
+   "evidence": [
+    {
+     "title": "MAGIC AI Revenue 2025: $4.1M Est. ARR, $8.6M Raised",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fd3RYdjVCQVlWTlpqUG1MRlZNY05qTHo2REhlWDlkaG9VWERQcnpIWml4OEdLdVQya0lFZ3ZRRGZwZWZzTXU4V1BLRnRDZ3pmdkE?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-10T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-04T11:58:18.925Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
    "id": "236e5b324bbb",
    "name": null,
    "evidence": [
     {
-     "title": "AI Digital Employees in Accounting: The next stage of automation",
+     "title": "AI Digital Employees in Accounting: The next stage of automation - canadian-accountant.com",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaF90Z3pINEFnaU9qWGpsTmc4cHNQaVNCVmt5dklGdjZZYThON3U3YlF3M2JpS0hfQzhDbFJNYVc0a3hSeEhsWTJVeHl0N29OMk1QUGhRbDZNd2FXWDZBTzkyU2c4V0R5Q3QwMkZZVUJrTFVXY0NpNXZrR21RVzF5eW54eVRVMnEzUEdqbg?oc=5",
      "source": "gnews",
      "publishedAt": "2026-09-02T12:20:04.000Z",
@@ -97,6 +160,24 @@
     }
    ],
    "firstSeen": "2026-09-03T11:55:39.269Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "38841e007dc4",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Gupshup Launches Self-Serve Voice AI Platform, Extending Conversational Engagement into Phone Calls",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcXNPZVNhaVlZeTBsZkVhMFIwMWtDYWlGNXJRYVBVNU5zcEZrWjdrYkZTMDQzMFA3aUk3ZUNHcWxkREpQaDVZeEhVME5wMWJqY0ZRdkxBOUFoNnVfZDhuZGVOMDVhcGlrS0JrUEp6Q08zUE9SeDdhdjFWQVZBaGtIYUkzVGpXVDkybkF4OXBwRG9yZ3VnRExzVHhSbEYtcVIxOFllbUNvRzJhdVRTei00d2IwOUl3MmJTc0JKR0ptM3NaMFNWUHJNUDZUQXBCREhxcEttYTRfS05xcFJXR2daYU9Za2ZsZW5NRVE?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-03T15:04:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-04T11:58:18.925Z",
    "score": 0.5,
    "status": "new"
   },
