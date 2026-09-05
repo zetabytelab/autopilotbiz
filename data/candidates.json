@@ -1,24 +1,6 @@
 {
- "generatedAt": "2026-09-04T11:58:18.925Z",
+ "generatedAt": "2026-09-05T11:07:52.726Z",
  "candidates": [
-  {
-   "id": "5cd3a2e884e9",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-     "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-     "source": "investor",
-     "publishedAt": "2026-08-24T15:24:18.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-10T15:47:44.945Z",
-   "score": 0.5,
-   "status": "new"
-  },
   {
    "id": "ee2ddd5dc9e6",
    "name": null,
@@ -92,68 +74,14 @@
    "status": "new"
   },
   {
-   "id": "f7fd239f686d",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-09-02T16:33:43.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-09-04T11:58:18.925Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "438b1da9fcf0",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Adobe Acquires Indian AI Startup Rilo to Boost Marketing Automation",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaFR3blVPbkx1c0lfX2xYXzJOeDNWWnhxSE84NWVubFVRc1RQVXd3U0UtNlh6LVl4MTNnM2Z3TDh5NzVEeTNFdUZ1bDNqT2RQR2RfdVZpdFROVk8yM0dCTTlnVG5RNWQwX3pXcUYzdURyWmxWbGE0enhYMWFoV3N4eGRycEJSSnl6U2tXODZWU0tuSzhuREd4STZ1UHhEcXdTWjUwZGV3ZTRCWjRrbzZENjQ5NE1UQdIBtgFBVV95cUxQaFR3blVPbkx1c0lfX2xYXzJOeDNWWnhxSE84NWVubFVRc1RQVXd3U0UtNlh6LVl4MTNnM2Z3TDh5NzVEeTNFdUZ1bDNqT2RQR2RfdVZpdFROVk8yM0dCTTlnVG5RNWQwX3pXcUYzdURyWmxWbGE0enhYMWFoV3N4eGRycEJSSnl6U2tXODZWU0tuSzhuREd4STZ1UHhEcXdTWjUwZGV3ZTRCWjRrbzZENjQ5NE1UQQ?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-09-03T09:32:21.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-09-04T11:58:18.925Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "ee5bbd18c84c",
-   "name": null,
-   "evidence": [
-    {
-     "title": "MAGIC AI Revenue 2025: $4.1M Est. ARR, $8.6M Raised",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fd3RYdjVCQVlWTlpqUG1MRlZNY05qTHo2REhlWDlkaG9VWERQcnpIWml4OEdLdVQya0lFZ3ZRRGZwZWZzTXU4V1BLRnRDZ3pmdkE?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-10T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-09-04T11:58:18.925Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
    "id": "236e5b324bbb",
    "name": null,
    "evidence": [
     {
-     "title": "AI Digital Employees in Accounting: The next stage of automation - canadian-accountant.com",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaF90Z3pINEFnaU9qWGpsTmc4cHNQaVNCVmt5dklGdjZZYThON3U3YlF3M2JpS0hfQzhDbFJNYVc0a3hSeEhsWTJVeHl0N29OMk1QUGhRbDZNd2FXWDZBTzkyU2c4V0R5Q3QwMkZZVUJrTFVXY0NpNXZrR21RVzF5eW54eVRVMnEzUEdqbg?oc=5",
+     "title": "AI Digital Employees in Accounting: The next stage of automation",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWjNMQUd0M1RvQ1lOV0s0d0o3SkY1ODI3YjgwSDVXZGw3eUpWWDNaUkw3ZjZMcVN6TDBtVzZjU2RrWEVNTmNrUVBjeGczNGZlaUtJamZlU3F4ZTlQRTV6bC1SYTlyeTZ4dl9SeVVmekNESEU0SFNYX3dfWW1tUE5FTl9QblNlR3NhdzNoemx4VUxJTVk?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-09-02T12:20:04.000Z",
+     "publishedAt": "2026-09-02T12:47:07.000Z",
      "matchedKeywords": [
       "\"digital employees\" raises"
      ]
