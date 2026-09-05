@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import RefCapture from "@/components/RefCapture";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -77,6 +78,7 @@ export default function RootLayout({
           </div>
         </nav>
         {children}
+        <Analytics />
         <footer className="mt-auto border-t border-zinc-900 py-6 text-center">
           <a
             href="https://buymeacoffee.com/serranox"
