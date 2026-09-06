@@ -1,24 +1,6 @@
 {
- "generatedAt": "2026-09-05T11:07:52.726Z",
+ "generatedAt": "2026-09-06T11:31:00.026Z",
  "candidates": [
-  {
-   "id": "ee2ddd5dc9e6",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Exclusive: This $100 million startup wants to give companies AI employees",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZk9UUHFsVk9oME5iUEdWODd4T3EzazlxUm5VOVhmc2I1VFhQam15Z0hEUmhPMnctX3RCU0NIZWJmN1J3UkVqWE9yRjNuVXV3c1dRUWtaeHJzMUNvTW00WXlsa0RtZlhSQjdVMEphUkJ5NHpNYlBKbWRSaHRkMzBhLS1oeEZpZVg4SlloMmlZQnVnblZTRElNRmlST3FFQmZWeTk2aXhkNFh2QWVm?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-20T13:12:37.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-31T14:49:35.265Z",
-   "score": 0.5,
-   "status": "new"
-  },
   {
    "id": "978a68445cdc",
    "name": null,
@@ -81,13 +63,31 @@
      "title": "AI Digital Employees in Accounting: The next stage of automation",
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWjNMQUd0M1RvQ1lOV0s0d0o3SkY1ODI3YjgwSDVXZGw3eUpWWDNaUkw3ZjZMcVN6TDBtVzZjU2RrWEVNTmNrUVBjeGczNGZlaUtJamZlU3F4ZTlQRTV6bC1SYTlyeTZ4dl9SeVVmekNESEU0SFNYX3dfWW1tUE5FTl9QblNlR3NhdzNoemx4VUxJTVk?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-09-02T12:47:07.000Z",
+     "publishedAt": "2026-09-02T12:20:33.000Z",
      "matchedKeywords": [
       "\"digital employees\" raises"
      ]
     }
    ],
    "firstSeen": "2026-09-03T11:55:39.269Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "438b1da9fcf0",
+   "name": null,
+   "evidence": [
+    {
+     "title": "7 AI Tools that Could Power a Solo Business in 2027",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY25pYlhsN3dQV0NPSHVJc044NFFpSG52SjlJODdPbTNRalVtdjR4RUhBc3dMVVdiSk9MdW1PUzhnX2xwOUx1V2Rsa3NjUS1vdzZ3RGVDSGpSMkdWNUY4UVRobkwwU0ZRTmx1RmlSamswbWlHZ2NwVkh2Vl9OUnExTExndmpjaDhlNTBnTmR2cjFMRkNoU0FsV9IBpgFBVV95cUxNNWpYWFpuWXhXaHZySThLQUszNElXZWE0WnZILWRYS1VWUEZGbGJQSmJTc0trRjBIZkpSRkNLNDVwWWRvSHVOQzJBbTVCTWI4RHdHcG52NUhxb3o3d3hhLXIzbGZGZEkxeEZTNVdUVmFmRmFlbGJaRm1mS2x1T08yb0cwWHhFaEtUNUdhS3d1ekttWTVVdnR6aHdTLUxfbmV3M255OHh3?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-06T07:30:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-06T11:31:00.026Z",
    "score": 0.5,
    "status": "new"
   },
