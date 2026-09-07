@@ -1,6 +1,24 @@
 {
- "generatedAt": "2026-09-06T11:31:00.026Z",
+ "generatedAt": "2026-09-07T13:16:27.001Z",
  "candidates": [
+  {
+   "id": "ee2ddd5dc9e6",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Exclusive: This $100 million startup wants to give companies AI employees",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZk9UUHFsVk9oME5iUEdWODd4T3EzazlxUm5VOVhmc2I1VFhQam15Z0hEUmhPMnctX3RCU0NIZWJmN1J3UkVqWE9yRjNuVXV3c1dRUWtaeHJzMUNvTW00WXlsa0RtZlhSQjdVMEphUkJ5NHpNYlBKbWRSaHRkMzBhLS1oeEZpZVg4SlloMmlZQnVnblZTRElNRmlST3FFQmZWeTk2aXhkNFh2QWVm?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-20T13:12:37.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-07T13:16:27.001Z",
+   "score": 0.5,
+   "status": "new"
+  },
   {
    "id": "978a68445cdc",
    "name": null,
@@ -124,24 +142,6 @@
     }
    ],
    "firstSeen": "2026-08-20T07:39:55.441Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "b243fd507784",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
-     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
-     "source": "reddit",
-     "publishedAt": "2026-08-27T07:25:11.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-08-27T18:06:08.320Z",
    "score": 0.5,
    "status": "new"
   }
