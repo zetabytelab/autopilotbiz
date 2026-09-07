@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-07T16:06:01.445Z",
+ "generatedAt": "2026-09-07T16:18:21.721Z",
  "sourcesRun": [
   {
    "id": "gnews",
    "ok": 68,
    "failed": 0,
-   "items": 662
+   "items": 665
   },
   {
    "id": "hn",
@@ -27,15 +27,15 @@
   },
   {
    "id": "x",
-   "ok": 0,
-   "failed": 1,
-   "items": 0
+   "ok": 1,
+   "failed": 0,
+   "items": 57
   },
   {
    "id": "linkedin",
-   "ok": 0,
-   "failed": 1,
-   "items": 0
+   "ok": 1,
+   "failed": 0,
+   "items": 1
   },
   {
    "id": "investor",
@@ -138,6 +138,25 @@
    "hot": true
   },
   {
+   "id": "4329a6e95403",
+   "title": "@Bencera: A lot of people ask how Polsia’s infrastructure is set up right now… Sapiom for agents Sciforium for GPUs This stack has saved us millions in compute costs s…",
+   "url": "https://x.com/Bencera/status/2096650274295144630",
+   "domain": "x.com",
+   "publishedAt": "2026-09-06T17:22:33.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2096650274295144630",
+     "points": 168
+    }
+   ],
+   "baseScore": 2.09,
+   "track": "company",
+   "hot": true
+  },
+  {
    "id": "2ce1207f9205",
    "title": "Claude Code injects a system reminder to replace attribution guidance",
    "url": "https://news.ycombinator.com/item?id=49598498",
@@ -223,7 +242,7 @@
    "url": "https://github.com/MohammedNihal03/AI-observibility",
    "domain": "github.com",
    "publishedAt": "2026-09-07T08:30:00Z",
-   "companySlug": "stack-claude",
+   "companySlug": "stack-claude-code",
    "kind": "blog",
    "sources": [
     {
@@ -235,6 +254,25 @@
    ],
    "baseScore": 1.39,
    "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "c85c1ccdee35",
+   "title": "@Bencera: I’ve been an entrepreneur for over a decade. The grind never stops. There’s always another problem to solve. And if you’re ambitious. You need to live in a c…",
+   "url": "https://x.com/Bencera/status/2096583703187046610",
+   "domain": "x.com",
+   "publishedAt": "2026-09-06T12:58:02.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2096583703187046610",
+     "points": 156
+    }
+   ],
+   "baseScore": 2.08,
+   "track": "company",
    "hot": true
   },
   {
@@ -342,7 +380,7 @@
    "title": "GPT-6 Astra: A new generation of intelligence",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
    "domain": "openai.com",
-   "publishedAt": "2026-09-07T16:04:02.000Z",
+   "publishedAt": "2026-09-07T16:12:56.000Z",
    "companySlug": "stack-openai-codex",
    "kind": "blog",
    "sources": [
@@ -690,6 +728,44 @@
    "hot": true
   },
   {
+   "id": "d133383721f9",
+   "title": "@Bencera: The only moat that still exists is speed of execution.",
+   "url": "https://x.com/Bencera/status/2096184659382059088",
+   "domain": "x.com",
+   "publishedAt": "2026-09-05T10:32:22.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2096184659382059088",
+     "points": 686
+    }
+   ],
+   "baseScore": 2.33,
+   "track": "company",
+   "hot": true
+  },
+  {
+   "id": "5962c2faca90",
+   "title": "@Bencera: If you’re not satisfied with having a boss. Then just become the boss. Polsia is ready for you to tell it what to do. It’s ready to work 24/7 for you. And it…",
+   "url": "https://x.com/Bencera/status/2096292650387116173",
+   "domain": "x.com",
+   "publishedAt": "2026-09-05T17:41:29.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2096292650387116173",
+     "points": 61
+    }
+   ],
+   "baseScore": 1.92,
+   "track": "company",
+   "hot": true
+  },
+  {
    "id": "188b4f727ce5",
    "title": "Meet Claude: ABC's new regional cadet journalist",
    "url": "https://independentaustralia.net/business/business-display/meet-claude-abcs-new-regional-cadet-journalist,21521",
@@ -899,6 +975,25 @@
    ],
    "baseScore": 2.33,
    "track": "stack",
+   "hot": true
+  },
+  {
+   "id": "311701b30e17",
+   "title": "@Bencera: Here's what I'd start doing right now: 1. Talk to AI every day. 2. Do deep dives. 3. Be knowledgable. 4. Plan your distribution.",
+   "url": "https://x.com/Bencera/status/2095987552192709003",
+   "domain": "x.com",
+   "publishedAt": "2026-09-04T21:29:08.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2095987552192709003",
+     "points": 273
+    }
+   ],
+   "baseScore": 2.38,
+   "track": "company",
    "hot": true
   },
   {
@@ -1438,8 +1533,8 @@
    "hot": true
   },
   {
-   "id": "2405b0305649",
-   "title": "4,000 additional ballots in Washington rejected due to late postmark even as more voters use ballot drop boxes",
+   "id": "c53fa61e5493",
+   "title": "4,000 additional ballots in Washington rejected due to late postmark even as more voters use ballot drop boxes - The Spokesman-Review",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVGtvSzhXYkdEbktmbm9ZNXpOQTlmVGdLZktPdGtOSDYzak5KNnhDc0xjSlQzNGhrbUp5N1ZfMVZyUzBXYjUxaHBMdUNSNEptU2hBLUtPYldkai1ZYnNka1BBazR3R3VwRnJTRm1oOXZNMlJOWlFxX1JMYjNMNGVOZS0yN1VjYkM1OF9VXzdIYWJYUG91WTFFWVpjSkEwUQ?oc=5",
    "domain": "spokesman.com",
    "publishedAt": "2026-09-05T00:15:00.000Z",
@@ -1508,6 +1603,25 @@
     }
    ],
    "baseScore": 1.1,
+   "track": "company",
+   "hot": true
+  },
+  {
+   "id": "e57b5835ce76",
+   "title": "@Bencera: my replies are a hostile work environment sometimes https://t.co/qn87VjHH6B",
+   "url": "https://x.com/Bencera/status/2095585870095008045",
+   "domain": "x.com",
+   "publishedAt": "2026-09-03T18:53:00.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2095585870095008045",
+     "points": 48
+    }
+   ],
+   "baseScore": 1.88,
    "track": "company",
    "hot": true
   },
@@ -1654,6 +1768,44 @@
     }
    ],
    "baseScore": 1.1,
+   "track": "company",
+   "hot": true
+  },
+  {
+   "id": "1f5c00b5e19d",
+   "title": "@Bencera: China is going to win the AI race. Their models are VERY close to the US ones. Open-sourced, so no markups. The US will be forced to lower their prices to co…",
+   "url": "https://x.com/Bencera/status/2095466278286664004",
+   "domain": "x.com",
+   "publishedAt": "2026-09-03T10:57:47.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2095466278286664004",
+     "points": 119
+    }
+   ],
+   "baseScore": 2.03,
+   "track": "company",
+   "hot": true
+  },
+  {
+   "id": "e138fb47e97b",
+   "title": "@Bencera: When you think you’re being too loud, people can barely hear you. Always be louder. https://t.co/vb25QzLaL0",
+   "url": "https://x.com/Bencera/status/2095524809815830868",
+   "domain": "x.com",
+   "publishedAt": "2026-09-03T14:50:22.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2095524809815830868",
+     "points": 46
+    }
+   ],
+   "baseScore": 1.87,
    "track": "company",
    "hot": true
   },
@@ -2278,6 +2430,25 @@
    "hot": true
   },
   {
+   "id": "3faa45fdd341",
+   "title": "@Bencera: I worked for Travis Kalanick for 5 years. He taught me 5 core values: always be hustlin', champion's heart, big bold bets, make magic and customer obsessed. …",
+   "url": "https://x.com/Bencera/status/2095248628277452848",
+   "domain": "x.com",
+   "publishedAt": "2026-09-02T20:32:55.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2095248628277452848",
+     "points": 84
+    }
+   ],
+   "baseScore": 1.97,
+   "track": "company",
+   "hot": true
+  },
+  {
    "id": "04c779a2532f",
    "title": "Show HN: Tests for your Claude Code setup that run on every release",
    "url": "https://jameskomo.github.io/config-drift-checker/",
@@ -2506,8 +2677,7 @@
     }
    ],
    "baseScore": 1.28,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "27d797f1c8d9",
@@ -2526,8 +2696,7 @@
     }
    ],
    "baseScore": 1.29,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "5648916b9286",
@@ -2544,8 +2713,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "company",
-   "hot": true
+   "track": "company"
   },
   {
    "id": "c0d4671df804",
@@ -2564,8 +2732,7 @@
     }
    ],
    "baseScore": 1.29,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "bb4e4ee3547a",
@@ -2582,8 +2749,7 @@
     }
    ],
    "baseScore": 1.1,
-   "track": "company",
-   "hot": true
+   "track": "company"
   },
   {
    "id": "5200f23ea1aa",
@@ -2602,8 +2768,7 @@
     }
    ],
    "baseScore": 1.4,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "9fd62603eda1",
@@ -2622,8 +2787,7 @@
     }
    ],
    "baseScore": 1.47,
-   "track": "stack",
-   "hot": true
+   "track": "stack"
   },
   {
    "id": "222992073638",
@@ -2708,6 +2872,24 @@
     }
    ],
    "baseScore": 1.1,
+   "track": "company"
+  },
+  {
+   "id": "13b0209a2254",
+   "title": "@Bencera: Nobody cares about AI costs until the bill gets too high. Here's what you need to know:",
+   "url": "https://x.com/Bencera/status/2095131759662809254",
+   "domain": "x.com",
+   "publishedAt": "2026-09-02T12:48:31.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2095131759662809254",
+     "points": 44
+    }
+   ],
+   "baseScore": 1.86,
    "track": "company"
   },
   {
@@ -2957,6 +3139,24 @@
    ],
    "baseScore": 1.72,
    "track": "stack"
+  },
+  {
+   "id": "6be720289297",
+   "title": "@Bencera: Giving up is not an option. Keep going https://t.co/V7XFi1xsQt",
+   "url": "https://x.com/Bencera/status/2094920748137947229",
+   "domain": "x.com",
+   "publishedAt": "2026-09-01T22:50:02.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2094920748137947229",
+     "points": 357
+    }
+   ],
+   "baseScore": 2.22,
+   "track": "company"
   },
   {
    "id": "0ca15aacfd79",
@@ -3381,6 +3581,28 @@
    "track": "stack"
   },
   {
+   "id": "75cc2df53257",
+   "title": "Here's how I did the biggest launch in 2026:",
+   "url": "https://www.youtube.com/shorts/AL83V3qjHNs",
+   "domain": "youtube.com",
+   "publishedAt": "2026-09-01T02:32:40.000Z",
+   "companySlug": "polsia",
+   "kind": "video",
+   "sources": [
+    {
+     "id": "youtube",
+     "url": "https://www.youtube.com/shorts/AL83V3qjHNs"
+    },
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2094614387277586510",
+     "points": 111
+    }
+   ],
+   "baseScore": 2.62,
+   "track": "company"
+  },
+  {
    "id": "ee8936cfb065",
    "title": "Show HN: SandrPod – run the unmodified E2B SDK against your own infrastructure",
    "url": "https://github.com/sandrpod/sandrpod",
@@ -3466,6 +3688,24 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
+  },
+  {
+   "id": "082f1c769c95",
+   "title": "@Bencera: Time is invaluable in business. You need to find Product-Market-Fit. And to do so, you need fast customer feedback loops. The best way I’ve found is using Me…",
+   "url": "https://x.com/Bencera/status/2094731965173764574",
+   "domain": "x.com",
+   "publishedAt": "2026-09-01T10:19:53.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2094731965173764574",
+     "points": 186
+    }
+   ],
+   "baseScore": 2.11,
+   "track": "company"
   },
   {
    "id": "0fc1c445a7c6",
@@ -4170,23 +4410,6 @@
    "track": "stack"
   },
   {
-   "id": "75cc2df53257",
-   "title": "Here's how I did the biggest launch in 2026:",
-   "url": "https://www.youtube.com/shorts/AL83V3qjHNs",
-   "domain": "youtube.com",
-   "publishedAt": "2026-09-01T18:06:45.000Z",
-   "companySlug": "polsia",
-   "kind": "video",
-   "sources": [
-    {
-     "id": "youtube",
-     "url": "https://www.youtube.com/shorts/AL83V3qjHNs"
-    }
-   ],
-   "baseScore": 1.3,
-   "track": "company"
-  },
-  {
    "id": "bd5284d285e4",
    "title": "Show HN: Teslacode.dev – use Claude Code on your Tesla screen",
    "url": "https://teslacode.dev",
@@ -4384,8 +4607,26 @@
    "track": "stack"
   },
   {
-   "id": "b0d147eb8bf1",
-   "title": "Ken and Ryu Can’t Stay Friends in New Street Fighter Movie Trailer",
+   "id": "c4765d4d889b",
+   "title": "@Bencera: Cursor and Base44 needed their own AI model to survive. Same for any AI-native companies. And there’s 2 reasons for why this is mandatory: 1. Lower costs. 2.…",
+   "url": "https://x.com/Bencera/status/2094448322983448746",
+   "domain": "x.com",
+   "publishedAt": "2026-08-31T15:32:47.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2094448322983448746",
+     "points": 127
+    }
+   ],
+   "baseScore": 2.04,
+   "track": "company"
+  },
+  {
+   "id": "6401e67a75ab",
+   "title": "Ken and Ryu Can’t Stay Friends in New Street Fighter Movie Trailer - TechEBlog -",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdmZkWk9DYkF2ZDM2cEk4UzhLNlhmUGpuOXhwZDVOY0FoQjhscEFsNnR3VWxlVGVMcjhScnhINldsaXVUVndjc1BPV1pEMGkxNkU0NXpXOEZqVHdUakhYUG92RnZ5cXZaSm1OSWpLWVU0djNudEhlcHVKX2hFTmdQSQ?oc=5",
    "domain": "techeblog.com",
    "publishedAt": "2026-09-01T20:58:51.000Z",
@@ -4435,6 +4676,24 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
+  },
+  {
+   "id": "ceea1d4e9318",
+   "title": "@Bencera: Refuse to give up. https://t.co/sq37u2Onfh",
+   "url": "https://x.com/Bencera/status/2094296495268987379",
+   "domain": "x.com",
+   "publishedAt": "2026-08-31T05:29:29.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2094296495268987379",
+     "points": 1266
+    }
+   ],
+   "baseScore": 2.44,
+   "track": "company"
   },
   {
    "id": "cb5988946a53",
@@ -4685,20 +4944,21 @@
    "track": "stack"
   },
   {
-   "id": "ef3198eead75",
-   "title": "Britain's Gamma Communications agrees to $1.5 billion takeover by Epiris",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0s3Z1JJX0JyZklmX3p2YWJTWWtEdV9rZmRGOTRSem9FYTVIQzhvQlZLZWFtUGpORnpGeGs5SC1NZDhSZ0ZYN3RzaGpkMjNrU05CR1dSSDVVTFM3Wmg1amdVUDRWdjhHMDRDYWpGUEpUaGZmSnN4emo1aDNXR1BlQ2dRMlNlQzhIV0tfZklDUFE4ZjJrSk1CczhuRVkxNy1kSjl3WnMxTlJJcGVMbUg5T2F3RDRNWXQ5RnNReFZDSQ?oc=5",
-   "domain": "reuters.com",
-   "publishedAt": "2026-09-01T16:21:44.000Z",
-   "companySlug": "gamma",
-   "kind": "other",
+   "id": "6f7ebabe5c2a",
+   "title": "@Bencera: When I was building the first version of Polsia alone in Paris, I never would’ve thought that 5 months later… I would hit $10M run rate with over 10,000 payi…",
+   "url": "https://x.com/Bencera/status/2094369804811469228",
+   "domain": "x.com",
+   "publishedAt": "2026-08-31T10:20:47.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
    "sources": [
     {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0s3Z1JJX0JyZklmX3p2YWJTWWtEdV9rZmRGOTRSem9FYTVIQzhvQlZLZWFtUGpORnpGeGs5SC1NZDhSZ0ZYN3RzaGpkMjNrU05CR1dSSDVVTFM3Wmg1amdVUDRWdjhHMDRDYWpGUEpUaGZmSnN4emo1aDNXR1BlQ2dRMlNlQzhIV0tfZklDUFE4ZjJrSk1CczhuRVkxNy1kSjl3WnMxTlJJcGVMbUg5T2F3RDRNWXQ5RnNReFZDSQ?oc=5"
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2094369804811469228",
+     "points": 154
     }
    ],
-   "baseScore": 1.1,
+   "baseScore": 2.08,
    "track": "company"
   },
   {
@@ -4757,15 +5017,15 @@
   {
    "id": "77a219a38ce5",
    "title": "DigitalOcean to Participate in Goldman Sachs Communacopia + Technology Conference 2026",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSVNoc0pPQ1VvRTlxdUY2d00zZzhCdERLVDZMbHlyd3RGWVhfU0Q2OV9TVXFLYVFZNzJnNXVQUmh1WlhKbkY1UVFZSzJ3QVFQQ2tqZmJTWmtTaDN1QmphWXJpUkNmQjlzeGNNN1hWc3NiZzR0WTFBTWhxSzF5bXRRYkZrS1FDd3JhMnFxVXRMQ3I1TzJkOTEyaEFpYThudkl3Tk9DeUVFMW54RlA4aFZTaDNR?oc=5",
-   "domain": "finance.yahoo.com",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQenExWEFSWUlfVW1iWmM2cHljZUs3N3ZPTVgxT3pwTEhtclp5RXpPT3hwSENwTkNuSnoxYVpaM1hXUW1lYjllTW5LdHo2RUNfbGpLeVVOQXF0MnlvWXdjTENfd3hzRjg1Um1WTXdxOXFNR2NqbExFX21KMzJLMTZVeVJweldtUU82T1ZRejNMUUw0ak85TjNSUXZIVU5VZ183emFLZWZBR2FfeTVmR2VlWGxnMnJxQ2NNMTYwSXR4ajVBbE1qaGwxS20xcGFPOVhzN01zTmdKQVQ?oc=5",
+   "domain": "businesswire.com",
    "publishedAt": "2026-09-01T16:00:00.000Z",
    "companySlug": "stack-digitalocean",
    "kind": "other",
    "sources": [
     {
      "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSVNoc0pPQ1VvRTlxdUY2d00zZzhCdERLVDZMbHlyd3RGWVhfU0Q2OV9TVXFLYVFZNzJnNXVQUmh1WlhKbkY1UVFZSzJ3QVFQQ2tqZmJTWmtTaDN1QmphWXJpUkNmQjlzeGNNN1hWc3NiZzR0WTFBTWhxSzF5bXRRYkZrS1FDd3JhMnFxVXRMQ3I1TzJkOTEyaEFpYThudkl3Tk9DeUVFMW54RlA4aFZTaDNR?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQenExWEFSWUlfVW1iWmM2cHljZUs3N3ZPTVgxT3pwTEhtclp5RXpPT3hwSENwTkNuSnoxYVpaM1hXUW1lYjllTW5LdHo2RUNfbGpLeVVOQXF0MnlvWXdjTENfd3hzRjg1Um1WTXdxOXFNR2NqbExFX21KMzJLMTZVeVJweldtUU82T1ZRejNMUUw0ak85TjNSUXZIVU5VZ183emFLZWZBR2FfeTVmR2VlWGxnMnJxQ2NNMTYwSXR4ajVBbE1qaGwxS20xcGFPOVhzN01zTmdKQVQ?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -5122,6 +5382,23 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
+  },
+  {
+   "id": "ef3198eead75",
+   "title": "Britain's Gamma Communications agrees to $1.5 billion takeover by Epiris",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0s3Z1JJX0JyZklmX3p2YWJTWWtEdV9rZmRGOTRSem9FYTVIQzhvQlZLZWFtUGpORnpGeGs5SC1NZDhSZ0ZYN3RzaGpkMjNrU05CR1dSSDVVTFM3Wmg1amdVUDRWdjhHMDRDYWpGUEpUaGZmSnN4emo1aDNXR1BlQ2dRMlNlQzhIV0tfZklDUFE4ZjJrSk1CczhuRVkxNy1kSjl3WnMxTlJJcGVMbUg5T2F3RDRNWXQ5RnNReFZDSQ?oc=5",
+   "domain": "reuters.com",
+   "publishedAt": "2026-09-01T07:14:31.000Z",
+   "companySlug": "gamma",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0s3Z1JJX0JyZklmX3p2YWJTWWtEdV9rZmRGOTRSem9FYTVIQzhvQlZLZWFtUGpORnpGeGs5SC1NZDhSZ0ZYN3RzaGpkMjNrU05CR1dSSDVVTFM3Wmg1amdVUDRWdjhHMDRDYWpGUEpUaGZmSnN4emo1aDNXR1BlQ2dRMlNlQzhIV0tfZklDUFE4ZjJrSk1CczhuRVkxNy1kSjl3WnMxTlJJcGVMbUg5T2F3RDRNWXQ5RnNReFZDSQ?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
   },
   {
    "id": "266d6e71c387",
@@ -5599,6 +5876,24 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
+  },
+  {
+   "id": "0c2d1f9c39b2",
+   "title": "@Bencera: I'm deploying the $30 million into making the best product in the world.",
+   "url": "https://x.com/Bencera/status/2094084589505364162",
+   "domain": "x.com",
+   "publishedAt": "2026-08-30T15:27:27.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2094084589505364162",
+     "points": 67
+    }
+   ],
+   "baseScore": 1.93,
+   "track": "company"
   },
   {
    "id": "3ddf0cc56795",
@@ -6187,9 +6482,9 @@
    "track": "company"
   },
   {
-   "id": "c3b173c06e56",
-   "title": "@Bencera: Just keep on hustlin. No matter what. https://t.co/cpQAwa8EQ4",
-   "url": "https://x.com/Bencera/status/2093856614789042410",
+   "id": "161dca3cfd95",
+   "title": "@Bencera: just keep hustlin' https://t.co/nqT0159U2X",
+   "url": "https://x.com/Bencera/status/2096395802981933220",
    "domain": "x.com",
    "publishedAt": "2026-08-30T00:21:33.000Z",
    "companySlug": "polsia",
@@ -6197,11 +6492,29 @@
    "sources": [
     {
      "id": "x",
-     "url": "https://x.com/Bencera/status/2093856614789042410",
-     "points": 138
+     "url": "https://x.com/Bencera/status/2096395802981933220",
+     "points": 156
     }
    ],
-   "baseScore": 2.06,
+   "baseScore": 2.08,
+   "track": "company"
+  },
+  {
+   "id": "44dfd7c34c16",
+   "title": "@Bencera: Can’t wait until we can say “build me a $1M company, make no mistakes.” And 3 months later we actually have $1M in our bank account. The time is coming.",
+   "url": "https://x.com/Bencera/status/2093737079695876524",
+   "domain": "x.com",
+   "publishedAt": "2026-08-29T16:26:34.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2093737079695876524",
+     "points": 529
+    }
+   ],
+   "baseScore": 2.29,
    "track": "company"
   },
   {
@@ -6239,24 +6552,6 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
-  },
-  {
-   "id": "44dfd7c34c16",
-   "title": "@Bencera: Can’t wait until we can say “build me a $1M company, make no mistakes.” And 3 months later we actually have $1M in our bank account. The time is coming.",
-   "url": "https://x.com/Bencera/status/2093737079695876524",
-   "domain": "x.com",
-   "publishedAt": "2026-08-29T16:26:34.000Z",
-   "companySlug": "polsia",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2093737079695876524",
-     "points": 466
-    }
-   ],
-   "baseScore": 2.27,
-   "track": "company"
   },
   {
    "id": "5cd8f7090014",
@@ -6412,10 +6707,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2093386428772233293",
-     "points": 113
+     "points": 115
     }
    ],
-   "baseScore": 3.22,
+   "baseScore": 3.23,
    "track": "company"
   },
   {
@@ -6887,7 +7182,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2093281232058470517",
-     "points": 895
+     "points": 896
     }
    ],
    "baseScore": 2.58,
@@ -6911,6 +7206,24 @@
    "track": "company"
   },
   {
+   "id": "e7565932b9d7",
+   "title": "@Bencera: I want to build a brand as iconic as Daft Punk. AI now automates 80% of the work. The only thing left is taste. So that's where my time goes: branding, UI th…",
+   "url": "https://x.com/Bencera/status/2093366805675040965",
+   "domain": "x.com",
+   "publishedAt": "2026-08-28T15:55:14.000Z",
+   "companySlug": "polsia",
+   "kind": "social",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2093366805675040965",
+     "points": 316
+    }
+   ],
+   "baseScore": 2.2,
+   "track": "company"
+  },
+  {
    "id": "7370bd3b34f1",
    "title": "Show HN: Seedeep – I couldn't see what Claude Code was doing, so I drew it",
    "url": "https://github.com/duqaXxX/seedeep",
@@ -6928,24 +7241,6 @@
    ],
    "baseScore": 1.34,
    "track": "stack"
-  },
-  {
-   "id": "e7565932b9d7",
-   "title": "@Bencera: I want to build a brand as iconic as Daft Punk. AI now automates 80% of the work. The only thing left is taste. So that's where my time goes: branding, UI th…",
-   "url": "https://x.com/Bencera/status/2093366805675040965",
-   "domain": "x.com",
-   "publishedAt": "2026-08-28T15:55:14.000Z",
-   "companySlug": "polsia",
-   "kind": "social",
-   "sources": [
-    {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2093366805675040965",
-     "points": 295
-    }
-   ],
-   "baseScore": 2.19,
-   "track": "company"
   },
   {
    "id": "5c1f7d5fd6d8",
@@ -7145,6 +7440,24 @@
    ],
    "baseScore": 1.1,
    "track": "stack"
+  },
+  {
+   "id": "3886a10fa62e",
+   "title": "@Bencera: Watch the episode on my YT channel: https://t.co/WsjdlngjDM",
+   "url": "https://x.com/Bencera/status/2093366808275460292",
+   "domain": "x.com",
+   "publishedAt": "2026-08-28T15:55:14.000Z",
+   "companySlug": "polsia",
+   "kind": "interview",
+   "sources": [
+    {
+     "id": "x",
+     "url": "https://x.com/Bencera/status/2093366808275460292",
+     "points": 8
+    }
+   ],
+   "baseScore": 1.78,
+   "track": "company"
   },
   {
    "id": "c15d3255aa4b",
@@ -7414,7 +7727,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2093113392559276459",
-     "points": 279
+     "points": 283
     }
    ],
    "baseScore": 2.18,
@@ -7726,7 +8039,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2093061881225220531",
-     "points": 61
+     "points": 63
     }
    ],
    "baseScore": 1.92,
@@ -7744,7 +8057,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092924789845274896",
-     "points": 590
+     "points": 593
     }
    ],
    "baseScore": 2.31,
@@ -8755,7 +9068,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092632448056086850",
-     "points": 446
+     "points": 447
     }
    ],
    "baseScore": 2.26,
@@ -8902,7 +9215,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092666048038555944",
-     "points": 140
+     "points": 143
     }
    ],
    "baseScore": 2.06,
@@ -8928,9 +9241,9 @@
    "track": "stack"
   },
   {
-   "id": "9217dd3815a5",
-   "title": "@Bencera: https://t.co/GkIbku0Jwj",
-   "url": "https://x.com/Bencera/status/2092595983905362308",
+   "id": "87b70d6a9f1e",
+   "title": "@Bencera: https://t.co/vXurFdq9Xs",
+   "url": "https://x.com/Bencera/status/2095867947956817957",
    "domain": "x.com",
    "publishedAt": "2026-08-26T12:52:15.000Z",
    "companySlug": "polsia",
@@ -8938,8 +9251,8 @@
    "sources": [
     {
      "id": "x",
-     "url": "https://x.com/Bencera/status/2092595983905362308",
-     "points": 436
+     "url": "https://x.com/Bencera/status/2095867947956817957",
+     "points": 449
     }
    ],
    "baseScore": 2.26,
@@ -8976,7 +9289,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092699478566556062",
-     "points": 70
+     "points": 71
     }
    ],
    "baseScore": 1.94,
@@ -10054,7 +10367,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2092259269512970472",
-     "points": 77
+     "points": 78
     }
    ],
    "baseScore": 1.96,
@@ -11535,7 +11848,7 @@
    "title": "@Bencera: Alone with a purpose https://t.co/ATCVsJROlE",
    "url": "https://x.com/Bencera/status/2091671099205665115",
    "domain": "x.com",
-   "publishedAt": "2026-08-23T23:32:21.000Z",
+   "publishedAt": "2026-08-23T23:37:06.000Z",
    "companySlug": "polsia",
    "kind": "social",
    "sources": [
@@ -11543,10 +11856,6 @@
      "id": "x",
      "url": "https://x.com/Bencera/status/2091671099205665115",
      "points": 104
-    },
-    {
-     "id": "youtube",
-     "url": "https://www.youtube.com/shorts/zDDtS38WntI"
     }
    ],
    "baseScore": 2.01,
@@ -12270,10 +12579,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2091163458695786980",
-     "points": 1030
+     "points": 1025
     }
    ],
-   "baseScore": 2.41,
+   "baseScore": 2.4,
    "track": "company"
   },
   {
@@ -12634,7 +12943,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2090877452658626700",
-     "points": 739
+     "points": 740
     }
    ],
    "baseScore": 2.35,
@@ -13075,24 +13384,6 @@
    "track": "stack"
   },
   {
-   "id": "3886a10fa62e",
-   "title": "@Bencera: Watch the episode on my YT channel: https://t.co/WsjdlngjDM",
-   "url": "https://x.com/Bencera/status/2093366808275460292",
-   "domain": "x.com",
-   "publishedAt": "2026-08-21T15:33:45.000Z",
-   "companySlug": "polsia",
-   "kind": "interview",
-   "sources": [
-    {
-     "id": "x",
-     "url": "https://x.com/Bencera/status/2093366808275460292",
-     "points": 7
-    }
-   ],
-   "baseScore": 1.76,
-   "track": "company"
-  },
-  {
    "id": "9be1e392d1e0",
    "title": "Z.ai delays GLM 5.3 release over cybersecurity risks",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MaWVwNkNrRXI3SW9pdzBwd2lSN0hSODFKNmZIdnlGUlRRNDVudnhkRWF5NmJFTzRqWGFjanJyaVRJODVFOEFOYmc5dVdVS3k1ZVdjVk10QVVmeGpPYWxabmpJbmdVREZKQUE5T01B?oc=5",
@@ -13407,10 +13698,10 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2090460717371498863",
-     "points": 231
+     "points": 228
     }
    ],
-   "baseScore": 2.15,
+   "baseScore": 2.14,
    "track": "company"
   },
   {
@@ -14101,7 +14392,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2090095191076360423",
-     "points": 528
+     "points": 529
     }
    ],
    "baseScore": 2.29,
@@ -14492,6 +14783,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDVDItb0VMeHNySVZJRlE0eEROcGRnMmlGbVd1TzgxLTgtMUF6NG9aQzdTQUhGX2lDRlFGQ2JPS3JpdUF0dUdtU2lqSmpYOFZpNEp0cGVheEE5VHo5Q2JZWDh6cUJ1TkNCMnZYUzlTbVdXLUJKWElxMkpn?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "company"
+  },
+  {
+   "id": "a1a931f9ae6d",
+   "title": "Oracle Health’s AI Agent Now Handles Medical Coding, Dictation, Chart Review",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLTB5VWgwZERCOURSeHZhaUUtWDg0WEhvWUVvQ251NjVfT3ZNYXZuRUtzY0hfQ096Mm5UcTFsWkRXc25OdloxZmxiMXJoWldmSkwyclRxMkY5NHFabFl0bHJWeTZnUXlfd3RpT1duekZ4TkkyQ3ZGUDVLVm9aRzU0SE41bzZpaXF3UmdsY3FjNHVwTHhDYzRtNEhFUVdRYjg?oc=5",
+   "domain": "kobaran.com",
+   "publishedAt": "2026-08-20T07:00:00.000Z",
+   "companySlug": "beacon-health",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLTB5VWgwZERCOURSeHZhaUUtWDg0WEhvWUVvQ251NjVfT3ZNYXZuRUtzY0hfQ096Mm5UcTFsWkRXc25OdloxZmxiMXJoWldmSkwyclRxMkY5NHFabFl0bHJWeTZnUXlfd3RpT1duekZ4TkkyQ3ZGUDVLVm9aRzU0SE41bzZpaXF3UmdsY3FjNHVwTHhDYzRtNEhFUVdRYjg?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -15618,23 +15926,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaFQtTV9PSDVnWmJZVkkyLURSRDB3M2phOWpETkllRUFEOWJ2VmpKaThjTlRvQV9jOU1hc05Ddi1kQ00wSVFfeDcwMFBwWlFwRjd4WThEc081RExnbjIxZjhodVotVFhGdXB6TG45dHJKcHlkTXR2XzlLcm9vMkhpX0V4YWt4U2JyYzdMb1FTOG5JMDJwZmZYdHZMcXZuRlh4cDcxRHRsbw?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "company"
-  },
-  {
-   "id": "a1a931f9ae6d",
-   "title": "Oracle Health’s AI Agent Now Handles Medical Coding, Dictation, Chart Review",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLTB5VWgwZERCOURSeHZhaUUtWDg0WEhvWUVvQ251NjVfT3ZNYXZuRUtzY0hfQ096Mm5UcTFsWkRXc25OdloxZmxiMXJoWldmSkwyclRxMkY5NHFabFl0bHJWeTZnUXlfd3RpT1duekZ4TkkyQ3ZGUDVLVm9aRzU0SE41bzZpaXF3UmdsY3FjNHVwTHhDYzRtNEhFUVdRYjg?oc=5",
-   "domain": "kobaran.com",
-   "publishedAt": "2026-08-19T07:00:00.000Z",
-   "companySlug": "beacon-health",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLTB5VWgwZERCOURSeHZhaUUtWDg0WEhvWUVvQ251NjVfT3ZNYXZuRUtzY0hfQ096Mm5UcTFsWkRXc25OdloxZmxiMXJoWldmSkwyclRxMkY5NHFabFl0bHJWeTZnUXlfd3RpT1duekZ4TkkyQ3ZGUDVLVm9aRzU0SE41bzZpaXF3UmdsY3FjNHVwTHhDYzRtNEhFUVdRYjg?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -18242,7 +18533,7 @@
     {
      "id": "x",
      "url": "https://x.com/Bencera/status/2088711262339211570",
-     "points": 376
+     "points": 375
     }
    ],
    "baseScore": 2.23,
@@ -19033,8 +19324,8 @@
    "track": "stack"
   },
   {
-   "id": "54d74d436a26",
-   "title": "ETH Zurich Students Send a Robot (Alpine Submarine) Under Frozen Lakes",
+   "id": "5443cdec4080",
+   "title": "ETH Zurich Students Send a Robot (Alpine Submarine) Under Frozen Lakes - TechEBlog -",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAybTlqOUh5WnM0aDJCTE1pQlpySkdYYk9qNFMxYmI2eWtCYWJhWUcwakRTVzNrU3d6MS1UaDVhajlud3FZbHd5Y1RYalduU0dVOEFwd1J2THNocUtHNDVKeFVNOWVXTXA1aE5IaS1ueE5hdw?oc=5",
    "domain": "techeblog.com",
    "publishedAt": "2026-08-15T07:00:00.000Z",
@@ -20900,8 +21191,8 @@
    "track": "company"
   },
   {
-   "id": "dc77e8005881",
-   "title": "Okta targets AI agent token costs with MCP scoping",
+   "id": "eb2e9a92cfe0",
+   "title": "Okta targets AI agent token costs with MCP scoping - artificialintelligence-news.com",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV1ZhOWE4eXF0LTdKWVpkY2JWSWZFOTRtTk1Rd2RkRTBDdkFidjZqZGpVZkJpMXlMaHVjX2Mzd0VqcUROREVoMUg3TU9CRllWY0ZrVk1hRU9NNFdJNEVDUTE2U01LeUYxSTdkSDBUR0hRWGhSaGRQS2M5LXNaQlVSbS1SS0V1VFZkTENHSUk4aU9mWlNJclhwWEpoSFd2enFFLVE?oc=5",
    "domain": "artificialintelligence-news.com",
    "publishedAt": "2026-08-13T09:23:12.000Z",
@@ -21019,6 +21310,23 @@
    "track": "company"
   },
   {
+   "id": "3ef4b916ec0d",
+   "title": "L&T Deploys India’s First 10,000-GPU Unified AI Cluster for Together AI in Chennai",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTE9sb2wwSTdGOUNmelVPYnBBcDZKS1FtbEdSSV9PdjVBeTkxVjM0dHhOem5oTTRGX0hQM3EyRGZLVjh3UGxuU3ZrV21memhWRGd3S0RuUl8yMTNBbFNlaWdEODIxQzE1U0dPbTNvdlh5aTlFNlJ4R0JBVzFJNVR1QndzQ0QyRm1OUHVvaVVKbFoyQTNSNjNUdXRvcldnVXY3cW5ON3FLYXBFS2N0cnNlWU0wc3JZN181ekNrMnJqZmlxendtZVE?oc=5",
+   "domain": "techtimes.com",
+   "publishedAt": "2026-08-13T07:00:00.000Z",
+   "companySlug": "stack-together-ai",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTE9sb2wwSTdGOUNmelVPYnBBcDZKS1FtbEdSSV9PdjVBeTkxVjM0dHhOem5oTTRGX0hQM3EyRGZLVjh3UGxuU3ZrV21memhWRGd3S0RuUl8yMTNBbFNlaWdEODIxQzE1U0dPbTNvdlh5aTlFNlJ4R0JBVzFJNVR1QndzQ0QyRm1OUHVvaVVKbFoyQTNSNjNUdXRvcldnVXY3cW5ON3FLYXBFS2N0cnNlWU0wc3JZN181ekNrMnJqZmlxendtZVE?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
    "id": "5dd94fd37210",
    "title": "DigitalOcean Holdings, Inc. (DOCN) Just Overtook the 20-Day Moving Average",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNVFUUEpweFRFdjJDVG44RXdOZGtiejNpeEpxUGIxU0ZWeXJ6bDJQblN3Q2VyOHdiZDhIMzNjbjFMbUZNdDBPbU80NnI0VUdHaFZCU3FZbXQ3bnU2aTVxNUVtbkJTVTI3c3VheFdOajFRcWV3ZXpibE5LaFk5dkFPN1M3Z0NzeG9QZzBTNEl1RVJ6ckFKcmlxcG1WbHlaMm9vMHc?oc=5",
@@ -21064,23 +21372,6 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdzdySHRRSUJZWUM4cVp4eXBGdHNKaWtKekQ1RnNCQWJkaVQ2T3RJV1NoV3VIRVNpbGtGY0JJa0VEVWtVSGhIeXVpZG1OUVpJZWtZYTRRdi1yRzlnQm52TnFJVFZmdzJmQXhvTmR3R3Fqbm9Id2xWMWp1YkRtcklZXzMxSQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
-   "id": "3ef4b916ec0d",
-   "title": "L&T Deploys India’s First 10,000-GPU Unified AI Cluster for Together AI in Chennai",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTE9sb2wwSTdGOUNmelVPYnBBcDZKS1FtbEdSSV9PdjVBeTkxVjM0dHhOem5oTTRGX0hQM3EyRGZLVjh3UGxuU3ZrV21memhWRGd3S0RuUl8yMTNBbFNlaWdEODIxQzE1U0dPbTNvdlh5aTlFNlJ4R0JBVzFJNVR1QndzQ0QyRm1OUHVvaVVKbFoyQTNSNjNUdXRvcldnVXY3cW5ON3FLYXBFS2N0cnNlWU0wc3JZN181ekNrMnJqZmlxendtZVE?oc=5",
-   "domain": "techtimes.com",
-   "publishedAt": "2026-08-13T07:00:00.000Z",
-   "companySlug": "stack-together-ai",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTE9sb2wwSTdGOUNmelVPYnBBcDZKS1FtbEdSSV9PdjVBeTkxVjM0dHhOem5oTTRGX0hQM3EyRGZLVjh3UGxuU3ZrV21memhWRGd3S0RuUl8yMTNBbFNlaWdEODIxQzE1U0dPbTNvdlh5aTlFNlJ4R0JBVzFJNVR1QndzQ0QyRm1OUHVvaVVKbFoyQTNSNjNUdXRvcldnVXY3cW5ON3FLYXBFS2N0cnNlWU0wc3JZN181ekNrMnJqZmlxendtZVE?oc=5"
     }
    ],
    "baseScore": 1.1,
@@ -23008,23 +23299,6 @@
    "track": "stack"
   },
   {
-   "id": "608eeacfb11b",
-   "title": "Wall Street Analysts Believe DigitalOcean (DOCN) Could Rally 32.64%: Here's is How to Trade",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNE9Jc2ZXam1GOHoybXdjUld2S2V1VGdGcnNFbEdmcjZkZVNVMEpHZXpJNEhRZGtYbnhoTmtRSVNTVFdUWHNNVFBCVmZoS3V6X04yY1pRY2ZueHl5ZEU5TXd4WkQ3dVZfMEhiQUNack80MnI5Zm1USldRa0k3QnlULTdpcDJvZEhUTE5KSUdJZ00yMDZmMnk2YmljQ3JENllwcEY4bE5Gc19MQQ?oc=5",
-   "domain": "finance.yahoo.com",
-   "publishedAt": "2026-08-11T07:00:00.000Z",
-   "companySlug": "stack-digitalocean",
-   "kind": "other",
-   "sources": [
-    {
-     "id": "gnews",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNE9Jc2ZXam1GOHoybXdjUld2S2V1VGdGcnNFbEdmcjZkZVNVMEpHZXpJNEhRZGtYbnhoTmtRSVNTVFdUWHNNVFBCVmZoS3V6X04yY1pRY2ZueHl5ZEU5TXd4WkQ3dVZfMEhiQUNack80MnI5Zm1USldRa0k3QnlULTdpcDJvZEhUTE5KSUdJZ00yMDZmMnk2YmljQ3JENllwcEY4bE5Gc19MQQ?oc=5"
-    }
-   ],
-   "baseScore": 1.1,
-   "track": "stack"
-  },
-  {
    "id": "adf66d41d0c0",
    "title": "CoreWeave Reports Strong Second Quarter 2026 Results",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUTB0aVNjRWNkLWtTMV9ZeXpSazFHaE1tR3dURHpvVV9BenVEcFRyWXRacFFLZjNDTDQwaFd6eFNYWFZvUmVEZVpKcmdRQmZ2by1Ia2hNOEJxN0NpTmFSZ1o4OU9sak9BbTc1Zk9LZFhDNC1uY3NybGdneFo4N3hFWmV3Uld3OVBjelVtTElINmU1cWpUV1JsNDhDNThHNlhTYk45aDFFMnp2V0s4YXc?oc=5",
@@ -23036,6 +23310,23 @@
     {
      "id": "gnews",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUTB0aVNjRWNkLWtTMV9ZeXpSazFHaE1tR3dURHpvVV9BenVEcFRyWXRacFFLZjNDTDQwaFd6eFNYWFZvUmVEZVpKcmdRQmZ2by1Ia2hNOEJxN0NpTmFSZ1o4OU9sak9BbTc1Zk9LZFhDNC1uY3NybGdneFo4N3hFWmV3Uld3OVBjelVtTElINmU1cWpUV1JsNDhDNThHNlhTYk45aDFFMnp2V0s4YXc?oc=5"
+    }
+   ],
+   "baseScore": 1.1,
+   "track": "stack"
+  },
+  {
+   "id": "608eeacfb11b",
+   "title": "Wall Street Analysts Believe DigitalOcean (DOCN) Could Rally 32.64%: Here's is How to Trade",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNE9Jc2ZXam1GOHoybXdjUld2S2V1VGdGcnNFbEdmcjZkZVNVMEpHZXpJNEhRZGtYbnhoTmtRSVNTVFdUWHNNVFBCVmZoS3V6X04yY1pRY2ZueHl5ZEU5TXd4WkQ3dVZfMEhiQUNack80MnI5Zm1USldRa0k3QnlULTdpcDJvZEhUTE5KSUdJZ00yMDZmMnk2YmljQ3JENllwcEY4bE5Gc19MQQ?oc=5",
+   "domain": "finance.yahoo.com",
+   "publishedAt": "2026-08-11T07:00:00.000Z",
+   "companySlug": "stack-digitalocean",
+   "kind": "other",
+   "sources": [
+    {
+     "id": "gnews",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNE9Jc2ZXam1GOHoybXdjUld2S2V1VGdGcnNFbEdmcjZkZVNVMEpHZXpJNEhRZGtYbnhoTmtRSVNTVFdUWHNNVFBCVmZoS3V6X04yY1pRY2ZueHl5ZEU5TXd4WkQ3dVZfMEhiQUNack80MnI5Zm1USldRa0k3QnlULTdpcDJvZEhUTE5KSUdJZ00yMDZmMnk2YmljQ3JENllwcEY4bE5Gc19MQQ?oc=5"
     }
    ],
    "baseScore": 1.1,
