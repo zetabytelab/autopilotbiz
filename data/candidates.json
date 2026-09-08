@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T16:18:21.721Z",
+ "generatedAt": "2026-09-08T11:59:40.571Z",
  "candidates": [
   {
    "id": "ee2ddd5dc9e6",
@@ -74,6 +74,24 @@
    "status": "new"
   },
   {
+   "id": "f7fd239f686d",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-02T16:33:43.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-08T11:59:40.571Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
    "id": "236e5b324bbb",
    "name": null,
    "evidence": [
@@ -106,24 +124,6 @@
     }
    ],
    "firstSeen": "2026-09-06T11:31:00.026Z",
-   "score": 0.5,
-   "status": "new"
-  },
-  {
-   "id": "38841e007dc4",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Gupshup Launches Self-Serve Voice AI Platform, Extending Conversational Engagement into Phone Calls",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcXNPZVNhaVlZeTBsZkVhMFIwMWtDYWlGNXJRYVBVNU5zcEZrWjdrYkZTMDQzMFA3aUk3ZUNHcWxkREpQaDVZeEhVME5wMWJqY0ZRdkxBOUFoNnVfZDhuZGVOMDVhcGlrS0JrUEp6Q08zUE9SeDdhdjFWQVZBaGtIYUkzVGpXVDkybkF4OXBwRG9yZ3VnRExzVHhSbEYtcVIxOFllbUNvRzJhdVRTei00d2IwOUl3MmJTc0JKR0ptM3NaMFNWUHJNUDZUQXBCREhxcEttYTRfS05xcFJXR2daYU9Za2ZsZW5NRVE?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-09-03T15:04:00.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "firstSeen": "2026-09-04T11:58:18.925Z",
    "score": 0.5,
    "status": "new"
   },
