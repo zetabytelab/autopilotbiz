@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title, description,
     alternates: { canonical: `/companies/${company.slug}` },
-    openGraph: { title, description, url: `/companies/${company.slug}`, type: "article" },
-    twitter: { title, description, card: "summary_large_image" },
+    openGraph: { title, description, url: `/companies/${company.slug}`, type: "article", images: [{ url: "/og.png", width: 1200, height: 630, alt: "The Autopilot Index — business on autopilot" }] },
+    twitter: { title, description, card: "summary_large_image", images: ["/og.png"] },
   };
 }
 
@@ -67,7 +67,7 @@ export default async function CompanyProfile({ params }: Props) {
 
       <section className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-5 sm:p-6" aria-labelledby="proposition">
         <h2 id="proposition" className="text-xl font-semibold text-zinc-100">The recorded proposition</h2>
-        {company.categoryClaim && <blockquote className="mt-4 border-l-2 border-lime-400/40 pl-4 text-zinc-300">“{company.categoryClaim}”<p className="mt-2 text-xs text-zinc-500">Positioning recorded in the Index; not an independent finding.</p></blockquote>}
+        {company.categoryClaim && <div className="mt-4 border-l-2 border-lime-400/40 pl-4"><p className="text-zinc-300">{company.categoryClaim}</p><p className="mt-2 text-xs text-zinc-500">Index summary of the positioning; not an independent finding.</p></div>}
         <p className="mt-4 text-sm leading-relaxed text-zinc-400">{company.description}</p>
       </section>
 

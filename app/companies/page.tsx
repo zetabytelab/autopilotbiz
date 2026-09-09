@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   title: "AI company profiles — The Autopilot Index",
   description: "Explore AI business builders and agent services: autonomy assessments, evidence, human involvement, funding, reported pricing and source timelines.",
   alternates: { canonical: "/companies" },
-  openGraph: { title: "AI company profiles — The Autopilot Index", url: "/companies", description: "Compare what AI companies claim, what the record supports and what still needs testing." },
+  openGraph: { title: "AI company profiles — The Autopilot Index", url: "/companies", description: "Compare what AI companies claim, what the record supports and what still needs testing.", images: [{ url: "/og.png", width: 1200, height: 630, alt: "The Autopilot Index — business on autopilot" }] },
+  twitter: { title: "AI company profiles — The Autopilot Index", description: "Compare what AI companies claim, what the record supports and what still needs testing.", card: "summary_large_image", images: ["/og.png"] },
 };
 
 export default function CompaniesPage() {

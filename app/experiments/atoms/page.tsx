@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: `${title} | The Autopilot Index`,
   description,
   alternates: { canonical: "/experiments/atoms" },
-  openGraph: { title, description, url: "/experiments/atoms" },
-  twitter: { card: "summary_large_image", title, description },
+  openGraph: { title, description, url: "/experiments/atoms", images: [{ url: "/og.png", width: 1200, height: 630, alt: "The Autopilot Index — Atoms field experiment" }] },
+  twitter: { card: "summary_large_image", title, description, images: ["/og.png"] },
 };
 
 export default function AtomsExperimentPage() {
