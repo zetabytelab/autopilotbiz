@@ -5,7 +5,10 @@ name: Pulse
 # With Vercel git integration connected, the data commit auto-deploys.
 on:
   schedule:
-    - cron: "0 7 * * *" # 07:00 UTC daily
+    # X is cheap enough to poll daily. LinkedIn bills per account even when it
+    # has no new posts, so it rides a weekly cadence. The crons never overlap.
+    - cron: "0 7 * * 1-6" # Mon-Sat 07:00 UTC: X only
+    - cron: "0 7 * * 0" # Sunday 07:00 UTC: X and LinkedIn
   workflow_dispatch:
     inputs:
       mode:
@@ -13,6 +16,11 @@ on:
         type: choice
         options: [full, smoke]
         default: full
+      platforms:
+        description: Social platforms to collect
+        type: choice
+        options: [x, "x,linkedin", linkedin]
+        default: x
 
 permissions:
   contents: write
@@ -30,7 +38,23 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # A choice input and env indirection keep the value out of the shell text.
+      - name: Select social platforms
+        id: cadence
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          CHOICE: ${{ inputs.platforms }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then platforms="$CHOICE"
+          elif [ "$SCHEDULE" = "0 7 * * 0" ]; then platforms="x,linkedin"
+          else platforms="x"
+          fi
+          echo "platforms=$platforms" >> "$GITHUB_OUTPUT"
+          echo "Collecting social posts from: $platforms"
       - run: node scripts/update-pulse.mjs --social-plan
+        env:
+          PULSE_SOCIAL_PLATFORMS: ${{ steps.cadence.outputs.platforms }}
       - name: Live smoke test
         if: inputs.mode == 'smoke'
         run: node scripts/smoke-social.mjs
@@ -50,6 +74,7 @@ jobs:
         if: inputs.mode != 'smoke'
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_SECRET }}
+          PULSE_SOCIAL_PLATFORMS: ${{ steps.cadence.outputs.platforms }}
       - name: Commit and push if changed
         if: inputs.mode != 'smoke'
         run: |

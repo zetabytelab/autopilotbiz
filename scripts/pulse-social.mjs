@@ -52,8 +52,8 @@ export function validateWatchlist(watchlist, entities) {
   return watchlist;
 }
 
-export function socialTargets(watchlist) {
-  return PLATFORMS.flatMap((platform) => watchlist.subjects
+export function socialTargets(watchlist, settings) {
+  return (settings?.platforms ?? PLATFORMS).flatMap((platform) => watchlist.subjects
     .filter((s) => s[platform].status === "verified")
     .map((subject) => ({ id: `${platform}:${subject[platform].value}`, platform, value: subject[platform].value, subject })));
 }
@@ -66,8 +66,21 @@ function numberSetting(env, key, fallback, min, max, integer = false) {
   return value;
 }
 
+// Cadence control. X is cheap enough to poll daily; LinkedIn bills even for an
+// account with no new posts, so a run may collect a subset of platforms.
+function platformSetting(env, key) {
+  const raw = String(env[key] ?? "").trim();
+  if (!raw) return [...PLATFORMS];
+  const chosen = raw.split(",").map((value) => value.trim().toLowerCase()).filter(Boolean);
+  if (!chosen.length || chosen.some((platform) => !PLATFORMS.includes(platform))) {
+    throw new Error(`${key} must be a comma-separated subset of ${PLATFORMS.join(", ")}`);
+  }
+  return PLATFORMS.filter((platform) => chosen.includes(platform));
+}
+
 export function socialSettings(env = process.env) {
   return {
+    platforms: platformSetting(env, "PULSE_SOCIAL_PLATFORMS"),
     concurrency: numberSetting(env, "PULSE_SOCIAL_CONCURRENCY", 3, 1, 10, true),
     xMaxItems: numberSetting(env, "PULSE_X_MAX_ITEMS", 10, 1, 100, true),
     linkedinMaxPosts: numberSetting(env, "PULSE_LINKEDIN_MAX_POSTS", 10, 1, 100, true),
@@ -81,8 +94,9 @@ export function socialSettings(env = process.env) {
 }
 
 export function collectionPlan(watchlist, settings) {
-  const targets = socialTargets(watchlist);
+  const targets = socialTargets(watchlist, settings);
   return {
+    platforms: settings.platforms,
     subjects: watchlist.subjects.length,
     entities: new Set(watchlist.subjects.map((s) => s.entitySlug)).size,
     xAccounts: targets.filter((t) => t.platform === "x").length,
@@ -196,11 +210,19 @@ export function normalizeSocialRows(target, rows, now, settings) {
 }
 
 export async function collectSocial({ watchlist, token, state = { targets: {} }, settings = socialSettings(), now = Date.now(), runTarget = runApifyTarget }) {
-  const targets = socialTargets(watchlist);
+  const targets = socialTargets(watchlist, settings);
   const items = [];
   const runs = [];
   const nextState = { schemaVersion: 1, targets: {} };
   const checkedAt = new Date(now).toISOString();
+  // An account whose platform sits out this run keeps its incremental cursor.
+  // Dropping it would refetch the whole lookback window on the next cadence,
+  // which is exactly the charge the split cadence exists to avoid.
+  const running = new Set(targets.map((target) => target.id));
+  for (const target of socialTargets(watchlist)) {
+    const carried = state.targets?.[target.id];
+    if (!running.has(target.id) && carried) nextState.targets[target.id] = carried;
+  }
   let cursor = 0;
   async function worker() {
     while (cursor < targets.length) {

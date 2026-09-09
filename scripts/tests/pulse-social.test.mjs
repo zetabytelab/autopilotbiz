@@ -228,3 +228,32 @@ test("actual pipeline writes posts and coverage, deduplicates repeats and keeps 
     assert.ok(json("social-coverage.json").targets.every((r) => r.status === "failed"));
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
+
+test("a platform can sit out a run: those accounts are not billed, keep their cursor, and removals still expire", async () => {
+  assert.deepEqual(socialSettings({}).platforms, ["x", "linkedin"]);
+  assert.deepEqual(socialSettings({ PULSE_SOCIAL_PLATFORMS: " LinkedIn , x " }).platforms, ["x", "linkedin"]);
+  for (const value of ["x,facebook", ",", "bluesky"]) {
+    assert.throws(() => socialSettings({ PULSE_SOCIAL_PLATFORMS: value }), /subset/);
+  }
+
+  const daily = socialSettings({ PULSE_SOCIAL_PLATFORMS: "x" });
+  const small = { ...watchlist, subjects: [egbe.subject, ben.subject] };
+  const dailyTargets = socialTargets(small, daily);
+  assert.ok(dailyTargets.length > 0 && dailyTargets.every((t) => t.platform === "x"));
+  assert.equal(dailyTargets.some((t) => t.id === egbe.id), false);
+  assert.equal(collectionPlan(small, daily).linkedinCompanies, 0);
+  assert.ok(collectionPlan(small, daily).maxChargeUsd < collectionPlan(small, settings).maxChargeUsd);
+
+  const gone = "linkedin:https://www.linkedin.com/company/removed-account/";
+  const previous = { schemaVersion: 1, targets: { [egbe.id]: { lastSuccessAt: publishedAt }, [gone]: { lastSuccessAt: publishedAt } } };
+  const visited = [];
+  const result = await collectSocial({ watchlist: small, token: "fixture", state: previous, now, settings: daily,
+    runTarget: async (target) => { visited.push(target.id); return [tweet(target)]; } });
+  assert.equal(visited.includes(egbe.id), false);
+  assert.equal(result.runs.some((r) => r.id === egbe.id), false);
+  // Carried forward untouched, so next week's LinkedIn run stays incremental.
+  assert.equal(result.state.targets[egbe.id].lastSuccessAt, publishedAt);
+  assert.equal(result.state.targets[egbe.id].lastAttemptAt, undefined);
+  // An account dropped from the watch list must not survive on cadence grounds.
+  assert.equal(result.state.targets[gone], undefined);
+});

@@ -58,6 +58,20 @@ after research changes; no live synchronization from the private repo is assumed
 - Social posts deduplicate by URL, not similar titles. A short post such as
   “We are hiring” from two different founders remains two separate signals.
 
+## Collection cadence
+
+The LinkedIn actor charges for an account even when it has no new posts, so the
+two platforms run on different schedules:
+
+- Monday to Saturday, 07:00 UTC: X only, 157 accounts.
+- Sunday, 07:00 UTC: X and LinkedIn, 369 accounts.
+
+The workflow sets `PULSE_SOCIAL_PLATFORMS` from the cron that fired, and
+`workflow_dispatch` exposes it as a choice input. Accounts on a platform that
+sits out a run keep their `lastSuccessAt` cursor, so the next run of that
+platform stays incremental instead of refetching the lookback window. Accounts
+removed from the watch list still expire.
+
 ## Inspect before a paid run
 
 `npm run pulse:plan` makes no network requests, needs no credentials, and writes
@@ -72,6 +86,7 @@ Settings can be supplied as environment variables:
 
 | Variable | Default | Meaning |
 |---|---:|---|
+| `PULSE_SOCIAL_PLATFORMS` | `x,linkedin` | Platforms this run collects. Others keep their cursor and are not billed |
 | `PULSE_SOCIAL_CONCURRENCY` | 3 | Maximum simultaneous requests |
 | `PULSE_X_MAX_ITEMS` | 10 | Maximum requested tweets per account |
 | `PULSE_LINKEDIN_MAX_POSTS` | 10 | Maximum requested posts per profile/page |
