@@ -39,7 +39,7 @@ export type Company = {
   };
   referralProgram: { exists: boolean | null; notes: string | null };
   pricing: string | null;
-  news: { date: string; headline: string }[];
+  news: { date: string; headline: string; url?: string }[];
   verified: boolean;
   // "hackathon" = the original Cursor Hands-Off Hackathon cohort (default);
   // "expansion" = the wider autopilot/lean-AI universe.
@@ -400,9 +400,9 @@ export const companies: Company[] = [
     slug: "atoms",
     url: "https://atoms.dev",
     tagline: "Turn ideas into products that sell.",
-    categoryClaim: "An 'AI Business Team' — named AI employees that build AND market products for one-person companies.",
+    categoryClaim: "An AI business team for one-person companies: research, build, deploy, and acquire customers under the founder's direction.",
     description:
-      "Multi-agent platform (rebrand of MGX / MetaGPT X by DeepWisdom) where specialized agents — team leader, researcher, architect, PM, engineer, ads specialist, SEO specialist — research, build, deploy, and market full-stack apps. Built on MetaGPT and OpenManus (~150K+ combined GitHub stars). 'Race Mode' runs multiple models on a prompt and picks the best output.",
+      "DeepWisdom's AI business team for solo founders, evolved from MGX / MetaGPT X. A founder sets the direction and approves plans; specialized agents research demand, scope the product, build and deploy an app, connect payments, and support SEO, advertising and iteration. Built on MetaGPT and OpenManus, with Race Mode offering alternative builds for the founder to compare. Closely aligned with the one-person business model; sustained autonomous operation and business economics remain unverified.",
     techStack: ["MetaGPT", "OpenManus", "Atoms Cloud (hosting, auth, DB)", "Multi-model orchestration", "Stripe", "GitHub"],
     funding: {
       // Combined Series A and A+, rather than a verified lifetime total.
@@ -433,33 +433,36 @@ export const companies: Company[] = [
     },
     pricing: "Freemium: ~25 free credits/cycle; paid from $20/mo; Race Mode on the $100/mo Max plan.",
     news: [
-      { date: "2026-06", headline: "MarkTechPost feature: agents that build, deploy, and market your app." },
-      // Source: https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/
-      { date: "2026-05-28", headline: "TechRound interviews founder Alex Wu: DeepWisdom's Atoms AI launched in January; reports 1M+ customers across 100+ countries (founder claim; paying status unspecified). Automatic income generation remains a roadmap goal." },
-      { date: "2026-01", headline: "DeepWisdom rebrands MGX as Atoms; announces $31M raised (Ant Group, Cathay Innovation)." },
+      { date: "2026-06-16", headline: "MarkTechPost: Research, app delivery, SEO and ads agents coordinated with founder approvals; sponsored by Atoms.", url: "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/" },
+      { date: "2026-05-28", headline: "TechRound: Founder Alex Wu describes a team for launching and growing businesses; automatic income generation is a roadmap goal.", url: "https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/" },
+      { date: "2026-03-30", headline: "Unite.AI: Reviewer builds and publishes an app; prompt quality, custom-build limits and credit costs still matter.", url: "https://www.unite.ai/atoms-dev-review/" },
+      { date: "2026-03-17", headline: "Design News: Alex Chenglin Wu describes automated setup, backend integration and iteration for engineers and small teams.", url: "https://www.designnews.com/artificial-intelligence/ai-tools-for-engineers-atoms" },
+      { date: "2026-02-03", headline: "VKTR: One founder coordinates specialist AI agents across product development, marketing and operations.", url: "https://www.vktr.com/ai-platforms/deepwisdom-enters-us-market-with-atoms-multi-agent-platform/" },
+      { date: "2026-01-21", headline: "Official announcement: $31M across Series A and A+, led by Ant Group and Cathay Innovation.", url: "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus" },
+      { date: "2026-01-15", headline: "Barchart / ABNewswire: Launch announcement positions Atoms as an AI business team for one-person companies; founder approves the plan before execution.", url: "https://www.barchart.com/press-releases/37069197/atoms-launches-ai-powered-business-team-to-support-one-person-companies-and-solo-founders" },
     ],
     verified: true,
     autopilot: {
       level: "L3",
       evidence: "D",
       section: "watchlist",
-      story: "AI business team that builds, deploys and markets your product",
-      flags: "Products shipping; no economics disclosed",
+      story: "One founder directs an AI team across research, building, deployment, payments and customer acquisition",
+      flags: "Working builds reviewed; founder approvals remain; autonomous revenue unverified",
     },
   },
   {
     name: "Semio",
     slug: "semio",
-    url: "https://semio.ai",
+    url: null,
     tagline: "Bringing robots to life.",
     categoryClaim: "Natural language is the user interface of robots.",
     description:
-      "LA robotics-software startup (founded 2016) whose Arora platform lets developers build, deploy, and manage conversational AI applications for physical robots and digital characters. The physical-embodiment outlier of the cohort — agents with bodies. Funding undisclosed.",
+      "Robotics-software company developing tools for natural human–robot interaction. Semio Community identifies Ross Mead as founder and CEO. The historical semio.ai domain served unrelated gambling content during September 2026 research, so its website link is withheld pending verification. Current commercial availability and funding remain unverified.",
     techStack: ["Arora SaaS platform", "JavaScript SDK for robot skills"],
     funding: { totalRaised: null, lastRound: null, date: null, valuation: null, investors: [] },
     founders: [
       { name: "Ross Mead", background: "Founder & CEO; PhD in robotics/human-robot interaction from USC." },
-      { name: "Braden McDorman", background: "Co-founder & CTO." },
+      { name: "Braden McDorman", background: "Cofounder; former CTO, through April 2023 according to his resume." },
     ],
     metrics: {
       arr: null,

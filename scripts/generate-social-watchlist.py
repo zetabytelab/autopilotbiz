@@ -111,13 +111,16 @@ def build(registry):
     ], input=json.dumps({"subjects": subjects, "entities": entities}), cwd=ROOT, text=True, check=True)
     represented = {s["pulseSlug"] for s in subjects}
     research_slugs = [e["pulseSlug"] for e in research["entities"]]
-    if len(set(research_slugs)) != len(research_slugs) or not set(research_slugs) <= represented:
+    if len(set(research_slugs)) != len(research_slugs) or not set(research_slugs) <= known:
         raise ValueError("Duplicate or unrepresented supplemental entity findings")
+    for entity in research["entities"]:
+        if entity["pulseSlug"] not in represented and entity.get("trackingVia") not in represented:
+            raise ValueError(f"No direct or parent tracking for researched entity: {entity['pulseSlug']}")
     return {
         "schemaVersion": 1, "sourceHashes": source_hashes,
         "subjects": sorted(subjects, key=lambda s: s["id"]),
         "entityResearch": research["entities"],
-        "unresearchedEntities": [{"name": e["name"], "slug": e["slug"]} for e in entities if e["slug"] not in represented],
+        "unresearchedEntities": [{"name": e["name"], "slug": e["slug"]} for e in entities if e["slug"] not in represented | set(research_slugs)],
     }
 
 
@@ -145,6 +148,8 @@ def report(data):
     lines += ["", "## Supplemental entity findings", ""]
     for e in data.get("entityResearch", []):
         lines += [f"### {e['name']}", "", f"{e['description']} [Source]({e['sourceUrl']})", ""]
+        if e.get("trackingVia"):
+            lines += [f"Social coverage uses existing parent accounts: `{e['trackingVia']}`. Product-specific news queries remain separate.", ""]
         lines += [f"- {note}" for note in e["notes"]]
         lines.append("")
     lines += ["## Account review notes", ""]

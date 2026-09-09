@@ -263,8 +263,7 @@ Former or uncertain affiliations remain tracked as people, with no automatic com
 
 ## Entities still needing research
 
-- Claude Code (`stack-claude-code`)
-- OpenAI Codex (`stack-openai-codex`)
+None without an initial research record. Unresolved accounts and roles are listed below.
 
 ## Supplemental entity findings
 
@@ -294,12 +293,13 @@ Conversational AI app builder on the Internet Computer. [Source](https://caffein
 
 ### Atoms
 
-Multi-agent AI team for solo founders, covering research, planning, software development, testing, deployment and iteration. [Source](https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus)
+AI business team for one-person companies: the founder directs agents across demand research, product development, deployment, payments and customer acquisition. [Source](https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus)
 
 - DeepWisdom/MetaGPT product. Official LinkedIn Showcase and posts URLs are verified and scheduled for collection. No separate CTO verified.
 - The 21 January 2026 announcement explicitly identifies Chenglin Wu as Founder and CEO of Atoms and reports $31M combined across Series A and A+. It names MetaGPT and OpenManus as earlier open-source projects; no separate CTO is identified.
 - TechRound’s 28 May 2026 interview uses Alex Wu for the founder/CEO. Atoms’ own about page links that interview while naming Chenglin Wu as its leader; Alex Wu is recorded as a reported name for the existing founder, not a second person. The interview identifies DeepWisdom as the company and Atoms AI as its product. Source: https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/
 - The interview claims more than 1 million customers across more than 100 countries. This is founder-reported adoption, with no paying-customer or revenue verification. Automatic income generation and autonomous self-improvement are roadmap goals, not evidence of current autonomous business operation.
+- All six user-provided articles support the solo-founder business-team proposition. Their evidence includes a sponsored feature, an affiliate-disclosed hands-on review, founder interviews and a syndicated press release. No audited autonomous revenue is established. Full source classification is retained in articles.
 
 ### Semio
 
@@ -308,6 +308,7 @@ Robotics AI software for natural human–robot interaction. [Source](https://sem
 - semio.ai returned unrelated Uzbek gambling content during this check; indexed about-us content also contained injected gambling links. Treat the website as unreliable pending owner confirmation. This does not establish whether the business is active or closed.
 - Ross Mead is identified as founder/CEO by semio.community. Braden McDorman’s own resume dates his cofounder/CTO role through 2023-04-03; track him as a former affiliate. No current CTO verified.
 - Semio_AI is referenced in Ross Mead’s X bio, but the company X account remains under review.
+- Public listing now withholds the historical website link and corrects the former CTO role. Semio Community and Semio AI are distinct organization records; the nonprofit is used only as a source for Ross Mead’s biography. Company X remains under review; no replacement handle is inferred.
 
 ### Lunavo
 
@@ -344,6 +345,22 @@ API providing email inboxes for AI agents. [Source](https://www.ycombinator.com/
 Compute and persistent sandbox infrastructure for AI agents. [Source](https://www.ycombinator.com/companies/blaxel)
 
 - The company’s AI information page and YC identify six cofounders. Only Nicolas Lecomte’s personal X account was linked by the reviewed sources.
+
+### Claude Code
+
+Anthropic coding agent that reads repositories, edits files, runs commands and automates development workflows. [Source](https://code.claude.com/docs/en/overview)
+
+Social coverage uses existing parent accounts: `stack-claude`. Product-specific news queries remain separate.
+
+- Product of an already tracked organization, not a separate company. Parent-company social accounts are collected once; product-specific news queries remain separate. No product-specific CTO or independent founder record is inferred.
+
+### OpenAI Codex
+
+OpenAI coding agent; its CLI inspects repositories, edits code, runs tools and supports repeatable automation. [Source](https://learn.chatgpt.com/docs/cli)
+
+Social coverage uses existing parent accounts: `stack-openai`. Product-specific news queries remain separate.
+
+- Product of an already tracked organization, not a separate company. Parent-company social accounts are collected once; product-specific news queries remain separate. No product-specific CTO or independent founder record is inferred.
 
 ## Account review notes
 

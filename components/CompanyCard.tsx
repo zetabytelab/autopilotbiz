@@ -63,7 +63,11 @@ export default function CompanyCard({ company: c }: { company: Company }) {
           {c.news.map((n) => (
             <li key={n.headline} className="flex gap-2 text-xs text-zinc-500">
               <span className="shrink-0 font-mono text-zinc-600">{n.date}</span>
-              <span>{n.headline}</span>
+              {n.url ? (
+                <a href={n.url} target="_blank" rel="noopener noreferrer" className="underline decoration-zinc-700 hover:text-lime-400">
+                  {n.headline}
+                </a>
+              ) : <span>{n.headline}</span>}
             </li>
           ))}
         </ul>

@@ -3,7 +3,7 @@
   "sourceHashes": {
     "companies.csv": "87d1c016519c5b65515adcda510edf361aa15ff9344e82f95e4b75fccbada088",
     "people.csv": "9f86711380fb39e80476cdc49657552820cbb28f4fc1c15ca6a853c6b7887db3",
-    "social-watchlist-research.json": "9cdbbc1aecad6b9bfb2db18e4f918b7a18c0eb30da16cc9b19a53cf110daf1ac"
+    "social-watchlist-research.json": "86cea7ba7d58f51ad119cf599ebf6caa675a7db4b65224c118054f6a88dc3d3f"
   },
   "subjects": [
     {
@@ -4981,13 +4981,14 @@
       "pulseSlug": "atoms",
       "name": "Atoms",
       "website": "https://atoms.dev/",
-      "description": "Multi-agent AI team for solo founders, covering research, planning, software development, testing, deployment and iteration.",
+      "description": "AI business team for one-person companies: the founder directs agents across demand research, product development, deployment, payments and customer acquisition.",
       "sourceUrl": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus",
       "notes": [
         "DeepWisdom/MetaGPT product. Official LinkedIn Showcase and posts URLs are verified and scheduled for collection. No separate CTO verified.",
         "The 21 January 2026 announcement explicitly identifies Chenglin Wu as Founder and CEO of Atoms and reports $31M combined across Series A and A+. It names MetaGPT and OpenManus as earlier open-source projects; no separate CTO is identified.",
         "TechRound’s 28 May 2026 interview uses Alex Wu for the founder/CEO. Atoms’ own about page links that interview while naming Chenglin Wu as its leader; Alex Wu is recorded as a reported name for the existing founder, not a second person. The interview identifies DeepWisdom as the company and Atoms AI as its product. Source: https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/",
-        "The interview claims more than 1 million customers across more than 100 countries. This is founder-reported adoption, with no paying-customer or revenue verification. Automatic income generation and autonomous self-improvement are roadmap goals, not evidence of current autonomous business operation."
+        "The interview claims more than 1 million customers across more than 100 countries. This is founder-reported adoption, with no paying-customer or revenue verification. Automatic income generation and autonomous self-improvement are roadmap goals, not evidence of current autonomous business operation.",
+        "All six user-provided articles support the solo-founder business-team proposition. Their evidence includes a sponsored feature, an affiliate-disclosed hands-on review, founder interviews and a syndicated press release. No audited autonomous revenue is established. Full source classification is retained in articles."
       ],
       "officialLinkedinShowcase": "https://www.linkedin.com/showcase/atoms-dev/",
       "funding": {
@@ -5001,7 +5002,8 @@
           "Jinqiu Capital",
           "Baidu Ventures"
         ],
-        "sourceUrl": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus"
+        "sourceUrl": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus",
+        "firstReportedAt": "2026-01-15"
       },
       "officialLinkedinPosts": "https://www.linkedin.com/showcase/atoms-dev/posts/",
       "additionalSourceUrls": [
@@ -5019,7 +5021,52 @@
           "status": "Founder-reported; not independently verified; paying status unspecified"
         },
         "roadmapStatus": "Automatic income generation and self-improving AI are stated goals, not verified shipped capabilities."
-      }
+      },
+      "articles": [
+        {
+          "date": "2026-06-16",
+          "publisher": "MarkTechPost",
+          "sourceType": "Sponsored feature",
+          "url": "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/",
+          "summary": "Research, app delivery, SEO and ads agents coordinated with founder approvals; sponsored by Atoms."
+        },
+        {
+          "date": "2026-05-28",
+          "publisher": "TechRound",
+          "sourceType": "Founder interview",
+          "url": "https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/",
+          "summary": "Founder Alex Wu describes a team for launching and growing businesses; automatic income generation is a roadmap goal."
+        },
+        {
+          "date": "2026-03-30",
+          "publisher": "Unite.AI",
+          "sourceType": "Hands-on review; affiliate disclosure",
+          "url": "https://www.unite.ai/atoms-dev-review/",
+          "summary": "Reviewer builds and publishes an app; prompt quality, custom-build limits and credit costs still matter."
+        },
+        {
+          "date": "2026-03-17",
+          "publisher": "Design News",
+          "sourceType": "Founder-sourced feature",
+          "url": "https://www.designnews.com/artificial-intelligence/ai-tools-for-engineers-atoms",
+          "summary": "Alex Chenglin Wu describes automated setup, backend integration and iteration for engineers and small teams."
+        },
+        {
+          "date": "2026-02-03",
+          "publisher": "VKTR",
+          "sourceType": "Reporting with founder statements",
+          "url": "https://www.vktr.com/ai-platforms/deepwisdom-enters-us-market-with-atoms-multi-agent-platform/",
+          "summary": "One founder coordinates specialist AI agents across product development, marketing and operations."
+        },
+        {
+          "date": "2026-01-15",
+          "publisher": "Barchart / ABNewswire",
+          "sourceType": "Company press release",
+          "url": "https://www.barchart.com/press-releases/37069197/atoms-launches-ai-powered-business-team-to-support-one-person-companies-and-solo-founders",
+          "summary": "Launch announcement positions Atoms as an AI business team for one-person companies; founder approves the plan before execution.",
+          "retrievedVia": "https://www.barchart.com/story/news/37069197/atoms-launches-ai-powered-business-team-to-support-one-person-companies-and-solo-founders"
+        }
+      ]
     },
     {
       "pulseSlug": "semio",
@@ -5030,8 +5077,11 @@
       "notes": [
         "semio.ai returned unrelated Uzbek gambling content during this check; indexed about-us content also contained injected gambling links. Treat the website as unreliable pending owner confirmation. This does not establish whether the business is active or closed.",
         "Ross Mead is identified as founder/CEO by semio.community. Braden McDorman’s own resume dates his cofounder/CTO role through 2023-04-03; track him as a former affiliate. No current CTO verified.",
-        "Semio_AI is referenced in Ross Mead’s X bio, but the company X account remains under review."
-      ]
+        "Semio_AI is referenced in Ross Mead’s X bio, but the company X account remains under review.",
+        "Public listing now withholds the historical website link and corrects the former CTO role. Semio Community and Semio AI are distinct organization records; the nonprofit is used only as a source for Ross Mead’s biography. Company X remains under review; no replacement handle is inferred."
+      ],
+      "websiteStatus": "unreliable-content",
+      "commercialStatus": "unverified"
     },
     {
       "pulseSlug": "lunavo",
@@ -5095,16 +5145,29 @@
       "additionalSourceUrls": [
         "https://blaxel.ai/ai-information"
       ]
-    }
-  ],
-  "unresearchedEntities": [
-    {
-      "name": "Claude Code",
-      "slug": "stack-claude-code"
     },
     {
+      "pulseSlug": "stack-claude-code",
+      "name": "Claude Code",
+      "website": "https://code.claude.com/",
+      "sourceUrl": "https://code.claude.com/docs/en/overview",
+      "description": "Anthropic coding agent that reads repositories, edits files, runs commands and automates development workflows.",
+      "trackingVia": "stack-claude",
+      "notes": [
+        "Product of an already tracked organization, not a separate company. Parent-company social accounts are collected once; product-specific news queries remain separate. No product-specific CTO or independent founder record is inferred."
+      ]
+    },
+    {
+      "pulseSlug": "stack-openai-codex",
       "name": "OpenAI Codex",
-      "slug": "stack-openai-codex"
+      "website": "https://chatgpt.com/codex",
+      "sourceUrl": "https://learn.chatgpt.com/docs/cli",
+      "description": "OpenAI coding agent; its CLI inspects repositories, edits code, runs tools and supports repeatable automation.",
+      "trackingVia": "stack-openai",
+      "notes": [
+        "Product of an already tracked organization, not a separate company. Parent-company social accounts are collected once; product-specific news queries remain separate. No product-specific CTO or independent founder record is inferred."
+      ]
     }
-  ]
+  ],
+  "unresearchedEntities": []
 }

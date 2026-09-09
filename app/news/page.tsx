@@ -56,7 +56,10 @@ export default function NewsPage() {
         label: c.name,
         headline: n.headline,
         kind: "company" as const,
-        links: c.url ? [{ label: "Site", url: c.url }] : [],
+        links: [
+          ...(n.url ? [{ label: "Source", url: n.url }] : []),
+          ...(c.url ? [{ label: "Site", url: c.url }] : []),
+        ],
       })),
     ),
     ...caseStudies.map((cs) => ({

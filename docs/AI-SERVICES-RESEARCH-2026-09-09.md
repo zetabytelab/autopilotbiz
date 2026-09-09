@@ -2,7 +2,7 @@
 
 Checked 9 September 2026 using official company pages, YC profiles, founder pages and first-person announcements. Account verification means the public source links the account to the subject; it does not mean a paid collection run has succeeded.
 
-The 12 requested entities are now represented in the watch list: 12 company records and 24 people. This adds 54 verified collection targets (20 X accounts, 23 LinkedIn profiles and 11 LinkedIn company pages). Missing accounts remain missing; no handles were inferred from names.
+The 12 requested entities are now represented in the watch list: 12 company records and 24 people. This adds 55 verified collection targets (20 X accounts, 23 LinkedIn profiles and 12 LinkedIn company/Showcase pages). Missing accounts remain missing; no handles were inferred from names.
 
 | Entity | Product / scope | Verified leadership |
 |---|---|---|
@@ -68,11 +68,11 @@ The founder reports **over 1 million customers in over 100 countries**; paying s
 
 Confirmed brand feed: [Atoms LinkedIn posts](https://www.linkedin.com/showcase/atoms-dev/posts/).
 
-- Identify the DeepWisdom/MetaGPT product, not the unrelated industrial robotics company named Atoms. The official LinkedIn brand page uses /showcase/atoms-dev; it is documented but not scheduled because the collector currently accepts only /company/ and /in/ URLs. No separate CTO verified.
+- Identify the DeepWisdom/MetaGPT product, not the unrelated industrial robotics company named Atoms. The official LinkedIn brand page uses /showcase/atoms-dev and is now scheduled with Showcase-aware URL and author validation. No separate CTO verified.
 
 | Account owner | LinkedIn | X |
 |---|---|---|
-| Atoms | Not scheduled | [verified](https://x.com/atoms_dev) |
+| Atoms | [verified](https://www.linkedin.com/showcase/atoms-dev/) | [verified](https://x.com/atoms_dev) |
 | Chenglin Wu | [verified](https://www.linkedin.com/in/chenglin-wu-x/) | [verified](https://x.com/alexanderwu0) |
 
 ### Semio
@@ -151,10 +151,31 @@ Confirmed brand feed: [Atoms LinkedIn posts](https://www.linkedin.com/showcase/a
 | Nicolas Lecomte | [verified](https://www.linkedin.com/in/nicolas-lecomte-080317153/) | [verified](https://x.com/nicolaslec91112) |
 | Thomas Crochet | [verified](https://www.linkedin.com/in/crochetthomas/) | Not verified |
 
+## Atoms: fit with one-person businesses
+
+Atoms belongs in the solo-founder business-team watch list: a human chooses the direction and approves plans while AI agents cover research, product delivery and customer acquisition. These sources establish the proposition and examples of working builds, without establishing sustained autonomous revenue.
+
+| Source | Evidence type | Contribution |
+|---|---|---|
+| [MarkTechPost](https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/) (2026-06-16) | Sponsored feature | Research, app delivery, SEO and ads agents coordinated with founder approvals; sponsored by Atoms. |
+| [TechRound](https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/) (2026-05-28) | Founder interview | Founder Alex Wu describes a team for launching and growing businesses; automatic income generation is a roadmap goal. |
+| [Unite.AI](https://www.unite.ai/atoms-dev-review/) (2026-03-30) | Hands-on review; affiliate disclosure | Reviewer builds and publishes an app; prompt quality, custom-build limits and credit costs still matter. |
+| [Design News](https://www.designnews.com/artificial-intelligence/ai-tools-for-engineers-atoms) (2026-03-17) | Founder-sourced feature | Alex Chenglin Wu describes automated setup, backend integration and iteration for engineers and small teams. |
+| [VKTR](https://www.vktr.com/ai-platforms/deepwisdom-enters-us-market-with-atoms-multi-agent-platform/) (2026-02-03) | Reporting with founder statements | One founder coordinates specialist AI agents across product development, marketing and operations. |
+| [Barchart / ABNewswire](https://www.barchart.com/press-releases/37069197/atoms-launches-ai-powered-business-team-to-support-one-person-companies-and-solo-founders) (2026-01-15) | Company press release | Launch announcement positions Atoms as an AI business team for one-person companies; founder approves the plan before execution. |
+
+The Barchart press release was available via its indexed `/story/news/37069197/` URL. It describes more than one million builders served by the earlier open-source ecosystem; that number should not be treated as paid Atoms customers.
+
 ## Integration
 
-The generator merges the original private CSV exports with [public supplemental research](../data/social-watchlist-research.json). It rejects duplicate subject IDs or active social accounts. Sources and checked dates are retained per account. The generated [complete watch list](PULSE-WATCHLIST.md) has 245 subjects across 67 entities, with 368 scheduled account targets. The remaining initial-research entries are Claude Code and OpenAI Codex, which were outside this request.
+The generator merges the original private CSV exports with [public supplemental research](../data/social-watchlist-research.json). It rejects duplicate subject IDs or active social accounts. Sources and checked dates are retained per account. The generated [complete watch list](PULSE-WATCHLIST.md) has 245 subjects across 67 entities, with 369 scheduled account targets. Claude Code and Codex are now researched as products, with social coverage through existing Anthropic/OpenAI accounts and separate product news queries. No duplicate account requests are added.
 
-Atoms’ [official LinkedIn Showcase](https://www.linkedin.com/showcase/atoms-dev/) is recorded but excluded from collection until Showcase support is verified. Semio’s company X account stays under review. Braden McDorman stays tracked as a former affiliate without automatic company attribution.
+Atoms’ [official LinkedIn Showcase](https://www.linkedin.com/showcase/atoms-dev/) is scheduled for collection; a live historical probe checks the integration when there are no recent posts. Semio’s company X account stays under review. Braden McDorman stays tracked as a former affiliate without automatic company attribution.
 
-These are local changes. No deployment or paid social collection was performed.
+Release status and live collection evidence are recorded in PULSE-RELEASE-2026-09-09.md.
+
+## Remaining product research completed
+
+- [Claude Code](https://code.claude.com/docs/en/overview): Anthropic coding agent, tracked through existing parent accounts.
+- [OpenAI Codex](https://learn.chatgpt.com/docs/cli): coding agent and CLI, tracked through existing OpenAI accounts.
+- Semio: historical domain link removed from the public listing; current commercial availability remains unverified. Company X remains under review. No replacement site or account is inferred.

@@ -77,7 +77,7 @@ removed from the watch list still expire.
 `npm run pulse:plan` makes no network requests, needs no credentials, and writes
 nothing. It reports coverage, request count, per-refresh result limits and the
 sum of configured per-target charge ceilings. The default export currently
-schedules 368 requests with a combined **$7.90 maximum charge per invocation**.
+schedules 369 requests with a combined **$7.93 maximum charge per invocation**.
 This is a ceiling, not an expected price or evidence that creator credits cover
 daily runs. Repeated/manual invocations have separate ceilings. There is no
 monthly account budget enforcement here.
@@ -123,3 +123,9 @@ runs, and prints the plan before collection. CI checks watch-list validity and
 runs offline collector regression tests before the Next.js build. Tests exercise
 the actual Pulse writer with an isolated temporary data directory; they do not
 send email, contact social accounts, consume Apify credits or modify live data.
+
+## Showcase pages and live smoke test
+
+LinkedIn `/showcase/<name>/` pages are supported alongside personal and company pages. `/posts` suffixes are normalized for returned author URLs. Showcase identity stays distinct from company and personal URL namespaces.
+
+Run `node scripts/smoke-social.mjs` with `APIFY_TOKEN`, or dispatch Pulse with `mode=smoke`. The test requests at most two posts from each of four account targets, with a combined $0.10 ceiling. It uses an isolated output directory and never modifies the public feed. Atoms’ quiet Showcase page is probed over 120 days to verify author and post parsing; the real writer still excludes posts older than 30 days. Results are saved as workflow artifacts.
