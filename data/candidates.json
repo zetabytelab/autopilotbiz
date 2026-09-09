@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T12:09:24.305Z",
+ "generatedAt": "2026-09-09T12:37:01.086Z",
  "candidates": [
   {
    "id": "15f4918d2235",
@@ -26,24 +26,6 @@
    ],
    "firstSeen": "2026-09-09T12:09:24.305Z",
    "score": 1,
-   "status": "new"
-  },
-  {
-   "id": "ee2ddd5dc9e6",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Exclusive: This $100 million startup wants to give companies AI employees",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZk9UUHFsVk9oME5iUEdWODd4T3EzazlxUm5VOVhmc2I1VFhQam15Z0hEUmhPMnctX3RCU0NIZWJmN1J3UkVqWE9yRjNuVXV3c1dRUWtaeHJzMUNvTW00WXlsa0RtZlhSQjdVMEphUkJ5NHpNYlBKbWRSaHRkMzBhLS1oeEZpZVg4SlloMmlZQnVnblZTRElNRmlST3FFQmZWeTk2aXhkNFh2QWVm?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-08-20T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "firstSeen": "2026-09-07T13:16:27.001Z",
-   "score": 0.5,
    "status": "new"
   },
   {
@@ -105,7 +87,7 @@
    "name": null,
    "evidence": [
     {
-     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
+     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push - business-standard.com",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
      "source": "gnews",
      "publishedAt": "2026-09-02T16:33:43.000Z",
@@ -169,6 +151,24 @@
     }
    ],
    "firstSeen": "2026-09-09T12:09:24.305Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "ab17405a409e",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Adobe Buys Indian AI Startup Rilo To Expand Agentic Push",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWWZPZEZXTkYtRFpiQzlzTGYtTTRUT0MyY1hFUkE3R3RJRkVLZFVWVTdfMlA4LVNDeDR4a3pzd3A2cG0weWdLSlZSclRiZjNvMlUxNWxxM2dWbnBlbi0wZ0c0R3NuWFVsMmZkSWhIZ0J3TWhDZjdHa3E0cDZGaWxwNzdZOUxoUkp1NTFMeEFJay1QbWpMcWsyVjRvOERqQVBNdFE?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-02T17:32:45.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-09T12:37:01.086Z",
    "score": 0.5,
    "status": "new"
   },
