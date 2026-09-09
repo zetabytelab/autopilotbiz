@@ -3,7 +3,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve, join } from "node:path";
 import { main } from "./update-pulse.mjs";
 import { loadCompanies, loadStackEntities } from "./pulse-entities.mjs";
-import { readWatchlist, validateWatchlist, collectionPlan, socialSettings, collectSocial, runApifyTarget } from "./pulse-social.mjs";
+import { readWatchlist, validateWatchlist, collectionPlan, socialSettings, collectSocial, runApifyTarget, normalizeSocialRows } from "./pulse-social.mjs";
 
 const dir = resolve(process.env.PULSE_SMOKE_DIR ?? ".smoke-social");
 mkdirSync(dir, { recursive: true });
@@ -26,10 +26,16 @@ if (!process.env.APIFY_TOKEN) throw new Error("APIFY_TOKEN is required for the l
 writeFileSync(join(dir, "social-watchlist.json"), JSON.stringify(watchlist));
 console.log("Live smoke plan:", JSON.stringify(plan));
 const shapes = [];
+let showcaseHistory = [];
 await main({ dataDir: dir, flags: new Set(["--social-only"]), runSocial: (args) => collectSocial({
   ...args, settings,
   runTarget: async (...params) => {
+    const isShowcase = params[0].value.includes("/showcase/");
+    // The public Atoms page is quiet within 30 days. Probe historical content
+    // once to validate the integration, while the actual writer keeps 30 days.
+    if (isShowcase) params[1] = { ...params[1], postedLimitDate: new Date(args.now - 120 * 86_400_000).toISOString() };
     const rows = await runApifyTarget(...params);
+    if (isShowcase) showcaseHistory = normalizeSocialRows(params[0], rows, args.now, { ...settings, lookbackDays: 120 }).items;
     // Keep only schema/identity fields for diagnostics, never tokens or full posts.
     shapes.push({ targetId: params[0].id, rows: rows.map((r) => ({
       keys: Object.keys(r), author: r.author ? {
@@ -42,7 +48,11 @@ await main({ dataDir: dir, flags: new Set(["--social-only"]), runSocial: (args) 
 }) });
 writeFileSync(join(dir, "response-shapes.json"), JSON.stringify(shapes, null, 2));
 const report = JSON.parse(readFileSync(join(dir, "social-coverage.json"), "utf8"));
+report.showcaseHistory = showcaseHistory.map(({ url, publishedAt, companySlug }) => ({ url, publishedAt, companySlug }));
+writeFileSync(join(dir, "social-coverage.json"), JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report, null, 2));
-const failed = report.targets.filter((r) => ["failed", "skipped"].includes(r.status) || !r.published);
+const failed = report.targets.filter((r) => ["failed", "skipped"].includes(r.status) ||
+  (!r.published && !(r.id.includes("/showcase/") && showcaseHistory.length &&
+    Object.keys(r.rejected).every((reason) => reason === "date-window"))));
 if (failed.length) throw new Error(`${failed.length} smoke targets did not publish a valid recent post`);
-console.log("PASS: all four account types produced posts through the real Pulse writer.");
+console.log("PASS: all four account types returned valid posts; the real writer excludes out-of-window Showcase history.");
