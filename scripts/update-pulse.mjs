@@ -4,13 +4,16 @@
 // channel RSS; Reddit/Bing behind flags), dedupes, classifies, scores hotness,
 // and hunts for new-entrant candidates via a keyword taxonomy.
 //
-// Usage: node scripts/update-pulse.mjs [--reddit] [--bing] [--verbose]
+// Usage: node scripts/update-pulse.mjs [--reddit] [--bing] [--verbose] [--social-plan | --social-only]
 // Writes: data/pulse.json, data/candidates.json (atomic; merges with previous).
 
 import { readFileSync, writeFileSync, renameSync, mkdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { pathToFileURL, fileURLToPath } from "node:url";
+
+import { loadCompanies, loadStackEntities, STACK_WATCH } from "./pulse-entities.mjs";
+import { readWatchlist, collectionPlan, socialSettings, collectSocial, isTrustedSocial, validateSocialState, restoreLegacySocial } from "./pulse-social.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_DIR = join(ROOT, "data");
@@ -19,97 +22,6 @@ const VERBOSE = FLAGS.has("--verbose");
 const UA = "autopilotbiz-pulse/1.0 (category tracker; contact: site owner)";
 const NOW = Date.now();
 const MAX_AGE_DAYS = 30;
-
-// ---------------------------------------------------------------- companies
-// Extract {name, slug, url} from lib/data.ts (only company blocks have
-// name+slug adjacent, so this doesn't match stackTools).
-function loadCompanies() {
-  const src = readFileSync(join(ROOT, "lib", "data.ts"), "utf8");
-  const re = /name:\s*"([^"]+)",\s*slug:\s*"([^"]+)",\s*url:\s*(null|"[^"]*")/g;
-  const out = [];
-  for (const m of src.matchAll(re)) {
-    out.push({ name: m[1], slug: m[2], url: m[3] === "null" ? null : m[3].slice(1, -1) });
-  }
-  if (out.length < 5) throw new Error("company extraction from lib/data.ts failed");
-  return out;
-}
-
-// ------------------------------------------------------- stack providers
-// Watched technology providers (the stack behind the companies). Keyed by the
-// EXACT tool name in lib/data.ts stackTools; slug becomes "stack-<kebab>".
-// Every entry is deliberately in DISAMBIG form (query + confirm) — provider
-// names are generic, so body-match trust is always off and a title must pass
-// the confirm regex. Queries stay builder-focused to keep firehose noise out.
-const STACK_WATCH = {
-  "Claude (Anthropic)": { query: '"Anthropic" Claude model OR API OR pricing', confirm: /anthropic|claude/i },
-  "Claude Code": { query: '"Claude Code"', confirm: /claude code/i },
-  "OpenAI Codex": { query: '"Codex" OpenAI', confirm: /codex/i },
-  "Hermes (Nous Research)": { query: '"Nous Research" OR "Hermes" open-source AI model', confirm: /nous research|hermes[- ]?\d|hermes.*(model|llm)/i },
-  "OpenRouter": { query: '"OpenRouter" AI', confirm: /openrouter/i },
-  "OpenClaw": { query: '"OpenClaw"', confirm: /openclaw|clawdbot|moltbot/i },
-  "NanoClaw": { query: '"NanoClaw"', confirm: /nanoclaw/i },
-  "Cursor": { query: '"Cursor" AI coding', confirm: /cursor.*(ai|cod|agent|ide)|anysphere/i },
-  "Sciforium": { query: '"Sciforium"', confirm: /sciforium/i },
-  "Z.ai (GLM-5.2)": { query: '"Z.ai" OR "GLM-5"', confirm: /z\.ai|glm|zhipu/i },
-  "ElevenLabs": { query: '"ElevenLabs"', confirm: /elevenlabs/i },
-  // Agent infrastructure
-  "AgentMail (YC S25)": { query: '"AgentMail"', confirm: /agentmail/i },
-  "Blaxel (YC X25)": { query: '"Blaxel"', confirm: /blaxel/i },
-  "Anchor Browser": { query: '"Anchor Browser"', confirm: /anchor browser/i },
-  "MCP (Model Context Protocol)": { query: '"Model Context Protocol"', confirm: /model context protocol|\bmcp\b/i },
-  // Sandboxes & GPU compute ("Modal"/"Daytona"/"Lambda" are brutally ambiguous
-  // — Daytona 500, AWS Lambda, UI modals — hence the aggressive confirms)
-  "Modal": { query: '"Modal" AI sandbox OR GPU compute', confirm: /modal[' ]?s? (labs|sandbox|gpu|compute|cloud)|modal\.com|sandbox.*modal|modal.*(sandbox|gpu|serverless)/i },
-  "E2B": { query: '"E2B" sandbox', confirm: /e2b/i },
-  "Daytona": { query: '"Daytona" AI sandbox agents', confirm: /daytona.*(sandbox|agent|\bai\b|dev environment)/i },
-  "CoreWeave": { query: '"CoreWeave"', confirm: /coreweave/i },
-  "Lambda Labs": { query: '"Lambda" GPU cloud OR neocloud', confirm: /lambda ?labs|lambda\.ai|lambda.*(gpu|neocloud)|gpu.*lambda/i },
-  "RunPod": { query: '"RunPod"', confirm: /runpod/i },
-  // Clouds & deploy
-  "Vercel": { query: '"Vercel"', confirm: /vercel/i },
-  "Render": { query: '"Render.com" OR "Render" cloud platform', confirm: /render\.com|render.*(cloud|hosting|deploy|platform)/i },
-  "DigitalOcean": { query: '"DigitalOcean"', confirm: /digital ?ocean/i },
-  "Akamai (Linode)": { query: '"Linode" OR "Akamai" cloud computing', confirm: /linode|akamai.*(cloud|compute|linode)/i },
-  // Data & comms
-  "Neon": { query: '"Neon" Postgres', confirm: /neon.*(postgres|database|serverless)|postgres.*neon/i },
-  "Supabase": { query: '"Supabase"', confirm: /supabase/i },
-  "Postmark": { query: '"Postmark" email', confirm: /postmark/i },
-  "Resend": { query: '"Resend" email API', confirm: /resend.*(email|api)|email.*resend/i },
-  // Voice & agent tooling
-  "HappyRobot": { query: '"HappyRobot"', confirm: /happyrobot/i },
-  "Soniox": { query: '"Soniox"', confirm: /soniox/i },
-  "Apify": { query: '"Apify"', confirm: /apify/i },
-  "Vapi": { query: '"Vapi" voice AI', confirm: /vapi/i },
-  "Browserbase": { query: '"Browserbase"', confirm: /browserbase/i },
-  "Firecrawl": { query: '"Firecrawl"', confirm: /firecrawl/i },
-  "n8n": { query: '"n8n"', confirm: /n8n/i },
-  // Inference & money & ops ("Together"/"Polar" collide with everyday words)
-  "Together AI": { query: '"Together AI" inference', confirm: /together ?ai|together\.ai|together compute/i },
-  "Groq": { query: '"Groq"', confirm: /groq/i },
-  "Polar": { query: '"Polar.sh" OR "Polar" payments developers', confirm: /polar\.sh|polar.*(payment|merchant|monetiz|billing|checkout)/i },
-  "Langfuse": { query: '"Langfuse"', confirm: /langfuse/i },
-};
-const stackSlug = (name) =>
-  "stack-" +
-  name
-    .toLowerCase()
-    .replace(/\(.*?\)/g, "")
-    .trim()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-
-// Extract watched stack tools from lib/data.ts (blocks have name+url+role —
-// companies have name+slug, so the shapes don't collide).
-function loadStackEntities() {
-  const src = readFileSync(join(ROOT, "lib", "data.ts"), "utf8");
-  const re = /name:\s*"([^"]+)",\s*url:\s*"([^"]+)",\s*role:/g;
-  const out = [];
-  for (const m of src.matchAll(re)) {
-    if (!STACK_WATCH[m[1]]) continue;
-    out.push({ name: m[1], slug: stackSlug(m[1]), url: m[2] });
-  }
-  return out;
-}
 
 // Ambiguous names need extra query context + a confirmation regex on titles.
 const DISAMBIG = {
@@ -152,6 +64,28 @@ function nameVariants(c) {
   const paren = c.name.match(/\(([^)]+)\)/)?.[1];
   const out = paren ? [base, paren] : [base];
   return out.concat(ALIASES[c.slug] ?? []);
+}
+
+// Return an explicit reason for coverage diagnostics and carry-over validation.
+export function itemRejectionReason(item, companyBySlug, cutoff, watchlist) {
+  if (!item.title || !item.url || !Number.isFinite(Date.parse(item.publishedAt))) return "malformed";
+  if (Date.parse(item.publishedAt) < cutoff) return "expired";
+  if (Date.parse(item.publishedAt) > NOW + 300_000) return "future-date";
+  const sourceIds = item.sourceId ? [item.sourceId] : (item.sources ?? []).map((s) => s.id);
+  const socialSource = sourceIds.some((id) => id === "x" || id === "linkedin");
+  const trustedSocial = isTrustedSocial(item, watchlist);
+  if ((socialSource || item.social) && !trustedSocial) return "unverified-social-account";
+  if (!item.companySlug) return null;
+  const company = companyBySlug.get(item.companySlug);
+  if (!company) return "unknown-company";
+  const mentions = nameVariants(company).some((n) => new RegExp(`\\b${escapeRe(n)}\\b`, "i").test(item.title));
+  const ownDomain = company.url && item.domain === hostOf(company.url);
+  const trustedBody = sourceIds.includes("gnews") && !DISAMBIG[item.companySlug];
+  const trustedChannel = trustedSocial || sourceIds.some((id) => id === "youtube" || id === "investor");
+  if (!mentions && !ownDomain && !trustedBody && !trustedChannel) return "company-not-mentioned";
+  const dis = DISAMBIG[item.companySlug];
+  if (dis && !ownDomain && !trustedChannel && !dis.confirm.test(item.title)) return "ambiguous-company";
+  return null;
 }
 
 // ------------------------------------------------------- discovery taxonomy
@@ -278,96 +212,6 @@ const YOUTUBE_CHANNELS = {
   "UCg56AMyflQDXRgGL2xLZ73w": "artisan", // @GetArtisanAI
 };
 
-// Official founder/company X handles (handle → slug), hand-verified.
-// Add more as they're confirmed — wrong handles poison attribution.
-const X_HANDLES = {
-  Bencera: "polsia", // Ben Cera, founder (verified via raise announcement)
-  Egbe_ai: "egbe", // official company account (verified on egbe.ai)
-};
-
-// Pull latest tweets for all watched handles in one actor run
-// (apidojo/tweet-scraper, ~$0.40/1k tweets). Sync endpoint returns the dataset.
-async function apifyTweets(token) {
-  const res = await fetch(
-    `https://api.apify.com/v2/acts/apidojo~tweet-scraper/run-sync-get-dataset-items?token=${token}&timeout=240`,
-    {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ twitterHandles: Object.keys(X_HANDLES), maxItems: 60, sort: "Latest" }),
-    },
-  );
-  if (!res.ok) throw new Error(`apify tweet-scraper: HTTP ${res.status}`);
-  const rows = await res.json();
-  const items = [];
-  for (const r of Array.isArray(rows) ? rows : []) {
-    const handle = r.author?.userName ?? r.author?.username;
-    const slug = X_HANDLES[handle];
-    const text = (r.text ?? r.fullText ?? "").replace(/\s+/g, " ").trim();
-    const url = r.url ?? r.twitterUrl;
-    let publishedAt = null;
-    try {
-      publishedAt = new Date(r.createdAt).toISOString();
-    } catch {}
-    if (!slug || !text || !url || !publishedAt) continue;
-    if (r.isRetweet || text.startsWith("RT @")) continue;
-    items.push({
-      title: `@${handle}: ${text.length > 160 ? text.slice(0, 157) + "…" : text}`,
-      url,
-      domain: "x.com",
-      publishedAt,
-      sourceId: "x",
-      companySlug: slug,
-      points: r.likeCount ?? undefined,
-    });
-  }
-  return items;
-}
-
-// Official LinkedIn pages/profiles to watch (URL → slug), hand-verified.
-const LINKEDIN_TARGETS = {
-  "https://www.linkedin.com/company/egbe-ai/": "egbe", // official company page
-  "https://www.linkedin.com/in/vyahhi/": "egbe", // Nikolay Vyahhi, founder
-};
-
-// harvestapi/linkedin-profile-posts (no cookies) — accepts profile AND company
-// URLs. One run per target keeps attribution trivial.
-async function apifyLinkedIn(token) {
-  const items = [];
-  for (const [target, slug] of Object.entries(LINKEDIN_TARGETS)) {
-    const res = await fetch(
-      `https://api.apify.com/v2/acts/harvestapi~linkedin-profile-posts/run-sync-get-dataset-items?token=${token}&timeout=180`,
-      {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ targetUrls: [target], maxPosts: 10, postedLimit: "month", includeReposts: false }),
-      },
-    );
-    if (!res.ok) throw new Error(`apify linkedin: HTTP ${res.status} for ${target}`);
-    const rows = await res.json();
-    for (const r of Array.isArray(rows) ? rows : []) {
-      const text = (r.content ?? r.text ?? "").replace(/\s+/g, " ").trim();
-      const url = r.linkedinUrl ?? r.postUrl ?? r.url;
-      const rawDate = r.postedAt?.date ?? r.postedAt?.timestamp ?? r.postedAt ?? r.date;
-      let publishedAt = null;
-      try {
-        publishedAt = new Date(rawDate).toISOString();
-      } catch {}
-      if (!text || !url || !publishedAt) continue;
-      items.push({
-        title: `LinkedIn: ${text.length > 160 ? text.slice(0, 157) + "…" : text}`,
-        url,
-        domain: "linkedin.com",
-        publishedAt,
-        sourceId: "linkedin",
-        companySlug: slug,
-        points: r.reactionsCount ?? r.likesCount ?? undefined,
-      });
-    }
-    await sleep(500);
-  }
-  return items;
-}
-
 async function youtubeChannel(channelId, slug) {
   const xml = await fetchText(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
   return xmlBlocks(xml, "entry")
@@ -462,7 +306,7 @@ function classifyKind(item, companyDomains) {
   if (INTERVIEW.test(t)) return "interview";
   if (TIER1.test(t)) return "funding";
   if (PRODUCT.test(t)) return "product";
-  if (/reddit\.com|news\.ycombinator\.com|x\.com|twitter\.com/.test(d)) return "social";
+  if (/reddit\.com|news\.ycombinator\.com|x\.com|twitter\.com|linkedin\.com/.test(d)) return "social";
   if (companyDomains.has(d)) return "blog";
   return "other";
 }
@@ -484,12 +328,21 @@ const decayed = (baseScore, publishedAt) =>
   baseScore * Math.exp(-Math.max(0, (NOW - Date.parse(publishedAt)) / 3.6e6) / 48);
 
 // --------------------------------------------------------------------- main
-async function main() {
+export async function main({ dataDir = DATA_DIR, flags = FLAGS, runSocial = collectSocial } = {}) {
   // Stack providers ride the same pipeline as companies, distinguished only by
   // their "stack-" slug prefix (item.track is derived from it at write time).
   const stackEntities = loadStackEntities();
   for (const e of stackEntities) DISAMBIG[e.slug] = STACK_WATCH[e.name];
   const companies = [...loadCompanies(), ...stackEntities];
+  const watchlist = readWatchlist(join(dataDir, "social-watchlist.json"), companies);
+  const settings = socialSettings();
+  const plan = collectionPlan(watchlist, settings);
+  if (flags.has("--social-plan")) {
+    console.log(JSON.stringify(plan, null, 2));
+    return;
+  }
+  const statePath = join(dataDir, "social-state.json");
+  const socialState = existsSync(statePath) ? validateSocialState(JSON.parse(readFileSync(statePath, "utf8"))) : { schemaVersion: 1, targets: {} };
   const companyDomains = new Set(companies.map((c) => (c.url ? hostOf(c.url) : null)).filter(Boolean));
   const sourcesRun = [];
   const rawItems = [];
@@ -507,112 +360,121 @@ async function main() {
     }
   }
 
-  // Per-company queries (Google News sequential with politeness delay; HN parallel-ish)
-  console.log(`Fetching signals for ${companies.length} companies…`);
-  for (const c of companies) {
-    const q = DISAMBIG[c.slug]?.query ?? `"${nameVariants(c)[0]}" AI`;
-    await runSource(`gnews:${c.slug}`, async () => {
-      const items = await gnews(q);
-      return items.map((i) => ({ ...i, companySlug: c.slug }));
-    });
-    await sleep(400);
-  }
-  await Promise.allSettled(
-    companies.map((c) =>
-      runSource(`hn:${c.slug}`, async () => {
-        const items = await hn(nameVariants(c)[0]);
+  if (!flags.has("--social-only")) {
+    // Per-company queries (Google News sequential with politeness delay; HN parallel-ish)
+    console.log(`Fetching signals for ${companies.length} companies…`);
+    for (const c of companies) {
+      const q = DISAMBIG[c.slug]?.query ?? `"${nameVariants(c)[0]}" AI`;
+      await runSource(`gnews:${c.slug}`, async () => {
+        const items = await gnews(q);
         return items.map((i) => ({ ...i, companySlug: c.slug }));
-      }),
-    ),
-  );
+      });
+      await sleep(400);
+    }
+    await Promise.allSettled(
+      companies.map((c) =>
+        runSource(`hn:${c.slug}`, async () => {
+          const items = await hn(nameVariants(c)[0]);
+          return items.map((i) => ({ ...i, companySlug: c.slug }));
+        }),
+      ),
+    );
 
-  // Techmeme firehose → keep items mentioning a tracked company
-  await runSource("techmeme", async () => {
-    const all = await techmeme();
-    return all
-      .map((i) => {
-        const c = companies.find((c) => nameVariants(c).some((n) => new RegExp(`\\b${escapeRe(n)}\\b`, "i").test(i.title)));
-        return c ? { ...i, companySlug: c.slug } : null;
-      })
-      .filter(Boolean);
-  });
+    // Techmeme firehose → keep items mentioning a tracked company
+    await runSource("techmeme", async () => {
+      const all = await techmeme();
+      return all
+        .map((i) => {
+          const c = companies.find((c) => nameVariants(c).some((n) => new RegExp(`\\b${escapeRe(n)}\\b`, "i").test(i.title)));
+          return c ? { ...i, companySlug: c.slug } : null;
+        })
+        .filter(Boolean);
+    });
 
-  // YouTube channel map
-  for (const [channelId, slug] of Object.entries(YOUTUBE_CHANNELS)) {
-    await runSource(`youtube:${slug}`, () => youtubeChannel(channelId, slug));
+    // YouTube channel map
+    for (const [channelId, slug] of Object.entries(YOUTUBE_CHANNELS)) {
+      await runSource(`youtube:${slug}`, () => youtubeChannel(channelId, slug));
+    }
   }
 
-  // X/Twitter via Apify (paid credits) — only runs when APIFY_TOKEN is set
-  // (GitHub Actions secret; local runs without it skip silently).
-  if (process.env.APIFY_TOKEN) {
-    await runSource("x:apify", () => apifyTweets(process.env.APIFY_TOKEN));
-    await runSource("linkedin:apify", () => apifyLinkedIn(process.env.APIFY_TOKEN));
+  // Every confirmed account gets its own bounded request; a target failure
+  // cannot erase other targets' results. Missing credentials remain visible.
+  console.log(`Social watch list: ${plan.xAccounts} X accounts, ${plan.linkedinProfiles} LinkedIn profiles, ${plan.linkedinCompanies} company pages`);
+  const social = await runSocial({ watchlist, token: process.env.APIFY_TOKEN, state: socialState, settings, now: NOW });
+  rawItems.push(...social.items);
+  sourcesRun.push(...social.runs);
+  const socialStatuses = Object.fromEntries(["ok", "empty", "partial", "failed", "skipped"].map((status) => [status, social.runs.filter((r) => r.status === status).length]));
+  console.log(`Social results: ${JSON.stringify(socialStatuses)}`);
+  for (const run of social.runs) {
+    if (!run.ok && (VERBOSE || run.status === "failed")) console.warn(`Social ${run.status}: ${run.id}${run.reason ? ` (${run.reason})` : ""}`);
   }
 
   // Discovery queries (candidates + occasionally company news)
-  console.log("Running discovery taxonomy…");
   const discoveryItems = [];
+  if (!flags.has("--social-only")) {
+    console.log("Running discovery taxonomy…");
 
-  // Investor & accelerator watch — official blogs/newsletters with working RSS
-  // (verified 2026-08). Items naming a tracked company route into its feed;
-  // agent-economy items become radar candidates; the rest are filtered out.
-  const INVESTOR_FEEDS = {
-    usv: "https://blog.usv.com/feed",
-    "y-combinator": "https://www.ycombinator.com/blog/rss",
-    "techcrunch-vc": "https://techcrunch.com/category/venture/feed/",
-    strictlyvc: "https://www.strictlyvc.com/feed/",
-    // Accelerator radar (2026-08-20): programs explicitly backing agent-run /
-    // tiny-team companies — demo-day cohorts feed the candidates pipeline.
-    neo: "https://neo.substack.com/feed",
-    spc: "https://blog.southparkcommons.com/feed",
-    a16z: "https://a16z.com/feed/",
-    lobstercap: "https://lobstercap.substack.com/feed",
-  };
-  for (const [label, url] of Object.entries(INVESTOR_FEEDS)) {
-    await runSource(`investor:${label}`, async () => {
-      const xml = await fetchText(url);
-      const items = parseRssItems(xml, "investor").map((i) => ({ ...i, discoveryQuery: `investor:${label}` }));
-      discoveryItems.push(...items);
-      return [];
-    });
-    await sleep(300);
-  }
-  for (const q of TAXONOMY) {
-    await runSource(`discover:gnews:${q.slice(0, 24)}`, async () => {
-      const items = (await gnews(q)).map((i) => ({ ...i, discoveryQuery: q }));
-      discoveryItems.push(...items);
-      return [];
-    });
-    await sleep(400);
-  }
-  await Promise.allSettled(
-    TAXONOMY.slice(0, 9).map((q) =>
-      runSource(`discover:hn:${q.slice(0, 24)}`, async () => {
-        const items = (await hn(q)).map((i) => ({ ...i, discoveryQuery: q }));
+    // Investor & accelerator watch — official blogs/newsletters with working RSS
+    // (verified 2026-08). Items naming a tracked company route into its feed;
+    // agent-economy items become radar candidates; the rest are filtered out.
+    const INVESTOR_FEEDS = {
+      usv: "https://blog.usv.com/feed",
+      "y-combinator": "https://www.ycombinator.com/blog/rss",
+      "techcrunch-vc": "https://techcrunch.com/category/venture/feed/",
+      strictlyvc: "https://www.strictlyvc.com/feed/",
+      // Accelerator radar (2026-08-20): programs explicitly backing agent-run /
+      // tiny-team companies — demo-day cohorts feed the candidates pipeline.
+      neo: "https://neo.substack.com/feed",
+      spc: "https://blog.southparkcommons.com/feed",
+      a16z: "https://a16z.com/feed/",
+      lobstercap: "https://lobstercap.substack.com/feed",
+    };
+    for (const [label, url] of Object.entries(INVESTOR_FEEDS)) {
+      await runSource(`investor:${label}`, async () => {
+        const xml = await fetchText(url);
+        const items = parseRssItems(xml, "investor").map((i) => ({ ...i, discoveryQuery: `investor:${label}` }));
         discoveryItems.push(...items);
         return [];
-      }),
-    ),
-  );
-
-  // Optional tier-2 sources
-  if (FLAGS.has("--reddit")) {
-    for (const q of ['"agent-run" startup', '"autonomous company" AI']) {
-      await runSource(`reddit:${q.slice(0, 20)}`, async () => {
-        const items = await redditSearch(q);
-        discoveryItems.push(...items.map((i) => ({ ...i, discoveryQuery: q })));
+      });
+      await sleep(300);
+    }
+    for (const q of TAXONOMY) {
+      await runSource(`discover:gnews:${q.slice(0, 24)}`, async () => {
+        const items = (await gnews(q)).map((i) => ({ ...i, discoveryQuery: q }));
+        discoveryItems.push(...items);
         return [];
       });
-      await sleep(3000);
+      await sleep(400);
     }
-  }
-  if (FLAGS.has("--bing")) {
-    for (const c of companies.slice(0, 10)) {
-      await runSource(`bing:${c.slug}`, async () => {
-        const items = await bingNews(`"${nameVariants(c)[0]}" AI`);
-        return items.map((i) => ({ ...i, companySlug: c.slug }));
-      });
-      await sleep(500);
+    await Promise.allSettled(
+      TAXONOMY.slice(0, 9).map((q) =>
+        runSource(`discover:hn:${q.slice(0, 24)}`, async () => {
+          const items = (await hn(q)).map((i) => ({ ...i, discoveryQuery: q }));
+          discoveryItems.push(...items);
+          return [];
+        }),
+      ),
+    );
+
+    // Optional tier-2 sources
+    if (flags.has("--reddit")) {
+      for (const q of ['"agent-run" startup', '"autonomous company" AI']) {
+        await runSource(`reddit:${q.slice(0, 20)}`, async () => {
+          const items = await redditSearch(q);
+          discoveryItems.push(...items.map((i) => ({ ...i, discoveryQuery: q })));
+          return [];
+        });
+        await sleep(3000);
+      }
+    }
+    if (flags.has("--bing")) {
+      for (const c of companies.slice(0, 10)) {
+        await runSource(`bing:${c.slug}`, async () => {
+          const items = await bingNews(`"${nameVariants(c)[0]}" AI`);
+          return items.map((i) => ({ ...i, companySlug: c.slug }));
+        });
+        await sleep(500);
+      }
     }
   }
 
@@ -625,29 +487,16 @@ async function main() {
   // ------------------------------------------------------------- normalize
   const cutoff = NOW - MAX_AGE_DAYS * 86_400_000;
   const companyBySlug = new Map(companies.map((c) => [c.slug, c]));
-  const valid = rawItems.filter((i) => {
-    if (!i.title || !i.url || !i.publishedAt) return false;
-    if (Date.parse(i.publishedAt) < cutoff) return false;
-    // Company-tagged items must actually mention the company (HN/Algolia does
-    // fuzzy matching and returns unrelated stories) or come from its own domain.
-    if (i.companySlug) {
-      const c = companyBySlug.get(i.companySlug);
-      const mentions = nameVariants(c).some((n) => new RegExp(`\\b${escapeRe(n)}\\b`, "i").test(i.title));
-      const ownDomain = c.url && i.domain === hostOf(c.url);
-      // Google News company queries match article bodies too — for companies
-      // with globally unique names (no DISAMBIG entry), a body match from the
-      // scoped query is trustworthy even when the headline names only the
-      // founder or describes the story obliquely.
-      const trustedBodyMatch = i.sourceId === "gnews" && !DISAMBIG[i.companySlug];
-      // Hand-curated official channels/feeds are trusted outright — a founder's
-      // video titled "pov: raising $30M using AI" never names the company.
-      const trustedChannel = ["youtube", "investor", "x", "linkedin"].includes(i.sourceId);
-      if (!mentions && !ownDomain && !trustedBodyMatch && !trustedChannel) return false;
-      // Ambiguous company names must also match a context regex
-      const dis = DISAMBIG[i.companySlug];
-      if (dis && !ownDomain && !dis.confirm.test(i.title)) return false;
+  const valid = rawItems.filter((item) => {
+    const reason = itemRejectionReason(item, companyBySlug, cutoff, watchlist);
+    if (reason && item.social) {
+      const run = social.report.targets.find((r) => r.id === item.social.targetId);
+      if (run) {
+        run.filtered ??= {};
+        run.filtered[reason] = (run.filtered[reason] ?? 0) + 1;
+      }
     }
-    return true;
+    return !reason;
   });
 
   // ----------------------------------------------------------------- dedup
@@ -659,7 +508,7 @@ async function main() {
     if (!target) {
       const tokens = titleTokens(item.title);
       target = merged.find((m) =>
-        isDupCluster(m._tokens, m.title, m.companySlug, m.publishedAt, tokens, item.title, item.companySlug, item.publishedAt),
+        !item.social && !m.social && isDupCluster(m._tokens, m.title, m.companySlug, m.publishedAt, tokens, item.title, item.companySlug, item.publishedAt),
       );
     }
     if (target) {
@@ -670,7 +519,10 @@ async function main() {
         target.url = item.url;
         target.domain = item.domain;
       }
-      target.companySlug ??= item.companySlug ?? null;
+      if (item.social) {
+        target.social = item.social;
+        target.companySlug = item.companySlug;
+      } else if (!target.social) target.companySlug ??= item.companySlug ?? null;
     } else {
       const entry = {
         title: item.title,
@@ -679,6 +531,7 @@ async function main() {
         publishedAt: item.publishedAt,
         companySlug: item.companySlug ?? null,
         sources: [srcEntry(item)],
+        ...(item.social ? { social: item.social } : {}),
         _tokens: titleTokens(item.title),
       };
       merged.push(entry);
@@ -701,11 +554,12 @@ async function main() {
       kind,
       sources: m.sources,
       baseScore,
+      ...(m.social ? { social: m.social } : {}),
     };
   });
 
   // Merge with previous pulse.json so an outage never empties the feed
-  const prevPath = join(DATA_DIR, "pulse.json");
+  const prevPath = join(dataDir, "pulse.json");
   if (existsSync(prevPath)) {
     try {
       const prev = JSON.parse(readFileSync(prevPath, "utf8"));
@@ -715,15 +569,15 @@ async function main() {
       // by another outlet) piles up as a near-duplicate card. A match folds its
       // sources into the existing item; only genuinely new stories are kept.
       const clusterIdx = items.map((i) => ({ item: i, tokens: titleTokens(i.title) }));
-      for (const p of prev.items ?? []) {
+      for (const previous of prev.items ?? []) {
+        const p = restoreLegacySocial(previous, watchlist);
         if (seen.has(p.id) || Date.parse(p.publishedAt) < cutoff) continue;
         // Re-validate carried-over company items against current DISAMBIG
         // rules, so a tightened confirm regex also purges old misattributions.
-        const dis = p.companySlug && DISAMBIG[p.companySlug];
-        if (dis && !dis.confirm.test(p.title)) continue;
+        if (itemRejectionReason(p, companyBySlug, cutoff, watchlist)) continue;
         const ptokens = titleTokens(p.title);
         const hit = clusterIdx.find(({ item, tokens }) =>
-          isDupCluster(tokens, item.title, item.companySlug, item.publishedAt, ptokens, p.title, p.companySlug, p.publishedAt),
+          !p.social && !item.social && isDupCluster(tokens, item.title, item.companySlug, item.publishedAt, ptokens, p.title, p.companySlug, p.publishedAt),
         );
         if (hit) {
           for (const s of p.sources ?? []) {
@@ -738,10 +592,11 @@ async function main() {
     } catch {}
   }
   // Derive the track from the slug prefix (also stamps carried-over items).
-  items = items.map((i) => ({
-    ...i,
-    track: i.companySlug ? (i.companySlug.startsWith("stack-") ? "stack" : "company") : undefined,
-  }));
+  const subjectById = new Map(watchlist.subjects.map((subject) => [subject.id, subject]));
+  items = items.map((i) => {
+    const trackSlug = i.companySlug ?? subjectById.get(i.social?.subjectId)?.pulseSlug;
+    return { ...i, track: trackSlug ? (trackSlug.startsWith("stack-") ? "stack" : "company") : undefined };
+  });
   items.sort((a, b) => decayed(b.baseScore, b.publishedAt) - decayed(a.baseScore, a.publishedAt));
 
   // hot = top decile by decayed score (min 3 items), or anything scoring > 1.2
@@ -752,20 +607,27 @@ async function main() {
   }));
 
   // -------------------------------------------------------------- candidates
-  const candidates = buildCandidates(discoveryItems, companies, cutoff);
+  const candidates = buildCandidates(discoveryItems, companies, cutoff, dataDir);
 
   // ------------------------------------------------------------------ write
   if (items.length === 0) {
-    console.error("Refusing to write: run produced zero items.");
-    process.exit(1);
+    atomicWrite(join(dataDir, "social-coverage.json"), social.report);
+    throw new Error("Refusing to write feed: run produced zero items (coverage report saved).");
   }
-  mkdirSync(DATA_DIR, { recursive: true });
-  atomicWrite(join(DATA_DIR, "pulse.json"), {
+  mkdirSync(dataDir, { recursive: true });
+  atomicWrite(join(dataDir, "pulse.json"), {
     generatedAt: new Date().toISOString(),
     sourcesRun: compactSourcesRun(sourcesRun),
     items,
   });
-  atomicWrite(join(DATA_DIR, "candidates.json"), candidates);
+  atomicWrite(join(dataDir, "candidates.json"), candidates);
+  for (const run of social.report.targets) {
+    const fresh = new Set(social.items.filter((i) => i.social.targetId === run.id).map((i) => canonicalUrl(i.url)));
+    run.published = items.filter((i) => i.social?.targetId === run.id && fresh.has(canonicalUrl(i.url))).length;
+    run.retained = items.filter((i) => i.social?.targetId === run.id && !fresh.has(canonicalUrl(i.url))).length;
+  }
+  atomicWrite(join(dataDir, "social-coverage.json"), social.report);
+  atomicWrite(statePath, social.state);
 
   const okSources = sourcesRun.filter((s) => s.ok).length;
   console.log(
@@ -782,8 +644,8 @@ function srcEntry(item) {
   return e;
 }
 
-function buildCandidates(discoveryItems, companies, cutoff) {
-  const prevPath = join(DATA_DIR, "candidates.json");
+function buildCandidates(discoveryItems, companies, cutoff, dataDir = DATA_DIR) {
+  const prevPath = join(dataDir, "candidates.json");
   let prev = { candidates: [] };
   if (existsSync(prevPath)) {
     try {
@@ -861,7 +723,9 @@ function atomicWrite(path, obj) {
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const round2 = (n) => Math.round(n * 100) / 100;
 
-main().catch((err) => {
-  console.error("pulse update failed:", err);
-  process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error("pulse update failed:", err);
+    process.exitCode = 1;
+  });
+}

@@ -7,26 +7,55 @@ on:
   schedule:
     - cron: "0 7 * * *" # 07:00 UTC daily
   workflow_dispatch:
+    inputs:
+      mode:
+        description: Full refresh or four-account live smoke test
+        type: choice
+        options: [full, smoke]
+        default: full
 
 permissions:
   contents: write
 
+concurrency:
+  group: pulse-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: node scripts/update-pulse.mjs --social-plan
+      - name: Live smoke test
+        if: inputs.mode == 'smoke'
+        run: node scripts/smoke-social.mjs
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_SECRET }}
+      - name: Save smoke evidence
+        if: always() && inputs.mode == 'smoke'
+        uses: actions/upload-artifact@v4
+        with:
+          name: social-smoke-evidence
+          path: |
+            .smoke-social/social-coverage.json
+            .smoke-social/response-shapes.json
+            .smoke-social/pulse.json
+          include-hidden-files: true
       - run: node scripts/update-pulse.mjs --reddit
+        if: inputs.mode != 'smoke'
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_SECRET }}
       - name: Commit and push if changed
+        if: inputs.mode != 'smoke'
         run: |
           git config user.name "autopilot-pulse[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/pulse.json data/candidates.json
+          git add data/pulse.json data/candidates.json data/social-state.json data/social-coverage.json
           git diff --cached --quiet && echo "pulse unchanged" && exit 0
           git commit -m "pulse: daily refresh"
           git push

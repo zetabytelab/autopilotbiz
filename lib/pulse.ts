@@ -17,6 +17,12 @@ export type PulseItem = {
   // "company" = an indexed company; "stack" = a technology provider behind
   // them (slug prefixed "stack-"). Absent on items predating the stack track.
   track?: "company" | "stack";
+  // Links a collected post to the reviewed account; also revalidated on carry-over.
+  social?: {
+    targetId: string;
+    subjectId: string;
+    relationship: "associated" | "former" | "uncertain";
+  };
 };
 
 export type CandidateEvidence = {
@@ -38,7 +44,7 @@ export type Candidate = {
 
 export type SourceRun = { id: string; ok: number; failed: number; items: number };
 
-// Mirrors scripts/update-pulse.mjs stackSlug() — keep the two in sync.
+// Mirrors scripts/pulse-entities.mjs stackSlug() — keep the two in sync.
 export function stackSlug(name: string): string {
   return (
     "stack-" +

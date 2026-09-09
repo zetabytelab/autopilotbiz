@@ -405,16 +405,18 @@ export const companies: Company[] = [
       "Multi-agent platform (rebrand of MGX / MetaGPT X by DeepWisdom) where specialized agents — team leader, researcher, architect, PM, engineer, ads specialist, SEO specialist — research, build, deploy, and market full-stack apps. Built on MetaGPT and OpenManus (~150K+ combined GitHub stars). 'Race Mode' runs multiple models on a prompt and picks the best output.",
     techStack: ["MetaGPT", "OpenManus", "Atoms Cloud (hosting, auth, DB)", "Multi-model orchestration", "Stripe", "GitHub"],
     funding: {
-      totalRaised: "~$31M",
+      // Combined Series A and A+, rather than a verified lifetime total.
+      // Source: https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus
+      totalRaised: "$31M (Series A + A+)",
       lastRound: "Series A+ (Cathay Innovation; Series A led by Ant Group)",
-      date: "2025",
+      date: "2026-01 (announced)",
       valuation: null,
       investors: ["Ant Group", "Cathay Innovation", "Jinqiu Capital", "MindWorks Capital", "Baidu Ventures"],
     },
     founders: [
       {
-        name: "Wu Chenglin",
-        background: "Founder & CEO of DeepWisdom; previously led large-scale AI at Huawei and Tencent; creator of MetaGPT.",
+        name: "Chenglin Wu (Alex Wu)",
+        background: "Founder & CEO of Atoms and DeepWisdom; creator of MetaGPT.",
       },
     ],
     metrics: {
@@ -422,7 +424,7 @@ export const companies: Company[] = [
       arrUsd: null,
       humans: null,
       sources: {
-        raised: { name: "36kr", url: "https://eu.36kr.com/en/p/3638641265740932" },
+        raised: { name: "Atoms funding announcement", url: "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus" },
       },
     },
     referralProgram: {
@@ -432,6 +434,8 @@ export const companies: Company[] = [
     pricing: "Freemium: ~25 free credits/cycle; paid from $20/mo; Race Mode on the $100/mo Max plan.",
     news: [
       { date: "2026-06", headline: "MarkTechPost feature: agents that build, deploy, and market your app." },
+      // Source: https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/
+      { date: "2026-05-28", headline: "TechRound interviews founder Alex Wu: DeepWisdom's Atoms AI launched in January; reports 1M+ customers across 100+ countries (founder claim; paying status unspecified). Automatic income generation remains a roadmap goal." },
       { date: "2026-01", headline: "DeepWisdom rebrands MGX as Atoms; announces $31M raised (Ant Group, Cathay Innovation)." },
     ],
     verified: true,

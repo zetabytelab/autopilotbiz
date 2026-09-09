@@ -1,0 +1,5110 @@
+{
+  "schemaVersion": 1,
+  "sourceHashes": {
+    "companies.csv": "87d1c016519c5b65515adcda510edf361aa15ff9344e82f95e4b75fccbada088",
+    "people.csv": "9f86711380fb39e80476cdc49657552820cbb28f4fc1c15ca6a853c6b7887db3",
+    "social-watchlist-research.json": "9cdbbc1aecad6b9bfb2db18e4f918b7a18c0eb30da16cc9b19a53cf110daf1ac"
+  },
+  "subjects": [
+    {
+      "id": "company:11x",
+      "kind": "company",
+      "name": "11x",
+      "entityName": "11x",
+      "entitySlug": "11x",
+      "pulseSlug": "11x",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.11x.ai/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/11x-ai/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/11x-ai/"
+      },
+      "x": {
+        "value": "11x_official",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.11x.ai/"
+      }
+    },
+    {
+      "id": "company:agentmail",
+      "kind": "company",
+      "name": "AgentMail (YC S25)",
+      "entityName": "AgentMail (YC S25)",
+      "entitySlug": "agentmail",
+      "pulseSlug": "stack-agentmail",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/agentmail",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/agentmailto/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/agentmailto/"
+      },
+      "x": {
+        "value": "agentmail",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://agentmail.to/"
+      }
+    },
+    {
+      "id": "company:akamai",
+      "kind": "company",
+      "name": "Akamai (Linode)",
+      "entityName": "Akamai (Linode)",
+      "entitySlug": "akamai",
+      "pulseSlug": "stack-akamai",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.akamai.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/akamai-technologies/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "akamai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:anchor-browser",
+      "kind": "company",
+      "name": "Anchor Browser",
+      "entityName": "Anchor Browser",
+      "entitySlug": "anchor-browser",
+      "pulseSlug": "stack-anchor-browser",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://anchorbrowser.io",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/anchorbrowser/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "anchorbrowser",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:anthropic",
+      "kind": "company",
+      "name": "Anthropic",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.anthropic.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/anthropicresearch/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "anthropicai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:apify",
+      "kind": "company",
+      "name": "Apify",
+      "entityName": "Apify",
+      "entitySlug": "apify",
+      "pulseSlug": "stack-apify",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://apify.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/apify/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "apify",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:artisan",
+      "kind": "company",
+      "name": "Artisan",
+      "entityName": "Artisan",
+      "entitySlug": "artisan",
+      "pulseSlug": "artisan",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.artisan.co",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/artisanai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "getartisanai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:atoms",
+      "kind": "company",
+      "name": "Atoms",
+      "entityName": "Atoms",
+      "entitySlug": "atoms",
+      "pulseSlug": "atoms",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus",
+      "linkedin": {
+        "value": "https://www.linkedin.com/showcase/atoms-dev/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus",
+        "postsUrl": "https://www.linkedin.com/showcase/atoms-dev/posts/"
+      },
+      "x": {
+        "value": "atoms_dev",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://atoms.dev/"
+      }
+    },
+    {
+      "id": "company:base44",
+      "kind": "company",
+      "name": "Base44",
+      "entityName": "Base44",
+      "entitySlug": "base44",
+      "pulseSlug": "base44",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://base44.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/base44/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "base44",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:basis",
+      "kind": "company",
+      "name": "Basis",
+      "entityName": "Basis",
+      "entitySlug": "basis",
+      "pulseSlug": "basis",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://basis.inc/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/usebasis/",
+        "status": "verified"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:beacon-health",
+      "kind": "company",
+      "name": "Beacon Health",
+      "entityName": "Beacon Health",
+      "entitySlug": "beacon-health",
+      "pulseSlug": "beacon-health",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/company/beacon-health-ai/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/beacon-health-ai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:blaxel",
+      "kind": "company",
+      "name": "Blaxel (YC X25)",
+      "entityName": "Blaxel (YC X25)",
+      "entitySlug": "blaxel",
+      "pulseSlug": "stack-blaxel",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/blaxel",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/blaxel-ai/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/blaxel-ai/"
+      },
+      "x": {
+        "value": "blaxelai",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://blaxel.ai/"
+      }
+    },
+    {
+      "id": "company:boardy",
+      "kind": "company",
+      "name": "Boardy",
+      "entityName": "Boardy",
+      "entitySlug": "boardy",
+      "pulseSlug": "boardy",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://boardy.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/boardy/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "boardyai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:browserbase",
+      "kind": "company",
+      "name": "Browserbase",
+      "entityName": "Browserbase",
+      "entitySlug": "browserbase",
+      "pulseSlug": "stack-browserbase",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://browserbase.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/browserbasehq/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "browserbase",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:caffeine",
+      "kind": "company",
+      "name": "Caffeine",
+      "entityName": "Caffeine",
+      "entitySlug": "caffeine",
+      "pulseSlug": "caffeine",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://caffeine.ai/press",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/caffeine-ai/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/caffeine-ai/"
+      },
+      "x": {
+        "value": "caffeineai",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://caffeine.ai/"
+      }
+    },
+    {
+      "id": "company:chainopera-ai",
+      "kind": "company",
+      "name": "ChainOpera AI",
+      "entityName": "ChainOpera AI",
+      "entitySlug": "chainopera-ai",
+      "pulseSlug": "chainopera-ai",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://chainopera.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/chainopera/",
+        "status": "review"
+      },
+      "x": {
+        "value": "chainopera_ai",
+        "status": "verified",
+        "reason": "Registry records the account in tweets embedded on the official company website; LinkedIn remains under review."
+      }
+    },
+    {
+      "id": "company:cofounder",
+      "kind": "company",
+      "name": "Cofounder",
+      "entityName": "Cofounder",
+      "entitySlug": "cofounder",
+      "pulseSlug": "cofounder",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://cofounder.co",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/the-general-intelligence-company-of-new-york/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "intelligenceco",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:coreweave",
+      "kind": "company",
+      "name": "CoreWeave",
+      "entityName": "CoreWeave",
+      "entitySlug": "coreweave",
+      "pulseSlug": "stack-coreweave",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://coreweave.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/coreweave/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "coreweave",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:cursor",
+      "kind": "company",
+      "name": "Anysphere (Cursor)",
+      "entityName": "Anysphere (Cursor)",
+      "entitySlug": "cursor",
+      "pulseSlug": "stack-cursor",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://cursor.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/cursorai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "cursor_ai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:daytona",
+      "kind": "company",
+      "name": "Daytona",
+      "entityName": "Daytona",
+      "entitySlug": "daytona",
+      "pulseSlug": "stack-daytona",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://daytona.io",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/daytonaio/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "daytonaio",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:delphi",
+      "kind": "company",
+      "name": "Delphi",
+      "entityName": "Delphi",
+      "entitySlug": "delphi",
+      "pulseSlug": "delphi",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.delphi.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/delphi-ai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "withdelphi",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:digitalocean",
+      "kind": "company",
+      "name": "DigitalOcean",
+      "entityName": "DigitalOcean",
+      "entitySlug": "digitalocean",
+      "pulseSlug": "stack-digitalocean",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.digitalocean.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/digitalocean/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "digitalocean",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:e2b",
+      "kind": "company",
+      "name": "E2B",
+      "entityName": "E2B",
+      "entitySlug": "e2b",
+      "pulseSlug": "stack-e2b",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://e2b.dev",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/e2b-dev/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "e2b",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:egbe",
+      "kind": "company",
+      "name": "Egbe",
+      "entityName": "Egbe",
+      "entitySlug": "egbe",
+      "pulseSlug": "egbe",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://egbe.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/egbe-ai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "egbe_ai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:elevenlabs",
+      "kind": "company",
+      "name": "ElevenLabs",
+      "entityName": "ElevenLabs",
+      "entitySlug": "elevenlabs",
+      "pulseSlug": "stack-elevenlabs",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://elevenlabs.io",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/elevenlabsio/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "elevenlabs",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:feltsense",
+      "kind": "company",
+      "name": "Feltsense",
+      "entityName": "Feltsense",
+      "entitySlug": "feltsense",
+      "pulseSlug": "feltsense",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://beepartners.vc/feltsense",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/feltsense/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/feltsense/"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "company:firecrawl",
+      "kind": "company",
+      "name": "Firecrawl",
+      "entityName": "Firecrawl",
+      "entitySlug": "firecrawl",
+      "pulseSlug": "stack-firecrawl",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://firecrawl.dev",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/firecrawl/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "firecrawl",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:gamma",
+      "kind": "company",
+      "name": "Gamma",
+      "entityName": "Gamma",
+      "entitySlug": "gamma",
+      "pulseSlug": "gamma",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/company/gamma-app/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/gamma-app/",
+        "status": "verified"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:groq",
+      "kind": "company",
+      "name": "Groq",
+      "entityName": "Groq",
+      "entitySlug": "groq",
+      "pulseSlug": "stack-groq",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://groq.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/groq/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "groqinc",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:happyrobot",
+      "kind": "company",
+      "name": "HappyRobot",
+      "entityName": "HappyRobot",
+      "entitySlug": "happyrobot",
+      "pulseSlug": "stack-happyrobot",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://happyrobot.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/happyrobot/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "happyrobot",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:lambda-labs",
+      "kind": "company",
+      "name": "Lambda Labs",
+      "entityName": "Lambda Labs",
+      "entitySlug": "lambda-labs",
+      "pulseSlug": "stack-lambda-labs",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://lambda.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/lambda-cloud/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "lambdaapi",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:langfuse",
+      "kind": "company",
+      "name": "Langfuse",
+      "entityName": "Langfuse",
+      "entitySlug": "langfuse",
+      "pulseSlug": "stack-langfuse",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://langfuse.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/langfuse/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "langfuse",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:lindy",
+      "kind": "company",
+      "name": "Lindy",
+      "entityName": "Lindy",
+      "entitySlug": "lindy",
+      "pulseSlug": "lindy",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.lindy.ai/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/lindyai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "getlindy",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:lunavo",
+      "kind": "company",
+      "name": "Lunavo",
+      "entityName": "Lunavo",
+      "entitySlug": "lunavo",
+      "pulseSlug": "lunavo",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/lunavo",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/lunavo-ai/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/lunavo-ai/"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "company:mcp",
+      "kind": "company",
+      "name": "MCP",
+      "entityName": "MCP",
+      "entitySlug": "mcp",
+      "pulseSlug": "stack-mcp",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://blog.modelcontextprotocol.io",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/modelcontextprotocol/",
+        "status": "verified"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:medvi",
+      "kind": "company",
+      "name": "Medvi",
+      "entityName": "Medvi",
+      "entitySlug": "medvi",
+      "pulseSlug": "medvi",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/company/medvi/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/medvi/",
+        "status": "review"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:midjourney",
+      "kind": "company",
+      "name": "Midjourney",
+      "entityName": "Midjourney",
+      "entitySlug": "midjourney",
+      "pulseSlug": "midjourney",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://github.com/midjourney",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/midjourney/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "midjourney",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:minimal-ai",
+      "kind": "company",
+      "name": "Minimal",
+      "entityName": "Minimal",
+      "entitySlug": "minimal-ai",
+      "pulseSlug": "minimal-ai",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://gominimal.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/gominimal/",
+        "status": "verified"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:modal",
+      "kind": "company",
+      "name": "Modal",
+      "entityName": "Modal",
+      "entitySlug": "modal",
+      "pulseSlug": "stack-modal",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://modal.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/modal-labs/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "modal",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:moritz",
+      "kind": "company",
+      "name": "Moritz",
+      "entityName": "Moritz",
+      "entitySlug": "moritz",
+      "pulseSlug": "moritz",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://moritzlegal.com",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:n8n",
+      "kind": "company",
+      "name": "n8n",
+      "entityName": "n8n",
+      "entitySlug": "n8n",
+      "pulseSlug": "stack-n8n",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://n8n.io",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/n8n/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "n8n_io",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:naive",
+      "kind": "company",
+      "name": "Naïve",
+      "entityName": "Naïve",
+      "entitySlug": "naive",
+      "pulseSlug": "naive",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://usenaive.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/usenaive/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "usenaive",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:nanoclaw",
+      "kind": "company",
+      "name": "NanoClaw",
+      "entityName": "NanoClaw",
+      "entitySlug": "nanoclaw",
+      "pulseSlug": "stack-nanoclaw",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://nanoclaw.dev",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:nanocorp",
+      "kind": "company",
+      "name": "Nanocorp",
+      "entityName": "Nanocorp",
+      "entitySlug": "nanocorp",
+      "pulseSlug": "nanocorp",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/nanocorp",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/nanocorphq/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/nanocorphq/"
+      },
+      "x": {
+        "value": "nanocorphq",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/nanocorp"
+      }
+    },
+    {
+      "id": "company:neon",
+      "kind": "company",
+      "name": "Neon",
+      "entityName": "Neon",
+      "entitySlug": "neon",
+      "pulseSlug": "stack-neon",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://neon.com/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/neondatabase/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "neondatabase",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:nous-research",
+      "kind": "company",
+      "name": "Nous Research",
+      "entityName": "Nous Research",
+      "entitySlug": "nous-research",
+      "pulseSlug": "stack-hermes",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://nousresearch.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/nousresearch/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "nousresearch",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:openai",
+      "kind": "company",
+      "name": "OpenAI",
+      "entityName": "OpenAI",
+      "entitySlug": "openai",
+      "pulseSlug": "stack-openai",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/company/openai/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/openai/",
+        "status": "verified",
+        "reason": "Registry explicitly confirms the LinkedIn page and matching website; X remains under review."
+      },
+      "x": {
+        "value": "openai",
+        "status": "review"
+      }
+    },
+    {
+      "id": "company:openclaw",
+      "kind": "company",
+      "name": "OpenClaw",
+      "entityName": "OpenClaw",
+      "entitySlug": "openclaw",
+      "pulseSlug": "stack-openclaw",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://openclaw.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/the-openclaw-foundation/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "openclaw",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:openrouter",
+      "kind": "company",
+      "name": "OpenRouter",
+      "entityName": "OpenRouter",
+      "entitySlug": "openrouter",
+      "pulseSlug": "stack-openrouter",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://openrouter.ai/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/openrouter/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "openrouter",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:payman",
+      "kind": "company",
+      "name": "Payman",
+      "entityName": "Payman",
+      "entitySlug": "payman",
+      "pulseSlug": "payman",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://paymanai.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/paymanai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "paymanai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:polar",
+      "kind": "company",
+      "name": "Polar",
+      "entityName": "Polar",
+      "entitySlug": "polar",
+      "pulseSlug": "stack-polar",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://polar.sh/company",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/polar-sh/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/polar-sh/"
+      },
+      "x": {
+        "value": "polar_sh",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://polar.sh/"
+      }
+    },
+    {
+      "id": "company:polsia",
+      "kind": "company",
+      "name": "Polsia",
+      "entityName": "Polsia",
+      "entitySlug": "polsia",
+      "pulseSlug": "polsia",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/company/polsia/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/polsia/",
+        "status": "verified"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:postmark",
+      "kind": "company",
+      "name": "Postmark",
+      "entityName": "Postmark",
+      "entitySlug": "postmark",
+      "pulseSlug": "stack-postmark",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://postmarkapp.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/postmarkapp/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "postmarkapp",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:render",
+      "kind": "company",
+      "name": "Render",
+      "entityName": "Render",
+      "entitySlug": "render",
+      "pulseSlug": "stack-render",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://render.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/renderco/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "render",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:rentahuman",
+      "kind": "company",
+      "name": "RentAHuman",
+      "entityName": "RentAHuman",
+      "entitySlug": "rentahuman",
+      "pulseSlug": "rentahuman",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://rentahuman.ai/about",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "company:resend",
+      "kind": "company",
+      "name": "Resend",
+      "entityName": "Resend",
+      "entitySlug": "resend",
+      "pulseSlug": "stack-resend",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://resend.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/resend/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "resend",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:retell-ai",
+      "kind": "company",
+      "name": "Retell AI",
+      "entityName": "Retell AI",
+      "entitySlug": "retell-ai",
+      "pulseSlug": "retell-ai",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.retellai.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/retellai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "retellai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:runpod",
+      "kind": "company",
+      "name": "RunPod",
+      "entityName": "RunPod",
+      "entitySlug": "runpod",
+      "pulseSlug": "stack-runpod",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://runpod.io",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/runpod-io/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "runpod_io",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:sciforium",
+      "kind": "company",
+      "name": "Sciforium",
+      "entityName": "Sciforium",
+      "entitySlug": "sciforium",
+      "pulseSlug": "stack-sciforium",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.sciforium.ai/company",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/sciforium/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/sciforium/"
+      },
+      "x": {
+        "value": "sciforium",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.sciforium.ai/"
+      }
+    },
+    {
+      "id": "company:semio",
+      "kind": "company",
+      "name": "Semio",
+      "entityName": "Semio",
+      "entitySlug": "semio",
+      "pulseSlug": "semio",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://semio.community/people/ross-mead/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/semio-ai/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/semio-ai/"
+      },
+      "x": {
+        "value": "semio_ai",
+        "status": "review",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://x.com/RossMead/with_replies",
+        "reason": "Referenced by founder; independent verification of the company account remains incomplete."
+      }
+    },
+    {
+      "id": "company:soniox",
+      "kind": "company",
+      "name": "Soniox",
+      "entityName": "Soniox",
+      "entitySlug": "soniox",
+      "pulseSlug": "stack-soniox",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://soniox.com",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/soniox/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "soniox_ai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:supabase",
+      "kind": "company",
+      "name": "Supabase",
+      "entityName": "Supabase",
+      "entitySlug": "supabase",
+      "pulseSlug": "stack-supabase",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://supabase.com/company",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/supabase/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "supabase",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:together-ai",
+      "kind": "company",
+      "name": "Together AI",
+      "entityName": "Together AI",
+      "entitySlug": "together-ai",
+      "pulseSlug": "stack-together-ai",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://together.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/togethercompute/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "togethercompute",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:vapi",
+      "kind": "company",
+      "name": "Vapi",
+      "entityName": "Vapi",
+      "entitySlug": "vapi",
+      "pulseSlug": "stack-vapi",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://vapi.ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/vapi-ai/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "vapi_ai",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:vercel",
+      "kind": "company",
+      "name": "Vercel",
+      "entityName": "Vercel",
+      "entitySlug": "vercel",
+      "pulseSlug": "stack-vercel",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://vercel.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/vercel/",
+        "status": "verified"
+      },
+      "x": {
+        "value": "vercel",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "company:wordware",
+      "kind": "company",
+      "name": "Wordware (Sauna)",
+      "entityName": "Wordware (Sauna)",
+      "entitySlug": "wordware",
+      "pulseSlug": "wordware",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://www.wordware.ai/story",
+      "linkedin": {
+        "value": "https://www.linkedin.com/company/saunabywordware/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/saunabywordware/"
+      },
+      "x": {
+        "value": "wordware",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.wordware.ai/"
+      }
+    },
+    {
+      "id": "company:z-ai",
+      "kind": "company",
+      "name": "Z.ai",
+      "entityName": "Z.ai",
+      "entitySlug": "z-ai",
+      "pulseSlug": "stack-z-ai",
+      "role": "Company account",
+      "relationship": "associated",
+      "sourceUrl": "https://z.ai/model-api",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": "zai_org",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:11x:Hasan Sukkar",
+      "kind": "person",
+      "name": "Hasan Sukkar",
+      "entityName": "11x",
+      "entitySlug": "11x",
+      "pulseSlug": "11x",
+      "role": "Founder & non-executive chairman (former CEO)",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/posts/hasansukkar_big-news-from-11x-today-were-announcing-activity-7325212135934865411-tX2B",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/hasansukkar/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/posts/hasansukkar_big-news-from-11x-today-were-announcing-activity-7325212135934865411-tX2B"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:11x:Prabhav Jain",
+      "kind": "person",
+      "name": "Prabhav Jain",
+      "entityName": "11x",
+      "entitySlug": "11x",
+      "pulseSlug": "11x",
+      "role": "CEO (former CTO)",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/posts/jainprabhav_im-incredibly-honored-to-be-stepping-into-activity-7325212528496513024-TH5Q",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jainprabhav/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/posts/jainprabhav_im-incredibly-honored-to-be-stepping-into-activity-7325212528496513024-TH5Q"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:agentmail:Adi Singh",
+      "kind": "person",
+      "name": "Adi Singh",
+      "entityName": "AgentMail (YC S25)",
+      "entitySlug": "agentmail",
+      "pulseSlug": "stack-agentmail",
+      "role": "Cofounder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/agentmail",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/adivirsingh13/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/agentmail"
+      },
+      "x": {
+        "value": "adisingh",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/agentmail"
+      }
+    },
+    {
+      "id": "person:agentmail:Haakam Aujla",
+      "kind": "person",
+      "name": "Haakam Aujla",
+      "entityName": "AgentMail (YC S25)",
+      "entitySlug": "agentmail",
+      "pulseSlug": "stack-agentmail",
+      "role": "Cofounder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/agentmail",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/haaaujla/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/agentmail"
+      },
+      "x": {
+        "value": "haakamaujla",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/agentmail"
+      }
+    },
+    {
+      "id": "person:agentmail:Michael Kim",
+      "kind": "person",
+      "name": "Michael Kim",
+      "entityName": "AgentMail (YC S25)",
+      "entitySlug": "agentmail",
+      "pulseSlug": "stack-agentmail",
+      "role": "Cofounder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/agentmail",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/hyun-michael-kim-281242220/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/agentmail"
+      },
+      "x": {
+        "value": "michaelhyunkim",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/agentmail"
+      }
+    },
+    {
+      "id": "person:akamai:Christopher Aker",
+      "kind": "person",
+      "name": "Christopher Aker",
+      "entityName": "Akamai (Linode)",
+      "entitySlug": "akamai",
+      "pulseSlug": "stack-akamai",
+      "role": "Founder (Linode)",
+      "relationship": "former",
+      "sourceUrl": "https://techcrunch.com/2022/02/15/akamai-acquires-linode-for-900m/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/caker/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:akamai:Daniel Lewin",
+      "kind": "person",
+      "name": "Daniel Lewin",
+      "entityName": "Akamai (Linode)",
+      "entitySlug": "akamai",
+      "pulseSlug": "stack-akamai",
+      "role": "Co-founder & former CTO",
+      "relationship": "deceased",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Akamai_Technologies",
+      "linkedin": {
+        "value": null,
+        "status": "inactive"
+      },
+      "x": {
+        "value": null,
+        "status": "inactive"
+      }
+    },
+    {
+      "id": "person:akamai:Jonathan Seelig",
+      "kind": "person",
+      "name": "Jonathan Seelig",
+      "entityName": "Akamai (Linode)",
+      "entitySlug": "akamai",
+      "pulseSlug": "stack-akamai",
+      "role": "Co-founder",
+      "relationship": "former",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Akamai_Technologies",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:akamai:Randall Kaplan",
+      "kind": "person",
+      "name": "Randall Kaplan",
+      "entityName": "Akamai (Linode)",
+      "entitySlug": "akamai",
+      "pulseSlug": "stack-akamai",
+      "role": "Co-founder",
+      "relationship": "former",
+      "sourceUrl": "https://randallkaplan.com/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/randallkaplan/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "randallkaplan",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:akamai:Robert Blumofe",
+      "kind": "person",
+      "name": "Robert Blumofe",
+      "entityName": "Akamai (Linode)",
+      "entitySlug": "akamai",
+      "pulseSlug": "stack-akamai",
+      "role": "EVP & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.akamai.com/company/leadership/executive-team/robert-blumofe",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:akamai:Tom Leighton",
+      "kind": "person",
+      "name": "Tom Leighton",
+      "entityName": "Akamai (Linode)",
+      "entitySlug": "akamai",
+      "pulseSlug": "stack-akamai",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.akamai.com/company/leadership/executive-team/tom-leighton",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/tleighton/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:anchor-browser:Dor Dankner",
+      "kind": "person",
+      "name": "Dor Dankner",
+      "entityName": "Anchor Browser",
+      "entitySlug": "anchor-browser",
+      "pulseSlug": "stack-anchor-browser",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://anchorbrowser.io/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/ddorda/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:anchor-browser:Guy Ben Simhon",
+      "kind": "person",
+      "name": "Guy Ben Simhon",
+      "entityName": "Anchor Browser",
+      "entitySlug": "anchor-browser",
+      "pulseSlug": "stack-anchor-browser",
+      "role": "Co-founder & CPO",
+      "relationship": "associated",
+      "sourceUrl": "https://anchorbrowser.io/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/guy-bensimhon/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:anchor-browser:Idan Raman",
+      "kind": "person",
+      "name": "Idan Raman",
+      "entityName": "Anchor Browser",
+      "entitySlug": "anchor-browser",
+      "pulseSlug": "stack-anchor-browser",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://anchorbrowser.io/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/idan-raman/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "raman_idan",
+        "status": "review",
+        "reason": "Registry notes explicitly leave the X identity unconfirmed; person-level user confirmation is not platform-specific evidence."
+      }
+    },
+    {
+      "id": "person:anthropic:Ben Mann",
+      "kind": "person",
+      "name": "Ben Mann",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/8enmann",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/benjamin-mann/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "8enmann",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:anthropic:Boris Cherny",
+      "kind": "person",
+      "name": "Boris Cherny",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Claude Code lead",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/bcherny",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/bcherny/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "bcherny",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:anthropic:Chris Olah",
+      "kind": "person",
+      "name": "Chris Olah",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Co-founder & Interpretability Research Lead",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/ch402",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/christopher-olah-b574414a/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "ch402",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:anthropic:Daniela Amodei",
+      "kind": "person",
+      "name": "Daniela Amodei",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Co-founder & President",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/danielaamodei",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/daniela-amodei-790bb22a/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "danielaamodei",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:anthropic:Dario Amodei",
+      "kind": "person",
+      "name": "Dario Amodei",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/DarioAmodei",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/dario-amodei-3934934/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "darioamodei",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:anthropic:Jack Clark",
+      "kind": "person",
+      "name": "Jack Clark",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Co-founder & Head of Public Benefit",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/jackclarkSF",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jack-clark-5a320317/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "jackclarksf",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:anthropic:Jared Kaplan",
+      "kind": "person",
+      "name": "Jared Kaplan",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Co-founder & Chief Science Officer",
+      "relationship": "associated",
+      "sourceUrl": "https://www.anthropic.com/company/leadership",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jared-kaplan-645843213/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:anthropic:Rahul Patil",
+      "kind": "person",
+      "name": "Rahul Patil",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/rahul-patil-a0944836/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:anthropic:Sam McCandlish",
+      "kind": "person",
+      "name": "Sam McCandlish",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Co-founder & Chief Architect",
+      "relationship": "associated",
+      "sourceUrl": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/sam-mccandlish/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "samsamoa",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:anthropic:Tom Brown",
+      "kind": "person",
+      "name": "Tom Brown",
+      "entityName": "Anthropic",
+      "entitySlug": "anthropic",
+      "pulseSlug": "stack-claude",
+      "role": "Co-founder & Chief Compute Officer",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/nottombrown",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/nottombrown/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "nottombrown",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:apify:Jakub Balada",
+      "kind": "person",
+      "name": "Jakub Balada",
+      "entityName": "Apify",
+      "entitySlug": "apify",
+      "pulseSlug": "stack-apify",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://blog.apify.com/author/jakub-balada/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jbalada/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "jakubbalada",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:apify:Jan Čurn",
+      "kind": "person",
+      "name": "Jan Čurn",
+      "entityName": "Apify",
+      "entitySlug": "apify",
+      "pulseSlug": "stack-apify",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://apify.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jancurn/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "jancurn",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:apify:Marek Trunkát",
+      "kind": "person",
+      "name": "Marek Trunkát",
+      "entityName": "Apify",
+      "entitySlug": "apify",
+      "pulseSlug": "stack-apify",
+      "role": "CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://apify.com/mtrunkat",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/marektrunkat/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:artisan:Jaspar Carmichael-Jack",
+      "kind": "person",
+      "name": "Jaspar Carmichael-Jack",
+      "entityName": "Artisan",
+      "entitySlug": "artisan",
+      "pulseSlug": "artisan",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/jasparcjack",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": "jasparcjack",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:artisan:Rupert Dodkins",
+      "kind": "person",
+      "name": "Rupert Dodkins",
+      "entityName": "Artisan",
+      "entitySlug": "artisan",
+      "pulseSlug": "artisan",
+      "role": "Co-founder & CTO (former)",
+      "relationship": "former",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Artisan_AI",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/rupertdodkins/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:artisan:Sam Stallings",
+      "kind": "person",
+      "name": "Sam Stallings",
+      "entityName": "Artisan",
+      "entitySlug": "artisan",
+      "pulseSlug": "artisan",
+      "role": "Co-founder & CPTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/sampstallings",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/samantha12345/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "sampstallings",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:atoms:Chenglin Wu",
+      "kind": "person",
+      "name": "Chenglin Wu",
+      "entityName": "Atoms",
+      "entitySlug": "atoms",
+      "pulseSlug": "atoms",
+      "role": "Founder & CEO of Atoms",
+      "relationship": "associated",
+      "sourceUrl": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/chenglin-wu-x/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://chenglinwu.me/"
+      },
+      "x": {
+        "value": "alexanderwu0",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://chenglinwu.me/"
+      },
+      "reportedNames": [
+        {
+          "name": "Alex Wu",
+          "sourceUrl": "https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/",
+          "corroboratingUrl": "https://atoms.dev/about",
+          "note": "Matched to the existing founder through company, role and the official about page linking this interview."
+        }
+      ]
+    },
+    {
+      "id": "person:base44:Maor Shlomo",
+      "kind": "person",
+      "name": "Maor Shlomo",
+      "entityName": "Base44",
+      "entitySlug": "base44",
+      "pulseSlug": "base44",
+      "role": "Founder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.lennysnewsletter.com/p/the-base44-bootstrapped-startup-success-story-maor-shlomo",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/maorshlomo/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "ms_base44",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:basis:Matt Harpe",
+      "kind": "person",
+      "name": "Matt Harpe",
+      "entityName": "Basis",
+      "entitySlug": "basis",
+      "pulseSlug": "basis",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/in/matt-harpe/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/matt-harpe/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:basis:Mitchell Troyanovsky",
+      "kind": "person",
+      "name": "Mitchell Troyanovsky",
+      "entityName": "Basis",
+      "entitySlug": "basis",
+      "pulseSlug": "basis",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/mitch_troy/status/2082887034939519405",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/mitchelltroyanovsky/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "mitch_troy",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:basis:Neville Jos",
+      "kind": "person",
+      "name": "Neville Jos",
+      "entityName": "Basis",
+      "entitySlug": "basis",
+      "pulseSlug": "basis",
+      "role": "Head of Engineering",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/in/neville-jos/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/neville-jos/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:beacon-health:Mark Pothen",
+      "kind": "person",
+      "name": "Mark Pothen",
+      "entityName": "Beacon Health",
+      "entitySlug": "beacon-health",
+      "pulseSlug": "beacon-health",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/beacon-health",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/mark-pothen/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:beacon-health:Obinna Akahara",
+      "kind": "person",
+      "name": "Obinna Akahara",
+      "entityName": "Beacon Health",
+      "entitySlug": "beacon-health",
+      "pulseSlug": "beacon-health",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/beacon-health",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/obinnaakahara/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "obinnaaka",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:blaxel:Charles Drappier",
+      "kind": "person",
+      "name": "Charles Drappier",
+      "entityName": "Blaxel (YC X25)",
+      "entitySlug": "blaxel",
+      "pulseSlug": "stack-blaxel",
+      "role": "Cofounder / developer",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/blaxel",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/charles-drappier-48017962/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/blaxel"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:blaxel:Christophe Ploujoux",
+      "kind": "person",
+      "name": "Christophe Ploujoux",
+      "entityName": "Blaxel (YC X25)",
+      "entitySlug": "blaxel",
+      "pulseSlug": "stack-blaxel",
+      "role": "Cofounder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/blaxel",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/christophe-ploujoux/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/blaxel"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:blaxel:Mathis Joffre",
+      "kind": "person",
+      "name": "Mathis Joffre",
+      "entityName": "Blaxel (YC X25)",
+      "entitySlug": "blaxel",
+      "pulseSlug": "stack-blaxel",
+      "role": "Cofounder / engineering lead",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/blaxel",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/mathis-joffre-30992712a/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/blaxel"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:blaxel:Nicolas Lecomte",
+      "kind": "person",
+      "name": "Nicolas Lecomte",
+      "entityName": "Blaxel (YC X25)",
+      "entitySlug": "blaxel",
+      "pulseSlug": "stack-blaxel",
+      "role": "Cofounder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/blaxel",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/nicolas-lecomte-080317153/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/blaxel"
+      },
+      "x": {
+        "value": "nicolaslec91112",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/blaxel"
+      }
+    },
+    {
+      "id": "person:blaxel:Paul Sinaï",
+      "kind": "person",
+      "name": "Paul Sinaï",
+      "entityName": "Blaxel (YC X25)",
+      "entitySlug": "blaxel",
+      "pulseSlug": "stack-blaxel",
+      "role": "Cofounder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/blaxel",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/paul-sinai/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/blaxel"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:blaxel:Thomas Crochet",
+      "kind": "person",
+      "name": "Thomas Crochet",
+      "entityName": "Blaxel (YC X25)",
+      "entitySlug": "blaxel",
+      "pulseSlug": "stack-blaxel",
+      "role": "Cofounder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/blaxel",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/crochetthomas/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/blaxel"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:boardy:Abhinav Boyed",
+      "kind": "person",
+      "name": "Abhinav Boyed",
+      "entityName": "Boardy",
+      "entitySlug": "boardy",
+      "pulseSlug": "boardy",
+      "role": "Co-founder (former)",
+      "relationship": "former",
+      "sourceUrl": "https://www.linkedin.com/in/abhinavboyed/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/abhinavboyed/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:boardy:Andrew D'Souza",
+      "kind": "person",
+      "name": "Andrew D'Souza",
+      "entityName": "Boardy",
+      "entitySlug": "boardy",
+      "pulseSlug": "boardy",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/andrewdsouza",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/andrewdsouza/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "andrewdsouza",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:boardy:Ankur Boyed",
+      "kind": "person",
+      "name": "Ankur Boyed",
+      "entityName": "Boardy",
+      "entitySlug": "boardy",
+      "pulseSlug": "boardy",
+      "role": "Co-founder (former)",
+      "relationship": "former",
+      "sourceUrl": "https://ca.linkedin.com/in/ankur-boyed",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/ankur-boyed/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:boardy:Matt Stein",
+      "kind": "person",
+      "name": "Matt Stein",
+      "entityName": "Boardy",
+      "entitySlug": "boardy",
+      "pulseSlug": "boardy",
+      "role": "Co-founder (former)",
+      "relationship": "former",
+      "sourceUrl": "https://techcrunch.com/2024/10/24/ai-networking-startup-boardy-raises-3m-pre-seed/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/mattstein5/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:boardy:Shen Sivananthan",
+      "kind": "person",
+      "name": "Shen Sivananthan",
+      "entityName": "Boardy",
+      "entitySlug": "boardy",
+      "pulseSlug": "boardy",
+      "role": "Co-founder (former)",
+      "relationship": "former",
+      "sourceUrl": "https://www.linkedin.com/in/shensivananthan/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/shensivananthan/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:browserbase:Paul Klein IV",
+      "kind": "person",
+      "name": "Paul Klein IV",
+      "entityName": "Browserbase",
+      "entitySlug": "browserbase",
+      "pulseSlug": "stack-browserbase",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/pk_iv",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/paulkleiniv/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "pk_iv",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:caffeine:Dominic Williams",
+      "kind": "person",
+      "name": "Dominic Williams",
+      "entityName": "Caffeine",
+      "entitySlug": "caffeine",
+      "pulseSlug": "caffeine",
+      "role": "Founder",
+      "relationship": "associated",
+      "sourceUrl": "https://caffeine.ai/press",
+      "linkedin": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "dominic_w",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://internetcomputer.org/icig.pdf"
+      }
+    },
+    {
+      "id": "person:chainopera-ai:Aiden (Chaoyang) He",
+      "kind": "person",
+      "name": "Aiden (Chaoyang) He",
+      "entityName": "ChainOpera AI",
+      "entitySlug": "chainopera-ai",
+      "pulseSlug": "chainopera-ai",
+      "role": "Co-founder, President & Board Director",
+      "relationship": "uncertain",
+      "sourceUrl": "https://x.com/AidenChaoyangHe",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/hechaoyang/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "aidenchaoyanghe",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:chainopera-ai:Salman Avestimehr",
+      "kind": "person",
+      "name": "Salman Avestimehr",
+      "entityName": "ChainOpera AI",
+      "entitySlug": "chainopera-ai",
+      "pulseSlug": "chainopera-ai",
+      "role": "Co-founder & CEO",
+      "relationship": "uncertain",
+      "sourceUrl": "https://x.com/avestime",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/salman-avestimehr-46aa662/",
+        "status": "review",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "avestime",
+        "status": "review"
+      }
+    },
+    {
+      "id": "person:cofounder:Abhishyant Khare",
+      "kind": "person",
+      "name": "Abhishyant Khare",
+      "entityName": "Cofounder",
+      "entitySlug": "cofounder",
+      "pulseSlug": "cofounder",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.generalintelligencecompany.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/abhishyantkhare/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "khareabhishyant",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:cofounder:Andrew Pignanelli",
+      "kind": "person",
+      "name": "Andrew Pignanelli",
+      "entityName": "Cofounder",
+      "entitySlug": "cofounder",
+      "pulseSlug": "cofounder",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.generalintelligencecompany.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/andrewpignanelli/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "ndrewpignanelli",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:coreweave:Brannin McBee",
+      "kind": "person",
+      "name": "Brannin McBee",
+      "entityName": "CoreWeave",
+      "entitySlug": "coreweave",
+      "pulseSlug": "stack-coreweave",
+      "role": "Co-founder & Chief Development Officer",
+      "relationship": "associated",
+      "sourceUrl": "https://www.coreweave.com/leadership/brannin-mcbee",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/branninmcbee/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:coreweave:Brian Venturo",
+      "kind": "person",
+      "name": "Brian Venturo",
+      "entityName": "CoreWeave",
+      "entitySlug": "coreweave",
+      "pulseSlug": "stack-coreweave",
+      "role": "Co-founder & Chief Strategy Officer",
+      "relationship": "associated",
+      "sourceUrl": "https://www.coreweave.com/leadership/brian-venturo",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/brian-venturo-6719b812/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:coreweave:Michael Intrator",
+      "kind": "person",
+      "name": "Michael Intrator",
+      "entityName": "CoreWeave",
+      "entitySlug": "coreweave",
+      "pulseSlug": "stack-coreweave",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.coreweave.com/leadership/mike-intrator",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/michael-intrator-2383aa57/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:coreweave:Peter Salanki",
+      "kind": "person",
+      "name": "Peter Salanki",
+      "entityName": "CoreWeave",
+      "entitySlug": "coreweave",
+      "pulseSlug": "stack-coreweave",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.coreweave.com/leadership/peter-salanki",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/salanki/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "sorcer",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:cursor:Aman Sanger",
+      "kind": "person",
+      "name": "Aman Sanger",
+      "entityName": "Anysphere (Cursor)",
+      "entitySlug": "cursor",
+      "pulseSlug": "stack-cursor",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://amansanger.com/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/aman-sanger-482243171/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "amanrsanger",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:cursor:Arvid Lunnemark",
+      "kind": "person",
+      "name": "Arvid Lunnemark",
+      "entityName": "Anysphere (Cursor)",
+      "entitySlug": "cursor",
+      "pulseSlug": "stack-cursor",
+      "role": "Co-founder & former CTO",
+      "relationship": "former",
+      "sourceUrl": "https://x.com/ArVID220u",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/arvid-lunnemark/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "arvid220u",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:cursor:Michael Truell",
+      "kind": "person",
+      "name": "Michael Truell",
+      "entityName": "Anysphere (Cursor)",
+      "entitySlug": "cursor",
+      "pulseSlug": "stack-cursor",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/mntruell",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/michael-t-5b1bbb122/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "mntruell",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:cursor:Sualeh Asif",
+      "kind": "person",
+      "name": "Sualeh Asif",
+      "entityName": "Anysphere (Cursor)",
+      "entitySlug": "cursor",
+      "pulseSlug": "stack-cursor",
+      "role": "Co-founder & CPO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/sualehasif996",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/sualeh-a-1a4a97116/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "sualehasif996",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:daytona:Goran Draganić",
+      "kind": "person",
+      "name": "Goran Draganić",
+      "entityName": "Daytona",
+      "entitySlug": "daytona",
+      "pulseSlug": "stack-daytona",
+      "role": "Co-founder & Chief Architect",
+      "relationship": "associated",
+      "sourceUrl": "https://www.daytona.io/dotfiles/author/goran-draganic",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/goran-draganic/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "gorandraganic",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:daytona:Ivan Burazin",
+      "kind": "person",
+      "name": "Ivan Burazin",
+      "entityName": "Daytona",
+      "entitySlug": "daytona",
+      "pulseSlug": "stack-daytona",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.daytona.io/dotfiles/author/ivan-burazin",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/ivanburazin/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "ivanburazin",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:daytona:Vedran Jukić",
+      "kind": "person",
+      "name": "Vedran Jukić",
+      "entityName": "Daytona",
+      "entitySlug": "daytona",
+      "pulseSlug": "stack-daytona",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.daytona.io/dotfiles/author/vedran-jukic",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/vedranjukic/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "vedranjukic",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:delphi:Dara Ladjevardian",
+      "kind": "person",
+      "name": "Dara Ladjevardian",
+      "entityName": "Delphi",
+      "entitySlug": "delphi",
+      "pulseSlug": "delphi",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.delphi.ai/dara",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/dara-ladjevardian/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "daraladje",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:delphi:Sam Spelsberg",
+      "kind": "person",
+      "name": "Sam Spelsberg",
+      "entityName": "Delphi",
+      "entitySlug": "delphi",
+      "pulseSlug": "delphi",
+      "role": "Co-founder & CTO",
+      "relationship": "uncertain",
+      "sourceUrl": "https://www.delphi.ai/sam",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/samuel-spelsberg/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "samspelsberg",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:digitalocean:Alec Hartman",
+      "kind": "person",
+      "name": "Alec Hartman",
+      "entityName": "DigitalOcean",
+      "entitySlug": "digitalocean",
+      "pulseSlug": "stack-digitalocean",
+      "role": "Co-founder",
+      "relationship": "former",
+      "sourceUrl": "https://en.wikipedia.org/wiki/DigitalOcean",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:digitalocean:Ben Uretsky",
+      "kind": "person",
+      "name": "Ben Uretsky",
+      "entityName": "DigitalOcean",
+      "entitySlug": "digitalocean",
+      "pulseSlug": "stack-digitalocean",
+      "role": "Co-founder & former CEO",
+      "relationship": "former",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ben_Uretsky",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/benuretsky/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:digitalocean:Jeff Carr",
+      "kind": "person",
+      "name": "Jeff Carr",
+      "entityName": "DigitalOcean",
+      "entitySlug": "digitalocean",
+      "pulseSlug": "stack-digitalocean",
+      "role": "Co-founder (former Chief Architect)",
+      "relationship": "former",
+      "sourceUrl": "https://en.wikipedia.org/wiki/DigitalOcean",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:digitalocean:Mitch Wainer",
+      "kind": "person",
+      "name": "Mitch Wainer",
+      "entityName": "DigitalOcean",
+      "entitySlug": "digitalocean",
+      "pulseSlug": "stack-digitalocean",
+      "role": "Co-founder (former CMO)",
+      "relationship": "former",
+      "sourceUrl": "https://en.wikipedia.org/wiki/DigitalOcean",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:digitalocean:Moisey Uretsky",
+      "kind": "person",
+      "name": "Moisey Uretsky",
+      "entityName": "DigitalOcean",
+      "entitySlug": "digitalocean",
+      "pulseSlug": "stack-digitalocean",
+      "role": "Co-founder (former Chief Product Officer)",
+      "relationship": "former",
+      "sourceUrl": "https://en.wikipedia.org/wiki/DigitalOcean",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:digitalocean:Paddy Srinivasan",
+      "kind": "person",
+      "name": "Paddy Srinivasan",
+      "entityName": "DigitalOcean",
+      "entitySlug": "digitalocean",
+      "pulseSlug": "stack-digitalocean",
+      "role": "CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.digitalocean.com/leadership/executive-management",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/paddysrinivasan/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:digitalocean:Vinay Kumar",
+      "kind": "person",
+      "name": "Vinay Kumar",
+      "entityName": "DigitalOcean",
+      "entitySlug": "digitalocean",
+      "pulseSlug": "stack-digitalocean",
+      "role": "Chief Product and Technology Officer",
+      "relationship": "associated",
+      "sourceUrl": "https://www.digitalocean.com/leadership/executive-management",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:e2b:Tomas Valenta",
+      "kind": "person",
+      "name": "Tomas Valenta",
+      "entityName": "E2B",
+      "entitySlug": "e2b",
+      "pulseSlug": "stack-e2b",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/co_valenta",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/valentatomas/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "co_valenta",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:e2b:Vasek Mlejnsky",
+      "kind": "person",
+      "name": "Vasek Mlejnsky",
+      "entityName": "E2B",
+      "entitySlug": "e2b",
+      "pulseSlug": "stack-e2b",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/mlejva",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/mlejva/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "mlejva",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:egbe:Azamat Khalilov",
+      "kind": "person",
+      "name": "Azamat Khalilov",
+      "entityName": "Egbe",
+      "entitySlug": "egbe",
+      "pulseSlug": "egbe",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://egbe.ai/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/azamat-khalilov-2530b91a9/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:egbe:Nikolay Vyahhi",
+      "kind": "person",
+      "name": "Nikolay Vyahhi",
+      "entityName": "Egbe",
+      "entitySlug": "egbe",
+      "pulseSlug": "egbe",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/in/vyahhi/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/vyahhi/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "vyahhi",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:elevenlabs:Mati Staniszewski",
+      "kind": "person",
+      "name": "Mati Staniszewski",
+      "entityName": "ElevenLabs",
+      "entitySlug": "elevenlabs",
+      "pulseSlug": "stack-elevenlabs",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://elevenlabs.io/blog/authors/mati-staniszewski",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/matiii/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "matiii",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:elevenlabs:Piotr Dabkowski",
+      "kind": "person",
+      "name": "Piotr Dabkowski",
+      "entityName": "ElevenLabs",
+      "entitySlug": "elevenlabs",
+      "pulseSlug": "stack-elevenlabs",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://elevenlabs.io/press",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:feltsense:Marik Hazan",
+      "kind": "person",
+      "name": "Marik Hazan",
+      "entityName": "Feltsense",
+      "entitySlug": "feltsense",
+      "pulseSlug": "feltsense",
+      "role": "Founder",
+      "relationship": "associated",
+      "sourceUrl": "https://beepartners.vc/feltsense",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/marikhazan/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://beepartners.vc/feltsense"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:firecrawl:Caleb Peffer",
+      "kind": "person",
+      "name": "Caleb Peffer",
+      "entityName": "Firecrawl",
+      "entitySlug": "firecrawl",
+      "pulseSlug": "stack-firecrawl",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.firecrawl.dev/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/caleb-peffer/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "calebpeffer",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:firecrawl:Eric Ciarla",
+      "kind": "person",
+      "name": "Eric Ciarla",
+      "entityName": "Firecrawl",
+      "entitySlug": "firecrawl",
+      "pulseSlug": "stack-firecrawl",
+      "role": "Co-founder & Chief Growth Officer",
+      "relationship": "associated",
+      "sourceUrl": "https://www.firecrawl.dev/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/eric-ciarla/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "ericciarla",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:firecrawl:Nicolas Silberstein Camara",
+      "kind": "person",
+      "name": "Nicolas Silberstein Camara",
+      "entityName": "Firecrawl",
+      "entitySlug": "firecrawl",
+      "pulseSlug": "stack-firecrawl",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.firecrawl.dev/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/nicolas-silberstein-camara/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "nickscamara_",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:gamma:Grant Lee",
+      "kind": "person",
+      "name": "Grant Lee",
+      "entityName": "Gamma",
+      "entitySlug": "gamma",
+      "pulseSlug": "gamma",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://team.gamma.app/leadership",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/grantslee/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "thisisgrantlee",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:gamma:James Fox",
+      "kind": "person",
+      "name": "James Fox",
+      "entityName": "Gamma",
+      "entitySlug": "gamma",
+      "pulseSlug": "gamma",
+      "role": "Co-founder (technical)",
+      "relationship": "associated",
+      "sourceUrl": "https://team.gamma.app/leadership",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/james-f-fox/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:gamma:Jon Noronha",
+      "kind": "person",
+      "name": "Jon Noronha",
+      "entityName": "Gamma",
+      "entitySlug": "gamma",
+      "pulseSlug": "gamma",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://team.gamma.app/leadership",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jonnoronha/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "thatsjonsense",
+        "status": "review",
+        "reason": "Registry notes say the handle is from a secondary source and is unconfirmed."
+      }
+    },
+    {
+      "id": "person:groq:Adam Winter",
+      "kind": "person",
+      "name": "Adam Winter",
+      "entityName": "Groq",
+      "entitySlug": "groq",
+      "pulseSlug": "stack-groq",
+      "role": "CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://groq.com/company",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:groq:Douglas Wightman",
+      "kind": "person",
+      "name": "Douglas Wightman",
+      "entityName": "Groq",
+      "entitySlug": "groq",
+      "pulseSlug": "stack-groq",
+      "role": "Co-founder & former CEO",
+      "relationship": "former",
+      "sourceUrl": "https://x.com/DougWightman",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/dougwightman/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "dougwightman",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:groq:Jonathan Ross",
+      "kind": "person",
+      "name": "Jonathan Ross",
+      "entityName": "Groq",
+      "entitySlug": "groq",
+      "pulseSlug": "stack-groq",
+      "role": "Founder & former CEO",
+      "relationship": "former",
+      "sourceUrl": "https://www.linkedin.com/in/ross-jonathan/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/ross-jonathan/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:groq:Sinclair Schuller",
+      "kind": "person",
+      "name": "Sinclair Schuller",
+      "entityName": "Groq",
+      "entitySlug": "groq",
+      "pulseSlug": "stack-groq",
+      "role": "CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://groq.com/company",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:happyrobot:Javi Palafox",
+      "kind": "person",
+      "name": "Javi Palafox",
+      "entityName": "HappyRobot",
+      "entitySlug": "happyrobot",
+      "pulseSlug": "stack-happyrobot",
+      "role": "Co-founder & COO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/in/javierpalafox/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/javierpalafox/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "javypalafox",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:happyrobot:Luis Paarup",
+      "kind": "person",
+      "name": "Luis Paarup",
+      "entityName": "HappyRobot",
+      "entitySlug": "happyrobot",
+      "pulseSlug": "stack-happyrobot",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/happyrobot",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/luispaarup/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "paarupluis",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:happyrobot:Pablo Palafox",
+      "kind": "person",
+      "name": "Pablo Palafox",
+      "entityName": "HappyRobot",
+      "entitySlug": "happyrobot",
+      "pulseSlug": "stack-happyrobot",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/happyrobot",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/pablorpalafox/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "pablorpalafox",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:lambda-labs:Michael Balaban",
+      "kind": "person",
+      "name": "Michael Balaban",
+      "entityName": "Lambda Labs",
+      "entitySlug": "lambda-labs",
+      "pulseSlug": "stack-lambda-labs",
+      "role": "Co-founder & Chief Product Officer",
+      "relationship": "associated",
+      "sourceUrl": "https://lambda.ai/leadership",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/gpus/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:lambda-labs:Stephen Balaban",
+      "kind": "person",
+      "name": "Stephen Balaban",
+      "entityName": "Lambda Labs",
+      "entitySlug": "lambda-labs",
+      "pulseSlug": "stack-lambda-labs",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://lambda.ai/leadership",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/sbalaban/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "stephenbalaban",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:langfuse:Clemens Rawert",
+      "kind": "person",
+      "name": "Clemens Rawert",
+      "entityName": "Langfuse",
+      "entitySlug": "langfuse",
+      "pulseSlug": "stack-langfuse",
+      "role": "Co-founder & COO",
+      "relationship": "associated",
+      "sourceUrl": "https://langfuse.com/handbook/chapters/team",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/rawert/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "rawert",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:langfuse:Marc Klingen",
+      "kind": "person",
+      "name": "Marc Klingen",
+      "entityName": "Langfuse",
+      "entitySlug": "langfuse",
+      "pulseSlug": "stack-langfuse",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://langfuse.com/handbook/chapters/team",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/marcklingen/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "marcklingen",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:langfuse:Max Deichmann",
+      "kind": "person",
+      "name": "Max Deichmann",
+      "entityName": "Langfuse",
+      "entitySlug": "langfuse",
+      "pulseSlug": "stack-langfuse",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://langfuse.com/handbook/chapters/team",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/maxdeichmann/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "maxdeichmann",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:lindy:Flo Crivello",
+      "kind": "person",
+      "name": "Flo Crivello",
+      "entityName": "Lindy",
+      "entitySlug": "lindy",
+      "pulseSlug": "lindy",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://careers.lindy.ai/people/92997-flo-crivello",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/florentcrivello/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "altimor",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:lindy:Ian McGregor",
+      "kind": "person",
+      "name": "Ian McGregor",
+      "entityName": "Lindy",
+      "entitySlug": "lindy",
+      "pulseSlug": "lindy",
+      "role": "Head of Engineering",
+      "relationship": "associated",
+      "sourceUrl": "https://careers.lindy.ai/people",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/idmcgregor/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:lunavo:Felix Lösch",
+      "kind": "person",
+      "name": "Felix Lösch",
+      "entityName": "Lunavo",
+      "entitySlug": "lunavo",
+      "pulseSlug": "lunavo",
+      "role": "Cofounder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/lunavo",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/felix-loesch/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/lunavo"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:lunavo:Niclas Heun",
+      "kind": "person",
+      "name": "Niclas Heun",
+      "entityName": "Lunavo",
+      "entitySlug": "lunavo",
+      "pulseSlug": "lunavo",
+      "role": "Cofounder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/lunavo",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/heun/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/lunavo"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:mcp:David Soria Parra",
+      "kind": "person",
+      "name": "David Soria Parra",
+      "entityName": "MCP",
+      "entitySlug": "mcp",
+      "pulseSlug": "stack-mcp",
+      "role": "MCP creator",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/dsp_",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/david-soria-parra-4a78b3a/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "dsp_",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:mcp:Justin Spahr-Summers",
+      "kind": "person",
+      "name": "Justin Spahr-Summers",
+      "entityName": "MCP",
+      "entitySlug": "mcp",
+      "pulseSlug": "stack-mcp",
+      "role": "MCP creator",
+      "relationship": "former",
+      "sourceUrl": "https://x.com/jspahrsummers",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": "jspahrsummers",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:medvi:Matthew Gallagher",
+      "kind": "person",
+      "name": "Matthew Gallagher",
+      "entityName": "Medvi",
+      "entitySlug": "medvi",
+      "pulseSlug": "medvi",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/galligator",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/gallaghermatthew/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "galligator",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:midjourney:David Holz",
+      "kind": "person",
+      "name": "David Holz",
+      "entityName": "Midjourney",
+      "entitySlug": "midjourney",
+      "pulseSlug": "midjourney",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/DavidSHolz",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": "davidsholz",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:minimal-ai:Niek Hogenboom",
+      "kind": "person",
+      "name": "Niek Hogenboom",
+      "entityName": "Minimal",
+      "entitySlug": "minimal-ai",
+      "pulseSlug": "minimal-ai",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/minimal-ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/niek-hogenboom/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:minimal-ai:Titus Ex",
+      "kind": "person",
+      "name": "Titus Ex",
+      "entityName": "Minimal",
+      "entitySlug": "minimal-ai",
+      "pulseSlug": "minimal-ai",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/minimal-ai",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/titus-ex-85691711a/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:modal:Akshat Bubna",
+      "kind": "person",
+      "name": "Akshat Bubna",
+      "entityName": "Modal",
+      "entitySlug": "modal",
+      "pulseSlug": "stack-modal",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/akshat_b",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/akshat-bubna-188885103/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "akshat_b",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:modal:Erik Bernhardsson",
+      "kind": "person",
+      "name": "Erik Bernhardsson",
+      "entityName": "Modal",
+      "entitySlug": "modal",
+      "pulseSlug": "stack-modal",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/bernhardsson",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/erikbern/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "bernhardsson",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:moritz:Pamir Ehsas",
+      "kind": "person",
+      "name": "Pamir Ehsas",
+      "entityName": "Moritz",
+      "entitySlug": "moritz",
+      "pulseSlug": "moritz",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.moritzlegal.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/pamirehsas/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "pamirehsas",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:moritz:Stefan Mandaric",
+      "kind": "person",
+      "name": "Stefan Mandaric",
+      "entityName": "Moritz",
+      "entitySlug": "moritz",
+      "pulseSlug": "moritz",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.moritzlegal.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/stefan-mandaric/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:n8n:Jan Oberhauser",
+      "kind": "person",
+      "name": "Jan Oberhauser",
+      "entityName": "n8n",
+      "entitySlug": "n8n",
+      "pulseSlug": "stack-n8n",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/JanOberhauser",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/janoberhauser/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "janoberhauser",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:naive:Dennis Zax",
+      "kind": "person",
+      "name": "Dennis Zax",
+      "entityName": "Naïve",
+      "entitySlug": "naive",
+      "pulseSlug": "naive",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/zaxdennis",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/denniszax/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "zaxdennis",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:naive:Sean Dorje",
+      "kind": "person",
+      "name": "Sean Dorje",
+      "entityName": "Naïve",
+      "entitySlug": "naive",
+      "pulseSlug": "naive",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/seandorje",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/seandorje/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "seandorje",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:nanoclaw:Gavriel Cohen",
+      "kind": "person",
+      "name": "Gavriel Cohen",
+      "entityName": "NanoClaw",
+      "entitySlug": "nanoclaw",
+      "pulseSlug": "stack-nanoclaw",
+      "role": "Co-founder & CEO (NanoClaw creator)",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/Gavriel_Cohen",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/gavrielco/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "gavriel_cohen",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:nanoclaw:Lazer Cohen",
+      "kind": "person",
+      "name": "Lazer Cohen",
+      "entityName": "NanoClaw",
+      "entitySlug": "nanoclaw",
+      "pulseSlug": "stack-nanoclaw",
+      "role": "Co-founder & President",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/Lazer_Cohen",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/lazercohen/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "lazer_cohen",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:nanocorp:Pierre-Louis Biojout",
+      "kind": "person",
+      "name": "Pierre-Louis Biojout",
+      "entityName": "Nanocorp",
+      "entitySlug": "nanocorp",
+      "pulseSlug": "nanocorp",
+      "role": "Founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/nanocorp",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/plbiojout/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://plbiojout.com/"
+      },
+      "x": {
+        "value": "plbiojout",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://plbiojout.com/"
+      }
+    },
+    {
+      "id": "person:neon:Heikki Linnakangas",
+      "kind": "person",
+      "name": "Heikki Linnakangas",
+      "entityName": "Neon",
+      "entitySlug": "neon",
+      "pulseSlug": "stack-neon",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://posetteconf.com/speakers/heikki-linnakangas/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/heikki-linnakangas-6b58bb203/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "hlinnakangas",
+        "status": "review",
+        "reason": "Registry found the account but could not read its bio to confirm identity."
+      }
+    },
+    {
+      "id": "person:neon:Nikita Shamgunov",
+      "kind": "person",
+      "name": "Nikita Shamgunov",
+      "entityName": "Neon",
+      "entitySlug": "neon",
+      "pulseSlug": "stack-neon",
+      "role": "Co-founder & former CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.databricks.com/dataaisummit/speaker/nikita-shamgunov",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/nikitashamgunov/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "nikitabase",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:neon:Stas Kelvich",
+      "kind": "person",
+      "name": "Stas Kelvich",
+      "entityName": "Neon",
+      "entitySlug": "neon",
+      "pulseSlug": "stack-neon",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://github.com/kelvich",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": "kelvich",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:nous-research:Jeffrey Quesnelle",
+      "kind": "person",
+      "name": "Jeffrey Quesnelle",
+      "entityName": "Nous Research",
+      "entitySlug": "nous-research",
+      "pulseSlug": "stack-hermes",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/theemozilla",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jeffrey-quesnelle-2490a524/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "theemozilla",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:nous-research:Karan Malhotra",
+      "kind": "person",
+      "name": "Karan Malhotra",
+      "entityName": "Nous Research",
+      "entitySlug": "nous-research",
+      "pulseSlug": "stack-hermes",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.karan4d.com/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/karan-s-malhotra/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "karan4d",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:nous-research:Shivani Mitra",
+      "kind": "person",
+      "name": "Shivani Mitra",
+      "entityName": "Nous Research",
+      "entitySlug": "nous-research",
+      "pulseSlug": "stack-hermes",
+      "role": "Co-founder & founding CEO/President",
+      "relationship": "associated",
+      "sourceUrl": "https://www.linkedin.com/in/shivani-mitra/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/shivani-mitra/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "shivani_3000",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:nous-research:Teknium (Ryan Teknium)",
+      "kind": "person",
+      "name": "Teknium (Ryan Teknium)",
+      "entityName": "Nous Research",
+      "entitySlug": "nous-research",
+      "pulseSlug": "stack-hermes",
+      "role": "Co-founder & Head of Post-Training",
+      "relationship": "associated",
+      "sourceUrl": "https://nousresearch.com/wp-content/uploads/2025/08/Hermes_4_Technical_Report.pdf",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/teknium-b538932ab/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "teknium1",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:openai:Alexander Embiricos",
+      "kind": "person",
+      "name": "Alexander Embiricos",
+      "entityName": "OpenAI",
+      "entitySlug": "openai",
+      "pulseSlug": "stack-openai",
+      "role": "Codex product lead",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/embirico",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/embirico/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "embirico",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:openai:Greg Brockman",
+      "kind": "person",
+      "name": "Greg Brockman",
+      "entityName": "OpenAI",
+      "entitySlug": "openai",
+      "pulseSlug": "stack-openai",
+      "role": "Co-founder & President",
+      "relationship": "associated",
+      "sourceUrl": "https://gregbrockman.com/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/thegdb/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "gdb",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:openai:Jakub Pachocki",
+      "kind": "person",
+      "name": "Jakub Pachocki",
+      "entityName": "OpenAI",
+      "entitySlug": "openai",
+      "pulseSlug": "stack-openai",
+      "role": "Chief Scientist",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/merettm",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jakub-pachocki/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "merettm",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:openai:Sam Altman",
+      "kind": "person",
+      "name": "Sam Altman",
+      "entityName": "OpenAI",
+      "entitySlug": "openai",
+      "pulseSlug": "stack-openai",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://blog.samaltman.com/",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": "sama",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:openai:Thibault Sottiaux",
+      "kind": "person",
+      "name": "Thibault Sottiaux",
+      "entityName": "OpenAI",
+      "entitySlug": "openai",
+      "pulseSlug": "stack-openai",
+      "role": "Codex engineering lead",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/thsottiaux",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/thibault-sottiaux-27195366/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "thsottiaux",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:openclaw:Peter Steinberger",
+      "kind": "person",
+      "name": "Peter Steinberger",
+      "entityName": "OpenClaw",
+      "entitySlug": "openclaw",
+      "pulseSlug": "stack-openclaw",
+      "role": "Founder / creator",
+      "relationship": "former",
+      "sourceUrl": "https://x.com/steipete",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/steipete/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "steipete",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:openrouter:Alex Atallah",
+      "kind": "person",
+      "name": "Alex Atallah",
+      "entityName": "OpenRouter",
+      "entitySlug": "openrouter",
+      "pulseSlug": "stack-openrouter",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/alexatallah",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/alexatallah/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "alexatallah",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:openrouter:Louis Vichy",
+      "kind": "person",
+      "name": "Louis Vichy",
+      "entityName": "OpenRouter",
+      "entitySlug": "openrouter",
+      "pulseSlug": "stack-openrouter",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/louis_g_v",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/louisgv/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "louis_g_v",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:payman:Prashanth Pillareddy",
+      "kind": "person",
+      "name": "Prashanth Pillareddy",
+      "entityName": "Payman",
+      "entitySlug": "payman",
+      "pulseSlug": "payman",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://paymanai.com/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/prashanthkreddy/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "atomicprashanth",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:payman:Tyllen Bicakcic",
+      "kind": "person",
+      "name": "Tyllen Bicakcic",
+      "entityName": "Payman",
+      "entitySlug": "payman",
+      "pulseSlug": "payman",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://paymanai.com/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/tyllenbicakcic/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "0xtyllen",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:polar:Birk Jernström",
+      "kind": "person",
+      "name": "Birk Jernström",
+      "entityName": "Polar",
+      "entitySlug": "polar",
+      "pulseSlug": "stack-polar",
+      "role": "Founder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.accel.com/companies/polar",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/birknilson/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://se.linkedin.com/in/birknilson"
+      },
+      "x": {
+        "value": "birk",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://news.ycombinator.com/item?id=36722702"
+      }
+    },
+    {
+      "id": "person:polsia:Ben Cera",
+      "kind": "person",
+      "name": "Ben Cera",
+      "entityName": "Polsia",
+      "entitySlug": "polsia",
+      "pulseSlug": "polsia",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/Bencera",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/benbroca/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "bencera",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:postmark:Chris Nagele",
+      "kind": "person",
+      "name": "Chris Nagele",
+      "entityName": "Postmark",
+      "entitySlug": "postmark",
+      "pulseSlug": "stack-postmark",
+      "role": "Co-founder & CTO (Wildbit)",
+      "relationship": "former",
+      "sourceUrl": "https://www.wildbit.com/story.html",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": "cnagele",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:postmark:Jason VandeBoom",
+      "kind": "person",
+      "name": "Jason VandeBoom",
+      "entityName": "Postmark",
+      "entitySlug": "postmark",
+      "pulseSlug": "stack-postmark",
+      "role": "Founder & CEO (ActiveCampaign)",
+      "relationship": "uncertain",
+      "sourceUrl": "https://www.activecampaign.com/leadership/jason-vandeboom",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jvandeboom/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:postmark:Natalie Nagele",
+      "kind": "person",
+      "name": "Natalie Nagele",
+      "entityName": "Postmark",
+      "entitySlug": "postmark",
+      "pulseSlug": "stack-postmark",
+      "role": "Co-founder & CEO (Wildbit)",
+      "relationship": "former",
+      "sourceUrl": "https://www.wildbit.com/story.html",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": "natalienagele",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:render:Anurag Goel",
+      "kind": "person",
+      "name": "Anurag Goel",
+      "entityName": "Render",
+      "entitySlug": "render",
+      "pulseSlug": "stack-render",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://render.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/anuragoel/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "anuraggoel",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:render:Michael Greer",
+      "kind": "person",
+      "name": "Michael Greer",
+      "entityName": "Render",
+      "entitySlug": "render",
+      "pulseSlug": "stack-render",
+      "role": "VP of Engineering",
+      "relationship": "associated",
+      "sourceUrl": "https://render.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/michaelggreer/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:rentahuman:Alexander Liteplo",
+      "kind": "person",
+      "name": "Alexander Liteplo",
+      "entityName": "RentAHuman",
+      "entitySlug": "rentahuman",
+      "pulseSlug": "rentahuman",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://rentahuman.ai/humans/usIRzadv7zSqYE4adJxW",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/alexander-liteplo/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "alexandertw33ts",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:rentahuman:Patricia Tani",
+      "kind": "person",
+      "name": "Patricia Tani",
+      "entityName": "RentAHuman",
+      "entitySlug": "rentahuman",
+      "pulseSlug": "rentahuman",
+      "role": "Co-founder (former)",
+      "relationship": "former",
+      "sourceUrl": "https://rentahuman.ai/humans/S9zM7qvSYpvRYNokyYIk",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/patricia-tani/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "dopabees",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:resend:Bu Kinoshita",
+      "kind": "person",
+      "name": "Bu Kinoshita",
+      "entityName": "Resend",
+      "entitySlug": "resend",
+      "pulseSlug": "stack-resend",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://resend.com/humans/bu-kinoshita",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/bkinoshita/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "bukinoshita",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:resend:Jonni Lundy",
+      "kind": "person",
+      "name": "Jonni Lundy",
+      "entityName": "Resend",
+      "entitySlug": "resend",
+      "pulseSlug": "stack-resend",
+      "role": "Co-founder & COO",
+      "relationship": "associated",
+      "sourceUrl": "https://resend.com/humans/jonni-lundy",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jonnilundy/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "jonnilundy",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:resend:Zeno Rocha",
+      "kind": "person",
+      "name": "Zeno Rocha",
+      "entityName": "Resend",
+      "entitySlug": "resend",
+      "pulseSlug": "stack-resend",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://resend.com/humans/zeno-rocha",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/zenorocha/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "zenorocha",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:retell-ai:Bing Wu",
+      "kind": "person",
+      "name": "Bing Wu",
+      "entityName": "Retell AI",
+      "entitySlug": "retell-ai",
+      "pulseSlug": "retell-ai",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.retellai.com/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/bingw/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:retell-ai:Evie Wang",
+      "kind": "person",
+      "name": "Evie Wang",
+      "entityName": "Retell AI",
+      "entitySlug": "retell-ai",
+      "pulseSlug": "retell-ai",
+      "role": "Co-founder & CMO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.retellai.com/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/yanwang131415/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:retell-ai:Todd Li",
+      "kind": "person",
+      "name": "Todd Li",
+      "entityName": "Retell AI",
+      "entitySlug": "retell-ai",
+      "pulseSlug": "retell-ai",
+      "role": "Co-founder & President",
+      "relationship": "associated",
+      "sourceUrl": "https://www.retellai.com/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/toddli1/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:retell-ai:Weijia Yu",
+      "kind": "person",
+      "name": "Weijia Yu",
+      "entityName": "Retell AI",
+      "entitySlug": "retell-ai",
+      "pulseSlug": "retell-ai",
+      "role": "Co-founder & COO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.retellai.com/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/weijiayu88/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:retell-ai:Zexia Zhang",
+      "kind": "person",
+      "name": "Zexia Zhang",
+      "entityName": "Retell AI",
+      "entitySlug": "retell-ai",
+      "pulseSlug": "retell-ai",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.retellai.com/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/zexia-zhang/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:runpod:Pardeep Singh",
+      "kind": "person",
+      "name": "Pardeep Singh",
+      "entityName": "RunPod",
+      "entitySlug": "runpod",
+      "pulseSlug": "stack-runpod",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/flash__singh",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/pardeep-singh-917830237/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "flash__singh",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:runpod:Zhen Lu",
+      "kind": "person",
+      "name": "Zhen Lu",
+      "entityName": "RunPod",
+      "entitySlug": "runpod",
+      "pulseSlug": "stack-runpod",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://techcrunch.com/2026/01/16/ai-cloud-startup-runpod-hits-120m-in-arr-and-it-started-with-a-reddit-post/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/zeen/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:sciforium:Hassan Akbari",
+      "kind": "person",
+      "name": "Hassan Akbari",
+      "entityName": "Sciforium",
+      "entitySlug": "sciforium",
+      "pulseSlug": "stack-sciforium",
+      "role": "Founder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.sciforium.ai/company",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/hassan-akbari-48a1b270/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/in/hassan-akbari-48a1b270/"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:sciforium:Pankaj Lakhina",
+      "kind": "person",
+      "name": "Pankaj Lakhina",
+      "entityName": "Sciforium",
+      "entitySlug": "sciforium",
+      "pulseSlug": "stack-sciforium",
+      "role": "VP Engineering",
+      "relationship": "associated",
+      "sourceUrl": "https://www.sciforium.ai/company",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/pankajlakhina/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/posts/pankajlakhina_sciforium-jobs-activity-7404544227327627265-dEaV"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:semio:Braden McDorman",
+      "kind": "person",
+      "name": "Braden McDorman",
+      "entityName": "Semio",
+      "entitySlug": "semio",
+      "pulseSlug": "semio",
+      "role": "Cofounder; former CTO (left April 2023)",
+      "relationship": "former",
+      "sourceUrl": "https://mcdorman.io/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/bmcdorman/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://mcdorman.io/"
+      },
+      "x": {
+        "value": null,
+        "status": "missing",
+        "checkedAt": "2026-09-09"
+      }
+    },
+    {
+      "id": "person:semio:Ross Mead",
+      "kind": "person",
+      "name": "Ross Mead",
+      "entityName": "Semio",
+      "entitySlug": "semio",
+      "pulseSlug": "semio",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://semio.community/people/ross-mead/",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/rossmead/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://semio.community/people/ross-mead/"
+      },
+      "x": {
+        "value": "rossmead",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://x.com/RossMead/with_replies"
+      }
+    },
+    {
+      "id": "person:soniox:Ambroz Bizjak",
+      "kind": "person",
+      "name": "Ambroz Bizjak",
+      "entityName": "Soniox",
+      "entitySlug": "soniox",
+      "pulseSlug": "stack-soniox",
+      "role": "Co-founder & Chief Architect",
+      "relationship": "associated",
+      "sourceUrl": "https://soniox.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/ambroz-bizjak-07104a206/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "ambrozofficial",
+        "status": "review",
+        "reason": "Registry explicitly leaves ambrozofficial unconfirmed; the official site links only the company X account."
+      }
+    },
+    {
+      "id": "person:soniox:Klemen Simonic",
+      "kind": "person",
+      "name": "Klemen Simonic",
+      "entityName": "Soniox",
+      "entitySlug": "soniox",
+      "pulseSlug": "stack-soniox",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://soniox.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/klemensimonic/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "klemensimonic",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:supabase:Ant Wilson",
+      "kind": "person",
+      "name": "Ant Wilson",
+      "entityName": "Supabase",
+      "entitySlug": "supabase",
+      "pulseSlug": "stack-supabase",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://github.com/awalias",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/ant-wilson-46179937/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "antwilson",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:supabase:Paul Copplestone",
+      "kind": "person",
+      "name": "Paul Copplestone",
+      "entityName": "Supabase",
+      "entitySlug": "supabase",
+      "pulseSlug": "stack-supabase",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://github.com/kiwicopple",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/paulcopplestone/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "kiwicopple",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:together-ai:Ce Zhang",
+      "kind": "person",
+      "name": "Ce Zhang",
+      "entityName": "Together AI",
+      "entitySlug": "together-ai",
+      "pulseSlug": "stack-together-ai",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.together.ai/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/ce-zhang-6aa37419/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:together-ai:Chris Ré",
+      "kind": "person",
+      "name": "Chris Ré",
+      "entityName": "Together AI",
+      "entitySlug": "together-ai",
+      "pulseSlug": "stack-together-ai",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.together.ai/about-us",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:together-ai:Percy Liang",
+      "kind": "person",
+      "name": "Percy Liang",
+      "entityName": "Together AI",
+      "entitySlug": "together-ai",
+      "pulseSlug": "stack-together-ai",
+      "role": "Co-founder",
+      "relationship": "associated",
+      "sourceUrl": "https://www.together.ai/about-us",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:together-ai:Tri Dao",
+      "kind": "person",
+      "name": "Tri Dao",
+      "entityName": "Together AI",
+      "entitySlug": "together-ai",
+      "pulseSlug": "stack-together-ai",
+      "role": "Co-founder & Chief Scientist",
+      "relationship": "associated",
+      "sourceUrl": "https://www.together.ai/about-us",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:together-ai:Vipul Ved Prakash",
+      "kind": "person",
+      "name": "Vipul Ved Prakash",
+      "entityName": "Together AI",
+      "entitySlug": "together-ai",
+      "pulseSlug": "stack-together-ai",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.together.ai/about-us",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/vipulved/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:vapi:Jordan Dearsley",
+      "kind": "person",
+      "name": "Jordan Dearsley",
+      "entityName": "Vapi",
+      "entitySlug": "vapi",
+      "pulseSlug": "stack-vapi",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/jordan_dearsley",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/jordandearsley/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "jordan_dearsley",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:vapi:Nikhil Gupta",
+      "kind": "person",
+      "name": "Nikhil Gupta",
+      "entityName": "Vapi",
+      "entitySlug": "vapi",
+      "pulseSlug": "stack-vapi",
+      "role": "Co-founder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/nikhilro_",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/nikhilro/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "nikhilro_",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:vercel:Guillermo Rauch",
+      "kind": "person",
+      "name": "Guillermo Rauch",
+      "entityName": "Vercel",
+      "entitySlug": "vercel",
+      "pulseSlug": "stack-vercel",
+      "role": "Founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://rauchg.com/about",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/rauchg/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "rauchg",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:vercel:Malte Ubl",
+      "kind": "person",
+      "name": "Malte Ubl",
+      "entityName": "Vercel",
+      "entitySlug": "vercel",
+      "pulseSlug": "stack-vercel",
+      "role": "CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://x.com/cramforce",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/malteubl/",
+        "status": "verified",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": "cramforce",
+        "status": "verified"
+      }
+    },
+    {
+      "id": "person:wordware:Filip Kozera",
+      "kind": "person",
+      "name": "Filip Kozera",
+      "entityName": "Wordware (Sauna)",
+      "entitySlug": "wordware",
+      "pulseSlug": "wordware",
+      "role": "Cofounder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/wordware",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/filipkozera/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.linkedin.com/company/saunabywordware/"
+      },
+      "x": {
+        "value": "kozerafilip",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/wordware"
+      }
+    },
+    {
+      "id": "person:wordware:Robert Chandler",
+      "kind": "person",
+      "name": "Robert Chandler",
+      "entityName": "Wordware (Sauna)",
+      "entitySlug": "wordware",
+      "pulseSlug": "wordware",
+      "role": "Cofounder & CTO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.ycombinator.com/companies/wordware",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/robertjhchandler/",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/wordware"
+      },
+      "x": {
+        "value": "bertie_ai",
+        "status": "verified",
+        "checkedAt": "2026-09-09",
+        "sourceUrl": "https://www.ycombinator.com/companies/wordware"
+      }
+    },
+    {
+      "id": "person:z-ai:Li Juanzi",
+      "kind": "person",
+      "name": "Li Juanzi",
+      "entityName": "Z.ai",
+      "entitySlug": "z-ai",
+      "pulseSlug": "stack-z-ai",
+      "role": "Co-founder (academic)",
+      "relationship": "associated",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Z.ai",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:z-ai:Liu Debing",
+      "kind": "person",
+      "name": "Liu Debing",
+      "entityName": "Z.ai",
+      "entitySlug": "z-ai",
+      "pulseSlug": "stack-z-ai",
+      "role": "Co-founder & Chairman",
+      "relationship": "associated",
+      "sourceUrl": "https://www.zhipuai.cn/about",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:z-ai:Tang Jie",
+      "kind": "person",
+      "name": "Tang Jie",
+      "entityName": "Z.ai",
+      "entitySlug": "z-ai",
+      "pulseSlug": "stack-z-ai",
+      "role": "Co-founder & Chief Scientist",
+      "relationship": "associated",
+      "sourceUrl": "https://www.caixinglobal.com/2026-07-02/in-profile-this-trio-is-charting-the-course-for-chinas-leading-ai-developer-102460058.html",
+      "linkedin": {
+        "value": null,
+        "status": "missing"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "person:z-ai:Zhang Peng",
+      "kind": "person",
+      "name": "Zhang Peng",
+      "entityName": "Z.ai",
+      "entitySlug": "z-ai",
+      "pulseSlug": "stack-z-ai",
+      "role": "Co-founder & CEO",
+      "relationship": "associated",
+      "sourceUrl": "https://www.caixinglobal.com/2026-07-02/in-profile-this-trio-is-charting-the-course-for-chinas-leading-ai-developer-102460058.html",
+      "linkedin": {
+        "value": "https://www.linkedin.com/in/peng-zhang-771b94212/",
+        "status": "review",
+        "checkedAt": "2026-09-09"
+      },
+      "x": {
+        "value": null,
+        "status": "missing"
+      }
+    }
+  ],
+  "entityResearch": [
+    {
+      "pulseSlug": "nanocorp",
+      "name": "Nanocorp",
+      "website": "https://www.nanocorp.so/",
+      "description": "AI agents that build and operate businesses from a prompt.",
+      "sourceUrl": "https://www.ycombinator.com/companies/nanocorp",
+      "notes": [
+        "Use nanocorp.so and nanocorphq, not the unrelated nanocorp.ai cybersecurity company. YC lists Pierre-Louis Biojout as founder/CTO. No separate current CEO verified."
+      ]
+    },
+    {
+      "pulseSlug": "wordware",
+      "name": "Wordware (Sauna)",
+      "website": "https://www.wordware.ai/",
+      "description": "AI assistant workspace that uses context to build apps and automate work.",
+      "sourceUrl": "https://www.wordware.ai/story",
+      "notes": [
+        "Sauna is the current product/brand associated with Wordware. The YC founder section links Filip to an unrelated LinkedIn profile; use the independently corroborated filipkozera account."
+      ]
+    },
+    {
+      "pulseSlug": "feltsense",
+      "name": "Feltsense",
+      "website": "https://feltsense.com/",
+      "description": "Autonomous AI founder agents that launch and operate businesses.",
+      "sourceUrl": "https://beepartners.vc/feltsense",
+      "notes": [
+        "Founder and LinkedIn accounts are linked by investor Bee Partners. No named CTO or confidently matched X accounts found."
+      ]
+    },
+    {
+      "pulseSlug": "caffeine",
+      "name": "Caffeine",
+      "website": "https://caffeine.ai/",
+      "description": "Conversational AI app builder on the Internet Computer.",
+      "sourceUrl": "https://caffeine.ai/press",
+      "notes": [
+        "Dominic Williams is the founder. No separate CTO or confidently matched personal LinkedIn account verified."
+      ]
+    },
+    {
+      "pulseSlug": "atoms",
+      "name": "Atoms",
+      "website": "https://atoms.dev/",
+      "description": "Multi-agent AI team for solo founders, covering research, planning, software development, testing, deployment and iteration.",
+      "sourceUrl": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus",
+      "notes": [
+        "DeepWisdom/MetaGPT product. Official LinkedIn Showcase and posts URLs are verified and scheduled for collection. No separate CTO verified.",
+        "The 21 January 2026 announcement explicitly identifies Chenglin Wu as Founder and CEO of Atoms and reports $31M combined across Series A and A+. It names MetaGPT and OpenManus as earlier open-source projects; no separate CTO is identified.",
+        "TechRound’s 28 May 2026 interview uses Alex Wu for the founder/CEO. Atoms’ own about page links that interview while naming Chenglin Wu as its leader; Alex Wu is recorded as a reported name for the existing founder, not a second person. The interview identifies DeepWisdom as the company and Atoms AI as its product. Source: https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/",
+        "The interview claims more than 1 million customers across more than 100 countries. This is founder-reported adoption, with no paying-customer or revenue verification. Automatic income generation and autonomous self-improvement are roadmap goals, not evidence of current autonomous business operation."
+      ],
+      "officialLinkedinShowcase": "https://www.linkedin.com/showcase/atoms-dev/",
+      "funding": {
+        "announcedAt": "2026-01-21",
+        "amountUsd": 31000000,
+        "scope": "Combined Series A and Series A+; not a verified lifetime funding total",
+        "seriesALead": "Ant Group",
+        "seriesAPlusLead": "Cathay Innovation",
+        "participatingInvestors": [
+          "MindWorks Capital",
+          "Jinqiu Capital",
+          "Baidu Ventures"
+        ],
+        "sourceUrl": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus"
+      },
+      "officialLinkedinPosts": "https://www.linkedin.com/showcase/atoms-dev/posts/",
+      "additionalSourceUrls": [
+        "https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/"
+      ],
+      "interview": {
+        "sourceUrl": "https://techround.co.uk/interviews/alex-wu-founder-ceo-atoms-ai/",
+        "publishedAt": "2026-05-28",
+        "intervieweeName": "Alex Wu",
+        "parentCompany": "DeepWisdom",
+        "productLaunchedAt": "2026-01",
+        "reportedTraction": {
+          "customersMoreThan": 1000000,
+          "countriesMoreThan": 100,
+          "status": "Founder-reported; not independently verified; paying status unspecified"
+        },
+        "roadmapStatus": "Automatic income generation and self-improving AI are stated goals, not verified shipped capabilities."
+      }
+    },
+    {
+      "pulseSlug": "semio",
+      "name": "Semio",
+      "website": "https://semio.ai/",
+      "description": "Robotics AI software for natural human–robot interaction.",
+      "sourceUrl": "https://semio.community/people/ross-mead/",
+      "notes": [
+        "semio.ai returned unrelated Uzbek gambling content during this check; indexed about-us content also contained injected gambling links. Treat the website as unreliable pending owner confirmation. This does not establish whether the business is active or closed.",
+        "Ross Mead is identified as founder/CEO by semio.community. Braden McDorman’s own resume dates his cofounder/CTO role through 2023-04-03; track him as a former affiliate. No current CTO verified.",
+        "Semio_AI is referenced in Ross Mead’s X bio, but the company X account remains under review."
+      ]
+    },
+    {
+      "pulseSlug": "lunavo",
+      "name": "Lunavo",
+      "website": "https://lunavo.ai/",
+      "description": "AI assistant and back-office automation for trucking carriers.",
+      "sourceUrl": "https://www.ycombinator.com/companies/lunavo",
+      "notes": [
+        "Both founders and LinkedIn profiles are linked by YC and the official site. No confidently matched X accounts found."
+      ]
+    },
+    {
+      "pulseSlug": "11x",
+      "name": "11x",
+      "website": "https://www.11x.ai/",
+      "description": "AI digital workers for sales and go-to-market operations, including Alice and Julian.",
+      "sourceUrl": "https://www.11x.ai/about-us",
+      "notes": [
+        "Hasan Sukkar announced his move from CEO to non-executive chairman in May 2025. Prabhav Jain announced his move from CTO to CEO. Do not label Hasan current CEO or Prabhav current CTO. No successor CTO or personal X accounts verified."
+      ]
+    },
+    {
+      "pulseSlug": "stack-sciforium",
+      "name": "Sciforium",
+      "website": "https://www.sciforium.ai/",
+      "description": "AI model inference infrastructure.",
+      "sourceUrl": "https://www.sciforium.ai/company",
+      "notes": [
+        "Official team names Hassan Akbari as founder and Pankaj Lakhina as VP Engineering. VP Engineering is not evidence of a CTO title. Personal X accounts remain unverified."
+      ]
+    },
+    {
+      "pulseSlug": "stack-polar",
+      "name": "Polar",
+      "website": "https://polar.sh/",
+      "description": "Billing and merchant-of-record infrastructure used by software and AI businesses.",
+      "sourceUrl": "https://polar.sh/company",
+      "notes": [
+        "Supporting infrastructure rather than an AI agent service. Keep in the stack category if the scope includes tools used to operate AI businesses. Do not confuse with unrelated advertising companies named Polar. No CTO title verified."
+      ]
+    },
+    {
+      "pulseSlug": "stack-agentmail",
+      "name": "AgentMail (YC S25)",
+      "website": "https://agentmail.to/",
+      "description": "API providing email inboxes for AI agents.",
+      "sourceUrl": "https://www.ycombinator.com/companies/agentmail",
+      "notes": [
+        "YC links all three founders and their social profiles. This is agent email infrastructure."
+      ]
+    },
+    {
+      "pulseSlug": "stack-blaxel",
+      "name": "Blaxel (YC X25)",
+      "website": "https://blaxel.ai/",
+      "description": "Compute and persistent sandbox infrastructure for AI agents.",
+      "sourceUrl": "https://www.ycombinator.com/companies/blaxel",
+      "notes": [
+        "The company’s AI information page and YC identify six cofounders. Only Nicolas Lecomte’s personal X account was linked by the reviewed sources."
+      ],
+      "additionalSourceUrls": [
+        "https://blaxel.ai/ai-information"
+      ]
+    }
+  ],
+  "unresearchedEntities": [
+    {
+      "name": "Claude Code",
+      "slug": "stack-claude-code"
+    },
+    {
+      "name": "OpenAI Codex",
+      "slug": "stack-openai-codex"
+    }
+  ]
+}

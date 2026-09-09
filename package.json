@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "pulse": "node scripts/update-pulse.mjs",
+    "pulse:plan": "node scripts/update-pulse.mjs --social-plan",
+    "pulse:watchlist": "python3 scripts/generate-social-watchlist.py",
+    "test:pulse": "node --test scripts/tests/*.test.mjs",
     "gen:index": "node --experimental-strip-types scripts/generate-index-readme.ts",
     "send:edition": "node --experimental-strip-types scripts/send-edition.ts"
   },
