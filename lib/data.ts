@@ -409,7 +409,7 @@ export const companies: Company[] = [
       // Source: https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus
       totalRaised: "$31M (Series A + A+)",
       lastRound: "Series A+ (Cathay Innovation; Series A led by Ant Group)",
-      date: "2026-01 (announced)",
+      date: "announced Jan 2026",
       valuation: null,
       investors: ["Ant Group", "Cathay Innovation", "Jinqiu Capital", "MindWorks Capital", "Baidu Ventures"],
     },
