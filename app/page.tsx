@@ -75,8 +75,8 @@ export default function Home() {
             Business on <span className="text-lime-400">Autopilot</span>
           </h1>
           <p className="max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-            <span className="font-semibold text-zinc-100">One human. $10M ARR. Zero employees.</span> The org
-            chart is now a prompt — we track everyone building this way.
+            <span className="font-semibold text-zinc-100">How much of a business can AI actually run?</span> Compare
+            the evidence, see where humans remain involved, and follow real experiments.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-start">
             <a
@@ -109,14 +109,22 @@ export default function Home() {
         <SectionTitle
           kicker="01 · Leaderboard"
           title="The autopilot index"
-          sub="The metric that matters in this category isn't headcount — it's how much business each human can orchestrate. Click a column to sort. Unverified rows are companies we're still researching."
+          sub="Start with source strength, then assessed autonomy. Explore the Index, claims still on the watchlist, enabling tools and cautionary cases separately."
         />
         <Leaderboard companies={companies} />
         <p className="mt-3 text-xs text-zinc-600">
-          Each figure links to its data source (Crunchbase, LinkedIn, press) where one exists. Figures without a
-          source are self-reported claims — treat as directional.
+          Evidence grades describe recorded sources, not proof of autonomous operation. Open a company profile
+          for human involvement, source links and unresolved questions.
         </p>
+        <Link href="/companies" className="mt-4 inline-block text-sm text-lime-400 hover:underline">Browse all company profiles →</Link>
       </section>
+
+      <aside className="my-8 rounded-2xl border border-lime-400/30 bg-lime-400/5 p-6 sm:p-8">
+        <p className="font-mono text-xs uppercase tracking-widest text-lime-400">Field experiment · prepared</p>
+        <h2 className="mt-3 text-2xl font-bold text-zinc-100">Can Atoms help one person launch a useful product?</h2>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-zinc-400">Follow the Solo Revenue Planner test: a fixed build prompt, correctness checks, and a public log of cost, time and human interventions. The Atoms build has not started; results remain unmeasured.</p>
+        <Link href="/experiments/atoms" className="mt-4 inline-block text-sm font-medium text-lime-400 hover:underline">Read the experiment and measurement plan →</Link>
+      </aside>
 
       {/* Companies */}
       <section id="companies" className="scroll-mt-24 py-12">

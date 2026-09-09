@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { editions } from "@/lib/editions";
+import { companies } from "@/lib/data";
 
 const BASE = "https://autopilotindex.com";
 
@@ -8,6 +9,8 @@ const STATIC_PATHS = [
   "",
   "/pulse",
   "/news",
+  "/companies",
+  "/experiments/atoms",
   "/submit",
   "/pricing",
   "/developers",
@@ -37,5 +40,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticEntries, ...editionEntries];
+  const companyEntries: MetadataRoute.Sitemap = companies.map(({ slug }) => ({
+    url: `${BASE}/companies/${slug}`,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
+  return [...staticEntries, ...companyEntries, ...editionEntries];
 }

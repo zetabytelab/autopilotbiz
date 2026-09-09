@@ -58,6 +58,17 @@ after research changes; no live synchronization from the private repo is assumed
 - Social posts deduplicate by URL, not similar titles. A short post such as
   “We are hiring” from two different founders remains two separate signals.
 
+## How the cursor moves
+
+Both actors return the newest posts inside the requested window, so a page that
+hits the item cap is still complete at the fresh end, which is the end a news
+feed needs. A capped page therefore advances `lastSuccessAt` and records
+`lastTruncatedAt`; the run is still reported as `partial` so coverage stays
+honest. Only doubt about the page holds the cursor back: an author that does not
+match the verified account, or a malformed post. Holding the cursor back on a
+cap would re-buy the same newest posts on every run and never reach the older
+ones, because the window always returns the newest first.
+
 ## Collection cadence
 
 The LinkedIn actor charges for an account even when it has no new posts, so the
@@ -88,9 +99,9 @@ Settings can be supplied as environment variables:
 |---|---:|---|
 | `PULSE_SOCIAL_PLATFORMS` | `x,linkedin` | Platforms this run collects. Others keep their cursor and are not billed |
 | `PULSE_SOCIAL_CONCURRENCY` | 3 | Maximum simultaneous requests |
-| `PULSE_X_MAX_ITEMS` | 10 | Maximum requested tweets per account |
+| `PULSE_X_MAX_ITEMS` | 20 | Maximum requested tweets per account |
 | `PULSE_LINKEDIN_MAX_POSTS` | 10 | Maximum requested posts per profile/page |
-| `PULSE_X_MAX_CHARGE_USD` | 0.01 | Per-X-target actor charge ceiling |
+| `PULSE_X_MAX_CHARGE_USD` | 0.02 | Per-X-target actor charge ceiling |
 | `PULSE_LINKEDIN_MAX_CHARGE_USD` | 0.03 | Per-LinkedIn-target actor charge ceiling |
 | `PULSE_SOCIAL_TIMEOUT_SECONDS` | 180 | Actor timeout; HTTP timeout adds 15 seconds |
 

@@ -1,0 +1,42 @@
+{
+  "experimentId": "atoms-solo-revenue-planner-2026-09",
+  "protocolVersion": "1.0",
+  "preparedOn": "2026-09-09",
+  "status": "prepared",
+  "statusNote": "Protocol and build brief prepared. An Atoms build, product launch and customer observation have not been completed.",
+  "product": "Solo Revenue Planner",
+  "buildStartedAt": null,
+  "buildCompletedAt": null,
+  "productUrl": null,
+  "exportedRepositoryUrl": null,
+  "observationStartedAt": null,
+  "observationEndedAt": null,
+  "metrics": {
+    "cashSpendUsd": null,
+    "allocatedSubscriptionCostUsd": null,
+    "creditsConsumed": null,
+    "humanMinutes": null,
+    "elapsedBuildMinutes": null,
+    "humanInterventions": null,
+    "acceptanceChecksPassed": null,
+    "uniqueVisitors": null,
+    "completedCalculations": null,
+    "payingCustomers": null,
+    "grossRevenueUsd": null,
+    "refundsUsd": null,
+    "paymentFeesUsd": null
+  },
+  "attribution": {
+    "protocol": "Prepared with Codex for The Autopilot Index",
+    "productBuilder": null,
+    "externalCodingAssistance": []
+  },
+  "events": [],
+  "acceptanceResults": [],
+  "evidence": [],
+  "limitations": [
+    "An empty measurement is unknown, not zero.",
+    "Publishing this protocol is not a product launch or evidence of Atoms execution.",
+    "A working calculator cannot establish autonomous customer acquisition or business operation."
+  ]
+}

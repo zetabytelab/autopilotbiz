@@ -5,6 +5,7 @@ import { writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { companies, caseStudies, stackLayers, stackTools, switchLog } from "../lib/data.ts";
+import { compareEvidenceThenAutonomy } from "../lib/autonomy.ts";
 
 const LEVEL_ORDER = { L5: 0, L4: 1, L3: 2, L2: 3 } as const;
 const cell = (s: string | null | undefined) => (s && s.length ? s.replace(/\|/g, "\\|") : "—");
@@ -12,10 +13,7 @@ const link = (name: string, url: string | null) => (url ? `[${name}](${url})` : 
 
 const indexed = companies
   .filter((c) => c.autopilot?.section === "index")
-  .sort((a, b) => {
-    const la = LEVEL_ORDER[a.autopilot!.level ?? "L2"] - LEVEL_ORDER[b.autopilot!.level ?? "L2"];
-    return la !== 0 ? la : (a.autopilot!.evidence ?? "D").localeCompare(b.autopilot!.evidence ?? "D");
-  });
+  .sort(compareEvidenceThenAutonomy);
 
 const indexRows = indexed
   .map((c) => {
@@ -78,7 +76,7 @@ const readme = `<!-- GENERATED FILE — do not edit by hand.
 
 A new category is forming: businesses where **agents execute and humans direct**. One-person companies at $10M run rates. A payroll of two at $401M in audited sales. Sam Altman bet his CEO friends on when the first near-one-person billion-dollar company would appear — [he thinks he already won](https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html).
 
-This index tracks that category the way self-driving was tracked: by **autonomy level**, with every metric **evidence-graded and sourced**. Revenue is the least reliable signal in a category this young — autonomy is observable, so that's what we rank.
+This index ranks companies by **source strength, then assessed autonomy**. Evidence grades describe the sources behind reported facts, including financials; they do not certify autonomous operation. Levels are editorial assessments, and human involvement still needs to be checked.
 
 **Live tracker with full profiles, stack pyramid & news pulse → [autopilotindex.com](https://autopilotindex.com)**
 
@@ -115,7 +113,7 @@ This index tracks that category the way self-driving was tracked: by **autonomy 
 
 ## The Index
 
-*Autopilot-run companies with real economics, ranked by autonomy level, then evidence.*
+*Companies with reported economics, ranked by evidence grade, then assessed autonomy. Open the website profiles for source links, human involvement and unresolved questions.*
 
 | Company | Level | Evidence | Humans | Revenue | The story | Flags |
 |---|---|---|---|---|---|---|

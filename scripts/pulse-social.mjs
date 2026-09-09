@@ -82,10 +82,10 @@ export function socialSettings(env = process.env) {
   return {
     platforms: platformSetting(env, "PULSE_SOCIAL_PLATFORMS"),
     concurrency: numberSetting(env, "PULSE_SOCIAL_CONCURRENCY", 3, 1, 10, true),
-    xMaxItems: numberSetting(env, "PULSE_X_MAX_ITEMS", 10, 1, 100, true),
+    xMaxItems: numberSetting(env, "PULSE_X_MAX_ITEMS", 20, 1, 100, true),
     linkedinMaxPosts: numberSetting(env, "PULSE_LINKEDIN_MAX_POSTS", 10, 1, 100, true),
     // Explicit per-target ceilings, including actor events, not price estimates.
-    xMaxChargeUsd: numberSetting(env, "PULSE_X_MAX_CHARGE_USD", 0.01, 0.001, 1),
+    xMaxChargeUsd: numberSetting(env, "PULSE_X_MAX_CHARGE_USD", 0.02, 0.001, 1),
     linkedinMaxChargeUsd: numberSetting(env, "PULSE_LINKEDIN_MAX_CHARGE_USD", 0.03, 0.001, 1),
     timeoutSeconds: numberSetting(env, "PULSE_SOCIAL_TIMEOUT_SECONDS", 180, 1, 240, true),
     lookbackDays: 30,
@@ -239,13 +239,19 @@ export async function collectSocial({ watchlist, token, state = { targets: {} },
         const normalized = normalizeSocialRows(target, rows, now, settings);
         const cap = target.platform === "x" ? settings.xMaxItems : settings.linkedinMaxPosts;
         const hitLimit = rows.length >= cap;
-        const partial = hitLimit || Boolean(normalized.rejected["author-mismatch"] || normalized.rejected.malformed);
+        // Author or shape problems mean the page cannot be trusted as coverage.
+        const suspect = Boolean(normalized.rejected["author-mismatch"] || normalized.rejected.malformed);
+        const partial = hitLimit || suspect;
         items.push(...normalized.items);
         runs.push({ id: target.id, status: partial ? "partial" : normalized.items.length ? "ok" : "empty", ok: !partial,
           items: normalized.items.length, fetched: rows.length, hitLimit, rejected: normalized.rejected, ms: Date.now() - started });
-        // A capped or malformed response is not evidence of complete coverage.
+        // Both actors return the newest posts in the window, so a capped page is
+        // still complete at the fresh end, which is the end a news feed needs.
+        // Holding the cursor back would re-buy those same posts every run and
+        // never reach the older ones, so a cap advances and only doubt holds.
         nextState.targets[target.id] = { ...(previous ?? {}), lastAttemptAt: checkedAt,
-          ...(!partial ? { lastSuccessAt: checkedAt } : {}) };
+          ...(hitLimit ? { lastTruncatedAt: checkedAt } : {}),
+          ...(!suspect ? { lastSuccessAt: checkedAt } : {}) };
       } catch (error) {
         // Sanitize unexpected transport errors too; never persist the token.
         const reason = String(error?.message ?? error).split(token).join("[redacted]").slice(0, 240);
@@ -294,7 +300,7 @@ export function validateSocialState(state) {
     throw new Error("Invalid social collector state");
   }
   for (const [id, target] of Object.entries(state.targets)) {
-    for (const field of ["lastAttemptAt", "lastSuccessAt"]) {
+    for (const field of ["lastAttemptAt", "lastSuccessAt", "lastTruncatedAt"]) {
       if (target[field] !== undefined && !Number.isFinite(Date.parse(target[field]))) throw new Error(`Invalid ${field}: ${id}`);
     }
   }

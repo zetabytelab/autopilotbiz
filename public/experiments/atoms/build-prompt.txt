@@ -1,0 +1,47 @@
+Experiment: Solo Revenue Planner
+Protocol: atoms-solo-revenue-planner-2026-09 v1.0
+
+Build a useful, polished, accessible web app called Solo Revenue Planner for people evaluating a small software business they can run alone.
+
+The app should answer: how many customers cover my monthly costs, what surplus could my assumptions produce, and how much human work remains?
+
+First show a concise implementation plan and any assumptions. Ask me to approve the plan before building. Use the simplest architecture that meets the requirements. Do not require external APIs, paid services, a database, user accounts or payment integration. Do not purchase anything, run ads, send outreach or publish without my explicit approval. Use only the account's available free credits; stop if the next step requires payment. Tell me if the available credits are insufficient.
+
+PRODUCT REQUIREMENTS
+1. Responsive single-page calculator with clearly labelled numeric inputs:
+   - price per customer per month in USD
+   - variable cost per customer per month in USD
+   - payment processing fee as a percentage of revenue
+   - fixed monthly costs in USD
+   - customer count, a whole number
+   - human support minutes per customer per month
+   - fixed human hours per month
+   - value of the operator's time per hour in USD
+2. Calculate immediately when valid inputs change. Explain invalid values alongside the input. Reject negatives, missing/non-finite values, fractional customer counts and fee percentages above 100.
+3. Display and explain these calculations:
+   contributionPerCustomer = price * (1 - feePercent / 100) - variableCost
+   revenue = price * customers
+   paymentFees = revenue * feePercent / 100
+   operatingSurplus = contributionPerCustomer * customers - fixedCosts
+   humanHours = customers * supportMinutes / 60 + fixedHumanHours
+   economicSurplus = operatingSurplus - humanHours * hourlyValue
+   If contributionPerCustomer > 0, breakEvenCustomers = ceil(fixedCosts / contributionPerCustomer).
+   Otherwise display "No break-even at these assumptions" instead of a numeric customer count.
+4. Treat these as illustrative scenarios, not observed results, forecasts or financial advice. Clearly distinguish operating surplus before owner time from economic surplus after valuing owner time. Exclude taxes and setup costs from this simple model and say so. Do not label either number profit after tax.
+5. Include default sample inputs, a reset button and a downloadable JSON export containing all input assumptions and calculated outputs. The export must include a schema version and generation timestamp. If break-even is unavailable, export null plus an explanation, not Infinity or NaN.
+6. Keep scenario data in the browser only. Local persistence is optional; clearly disclose it and let Reset remove it. Do not send entered inputs or exports to any server, analytics provider or external AI model. No trackers or contact collection.
+7. Use a clean dark interface with readable contrast, lime accents, mobile-friendly cards and a compact explanation of the formulas. Support keyboard navigation, visible focus, associated labels and accessible errors. Work at 375px and desktop widths without horizontal overflow.
+8. Include a short FAQ explaining assumptions and what the tool cannot determine: willingness to pay, acquisition cost, churn and whether agents can deliver the service autonomously.
+
+ACCEPTANCE FIXTURES
+A1: price=20, variableCost=4, feePercent=3, fixedCosts=30, customers=10. Expected contributionPerCustomer=15.40; revenue=200; paymentFees=6; breakEvenCustomers=2; operatingSurplus=124.
+A2: Use A1 with supportMinutes=15, fixedHumanHours=2, hourlyValue=25. Expected humanHours=4.5; economicSurplus=11.50.
+A3: price=4, variableCost=4, feePercent=0. Break-even must read "No break-even at these assumptions". No Infinity or NaN anywhere.
+A4: customers=0 with the other A1/A2 inputs. Expected revenue=0, paymentFees=0, operatingSurplus=-30, humanHours=2, economicSurplus=-80. Test blank, negative and non-finite values, feePercent=101 and customers=1.5: all invalid inputs must be explained without fabricated results.
+A5: At 375px width no horizontal overflow; keyboard can reach all controls; all inputs and validation messages are understandable.
+A6: JSON export agrees with the current scenario. Reset removes locally saved scenario data if any. Entered scenario data never leaves the browser.
+
+DELIVERY
+After approval, build the app, execute the fixtures and report actual results with any failures. Provide a working preview and tell me how to publish and export the project on this account. Do not claim any unperformed test passed. Stop for approval before publishing. Do not claim the app has users or revenue.
+
+We are measuring time, credits and human intervention. Keep your plan concise, identify limitations explicitly, and summarize changes and remaining failures after each correction. I will independently check the output. Do not add features outside this scope.

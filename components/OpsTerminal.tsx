@@ -33,10 +33,10 @@ export default function OpsTerminal() {
             <span className="h-2.5 w-2.5 rounded-full bg-[#1f5228]" />
             <span className="h-2.5 w-2.5 rounded-full bg-[#7ee787]" />
           </div>
-          <p className="font-mono text-[11px] text-[#5e8f66]">polsia-ops · nobody@keyboard</p>
+          <p className="font-mono text-[11px] text-[#5e8f66]">example-ops · nobody@keyboard</p>
           <p className="flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-wider text-[#7ee787] [text-shadow:0_0_10px_rgba(126,231,135,.6)]">
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#7ee787]" />
-            live
+            demo
           </p>
         </div>
         <div className="relative h-[280px] overflow-hidden px-4 py-3 text-left">
@@ -61,7 +61,7 @@ export default function OpsTerminal() {
         </div>
       </div>
       <p className="mt-3 text-center font-mono text-[11px] text-zinc-600">
-        A night at an agent-run company. The human reads it at breakfast.
+        Illustrative simulation. These are example events, not company telemetry.
       </p>
     </div>
   );

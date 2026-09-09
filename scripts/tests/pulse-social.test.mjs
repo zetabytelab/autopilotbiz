@@ -179,16 +179,26 @@ test("one failed target preserves the others, bounds concurrency and retains its
   assert.equal(JSON.stringify(result.report).includes("fixture-secret"), false);
 });
 
-test("missing credentials are visible and invoke no actors; truncated responses do not advance the cursor", async () => {
+test("missing credentials are visible and invoke no actors; a truncated page still advances, an untrustworthy one does not", async () => {
   const small = { ...watchlist, subjects: [egbe.subject] };
   let calls = 0;
   const skipped = await collectSocial({ watchlist: small, token: "", settings, runTarget: async () => { calls++; return []; } });
   assert.equal(calls, 0);
   assert.ok(skipped.runs.every((r) => r.status === "skipped"));
-  const result = await collectSocial({ watchlist: small, token: "fixture", settings: { ...settings, linkedinMaxPosts: 1 }, now,
+  // Both actors return the newest posts first, so a capped page is complete at
+  // the fresh end. Holding the cursor back re-buys it every run for ever.
+  const capped = await collectSocial({ watchlist: small, token: "fixture", settings: { ...settings, linkedinMaxPosts: 1 }, now,
     runTarget: async (t) => t.platform === "linkedin" ? [linkedInPost()] : [] });
-  assert.equal(result.runs.find((r) => r.id === egbe.id).status, "partial");
-  assert.equal(result.state.targets[egbe.id].lastSuccessAt, undefined);
+  assert.equal(capped.runs.find((r) => r.id === egbe.id).status, "partial");
+  assert.equal(capped.state.targets[egbe.id].lastSuccessAt, new Date(now).toISOString());
+  assert.equal(capped.state.targets[egbe.id].lastTruncatedAt, new Date(now).toISOString());
+  // A page whose author cannot be confirmed is not coverage at any end.
+  const wrongAuthor = { ...linkedInPost(), author: { linkedinUrl: "https://www.linkedin.com/company/someone-else/" } };
+  const doubted = await collectSocial({ watchlist: small, token: "fixture", settings, now,
+    runTarget: async (t) => t.platform === "linkedin" ? [wrongAuthor] : [] });
+  assert.equal(doubted.runs.find((r) => r.id === egbe.id).status, "partial");
+  assert.equal(doubted.state.targets[egbe.id].lastSuccessAt, undefined);
+  assert.equal(doubted.state.targets[egbe.id].lastAttemptAt, new Date(now).toISOString());
 });
 
 test("Apify requests have timeouts and spend ceilings, keep secrets out of URLs, and never retry run-start POSTs", async () => {

@@ -1,5 +1,6 @@
 import type { Company } from "@/lib/data";
 import Logo from "@/components/Logo";
+import Link from "next/link";
 
 export default function CompanyCard({ company: c }: { company: Company }) {
   return (
@@ -8,13 +9,7 @@ export default function CompanyCard({ company: c }: { company: Company }) {
         <div>
           <h3 className="flex items-center gap-2.5 text-lg font-semibold text-zinc-100">
             <Logo url={c.url} name={c.name} size={24} />
-            {c.url ? (
-              <a href={c.url} target="_blank" rel="noopener noreferrer" className="hover:text-lime-400">
-                {c.name} <span className="text-zinc-600">↗</span>
-              </a>
-            ) : (
-              c.name
-            )}
+            <Link href={`/companies/${c.slug}`} className="hover:text-lime-400">{c.name}</Link>
           </h3>
           <p className="mt-0.5 text-sm italic text-zinc-400">“{c.tagline}”</p>
         </div>
@@ -72,6 +67,10 @@ export default function CompanyCard({ company: c }: { company: Company }) {
           ))}
         </ul>
       )}
+      <div className="mt-auto flex flex-wrap gap-4 border-t border-zinc-800/80 pt-3 text-xs">
+        <Link href={`/companies/${c.slug}`} className="font-medium text-lime-400 hover:underline">Evidence & full profile →</Link>
+        {c.url && <a href={c.url} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-100">Company website ↗</a>}
+      </div>
     </article>
   );
 }

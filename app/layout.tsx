@@ -54,15 +54,15 @@ export default function RootLayout({
             <Link href="/" className="font-mono text-sm font-bold tracking-tight text-zinc-100 hover:text-lime-400">
               autopilot<span className="text-lime-400">index</span>
             </Link>
-            <div className="flex items-center gap-5 text-sm">
+            <div className="flex items-center gap-3 text-xs sm:gap-5 sm:text-sm">
               <Link href="/#leaderboard" className="text-zinc-400 hover:text-zinc-100">
-                Leaderboard
+                Index
               </Link>
               <Link href="/#stack" className="hidden text-zinc-400 hover:text-zinc-100 sm:inline">
                 Stack
               </Link>
-              <Link href="/pulse" className="hidden text-zinc-400 hover:text-zinc-100 sm:inline">
-                Editions
+              <Link href="/companies" className="hidden text-zinc-400 hover:text-zinc-100 sm:inline">
+                Companies
               </Link>
               <Link href="/submit" className="text-zinc-400 hover:text-zinc-100">
                 Submit
@@ -88,6 +88,9 @@ export default function RootLayout({
           </a>
           <nav className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs text-zinc-500">
             <Link href="/about" className="hover:text-lime-400">About</Link>
+            <Link href="/companies" className="hover:text-lime-400">Companies</Link>
+            <Link href="/experiments/atoms" className="hover:text-lime-400">Atoms experiment</Link>
+            <Link href="/pulse" className="hover:text-lime-400">Editions</Link>
             <Link href="/pricing" className="hover:text-lime-400">Pricing</Link>
             <Link href="/developers" className="hover:text-lime-400">Developers</Link>
             <Link href="/contact" className="hover:text-lime-400">Contact</Link>
