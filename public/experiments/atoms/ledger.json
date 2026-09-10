@@ -3,7 +3,7 @@
   "protocolVersion": "1.0",
   "preparedOn": "2026-09-09",
   "status": "verifying",
-  "statusNote": "A real Atoms preview is now under verification. Thirteen independently captured numerical and validation cases passed; acceptance checks A1\u2013A4 are accepted (4 of 8). Keyboard and actual JSON-download evidence is partial; mobile, privacy, public launch and original code export remain unverified. Final credit use and build-completion time are unknown.",
+  "statusNote": "The running Atoms preview passed 13 independent numerical/validation scenarios (A1\u2013A4). Actual scenario JSON download was verified. A user-supplied screenshot confirms workspace file downloads require PRO or MAX; source export/local execution are unavailable within the free-plan scope. Mobile, privacy and publication checks remain incomplete.",
   "product": "Solo Revenue Planner",
   "buildStartedAt": "2026-09-10T11:49:00.524Z",
   "buildCompletedAt": null,
@@ -149,6 +149,22 @@
         "preview-v5-downloaded-baseline",
         "preview-v5-keyboard"
       ]
+    },
+    {
+      "id": "source-export-paid-gate-2026-09-10",
+      "startedAt": "2026-09-10T12:27:06.751214+00:00",
+      "endedAt": "2026-09-10T12:27:06.751214+00:00",
+      "stage": "verification",
+      "actor": "external-ai",
+      "action": "Reviewed user-supplied screenshot of the workspace download upgrade dialog. Timestamp records this note, not the exact click time.",
+      "activeHumanMinutes": null,
+      "isHumanIntervention": false,
+      "creditsUsed": null,
+      "cashSpendUsd": null,
+      "outcome": "Source file download is restricted to PRO/MAX. No upgrade purchased or export restriction bypassed.",
+      "evidenceIds": [
+        "source-export-paid-gate-2026-09-10"
+      ]
     }
   ],
   "acceptanceResults": [
@@ -231,12 +247,12 @@
     },
     {
       "checkId": "A8",
-      "status": "not_run",
-      "observedAt": null,
-      "observed": "Original code export and independent local execution unverified.",
+      "status": "unavailable",
+      "observedAt": "2026-09-10T12:27:06.751214+00:00",
+      "observed": "The workspace download action displayed Download Requires Upgrade: file downloads are only available for PRO and MAX users. Original source export and local execution are unavailable within the authorized free-plan scope. This differs from the working in-app scenario JSON download.",
       "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
       "evidenceIds": [
-        "preview-verification-note-2026-09-10"
+        "source-export-paid-gate-2026-09-10"
       ]
     }
   ],
@@ -336,6 +352,14 @@
       "location": "docs/experiments/atoms/evidence/preview-v5-keyboard.json",
       "visibility": "public",
       "description": "Actual focus sequence for 7 following inputs, both buttons and summary controls with lime focus styling. Source has no timestamp; timestamp records review. Mobile coverage not established."
+    },
+    {
+      "id": "source-export-paid-gate-2026-09-10",
+      "type": "operator-note",
+      "capturedAt": "2026-09-10T12:27:06.751214+00:00",
+      "location": "docs/experiments/atoms/EXPORT-RESTRICTION-2026-09-10.md",
+      "visibility": "public",
+      "description": "User-supplied screenshot confirms the source download paid-plan gate. Prior screenshot shows 11.07 credits remaining; this is a balance observation, not a reconciled usage statement."
     }
   ],
   "limitations": [
