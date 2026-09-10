@@ -156,10 +156,10 @@ export const editions: Edition[] = [
         image: "/pulse/06-veris-fidelity.jpg",
         imageAlt: "721 tests written by people who never saw the twin, 703 matching the real vendor with zero false passes, and 3.6 times faster",
         paras: [
-          "This is where most simulation pitches wave their hands. Veris ran an experiment designed to fail. They took other people's open-source integration suites across fifteen services, from Stripe to Calendly, pointed them at the real vendor, then at the twin, **changing only the base URL**.",
+          "This is where most simulation pitches wave their hands. Veris ran an experiment designed to fail, and published it at veris.ai/fidelity. They took an integration test suite somebody else wrote, Nango's open-source templates, covering fifteen services from Stripe to Calendly. They ran it unmodified against the real vendor first, then against the twin, **changing only the base URL**.",
           "721 tests. 703 matched on both outcome and error code. **Zero false passes**, which is the failure mode that ships broken code. Of the eighteen failures they attributed fourteen to their own setup, stale data or a vendor outage, and four to the twin.",
-          "The sharper number is underneath: on a fresh deployment 238 of 238 runs were identical, while the live vendors drifted by four. That argues the twin is better than production for testing rather than merely cheaper. And at 78ms against 283ms it is 3.6 times faster, which matters when you are running rollouts rather than a test suite.",
-          "Publishing your own failure attribution is what makes the rest of it credible. Seventy services are twinned and fifteen were measured here, so the fidelity of the other fifty-five is the open question.",
+          "The sharper number is underneath: on a fresh deployment 238 of 238 runs were identical, while the live vendors drifted by four. That argues the twin is better than production for testing rather than merely cheaper. Across eight of the services it also runs about 3.6 times faster at the median, 78ms against 283ms, which matters when you are running rollouts rather than a test suite.",
+          "Publishing your own failure attribution is what makes the rest of it credible, and they name all four twin-attributable failures individually. **I checked the denominator myself**: counting the operation files in Nango's public repository gives 721, matching their per-service table on all fifteen rows. Seventy services are twinned, thirty-three are publicly listed and fifteen were measured here, so the fidelity of the rest is the open question.",
         ],
       },
       {
