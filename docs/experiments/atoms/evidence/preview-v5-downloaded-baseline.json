@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "solo-revenue-planner.export.v1",
+  "generatedAt": "2026-09-10T12:15:44.428Z",
+  "disclaimer": "Illustrative scenario built from the assumptions you typed. Not an observed result, not a forecast and not financial advice.",
+  "excludedFromModel": [
+    "taxes of any kind",
+    "one-off setup and launch costs",
+    "churn and customer lifetime",
+    "customer acquisition cost",
+    "refunds, chargebacks and failed payments",
+    "currency other than USD"
+  ],
+  "dataHandling": "Generated in your browser. This file was not uploaded anywhere.",
+  "inputs": {
+    "pricePerCustomerPerMonthUsd": 20,
+    "variableCostPerCustomerPerMonthUsd": 4,
+    "paymentFeePercentOfRevenue": 3,
+    "fixedMonthlyCostsUsd": 30,
+    "customers": 10,
+    "humanSupportMinutesPerCustomerPerMonth": 15,
+    "fixedHumanHoursPerMonth": 2,
+    "operatorTimeValueUsdPerHour": 25
+  },
+  "outputs": {
+    "contributionPerCustomerUsd": 15.4,
+    "revenueUsd": 200,
+    "paymentFeesUsd": 6,
+    "operatingSurplusBeforeOwnerTimeUsd": 124,
+    "humanHoursPerMonth": 4.5,
+    "ownerTimeCostUsd": 112.5,
+    "economicSurplusAfterOwnerTimeUsd": 11.5,
+    "breakEvenCustomers": 2,
+    "breakEvenNote": null
+  }
+}

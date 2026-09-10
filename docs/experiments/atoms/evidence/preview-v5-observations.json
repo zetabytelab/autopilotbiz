@@ -1,0 +1,334 @@
+{
+  "fixtureVersion": "1.0",
+  "productUrl": "https://1370915-0bc6488c85894975ab14268cf2c52b16-5-latest.app.atoms.dev/",
+  "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+  "captureMethod": "Coordinating browser agent captured actual preview DOM and the on-screen JSON contents. This is not a downloaded export or public launch. Input values cross-checked against visible textboxes; blank case uses the retained keyboard-clear retry.",
+  "observations": [
+    {
+      "fixtureId": "baseline",
+      "observedAt": "2026-09-10T12:14:03.754Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/0"
+      ],
+      "inputs": {
+        "price": 20.0,
+        "variableCost": 4.0,
+        "feePercent": 3.0,
+        "fixedCosts": 30.0,
+        "customers": 10.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "outputs": {
+        "contributionPerCustomer": 15.4,
+        "revenue": 200,
+        "paymentFees": 6,
+        "breakEvenCustomers": 2,
+        "operatingSurplus": 124,
+        "humanHours": 4.5,
+        "economicSurplus": 11.5
+      },
+      "breakEvenExplanation": null
+    },
+    {
+      "fixtureId": "zero-customers",
+      "observedAt": "2026-09-10T12:14:04.416Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/1"
+      ],
+      "inputs": {
+        "price": 20.0,
+        "variableCost": 4.0,
+        "feePercent": 3.0,
+        "fixedCosts": 30.0,
+        "customers": 0.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "outputs": {
+        "contributionPerCustomer": 15.4,
+        "revenue": 0,
+        "paymentFees": 0,
+        "breakEvenCustomers": 2,
+        "operatingSurplus": -30,
+        "humanHours": 2,
+        "economicSurplus": -80
+      },
+      "breakEvenExplanation": null
+    },
+    {
+      "fixtureId": "zero-contribution",
+      "observedAt": "2026-09-10T12:14:05.262Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/2"
+      ],
+      "inputs": {
+        "price": 4.0,
+        "variableCost": 4.0,
+        "feePercent": 0.0,
+        "fixedCosts": 30.0,
+        "customers": 10.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "outputs": {
+        "contributionPerCustomer": 0,
+        "revenue": 40,
+        "paymentFees": 0,
+        "breakEvenCustomers": null,
+        "operatingSurplus": -30,
+        "humanHours": 4.5,
+        "economicSurplus": -142.5
+      },
+      "breakEvenExplanation": "No break-even at these assumptions. Contribution per customer is zero or negative, so extra customers never start covering fixed costs. There is no customer count that reaches break-even."
+    },
+    {
+      "fixtureId": "negative-contribution",
+      "observedAt": "2026-09-10T12:14:06.100Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/3"
+      ],
+      "inputs": {
+        "price": 3.0,
+        "variableCost": 4.0,
+        "feePercent": 0.0,
+        "fixedCosts": 30.0,
+        "customers": 10.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "outputs": {
+        "contributionPerCustomer": -1,
+        "revenue": 30,
+        "paymentFees": 0,
+        "breakEvenCustomers": null,
+        "operatingSurplus": -40,
+        "humanHours": 4.5,
+        "economicSurplus": -152.5
+      },
+      "breakEvenExplanation": "No break-even at these assumptions. Contribution per customer is zero or negative, so extra customers never start covering fixed costs. There is no customer count that reaches break-even."
+    },
+    {
+      "fixtureId": "exact-break-even",
+      "observedAt": "2026-09-10T12:14:11.357Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/4"
+      ],
+      "inputs": {
+        "price": 10.0,
+        "variableCost": 0.0,
+        "feePercent": 0.0,
+        "fixedCosts": 30.0,
+        "customers": 3.0,
+        "supportMinutes": 0.0,
+        "fixedHumanHours": 0.0,
+        "hourlyValue": 25.0
+      },
+      "outputs": {
+        "contributionPerCustomer": 10,
+        "revenue": 30,
+        "paymentFees": 0,
+        "breakEvenCustomers": 3,
+        "operatingSurplus": 0,
+        "humanHours": 0,
+        "economicSurplus": 0
+      },
+      "breakEvenExplanation": null
+    },
+    {
+      "fixtureId": "round-up-break-even",
+      "observedAt": "2026-09-10T12:14:11.659Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/5"
+      ],
+      "inputs": {
+        "price": 10.0,
+        "variableCost": 0.0,
+        "feePercent": 0.0,
+        "fixedCosts": 30.01,
+        "customers": 3.0,
+        "supportMinutes": 0.0,
+        "fixedHumanHours": 0.0,
+        "hourlyValue": 25.0
+      },
+      "outputs": {
+        "contributionPerCustomer": 10,
+        "revenue": 30,
+        "paymentFees": 0,
+        "breakEvenCustomers": 4,
+        "operatingSurplus": -0.01,
+        "humanHours": 0,
+        "economicSurplus": -0.01
+      },
+      "breakEvenExplanation": null
+    },
+    {
+      "fixtureId": "full-processing-fee",
+      "observedAt": "2026-09-10T12:14:11.978Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/6"
+      ],
+      "inputs": {
+        "price": 20.0,
+        "variableCost": 4.0,
+        "feePercent": 100.0,
+        "fixedCosts": 30.0,
+        "customers": 10.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "outputs": {
+        "contributionPerCustomer": -4,
+        "revenue": 200,
+        "paymentFees": 200,
+        "breakEvenCustomers": null,
+        "operatingSurplus": -70,
+        "humanHours": 4.5,
+        "economicSurplus": -182.5
+      },
+      "breakEvenExplanation": "No break-even at these assumptions. Contribution per customer is zero or negative, so extra customers never start covering fixed costs. There is no customer count that reaches break-even."
+    },
+    {
+      "fixtureId": "no-fixed-cost",
+      "observedAt": "2026-09-10T12:14:12.344Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/7"
+      ],
+      "inputs": {
+        "price": 20.0,
+        "variableCost": 4.0,
+        "feePercent": 3.0,
+        "fixedCosts": 0.0,
+        "customers": 0.0,
+        "supportMinutes": 0.0,
+        "fixedHumanHours": 0.0,
+        "hourlyValue": 25.0
+      },
+      "outputs": {
+        "contributionPerCustomer": 15.4,
+        "revenue": 0,
+        "paymentFees": 0,
+        "breakEvenCustomers": 0,
+        "operatingSurplus": 0,
+        "humanHours": 0,
+        "economicSurplus": 0
+      },
+      "breakEvenExplanation": null
+    },
+    {
+      "fixtureId": "invalid-negative",
+      "observedAt": "2026-09-10T12:14:20.177Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/8"
+      ],
+      "inputs": {
+        "price": -1.0,
+        "variableCost": 4.0,
+        "feePercent": 3.0,
+        "fixedCosts": 30.0,
+        "customers": 10.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "validation": {
+        "inputRejected": true,
+        "visibleError": "Price per customer per month cannot be negative. Enter 0 or more.",
+        "resultsSuppressed": true
+      }
+    },
+    {
+      "fixtureId": "invalid-blank",
+      "observedAt": "2026-09-10T12:14:37.869Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/blankRetry"
+      ],
+      "inputs": {
+        "price": "",
+        "variableCost": 4.0,
+        "feePercent": 3.0,
+        "fixedCosts": 30.0,
+        "customers": 10.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "validation": {
+        "inputRejected": true,
+        "visibleError": "Enter a value for price per customer per month. A blank field is not read as zero, so type 0 if you mean zero.",
+        "resultsSuppressed": true
+      }
+    },
+    {
+      "fixtureId": "invalid-nonfinite",
+      "observedAt": "2026-09-10T12:14:20.885Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/10"
+      ],
+      "inputs": {
+        "price": "1e309",
+        "variableCost": 4.0,
+        "feePercent": 3.0,
+        "fixedCosts": 30.0,
+        "customers": 10.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "validation": {
+        "inputRejected": true,
+        "visibleError": "\"1e309\" is not a finite number, so no result can be calculated. Enter a real number such as 20.",
+        "resultsSuppressed": true
+      }
+    },
+    {
+      "fixtureId": "invalid-fee",
+      "observedAt": "2026-09-10T12:14:21.179Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/11"
+      ],
+      "inputs": {
+        "price": 20.0,
+        "variableCost": 4.0,
+        "feePercent": 101.0,
+        "fixedCosts": 30.0,
+        "customers": 10.0,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "validation": {
+        "inputRejected": true,
+        "visibleError": "Payment processing fee cannot be above 100%. A processor cannot take more than the whole of your revenue.",
+        "resultsSuppressed": true
+      }
+    },
+    {
+      "fixtureId": "invalid-fractional-customers",
+      "observedAt": "2026-09-10T12:14:25.687Z",
+      "evidenceRefs": [
+        "docs/experiments/atoms/evidence/preview-v5-captures.json#/captures/12"
+      ],
+      "inputs": {
+        "price": 20.0,
+        "variableCost": 4.0,
+        "feePercent": 3.0,
+        "fixedCosts": 30.0,
+        "customers": 1.5,
+        "supportMinutes": 15.0,
+        "fixedHumanHours": 2.0,
+        "hourlyValue": 25.0
+      },
+      "validation": {
+        "inputRejected": true,
+        "visibleError": "Customer count must be a whole number of customers. 1.5 is not whole, so use 1 or 2.",
+        "resultsSuppressed": true
+      }
+    }
+  ]
+}

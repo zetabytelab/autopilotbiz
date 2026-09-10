@@ -1,0 +1,79 @@
+[
+  {
+    "name": "variableCost",
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "INPUT",
+    "text": ""
+  },
+  {
+    "name": "feePercent",
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "INPUT",
+    "text": ""
+  },
+  {
+    "name": "fixedCosts",
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "INPUT",
+    "text": ""
+  },
+  {
+    "name": "customers",
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "INPUT",
+    "text": ""
+  },
+  {
+    "name": "supportMinutes",
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "INPUT",
+    "text": ""
+  },
+  {
+    "name": "fixedHumanHours",
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "INPUT",
+    "text": ""
+  },
+  {
+    "name": "hourlyValue",
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "INPUT",
+    "text": ""
+  },
+  {
+    "name": null,
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "BUTTON",
+    "text": "Download scenario JSON"
+  },
+  {
+    "name": null,
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "BUTTON",
+    "text": "Reset to sample inputs"
+  },
+  {
+    "name": null,
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "SUMMARY",
+    "text": "Preview the export contents"
+  },
+  {
+    "name": null,
+    "outline": "rgba(0, 0, 0, 0) solid 2px",
+    "shadow": "rgb(15, 17, 13) 0px 0px 0px 2px, rgb(163, 219, 67) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "tag": "SUMMARY",
+    "text": "What is this tool actually doing?"
+  }
+]

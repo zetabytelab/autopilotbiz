@@ -1,0 +1,72 @@
+{
+  "status": "pass",
+  "errors": [],
+  "cases": [
+    {
+      "fixtureId": "baseline",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "zero-customers",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "zero-contribution",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "negative-contribution",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "exact-break-even",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "round-up-break-even",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "full-processing-fee",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "no-fixed-cost",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "invalid-negative",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "invalid-blank",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "invalid-nonfinite",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "invalid-fee",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "fixtureId": "invalid-fractional-customers",
+      "status": "pass",
+      "errors": []
+    }
+  ],
+  "scope": "Compares recorded observations with numerical fixtures only. Does not authenticate captures or establish A5–A8, customer demand, revenue or autonomy."
+}

@@ -2,8 +2,8 @@
   "experimentId": "atoms-solo-revenue-planner-2026-09",
   "protocolVersion": "1.0",
   "preparedOn": "2026-09-09",
-  "status": "paused",
-  "statusNote": "The first Atoms attempt reached browser-test setup, then exhausted the daily free quota. A user-supplied screenshot shows 0 free credits remaining and preview disabled without credits. Atoms lists a refresh on 2026-09-11 at 08:00:00, with no timezone shown. Completion, acceptance and publication remain unverified; resume the existing project after the refresh.",
+  "status": "verifying",
+  "statusNote": "A real Atoms preview is now under verification. Thirteen independently captured numerical and validation cases passed; acceptance checks A1\u2013A4 are accepted (4 of 8). Keyboard and actual JSON-download evidence is partial; mobile, privacy, public launch and original code export remain unverified. Final credit use and build-completion time are unknown.",
   "product": "Solo Revenue Planner",
   "buildStartedAt": "2026-09-10T11:49:00.524Z",
   "buildCompletedAt": null,
@@ -18,7 +18,7 @@
     "humanMinutes": null,
     "elapsedBuildMinutes": null,
     "humanInterventions": null,
-    "acceptanceChecksPassed": null,
+    "acceptanceChecksPassed": 4,
     "uniqueVisitors": null,
     "completedCalculations": null,
     "payingCustomers": null,
@@ -127,9 +127,119 @@
       "evidenceIds": [
         "quota-exhaustion-note-2026-09-10"
       ]
+    },
+    {
+      "id": "preview-verification-recorded-2026-09-10",
+      "startedAt": "2026-09-10T12:18:52Z",
+      "endedAt": "2026-09-10T12:18:52Z",
+      "stage": "verification",
+      "actor": "external-ai",
+      "action": "Recorded independent version-5 preview verification and the user-reported recovery via 25 Discord bonus credits. Atoms transcript displays a user CONTINUE at 13:09 without an established timezone, and Atoms reports completion with 66 checks; those self-reported checks are not the independent verifier results. Timestamp records this note.",
+      "activeHumanMinutes": null,
+      "isHumanIntervention": false,
+      "creditsUsed": null,
+      "cashSpendUsd": null,
+      "outcome": "Independent evidence supports A1\u2013A4, with 13 captured numerical/validation scenarios and blank/negative errors across all 8 fields. Actual baseline JSON download matches. A5\u2013A8 incomplete; no verified publication, final credit balance or seven-day observation.",
+      "evidenceIds": [
+        "preview-verification-note-2026-09-10",
+        "preview-v5-raw-captures",
+        "preview-v5-observations",
+        "preview-v5-verifier-report",
+        "preview-v5-all-field-validation",
+        "preview-v5-downloaded-baseline",
+        "preview-v5-keyboard"
+      ]
     }
   ],
-  "acceptanceResults": [],
+  "acceptanceResults": [
+    {
+      "checkId": "A1",
+      "status": "pass",
+      "observedAt": "2026-09-10T12:14:12.344Z",
+      "observed": "Captured baseline and break-even boundary arithmetic matched the frozen verifier.",
+      "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+      "evidenceIds": [
+        "preview-v5-observations",
+        "preview-v5-verifier-report"
+      ]
+    },
+    {
+      "checkId": "A2",
+      "status": "pass",
+      "observedAt": "2026-09-10T12:14:03.754Z",
+      "observed": "Baseline 4.5 human hours and $11.50 economic surplus matched.",
+      "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+      "evidenceIds": [
+        "preview-v5-observations",
+        "preview-v5-verifier-report"
+      ]
+    },
+    {
+      "checkId": "A3",
+      "status": "pass",
+      "observedAt": "2026-09-10T12:14:11.978Z",
+      "observed": "Zero/negative contribution and full-fee cases showed unavailable break-even with explanations.",
+      "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+      "evidenceIds": [
+        "preview-v5-observations",
+        "preview-v5-verifier-report"
+      ]
+    },
+    {
+      "checkId": "A4",
+      "status": "pass",
+      "observedAt": "2026-09-10T12:15:30.497Z",
+      "observed": "Zero customers, representative non-finite/fee/fractional inputs and blank/negative errors for all 8 fields verified; initial blank-entry attempt retained as a tool limitation and successful retry used.",
+      "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+      "evidenceIds": [
+        "preview-v5-observations",
+        "preview-v5-verifier-report",
+        "preview-v5-all-field-validation"
+      ]
+    },
+    {
+      "checkId": "A5",
+      "status": "not_run",
+      "observedAt": null,
+      "observed": "Full check incomplete: keyboard focus evidence exists; requested 375px viewport remained 1594px in two attempts, so mobile layout is unverified.",
+      "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+      "evidenceIds": [
+        "preview-v5-keyboard",
+        "preview-verification-note-2026-09-10"
+      ]
+    },
+    {
+      "checkId": "A6",
+      "status": "not_run",
+      "observedAt": null,
+      "observed": "Full check incomplete: actual downloaded baseline JSON matches; network privacy and complete reset/persistence behavior unverified.",
+      "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+      "evidenceIds": [
+        "preview-v5-downloaded-baseline",
+        "preview-verification-note-2026-09-10"
+      ]
+    },
+    {
+      "checkId": "A7",
+      "status": "not_run",
+      "observedAt": null,
+      "observed": "Preview only. Repeated share-interface timeouts prevented publication; public launch unverified.",
+      "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+      "evidenceIds": [
+        "preview-verification-note-2026-09-10"
+      ]
+    },
+    {
+      "checkId": "A8",
+      "status": "not_run",
+      "observedAt": null,
+      "observed": "Original code export and independent local execution unverified.",
+      "artifactVersion": "Atoms preview URL version 5, captured 2026-09-10",
+      "evidenceIds": [
+        "preview-verification-note-2026-09-10"
+      ]
+    }
+  ],
   "evidence": [
     {
       "id": "preflight-auth-note-2026-09-10",
@@ -170,6 +280,62 @@
       "location": "docs/experiments/atoms/QUOTA-EXHAUSTED-2026-09-10.md",
       "visibility": "public",
       "description": "Redacted interpretation of user-supplied screenshot showing exhausted daily quota, disabled preview and stated refresh time. Screenshot itself remains in the conversation."
+    },
+    {
+      "id": "preview-verification-note-2026-09-10",
+      "type": "operator-note",
+      "capturedAt": "2026-09-10T12:18:52Z",
+      "location": "docs/experiments/atoms/VERIFICATION-2026-09-10.md",
+      "visibility": "public",
+      "description": "Dated verification summary, user-reported bonus credits, self-reported Atoms completion, and explicit outstanding mobile/privacy/publication/export limits."
+    },
+    {
+      "id": "preview-v5-raw-captures",
+      "type": "test-output",
+      "capturedAt": "2026-09-10T12:14:37.869Z",
+      "location": "docs/experiments/atoms/evidence/preview-v5-captures.json",
+      "visibility": "public",
+      "description": "Actual DOM and on-screen JSON captures, including the retained initial blank-input entry limitation and successful retry. Timestamp is the last captured case."
+    },
+    {
+      "id": "preview-v5-observations",
+      "type": "test-output",
+      "capturedAt": "2026-09-10T12:18:52Z",
+      "location": "docs/experiments/atoms/evidence/preview-v5-observations.json",
+      "visibility": "public",
+      "description": "Normalized actual preview values with all inputs cross-checked against DOM and pointers to raw evidence; timestamp records review."
+    },
+    {
+      "id": "preview-v5-verifier-report",
+      "type": "test-output",
+      "capturedAt": "2026-09-10T12:18:52Z",
+      "location": "docs/experiments/atoms/evidence/preview-v5-verifier-report.json",
+      "visibility": "public",
+      "description": "Independent numerical verifier reports 13 matching captured cases; timestamp records review. Does not establish A5\u2013A8."
+    },
+    {
+      "id": "preview-v5-all-field-validation",
+      "type": "test-output",
+      "capturedAt": "2026-09-10T12:15:30.497Z",
+      "location": "docs/experiments/atoms/evidence/preview-v5-all-field-validation.json",
+      "visibility": "public",
+      "description": "Actual DOM showing each of 8 fields with blank and negative errors in two combined invalid states, suppressed results and disabled export."
+    },
+    {
+      "id": "preview-v5-downloaded-baseline",
+      "type": "export",
+      "capturedAt": "2026-09-10T12:18:52Z",
+      "location": "docs/experiments/atoms/evidence/preview-v5-downloaded-baseline.json",
+      "visibility": "public",
+      "description": "Byte-exact actual downloaded baseline scenario; inputs and outputs match baseline. Embedded generation timestamp 12:15:44.428 UTC; evidence timestamp records review, not download completion."
+    },
+    {
+      "id": "preview-v5-keyboard",
+      "type": "test-output",
+      "capturedAt": "2026-09-10T12:18:52Z",
+      "location": "docs/experiments/atoms/evidence/preview-v5-keyboard.json",
+      "visibility": "public",
+      "description": "Actual focus sequence for 7 following inputs, both buttons and summary controls with lime focus styling. Source has no timestamp; timestamp records review. Mobile coverage not established."
     }
   ],
   "limitations": [
@@ -177,5 +343,6 @@
     "Publishing this protocol is not a product launch or evidence of Atoms execution.",
     "A working calculator cannot establish autonomous customer acquisition or business operation."
   ],
-  "pauseReason": "daily_free_quota_exhausted"
+  "pauseReason": null,
+  "previewUrl": "https://1370915-0bc6488c85894975ab14268cf2c52b16-5-latest.app.atoms.dev/"
 }
