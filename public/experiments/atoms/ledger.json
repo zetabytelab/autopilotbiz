@@ -3,9 +3,9 @@
   "protocolVersion": "1.0",
   "preparedOn": "2026-09-09",
   "status": "paused",
-  "statusNote": "Browser preflight reached the Atoms sign-in page on 2026-09-10. Execution is paused awaiting an authenticated account; no build, product launch or customer observation has started.",
+  "statusNote": "The canonical prompt was submitted and the implementation plan approved on 2026-09-10. Atoms generated calculation and interface files and reached terminal/visual-review activity. Browser timeouts interrupted independent inspection; build completion, final credit consumption and publication remain unverified. The saved Atoms job may continue independently.",
   "product": "Solo Revenue Planner",
-  "buildStartedAt": null,
+  "buildStartedAt": "2026-09-10T11:49:00.524Z",
   "buildCompletedAt": null,
   "productUrl": null,
   "exportedRepositoryUrl": null,
@@ -28,7 +28,7 @@
   },
   "attribution": {
     "protocol": "Prepared with Codex for The Autopilot Index",
-    "productBuilder": null,
+    "productBuilder": "Atoms",
     "externalCodingAssistance": []
   },
   "events": [
@@ -47,6 +47,70 @@
       "evidenceIds": [
         "preflight-auth-note-2026-09-10"
       ]
+    },
+    {
+      "id": "preflight-account-confirmed-2026-09-10",
+      "startedAt": "2026-09-10T11:44:50.074203+00:00",
+      "endedAt": "2026-09-10T11:44:50.074203+00:00",
+      "stage": "build",
+      "actor": "external-ai",
+      "action": "Confirmed authenticated Atoms workspace through visible browser content and reviewed the user-supplied screenshot and local HAR credit fields. Timestamp records this note, not measured session duration.",
+      "activeHumanMinutes": null,
+      "isHumanIntervention": false,
+      "creditsUsed": null,
+      "cashSpendUsd": null,
+      "outcome": "Sign-in resolved. Screenshot shows 15 credits; HAR records unused free quotas and zero paid monthly allocation. Browser timeouts prevented prompt submission.",
+      "evidenceIds": [
+        "account-confirmation-note-2026-09-10"
+      ]
+    },
+    {
+      "id": "canonical-prompt-submitted-2026-09-10",
+      "startedAt": "2026-09-10T11:49:00.524Z",
+      "endedAt": "2026-09-10T11:49:00.524Z",
+      "stage": "build",
+      "actor": "external-ai",
+      "action": "Submitted the canonical Solo Revenue Planner prompt to the authenticated Atoms workspace. Prompt SHA-256: 79db884dd6380f74edbeabc2130e3ec16ee67a6b372bff2c593daf1eee40b883.",
+      "activeHumanMinutes": null,
+      "isHumanIntervention": false,
+      "creditsUsed": null,
+      "cashSpendUsd": null,
+      "outcome": "Atoms received the build request. The visible free-plan balance was 15/15 before submission. This event timestamp is the actual submission timestamp, not a measured duration.",
+      "evidenceIds": [
+        "build-start-note-2026-09-10"
+      ]
+    },
+    {
+      "id": "plan-approved-building-2026-09-10",
+      "startedAt": "2026-09-10T11:52:24Z",
+      "endedAt": "2026-09-10T11:52:24Z",
+      "stage": "build",
+      "actor": "external-ai",
+      "action": "Recorded the coordinating browser agent\u2019s observation: Atoms returned a scoped frontend plan, the agent clicked Approve, and Atoms acknowledged approval and began initializing its template and writing. Timestamp records this note; exact plan/approval times were not separately supplied.",
+      "activeHumanMinutes": null,
+      "isHumanIntervention": false,
+      "creditsUsed": null,
+      "cashSpendUsd": null,
+      "outcome": "Build underway. The visible balance at the planning stage was 14.41 credits. This is a balance observation, not reconciled total credit consumption or a completed product test.",
+      "evidenceIds": [
+        "build-start-note-2026-09-10"
+      ]
+    },
+    {
+      "id": "build-inspection-interrupted-2026-09-10",
+      "startedAt": "2026-09-10T11:59:55.109373+00:00",
+      "endedAt": "2026-09-10T11:59:55.109373+00:00",
+      "stage": "verification",
+      "actor": "external-ai",
+      "action": "Attempted to inspect the saved Atoms project after generation progressed to calculation/interface files and terminal/visual-review controls. Reconnected and opened the same saved project; did not resubmit the build. Timestamp records this note.",
+      "activeHumanMinutes": null,
+      "isHumanIntervention": false,
+      "creditsUsed": null,
+      "cashSpendUsd": null,
+      "outcome": "Repeated browser read and screenshot timeouts prevented independent result capture. Atoms may continue its existing job. Completion, acceptance, final credits and publication are unverified.",
+      "evidenceIds": [
+        "build-inspection-note-2026-09-10"
+      ]
     }
   ],
   "acceptanceResults": [],
@@ -58,6 +122,30 @@
       "location": "docs/experiments/atoms/PREFLIGHT-2026-09-10.md",
       "visibility": "public",
       "description": "Dated coordinating-agent report of the sign-in screen. No account identifiers, screenshot or performance results are represented by this note."
+    },
+    {
+      "id": "account-confirmation-note-2026-09-10",
+      "type": "operator-note",
+      "capturedAt": "2026-09-10T11:44:50.074203+00:00",
+      "location": "docs/experiments/atoms/ACCOUNT-CONFIRMED-2026-09-10.md",
+      "visibility": "public",
+      "description": "Redacted factual summary of authenticated UI and user-supplied credit evidence. Raw HAR and account identifiers are not published."
+    },
+    {
+      "id": "build-start-note-2026-09-10",
+      "type": "operator-note",
+      "capturedAt": "2026-09-10T11:52:24Z",
+      "location": "docs/experiments/atoms/BUILD-STARTED-2026-09-10.md",
+      "visibility": "public",
+      "description": "Dated factual summary of canonical prompt submission, visible free-plan balances, plan approval and writing in progress, as reported by the coordinating browser agent. Private workspace URL and account identifiers are omitted."
+    },
+    {
+      "id": "build-inspection-note-2026-09-10",
+      "type": "operator-note",
+      "capturedAt": "2026-09-10T11:59:55.109373+00:00",
+      "location": "docs/experiments/atoms/BUILD-STARTED-2026-09-10.md",
+      "visibility": "public",
+      "description": "Execution progress and browser interruption note. Does not claim passing tests or completed generation."
     }
   ],
   "limitations": [
@@ -65,5 +153,5 @@
     "Publishing this protocol is not a product launch or evidence of Atoms execution.",
     "A working calculator cannot establish autonomous customer acquisition or business operation."
   ],
-  "pauseReason": "awaiting_auth"
+  "pauseReason": "browser_connection"
 }

@@ -12,7 +12,7 @@ type AcceptanceResult = {
 export const atomsExperiment = ledger as Omit<typeof ledger, "acceptanceResults"> & { acceptanceResults: AcceptanceResult[] };
 
 export const experimentStatusLabel = ledger.status === "paused"
-  ? ledger.buildStartedAt ? "Execution paused" : "Awaiting Atoms sign-in · build not started"
+  ? ledger.buildStartedAt ? "Execution paused" : ledger.pauseReason === "awaiting_auth" ? "Awaiting Atoms sign-in · build not started" : "Browser access interrupted · build not started"
   : ({ prepared: "Protocol prepared · build not started", building: "Build in progress", verifying: "Verifying the product", observing: "Observation start recorded", complete: "Completion recorded · review evidence" } as Record<string, string>)[ledger.status] ?? "Status under review";
 
 const hasBuild = ledger.buildStartedAt !== null;
@@ -37,7 +37,7 @@ export const experimentPhases = [
   },
   {
     title: "Build with Atoms",
-    status: built ? "Build recorded" : hasBuild ? ledger.status === "paused" ? "Paused" : "In progress" : ledger.status === "paused" ? "Awaiting sign-in" : "Not started",
+    status: built ? "Build recorded" : hasBuild ? ledger.status === "paused" ? "Paused" : "In progress" : ledger.status === "paused" ? ledger.pauseReason === "awaiting_auth" ? "Awaiting sign-in" : "Awaiting browser access" : "Not started",
     detail: "Use an authenticated account and available free credits. Record the agent transcript, time, credit usage and every human intervention.",
   },
   {
