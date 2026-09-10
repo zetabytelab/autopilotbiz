@@ -106,6 +106,7 @@ export async function POST(req: Request) {
     }
     return NextResponse.json({
       ok: true,
+      subscriptionStatus: doi ? "confirmation_requested" : "subscribed",
       message: doi ? "Almost there — check your inbox and confirm." : "You're on the list.",
     });
   } catch (err) {

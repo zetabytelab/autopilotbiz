@@ -1,6 +1,6 @@
 # Atoms: Solo Revenue Planner runbook
 
-Protocol v1.0, prepared 2026-09-09. Status: prepared; an Atoms build has not been completed.
+Protocol v1.0, prepared 2026-09-09. Execution preflight on 2026-09-10 reached the Atoms sign-in page; paused awaiting authentication. An Atoms build has not been completed. The canonical ledger records current status.
 
 ## Purpose
 
@@ -21,6 +21,7 @@ Test whether one operator can use Atoms to build and publish a correct, useful c
 1. Open the operator's authenticated Atoms account. If login is required, record that as the next dependency. Do not create an account or accept terms on another person's behalf.
 2. Start an active-time log before inspecting the account. Capture the current plan, available free credits and feature limitations; redact identifiers in any published evidence.
 3. Record the protocol version, date, browser and initial credit balance. Save the exact original prompt from `build-prompt.txt`.
+   Record automated browser operation as external AI activity, not measured human time. Keep elapsed agent time separate; leave actual human minutes unknown unless timed.
 4. Submit that prompt. Save the planning response, then log the human review and plan approval as an intervention.
 5. Let Atoms generate the preview. Record generation start/end timestamps and credit usage. Waiting counts toward elapsed build time but not active human minutes unless the operator is reviewing work.
 6. Run A1–A6 from the prompt independently in the actual preview. Capture the inputs, outputs and screenshots. Validate export content and inspect network requests for any scenario data transmission.

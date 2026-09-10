@@ -3,6 +3,7 @@ import Leaderboard from "@/components/Leaderboard";
 import CompanyCard from "@/components/CompanyCard";
 import StackPyramid from "@/components/StackPyramid";
 import OpsTerminal from "@/components/OpsTerminal";
+import { atomsExperiment, experimentStatusLabel } from "@/lib/atoms-experiment";
 import { companies, playbook, hackathon, caseStudies, criteria, categories, investorTheses } from "@/lib/data";
 
 function SectionTitle({ kicker, title, sub }: { kicker: string; title: string; sub?: string }) {
@@ -120,9 +121,9 @@ export default function Home() {
       </section>
 
       <aside className="my-8 rounded-2xl border border-lime-400/30 bg-lime-400/5 p-6 sm:p-8">
-        <p className="font-mono text-xs uppercase tracking-widest text-lime-400">Field experiment · prepared</p>
+        <p className="font-mono text-xs uppercase tracking-widest text-lime-400">Field experiment · {experimentStatusLabel}</p>
         <h2 className="mt-3 text-2xl font-bold text-zinc-100">Can Atoms help one person launch a useful product?</h2>
-        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-zinc-400">Follow the Solo Revenue Planner test: a fixed build prompt, correctness checks, and a public log of cost, time and human interventions. The Atoms build has not started; results remain unmeasured.</p>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-zinc-400">Follow the Solo Revenue Planner test: a fixed build prompt, correctness checks, and a public log of cost, time and human interventions. {atomsExperiment.statusNote}</p>
         <Link href="/experiments/atoms" className="mt-4 inline-block text-sm font-medium text-lime-400 hover:underline">Read the experiment and measurement plan →</Link>
       </aside>
 

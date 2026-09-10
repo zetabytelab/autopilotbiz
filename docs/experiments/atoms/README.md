@@ -1,6 +1,6 @@
 # Atoms one-person business experiment
 
-Prepared 2026-09-09. Public route: `/experiments/atoms`.
+Prepared 2026-09-09. Public route: `/experiments/atoms`. Preflight on 2026-09-10 reached sign-in; execution is paused awaiting authentication.
 
 ## Deliverables
 
@@ -9,6 +9,10 @@ Prepared 2026-09-09. Public route: `/experiments/atoms`.
 - `public/experiments/atoms/build-prompt.txt`: exact ready-to-submit Atoms prompt for Solo Revenue Planner.
 - `public/experiments/atoms/runbook.md`: execution protocol, evidence rules and event schema.
 - `public/experiments/atoms/ledger.json`: canonical public measurements; all unmeasured outcomes are null.
+- `scripts/verify-atoms.mjs`: independent verifier for captured numerical observations; `--template` emits an empty record.
+- `docs/experiments/atoms/fixtures.json`: thirteen precomputed valid/invalid scenarios.
+- `docs/experiments/atoms/EXECUTION.md`: browser capture sequence, independent checks, seven-day measurement and possible paid follow-up.
+- `docs/experiments/atoms/ledger.schema.json`: JSON Schema documenting metrics, evidence, events and results.
 
 ## Selected product
 
@@ -22,7 +26,7 @@ The next execution step is opening that account and submitting the supplied prom
 
 ## Maintaining the record
 
-Update the canonical ledger as evidence arrives, retaining the prompt version and original failures. The page reads metrics from that JSON. Its narrative, phase badges and metadata must also be updated if the experiment moves past preparation. Follow `runbook.md` for privacy, time accounting and outcome definitions.
+Update the canonical ledger as evidence arrives, retaining the prompt version and original failures. The page reads metrics, status, phases, execution notes and acceptance outcomes from that JSON. Review the narrative when the scope changes. Follow `runbook.md` for privacy, time accounting and outcome definitions.
 
 Evidence references may point to a published repository artifact or redacted screenshot. Keep secrets and customer identifiers outside the public repository. No subscription, ad spend or outreach is part of the initial experiment.
 

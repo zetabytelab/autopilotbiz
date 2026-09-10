@@ -1,0 +1,35 @@
+name: Weekly digest draft
+
+on:
+  schedule:
+    - cron: "30 8 * * 4" # Thursday 08:30 UTC; uses the latest committed feed.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-digest-draft
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check draft selection rules
+        run: node --test scripts/tests/atoms-digest.test.mjs
+      - name: Prepare editorial evidence packet
+        run: node scripts/draft-pulse-digest.mjs --output-dir .digest-draft
+      - uses: actions/upload-artifact@v4
+        with:
+          name: weekly-digest-draft
+          path: .digest-draft/
+          include-hidden-files: true
+          retention-days: 30
+      # Drafts require source review and explicit authorization before mailing.
+      # This workflow neither sends email nor publishes or commits an edition.

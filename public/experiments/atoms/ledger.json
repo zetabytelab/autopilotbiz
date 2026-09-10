@@ -2,8 +2,8 @@
   "experimentId": "atoms-solo-revenue-planner-2026-09",
   "protocolVersion": "1.0",
   "preparedOn": "2026-09-09",
-  "status": "prepared",
-  "statusNote": "Protocol and build brief prepared. An Atoms build, product launch and customer observation have not been completed.",
+  "status": "paused",
+  "statusNote": "Browser preflight reached the Atoms sign-in page on 2026-09-10. Execution is paused awaiting an authenticated account; no build, product launch or customer observation has started.",
   "product": "Solo Revenue Planner",
   "buildStartedAt": null,
   "buildCompletedAt": null,
@@ -31,12 +31,39 @@
     "productBuilder": null,
     "externalCodingAssistance": []
   },
-  "events": [],
+  "events": [
+    {
+      "id": "preflight-auth-2026-09-10",
+      "startedAt": "2026-09-10T10:43:38Z",
+      "endedAt": "2026-09-10T10:43:38Z",
+      "stage": "build",
+      "actor": "external-ai",
+      "action": "Recorded the coordinating browser agent\u2019s preflight report: Atoms opened at its sign-in page. Timestamp records this note, not measured browser session duration.",
+      "activeHumanMinutes": null,
+      "isHumanIntervention": false,
+      "creditsUsed": null,
+      "cashSpendUsd": null,
+      "outcome": "Awaiting authenticated account; no generation requested. This access dependency is not a build failure.",
+      "evidenceIds": [
+        "preflight-auth-note-2026-09-10"
+      ]
+    }
+  ],
   "acceptanceResults": [],
-  "evidence": [],
+  "evidence": [
+    {
+      "id": "preflight-auth-note-2026-09-10",
+      "type": "operator-note",
+      "capturedAt": "2026-09-10T10:43:38Z",
+      "location": "docs/experiments/atoms/PREFLIGHT-2026-09-10.md",
+      "visibility": "public",
+      "description": "Dated coordinating-agent report of the sign-in screen. No account identifiers, screenshot or performance results are represented by this note."
+    }
+  ],
   "limitations": [
     "An empty measurement is unknown, not zero.",
     "Publishing this protocol is not a product launch or evidence of Atoms execution.",
     "A working calculator cannot establish autonomous customer acquisition or business operation."
-  ]
+  ],
+  "pauseReason": "awaiting_auth"
 }

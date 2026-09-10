@@ -1,8 +1,10 @@
 import type { Company } from "@/lib/data";
+import { getCompanyResearch } from "@/lib/company-profiles";
 import Logo from "@/components/Logo";
 import Link from "next/link";
 
 export default function CompanyCard({ company: c }: { company: Company }) {
+  const research = getCompanyResearch(c.slug);
   return (
     <article id={c.slug} className="flex flex-col gap-4 rounded-2xl border border-zinc-800 bg-zinc-950/60 p-6">
       <div className="flex items-start justify-between gap-3">
@@ -52,6 +54,17 @@ export default function CompanyCard({ company: c }: { company: Company }) {
           ))}
         </div>
       )}
+
+      {(research || c.pricing) && <div className="rounded-xl border border-zinc-800/80 bg-zinc-900/30 p-3">
+        <p className="text-xs font-medium text-zinc-300">Pricing and commercial terms</p>
+        <p className="mt-2 text-xs leading-relaxed text-zinc-400">{research?.pricing.summary ?? c.pricing}</p>
+        {research ? <>
+          <p className="mt-2 font-mono text-[11px] text-zinc-400">{research.pricing.status} · checked <time dateTime={research.checkedAt}>{research.checkedAt}</time></p>
+          <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1">
+            {research.pricing.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer" className="text-xs text-lime-400 underline decoration-lime-400/30 hover:text-lime-300">{source.name} ↗</a>)}
+          </div>
+        </> : <p className="mt-2 text-[11px] leading-relaxed text-amber-200/80">Historical research · pricing verification date not recorded. Confirm current terms with the provider.</p>}
+      </div>}
 
       {c.news.length > 0 && (
         <ul className="space-y-1.5 border-t border-zinc-800/80 pt-3">

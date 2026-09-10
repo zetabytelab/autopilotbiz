@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { trackFunnelEvent } from "@/lib/analytics";
 
 export default function SubscribeForm() {
   const [email, setEmail] = useState("");
@@ -38,8 +39,9 @@ export default function SubscribeForm() {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ email, website_url: "", ref, page }),
       });
-      const data = (await res.json()) as { ok: boolean; message?: string; error?: string };
-      if (data.ok) {
+      const data = (await res.json()) as { ok: boolean; message?: string; error?: string; subscriptionStatus?: string };
+      if (res.ok && data.ok) {
+        trackFunnelEvent("signup_request_accepted", data.subscriptionStatus);
         setState("done");
         setMessage(data.message ?? "You're on the list.");
       } else {

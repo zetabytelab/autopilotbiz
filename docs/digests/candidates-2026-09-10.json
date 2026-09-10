@@ -1,0 +1,835 @@
+{
+  "status": "draft-only",
+  "generatedFor": "2026-09-10T10:43:38.000Z",
+  "windowStart": "2026-09-03T10:43:38.000Z",
+  "windowEnd": "2026-09-10T10:43:38.000Z",
+  "inputGeneratedAt": "2026-09-09T12:37:01.086Z",
+  "inputFreshness": "recent",
+  "inputAgeHours": 22.11,
+  "selectionRule": "Collected product/funding category first, then recency; exact canonical URL or long exact title within the same entity deduplication; capped per entity. Category is not fact-checked.",
+  "warnings": [
+    "No sources were opened by this generator. Headlines and collected categories are unverified.",
+    "Source count is provenance, not independent corroboration. Syndicated material may repeat the same claim.",
+    "No business implication is generated. An editor must verify the source and write the actual change before publication."
+  ],
+  "counts": {
+    "input": 2661,
+    "eligible": 714,
+    "unique": 714,
+    "selected": 25,
+    "excluded": {
+      "invalid": 0,
+      "outsideWindow": 1947,
+      "future": 0,
+      "duplicates": 0,
+      "entityCap": 59,
+      "candidateLimit": 630
+    }
+  },
+  "candidates": [
+    {
+      "id": "ec60e2ba73ba",
+      "headline": "@marcklingen: If I was PM at Gmail I would introduce a new Enterprise+ plan that auto-detects all unsolicited sales emails, auto-unsubscribes and marks as spam I build som…",
+      "url": "https://x.com/marcklingen/status/2097448685659660396",
+      "publishedAt": "2026-09-08T22:15:10.000Z",
+      "companySlug": "stack-langfuse",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/marcklingen/status/2097448685659660396"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/marcklingen/status/2097448685659660396"
+        }
+      ],
+      "duplicateFeedIds": [
+        "6e823211ed36"
+      ],
+      "mergedHeadlines": [
+        "@marcklingen: If I was PM at Gmail I would introduce a new Enterprise+ plan that auto-detects all unsolicited sales emails, auto-unsubscribes and marks as spam I build som…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "51d48c739885",
+      "headline": "Frigade Launches Assist API to Give Enterprise AI Agents Product Knowledge",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdDFYMTlwSjI2dE94a0NDdEdvM3dYSHBrUC1IYmgwblhIem1FY2pVU2phUk9ra0tLNUVyN3kzMHJTb2xuTWN6d0VRWWR0aGRoV0pvZ19NQ2lQLVQ4Zk9oQ0NOdFhXSVIwc2hNZnZWNFo1MWFTLXpSZllyeFhzZE9sVzg4MU5mMXA1RGtib1R6UzZwQXg3Tm5fbXgtNWpRY20xb2VMZ1ZWYUZXZDJNZzkwTFpwUQ?oc=5",
+      "publishedAt": "2026-09-08T20:48:21.000Z",
+      "companySlug": "retell-ai",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdDFYMTlwSjI2dE94a0NDdEdvM3dYSHBrUC1IYmgwblhIem1FY2pVU2phUk9ra0tLNUVyN3kzMHJTb2xuTWN6d0VRWWR0aGRoV0pvZ19NQ2lQLVQ4Zk9oQ0NOdFhXSVIwc2hNZnZWNFo1MWFTLXpSZllyeFhzZE9sVzg4MU5mMXA1RGtib1R6UzZwQXg3Tm5fbXgtNWpRY20xb2VMZ1ZWYUZXZDJNZzkwTFpwUQ?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdDFYMTlwSjI2dE94a0NDdEdvM3dYSHBrUC1IYmgwblhIem1FY2pVU2phUk9ra0tLNUVyN3kzMHJTb2xuTWN6d0VRWWR0aGRoV0pvZ19NQ2lQLVQ4Zk9oQ0NOdFhXSVIwc2hNZnZWNFo1MWFTLXpSZllyeFhzZE9sVzg4MU5mMXA1RGtib1R6UzZwQXg3Tm5fbXgtNWpRY20xb2VMZ1ZWYUZXZDJNZzkwTFpwUQ?oc=5"
+        }
+      ],
+      "duplicateFeedIds": [
+        "ad785b40459a"
+      ],
+      "mergedHeadlines": [
+        "Frigade Launches Assist API to Give Enterprise AI Agents Product Knowledge"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "ff0e435e75d8",
+      "headline": "Inception Launches Mercury 2.5, the Next Tier of Intelligence for Diffusion LLMs",
+      "url": "https://openrouter.ai/inception/mercury-2.5-preview",
+      "publishedAt": "2026-09-08T16:44:20Z",
+      "companySlug": "stack-openrouter",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://openrouter.ai/inception/mercury-2.5-preview"
+        },
+        {
+          "collectorSource": "hn",
+          "url": "https://news.ycombinator.com/item?id=49612827"
+        }
+      ],
+      "duplicateFeedIds": [
+        "37fa8023f902"
+      ],
+      "mergedHeadlines": [
+        "Inception Launches Mercury 2.5, the Next Tier of Intelligence for Diffusion LLMs"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "26e530eb275a",
+      "headline": "Frigade Launches Assist API, Turning a Company's AI Agent Into an Onboarding and Support Specialist",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZWFCMFg2RlFBeV9jbE5DT1J3S2liazdJTUw5THdQR183LWdCQmh3WEoweXBIM3g3dXZNZTBQM2dCYlFpNzlkWHVDSVpQUk4wZnR1emcyU3lHNE5xbXlSUUk3cnhBaFFhNGpoZExEVE9YRnRJUmk4NDZ4ZjB1aUM4T1Nib1hMZ29KZExxRHZDY1BRUE1yYlNOMW1HRlJtTjNLWFkzeGd3cEFjZVF2S3BQTkpaeW1WRFNuVktYVmtIUFp2ZlJ0cU1VeV9PMC1YRUZQWll3TkxxX1dodmhaWFdCU3JFek1rdGNn?oc=5",
+      "publishedAt": "2026-09-08T14:00:00.000Z",
+      "companySlug": "retell-ai",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZWFCMFg2RlFBeV9jbE5DT1J3S2liazdJTUw5THdQR183LWdCQmh3WEoweXBIM3g3dXZNZTBQM2dCYlFpNzlkWHVDSVpQUk4wZnR1emcyU3lHNE5xbXlSUUk3cnhBaFFhNGpoZExEVE9YRnRJUmk4NDZ4ZjB1aUM4T1Nib1hMZ29KZExxRHZDY1BRUE1yYlNOMW1HRlJtTjNLWFkzeGd3cEFjZVF2S3BQTkpaeW1WRFNuVktYVmtIUFp2ZlJ0cU1VeV9PMC1YRUZQWll3TkxxX1dodmhaWFdCU3JFek1rdGNn?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZWFCMFg2RlFBeV9jbE5DT1J3S2liazdJTUw5THdQR183LWdCQmh3WEoweXBIM3g3dXZNZTBQM2dCYlFpNzlkWHVDSVpQUk4wZnR1emcyU3lHNE5xbXlSUUk3cnhBaFFhNGpoZExEVE9YRnRJUmk4NDZ4ZjB1aUM4T1Nib1hMZ29KZExxRHZDY1BRUE1yYlNOMW1HRlJtTjNLWFkzeGd3cEFjZVF2S3BQTkpaeW1WRFNuVktYVmtIUFp2ZlJ0cU1VeV9PMC1YRUZQWll3TkxxX1dodmhaWFdCU3JFek1rdGNn?oc=5"
+        }
+      ],
+      "duplicateFeedIds": [
+        "e11931210b79"
+      ],
+      "mergedHeadlines": [
+        "Frigade Launches Assist API, Turning a Company's AI Agent Into an Onboarding and Support Specialist"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "0878eb4eb9b0",
+      "headline": "@thsottiaux: Looking at this 28 page deck right now where Codex is keeping track of all the individual launches. Each one of them I can't wait to see what people do with …",
+      "url": "https://x.com/thsottiaux/status/2097193293532848288",
+      "publishedAt": "2026-09-08T05:20:19.000Z",
+      "companySlug": "stack-openai",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/thsottiaux/status/2097193293532848288"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/thsottiaux/status/2097193293532848288"
+        }
+      ],
+      "duplicateFeedIds": [
+        "2213d4551e10"
+      ],
+      "mergedHeadlines": [
+        "@thsottiaux: Looking at this 28 page deck right now where Codex is keeping track of all the individual launches. Each one of them I can't wait to see what people do with …"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "079b10a69ef8",
+      "headline": "@mitch_troy: Update just tried an insanely hard challenge in gpt-6-pro which I’ve discovered exists in chat and it blew my mind",
+      "url": "https://x.com/mitch_troy/status/2097130112583954688",
+      "publishedAt": "2026-09-08T01:09:16.000Z",
+      "companySlug": "basis",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/mitch_troy/status/2097130112583954688"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/mitch_troy/status/2097130112583954688"
+        }
+      ],
+      "duplicateFeedIds": [
+        "79307cef1b07"
+      ],
+      "mergedHeadlines": [
+        "@mitch_troy: Update just tried an insanely hard challenge in gpt-6-pro which I’ve discovered exists in chat and it blew my mind"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "01b0081050c9",
+      "headline": "@n8n_io: Got a small team tracking leave in a Google Sheet? This workflow checks it daily, pings HR in Slack, reminds employees to update their status, and updates th…",
+      "url": "https://x.com/n8n_io/status/2096871175997603845",
+      "publishedAt": "2026-09-07T08:00:20.000Z",
+      "companySlug": "stack-n8n",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/n8n_io/status/2096871175997603845"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/n8n_io/status/2096871175997603845"
+        }
+      ],
+      "duplicateFeedIds": [
+        "b07665163b51"
+      ],
+      "mergedHeadlines": [
+        "@n8n_io: Got a small team tracking leave in a Google Sheet? This workflow checks it daily, pings HR in Slack, reminds employees to update their status, and updates th…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "40263e43a197",
+      "headline": "@base44: Who built a better OS for 2040 in one prompt- Fable 5.1 or GPT-6 Astra? We ran them side by side using Base44's new Compare Models feature to find out. https…",
+      "url": "https://x.com/Base44/status/2096674481712320983",
+      "publishedAt": "2026-09-06T18:58:45.000Z",
+      "companySlug": "base44",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/Base44/status/2096674481712320983"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/Base44/status/2096674481712320983"
+        }
+      ],
+      "duplicateFeedIds": [
+        "f15ff4d1f53a"
+      ],
+      "mergedHeadlines": [
+        "@base44: Who built a better OS for 2040 in one prompt- Fable 5.1 or GPT-6 Astra? We ran them side by side using Base44's new Compare Models feature to find out. https…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "a65d52191537",
+      "headline": "New York puts $40 million Empire AI Beta supercomputer online for university researchers",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPS0wzNkw4UThMaklmSlk3dWhYTmdiOEFFRFJkZVRMT0RXZDRncXpQMUpEOThUenhMNnh2N1cyVFFObGYxMmVYUEZweFlPOTJMN2RlMktyWHZwOHNnOTQxYVBFT2s4ZXlqd3daV0FOVW1aSGQ3cnRDRlk1d1hlTDZUcDNJYmRweXdoZGFfZ0VkeDh6Nk5ET3p2cEwzUGJ4Vm5BckFyTzJSWnYxMFVQLUNJWXUwWS1senFibW1MOHl3M05Ua3N6NURR?oc=5",
+      "publishedAt": "2026-09-04T00:00:37.000Z",
+      "companySlug": "gamma",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPS0wzNkw4UThMaklmSlk3dWhYTmdiOEFFRFJkZVRMT0RXZDRncXpQMUpEOThUenhMNnh2N1cyVFFObGYxMmVYUEZweFlPOTJMN2RlMktyWHZwOHNnOTQxYVBFT2s4ZXlqd3daV0FOVW1aSGQ3cnRDRlk1d1hlTDZUcDNJYmRweXdoZGFfZ0VkeDh6Nk5ET3p2cEwzUGJ4Vm5BckFyTzJSWnYxMFVQLUNJWXUwWS1senFibW1MOHl3M05Ua3N6NURR?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPS0wzNkw4UThMaklmSlk3dWhYTmdiOEFFRFJkZVRMT0RXZDRncXpQMUpEOThUenhMNnh2N1cyVFFObGYxMmVYUEZweFlPOTJMN2RlMktyWHZwOHNnOTQxYVBFT2s4ZXlqd3daV0FOVW1aSGQ3cnRDRlk1d1hlTDZUcDNJYmRweXdoZGFfZ0VkeDh6Nk5ET3p2cEwzUGJ4Vm5BckFyTzJSWnYxMFVQLUNJWXUwWS1senFibW1MOHl3M05Ua3N6NURR?oc=5"
+        }
+      ],
+      "duplicateFeedIds": [
+        "96121da1646e"
+      ],
+      "mergedHeadlines": [
+        "New York puts $40 million Empire AI Beta supercomputer online for university researchers"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "6fe896358ff8",
+      "headline": "OpenAI launches new Astra model amid growing scrutiny over agents' safety",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEhVLUYyaUZ3dDB0UGpFemVFREl1RkE0Q2FldS0zQmNQVVNudlNULXg3RXlVdjBId2lKSUJSdGllakNFNzJTMUstb2R1Nm1NQ2R6UEQxZkw1dzRoRG5NLWE0WlJWVGw3Y3VWUkQ3WHNOd1h3YndNZ0FNQ2NmX0JHZnBjakRjemhjWEtvN1RnbUdRdWtSUGpWTkRnTG1ncmQ3Mk5fTmEycGgxemROWDBMNzZaYnlyUVpsYXVLNnNpMHJVV2s?oc=5",
+      "publishedAt": "2026-09-03T19:39:21.000Z",
+      "companySlug": "stack-openai",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEhVLUYyaUZ3dDB0UGpFemVFREl1RkE0Q2FldS0zQmNQVVNudlNULXg3RXlVdjBId2lKSUJSdGllakNFNzJTMUstb2R1Nm1NQ2R6UEQxZkw1dzRoRG5NLWE0WlJWVGw3Y3VWUkQ3WHNOd1h3YndNZ0FNQ2NmX0JHZnBjakRjemhjWEtvN1RnbUdRdWtSUGpWTkRnTG1ncmQ3Mk5fTmEycGgxemROWDBMNzZaYnlyUVpsYXVLNnNpMHJVV2s?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEhVLUYyaUZ3dDB0UGpFemVFREl1RkE0Q2FldS0zQmNQVVNudlNULXg3RXlVdjBId2lKSUJSdGllakNFNzJTMUstb2R1Nm1NQ2R6UEQxZkw1dzRoRG5NLWE0WlJWVGw3Y3VWUkQ3WHNOd1h3YndNZ0FNQ2NmX0JHZnBjakRjemhjWEtvN1RnbUdRdWtSUGpWTkRnTG1ncmQ3Mk5fTmEycGgxemROWDBMNzZaYnlyUVpsYXVLNnNpMHJVV2s?oc=5"
+        }
+      ],
+      "duplicateFeedIds": [
+        "73f8fd846998"
+      ],
+      "mergedHeadlines": [
+        "OpenAI launches new Astra model amid growing scrutiny over agents' safety"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "6a93be1b84dc",
+      "headline": "@neondatabase: The Neon backend services in beta (Object Storage, Functions, and AI Gateway) are now available in eu-central-1 Deploy them from the console or from your age…",
+      "url": "https://x.com/neondatabase/status/2095573662875447531",
+      "publishedAt": "2026-09-03T18:04:29.000Z",
+      "companySlug": "stack-neon",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/neondatabase/status/2095573662875447531"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/neondatabase/status/2095573662875447531"
+        }
+      ],
+      "duplicateFeedIds": [
+        "e889271ea896"
+      ],
+      "mergedHeadlines": [
+        "@neondatabase: The Neon backend services in beta (Object Storage, Functions, and AI Gateway) are now available in eu-central-1 Deploy them from the console or from your age…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "5d150fb12c57",
+      "headline": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ0RxN25tUmIwSWNkRUtlaDUzM2UwOVNtMFROYkZrYW1QU1o0LUN1Ukw5RWVaRTU2d1AzV2ZkQ25iOS04WDJPX0dLWlk4dVpvb2g5cHBtTEpPaGx1MzdZYU5vLXJnRUZDWkgtSEpyWmNOWWFkOTQzdUZLaHFvazRmWlg5TVVfX0Q3MDlvV091dXpsNVBMMFQtOUQ4NHduQQ?oc=5",
+      "publishedAt": "2026-09-03T18:01:45.000Z",
+      "companySlug": "stack-openai",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ0RxN25tUmIwSWNkRUtlaDUzM2UwOVNtMFROYkZrYW1QU1o0LUN1Ukw5RWVaRTU2d1AzV2ZkQ25iOS04WDJPX0dLWlk4dVpvb2g5cHBtTEpPaGx1MzdZYU5vLXJnRUZDWkgtSEpyWmNOWWFkOTQzdUZLaHFvazRmWlg5TVVfX0Q3MDlvV091dXpsNVBMMFQtOUQ4NHduQQ?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ0RxN25tUmIwSWNkRUtlaDUzM2UwOVNtMFROYkZrYW1QU1o0LUN1Ukw5RWVaRTU2d1AzV2ZkQ25iOS04WDJPX0dLWlk4dVpvb2g5cHBtTEpPaGx1MzdZYU5vLXJnRUZDWkgtSEpyWmNOWWFkOTQzdUZLaHFvazRmWlg5TVVfX0Q3MDlvV091dXpsNVBMMFQtOUQ4NHduQQ?oc=5"
+        }
+      ],
+      "duplicateFeedIds": [
+        "177e12361d4c"
+      ],
+      "mergedHeadlines": [
+        "OpenAI launches Astra, its powerful (and controversial) new model"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "70ec85402b8a",
+      "headline": "LinkedIn · Dara Ladjevardian: We spend so much time studying how Stripe hires, how Airbnb designs, how Meta ships, how Jobs presented... According to Julie Zhuo, the useful question may n…",
+      "url": "https://linkedin.com/posts/dara-ladjevardian_we-spend-so-much-time-studying-how-stripe-activity-7501315421623603200-GZkR",
+      "publishedAt": "2026-09-03T16:29:24.216Z",
+      "companySlug": "delphi",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://linkedin.com/posts/dara-ladjevardian_we-spend-so-much-time-studying-how-stripe-activity-7501315421623603200-GZkR"
+        },
+        {
+          "collectorSource": "linkedin",
+          "url": "https://linkedin.com/posts/dara-ladjevardian_we-spend-so-much-time-studying-how-stripe-activity-7501315421623603200-GZkR"
+        }
+      ],
+      "duplicateFeedIds": [
+        "f9d590cbdc3c"
+      ],
+      "mergedHeadlines": [
+        "LinkedIn · Dara Ladjevardian: We spend so much time studying how Stripe hires, how Airbnb designs, how Meta ships, how Jobs presented... According to Julie Zhuo, the useful question may n…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "99098a45dd3a",
+      "headline": "@openclaw: AgentCore Payments is now GA. OpenClaw agents can use the @awscloud aws-agents-pay plugin to make bounded, human-approved payments for paywalled APIs, MCP se…",
+      "url": "https://x.com/openclaw/status/2095541230793015684",
+      "publishedAt": "2026-09-03T15:55:37.000Z",
+      "companySlug": "stack-openclaw",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/openclaw/status/2095541230793015684"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/openclaw/status/2095541230793015684"
+        }
+      ],
+      "duplicateFeedIds": [
+        "0712b2632d74"
+      ],
+      "mergedHeadlines": [
+        "@openclaw: AgentCore Payments is now GA. OpenClaw agents can use the @awscloud aws-agents-pay plugin to make bounded, human-approved payments for paywalled APIs, MCP se…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "c6b26487c76f",
+      "headline": "n8n Launches Berlin Conference Focused on Scalable Workflow Automation",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2Q2bEpDZ0VxSFdhSG5VWHJuNzBYaXBYSmtucG9iY2NxamRFbTEwNEhITFBsbVl6Q2RXQTFyYi1WRHdpVG9iQ2REUzU3azU3RzF2ZEdGZ2VhdlpmMFA2RHp1a2FuaGtpYXluR3gxYnppTF9kd1dzWjdTMkZONmlBOXZ6UzM4MkxmRzVjRUgyX1ZiX0hoVVJXNEVoRERzdVhPdFl6T04tWFFyS3NUMTZweHFRTVVZYkJ1Umc?oc=5",
+      "publishedAt": "2026-09-03T12:36:06.000Z",
+      "companySlug": "stack-n8n",
+      "entityMatchReviewed": false,
+      "collectedKind": "product",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2Q2bEpDZ0VxSFdhSG5VWHJuNzBYaXBYSmtucG9iY2NxamRFbTEwNEhITFBsbVl6Q2RXQTFyYi1WRHdpVG9iQ2REUzU3azU3RzF2ZEdGZ2VhdlpmMFA2RHp1a2FuaGtpYXluR3gxYnppTF9kd1dzWjdTMkZONmlBOXZ6UzM4MkxmRzVjRUgyX1ZiX0hoVVJXNEVoRERzdVhPdFl6T04tWFFyS3NUMTZweHFRTVVZYkJ1Umc?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2Q2bEpDZ0VxSFdhSG5VWHJuNzBYaXBYSmtucG9iY2NxamRFbTEwNEhITFBsbVl6Q2RXQTFyYi1WRHdpVG9iQ2REUzU3azU3RzF2ZEdGZ2VhdlpmMFA2RHp1a2FuaGtpYXluR3gxYnppTF9kd1dzWjdTMkZONmlBOXZ6UzM4MkxmRzVjRUgyX1ZiX0hoVVJXNEVoRERzdVhPdFl6T04tWFFyS3NUMTZweHFRTVVZYkJ1Umc?oc=5"
+        }
+      ],
+      "duplicateFeedIds": [
+        "6b772eca3421"
+      ],
+      "mergedHeadlines": [
+        "n8n Launches Berlin Conference Focused on Scalable Workflow Automation"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "89959756a1be",
+      "headline": "n8n's Jan Oberhauser on SAP's strategic investment and €5.2B valuation",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORUJabXJnMndvazJBOEhjOGdxd0I0TjNrdVY2OElyenVhTG95VU5NRzNvM2FfQWhZWVd5RUhRa2VRMjJlT2I4OWFuNmczT3F6bGZtYmtKQi1iU0F0NGY3Z3lKQTI5QUtiWFFBZmxHZTBaUXVTdDFRSE1ZVXRuRWxBclFYYlctMzI1cHkwNm1SNkFjTlpzVDBYYjU4LWJCekRnRVdvR0xR?oc=5",
+      "publishedAt": "2026-09-09T07:31:37.000Z",
+      "companySlug": "stack-n8n",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORUJabXJnMndvazJBOEhjOGdxd0I0TjNrdVY2OElyenVhTG95VU5NRzNvM2FfQWhZWVd5RUhRa2VRMjJlT2I4OWFuNmczT3F6bGZtYmtKQi1iU0F0NGY3Z3lKQTI5QUtiWFFBZmxHZTBaUXVTdDFRSE1ZVXRuRWxBclFYYlctMzI1cHkwNm1SNkFjTlpzVDBYYjU4LWJCekRnRVdvR0xR?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORUJabXJnMndvazJBOEhjOGdxd0I0TjNrdVY2OElyenVhTG95VU5NRzNvM2FfQWhZWVd5RUhRa2VRMjJlT2I4OWFuNmczT3F6bGZtYmtKQi1iU0F0NGY3Z3lKQTI5QUtiWFFBZmxHZTBaUXVTdDFRSE1ZVXRuRWxBclFYYlctMzI1cHkwNm1SNkFjTlpzVDBYYjU4LWJCekRnRVdvR0xR?oc=5"
+        }
+      ],
+      "duplicateFeedIds": [
+        "b3d19f736ef5"
+      ],
+      "mergedHeadlines": [
+        "n8n's Jan Oberhauser on SAP's strategic investment and €5.2B valuation"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "f09f8716b1c1",
+      "headline": "LinkedIn · Prashanth Pillareddy: Silicon Valley’s $2.5 billion bet on AI assistants is wrong. Some of the smartest people in the world have put a $2.5 billion valuation on an AI assistant th…",
+      "url": "https://linkedin.com/posts/activity-7503325455614283777-J0ML",
+      "publishedAt": "2026-09-09T05:36:33.664Z",
+      "companySlug": "payman",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://linkedin.com/posts/activity-7503325455614283777-J0ML"
+        },
+        {
+          "collectorSource": "linkedin",
+          "url": "https://linkedin.com/posts/activity-7503325455614283777-J0ML"
+        }
+      ],
+      "duplicateFeedIds": [
+        "c9f8d97b8b27"
+      ],
+      "mergedHeadlines": [
+        "LinkedIn · Prashanth Pillareddy: Silicon Valley’s $2.5 billion bet on AI assistants is wrong. Some of the smartest people in the world have put a $2.5 billion valuation on an AI assistant th…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "6932d4b4164b",
+      "headline": "@bencera: Before Polsia, I built a product called Blanks. 3 months later, a competitor shipped the same product and raised $20M. If you want to win: Be fast. Be unique…",
+      "url": "https://x.com/Bencera/status/2097294518164808037",
+      "publishedAt": "2026-09-08T12:02:33.000Z",
+      "companySlug": "polsia",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/Bencera/status/2097294518164808037"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/Bencera/status/2097294518164808037"
+        }
+      ],
+      "duplicateFeedIds": [
+        "229188b12ae0"
+      ],
+      "mergedHeadlines": [
+        "@bencera: Before Polsia, I built a product called Blanks. 3 months later, a competitor shipped the same product and raised $20M. If you want to win: Be fast. Be unique…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "88b3a371dfaa",
+      "headline": "ElevenLabs Hires CFO, Eyes 2028 IPO",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTnBsV1VZb3d4SVhGMXNmQW5oYTFiTG8tSERFcnVUcU9Jai1VTXlFbjJEYXI5dGpmSTFrT0h6V2Q3TzBReGl3Y3ROSmtrN2FsbzVOVVJhc3o3cmxvRjVGZEptSlRmM2gwcUkzcjJ6d2ZldUkyY1FpN1dLRUUwMW1vWUF5d3EwTlBnQXhxalZQbjA?oc=5",
+      "publishedAt": "2026-09-08T12:01:00.000Z",
+      "companySlug": "stack-elevenlabs",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTnBsV1VZb3d4SVhGMXNmQW5oYTFiTG8tSERFcnVUcU9Jai1VTXlFbjJEYXI5dGpmSTFrT0h6V2Q3TzBReGl3Y3ROSmtrN2FsbzVOVVJhc3o3cmxvRjVGZEptSlRmM2gwcUkzcjJ6d2ZldUkyY1FpN1dLRUUwMW1vWUF5d3EwTlBnQXhxalZQbjA?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTnBsV1VZb3d4SVhGMXNmQW5oYTFiTG8tSERFcnVUcU9Jai1VTXlFbjJEYXI5dGpmSTFrT0h6V2Q3TzBReGl3Y3ROSmtrN2FsbzVOVVJhc3o3cmxvRjVGZEptSlRmM2gwcUkzcjJ6d2ZldUkyY1FpN1dLRUUwMW1vWUF5d3EwTlBnQXhxalZQbjA?oc=5"
+        },
+        {
+          "collectorSource": "hn",
+          "url": "https://news.ycombinator.com/item?id=49609165"
+        }
+      ],
+      "duplicateFeedIds": [
+        "25459255589c"
+      ],
+      "mergedHeadlines": [
+        "ElevenLabs Hires CFO, Eyes 2028 IPO"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "e49e4fd5a9ed",
+      "headline": "@alexandertw33ts: recently one of our competitors Mechanical Turk shut down I've been using rentahuman to pay people to message reddit users complaining about the shutdown and…",
+      "url": "https://x.com/AlexanderTw33ts/status/2097123521080197612",
+      "publishedAt": "2026-09-08T00:43:04.000Z",
+      "companySlug": "rentahuman",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://x.com/AlexanderTw33ts/status/2097123521080197612"
+        },
+        {
+          "collectorSource": "x",
+          "url": "https://x.com/AlexanderTw33ts/status/2097123521080197612"
+        }
+      ],
+      "duplicateFeedIds": [
+        "dbaa769574b0"
+      ],
+      "mergedHeadlines": [
+        "@alexandertw33ts: recently one of our competitors Mechanical Turk shut down I've been using rentahuman to pay people to message reddit users complaining about the shutdown and…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "4f6552098c75",
+      "headline": "LinkedIn · Ben Cera: I hit 10,000 customers and $10M run rate at a $250M valuation in 5 months. These are my biggest learnings from 20+ years in business: 1. Don’t quit before th…",
+      "url": "https://linkedin.com/posts/benbroca_i-hit-10000-customers-and-10m-run-rate-activity-7502058571187183616-tOBR",
+      "publishedAt": "2026-09-05T17:42:24.879Z",
+      "companySlug": "polsia",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://linkedin.com/posts/benbroca_i-hit-10000-customers-and-10m-run-rate-activity-7502058571187183616-tOBR"
+        },
+        {
+          "collectorSource": "linkedin",
+          "url": "https://linkedin.com/posts/benbroca_i-hit-10000-customers-and-10m-run-rate-activity-7502058571187183616-tOBR"
+        }
+      ],
+      "duplicateFeedIds": [
+        "3c0ac60fb0c9"
+      ],
+      "mergedHeadlines": [
+        "LinkedIn · Ben Cera: I hit 10,000 customers and $10M run rate at a $250M valuation in 5 months. These are my biggest learnings from 20+ years in business: 1. Don’t quit before th…"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "103300150687",
+      "headline": "He waited nearly 20 years to start a company. Now he's the cofounder of a double unicorn.",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSWVNdDVhSGdUc0pCRDZYczRxYTVJSXRxQ1lLQ3VkdjBNS1NrQXBFcXhCYkJBV09IZkVrbXBPc2NkTy1hVFo0dEY4bGh0ZnRKb0lZWVhla1BTcHhDbGNSYUJCQkppNEtoQk82NjhhNjlwbWdyNXNQMnJkaGxJRGxDX29zb3RsbHJWclFKV3BBc1JfUEt1cmtF?oc=5",
+      "publishedAt": "2026-09-05T09:50:00.000Z",
+      "companySlug": "cofounder",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "company",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSWVNdDVhSGdUc0pCRDZYczRxYTVJSXRxQ1lLQ3VkdjBNS1NrQXBFcXhCYkJBV09IZkVrbXBPc2NkTy1hVFo0dEY4bGh0ZnRKb0lZWVhla1BTcHhDbGNSYUJCQkppNEtoQk82NjhhNjlwbWdyNXNQMnJkaGxJRGxDX29zb3RsbHJWclFKV3BBc1JfUEt1cmtF?oc=5"
+        },
+        {
+          "collectorSource": "gnews",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSWVNdDVhSGdUc0pCRDZYczRxYTVJSXRxQ1lLQ3VkdjBNS1NrQXBFcXhCYkJBV09IZkVrbXBPc2NkTy1hVFo0dEY4bGh0ZnRKb0lZWVhla1BTcHhDbGNSYUJCQkppNEtoQk82NjhhNjlwbWdyNXNQMnJkaGxJRGxDX29zb3RsbHJWclFKV3BBc1JfUEt1cmtF?oc=5"
+        }
+      ],
+      "duplicateFeedIds": [
+        "1bfcc9e92c1e"
+      ],
+      "mergedHeadlines": [
+        "He waited nearly 20 years to start a company. Now he's the cofounder of a double unicorn."
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "f5e6a2871005",
+      "headline": "Sources: Anthropic is expected to make its IPO prospectus public late September and complete the listing days before the US midterm elections in November (Echo Wang/Reuters)",
+      "url": "https://techmeme.com/260904/p31",
+      "publishedAt": "2026-09-04T22:55:01.000Z",
+      "companySlug": "stack-claude",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected headline; article contents not reviewed by this generator",
+      "socialRelationship": null,
+      "sourceRefs": [
+        {
+          "collectorSource": "collected-link",
+          "url": "https://techmeme.com/260904/p31"
+        },
+        {
+          "collectorSource": "techmeme",
+          "url": "https://techmeme.com/260904/p31"
+        }
+      ],
+      "duplicateFeedIds": [
+        "e5c92963a67c"
+      ],
+      "mergedHeadlines": [
+        "Sources: Anthropic is expected to make its IPO prospectus public late September and complete the listing days before the US midterm elections in November (Echo Wang/Reuters)"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "a98c1cd6ef64",
+      "headline": "LinkedIn · Adi Singh: 7 days in NYC, by the numbers: • 29 meetings • 62,000 steps • 6 figures of net-new ARR signed (and counting) Most of our working days are spent hunched over …",
+      "url": "https://linkedin.com/posts/adivirsingh13_7-days-in-nyc-by-the-numbers-29-meetings-activity-7501750460228235264-q6_4",
+      "publishedAt": "2026-09-04T21:18:05.502Z",
+      "companySlug": "stack-agentmail",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://linkedin.com/posts/adivirsingh13_7-days-in-nyc-by-the-numbers-29-meetings-activity-7501750460228235264-q6_4"
+        },
+        {
+          "collectorSource": "linkedin",
+          "url": "https://linkedin.com/posts/adivirsingh13_7-days-in-nyc-by-the-numbers-29-meetings-activity-7501750460228235264-q6_4"
+        }
+      ],
+      "duplicateFeedIds": [
+        "da62f50d086e"
+      ],
+      "mergedHeadlines": [
+        "LinkedIn · Adi Singh: 7 days in NYC, by the numbers: • 29 meetings • 62,000 steps • 6 figures of net-new ARR signed (and counting) Most of our working days are spent hunched over …"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    },
+    {
+      "id": "1a60f06f42be",
+      "headline": "LinkedIn · Akamai (Linode): If one of your inference endpoints were compromised right now, could you contain it without shutting down the environment around it? Most security teams can …",
+      "url": "https://linkedin.com/posts/akamai-technologies_if-one-of-your-inference-endpoints-were-compromised-activity-7501610050692587520-btR6",
+      "publishedAt": "2026-09-04T12:00:09.260Z",
+      "companySlug": "stack-akamai",
+      "entityMatchReviewed": false,
+      "collectedKind": "funding",
+      "track": "stack",
+      "reviewStatus": "unreviewed",
+      "evidenceBasis": "Collected social statement; claims unverified",
+      "socialRelationship": "associated",
+      "sourceRefs": [
+        {
+          "collectorSource": "social-statement",
+          "url": "https://linkedin.com/posts/akamai-technologies_if-one-of-your-inference-endpoints-were-compromised-activity-7501610050692587520-btR6"
+        },
+        {
+          "collectorSource": "linkedin",
+          "url": "https://linkedin.com/posts/akamai-technologies_if-one-of-your-inference-endpoints-were-compromised-activity-7501610050692587520-btR6"
+        }
+      ],
+      "duplicateFeedIds": [
+        "5ec1014ffc30"
+      ],
+      "mergedHeadlines": [
+        "LinkedIn · Akamai (Linode): If one of your inference endpoints were compromised right now, could you contain it without shutting down the environment around it? Most security teams can …"
+      ],
+      "verifiedChange": null,
+      "businessImplication": null,
+      "reviewer": null
+    }
+  ]
+}

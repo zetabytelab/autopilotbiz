@@ -1,6 +1,24 @@
 import ledger from "@/public/experiments/atoms/ledger.json";
 
-export const atomsExperiment = ledger;
+type AcceptanceResult = {
+  checkId: string;
+  status: "pass" | "fail" | "not_run" | "unavailable";
+  observedAt: string | null;
+  observed: string;
+  artifactVersion: string | null;
+  evidenceIds: string[];
+};
+
+export const atomsExperiment = ledger as Omit<typeof ledger, "acceptanceResults"> & { acceptanceResults: AcceptanceResult[] };
+
+export const experimentStatusLabel = ledger.status === "paused"
+  ? ledger.buildStartedAt ? "Execution paused" : "Awaiting Atoms sign-in · build not started"
+  : ({ prepared: "Protocol prepared · build not started", building: "Build in progress", verifying: "Verifying the product", observing: "Observation start recorded", complete: "Completion recorded · review evidence" } as Record<string, string>)[ledger.status] ?? "Status under review";
+
+const hasBuild = ledger.buildStartedAt !== null;
+const built = ledger.buildCompletedAt !== null;
+const observing = ledger.observationStartedAt !== null;
+const observed = ledger.observationEndedAt !== null;
 
 export const experimentMetrics = [
   { label: "Cash spent", value: ledger.metrics.cashSpendUsd, unit: "USD", source: "Receipts and billing history" },
@@ -19,17 +37,17 @@ export const experimentPhases = [
   },
   {
     title: "Build with Atoms",
-    status: "Not started",
+    status: built ? "Build recorded" : hasBuild ? ledger.status === "paused" ? "Paused" : "In progress" : ledger.status === "paused" ? "Awaiting sign-in" : "Not started",
     detail: "Use an authenticated account and available free credits. Record the agent transcript, time, credit usage and every human intervention.",
   },
   {
     title: "Verify and publish the product",
-    status: "Not started",
+    status: observing ? "Observation start recorded" : built ? "Awaiting verification" : "Not started",
     detail: "Check calculations, mobile use, export and privacy. Record the actual product URL and any manual fixes before reporting a launch.",
   },
   {
     title: "Observe real use for seven days",
-    status: "Not started",
+    status: observed ? "Observation end recorded" : observing ? "Observation start recorded" : "Not started",
     detail: "Measure visits, completed calculations and support effort. Revenue stays unmeasured until a real payment offer and payment records exist.",
   },
 ];

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy — The Autopilot Index",
   description:
-    "The Autopilot Index privacy policy: what we collect (newsletter email only), how it's used, and your choices.",
+    "How The Autopilot Index handles newsletter email, aggregate analytics and your privacy choices.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -25,8 +25,21 @@ export default function Privacy() {
         <p>
           If you subscribe to <Link href="/pulse" className="text-lime-400 hover:underline">Autopilot Pulse</Link>,
           we store the email address you provide, via our email provider (Brevo), on a double opt-in basis. We do
-          not sell, rent, or share your email with third parties. Standard, privacy-respecting analytics may be
-          used to understand aggregate traffic; we do not build advertising profiles.
+          not sell or rent your email. Brevo processes it to provide the newsletter service.
+        </p>
+        <h2 className="pt-2 text-lg font-bold text-zinc-100">Site measurement</h2>
+        <p>
+          We use Vercel Web Analytics to understand aggregate page visits, company-profile reading,
+          experiment-page visits, accepted newsletter requests and clicks on marked affiliate links.
+          An accepted newsletter request is distinct from a confirmed double opt-in subscription.
+          We do not send email addresses, form contents or calculator assumptions as analytics events,
+          and we remove query strings and URL fragments from recorded page URLs. We do not build advertising profiles.
+        </p>
+        <p>
+          Measurement is disabled for development and preview sites, automated browser tests, and browsers
+          that signal Do Not Track or Global Privacy Control. Add <code className="rounded bg-zinc-800 px-1 text-xs">?analytics=off</code>{" "}
+          to a page URL to turn measurement off for that page visit. If your browser blocks the analytics
+          service, the site continues to work.
         </p>
         <h2 className="pt-2 text-lg font-bold text-zinc-100">Affiliate links</h2>
         <p>

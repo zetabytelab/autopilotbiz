@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import RefCapture from "@/components/RefCapture";
+import AnalyticsEvents from "@/components/AnalyticsEvents";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -49,6 +50,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-200">
         <RefCapture />
+        <AnalyticsEvents production={process.env.VERCEL_ENV === "production"} />
         <nav className="sticky top-0 z-50 border-b border-zinc-900 bg-zinc-950/80 backdrop-blur">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6">
             <Link href="/" className="font-mono text-sm font-bold tracking-tight text-zinc-100 hover:text-lime-400">

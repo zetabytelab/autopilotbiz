@@ -2,6 +2,7 @@ import { z } from "zod";
 import { companies, stackTools, type Company, type StackTool } from "@/lib/data";
 import { editions, type Edition } from "@/lib/editions";
 import { API_BASE } from "@/lib/api/http";
+import { getCompanyResearch } from "@/lib/company-profiles";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // DTOs — EXPLICIT whitelists. We never spread raw internal objects into a
@@ -10,6 +11,7 @@ import { API_BASE } from "@/lib/api/http";
 // ─────────────────────────────────────────────────────────────────────────────
 
 export function companyDTO(c: Company) {
+  const currentResearch = getCompanyResearch(c.slug);
   return {
     slug: c.slug,
     name: c.name,
@@ -31,7 +33,9 @@ export function companyDTO(c: Company) {
       arrUsd: c.metrics.arrUsd,
       humans: c.metrics.humans,
     },
-    pricing: c.pricing,
+    pricing: currentResearch?.pricing.summary ?? c.pricing,
+    pricingCheckedAt: currentResearch?.checkedAt ?? null,
+    pricingSources: currentResearch?.pricing.sources.map((source) => ({ name: source.name, url: source.url })) ?? [],
     referralProgram: { exists: c.referralProgram.exists, notes: c.referralProgram.notes },
     verified: c.verified,
     cohort: c.cohort ?? null,

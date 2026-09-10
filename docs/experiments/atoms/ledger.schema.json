@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atoms experiment evidence ledger",
+  "type": "object",
+  "required": ["experimentId", "protocolVersion", "preparedOn", "status", "statusNote", "product", "metrics", "attribution", "events", "acceptanceResults", "evidence", "limitations"],
+  "properties": {
+    "experimentId": { "const": "atoms-solo-revenue-planner-2026-09" },
+    "protocolVersion": { "type": "string", "minLength": 1 },
+    "preparedOn": { "type": "string", "format": "date" },
+    "status": { "enum": ["prepared", "building", "verifying", "observing", "paused", "complete"] },
+    "statusNote": { "type": "string", "minLength": 1 },
+    "product": { "type": "string", "minLength": 1 },
+    "buildStartedAt": { "$ref": "#/$defs/nullableTimestamp" },
+    "buildCompletedAt": { "$ref": "#/$defs/nullableTimestamp" },
+    "productUrl": { "$ref": "#/$defs/nullableUrl" },
+    "exportedRepositoryUrl": { "$ref": "#/$defs/nullableUrl" },
+    "observationStartedAt": { "$ref": "#/$defs/nullableTimestamp" },
+    "observationEndedAt": { "$ref": "#/$defs/nullableTimestamp" },
+    "metrics": {
+      "type": "object",
+      "required": ["cashSpendUsd", "creditsConsumed", "humanMinutes", "humanInterventions", "payingCustomers", "grossRevenueUsd"],
+      "properties": {
+        "cashSpendUsd": { "$ref": "#/$defs/nullableQuantity" },
+        "allocatedSubscriptionCostUsd": { "$ref": "#/$defs/nullableQuantity" },
+        "creditsConsumed": { "$ref": "#/$defs/nullableQuantity" },
+        "humanMinutes": { "$ref": "#/$defs/nullableQuantity" },
+        "elapsedBuildMinutes": { "$ref": "#/$defs/nullableQuantity" },
+        "humanInterventions": { "$ref": "#/$defs/nullableCount" },
+        "acceptanceChecksPassed": { "type": ["integer", "null"], "minimum": 0, "maximum": 8 },
+        "uniqueVisitors": { "$ref": "#/$defs/nullableCount" },
+        "completedCalculations": { "$ref": "#/$defs/nullableCount" },
+        "payingCustomers": { "$ref": "#/$defs/nullableCount" },
+        "grossRevenueUsd": { "$ref": "#/$defs/nullableQuantity" },
+        "refundsUsd": { "$ref": "#/$defs/nullableQuantity" },
+        "paymentFeesUsd": { "$ref": "#/$defs/nullableQuantity" }
+      }
+    },
+    "attribution": {
+      "type": "object",
+      "required": ["protocol", "productBuilder", "externalCodingAssistance"],
+      "properties": {
+        "protocol": { "type": "string" },
+        "productBuilder": { "type": ["string", "null"] },
+        "externalCodingAssistance": { "type": "array", "items": { "type": "object", "required": ["actor", "description", "evidenceIds"], "properties": { "actor": { "type": "string" }, "description": { "type": "string" }, "evidenceIds": { "$ref": "#/$defs/references" } } } }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "startedAt", "endedAt", "stage", "actor", "action", "activeHumanMinutes", "isHumanIntervention", "outcome", "evidenceIds"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "startedAt": { "type": "string", "format": "date-time" },
+          "endedAt": { "$ref": "#/$defs/nullableTimestamp" },
+          "stage": { "enum": ["build", "verification", "launch", "operation"] },
+          "actor": { "enum": ["human", "atoms", "external-ai"] },
+          "action": { "type": "string", "minLength": 1 },
+          "activeHumanMinutes": { "$ref": "#/$defs/nullableQuantity" },
+          "agentMinutes": { "$ref": "#/$defs/nullableQuantity" },
+          "isHumanIntervention": { "type": "boolean" },
+          "creditsUsed": { "$ref": "#/$defs/nullableQuantity" },
+          "cashSpendUsd": { "$ref": "#/$defs/nullableQuantity" },
+          "outcome": { "type": "string", "minLength": 1 },
+          "evidenceIds": { "$ref": "#/$defs/references" }
+        }
+      }
+    },
+    "acceptanceResults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["checkId", "status", "observedAt", "observed", "artifactVersion", "evidenceIds"],
+        "properties": {
+          "checkId": { "enum": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"] },
+          "status": { "enum": ["pass", "fail", "not_run", "unavailable"] },
+          "observedAt": { "$ref": "#/$defs/nullableTimestamp" },
+          "observed": { "type": "string" },
+          "artifactVersion": { "type": ["string", "null"] },
+          "evidenceIds": { "$ref": "#/$defs/references" }
+        },
+        "allOf": [{ "if": { "properties": { "status": { "enum": ["pass", "fail"] } } }, "then": { "properties": { "observedAt": { "type": "string", "format": "date-time" }, "artifactVersion": { "type": "string", "minLength": 1 }, "evidenceIds": { "minItems": 1 } } } }]
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "capturedAt", "location", "visibility", "description"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "type": { "enum": ["screenshot", "transcript", "export", "billing", "test-output", "analytics", "payment", "repository", "operator-note"] },
+          "capturedAt": { "type": "string", "format": "date-time" },
+          "location": { "type": "string", "minLength": 1 },
+          "visibility": { "enum": ["public", "redacted", "private"] },
+          "description": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "limitations": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "nullableQuantity": { "type": ["number", "null"], "minimum": 0 },
+    "nullableCount": { "type": ["integer", "null"], "minimum": 0 },
+    "nullableTimestamp": { "type": ["string", "null"], "format": "date-time" },
+    "nullableUrl": { "type": ["string", "null"], "format": "uri" },
+    "references": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+  }
+}

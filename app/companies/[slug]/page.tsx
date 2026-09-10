@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { companies, type Source } from "@/lib/data";
 import { getAutonomyAssessment } from "@/lib/autonomy";
-import { getCompanySources, getProfileNotes } from "@/lib/company-profiles";
+import { getCompanyResearch, getCompanySources, getProfileNotes, type ResearchFinding } from "@/lib/company-profiles";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -31,12 +31,20 @@ function Citation({ source }: { source?: Source }) {
     : <p className="mt-2 text-xs text-zinc-500">No field-specific source recorded.</p>;
 }
 
+function FindingSources({ finding }: { finding: ResearchFinding }) {
+  return <div className="mt-3 space-y-1">
+    <p className="font-mono text-[11px] text-zinc-400">{finding.status}</p>
+    {finding.sources.map((source) => <Citation key={source.url} source={source} />)}
+  </div>;
+}
+
 export default async function CompanyProfile({ params }: Props) {
   const { slug } = await params;
   const company = companies.find((entry) => entry.slug === slug);
   if (!company) notFound();
   const assessment = getAutonomyAssessment(company);
   const notes = getProfileNotes(company);
+  const research = getCompanyResearch(company.slug);
   const sources = getCompanySources(company);
   const timeline = [...company.news].sort((a, b) => b.date.localeCompare(a.date));
 
@@ -52,6 +60,7 @@ export default async function CompanyProfile({ params }: Props) {
           <span className="rounded-full border border-zinc-700 px-3 py-1.5 text-zinc-300">{assessment.evidenceLabel}</span>
         </div>
         <p className="mt-3 text-xs leading-relaxed text-zinc-500">{assessment.qualification}</p>
+        {research && <p className="mt-3 text-xs leading-relaxed text-zinc-400">Primary sources checked <time dateTime={research.checkedAt}>{research.checkedAt}</time>. Published claims and terms reviewed; no independent product or financial audit.</p>}
         <div className="mt-5 flex flex-wrap gap-4 text-sm">
           {company.url ? <a href={company.url} target="_blank" rel="noopener noreferrer" className="text-lime-400 hover:underline">Visit company website ↗</a> : <span className="text-amber-300">Company website withheld pending verification</span>}
           <a href="#sources" className="text-zinc-400 hover:text-zinc-100">Audit the sources ↓</a>
@@ -67,14 +76,22 @@ export default async function CompanyProfile({ params }: Props) {
 
       <section className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-5 sm:p-6" aria-labelledby="proposition">
         <h2 id="proposition" className="text-xl font-semibold text-zinc-100">The recorded proposition</h2>
-        {company.categoryClaim && <div className="mt-4 border-l-2 border-lime-400/40 pl-4"><p className="text-zinc-300">{company.categoryClaim}</p><p className="mt-2 text-xs text-zinc-500">Index summary of the positioning; not an independent finding.</p></div>}
-        <p className="mt-4 text-sm leading-relaxed text-zinc-400">{company.description}</p>
+        {!research && company.categoryClaim && <div className="mt-4 border-l-2 border-lime-400/40 pl-4"><p className="text-zinc-300">{company.categoryClaim}</p><p className="mt-2 text-xs text-zinc-500">Index summary of the positioning; not an independent finding.</p></div>}
+        <p className="mt-4 text-sm leading-relaxed text-zinc-400">{research?.capabilities.summary ?? company.description}</p>
+        {research && <FindingSources finding={research.capabilities} />}
       </section>
 
       <section className="mt-8 grid gap-5 sm:grid-cols-2" aria-label="Human involvement and evidence gaps">
-        <div className="rounded-2xl border border-zinc-800 p-5"><h2 className="text-lg font-semibold text-zinc-100">Where humans remain involved</h2><p className="mt-3 text-sm leading-relaxed text-zinc-400">{notes.humanRole}</p></div>
+        <div className="rounded-2xl border border-zinc-800 p-5"><h2 className="text-lg font-semibold text-zinc-100">Where humans remain involved</h2><p className="mt-3 text-sm leading-relaxed text-zinc-400">{research?.humanInvolvement.summary ?? notes.humanRole}</p>{research && <FindingSources finding={research.humanInvolvement} />}</div>
         <div className="rounded-2xl border border-amber-400/20 bg-amber-400/5 p-5"><h2 className="text-lg font-semibold text-amber-200">What still needs evidence</h2><p className="mt-3 text-sm leading-relaxed text-zinc-400">{notes.nextEvidence}</p>{company.autopilot?.flags && <p className="mt-3 text-sm leading-relaxed text-amber-200/80">Recorded caveat: {company.autopilot.flags}</p>}</div>
       </section>
+
+      {research && <section className="mt-8 rounded-2xl border border-zinc-800 p-5 sm:p-6" aria-labelledby="customer-evidence">
+        <h2 id="customer-evidence" className="text-xl font-semibold text-zinc-100">Customer evidence and its limits</h2>
+        <p className="mt-3 text-sm leading-relaxed text-zinc-300">{research.customerEvidence.summary}</p>
+        <FindingSources finding={research.customerEvidence} />
+        <p className="mt-4 text-sm leading-relaxed text-amber-200/80">{research.limitation}</p>
+      </section>}
 
       <section className="mt-10" aria-labelledby="economics">
         <h2 id="economics" className="text-xl font-semibold text-zinc-100">Financial and team context</h2>
@@ -94,8 +111,8 @@ export default async function CompanyProfile({ params }: Props) {
 
       <section className="mt-10" aria-labelledby="costs">
         <h2 id="costs" className="text-xl font-semibold text-zinc-100">Pricing and commercial terms</h2>
-        <p className="mt-3 text-sm leading-relaxed text-zinc-300">{company.pricing ?? "Pricing not recorded."}</p>
-        <p className="mt-2 text-xs leading-relaxed text-zinc-500">Historical research snapshot. A pricing verification date is not recorded; confirm current plans, usage limits and additional costs with the provider before purchasing.</p>
+        <p className="mt-3 text-sm leading-relaxed text-zinc-300">{research?.pricing.summary ?? company.pricing ?? "Pricing not recorded."}</p>
+        {research ? <><FindingSources finding={research.pricing} /><p className="mt-2 text-xs leading-relaxed text-zinc-500">Published information checked {research.checkedAt}; taxes, account eligibility and checkout terms may differ. Unresolved pricing is explicitly marked above.</p></> : <p className="mt-2 text-xs leading-relaxed text-zinc-500">Historical research snapshot. A pricing verification date is not recorded; confirm current plans, usage limits and additional costs with the provider before purchasing.</p>}
         {company.referralProgram.notes && <p className="mt-4 text-sm text-zinc-400"><span className="font-medium text-zinc-200">Recorded referral terms: </span>{company.referralProgram.notes} These terms have not been revalidated for this profile.</p>}
       </section>
 
@@ -111,7 +128,7 @@ export default async function CompanyProfile({ params }: Props) {
 
       <section id="sources" className="mt-10 scroll-mt-24 border-t border-zinc-800 pt-8" aria-labelledby="sources-heading">
         <h2 id="sources-heading" className="text-xl font-semibold text-zinc-100">Sources and coverage limits</h2>
-        <p className="mt-3 text-sm leading-relaxed text-zinc-400">This profile brings together the existing Index research. It is not a new verification of every claim. Company announcements, sponsored articles and founder interviews can establish what was said; they do not independently prove sustained autonomy or revenue.</p>
+        <p className="mt-3 text-sm leading-relaxed text-zinc-400">{research ? `Product, pricing, human involvement and customer-evidence sources were checked on ${research.checkedAt}. Financial figures, founders, stack and the timeline retain their historical research scope. ` : "This profile brings together the existing Index research. "}Company announcements, sponsored articles and founder interviews can establish what was said; they do not independently prove sustained autonomy or revenue.</p>
         {sources.length ? <ul className="mt-4 space-y-3">{sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="break-words text-sm text-lime-400 underline decoration-lime-400/20 hover:text-lime-300">{source.name} ↗</a></li>)}</ul> : <p className="mt-3 text-sm text-amber-200">No direct source links recorded. Treat claims as unsubstantiated until evidence is added.</p>}
       </section>
       <footer className="mt-10 flex flex-wrap gap-5 border-t border-zinc-800 pt-6 text-sm">

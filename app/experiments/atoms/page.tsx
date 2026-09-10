@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { acceptanceChecks, atomsExperiment, experimentMetrics, experimentPhases, experimentSources } from "@/lib/atoms-experiment";
+import { acceptanceChecks, atomsExperiment, experimentMetrics, experimentPhases, experimentSources, experimentStatusLabel } from "@/lib/atoms-experiment";
 
 const title = "Can Atoms build a one-person business? An open experiment";
-const description = "A documented Atoms experiment: build a Solo Revenue Planner, track human effort and costs, then measure real use. Protocol prepared; product results are not yet available.";
+const description = `A documented Atoms experiment: build a Solo Revenue Planner, track human effort and costs, then measure real use. ${experimentStatusLabel}.`;
 
 export const metadata: Metadata = {
   title: `${title} | The Autopilot Index`,
@@ -20,17 +20,32 @@ export default function AtomsExperimentPage() {
         <Link href="/" className="font-mono text-xs text-zinc-500 hover:text-lime-400">← The Autopilot Index</Link>
         <div className="mb-5 mt-8 flex flex-wrap items-center gap-3 font-mono text-xs">
           <span className="uppercase tracking-[0.18em] text-lime-400">Field experiment 01</span>
-          <span className="rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-amber-300">Protocol prepared · build not started</span>
+          <span className="rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-amber-300">{experimentStatusLabel}</span>
         </div>
         <h1 className="max-w-4xl text-4xl font-black leading-tight tracking-tight text-zinc-50 sm:text-5xl">Can Atoms build a<br className="hidden sm:block" /> one-person business?</h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-zinc-400">We will ask its AI team to build a useful small product, record every human intervention and follow what happens after launch.</p>
-        <p className="mt-4 max-w-2xl text-sm leading-relaxed text-amber-200/80">{atomsExperiment.statusNote} No results below imply that Atoms has built or operated this product.</p>
+        <p className="mt-4 max-w-2xl text-sm leading-relaxed text-amber-200/80">{atomsExperiment.statusNote}</p>
         <div className="mt-7 flex flex-wrap gap-3">
           <a href="/experiments/atoms/build-prompt.txt" download className="rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300">Download the exact build prompt</a>
           <a href="/experiments/atoms/ledger.json" download className="rounded-full border border-zinc-700 px-5 py-2.5 text-sm text-zinc-200 hover:border-zinc-500">Download the evidence ledger</a>
         </div>
         <p className="mt-4 font-mono text-xs text-zinc-600">Protocol v{atomsExperiment.protocolVersion} · prepared {atomsExperiment.preparedOn} · tools and pricing checked on that date</p>
       </header>
+
+      {atomsExperiment.events.length > 0 && (
+        <section aria-labelledby="execution-title" className="mb-8 rounded-xl border border-zinc-800 p-5">
+          <h2 id="execution-title" className="text-lg font-semibold text-zinc-100">Execution record</h2>
+          <ol className="mt-3 space-y-4">
+            {atomsExperiment.events.map((event) => (
+              <li key={event.id}>
+                <p className="font-mono text-xs text-zinc-500">{event.startedAt.slice(0, 10)} · {event.actor === "external-ai" ? "Browser agent" : event.actor}</p>
+                <p className="mt-1 text-sm leading-relaxed text-zinc-300">{event.outcome}</p>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-3 text-xs leading-relaxed text-zinc-500">Preflight entries are dated operator notes. An access dependency is separate from a product test result; automated browser activity is not measured human work.</p>
+        </section>
+      )}
 
       <section aria-labelledby="product-title" className="grid gap-6 rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6 sm:p-8 md:grid-cols-[1.5fr_1fr]">
         <div>
@@ -75,13 +90,18 @@ export default function AtomsExperimentPage() {
 
       <section aria-labelledby="checks-title" className="mt-12">
         <h2 id="checks-title" className="text-2xl font-bold text-zinc-100">What counts as a working product?</h2>
-        <p className="mt-3 text-sm leading-relaxed text-zinc-400">These checks were defined before generation. All are awaiting a real build. A failed check stays visible; any fix and its author are logged.</p>
+        <p className="mt-3 text-sm leading-relaxed text-zinc-400">These checks were defined before generation. Results require captured evidence from the actual product. A failed check stays visible; any fix and its author are logged.</p>
         <div className="mt-5 divide-y divide-zinc-800 rounded-xl border border-zinc-800">
-          {acceptanceChecks.map((check) => (
-            <div key={check.id} className="grid gap-2 p-5 sm:grid-cols-[12rem_1fr]">
-              <h3 className="text-sm font-semibold text-zinc-200"><span className="mr-2 font-mono text-lime-400">{check.id}</span>{check.name}</h3><p className="text-sm leading-relaxed text-zinc-400">{check.expected}</p>
-            </div>
-          ))}
+          {acceptanceChecks.map((check) => {
+            const attempts = atomsExperiment.acceptanceResults.filter((result) => result.checkId === check.id);
+            const latest = attempts.at(-1);
+            return (
+              <div key={check.id} className="grid gap-2 p-5 sm:grid-cols-[12rem_1fr]">
+                <div><h3 className="text-sm font-semibold text-zinc-200"><span className="mr-2 font-mono text-lime-400">{check.id}</span>{check.name}</h3><p className="mt-2 font-mono text-xs text-zinc-500">{latest ? latest.status.replaceAll("_", " ") : "Not run"}</p></div>
+                <div><p className="text-sm leading-relaxed text-zinc-400">{check.expected}</p>{latest && <p className="mt-2 text-xs leading-relaxed text-zinc-500">Recorded: {latest.observed} {attempts.length > 1 ? `${attempts.length} attempts retained in the ledger.` : ""}</p>}</div>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -102,7 +122,7 @@ export default function AtomsExperimentPage() {
 
       <aside className="mt-12 rounded-2xl border border-lime-400/25 bg-lime-400/5 p-6">
         <h2 className="text-lg font-semibold text-zinc-100">Follow the evidence as it arrives.</h2>
-        <p className="mt-2 text-sm text-zinc-400">The protocol is ready. Build results and operational observations will be published here with their supporting records.</p>
+        <p className="mt-2 text-sm text-zinc-400">{atomsExperiment.statusNote} Build results and operational observations will be published with their supporting records.</p>
         <div className="mt-4 flex flex-wrap gap-5 text-sm"><Link href="/companies/atoms" className="text-lime-400 hover:underline">Read the Atoms company profile →</Link><Link href="/pulse" className="text-zinc-300 hover:text-lime-400">Read Autopilot Pulse →</Link></div>
       </aside>
     </main>

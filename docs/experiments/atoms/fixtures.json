@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "description": "Independent, precomputed expectations. These are test inputs, not measured Atoms results.",
+  "defaultInputs": { "price": 20, "variableCost": 4, "feePercent": 3, "fixedCosts": 30, "customers": 10, "supportMinutes": 15, "fixedHumanHours": 2, "hourlyValue": 25 },
+  "cases": [
+    { "id": "baseline", "checks": ["A1", "A2"], "overrides": {}, "expected": { "contributionPerCustomer": 15.4, "revenue": 200, "paymentFees": 6, "breakEvenCustomers": 2, "operatingSurplus": 124, "humanHours": 4.5, "economicSurplus": 11.5 } },
+    { "id": "zero-customers", "checks": ["A4"], "overrides": { "customers": 0 }, "expected": { "contributionPerCustomer": 15.4, "revenue": 0, "paymentFees": 0, "breakEvenCustomers": 2, "operatingSurplus": -30, "humanHours": 2, "economicSurplus": -80 } },
+    { "id": "zero-contribution", "checks": ["A3"], "overrides": { "price": 4, "variableCost": 4, "feePercent": 0 }, "expected": { "contributionPerCustomer": 0, "revenue": 40, "paymentFees": 0, "breakEvenCustomers": null, "operatingSurplus": -30, "humanHours": 4.5, "economicSurplus": -142.5 } },
+    { "id": "negative-contribution", "checks": ["A3"], "overrides": { "price": 3, "variableCost": 4, "feePercent": 0 }, "expected": { "contributionPerCustomer": -1, "revenue": 30, "paymentFees": 0, "breakEvenCustomers": null, "operatingSurplus": -40, "humanHours": 4.5, "economicSurplus": -152.5 } },
+    { "id": "exact-break-even", "checks": ["A1"], "overrides": { "price": 10, "variableCost": 0, "feePercent": 0, "customers": 3, "supportMinutes": 0, "fixedHumanHours": 0 }, "expected": { "contributionPerCustomer": 10, "revenue": 30, "paymentFees": 0, "breakEvenCustomers": 3, "operatingSurplus": 0, "humanHours": 0, "economicSurplus": 0 } },
+    { "id": "round-up-break-even", "checks": ["A1"], "overrides": { "price": 10, "variableCost": 0, "feePercent": 0, "fixedCosts": 30.01, "customers": 3, "supportMinutes": 0, "fixedHumanHours": 0 }, "expected": { "contributionPerCustomer": 10, "revenue": 30, "paymentFees": 0, "breakEvenCustomers": 4, "operatingSurplus": -0.01, "humanHours": 0, "economicSurplus": -0.01 } },
+    { "id": "full-processing-fee", "checks": ["A3", "A4"], "overrides": { "feePercent": 100 }, "expected": { "contributionPerCustomer": -4, "revenue": 200, "paymentFees": 200, "breakEvenCustomers": null, "operatingSurplus": -70, "humanHours": 4.5, "economicSurplus": -182.5 } },
+    { "id": "no-fixed-cost", "checks": ["A1", "A4"], "overrides": { "fixedCosts": 0, "customers": 0, "supportMinutes": 0, "fixedHumanHours": 0 }, "expected": { "contributionPerCustomer": 15.4, "revenue": 0, "paymentFees": 0, "breakEvenCustomers": 0, "operatingSurplus": 0, "humanHours": 0, "economicSurplus": 0 } },
+    { "id": "invalid-negative", "checks": ["A4"], "overrides": { "price": -1 }, "invalid": true },
+    { "id": "invalid-blank", "checks": ["A4"], "overrides": { "price": "" }, "invalid": true },
+    { "id": "invalid-nonfinite", "checks": ["A4"], "overrides": { "price": "1e309" }, "invalid": true },
+    { "id": "invalid-fee", "checks": ["A4"], "overrides": { "feePercent": 101 }, "invalid": true },
+    { "id": "invalid-fractional-customers", "checks": ["A4"], "overrides": { "customers": 1.5 }, "invalid": true }
+  ]
+}
