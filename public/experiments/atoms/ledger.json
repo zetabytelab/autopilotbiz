@@ -3,7 +3,7 @@
   "protocolVersion": "1.0",
   "preparedOn": "2026-09-09",
   "status": "paused",
-  "statusNote": "The canonical prompt was submitted and the implementation plan approved on 2026-09-10. Atoms generated calculation and interface files and reached terminal/visual-review activity. Browser timeouts interrupted independent inspection; build completion, final credit consumption and publication remain unverified. The saved Atoms job may continue independently.",
+  "statusNote": "The first Atoms attempt reached browser-test setup, then exhausted the daily free quota. A user-supplied screenshot shows 0 free credits remaining and preview disabled without credits. Atoms lists a refresh on 2026-09-11 at 08:00:00, with no timezone shown. Completion, acceptance and publication remain unverified; resume the existing project after the refresh.",
   "product": "Solo Revenue Planner",
   "buildStartedAt": "2026-09-10T11:49:00.524Z",
   "buildCompletedAt": null,
@@ -111,6 +111,22 @@
       "evidenceIds": [
         "build-inspection-note-2026-09-10"
       ]
+    },
+    {
+      "id": "daily-quota-exhausted-2026-09-10",
+      "startedAt": "2026-09-10T12:01:43.690763+00:00",
+      "endedAt": "2026-09-10T12:01:43.690763+00:00",
+      "stage": "verification",
+      "actor": "external-ai",
+      "action": "Read the user-supplied screenshot showing the daily quota limit, 0 free credits remaining and preview access blocked. Timestamp records this note, not the exact quota exhaustion time.",
+      "activeHumanMinutes": null,
+      "isHumanIntervention": false,
+      "creditsUsed": null,
+      "cashSpendUsd": null,
+      "outcome": "Free-quota gate confirmed. Atoms lists 2026-09-11 08:00:00 for refresh without a timezone. No paid upgrade requested. Existing build and browser-test results remain unverified.",
+      "evidenceIds": [
+        "quota-exhaustion-note-2026-09-10"
+      ]
     }
   ],
   "acceptanceResults": [],
@@ -146,6 +162,14 @@
       "location": "docs/experiments/atoms/BUILD-STARTED-2026-09-10.md",
       "visibility": "public",
       "description": "Execution progress and browser interruption note. Does not claim passing tests or completed generation."
+    },
+    {
+      "id": "quota-exhaustion-note-2026-09-10",
+      "type": "operator-note",
+      "capturedAt": "2026-09-10T12:01:43.690763+00:00",
+      "location": "docs/experiments/atoms/QUOTA-EXHAUSTED-2026-09-10.md",
+      "visibility": "public",
+      "description": "Redacted interpretation of user-supplied screenshot showing exhausted daily quota, disabled preview and stated refresh time. Screenshot itself remains in the conversation."
     }
   ],
   "limitations": [
@@ -153,5 +177,5 @@
     "Publishing this protocol is not a product launch or evidence of Atoms execution.",
     "A working calculator cannot establish autonomous customer acquisition or business operation."
   ],
-  "pauseReason": "browser_connection"
+  "pauseReason": "daily_free_quota_exhausted"
 }
