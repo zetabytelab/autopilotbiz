@@ -22,6 +22,185 @@ export type Edition = {
 
 export const editions: Edition[] = [
   {
+    slug: "06-throwaway-computer",
+    number: 6,
+    title: "A computer your agent can throw away",
+    date: "2026-09-10",
+    cover: "/pulse/06-cover.png",
+    linkedinUrl: "https://www.linkedin.com/newsletters/autopilot-pulse-7494069864693850112/",
+    tldr: [
+      "An agent shipped a sanctions screener in **32 minutes** with twenty green tests. It had cleared **three of four sanctioned people**. Nothing was broken: it mocked its own misunderstanding of the API, then proved itself right against it.",
+      "**A mock is your own misunderstanding, written down.** The same agent, given a working copy of the world instead, asked 24 questions, found it needed two schemas rather than one, and shipped verified at 40 minutes with four of four caught.",
+      "**Calibre run a triage agent over every recorded user session.** Replay frames, logs and a PostHog summary go in; a pull request comes out carrying the original session, the reproduction and the verified fix as three videos. Around a penny a session.",
+      "**Price your cache before you price your model.** Uncached input is 28% of Calibre's tokens and 64% of the bill. Lifting the cache hit rate from 72% to 90% saves about as much as swapping the model, with no vendor to bet on. **[DERIVED]**",
+      "Six talks, one primitive: a computer you can create in a second, hand to an agent, snapshot mid-task and throw away. Hosted by **Daytona with Civo**, featuring **Calibre, Veris AI, Polpo and Sparkles**.",
+    ],
+    sections: [
+      {
+        paras: [
+          "An agent was handed a ticket: build a sanctions screener. It read the documentation, wrote the code, mocked the upstream service, and ran twenty tests. All twenty passed. It shipped in 32 minutes. It had cleared three of four sanctioned people.",
+          "Nothing was broken. Every test was real and every test was green. The agent had mocked its own misunderstanding of the API, then proved itself right against it.",
+          "I watched that demo on Tuesday at AI Builders London, hosted by **Daytona with Civo**. Six talks, three hundred people, pizza an hour late because the evening overran. The theme was sandboxes: a computer you can create in under a second, hand to an agent, snapshot mid-task, and throw away. The infrastructure turned out to be the least interesting part. What two teams built on top of it is what I have been thinking about since.",
+        ],
+      },
+      {
+        heading: "1 — The primitive, and who is using it",
+        paras: [
+          "Daytona started in 2023 as a dev-environment manager for human engineers. Agent teams kept asking for something the product did not do, so they rebuilt around the sandbox: CPU, memory, storage, GPU, networking and operating system configured on demand, then started, paused or snapshotted at any point.",
+          "**$24M Series A** led by FirstMark in February 2026, roughly $31M raised in total, a million-dollar forward run rate within three months of launch that doubled six weeks later, and **LangChain, Writer, Turing and SambaNova** as named customers. **[HIGH]**",
+          "One change worth knowing before you evaluate: in **June 2026 Daytona moved its production codebase to closed source**. The public repository is still there but unmaintained. If your interest was the self-hosting story, that story has changed.",
+        ],
+      },
+      {
+        heading: "2 — Calibre: moving towards software factories",
+        image: "/pulse/06-calibre-pyramid.jpg",
+        imageAlt: "Calibre's complexity pyramid, with auto-session replays at the base and an engineer in the loop at the top",
+        paras: [
+          "Calibre certifies companies for ISO 27001. Their talk was a builder's account rather than a pitch, because **Cepheid is their internal maintenance agent, not their product**. That is exactly why it was the most useful thing all evening. They showed the architecture, the failures and the bill.",
+          "They started by deciding what to hand over, which is the step most teams skip. Maintenance, dependency updates, bugs and interface problems go to **Cepheid auto-session replays**. Small features, API endpoints and integrations go through **Cepheid in Slack**. New features keep an engineer in the loop with the agent supplying deep context, and building a new product from scratch stays human. Nobody claimed the top of the pyramid, which is the honest version of this story.",
+        ],
+      },
+      {
+        image: "/pulse/06-calibre-session-evidence.jpg",
+        imageAlt: "The session evidence slide: replay frames, a screenshot at any timestamp on request, and frontend plus backend logs for the same user and window",
+        paras: [
+          "The loop starts from what a real user actually did. Frames are pulled from the session replay at key events and interactions. The agent can ask for a screenshot at any timestamp, so it is not stuck with whatever was sampled. It gets frontend and backend logs for the same user and the same time window, plus a **PostHog AI summary** of the session.",
+          "That is a genuinely rich evidence packet, and none of it required new instrumentation. If you already run session replay and product analytics, you already have it.",
+        ],
+      },
+      {
+        image: "/pulse/06-calibre-implementation.jpg",
+        imageAlt: "The Cepheid implementation diagram: session evidence to a triage agent in a sandbox, then either a coding agent or no finding",
+        paras: [
+          "Session evidence goes to a triage agent running in a sandbox, which inspects behaviour and code. Most of the time it returns no finding and the work stops there. When it does find something, a coding agent takes over to reproduce, fix and verify.",
+        ],
+      },
+      {
+        heading: "3 — Triage: most sessions have nothing to fix",
+        image: "/pulse/06-calibre-triage.jpg",
+        imageAlt: "The triage slide: a cheap first pass on every replay, a stronger model only on findings, and a record of each session kept to find patterns",
+        paras: [
+          "The idea that makes the whole thing affordable is that **most sessions have nothing wrong with them**. A cheap model does the first pass on every replay. Only when it flags something does a stronger model investigate and fix.",
+          "They keep a record of every session either way, so patterns emerge across sessions rather than only within one. That last part matters more than it sounds: a bug that appears once is noise, and the same bug across forty sessions is a priority.",
+        ],
+      },
+      {
+        heading: "4 — Fixing issues, and making them reviewable",
+        image: "/pulse/06-calibre-fixing-issues.jpg",
+        imageAlt: "The fixing issues slide: the pull request shows the original user session, the reproduction and the verified fix side by side, with cause, fix and a verification checklist",
+        paras: [
+          "When there is something to fix, the agent reuses the same session rather than starting from a bug report. Cepheid first reproduces the problem in the preview environment. Then the pull request arrives carrying **three videos side by side**: the original user session, the reproduction, and the verified fix. Underneath sits the cause, the fix, and a verification checklist that has been ticked off.",
+          "The example on screen was an uploaded policy disappearing between questionnaire steps, with the cause identified as the attachment state being cleared when advancing a step. A reviewer can confirm that in about thirty seconds without opening the code.",
+          "**This is the single most copyable idea of the night.** The hard part of an autonomous fix is not writing it, it is making it reviewable.",
+        ],
+      },
+      {
+        image: "/pulse/06-calibre-slack.jpg",
+        imageAlt: "The Slack slide: each session gets a thread with the replay and findings, and replying sends the agent back in with the evidence in context",
+        paras: [
+          "Every session gets a Slack thread with the replay and the findings, and you can reply to ask a question or send the agent back in. It picks up the same conversation with the evidence still loaded.",
+          "The example they chose to show found nothing: a 50-minute session, 68 clicks, 44 minutes of idle skipped, one flagged rage-click correctly dismissed as someone tapping the same rating button down a list. Status: inspected, nothing notable.",
+          "Choosing a negative result for your one demo slide is a deliberate signal, and almost nobody does it. **Publishing what your agent checked and cleared is how the thing earns trust.** A system that only speaks up when it finds something teaches you nothing about whether it is looking.",
+        ],
+      },
+      {
+        heading: "5 — The bill, and choosing models by cost",
+        image: "/pulse/06-calibre-cost-luna.jpg",
+        imageAlt: "Cepheid cost with Luna: $11.94 per 1,000 session replays, split across uncached input, cached input and output",
+        paras: [
+          "What made Cepheid possible was a model cheap enough to run on every session rather than the suspicious ones. Triage costs **$11.94 per thousand replays**, which is about 1.19 cents a session.",
+        ],
+      },
+      {
+        image: "/pulse/06-calibre-cost-glm.jpg",
+        imageAlt: "Cepheid cost with GLM 5.3 Flash: $4.82 for 1,000 replays against Luna's $11.94",
+        paras: [
+          "Swapping the model takes that to **$4.82**, or 0.48 cents a session. Real money at volume. But the row that was not on a slide is the one I would act on first.",
+          "**Uncached input is 28% of their tokens and 64% of the bill.** Lifting the cache hit rate from 72% to 90% would take the Luna figure to about $7.49, a 37% saving on its own, comparable in size to the entire model swap, with no migration and no vendor to bet on. **[DERIVED]**",
+          "Two caveats were on Calibre's own slides, which is to their credit. The cheaper column assumes the same token and cache usage rather than a measured run, and model swaps change output length. And the promotional pricing behind it expired the following afternoon. Both cost slides also carry the line that stronger-model fixes and hosting are additional, which makes $11.94 a floor rather than a cost.",
+          "**Price your cache before you price your model.**",
+        ],
+      },
+      {
+        heading: "6 — Veris: give your agent a world, not a mock",
+        image: "/pulse/06-veris-fleet.jpg",
+        imageAlt: "Eight coding agents on their own branches, all waiting for one shared set of test accounts with real keys, shared state and rate limits",
+        paras: [
+          "Veris starts from a problem you only get once agents are working. It is not a capability problem. It is a queue.",
+          "Eight coding agents, each on its own branch, all queueing for one shared set of test accounts. One Stripe test mode, one Salesforce sandbox org, one Slack dev workspace. Real keys, shared state, rate limited. Roughly **300 changes a day** arriving and about **15 minutes to verify one**. The agents are no longer the bottleneck. The single shared world is.",
+        ],
+      },
+      {
+        image: "/pulse/06-veris-own-world.jpg",
+        imageAlt: "Each agent gets its own sandbox with its own copy of every dependency, nothing shared and nothing to wait for",
+        paras: [
+          "The fix is obvious once stated: each agent gets its own copy of every dependency. Nothing shared, nothing to wait for. That is what a cheap sandbox buys you. But it is only half the problem.",
+        ],
+      },
+      {
+        image: "/pulse/06-veris-data-agree.jpg",
+        imageAlt: "The same customer present in Stripe, Salesforce and Slack with matching identifiers, one set of facts that every service agrees on",
+        paras: [
+          "The same customer has to exist in Stripe, in Salesforce, in Slack and in your database, **with matching identifiers**. One set of facts, every service agreeing. Mocking one API is trivial. **Making eight services agree on a coherent entity graph is the actual moat**, and it is why this is a product rather than a fixture file.",
+        ],
+      },
+      {
+        image: "/pulse/06-veris-console.jpg",
+        imageAlt: "The Veris console showing an environment with seven shared services including Stripe, GitHub, Slack, Google Drive, PostgreSQL and the OpenSanctions screening API",
+        paras: [
+          "In the console that becomes an environment you launch: seven services wired together, including a real Postgres cluster reachable from outside the sandbox.",
+        ],
+      },
+      {
+        heading: "7 — Is the twin actually right?",
+        image: "/pulse/06-veris-fidelity.jpg",
+        imageAlt: "721 tests written by people who never saw the twin, 703 matching the real vendor with zero false passes, and 3.6 times faster",
+        paras: [
+          "This is where most simulation pitches wave their hands. Veris ran an experiment designed to fail. They took other people's open-source integration suites across fifteen services, from Stripe to Calendly, pointed them at the real vendor, then at the twin, **changing only the base URL**.",
+          "721 tests. 703 matched on both outcome and error code. **Zero false passes**, which is the failure mode that ships broken code. Of the eighteen failures they attributed fourteen to their own setup, stale data or a vendor outage, and four to the twin.",
+          "The sharper number is underneath: on a fresh deployment 238 of 238 runs were identical, while the live vendors drifted by four. That argues the twin is better than production for testing rather than merely cheaper. And at 78ms against 283ms it is 3.6 times faster, which matters when you are running rollouts rather than a test suite.",
+          "Publishing your own failure attribution is what makes the rest of it credible. Seventy services are twinned and fifteen were measured here, so the fidelity of the other fifty-five is the open question.",
+        ],
+      },
+      {
+        heading: "8 — Same ticket, same agent. One had a world.",
+        image: "/pulse/06-veris-trajectory.jpg",
+        imageAlt: "The trajectory comparison: a plain agent shipped at 32 minutes clearing three of four sanctioned people, while the same agent with a world shipped verified at 40 minutes catching four of four",
+        paras: [
+          "Same ticket, same agent, same prompt. The plain agent read the docs, wrote a sanctions screener against a single schema, mocked the upstream service, passed twenty tests, and shipped at **32 minutes with three of four sanctioned people cleared**. A human found that later.",
+          "The one with a world spent 90 seconds creating a sandbox, then **asked the twin 24 questions**, discovered it needed two schemas rather than one, and shipped verified at 40 minutes with all four caught and nothing to repair.",
+          "**The world made the agent slower. Forty minutes against thirty-two. That is the point.** It let the agent find out it was wrong.",
+          "The plain agent mocked its own misunderstanding and then passed twenty tests against it. Every green tick was real and the result still shipped broken. That is the argument for environment fidelity, demonstrated rather than asserted, and it is the same conclusion Sparkles reached from the other direction: their chart of Cursor's own telemetry shows merged agent pull requests going near-vertical when environment monitoring shipped, not when the agents got smarter.",
+        ],
+      },
+      {
+        image: "/pulse/06-veris-closing.jpg",
+        imageAlt: "The Veris closing slide: build against the world, ship against the real one",
+        paras: [
+          "Build against the world, ship against the real one. It is a good line because it names the actual trade: your agent needs somewhere consequence-free to be wrong, and production is not it.",
+        ],
+      },
+      {
+        heading: "9 — The rest of the room",
+        paras: [
+          "**Polpo** put a tool proxy between the agent and Daytona that asks one question per turn: does this need isolation at all? Researching competitor pricing needs a model and web search and no sandbox. Generating the PDF afterwards needs a filesystem and a shell. Most architectures pay for both halves. The cheapest sandbox is the one you never start.",
+          "**Sparkles.dev** showed how much merged code at serious engineering organisations now comes from an internal cloud coding agent: Ramp at 76.5%, Sierra at 70%, Cursor at 56%, with Fullscript, Checkout.com and Shopify still in the teens. Every one of them already had Cursor or Claude Code and built their own platform anyway. Dan Bekirov closed on the line the whole evening kept circling: AI created more code, it did not create trust.",
+          "**Civo and relaxAI** made the sovereignty case. UK-governed compute with B200s available, and turnkey sovereign models on top, aimed at regulated buyers who want to own the whole stack. Daytona sandboxes are supported on both, so the architectures above survive the move. If you sell into UK financial services, healthcare or the public sector, jurisdiction is a wedge your American competitors cannot copy quickly.",
+        ],
+      },
+      {
+        heading: "10 — What to do this week",
+        paras: [
+          "**Start a sandbox.** An hour is enough to know whether a throwaway computer changes your architecture. The free tiers are generous and the primitive only makes sense in your hands.",
+          "**Copy Calibre's loop.** If you already record sessions, you are one cheap triage model away from an agent that reviews all of them. Ship the three-video pull request and publish the non-findings.",
+          "**Give one agent a real environment before you give it more autonomy.** The Veris trajectory is the cheapest possible lesson: green tests against your own mock prove only that you understood the API the way you already thought you did.",
+          "**Ask two questions of anyone selling you this.** How often is your router, triage or classifier wrong, and what happens when it is? And what does your headline saving look like at full utilisation? Every architecture on that stage gated an expensive path behind a cheap decision, and not one published that decision's error rate.",
+          "Then talk to them. This is a small and unusually open ecosystem, and every founder was reachable in the room and honest about their limits. I am going to run the Calibre loop on this site and publish what it costs. If you try one of these, tell me what broke.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "05-two-readers",
     number: 5,
     title: "Your website has two readers now",
