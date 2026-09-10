@@ -34,12 +34,14 @@ const html = `<!doctype html><html><body style="margin:0;padding:0;background:#0
 <tr><td style="padding-bottom:20px"><img src="${SITE}${e.cover}" width="600" style="width:100%;border-radius:12px" alt="Edition cover"/></td></tr>
 <tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#a3e635;padding-bottom:8px">TL;DR</td></tr>
 ${e.tldr.map((t) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:1.6;color:#d4d4d8;padding-bottom:6px">→ ${fmt(t)}</td></tr>`).join("\n")}
+${e.correction ? `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:12px;line-height:1.6;color:#a1a1aa;padding:16px 0">${e.correction}</td></tr>` : ""}
 ${e.sections
   .map(
     (s) => `
 ${s.heading ? `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:19px;font-weight:bold;color:#fafafa;padding:22px 0 8px">${s.heading}</td></tr>` : ""}
 ${s.image ? `<tr><td style="padding:4px 0 10px"><img src="${SITE}${s.image}" width="600" style="width:100%;border-radius:10px" alt=""/></td></tr>` : ""}
-${s.paras.map((p) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:14.5px;line-height:1.65;color:#a1a1aa;padding-bottom:12px">${fmt(p)}</td></tr>`).join("\n")}`,
+${s.paras.map((p) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:14.5px;line-height:1.65;color:#a1a1aa;padding-bottom:12px">${fmt(p)}</td></tr>`).join("\n")}
+${(s.sources ?? []).map((source) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:12px;line-height:1.6;padding-bottom:6px"><a href="${source.url}" style="color:#a3e635">${source.label}</a></td></tr>`).join("\n")}`,
   )
   .join("\n")}
 <tr><td style="border-top:1px solid #27272a;padding-top:18px;font-family:'Courier New',monospace;font-size:13px;color:#a1a1aa">Keep building — the agents have the night shift. 🛩<br/>— Antonio, the human in the loop</td></tr>

@@ -7,6 +7,7 @@ export type EditionSection = {
   paras: string[];
   image?: string;
   imageAlt?: string;
+  sources?: { label: string; url: string }[];
 };
 
 export type Edition = {
@@ -18,134 +19,220 @@ export type Edition = {
   cover: string;
   linkedinUrl: string;
   sections: EditionSection[];
+  correction?: string;
 };
 
 export const editions: Edition[] = [
   {
-    slug: "07-the-gate-had-no-buyer",
-    number: 7,
-    title: "The gate had no buyer",
-    date: "2026-09-10",
-    cover: "/pulse/07-cover.png",
-    linkedinUrl: "https://www.linkedin.com/newsletters/autopilot-pulse-7494069864693850112/",
-    tldr: [
-      "A company raised **$30M** to sell software that checks whether your AI is behaving. In July it gave up, after turning down term sheets and an acquihire offer for the whole team, and wrote **three** post-mortems about why.",
-      "The quoted line is that **people do not like tests that slow them down**. But by 2026 the product was free, self-installed, inside your own network, with no data leaving it. Every friction removed, and still no pull. Friction was the symptom.",
-      "**They had written the answer 21 months earlier.** Three weeks after the Series A, their own commercial lead published that AI teams are organised to minimise friction, then concluded testing must be sold over their heads.",
-      "In thirteen months the entire category was absorbed. **Arize to Dynatrace for $915M**, Galileo into Splunk, Lakera and Deepchecks both to Check Point, Guardrails AI to Harvey. Four of five buyers were legacy infrastructure vendors. **Nobody built a standalone AI-testing company.**",
-      "The rule underneath all of it: **friction sells only when the person paying it is the person who gets blamed.** If you are handing work to agents, that is the question to answer before you buy anything.",
+    "slug": "07-the-gate-had-no-buyer",
+    "number": 7,
+    "title": "The gate had no buyer",
+    "date": "2026-09-10",
+    "cover": "/pulse/07-cover-corrected.png",
+    "linkedinUrl": "https://www.linkedin.com/newsletters/autopilot-pulse-7494069864693850112/",
+    "correction": "Corrected September 10, 2026: this edition previously overstated the disappearance of independent AI-testing vendors and miscounted the buyers. It now distinguishes announced agreements from completed acquisitions, corrects Guardrails’ announcement date, uses disclosed Lakera consideration, and removes unsupported deal terms and shutdown claims. Distributional’s pivot retained the same corporation. The cover and consolidation graphic have also been corrected. The accountability thesis is the author’s interpretation.",
+    "tldr": [
+      "Distributional raised **$30M** and pivoted to Talaria Scientific in July 2026. This was a new mission within the **same corporation**, not the disappearance of the company.",
+      "Scott Clark’s accounts describe several obstacles: testing friction, difficulty acting on results, insufficient pre-deployment data and weak production adoption. **No single cause is established by the post-mortem.**",
+      "The company’s 2024 enterprise-testing essay already discussed developer autonomy and friction. It raises a useful question about the buyer, but it does **not** say to sell over developers’ heads.",
+      "Consolidation is real; the claim that the category vanished was too strong. In the six selected deal announcements below, **three of five distinct buyers** are incumbent infrastructure or security vendors. Arize’s **$915M agreement** was announced subject to closing.",
+      "**My interpretation:** verification is easier to justify when someone owns the consequences and can act on the result. That is a purchasing question to test, not a proven explanation for every company’s outcome."
     ],
-    sections: [
+    "sections": [
       {
-        paras: [
-          "Last week I wrote about an agent that shipped a sanctions screener in 32 minutes with twenty green tests, having cleared three of four sanctioned people. The fix, demonstrated on stage by Veris, was to give the agent a real environment instead of a mock. It took eight minutes longer and got it right.",
-          "So the obvious question is why anyone would refuse. This edition is about a company that spent three years and $30M finding out.",
+        "paras": [
+          "In edition six I described a Veris stage demonstration in which an agent’s passing tests concealed an incorrect sanctions-screening implementation. That is a report of a particular demo, not a general benchmark of agent reliability.",
+          "The practical question carries into this edition: if checking an agent’s work matters, who will pay for it, and when? Distributional’s founder has offered an unusually useful account of trying to build that business."
         ],
+        "sources": [
+          {
+            "label": "Edition six: first-hand reporting",
+            "url": "https://www.autopilotindex.com/pulse/06-throwaway-computer"
+          }
+        ]
       },
       {
-        heading: "1 — An unusually honest ending",
-        paras: [
-          "Distributional was founded in 2023 by Scott Clark, who had previously built and sold SigOpt to Intel. It raised $11M from Andreessen Horowitz, then $19M led by Two Sigma Ventures. It sold rigorous statistical testing for enterprise AI. In July 2026 it became Talaria Scientific, a completely different company pointed at computational science.",
-          "This is not a story about running out of money. In spring they ran a full sale process, got serious diligence, term sheets, and an acquihire offer for the whole team. **They turned all of it down**, kept the balance sheet and redeployed it. Almost the entire team took offers elsewhere.",
-          "Then the founder did something rare. He wrote it up, three times: a company post, a longer personal one, and a talk at Berkeley delivered over a slide that just said **It failed**. Treat them as one document. The most quoted line turns out to be the least informative of them.",
+        "heading": "1 — A pivot, not a disappearance",
+        "paras": [
+          "Scott Clark founded Distributional in 2023 after building SigOpt, which Intel acquired in 2020. His published profile reports $30M raised for Distributional.",
+          "On July 24, 2026, Distributional announced its pivot to Talaria Scientific, a computational-science research harness. The announcement explicitly says it is the same Delaware corporation with the same investors.",
+          "The company had explored a sale and received offers. Clark’s subsequent personal account says most of the team landed together through one of the acquihire offers while the company continued with the pivot. Calling this a completely different company, or saying every offer was simply rejected, loses that distinction."
         ],
+        "sources": [
+          {
+            "label": "Scott Clark: background and funding",
+            "url": "https://scottclark.io/"
+          },
+          {
+            "label": "Distributional: July 24 pivot announcement",
+            "url": "https://distributional.com/blog/distributional-is-now-talaria"
+          },
+          {
+            "label": "Scott Clark: July 28 founder retrospective",
+            "url": "https://scottclark.io/blog/make-all-new-mistakes-faster"
+          }
+        ]
       },
       {
-        heading: "2 — Vision-market fit, and why it is worse than nothing",
-        paras: [
-          "The most useful idea in the whole corpus is a distinction he coins for the thing that kept them going.",
-          "**Vision-market fit** is resonance. Senior people with real budgets agree that what you see coming is coming, and interest appears wherever you push. **Product-market fit** is pull: buyers you never called show up, and customers put you in their architecture diagram without being asked.",
-          "In his words: every signal a founder wants to see, except the one that pays. And then the part worth pinning above a desk. **Getting close is worse than not being close at all, because close is exactly the feeling that keeps you funding the push.**",
-          "The two are indistinguishable from inside any single good meeting. The difference only shows up in what happens when you stop pushing, which is the one experiment a scaling company never runs.",
-          "He describes the moment it broke. The best sales call in the company's history, the customer pitching him rather than the other way around. Back in his hotel room he did the arithmetic: even if that deal went perfectly, and he found a dozen more exactly like it, the numbers still did not work. **If the best is not good enough, you need to play a different game.**",
+        "heading": "2 — Interest is not adoption",
+        "paras": [
+          "Clark distinguishes **vision-market fit** from **product-market fit**: enthusiasm for the problem can coexist with insufficient adoption of the product. His retrospective also describes scaling sales and operations before the product had earned that scale.",
+          "That is a useful operating distinction. A successful meeting records agreement; a deployment records a decision. A renewal records another one. Those are different kinds of evidence.",
+          "For a solo founder, the question is concrete: what did a customer put into regular use, what did it replace, and what would they miss if it disappeared? A compliment cannot answer those questions."
         ],
+        "sources": [
+          {
+            "label": "Scott Clark: July 28 founder retrospective",
+            "url": "https://scottclark.io/blog/make-all-new-mistakes-faster"
+          }
+        ]
       },
       {
-        heading: "3 — The line everyone will quote",
-        paras: [
-          "Here is the diagnosis, in his words: people do not like tests that slow them down, even, or especially, if they do not write those tests themselves.",
-          "The parenthetical is the sharp part and it is genuinely counterintuitive. The entire pitch of every automated-test-generation company is that writing tests is the cost, so removing that cost should raise adoption. He is reporting the opposite. **Generated tests get a worse reception, not a better one.**",
-          "That makes sense once you sit with it. A test you wrote encodes your own belief about the system, so when it fails you learn something. A test generated for you is an external assertion about your work, produced by a method you cannot fully audit, blocking a release you are accountable for shipping. Its failures feel like accusations rather than information.",
-          "Their own 2025 site advertised automatic calibration to minimise false positives as a headline feature. You only build that when false positives are killing you.",
+        "heading": "3 — Friction was one of several obstacles",
+        "paras": [
+          "The July announcement identifies resistance to tests that slow development, difficulty interpreting and acting on complex test results, and a market willing to deploy before rigorous testing.",
+          "Clark’s Berkeley talk recap also emphasises uncertainty about what to test and a lack of data before deployment. These accounts support a problem with readiness and actionability as well as friction. They do not establish how much each cause contributed.",
+          "A generated test can save writing time and still create investigation work. The relevant cost includes understanding a failure, deciding whether it matters and doing something about it. That is my explanation of a possible adoption barrier, not a measured result from Distributional’s customers."
         ],
+        "sources": [
+          {
+            "label": "Distributional: July 24 pivot announcement",
+            "url": "https://distributional.com/blog/distributional-is-now-talaria"
+          },
+          {
+            "label": "Scott Clark: Berkeley talk recap, August 31",
+            "url": "https://scottclark.io/blog/better-evals-abundance"
+          }
+        ]
       },
       {
-        heading: "4 — Except that free did not work either",
-        paras: [
-          "The strongest counter-argument to the friction thesis is buried in their own homepage. By early 2026 the product was **free**, self-installed, running inside your own network, with no data leaving your systems. Price friction gone. Procurement friction gone. Data-governance friction gone.",
-          "It still found no pull. The public repositories still sit at zero stars.",
-          "If friction were the binding constraint, free and local should have moved something. It did not. That points past friction to demand, and he says so himself in the personal post: the assumption he tested least was **whether people had enough data, risk, and cared enough to actually test rigorously**.",
-          "Note also which explanation he leads with where. The written post gives friction top billing. The spoken talk leads with something else entirely: people did not know what to test, and they did not have the data before deployment. That reordering matters, because the second version is not a friction problem at all. It is a sequencing problem. A statistical test of behaviour needs a baseline distribution, and before you deploy there is not one. **The product's core input did not exist at the moment the product claimed to be useful.**",
-        ],
+        "heading": "4 — What the public evidence cannot establish",
+        "paras": [
+          "The earlier version of this edition argued that making a product free and locally installed removed every meaningful obstacle. That inference was too strong. Installation, integration, evaluation design, staff time and responsibility can remain expensive even when a licence costs nothing.",
+          "Nor can a repository’s star count establish enterprise usage, revenue or the absence of demand. I have removed that argument.",
+          "The question worth asking is what happened after a team tried the product: did it change a release decision, prevent repeat work or become part of routine operations? Public marketing pages cannot supply that conversion history."
+        ]
       },
       {
-        heading: "5 — The document that convicts them, written 21 months early",
-        paras: [
-          "On 31 October 2024, three weeks after the Series A, their commercial lead published a summary of over a thousand hours of conversations with AI leaders at more than a hundred Fortune 500 companies. It says, plainly, that teams are given latitude in tool selection and that **the goal of these processes is to minimise friction or constraints**.",
-          "And then it concludes that testing therefore requires a different approach, that it is an enterprise problem needing an enterprise solution, sold top-down and mandated.",
-          "Read that twice. They had already observed that the people who touch this are organised to avoid friction. They wrote it down, in public, and treated it as a reason to route around the objection rather than a reason to doubt the wedge.",
-          "The 2026 post-mortem reports the consequence as though it were a discovery about the market. It was in their own published research two years earlier. Clark half-sees this: **the doubts that eventually proved decisive were sitting in the margins of our own strategy decks, in our own words, well before I acted on them.**",
+        "heading": "5 — The earlier strategy document",
+        "paras": [
+          "On October 31, 2024, Nick Payton published Distributional’s case for enterprise-wide testing. The essay reports extensive conversations with enterprise AI leaders and describes teams’ freedom to choose tools and preference for low-friction development.",
+          "It argues for a consistent enterprise testing approach. It does not explicitly recommend selling over developers’ heads or mandating adoption; those were interpretations introduced by the earlier version of this article.",
+          "The tension is still worth examining. Who benefits from consistency across teams, and who absorbs the work of producing it? An enterprise-wide benefit needs a workable path through the teams that implement it. The essay makes that a fair question, not proof that the company knowingly chose the wrong buyer."
         ],
+        "sources": [
+          {
+            "label": "Nick Payton: enterprise testing, October 31, 2024",
+            "url": "https://distributional.com/blog/why-testing-is-an-enterprise-problem-that-requires-an-enterprise-solution"
+          }
+        ]
       },
       {
-        heading: "6 — What actually failed",
-        paras: [
-          "My read is that the friction thesis is the symptom and the disease is accountability.",
-          "A gate is only worth paying for by someone who will be blamed. The person they sold to, an AI platform engineer, is measured on shipping, so a statistical gate is pure cost against their own metric. They will run the pilot because it is interesting, and never convert, because converting means volunteering for friction. The person for whom the value is real, in risk or compliance, had no AI budget line in 2024 and no standing to mandate a gate on an engineering team.",
-          "It is insurance economics, with an extra cruelty. The payoff is counterfactual, so a test that passes produces nothing you can show anyone. The cost is daily and the benefit is lumpy. And you cannot sell insurance to someone who has not yet had the loss, which in 2024 was mostly embarrassment, and embarrassment is uninsured by default.",
-          "The extra cruelty is that even when it paid out, you often could not act on it. Insurance pays cash. A distributional shift alert pays you a fact about a model whose weights belong to OpenAI. His five-word version: **you cannot change the weights.**",
-          "Which gives the rule I would actually take away. Friction is accepted constantly when it buys something visible. Type systems slow you down and won. Continuous integration slows you down and won. Code review slows you down and won. All three produce an artefact the developer wants, and all three are bounded and deterministic. **People do not reject friction. They reject friction that produces permission rather than capability.**",
-        ],
+        "heading": "6 — My interpretation: accountability and actionability",
+        "paras": [
+          "**My read is that accountability helps explain the buying problem.** A team asked to add a gate needs a reason to accept the delay, and someone needs authority to fund the work. I do not have Distributional’s customer interviews or budget records, so this is a hypothesis rather than a reconstruction of its sales process.",
+          "Accountability alone is not enough. The result must support an action: change a prompt, choose another model, add a fallback, request human review or block a particular operation. An alert that nobody can interpret creates work without resolving a decision.",
+          "The practical standard is therefore stronger than identifying who gets blamed. **Identify who owns the outcome, what decision the check changes and what evidence would justify its cost.**"
+        ]
       },
       {
-        heading: "7 — And then the whole category was bought",
-        paras: [
-          "Here is the part that turns one company's story into a market structure. In thirteen months, essentially every serious independent company in this category was absorbed.",
-          "**Arize** went to **Dynatrace** for **$915M** in August 2026. **Galileo** went to **Cisco** in April and was folded into Splunk. **Lakera** and **Deepchecks** both went to **Check Point**. **Guardrails AI** went to **Harvey** two days ago. **Humanloop**, the first platform in the category, went to **Anthropic** as an acquihire and the product was switched off.",
-          "Four of the five main buyers were legacy enterprise infrastructure vendors. The two AI-native buyers took the team and retired the product.",
-          "Below that sits a genuine graveyard. Gentrace shut down and released its code. Baserun's domain no longer resolves. Parea returns a payment-required error. Robust Intelligence, Aporia and TruEra were all absorbed years earlier and their sites are gone or frozen.",
-          "**Nobody built a large standalone AI-testing company.** The value was real, and it accrued to whoever already owned the monitoring dashboard.",
+        "heading": "7 — Consolidation, with the terms kept straight",
+        "paras": [
+          "The following is a selected set of transactions across evaluation, observability and AI security, plus one separate pivot. These are overlapping markets, not a complete census of one uniform category.",
+          "**Humanloop → Anthropic.** Humanloop announced it was joining Anthropic on August 13, 2025 and set September 8 for its platform sunset. Its notice does not disclose financial terms or establish a precise team-only transaction structure.",
+          "**Lakera → Check Point.** Check Point’s full-year results confirm completion in the fourth quarter of 2025, for approximately **$190M in net cash consideration**. That is the disclosed accounting measure, not an interchangeable claim about headline valuation.",
+          "**Galileo → Cisco.** Cisco’s fiscal fourth-quarter 2026 earnings release confirms that the acquisition closed during that quarter. The cited completion notice does not disclose a price.",
+          "**Deepchecks → Check Point.** On May 19, 2026, Check Point announced a definitive agreement to acquire the team and intellectual property. The announcement provides no price. This edition uses that announced status rather than assuming completion or presenting a press estimate as confirmed consideration.",
+          "**Arize → Dynatrace.** On August 13, 2026, Dynatrace announced a definitive agreement valued at **$915M**, subject to closing conditions. I have not established a subsequent closing announcement as of this correction.",
+          "**Guardrails AI → Harvey.** Harvey’s announcement is dated **September 9, 2026**. It says the founders and team will join its product and engineering organisation. It does not establish that the product was retired.",
+          "Count the examples consistently: six deal announcements, five distinct buyers, and Distributional’s pivot counted separately. **Three of those five buyers**—Check Point, Cisco and Dynatrace—are incumbent infrastructure or security vendors. They appear in four of the six deal announcements. Neither count establishes a market-wide share."
         ],
-        image: "/pulse/07-consolidation.png",
-        imageAlt: "Thirteen months of AI-testing acquisitions: Humanloop to Anthropic, Lakera and Deepchecks to Check Point, Galileo to Cisco, Arize to Dynatrace for $915M, Guardrails AI to Harvey, and Distributional pivoting out",
+        "sources": [
+          {
+            "label": "Humanloop: August 13, 2025 announcement and sunset notice",
+            "url": "https://humanloop.com/docs/changelog/2025/08"
+          },
+          {
+            "label": "Check Point: Lakera completion and net cash consideration",
+            "url": "https://www.checkpoint.com/es/press-releases/check-point-software-reports-fourth-quarter-and-2025-full-year-results/"
+          },
+          {
+            "label": "Cisco: Galileo acquisition closed in fiscal Q4 2026",
+            "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m08/cisco-reports-fourth-quarter-earnings.html"
+          },
+          {
+            "label": "Check Point: May 19 agreement for Deepchecks team and IP",
+            "url": "https://www.checkpoint.com/kr/press-releases/check-point-launches-agentic-network-security-orchestration-platform-turning-months-of-manual-policy-work-into-minutes-of-verified-action/"
+          },
+          {
+            "label": "Dynatrace: August 13 agreement to acquire Arize",
+            "url": "https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-arize/"
+          },
+          {
+            "label": "Harvey: Guardrails acquisition announced September 9",
+            "url": "https://www.harvey.ai/blog/guardrails-ai-joins-harvey"
+          }
+        ],
+        "image": "/pulse/07-consolidation-corrected.png",
+        "imageAlt": "Selected consolidation events, checked September 10, 2026: Humanloop joining Anthropic, completed Lakera and Galileo acquisitions, announced Deepchecks and Arize agreements, Guardrails acquisition announcement, and Distributional’s separate pivot. Dates, terms and sources are detailed below."
       },
       {
-        heading: "8 — He predicted his own ending",
-        paras: [
-          "The most striking thing in the post-mortem is that he called it. On why the analytics pivot failed, in his words: **it was too easy for a monitoring product to box us out with simple analytics on top of their solutions.**",
-          "He was describing his own defeat. He was also, without knowing it, describing what would happen to the companies that beat him. Galileo built the direct engineering answer to the friction complaint, distilling expensive evaluators into small fast models so the test stopped costing you anything. It worked, and Cisco bought it and put it inside Splunk.",
-          "Distributional's mistake was not misreading the market. **It was being an independent company in a category that had no independent ending.**",
+        "heading": "8 — What acquisitions do and do not prove",
+        "paras": [
+          "Distributional’s July account describes the risk that established monitoring products could provide similar analytics within their existing offerings. That is a plausible reason to examine distribution and bundling.",
+          "But an acquisition alone cannot tell us whether a standalone business was impossible. It can reflect technology, talent, customers, strategic timing or a price the owners chose to accept.",
+          "The defensible conclusion is narrower: several buyers saw value in bringing these capabilities into broader organisations. Their purchases do not establish that the independent market has disappeared."
         ],
+        "sources": [
+          {
+            "label": "Distributional: July 24 pivot announcement",
+            "url": "https://distributional.com/blog/distributional-is-now-talaria"
+          }
+        ]
       },
       {
-        heading: "9 — What did survive, and why",
-        paras: [
-          "Two patterns, and they are both instructive.",
-          "**The survivors went to developers directly.** Braintrust is the clean counter-example: same problem, same lead investor, opposite motion. Native software kits in five languages and an integration that lets you run evaluations from inside your editor. Cloudflare, Notion, Vercel and Replit on the homepage. A $36M Series A from Andreessen in 2024 and an $80M Series B from ICONIQ in February. LangSmith did the same and raised at $1.25B.",
-          "That is about as clean a natural experiment as this industry offers. Two testing companies backed by the same firm, formed within a year of each other. One sold to developers. One published a strategy document explaining why it would sell over their heads instead.",
-          "**The pivots went up-stack, from measuring the model to supplying what the model trains on.** Patronus, the most visible pure-play evaluation startup, now leads with world models and reinforcement-learning environments. Ragas, the most used open-source evaluation framework, renamed itself Vibrant Labs and sells post-training data. Veris moved from testing agents toward training them in simulated experience.",
-          "Three of the most visible names in evaluation independently arrived at the same destination. **The environment stopped being a gate and became a gym.** Clark, whose entire career is optimisation, said the sharpest thing about this himself: the best part of a black-box optimiser is that it will optimise any evaluation you give it, and the worst part is that it will optimise exactly the evaluation you give it. He identified the gap and then sold the measurement rather than the optimiser.",
+        "heading": "9 — The counterexamples belong in the argument",
+        "paras": [
+          "**Braintrust and LangSmith continue to market evaluation and observability products.** Their current product sites are enough to contradict the blanket assertion that nobody built a standalone offering.",
+          "They are not a controlled experiment against Distributional. Differences in timing, product scope, customers and distribution prevent a simple causal conclusion about developer-led versus enterprise-led sales.",
+          "I have removed the unverified funding comparisons and the claims that other vendors had shut down based on website errors. I have also removed the unsupported claim that several evaluation businesses all made the same pivot into training. Each would require its own dated evidence."
         ],
+        "sources": [
+          {
+            "label": "Braintrust: current product offering",
+            "url": "https://www.braintrust.dev/"
+          },
+          {
+            "label": "LangSmith: current product offering",
+            "url": "https://www.langchain.com/langsmith/observability"
+          }
+        ]
       },
       {
-        heading: "10 — He rebuilt the gate",
-        paras: [
-          "The detail nobody has noticed. Talaria, the new company, is a harness for computational science. Read its architecture post and there it is: every claim-hardening step passes through a gate that checks it against the record's rules, with an adversarial panel riding those gates, and a failed stage kicked back round the loop.",
-          "**He rebuilt the exact mechanism the market rejected.** Only now it sits inside a harness that does the underlying work for you, and it is aimed at a researcher whose paper gets retracted when they are wrong.",
-          "The gate survived. The standalone product selling the gate did not.",
+        "heading": "10 — Verification inside the work",
+        "paras": [
+          "Talaria’s published architecture describes a research loop with evidence checks, adversarial review, traceable records and user-controlled scientific judgments. It distinguishes exploratory work from stronger claims that require more scrutiny.",
+          "That is a documented design, not an independently verified performance result. It also does not mean Talaria has recreated Distributional’s exact testing mechanism.",
+          "The connection I find useful is architectural: verification sits inside a workflow that produces a research result. **The check helps make an output usable.** Whether that creates a durable business remains an open question."
         ],
+        "sources": [
+          {
+            "label": "Talaria: published research-harness architecture",
+            "url": "https://talariasci.com/blog/the-talaria-architecture"
+          }
+        ]
       },
       {
-        heading: "11 — What this means if you are handing work to agents",
-        paras: [
-          "**Ask who gets blamed.** Before you buy any verification product, find the person who eats the incident. If they are not in the room, the purchase will not happen and any pilot you run will quietly expire. This also tells you why sanctions screening is a real market and internal chat is not: one is a regulatory matter with named officers, the other is a bad answer nobody can price.",
-          "**Buy friction that produces an asset.** A red light is permission. A twinned environment, a regression suite you now own, or a model-selection decision worth real money is capability. The first is a tax and the second is a purchase, even when the second is slower.",
-          "**Watch what your vendor is becoming, not what it sells.** If the pattern holds, the evaluation and testing tooling you adopt this year will most likely end up inside your monitoring vendor or your coding agent. That is fine, and worth knowing before you sign a three-year agreement with a standalone.",
-          "**And the founder's lesson, which is not about AI at all.** Interest is not pull. If the excitement never becomes deployment, you have vision-market fit, and scaling on it is how a wrong bet becomes an expensive wrong bet. The only test is what happens when you stop pushing.",
-          "There is a version of this where agency fixes the whole problem. When AI only emitted text, misbehaviour was an opinion. When agents take actions in real systems, misbehaviour becomes a transaction that is refundable, auditable and reportable. **Agency creates the accountability that verification needed in order to be sellable.** On that reading Clark was not early on testing. He was early on consequences.",
-        ],
-      },
-    ],
+        "heading": "11 — What to ask before handing work to agents",
+        "paras": [
+          "**Name the outcome owner.** Who decides whether the agent’s work is acceptable, and who can fund the checks? In a one-person business that may be you, but the responsibility still needs a name.",
+          "**Connect each check to an action.** Specify when a failure triggers a retry, a different tool, human review or a stop. Measure useful decisions, not just the number of tests.",
+          "**Ask what you retain.** A regression suite, reproducible environment or exportable evaluation history can remain useful when a vendor changes direction. Check portability and support terms before depending on a service.",
+          "**Separate interest from repeated use.** For your own product, look for customers using it again without another sales push. For a verification purchase, look for evidence that it improves the workflow you actually run.",
+          "Agents acting in real systems can make errors more concrete: an incorrect transaction, a failed customer task or an unauthorised change. My hypothesis is that these consequences can strengthen the case for verification. This edition’s evidence supports testing that hypothesis; it does not prove the buyer will always appear."
+        ]
+      }
+    ]
   },
   {
     slug: "06-throwaway-computer",

@@ -79,6 +79,12 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
         </ul>
       </section>
 
+      {e.correction && (
+        <aside className="mb-10 rounded-xl border border-zinc-700 p-4 text-sm leading-relaxed text-zinc-400" aria-label="Editorial correction">
+          {e.correction}
+        </aside>
+      )}
+
       {e.sections.map((s, i) => (
         <section key={i} className="mb-8">
           {s.heading && <h2 className="mb-3 text-xl font-bold text-zinc-100">{s.heading}</h2>}
@@ -96,6 +102,17 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
               <Rich text={p} />
             </p>
           ))}
+          {s.sources && (
+            <ul aria-label="Sources" className="space-y-2 border-l-2 border-zinc-700 pl-4 text-sm">
+              {s.sources.map((source) => (
+                <li key={source.url}>
+                  <a href={source.url} className="text-lime-400 underline decoration-lime-400/40 underline-offset-4 hover:text-lime-300">
+                    {source.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
         </section>
       ))}
 
