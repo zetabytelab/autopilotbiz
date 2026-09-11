@@ -36,6 +36,7 @@ export const editions: Edition[] = [
       "**Not one vendor publishes a methodology.** Daytona's own benchmark measures its own product **twelve times slower** than its own homepage. Blaxel's headline figure is **77 times** off on the operation it names. Only Cloudflare's measurement beats its own claim.",
       "**Firecracker's famous 125ms is asserted in a paper whose evaluation never measures it.** The honest number for a real Linux userland, ten pages later in the same paper, is 150ms. AWS then says even that is too slow for Lambda.",
       "What Baseten actually bought is **a billing structure, not a latency figure**. Anthropic's code execution tool bills a five-minute minimum, so a 300ms command costs you 300 seconds. **The number that matters was never the latency. It is how many times you pay it.**",
+      "**Added 11 September, after publication:** three days before this edition, **OpenRouter built the sandbox into the inference call itself** at **$0.0001 per active second with a 30-second minimum**. A 300ms command bills as 30 seconds. Same fee shape as Anthropic's, ten times less punitive. Section 10.",
     ],
     sections: [
       {
@@ -142,6 +143,22 @@ export const editions: Edition[] = [
           "**Warm your cache before you change your vendor.** A 220-fold spread sits between a cold start and a memory snapshot on identical work. No provider switch will give you that.",
           "**And watch what your vendor is becoming.** Every platform with inference that lacked a runtime bought one in the last thirteen months. If you are signing a multi-year agreement with an independent in this category, price in the possibility that it belongs to your inference provider before the term is out.",
           "I am going to run the Calibre loop from edition six on this site and publish what it costs. If you have measured any of this in production, I would rather have your numbers than a vendor's homepage.",
+        ],
+      },
+      {
+        heading: "10 — Postscript: a fourth route, and I missed it by three days",
+        paras: [
+          "I filed this on 11 September. On **8 September**, three days earlier, OpenRouter had already taken a fourth route to the same destination, and I did not catch it. It belongs here, because it is the cleanest confirmation of the argument above that I have seen.",
+          "OpenRouter is an inference router. It did not buy a sandbox and it did not partner with one. It **built the sandbox into the inference call**, as a server-side tool. Any model on the router can now run commands in a hosted Linux container on OpenRouter's own infrastructure, with outbound network disabled by default and an explicit domain allowlist on ports 80 and 443. So there are now four distinct routes to the same consolidation: **acquire it**, as Baseten did with Blaxel; **build it**, as OpenAI did inside the Agents API; **converge on it**, as Vercel did; and **absorb it into the API surface**, which is this. Four routes in thirteen months, and not one of them leaves an independent standing.",
+          "**The pricing is the part that matters.** OpenRouter charges $0.0001 per active second, which is 36 cents an hour, with a **30-second minimum for a cold container**. So a 300-millisecond command is billed as 30 seconds: you pay a hundred times what you consume. Anthropic's five-minute minimum makes the identical command cost a thousand times what you consume. **It is the same fee, in the same shape, ten times less punitive.** Section 6's rule holds against the newest entrant in the category. Price the idle, not the start.",
+          "Two further details land directly on open questions above. **The container sleeps after five minutes idle, and that is not configurable** — the suspend-or-kill decision settled by a default rather than a setting, which is exactly the fine print section 6 says nobody reads. And it ships **two tool specifications**, one OpenAI-compatible and one Anthropic-compatible, so the same container answers to either vendor's schema. That makes the sandbox a compatibility layer rather than a product. **Commoditisation does not usually announce itself this plainly.**",
+          "It is in beta. It publishes **no start-up latency figure at all** — and by the standard I applied to eight vendors in section 3, that is precisely the right amount of latency marketing.",
+        ],
+        sources: [
+          {
+            label: "OpenRouter: Shell & Files API (8 September 2026)",
+            url: "https://openrouter.ai/blog/announcements/shell-tool/",
+          },
         ],
       },
     ],
