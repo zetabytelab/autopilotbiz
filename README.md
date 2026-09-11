@@ -1,6 +1,6 @@
 # Business on Autopilot
 
-A tracker for the new class of companies where **AI agents run the operations and humans set the direction** — who they are, what they run on, how they make money, and how you can build your own. Inspired by the [Lean AI Leaderboard](https://leanaileaderboard.com/) by Henry Shi.
+A public research and intelligence project tracking AI-operated businesses — who they are, what evidence supports their claims, what they run on, how they make money, and where humans remain involved. The project is being developed as a transferable audience, data and research asset; see [the sale-readiness plan](docs/SALE-READINESS-PLAN.md).
 
 ## What's inside
 

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "resolve",
+    "website": "https://resolve.ai",
+    "source": "https://resolve.ai/icons/header/logo_long_black.svg",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "resolve-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "8cfeba6a717c60a3af41b0428f8ee27e42326088af9dca2a106f9ee75cf5651a"
+  },
+  {
+    "name": "neubird",
+    "website": "https://neubird.ai",
+    "source": "https://neubird.ai/images/neubird-logo-primary.png",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "neubird-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "4bec6b408133989e076ebef67237735b7d0db84913cfcfc9e20ad63ce0fc9cd4"
+  },
+  {
+    "name": "basis",
+    "website": "https://www.getbasis.ai",
+    "source": "https://www.getbasis.ai",
+    "extraction": "Inline SVG logo extracted from official homepage",
+    "file": "basis-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "1b9b12394b015ad12c7816c575c93e3496dd318abe44494b7600826d37cc9fa6"
+  },
+  {
+    "name": "minimal",
+    "website": "https://gominimal.ai",
+    "source": "https://gominimal.ai/favicon.ico",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "minimal-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "d713301dcaeaf3f402686e3acb856f0dcf2b3f6b3876944bba810ddda85a5364"
+  },
+  {
+    "name": "artisan",
+    "website": "https://www.artisan.co",
+    "source": "https://www.artisan.co/assets/artisan/artisan-text-logo.webp",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "artisan-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "89bdbbebe0d8488ca5d748bb2b4daa012954230d6a27fd663b71ab9fa8c0dcda"
+  },
+  {
+    "name": "atoms",
+    "website": "https://atoms.dev",
+    "source": "https://atoms.dev",
+    "extraction": "Inline SVG logo extracted from official homepage",
+    "file": "atoms-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "5fe59977d6ec6f1223da7879530a1c576d397413b745a855c7331030f580c99a"
+  },
+  {
+    "name": "base44",
+    "website": "https://base44.com",
+    "source": "https://base44.com",
+    "extraction": "Inline SVG logo extracted from official homepage",
+    "file": "base44-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "90f3bcad95c8380d42eea279a5f2ae61f44c5fda3278ce5cf8fc4fdab192d06c"
+  },
+  {
+    "name": "caffeine",
+    "website": "https://caffeine.ai",
+    "source": "https://caffeine.ai/favicons/favicon.svg",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "caffeine-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "cb2f1b2bcf704723fa1183e30d75da8df79ce7ae50a79362252b6d060c18490f"
+  },
+  {
+    "name": "polsia",
+    "website": "https://polsia.com",
+    "source": "https://polsia.com/favicon-192x192.png",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "polsia-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "cb5f5349523015891494a7931192374f20485ba458f8cbe7d34c09f5d52c3cfc"
+  },
+  {
+    "name": "nanocorp",
+    "website": "https://www.nanocorp.so",
+    "source": "https://www.nanocorp.so/apple-icon",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "nanocorp-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "869f32312b901a92da9994fe0aefcc2257986fecefe80f6bc236b15d1ab4d44f"
+  },
+  {
+    "name": "cofounder",
+    "website": "https://cofounder.co",
+    "source": "https://cofounder.co/logo-dark.svg",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "cofounder-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "3204b9b575e604ffab2309b4b14a29f82aab274b4bf3b96201d3f77ebc9fa582"
+  },
+  {
+    "name": "feltsense",
+    "website": "https://feltsense.com",
+    "source": "https://feltsense.com/feltsense-logo.svg?dpl=dpl_F33soki7Je75CPdXBLjeDbUN3e6q",
+    "extraction": "Official site linked logo or brand icon",
+    "file": "feltsense-logo.png",
+    "checkedAt": "2026-09-10",
+    "sha256": "27c5f73eb15725a9e9da1399a69a29f5654410b70f0e763ac15ba2ca51f77858"
+  }
+]

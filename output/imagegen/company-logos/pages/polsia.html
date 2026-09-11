@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon = the embossed Polsia mascot master (solid white tile), so
+         one icon works on light AND dark browser chrome - no per-theme
+         variant needed. /favicon.ico (16/32/48) covers legacy browsers and
+         crawlers that ignore these links; apple-touch-icon covers iOS
+         add-to-home-screen. -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polsia — AI That Runs Your Company While You Sleep</title>
+
+    <!-- Preload the landing hero background so the byte fetch starts during
+         the initial HTML parse (in parallel with the JS bundle) instead of
+         after React mounts and applies the CSS background-image. This is the
+         single biggest win for hero first-paint. The href must match the URL
+         landing.css requests exactly, or the preload won't be reused. Shared
+         SPA shell: harmless on non-landing routes (one cached request). -->
+    <link rel="preload" as="image" href="/landing/home-office-polsia.webp" fetchpriority="high" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Polsia is an autonomous AI system that plans, codes, and markets your company 24/7. Your AI co-founder that never sleeps."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://polsia.com" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://polsia.com" />
+    <meta property="og:title" content="Polsia — AI That Runs Your Company" />
+    <meta
+      property="og:description"
+      content="Autonomous AI that plans, codes, and markets your company daily while you sleep."
+    />
+    <meta property="og:image" content="https://polsia.com/og-image.png" />
+    <meta property="og:site_name" content="Polsia" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@polsiahq" />
+    <meta name="twitter:title" content="Polsia — AI That Runs Your Company" />
+    <meta name="twitter:description" content="AI that runs your company while you sleep" />
+    <meta name="twitter:image" content="https://polsia.com/og-image.png" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Polsia",
+        "description": "Autonomous AI system that runs entire companies through coordinated AI agents. Plans, codes, and markets daily while founders sleep.",
+        "url": "https://polsia.com",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "author": {
+          "@type": "Person",
+          "name": "Ben Cera",
+          "jobTitle": "Founder & CEO"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "29",
+          "highPrice": "59",
+          "priceCurrency": "USD",
+          "offerCount": "2"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Polsia",
+        "url": "https://polsia.com",
+        "logo": "https://polsia.com/favicon-192x192.png",
+        "founder": {
+          "@type": "Person",
+          "name": "Ben Cera",
+          "url": "https://twitter.com/benbroca",
+          "sameAs": ["https://twitter.com/benbroca", "https://github.com/benbroca"]
+        },
+        "foundingDate": "2024",
+        "sameAs": ["https://twitter.com/polsiahq", "https://linkedin.com/company/polsia"]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Polsia",
+        "url": "https://polsia.com",
+        "description": "Autonomous AI platform that builds and runs companies using Claude Agent SDK",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://polsia.com/explore?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Polsia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Polsia is an autonomous AI platform that builds and runs companies using Claude Agent SDK, executing daily cycles of development, growth, and operations without human intervention."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Polsia work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Users create a company with a vision, then AI agents (CEO, Engineer, Growth Manager, etc.) run on daily cycles, creating and executing tasks autonomously. Agents can write code, deploy to production, send emails, post on social media, and analyze metrics."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is an autonomous AI company?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An autonomous AI company is a business that operates primarily through AI agents executing tasks without human intervention. These agents handle workflows like customer communication, code deployment, content creation, and business analytics on automated schedules."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!--
+      Growth pixels — Polsia-owned origins ONLY.
+
+      This shell is byte-identical to polsia.com and is ALSO served on customer
+      `*.polsia.app` subdomains that have no deployed app (the edge answers those with
+      `x-landing-source: Fallback`), on a handful of customer custom domains, and on
+      preview/staging hosts. Firing the ad pixels there attributes tenant domains to
+      Polsia's own pixels: it fills the retargeting audiences with people who never
+      visited Polsia, and it drags restricted-category customer sites (health, finance)
+      onto Polsia's ad datasets — which is what triggered Meta's "additional data sharing
+      restrictions" notice against pixel 1256400136484241.
+
+      Allowlist, never denylist: these hostnames also appear in FQDN form with a trailing
+      dot (`shiftwithin.polsia.app.`), which slips straight past a suffix check.
+
+      Note this gates GA4 (G-GWFDYHBFQ6) too, not just the four ad pixels — it shares the
+      gtag block. That is intended: GA4 pageviews from tenant subdomains were the same
+      pollution, measuring visits to customers' dead subdomains as Polsia traffic. So GA4
+      on tenant/preview/localhost hosts drops to zero by design.
+
+      Deliberately not feature-flagged — this runs in the document head, before the
+      bundle and therefore before PostHog exists. The kill switch is a revert.
+
+      Behaviour is pinned by src/platform/instrumentation/growth-pixels.test.ts, which
+      runs these exact inline bytes under jsdom.
+    -->
+    <script>
+      // CONTRACT: this list must name every host the Polsia SPA is served from. Every
+      // browser-side conversion fires from this same shell — CompleteRegistration in
+      // onboarding, StartTrial/Subscribe on trial return, the upgrade-dialog events — so
+      // a host missing here reports nothing from the browser. If the app ever moves or
+      // gains a host (an `app.` split, a new marketing domain), add it here in the same
+      // change.
+      //
+      // THERE IS NO AUTOMATED DETECTION for a stale list, and be honest about why: the
+      // browser leg has no Datadog representation at all (the org has zero RUM
+      // applications — browser pixels post straight to Meta/Google/TikTok, and our own
+      // browser analytics land in PostHog, which monitors-as-code does not read). So the
+      // "browser conversions collapse while backend/src/channels/ad-conversions/ server
+      // conversions hold" ratio is real but NOT watchable today — do not treat it as a
+      // safety net. The detector that would actually work is server-side: count SPA shell
+      // renders by Host header and alert when the shell is served from a host absent from
+      // this list. That needs the shell-serving path instrumented, so it is a fast-follow,
+      // not this change.
+      var POLSIA_GROWTH_HOSTS = ['polsia.com', 'www.polsia.com', 'help.polsia.com'];
+      // Trailing-dot FQDNs are the same host: `polsia.com.` must still fire, and
+      // `shiftwithin.polsia.app.` must still not. Normalising the INPUT is safe in both
+      // directions — it never widens the allowlist, it only stops an exact match from
+      // being missed on a legitimate apex.
+      var polsiaHost = location.hostname.replace(/\.$/, '');
+      window.__POLSIA_GROWTH_PIXELS__ = POLSIA_GROWTH_HOSTS.indexOf(polsiaHost) !== -1;
+
+      // Every ad SDK below ships the same loader: an async <script> inserted before the
+      // first existing one. Their published snippets minify it into single-letter
+      // closures; this is that same loader, written once. (TikTok's copy additionally
+      // sets type="text/javascript", the default for classic scripts, so a no-op.)
+      function polsiaLoadAdScript(src) {
+        var el = document.createElement('script');
+        el.async = true;
+        el.src = src;
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(el, firstScript);
+      }
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      if (window.__POLSIA_GROWTH_PIXELS__) {
+        // `fbq` starts as a stub that buffers every call on `.queue`. Once fbevents.js
+        // loads it installs `.callMethod` and replays the queue, after which calls go
+        // straight through. Setup is skipped if something already defined fbq, but the
+        // init/track calls below always run — that is the vendor snippet's behaviour.
+        if (!window.fbq) {
+          var fbqStub = function () {
+            if (fbqStub.callMethod) {
+              fbqStub.callMethod.apply(fbqStub, arguments);
+            } else {
+              fbqStub.queue.push(arguments);
+            }
+          };
+          fbqStub.queue = [];
+          fbqStub.push = fbqStub; // fbevents.js calls fbq.push() as an alias for fbq()
+          fbqStub.loaded = true;
+          fbqStub.version = '2.0';
+          window.fbq = fbqStub;
+          if (!window._fbq) window._fbq = fbqStub;
+          polsiaLoadAdScript('https://connect.facebook.net/en_US/fbevents.js');
+        }
+        window.fbq('init', '1314800673710252');
+        window.fbq('init', '1256400136484241');
+        window.fbq('track', 'PageView');
+      }
+    </script>
+    <!-- End Meta Pixel Code -->
+
+    <!-- OpenAI Ads Pixel -->
+    <!-- TODO: migrate to 2.0 in attribution. -->
+    <script>
+      if (window.__POLSIA_GROWTH_PIXELS__) {
+        // Same shape as Meta's: a stub buffering calls on `.q` until oaiq.min.js loads
+        // and drains it.
+        if (!window.oaiq) {
+          var oaiqStub = function () {
+            oaiqStub.q.push(arguments);
+          };
+          oaiqStub.q = [];
+          window.oaiq = oaiqStub;
+          polsiaLoadAdScript('https://bzrcdn.openai.com/sdk/oaiq.min.js');
+        }
+        window.oaiq('init', { pixelId: 'WRzo9yRvArZtukLLESuPFy' });
+      }
+    </script>
+    <!-- End OpenAI Ads Pixel -->
+
+    <!--
+      Google Ads (gtag.js). The loader is injected dynamically rather than left as a
+      static async script tag — a static tag fetches regardless of any JS guard, so it
+      would keep reporting from tenant origins.
+    -->
+    <script>
+      if (window.__POLSIA_GROWTH_PIXELS__) {
+        polsiaLoadAdScript('https://www.googletagmanager.com/gtag/js?id=AW-18004328752');
+        // gtag buffers onto dataLayer; gtag.js drains it on load. Two deliberate details:
+        //
+        // Assigned onto `window` explicitly because a function declaration inside a block
+        // is block-scoped, so the `function gtag()` form Google publishes would never
+        // reach `window.gtag` — which shared/utils/marketing-pixels.ts calls.
+        //
+        // And unlike the fbq/oaiq blocks there is deliberately no `if (!window.gtag)`
+        // guard: Google's snippet uses a bare `function gtag()` declaration, which also
+        // assigns unconditionally, so adding a guard here would diverge from it.
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () {
+          window.dataLayer.push(arguments);
+        };
+        window.gtag('js', new Date());
+        window.gtag('config', 'AW-18004328752'); // Google Ads
+        window.gtag('config', 'G-GWFDYHBFQ6'); // GA4
+      }
+    </script>
+    <!-- End Google Ads -->
+
+    <!-- TikTok Pixel Code -->
+    <script>
+      if (window.__POLSIA_GROWTH_PIXELS__) {
+        var TIKTOK_EVENTS_JS = 'https://analytics.tiktok.com/i18n/pixel/events.js';
+
+        // `ttq` is an Array used as the call queue; events.js drains it on load.
+        window.TiktokAnalyticsObject = 'ttq';
+        var ttq = (window.ttq = window.ttq || []);
+
+        ttq.methods = [
+          'page',
+          'track',
+          'identify',
+          'instances',
+          'debug',
+          'on',
+          'off',
+          'once',
+          'ready',
+          'alias',
+          'group',
+          'enableCookie',
+          'disableCookie',
+          'holdConsent',
+          'revokeConsent',
+          'grantConsent',
+        ];
+
+        // Stub one SDK method so calling it records ['methodName', ...args] on the queue.
+        ttq.setAndDefer = function (target, method) {
+          target[method] = function () {
+            target.push([method].concat(Array.prototype.slice.call(arguments, 0)));
+          };
+        };
+        for (var ttqIdx = 0; ttqIdx < ttq.methods.length; ttqIdx++) {
+          ttq.setAndDefer(ttq, ttq.methods[ttqIdx]);
+        }
+
+        // Per-pixel queue with the same stubbed methods, for multi-pixel setups.
+        ttq.instance = function (pixelId) {
+          var instance = ttq._i[pixelId] || [];
+          for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(instance, ttq.methods[i]);
+          return instance;
+        };
+
+        // `_i` per-pixel queue (carrying the SDK url on `_u`), `_t` load timestamp,
+        // `_o` options — all three are read back by events.js once it loads.
+        ttq.load = function (pixelId, options) {
+          ttq._i = ttq._i || {};
+          ttq._i[pixelId] = [];
+          ttq._i[pixelId]._u = TIKTOK_EVENTS_JS;
+          ttq._t = ttq._t || {};
+          ttq._t[pixelId] = +new Date();
+          ttq._o = ttq._o || {};
+          ttq._o[pixelId] = options || {};
+          polsiaLoadAdScript(TIKTOK_EVENTS_JS + '?sdkid=' + pixelId + '&lib=ttq');
+        };
+
+        ttq.load('D6MVVDBC77U9JTU05IS0');
+        ttq.page();
+      }
+    </script>
+    <!-- End TikTok Pixel Code -->
+    <script type="module" crossorigin src="/assets/index-B_m6C1MI.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CyIewP-w.css">
+  </head>
+  <body>
+    <!--
+      The Meta `<noscript>` PageView fallback was removed with the growth-pixel host
+      guard: an <img> tag cannot be gated by JS, so it was the one half that kept
+      reporting tenant origins to Meta. Cost is negligible — it only ever fired for
+      JS-disabled clients, and conversions are already covered server-side by
+      backend/src/channels/ad-conversions/.
+    -->
+    <div id="root"></div>
+  </body>
+</html>

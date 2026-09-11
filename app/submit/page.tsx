@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import SubmitForm from "@/components/submit/SubmitForm";
 
 export const metadata: Metadata = {
-  title: "Submit a company — Business on Autopilot",
+  title: "Submit a company — The Autopilot Index",
   description:
     "Know a company running on autopilot? Submit it for review. Every submission is verified against independent sources and the Autopilot Criteria.",
 };

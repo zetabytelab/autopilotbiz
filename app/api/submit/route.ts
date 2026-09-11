@@ -87,7 +87,7 @@ export async function POST(req: Request) {
   }
   const sub = parsed.data;
 
-  // ⑤ Dedupe against tracked companies and radar candidates.
+  // ⑤ Dedupe against tracked companies and watchlist entries.
   const dom = domainOf(sub.url);
   const known = new Set(
     [

@@ -168,7 +168,7 @@ export default function Leaderboard({ companies }: { companies: Company[] }) {
       </div>
       <div className="space-y-2 border-t border-zinc-800 p-4 text-xs leading-relaxed text-zinc-400 sm:p-5">
         <p>{EVIDENCE_SCOPE_NOTE} <Link href="/#criteria" className="text-lime-400 underline decoration-lime-400/40">Read the criteria</Link>.</p>
-        <p>Financial comparisons are optional context: figures mix reported revenue, ARR and annual run rates from different dates. The per-human figure uses reported headcount and excludes undisclosed contractors, suppliers and human interventions. Non-comparable funding amounts sort after known USD amounts.</p>
+        <p>Financial comparisons are optional context: figures mix reported revenue, ARR and annual run rates from different dates. The per-human figure counts reported employees plus any contractors the company itself discloses; where a profile names contract staff, they are in the denominator. Undisclosed contractors, suppliers and human interventions are, by definition, not. Non-comparable funding amounts sort after known USD amounts.</p>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import pulse from "@/data/pulse.json";
 import candidatesData from "@/data/candidates.json";
 
 export const metadata: Metadata = {
-  title: "News pulse — Business on Autopilot",
+  title: "News pulse — The Autopilot Index",
   description:
     "Live signals from the autopilot companies AND the stack behind them — Claude Code, Codex, OpenClaw, OpenRouter, Hermes and more. Funding, launches, stack switches, plus a radar of new entrants. Built for solo builders, small-team CTOs, and investors who want to know first.",
 };

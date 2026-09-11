@@ -25,6 +25,12 @@ export default function AtomsExperimentPage() {
         <h1 className="max-w-4xl text-4xl font-black leading-tight tracking-tight text-zinc-50 sm:text-5xl">Can Atoms build a<br className="hidden sm:block" /> one-person business?</h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-zinc-400">We will ask its AI team to build a useful small product, record every human intervention and follow what happens after launch.</p>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-amber-200/80">{atomsExperiment.statusNote}</p>
+        <p className="mt-5 max-w-2xl rounded-lg border border-amber-500/30 bg-amber-500/5 p-4 text-sm leading-relaxed text-amber-200/90">
+          <span className="font-semibold text-amber-100">Disclosure.</span> Atoms carries a referral link on the stack
+          page of this site, so a signup through that link can earn a commission. It earns nothing from this
+          experiment, the result is published either way, and no money changed hands to run it. We are flagging it
+          because grading other people&apos;s evidence only works if our own conflicts are on the page.
+        </p>
         <div className="mt-7 flex flex-wrap gap-3">
           <a href="/experiments/atoms/build-prompt.txt" download className="rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300">Download the exact build prompt</a>
           <a href="/experiments/atoms/ledger.json" download className="rounded-full border border-zinc-700 px-5 py-2.5 text-sm text-zinc-200 hover:border-zinc-500">Download the evidence ledger</a>

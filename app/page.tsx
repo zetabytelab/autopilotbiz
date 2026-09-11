@@ -73,7 +73,7 @@ export default function Home() {
             tracking the autonomous-business era
           </span>
           <h1 className="max-w-3xl text-4xl font-black leading-tight tracking-tight text-zinc-50 sm:text-6xl">
-            Business on <span className="text-lime-400">Autopilot</span>
+            The Autopilot <span className="text-lime-400">Index</span>
           </h1>
           <p className="max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
             <span className="font-semibold text-zinc-100">How much of a business can AI actually run?</span> Compare
@@ -124,6 +124,7 @@ export default function Home() {
         <p className="font-mono text-xs uppercase tracking-widest text-lime-400">Field experiment · {experimentStatusLabel}</p>
         <h2 className="mt-3 text-2xl font-bold text-zinc-100">Can Atoms help one person launch a useful product?</h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-zinc-400">Follow the Solo Revenue Planner test: a fixed build prompt, correctness checks, and a public log of cost, time and human interventions. {atomsExperiment.statusNote}</p>
+        <p className="mt-3 max-w-2xl text-xs leading-relaxed text-amber-200/70">Disclosure: Atoms carries a referral link on our stack page. It earns nothing from this experiment and the result is published either way.</p>
         <Link href="/experiments/atoms" className="mt-4 inline-block text-sm font-medium text-lime-400 hover:underline">Read the experiment and measurement plan →</Link>
       </aside>
 
@@ -162,7 +163,7 @@ export default function Home() {
         <SectionTitle
           kicker="03 · Framework"
           title="The Autopilot Criteria"
-          sub="Who makes the list — published rules in the spirit of the Lean AI Leaderboard. Radar candidates are judged against these before promotion."
+          sub="Who makes the list — published rules in the spirit of the Lean AI Leaderboard. Watchlist entries are judged against these before promotion."
         />
         <ol className="space-y-3">
           {criteria.map((c, i) => (
@@ -338,7 +339,7 @@ export default function Home() {
           <Link href="/submit" className="text-lime-400 underline hover:text-lime-300">
             Submit it
           </Link>
-          . Code MIT · data CC BY 4.0 —{" "}
+          . Code MIT · data CC BY 4.0 — site repo{" "}
           <a
             href="https://github.com/zetabytelab/autopilotbiz"
             className="text-zinc-400 underline hover:text-lime-400"

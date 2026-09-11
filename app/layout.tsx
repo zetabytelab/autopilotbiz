@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://autopilotindex.com"),
   title: "The Autopilot Index — tracking companies run by AI",
   description:
-    "Tracking the new class of AI companies that run themselves: who they are, their tech stacks, funding, referral programs, and how to build your own agent-run business.",
+    "Public research and intelligence on AI-operated businesses: evidence, autonomy assessments, company data, technology stacks and practical experiments.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     url: "https://autopilotindex.com",
     title: "The Autopilot Index — tracking companies run by AI",
     description:
-      "The index of companies run by AI — and the tech stack behind them. Plus Autopilot Pulse, a weekly newsletter.",
+      "Public research and intelligence on AI-operated businesses, their evidence and the tech stack behind them. Plus Autopilot Pulse.",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "The Autopilot Index — business on autopilot" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Autopilot Index — tracking companies run by AI",
-    description: "The index of companies run by AI — and the tech stack behind them.",
+    description: "Public research and intelligence on AI-operated businesses, their evidence and the tech stack behind them.",
     images: ["/og.png"],
   },
 };

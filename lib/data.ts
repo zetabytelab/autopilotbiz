@@ -34,6 +34,10 @@ export type Company = {
     arr: string | null;
     arrUsd: number | null;
     humans: number | null;
+    // Disclosed non-employee workers (contractors, agencies) named in the company's
+    // own sources. Counted in the per-human figure so the headline cannot contradict
+    // the profile beneath it. Undisclosed contractors remain, by definition, unknown.
+    disclosedContractors?: number;
     // Where each figure comes from — shown in the leaderboard so readers can audit the data.
     sources?: { humans?: Source; arr?: Source; raised?: Source };
   };
@@ -1322,6 +1326,10 @@ export const companies: Company[] = [
       arr: "$401M 2025 sales, 16.2% net (NYT-verified); tracking $1.8B in 2026",
       arrUsd: 401_000_000,
       humans: 2,
+      // NYT reports 7 contract account managers + 2 contract engineers alongside the
+      // 2 employees. Excluding them would put $200.5M/human on the top row while the
+      // profile below it named 11 people.
+      disclosedContractors: 9,
       sources: {
         humans: {
           name: "NYT (financials reviewed)",

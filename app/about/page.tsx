@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About — The Autopilot Index",
   description:
-    "The Autopilot Index tracks companies run by AI and the tech stack behind them, and publishes Autopilot Pulse — a weekly newsletter on the autonomous-business era.",
+    "The Autopilot Index is a public research and intelligence project tracking AI-operated businesses, their evidence and the systems behind them.",
   alternates: { canonical: "/about" },
 };
 
@@ -18,16 +18,16 @@ export default function About() {
 
       <div className="mt-6 space-y-4 text-base leading-relaxed text-zinc-300">
         <p>
-          The Autopilot Index tracks a new class of company: businesses run primarily by AI. One human, a fleet
-          of agents, and — increasingly — real revenue with near-zero headcount. The org chart is becoming a
-          prompt, and we document who is building this way, how their companies are structured, and the tech
-          stack underneath them.
+          The Autopilot Index is a public research and intelligence project tracking AI-operated businesses,
+          lean AI companies and the systems behind them. We record what companies claim, what independent
+          sources support, where humans remain involved and what still needs to be tested.
         </p>
         <p>
           The index covers the full stack of the autonomous-business era: AI gateways and model routing,
           workflow orchestration, scraping and data collection, voice agents, funding and referral programs.
-          Every company is scored on how much of its operation actually runs on autopilot, and every tool we
-          list is one a real AI-run business uses in production.
+          Autonomy levels are editorial assessments, not audits. Financial evidence and operational autonomy
+          are kept separate, and unknown or disputed values remain visible. The result is a reusable public
+          index rather than a claim that every company has been independently verified.
         </p>
         <p>
           Alongside the index we publish <Link href="/pulse" className="text-lime-400 hover:underline">Autopilot
@@ -36,9 +36,9 @@ export default function About() {
           code-versus-orchestration question every builder now faces.
         </p>
         <p>
-          The project is built in public. The site itself runs on the same kind of stack it writes about —
-          agents draft and ship, a human steers. If you run a business on autopilot, or you&apos;re building
-          toward one, we&apos;d like to hear about it.
+          The project is built in public. Agents help collect, structure and draft research while a human
+          reviews the evidence and releases it. We are building the email audience, historical dataset and
+          documented operating system so the work can remain useful and transferable as the project grows.
         </p>
         <p>
           <Link href="/submit" className="text-lime-400 hover:underline">Submit a company →</Link>

@@ -68,9 +68,12 @@ export function comparableFundingUsd(value: string | null): number | null {
 }
 
 export function reportedAnnualFigurePerHuman(company: Company): number | null {
-  const { arrUsd, humans } = company.metrics;
+  const { arrUsd, humans, disclosedContractors } = company.metrics;
   if (arrUsd === null || humans === null || !Number.isFinite(arrUsd) || !Number.isFinite(humans) || humans <= 0 || arrUsd < 0) return null;
-  return arrUsd / humans;
+  // Disclosed contractors do the work too. Counting only employees produces a figure
+  // the company's own profile contradicts.
+  const people = humans + (disclosedContractors ?? 0);
+  return arrUsd / people;
 }
 
 export type CompanySort = "evidence" | "name" | "raised" | "annual" | "perHuman";
