@@ -3,6 +3,7 @@ import Leaderboard from "@/components/Leaderboard";
 import CompanyCard from "@/components/CompanyCard";
 import StackPyramid from "@/components/StackPyramid";
 import OpsTerminal from "@/components/OpsTerminal";
+import IndexStats from "@/components/IndexStats";
 import { atomsExperiment, experimentStatusLabel } from "@/lib/atoms-experiment";
 import { companies, playbook, hackathon, caseStudies, criteria, categories, investorTheses } from "@/lib/data";
 
@@ -104,6 +105,8 @@ export default function Home() {
           <OpsTerminal />
         </div>
       </header>
+
+      <IndexStats />
 
       {/* Leaderboard */}
       <section id="leaderboard" className="scroll-mt-24 py-12">
