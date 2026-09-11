@@ -644,6 +644,176 @@ function srcEntry(item) {
   return e;
 }
 
+// ------------------------------------------------------------- candidates
+// A candidate is a COMPANY, not a headline. Three things have to happen before
+// a discovery item becomes one: reject items that are not about a company at
+// all, pull the company's name out of the title, and collapse every outlet
+// covering the same story into a single row. Grouping used to key on the
+// publisher domain, which did the exact opposite — eight outlets covering one
+// acquisition produced eight candidates.
+
+const MEGACAPS = new Set([
+  "meta", "facebook", "google", "alphabet", "microsoft", "amazon", "apple", "openai",
+  "anthropic", "nvidia", "salesforce", "adobe", "ibm", "oracle", "samsung", "tesla",
+  "baidu", "alibaba", "tencent", "netflix", "uber", "shopify", "intel", "qualcomm",
+  "sap", "servicenow", "workday", "snowflake", "databricks", "xai", "deepmind",
+]);
+
+// Headline shapes that are never a company: listicles, explainers, questions,
+// self-promotion and trend pieces. Each returns an explicit reason so a human
+// reviewing the run can see why something was dropped.
+export function candidateRejectionReason(title) {
+  const t = (title ?? "").trim();
+  if (!t) return "empty-title";
+  if (/^\d+\s/.test(t) || /\b\d+\s+(?:ai\s+)?(?:tools|ways|things|tips|startups|companies|apps|reasons|lessons|trends|predictions)\b/i.test(t))
+    return "listicle";
+  if (/^(?:how|why|what|what's|when|where|which|who|is|are|can|should|does|do|will)\b/i.test(t))
+    return "explainer";
+  if (/^i\s+(?:made|built|created|launched|shipped)\b/i.test(t) || /^(?:show|ask)\s+hn\b/i.test(t))
+    return "self-promotion";
+  if (/\b(?:is|are)\s+betting\s+on\b|\bbets\s+on\b|\bbest\s+\d*\s*(?:ai\s+)?(?:tools|platforms|apps)\b|\bhere's\s+(?:how|why)\b/i.test(t))
+    return "trend-piece";
+  return null;
+}
+
+// Headlines capitalise their verbs ("Adobe Buys Indian AI Startup Rilo"), so the
+// qualifier words have to match either case while the company name itself must
+// still start with a capital. A blanket /i flag would break that, because it
+// makes [A-Z] match lowercase too.
+const ci = (w) =>
+  w
+    .split("")
+    .map((c) => (/[a-z]/.test(c) ? `[${c.toUpperCase()}${c}]` : c))
+    .join("");
+const anyCase = (...words) => `(?:${words.map(ci).join("|")})`;
+
+const NAME = "([A-Z][\\w.&'’-]*(?:\\s+[A-Z][\\w.&'’-]*){0,2})";
+const QUALIFIER = anyCase("startup", "company", "firm", "platform", "maker", "unicorn", "business");
+const BOUGHT = anyCase("acquires", "acquired", "buys", "bought", "snaps up");
+const RAISED = anyCase("raises", "raised", "secures", "secured", "lands", "nets", "closes", "banks");
+const SHIPPED = anyCase(
+  "launches", "launched", "unveils", "debuts", "introduces", "brings", "announces",
+  "ships", "opens", "expands", "hits", "reaches", "crosses", "adds",
+);
+
+// Ordered most specific first. An acquisition names two companies and the
+// interesting one is the target, not the buyer.
+const NAME_PATTERNS = [
+  new RegExp(`\\b${BOUGHT}\\b[^,]*?\\b${QUALIFIER}\\s+${NAME}`),
+  new RegExp(`\\b${QUALIFIER}\\s+${NAME}`),
+  new RegExp(`^${NAME}\\s+${RAISED}\\b`),
+  new RegExp(`^${NAME}\\s+${SHIPPED}\\b`),
+  new RegExp(`^${NAME},\\s+(?:an?|the)\\s+[^,]*\\b(?:AI|agent|startup|company)\\b`),
+  new RegExp(`^${NAME}\\s+${anyCase("revenue", "arr", "valuation")}\\b`),
+  /\b([A-Z][\w-]*\.(?:ai|com|io|co|dev|app))\b/,
+];
+
+// Words that look like a name to the patterns above but never are one. Only
+// stripped from the FRONT of a capture: "MAGIC AI" must survive intact, while
+// "This Indian AI startup" must not become a candidate called "This".
+const NOT_NAMES = new Set([
+  "the", "this", "that", "these", "exclusive", "new", "ai", "an", "a", "its", "his", "her",
+  "their", "one", "first", "second", "indian", "us", "uk", "european", "chinese", "silicon",
+  "peak", "backed",
+]);
+
+// Title Case headlines capitalise every word, so a capture can run past the end
+// of the name ("Rilo To Expand Agentic Push"). A name stops at the first
+// function word.
+const NAME_STOPS = new Set([
+  "to", "for", "in", "on", "at", "and", "or", "with", "after", "as", "by", "from",
+  "of", "the", "a", "an", "is", "are", "its", "will", "into", "over", "amid", "it",
+]);
+
+export function extractCandidateName(title) {
+  for (const re of NAME_PATTERNS) {
+    const raw = (title ?? "").match(re)?.[1]?.trim();
+    if (!raw) continue;
+    const words = raw.split(/\s+/);
+    while (words.length && NOT_NAMES.has(words[0].toLowerCase())) words.shift();
+    const stop = words.findIndex((w) => NAME_STOPS.has(w.toLowerCase()));
+    const kept = stop === -1 ? words : words.slice(0, stop);
+    if (!kept.length) continue;
+    const name = kept.join(" ");
+    if (name.length < 2) continue;
+    return name;
+  }
+  return null;
+}
+
+const CANDIDATE_STOPWORDS = new Set([
+  "a", "an", "the", "and", "or", "but", "for", "to", "of", "in", "on", "at", "by", "with",
+  "from", "as", "is", "are", "was", "were", "be", "it", "its", "this", "that", "after",
+  "less", "than", "year", "new", "just", "more", "into", "over", "up", "out", "second",
+]);
+
+// Crude stem so "acquires"/"acquired"/"acquisition" collapse to one token.
+const stem = (w) => w.replace(/(?:ition|ing|ies|ied|ed|es|s)$/, "");
+
+export function candidateTokens(title) {
+  return new Set(
+    (title ?? "")
+      .toLowerCase()
+      .replace(/[^a-z0-9\s.-]/g, " ")
+      .split(/\s+/)
+      .filter((w) => w.length > 2 && !CANDIDATE_STOPWORDS.has(w))
+      .map(stem),
+  );
+}
+
+export function titleSimilarity(a, b) {
+  const x = candidateTokens(a);
+  const y = candidateTokens(b);
+  if (!x.size || !y.size) return 0;
+  let shared = 0;
+  for (const t of x) if (y.has(t)) shared++;
+  return shared / (x.size + y.size - shared);
+}
+
+const SIMILARITY_MERGE = 0.5;
+
+// Thesis keywords: the site tracks businesses that run themselves, so a headline
+// about headcount-free operation is worth more than a generic AI funding round.
+const THESIS_RE =
+  /\bone-person\b|\bsolo founder\b|\bno employees\b|\bzero employees\b|\bAI employees\b|\bdigital employees\b|\bautonomous company\b|\bruns itself\b|\bagent-run\b|\btiny team\b|\bwithout employees\b/i;
+const MONEY_RE = /\$\d|\bARR\b|\braises?\b|\braised\b|\bfunding\b|\bseries [a-e]\b|\bvaluation\b|\bseed round\b/i;
+const ACQUISITION_RE = /\b(?:acquires|acquired|buys|bought|snaps up|acquisition)\b/i;
+const STRONG_DOMAINS =
+  /(?:techcrunch|theinformation|bloomberg|reuters|ft\.com|wsj|axios|forbes|sifted|business insider)/i;
+
+export function scoreCandidate(group) {
+  const titles = group.evidence.map((e) => e.title).join(" · ");
+  const publishers = new Set(group.evidence.map((e) => e.domain).filter(Boolean));
+  const reasons = [];
+  let score = 0;
+  if (group.name) {
+    score += 1;
+    reasons.push("named entity");
+  }
+  const corroboration = Math.min(0.5 * Math.max(0, publishers.size - 1), 1.5);
+  if (corroboration > 0) {
+    score += corroboration;
+    reasons.push(`${publishers.size} publishers`);
+  }
+  if (THESIS_RE.test(titles)) {
+    score += 1;
+    reasons.push("autonomy thesis");
+  }
+  if (MONEY_RE.test(titles)) {
+    score += 0.75;
+    reasons.push("funding or revenue figure");
+  }
+  if (group.evidence.some((e) => e.source === "investor" || STRONG_DOMAINS.test(e.domain ?? ""))) {
+    score += 0.5;
+    reasons.push("strong outlet");
+  }
+  if (ACQUISITION_RE.test(titles)) {
+    score -= 0.5;
+    reasons.push("acquired — no longer independent");
+  }
+  return { score: round2(Math.max(0, Math.min(5, score))), reasons, publishers: publishers.size };
+}
+
 function buildCandidates(discoveryItems, companies, cutoff, dataDir = DATA_DIR) {
   const prevPath = join(dataDir, "candidates.json");
   let prev = { candidates: [] };
@@ -659,46 +829,71 @@ function buildCandidates(discoveryItems, companies, cutoff, dataDir = DATA_DIR) 
     // must look like startup/agent news (kills HN fuzzy-match noise)
     if (!/\bai\b|agent|autonomous/i.test(i.title)) return false;
     if (!/startup|company|founder|raises|raised|launches|business|unicorn|employees|fundraise/i.test(i.title)) return false;
+    if (candidateRejectionReason(i.title)) return false;
     // exclude items about companies we already track
     return !companies.some((c) => nameVariants(c).some((n) => new RegExp(`\\b${escapeRe(n)}\\b`, "i").test(i.title)));
   });
 
-  // Group evidence by guessed name (dumb heuristic) or domain
-  const groups = new Map();
+  // Group by company, not by publisher. Named items go first so that an unnamed
+  // headline about the same story ("Adobe just acquired this Indian AI startup")
+  // can merge into the named group regardless of the order they arrived in.
+  const named = [];
+  const unnamed = [];
   for (const i of fresh) {
-    const name =
-      i.title.match(
-        /^([A-Z][A-Za-z0-9.&'-]*(?:\s+[A-Z][A-Za-z0-9.&'-]*){0,2})\s+(?:raises|raised|launches|unveils|debuts|lands|secures|,\s*an?\s+AI)/,
-      )?.[1] ?? null;
-    const key = name?.toLowerCase() ?? `domain:${i.domain}`;
-    if (!groups.has(key)) groups.set(key, { name, evidence: [] });
-    groups.get(key).evidence.push({
+    const name = extractCandidateName(i.title);
+    if (name && MEGACAPS.has(name.toLowerCase())) continue; // a megacap shipping a feature is not a candidate
+    const evidence = {
       title: i.title,
       url: i.url,
       source: i.sourceId,
+      domain: i.domain ?? null,
       publishedAt: i.publishedAt,
       matchedKeywords: [i.discoveryQuery ?? ""],
-    });
+    };
+    (name ? named : unnamed).push({ name, evidence });
+  }
+
+  const groups = [];
+  const byName = new Map();
+  for (const { name, evidence } of named) {
+    const key = name.toLowerCase();
+    if (!byName.has(key)) {
+      const g = { key, name, evidence: [] };
+      byName.set(key, g);
+      groups.push(g);
+    }
+    byName.get(key).evidence.push(evidence);
+  }
+  for (const { evidence } of unnamed) {
+    const match = groups.find((g) =>
+      g.evidence.some((e) => titleSimilarity(e.title, evidence.title) >= SIMILARITY_MERGE),
+    );
+    if (match) match.evidence.push(evidence);
+    else groups.push({ key: `title:${sha1(evidence.title)}`, name: null, evidence: [evidence] });
   }
 
   const candidates = [];
-  for (const [key, g] of groups) {
-    const id = sha1(key);
+  for (const g of groups) {
+    const id = sha1(g.key);
     const existing = prevById.get(id);
-    const score = round2(Math.min(3, g.evidence.length * 0.5 + (g.name ? 0.5 : 0)));
+    const { score, reasons, publishers } = scoreCandidate(g);
+    g.evidence.sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
     candidates.push({
       id,
       name: g.name,
       evidence: g.evidence.slice(0, 5),
+      coverage: g.evidence.length,
+      publishers,
       firstSeen: existing?.firstSeen ?? new Date().toISOString(),
       score,
+      reasons,
       status: existing?.status ?? "new",
     });
     prevById.delete(id);
   }
   // keep previously reviewed/added/rejected entries even if not re-seen
   for (const old of prevById.values()) if (old.status !== "new") candidates.push(old);
-  candidates.sort((a, b) => b.score - a.score);
+  candidates.sort((a, b) => b.score - a.score || (b.coverage ?? 0) - (a.coverage ?? 0));
   return { generatedAt: new Date().toISOString(), candidates: candidates.slice(0, 60) };
 }
 
