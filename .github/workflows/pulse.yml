@@ -83,4 +83,13 @@ jobs:
           git add data/pulse.json data/candidates.json data/social-state.json data/social-coverage.json
           git diff --cached --quiet && echo "pulse unchanged" && exit 0
           git commit -m "pulse: daily refresh"
-          git push
+          # A human pushing to main mid-run used to lose the whole collection:
+          # the push was rejected and the run failed with the data already gathered.
+          # These files are generated, so rebasing onto whatever landed is always safe.
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected (attempt $attempt) — rebasing onto origin/main"
+            git pull --rebase --autostash origin main || exit 1
+          done
+          echo "could not push after 3 attempts"
+          exit 1
