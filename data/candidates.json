@@ -1,31 +1,40 @@
 {
- "generatedAt": "2026-09-09T12:37:01.086Z",
+ "generatedAt": "2026-09-11T12:47:28.665Z",
  "candidates": [
   {
-   "id": "15f4918d2235",
+   "id": "5cd3a2e884e9",
    "name": null,
    "evidence": [
     {
-     "title": "How to Build a Unicorn With AI Agents: The Solo Founder's Guide to the Agentic Era",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdDU2WU1RVVpldmhfZ1czWXpWS0k5SU9JUzU2eWlSRlVaOThYQmFCbmJ6UUNBTlNtekRUclZXN3pzTFg2Nm1XZ19RWVVYcE5QSTQyZzYtNVZmN1BHYWNqQm5BallmaUEta2hINm4wMTgzWVNIU2kwdXdVNW5sRUhQbFdDaWg5UldxNmJXMjhRWXpLMmpZeVFtYlBPdmdVYWh1MWRLRkNyZTlHWmFzeWJlOHp3?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-09-07T18:47:09.000Z",
+     "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+     "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+     "source": "investor",
+     "publishedAt": "2026-09-10T00:00:37.000Z",
      "matchedKeywords": [
-      "\"one-person unicorn\""
-     ]
-    },
-    {
-     "title": "How to Build a Unicorn With AI Agents: The Solo Founder's Guide to the Agentic Era",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdDU2WU1RVVpldmhfZ1czWXpWS0k5SU9JUzU2eWlSRlVaOThYQmFCbmJ6UUNBTlNtekRUclZXN3pzTFg2Nm1XZ19RWVVYcE5QSTQyZzYtNVZmN1BHYWNqQm5BallmaUEta2hINm4wMTgzWVNIU2kwdXdVNW5sRUhQbFdDaWg5UldxNmJXMjhRWXpLMmpZeVFtYlBPdmdVYWh1MWRLRkNyZTlHWmFzeWJlOHp3?oc=5",
-     "source": "gnews",
-     "publishedAt": "2026-09-07T18:47:09.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
+      "investor:techcrunch-vc"
      ]
     }
    ],
-   "firstSeen": "2026-09-09T12:09:24.305Z",
-   "score": 1,
+   "firstSeen": "2026-09-11T12:47:28.665Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "ee2ddd5dc9e6",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Exclusive: This $100 million startup wants to give companies AI employees",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZk9UUHFsVk9oME5iUEdWODd4T3EzazlxUm5VOVhmc2I1VFhQam15Z0hEUmhPMnctX3RCU0NIZWJmN1J3UkVqWE9yRjNuVXV3c1dRUWtaeHJzMUNvTW00WXlsa0RtZlhSQjdVMEphUkJ5NHpNYlBKbWRSaHRkMzBhLS1oeEZpZVg4SlloMmlZQnVnblZTRElNRmlST3FFQmZWeTk2aXhkNFh2QWVm?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-08-20T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-11T12:47:28.665Z",
+   "score": 0.5,
    "status": "new"
   },
   {
@@ -36,7 +45,7 @@
      "title": "Adobe just acquired this Indian AI startup less than a year after it launched",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYW13S0VFenZYRHdOZ0xBbTF6aHB3YzBsWjk4SVRaV3B6Y2xVX0NROTRERkJCak9DdllFLXZBaEItaXFzUnZxNUR1bXNUdTVpcWRERllKMGJQc2JSc2FoUEN0UU51a3VDVG9IWmVzY0hVbmd5QmZfa1ROX2pKcFNLejVjUHVsRUFpeGxLTkg3N1VxdnhsMDA2Mnln?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-09-03T14:39:15.000Z",
+     "publishedAt": "2026-09-03T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -87,10 +96,10 @@
    "name": null,
    "evidence": [
     {
-     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push - business-standard.com",
+     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-09-02T16:33:43.000Z",
+     "publishedAt": "2026-09-02T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -101,14 +110,14 @@
    "status": "new"
   },
   {
-   "id": "cc32e363f5c2",
+   "id": "ee5bbd18c84c",
    "name": null,
    "evidence": [
     {
-     "title": "Adobe acquires Indian AI startup Rilo to expand agentic AI push",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWdCTFAxQ05IRUczNjV0ekJmd2IyS0VaQnNtMFFDSlFmZjM3Y29zX0VORU9NRTJyNFE1eFJZQTlKdWxnLVJtYl9YZzJ2SExSMGpCTFczaFUwZTN4NEhCUDRPTFM3ZG1zU25HbW8wck5TcHRHWGlmSmpRQkV1Z2lVSzZ2S2xTS1hpelBHSzZleXFBajUxQ2NZNGtvanBMQQ?oc=5",
+     "title": "MAGIC AI Revenue 2025: $4.1M Est. ARR, $8.6M Raised",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fd3RYdjVCQVlWTlpqUG1MRlZNY05qTHo2REhlWDlkaG9VWERQcnpIWml4OEdLdVQya0lFZ3ZRRGZwZWZzTXU4V1BLRnRDZ3pmdkE?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-09-03T08:37:39.000Z",
+     "publishedAt": "2026-09-02T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -119,14 +128,14 @@
    "status": "new"
   },
   {
-   "id": "c8609ab6f60f",
+   "id": "cc32e363f5c2",
    "name": null,
    "evidence": [
     {
-     "title": "‘You can fail more’: Why this Dublin founder chose the US for his AI startup",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa2ZaYjV6SExLT0g5NTBYZkdFcWkzTFNCS0N0ejVjNDhUekJ3T2hUVmU1RDNGcms5dld2NGZ2ZXY2aFVLTEFudTF4OVNQZGRKZE9KVXQ5YVJ2c204VXZWQVB0RWZJQ0Y1Ty1RZXNpYnpZcmpSMTNmUGgycmptejlxcHB0MG5sd1VycFVTdVpvajlxSlpxY3BCcjR6R2dUZDhNd2VJVHBKcnl5Vm8?oc=5",
+     "title": "Adobe acquires Indian AI startup Rilo to expand agentic AI push",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWdCTFAxQ05IRUczNjV0ekJmd2IyS0VaQnNtMFFDSlFmZjM3Y29zX0VORU9NRTJyNFE1eFJZQTlKdWxnLVJtYl9YZzJ2SExSMGpCTFczaFUwZTN4NEhCUDRPTFM3ZG1zU25HbW8wck5TcHRHWGlmSmpRQkV1Z2lVSzZ2S2xTS1hpelBHSzZleXFBajUxQ2NZNGtvanBMQdIBowFBVV95cUxNNE1LOE5uR0w3bkVadGJIMFpWWkYzZEltcGNpUWJDV2xSVTZua3NHTnI4a0xXZjc1ajRkYWtrSlI5Zm5oZU5yLVlhWEdCU0k1aEJhVHZaTjZKYk5XcExfYld1V2owcTJZNU5nblczT2xQMFp6a185c2o1Y1ZSZXdqS1dpeE5Za1RHUXE2VjVOS1NCc3lZQnBtOVp5X3IwWWxLYnVv?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-09-07T08:58:01.000Z",
+     "publishedAt": "2026-09-03T08:37:39.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -144,7 +153,7 @@
      "title": "Adobe acquires Peak XV-backed Indian AI marketing startup Rilo",
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWGIxeWNFNF9hejZPQ0JSbFhkVnR3UkRRYnZSdG1SZlVrZGlCQTNqMTBfcVBrVFQtRlQzNlFLTUtYeDNoWUlQT053U2ppaU1Jb0JITmczZ01fSXYzUUVyRzRUbjROODVZS3VHbUZKQmZFdzJRRW41VjJzeWtvUzBnZGdVZlhYck1hcGRuNmdKYTRQWGdYSEZ1MjB3VmQyTW5XQXZwcl9TVUtzZFRkLVFBckpLX0pJYzJpLWJyb0xveVdVcWxQYWFVQkc4dU1UX0p5RFVv0gHYAUFVX3lxTFBNZnNfYUdfVHhsdzgtTzUtQlFWQ3oyakpnVFZBWTdLYkJzYWFyZFBDVUMwR1JCVmpPXzFuNERaSkg0V3gzM2R2dHV4dl84MWVHby1iNnNpV05UbDlIMk96YU9weVZndjZfblJTMk9QV0JMYURTQlMwbXdfbVRqRkZCY1VicWYxT0JnbThISWdLVVBweWZiRU0yUWUwb1VCX0VJV0M5Mkp6bl9faXNMWFkwYk15MTVzNTlVd0VPYVVSNERWNHpycVNRNkVWcmNtVXB5SGRlQkZRXw?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-09-02T16:57:33.000Z",
+     "publishedAt": "2026-09-02T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -173,20 +182,74 @@
    "status": "new"
   },
   {
-   "id": "ee5bbd18c84c",
+   "id": "9c178096dbd3",
    "name": null,
    "evidence": [
     {
-     "title": "MAGIC AI Revenue 2025: $4.1M Est. ARR, $8.6M Raised",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fd3RYdjVCQVlWTlpqUG1MRlZNY05qTHo2REhlWDlkaG9VWERQcnpIWml4OEdLdVQya0lFZ3ZRRGZwZWZzTXU4V1BLRnRDZ3pmdkE?oc=5",
+     "title": "Adobe acquires Indian AI startup Rilo",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLThadEktWldsNDgyc1ZPSjdKWTBUc0RDYk9mX1JZSEZnMkI0b0M1SlhEaVRqMVlTQVF0R1JVVEJrZERTWV82VWRmX0oySUNqSVlQemtyRmUtQk0xZkgxZl9JVzlfMGVFTG1sNENtS1VGcG5HX25xT0RXTkM0eDBBb1FWbm8tbWNXREtFZ1VNNTF3N2dZVFlEX3A1VjY4RkVU?oc=5",
      "source": "gnews",
-     "publishedAt": "2026-09-02T07:00:00.000Z",
+     "publishedAt": "2026-09-03T02:42:33.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
     }
    ],
-   "firstSeen": "2026-09-09T12:09:24.305Z",
+   "firstSeen": "2026-09-11T12:47:28.665Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "523200f24c25",
+   "name": null,
+   "evidence": [
+    {
+     "title": "This startup wants to build the first one-person unicorn using AI",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ0FRR2dlaHZGNWVfRnJROHBfcnRKeXMzYmxOb3BvVlZPbDNlRGxIVzFyT0FYdG90SDYxLS1Pdy1QLWg1bGJPanhOTTk5SmVuZE44c3Nsb19hdkI4LWFCZ2o5dnpqWl9rUHFxTGhfYzE4Vy1ZUzI0TGpMN3ZzRThUMUNJT0Y?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-11T12:00:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-11T12:47:28.665Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "03707b8609cb",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Paystand Brings AI 'Digital Employees' to B2B Finance on Its Programmable Money Network",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV1NXWnYyRFQ4X2dmTlFaYXNKd0UzQ2h1c0ZDNWpEeHJhTjlBT0RnbGFSTXBuUzB5RC0tSUxwWGxrY3pUMjZkSkF4VGxlTEhabU9nbHRpRDBIb2hJZlNKOGV6dUdnRV9oVHA1Vl9xN2pQR3dweDg2Z184VEpRMFdwQU9pWWFpTzhJV2JMbjlCRlhuSFlvaTFnREs1cmJyaW9EdjRUUkVxV2p5d0JYNXVaWUdtUEFYRlVMckN0UzFkYm9pNEJkTnRRVVRjZ0tRRHdqLWFz?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-11T06:23:25.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-11T12:47:28.665Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "2c60ceb9872c",
+   "name": null,
+   "evidence": [
+    {
+     "title": "How AI Agent Sandboxing Actually Works and Where Startups Cut Corners",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSmpDWjdvX3NRZl85NjJfdmtxejlSczBzNThIQmVUdkZJU0NQU2hHazBuSDgzeWF0NmZnTldIN05nSzg3bWpaekZKT25tbVZ2T0ltcldidG1XMHpGNXNMLWUyUTBLNEhpcDlGOFJLemItdVpjNjVFd2ZGaWlnOUNVcDY0ZWdOLUZxb3B1V2pXLWJlbTVZODNZYmY2OWhFZw?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-11T05:54:26.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-11T12:47:28.665Z",
    "score": 0.5,
    "status": "new"
   },
@@ -205,6 +268,24 @@
     }
    ],
    "firstSeen": "2026-09-06T11:31:00.026Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "20d804ca4d75",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Phony.ai Launches Provider-Neutral AI Phone and Voice Agent Platform",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbFBmNHVUMTBFZjg3VGVfcVR6eEFKVUhEWlRiNTRYamJ2V2hYdHczTWlMb0d0VEhzQ2xBVHkxNjBlT1Q4b0EyVXZ1VVYydlNXWEhJa0p0V0d3cEVCMFNZQW92QWR6RVBST0lnamRCQ2p2ejdRYUFLb0pBX2lWWXRHcUoyNnA5MnBiT08tenJxaFM0MUNWVWVsVkJmMA?oc=5",
+     "source": "gnews",
+     "publishedAt": "2026-09-10T09:58:01.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-11T12:47:28.665Z",
    "score": 0.5,
    "status": "new"
   },
@@ -241,6 +322,24 @@
     }
    ],
    "firstSeen": "2026-08-20T07:39:55.441Z",
+   "score": 0.5,
+   "status": "new"
+  },
+  {
+   "id": "b243fd507784",
+   "name": null,
+   "evidence": [
+    {
+     "title": "I made an AI pre-mortem that tries to kill startup ideas before you build them",
+     "url": "https://www.reddit.com/r/micro_saas/comments/1wbpxlq/i_made_an_ai_premortem_that_tries_to_kill_startup/",
+     "source": "reddit",
+     "publishedAt": "2026-09-09T16:09:57.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "firstSeen": "2026-09-11T12:47:28.665Z",
    "score": 0.5,
    "status": "new"
   }
