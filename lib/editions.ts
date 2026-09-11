@@ -24,6 +24,129 @@ export type Edition = {
 
 export const editions: Edition[] = [
   {
+    slug: "08-not-paying-for-speed",
+    number: 8,
+    title: "You are not paying for speed",
+    date: "2026-09-11",
+    cover: "/pulse/08-cover.png",
+    linkedinUrl: "https://www.linkedin.com/newsletters/autopilot-pulse-7494069864693850112/",
+    tldr: [
+      "OpenAI published a partner wall this week with **nine sandbox companies** on it, shipped its own hosted sandboxes in the same announcement, and had already bought a tenth: **Ona, formerly Gitpod**, in June. The same day, **Baseten acquired Blaxel**.",
+      "**Sandbox start-up is 0.5% of the wall clock** on a one-step task and 0.74% across a fifty-step coding task. Inference is 77%. The test suite the agent runs is about thirty times larger than all sandbox overhead combined. **[DERIVED]**",
+      "**Not one vendor publishes a methodology.** Daytona's own benchmark measures its own product **twelve times slower** than its own homepage. Blaxel's headline figure is **77 times** off on the operation it names. Only Cloudflare's measurement beats its own claim.",
+      "**Firecracker's famous 125ms is asserted in a paper whose evaluation never measures it.** The honest number for a real Linux userland, ten pages later in the same paper, is 150ms. AWS then says even that is too slow for Lambda.",
+      "What Baseten actually bought is **a billing structure, not a latency figure**. Anthropic's code execution tool bills a five-minute minimum, so a 300ms command costs you 300 seconds. **The number that matters was never the latency. It is how many times you pay it.**",
+    ],
+    sections: [
+      {
+        paras: [
+          "Last week I wrote about an agent that shipped a broken sanctions screener in 32 minutes with twenty green tests. The fix was to give it a real environment instead of a mock. That environment has to run somewhere, on a computer created for the agent and thrown away afterwards.",
+          "This week the market for that computer consolidated in public, twice in one day. So I spent two days checking whether the thing everyone is competing on actually matters.",
+          "It does not. But the reason it does not is more interesting than the fact.",
+        ],
+      },
+      {
+        heading: "1 — The week the category consolidated",
+        image: "/pulse/08-carousel-1-consolidation.png",
+        imageAlt: "Thirteen months of agent infrastructure acquisitions: Cloudflare bought Replicate, Mistral bought Koyeb, Baseten bought Inferless then Blaxel, and OpenAI bought Ona",
+        paras: [
+          "**Baseten acquired Blaxel** on 10 September, terms undisclosed. Blaxel had raised a single $7.3M seed led by First Round in December, out of Y Combinator, founded in 2024, eight people. Six of its founders came out of OVHcloud, Europe's largest cloud provider, and its chief executive Paul Sinai previously built ForePaaS, which OVHcloud bought. **People who have run a hyperscaler do not build an SDK. They rebuild cloud primitives.**",
+          "Baseten has raised roughly $2.085bn across six rounds, most recently $1.5bn at a $13bn valuation in June. And it had **no sandbox product at all**. I checked the live documentation and the homepage rather than taking the press release's word for it. The absence is the reason for the deal.",
+          "Hours later, **OpenAI shipped its own hosted sandboxes** inside the new Agents API, powered by the Codex harness, and named Modal, Cloudflare, Daytona, Blaxel, Runloop, Vercel, Oracle, E2B and DigitalOcean as first-class integrations. One of the nine had been acquired that morning.",
+          "And OpenAI had already bought the tenth. In **June it acquired Ona**, the company formerly called Gitpod, which had spent years building exactly one thing: an ephemeral, API-first, fully isolated development environment, one per agent, explicitly to expand Codex. OpenAI has not said Ona powers the hosted sandboxes, so that link is my reading rather than their claim. The timing and the primitive line up exactly.",
+          "This is not an isolated pair of deals. Cloudflare bought Replicate in November, Mistral bought Koyeb in February, Baseten acquihired Inferless in March, and Vercel converged on the same shape independently. **Every platform that had inference and lacked a runtime went and bought one.**",
+        ],
+      },
+      {
+        heading: "2 — The number everyone competes on",
+        image: "/pulse/08-carousel-3-breakdown.png",
+        imageAlt: "Three-panel breakdown: booting one sandbox, doing actual work in it, and the cache state that decides everything",
+        paras: [
+          "Every company in this category leads with a start-up time. Blaxel says 25 milliseconds. Daytona says under 90. E2B says about 150. Morph says under 250.",
+          "So I built the budget. On a single-step task, sandbox start-up is **0.53% of the wall clock**. Across a fifty-step coding task it is **0.74%**. Inference is 77%. The test suite the agent actually runs is roughly thirty times larger than all sandbox overhead put together. **[DERIVED]**",
+          "One independent harness makes this concrete. On a realistic workload, cloning a repository, installing dependencies and running a typecheck, Daytona spends 4.6 seconds provisioning against 12.7 seconds installing and 38.2 seconds typechecking. **A vendor competing on 25 milliseconds against 90 is competing over a fraction of one percent of what the user waits for.**",
+          "And the variable that actually decides the outcome is not on anybody's homepage. CodeSandbox published the most illuminating table in the category back in 2022: the same project on the same hardware takes 132.2 seconds with no cache, 48.4 seconds with dependencies pre-installed, 22.2 seconds with a warm build cache, and **0.6 seconds restored from a memory snapshot**. A 220-fold spread, decided entirely by cache state.",
+        ],
+      },
+      {
+        heading: "3 — And the numbers do not survive measurement",
+        image: "/pulse/08-carousel-2-claimed-vs-measured.png",
+        imageAlt: "Claimed versus measured start-up times across eight sandbox providers, showing gaps from eleven to seventy-seven times",
+        paras: [
+          "Here is the finding that surprised me most. **Not one vendor in this survey publishes a methodology.** None states the concurrency, the region, the image size, or even whether the clock stops when the API acknowledges the request or when a command actually runs inside the sandbox.",
+          "**The killer exhibit is Daytona measuring Daytona.** Their homepage claims sub-90-millisecond sandbox creation. Their own published benchmark, written by their own researcher, measures their own median time to first command at 1.05 seconds. That is twelve to thirteen times their own marketing, by their own hand. Worse, the sub-90 figure applies only to their container class, which supports neither pause, resume nor fork. The virtual machine class that does support them carries no latency figure at all.",
+          "**Blaxel's 25 milliseconds is off by about 77 times on the operation it names.** An independent measurement forced a genuine standby-to-active wake, which is precisely what the claim describes, and recorded 1,924 milliseconds. Their own blog meanwhile says 4 to 10 milliseconds for resume and 125 milliseconds for a cold create, contradicting the headline in both directions.",
+          "E2B's approximately 150 milliseconds becomes 1,639 at the 99th percentile under a hundred-way burst. CodeSandbox publishes the best-structured figures in the field and was measured at 21.75 seconds median with 90% success. Northflank cites a benchmark on its own blog that today reports Northflank at **zero percent success**. Runloop's 100 milliseconds turns out to measure a command round trip inside an already-running box, not a start. Browserbase quietly removed its milliseconds claim rather than defend it, and its own engineering essay now says the honest version: pulling the image and waiting for the browser to accept commands takes seconds.",
+          "**Exactly one company's measurement beats its own claim.** Cloudflare says containers cold-start in one to three seconds and was measured at 0.92. It is also the only vendor here that published a figure unflattering enough to be beatable.",
+          "The variance is worse than the gap. One provider's weekly burst medians across two months run 1,877 milliseconds at full success, then 223 milliseconds at 37% success, then 44,445 milliseconds at 12%. As one write-up put it: a median you only reach on a third of your calls is not a latency number, it is a capacity number.",
+        ],
+      },
+      {
+        heading: "4 — Why every published number is a warm path",
+        paras: [
+          "The claims are not lies. They measure something real. They just measure the easiest possible version of it.",
+          "**Firecracker's famous 125 milliseconds is asserted in the introduction of a paper whose evaluation section never measures it.** What that section actually times is the interval from the hypervisor process forking to the guest kernel forking a stub init that writes one byte to an I/O port, on a single-core guest with 256MB of memory and networking disabled. Ten pages later, the honest figure for a real userland is 150 milliseconds.",
+          "And then AWS says it out loud, in their own paper: while 125-millisecond boot times are fast, **they are not fast enough for the scale-up path of Lambda**, which is sometimes blocking user requests. Lambda hides the cost behind a pool of pre-booted machines. Nobody who quotes the 125 quotes that sentence.",
+          "The guest costs more than the hypervisor, which is the part nobody markets. Swap a minimal kernel for a stock Ubuntu one and you add 900 milliseconds. Decompressing a compressed kernel adds 40. Logging to a serial console costs up to 70. Adding one network card adds 20. **A 125-millisecond machine is fast because somebody deleted almost every driver**, not because the hypervisor is written in a fashionable language.",
+          "One independent harness deliberately measures the cold, contended path, and it is the only one where the numbers look bad for everyone. The benchmark behind one vendor's five-times-faster cold-start claim discards ten warm-up iterations per provider by design.",
+        ],
+      },
+      {
+        heading: "5 — The physics, and the trade you cannot avoid",
+        paras: [
+          "There is a real hierarchy underneath all this, and each step buys speed by taking something away.",
+          "A **WebAssembly instance** starts in 30 to 52 microseconds. Fastly published the most honest breakdown anyone has: 52 microseconds to load and instantiate, 30 for the request path, 23 to tear down, under 60 microseconds of overhead in total. A **V8 isolate** warms in about 5 milliseconds. A **snapshot-restored microVM** restores in 1.5 to 2.5 milliseconds. A **cold-booted microVM** takes 125 to 150. A **container** takes tens of milliseconds plus an image pull. A **full virtual machine** takes seconds.",
+          "Now the catch. Fastly's own January post says their environment inherently lacks file system access, network input and output, and external command execution. **An agent that needs to run your test suite cannot live there.** Cloudflare, the company that made the five-millisecond isolate famous, shipped Containers in June 2025 precisely because customers needed to run things isolates cannot, and their own number for that is a few seconds.",
+          "The gap between five milliseconds and a real filesystem is two to three orders of magnitude, and it is not closing. Cloudflare's zero cold start is not a boot time at all. It is a latency-hiding trick: they begin loading your code during the TLS handshake, and since the handshake takes longer than the load, the cost disappears into a wait you were already paying.",
+          "Snapshot restore looks like the escape hatch and partly is, but the cost moves rather than vanishing. Restored memory is faulted in on demand, and an independent study measured snapshot-restored functions running **95% slower on average** than resident ones. You pay the page faults during the first invocation instead.",
+        ],
+      },
+      {
+        heading: "6 — So what did Baseten actually buy?",
+        paras: [
+          "Not 25 milliseconds. Read the claim again as a cost argument and it makes complete sense.",
+          "Blaxel suspends an agent to a memory snapshot. An idle agent then costs about **twenty cents per gigabyte per month** in snapshot storage rather than paying for memory by the second. Fast resume is not the product. **Fast resume is what makes suspending viable**, and suspending is the product.",
+          "That matters enormously because of how this category bills. E2B charges per second of sandbox uptime. **Anthropic's code execution tool bills a five-minute minimum per execution**, so a command that takes 300 milliseconds is billed as 300 seconds. That is a thousandfold gap between what you consume and what you pay for.",
+          "The billing fine print is where the real differences live, and almost nobody reads it. One provider bills at the full rate during the pause operation itself, and never states how long that operation takes. Another says you never pay for idle, but nothing in its documentation covers a sandbox that is running and idle. A third charges a one-minute and one-megabyte minimum per browser session and warns you in its own docs to release keep-alive sessions or be charged for browsers nobody is using. A fourth notes that suspended machines still reserve their resources, so you free up money but not capacity.",
+          "**Price the idle, not the start.** That single sentence would have saved every team I have spoken to more money than any provider switch.",
+        ],
+      },
+      {
+        heading: "7 — When the milliseconds genuinely matter",
+        paras: [
+          "There are exactly three cases, and it is worth knowing which one you are in.",
+          "**Long trajectories do not qualify, and this is the counterintuitive part.** Every serious agent framework creates the sandbox once per task, not once per step. A coding agent takes 12 to 30 steps, with a peer-reviewed mean of 14.71 turns and a median of 12. One 250-millisecond start spread across twenty steps, each waiting on a multi-second model call, is noise.",
+          "**Reinforcement-learning rollouts do qualify, decisively.** Millions of short episodes, each one paying the environment cost, with per-episode overhead dominating generation below roughly a thousand concurrent environments. Change the denominator and the same 250 milliseconds becomes the dominant cost of an entire training run. This is why the environment companies keep drifting from testing into training.",
+          "**Small fast models qualify.** When inference stops dominating, the sandbox share rises sevenfold. If you are running a cheap model in a tight loop, the infrastructure suddenly matters.",
+          "**The number that matters is not the sandbox latency. It is how many times you pay it.**",
+          "And when Modal pushed to a million concurrent sandboxes, created in under a minute, the wall they hit was not their scheduler. It was lock contention inside the Linux kernel during container network setup. They replaced a single serialised scheduler with a fleet of them, cut the creation path to two network hops and one cheap processor operation, removed every data store from the critical path, and rebuilt the worker stack, the observability and the container runtime. **Nobody rebuilds all of that to win a 25-millisecond benchmark.**",
+        ],
+      },
+      {
+        heading: "8 — The bear case, which is stronger than the discourse",
+        image: "/pulse/08-carousel-4-the-field.png",
+        imageAlt: "The full field of agent sandbox companies, grouped by those OpenAI named, those acquired, and the rest of the measured benchmark",
+        paras: [
+          "The sharpest argument against this category appears inside the most bullish essay written about it. Andreessen Horowitz published the clearest thesis in the space, that agents just want a computer, meaning a complete operating system install, fully stateful. In the same piece they write: **this isn't yet another sandbox cloud, which only solves a small portion of the isolation problems.** The sector's most active infrastructure investor is also its most quotable sceptic.",
+          "The rest of the bear case has to be assembled, because nobody has written it as one essay. **AWS shipped Bedrock AgentCore in July 2025** with both a code interpreter and a managed browser, hitting two segments of this market at once. **Upstream Kubernetes now ships an agent-sandbox resource** offering isolated, stateful, pausable workloads, free, in the platform layer. Cloudflare made an effective 80% price cut on exactly the idle-heavy workload agents generate. And Menlo Ventures, a top-tier AI investor, found that only **16% of enterprise deployments** qualify as true agents, adding that most of the rest are basic conditional logic around a model call. The infrastructure is being built ahead of the workload.",
+          "That the sceptical case is stronger in the evidence than in the discourse is itself a finding.",
+          "**And then there is the number that answers it.** Modal says sandboxes are about a third of its revenue, with inference the other two thirds, against roughly $300M annually that grew fivefold in eight months and is, in its chief executive's words, imminent to a billion. **The category is real.** It simply does not appear to stay independent.",
+        ],
+      },
+      {
+        heading: "9 — What to do with this",
+        paras: [
+          "**Price the idle, not the start.** Find your provider's billing behaviour for a sandbox that is paused, and for one that is running but doing nothing. Those two lines will move your bill more than any latency comparison.",
+          "**Ask what the clock measures.** When a vendor quotes a start-up time, ask whether it stops at the API acknowledgement or at the first executed command, under what concurrency, and in which region. Every vendor here could answer that and none has volunteered it.",
+          "**Count how many times you pay it.** One sandbox per task across twenty steps is noise. One per step, or one per rollout across millions of episodes, is your whole bill. The architecture decision is upstream of the vendor decision.",
+          "**Warm your cache before you change your vendor.** A 220-fold spread sits between a cold start and a memory snapshot on identical work. No provider switch will give you that.",
+          "**And watch what your vendor is becoming.** Every platform with inference that lacked a runtime bought one in the last thirteen months. If you are signing a multi-year agreement with an independent in this category, price in the possibility that it belongs to your inference provider before the term is out.",
+          "I am going to run the Calibre loop from edition six on this site and publish what it costs. If you have measured any of this in production, I would rather have your numbers than a vendor's homepage.",
+        ],
+      },
+    ],
+  },
+  {
     "slug": "07-the-gate-had-no-buyer",
     "number": 7,
     "title": "The gate had no buyer",
