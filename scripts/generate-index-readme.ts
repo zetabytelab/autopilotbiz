@@ -6,6 +6,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { companies, caseStudies, stackLayers, stackTools, switchLog } from "../lib/data.ts";
 import { compareEvidenceThenAutonomy } from "../lib/autonomy.ts";
+import { financialText, latestObservation, observationDate } from "../lib/financials.ts";
 
 const LEVEL_ORDER = { L5: 0, L4: 1, L3: 2, L2: 3 } as const;
 const cell = (s: string | null | undefined) => (s && s.length ? s.replace(/\|/g, "\\|") : "—");
@@ -19,8 +20,9 @@ const indexRows = indexed
   .map((c) => {
     const m = c.autopilot!;
     const ev = m.evidence === "A" ? "**A**" : m.evidence ?? "—";
-    const humans = c.metrics.humans != null ? `**${c.metrics.humans}**` : "—";
-    return `| ${link(c.name, c.url)} | **${m.level}** | ${ev} | ${humans} | ${cell(c.metrics.arr)} | ${cell(m.story)} | ${cell(m.flags)} |`;
+    const headcount = latestObservation(c, "headcount");
+    const humans = headcount ? cell(`${headcount.display} · ${observationDate(headcount)}`) : "—";
+    return `| ${link(c.name, c.url)} | **${m.level}** | ${ev} | ${humans} | ${cell(financialText(c))} | ${cell(m.story)} | ${cell(m.flags)} |`;
   })
   .join("\n");
 
@@ -38,7 +40,8 @@ const cautionRows = companies
 const enablerRows = companies
   .filter((c) => c.autopilot?.section === "enabler")
   .map((c) => {
-    const humans = c.metrics.humans != null ? String(c.metrics.humans) : "—";
+    const headcount = latestObservation(c, "headcount");
+    const humans = headcount ? cell(`${headcount.display} · ${observationDate(headcount)}`) : "—";
     return `| ${link(c.name, c.url)} | ${cell(c.autopilot!.story)} | ${humans} | ${cell(c.autopilot!.flags)} |`;
   })
   .join("\n");

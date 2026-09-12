@@ -1,4 +1,6 @@
 import type { AutopilotMeta, Company } from "./data.ts";
+import { comparableValue, latestObservation, metricPerHuman } from "./financials.ts";
+import type { FinancialKind } from "./financial-types.ts";
 
 export const AUTONOMY_LABELS = {
   L2: "Function autopilot",
@@ -67,24 +69,19 @@ export function comparableFundingUsd(value: string | null): number | null {
   return multiplier === undefined ? null : Number(match[1]) * multiplier;
 }
 
-export function reportedAnnualFigurePerHuman(company: Company): number | null {
-  const { arrUsd, humans, disclosedContractors } = company.metrics;
-  if (arrUsd === null || humans === null || !Number.isFinite(arrUsd) || !Number.isFinite(humans) || humans <= 0 || arrUsd < 0) return null;
-  // Disclosed contractors do the work too. Counting only employees produces a figure
-  // the company's own profile contradicts.
-  const people = humans + (disclosedContractors ?? 0);
-  return arrUsd / people;
+export function reportedAnnualFigurePerHuman(company: Company, kind: FinancialKind = "arr"): number | null {
+  return metricPerHuman(latestObservation(company, kind), latestObservation(company, "headcount"), latestObservation(company, "contractors"));
 }
 
 export type CompanySort = "evidence" | "name" | "raised" | "annual" | "perHuman";
 
-export function compareCompanies(a: Company, b: Company, sort: CompanySort): number {
+export function compareCompanies(a: Company, b: Company, sort: CompanySort, kind: FinancialKind = "arr"): number {
   if (sort === "evidence") return compareEvidenceThenAutonomy(a, b);
   if (sort === "name") return a.name.localeCompare(b.name) || a.slug.localeCompare(b.slug);
   const value = (company: Company): number | null => {
     if (sort === "raised") return comparableFundingUsd(company.funding.totalRaised);
-    if (sort === "perHuman") return reportedAnnualFigurePerHuman(company);
-    return company.metrics.arrUsd;
+    if (sort === "perHuman") return reportedAnnualFigurePerHuman(company, kind);
+    return comparableValue(latestObservation(company, kind));
   };
   const valueA = value(a);
   const valueB = value(b);

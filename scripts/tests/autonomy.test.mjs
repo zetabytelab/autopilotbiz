@@ -43,12 +43,16 @@ test("company verification never promotes evidence or certifies autonomy", () =>
   assert.match(getAutonomyAssessment(company("Missing", undefined)).levelLabel, /Not assessed/);
 });
 
-test("financial sorting leaves missing values last and does not treat zero as missing", () => {
-  const records = [company("Unknown", undefined, { arrUsd: null }), company("Zero", undefined, { arrUsd: 0 }), company("Known", undefined, { arrUsd: 20 })];
-  assert.deepEqual(records.sort((a, b) => compareCompanies(a, b, "annual")).map((entry) => entry.name), ["Known", "Zero", "Unknown"]);
+test("legacy mixed figures cannot rank or produce per-person ratios", () => {
+  const base44 = companies.find((entry) => entry.slug === "base44");
+  const medvi = companies.find((entry) => entry.slug === "medvi");
+  const records = [medvi, base44];
+  assert.deepEqual(records.sort((a, b) => compareCompanies(a, b, "annual")).map((entry) => entry.slug), ["base44", "medvi"]);
+  assert.equal(reportedAnnualFigurePerHuman(base44), null);
+  assert.equal(reportedAnnualFigurePerHuman(medvi, "revenue"), null);
   assert.equal(reportedAnnualFigurePerHuman(company("ZeroHuman", undefined, { humans: 0 })), null);
   assert.equal(reportedAnnualFigurePerHuman(company("MissingHuman", undefined, { humans: null })), null);
-  assert.equal(reportedAnnualFigurePerHuman(company("ZeroRevenue", undefined, { humans: 1, arrUsd: 0 })), 0);
+  assert.equal(reportedAnnualFigurePerHuman(company("Unreviewed", undefined, { humans: 1, arrUsd: 1e9 })), null);
 });
 
 test("funding comparison rejects currencies, ranges, and parent-company annotations", () => {

@@ -16,7 +16,7 @@ import {
 // validation. All tools resolve to the same query layer as the REST API.
 
 const PROTOCOL_VERSION = "2025-06-18";
-const SERVER_INFO = { name: "autopilot-index", version: "1.0.0" };
+const SERVER_INFO = { name: "autopilot-index", version: "1.1.0" };
 const MAX_BODY_BYTES = 64 * 1024; // reject oversized payloads before parsing
 
 const MCP_CORS = "GET, POST, OPTIONS";
@@ -34,7 +34,7 @@ const getCompanyArgs = z.object({ slug: z.string().regex(/^[a-z0-9-]{1,64}$/) })
 const TOOLS: Record<string, Tool> = {
   search_companies: {
     description:
-      "Search The Autopilot Index of companies run by AI. Filter by free-text query, cohort, section, or verified status; returns a ranked page (by ARR).",
+      "Search The Autopilot Index. Evidence-first by default; optional ARR ranking uses only eligible reported USD ARR point observations, never revenue or run rates. Returns dated financial and headcount history; sources are not autonomy audits.",
     inputSchema: {
       type: "object",
       properties: {
@@ -42,7 +42,7 @@ const TOOLS: Record<string, Tool> = {
         cohort: { type: "string", enum: ["hackathon", "expansion"] },
         section: { type: "string", enum: ["index", "watchlist", "caution", "enabler"] },
         verified: { type: "string", enum: ["true", "false"] },
-        sort: { type: "string", enum: ["arr", "name"] },
+        sort: { type: "string", enum: ["arr", "name", "evidence"], default: "evidence" },
         limit: { type: "integer", minimum: 1, maximum: 100 },
       },
       additionalProperties: false,

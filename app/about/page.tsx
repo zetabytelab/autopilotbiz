@@ -37,8 +37,8 @@ export default function About() {
         </p>
         <p>
           The project is built in public. Agents help collect, structure and draft research while a human
-          reviews the evidence and releases it. We are building the email audience, historical dataset and
-          documented operating system so the work can remain useful and transferable as the project grows.
+          reviews the evidence and releases it. Our goal is to help readers compare claims, understand
+          where human work remains and make informed decisions about AI tools and businesses.
         </p>
         <p>
           <Link href="/submit" className="text-lime-400 hover:underline">Submit a company →</Link>

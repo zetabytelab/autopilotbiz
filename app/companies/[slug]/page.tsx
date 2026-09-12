@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { companies, type Source } from "@/lib/data";
 import { getAutonomyAssessment } from "@/lib/autonomy";
+import { financialSummary, latestObservation, METRIC_LABELS, observationDate } from "@/lib/financials";
+import FinancialHistory from "@/components/FinancialHistory";
 import { getCompanyResearch, getCompanySources, getProfileNotes, type ResearchFinding } from "@/lib/company-profiles";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -43,6 +45,9 @@ export default async function CompanyProfile({ params }: Props) {
   const company = companies.find((entry) => entry.slug === slug);
   if (!company) notFound();
   const assessment = getAutonomyAssessment(company);
+  const financial = financialSummary(company);
+  const headcount = latestObservation(company, "headcount");
+  const contractors = latestObservation(company, "contractors");
   const notes = getProfileNotes(company);
   const research = getCompanyResearch(company.slug);
   const sources = getCompanySources(company);
@@ -97,10 +102,11 @@ export default async function CompanyProfile({ params }: Props) {
         <h2 id="economics" className="text-xl font-semibold text-zinc-100">Financial and team context</h2>
         <p className="mb-4 mt-2 text-sm text-zinc-500">Reported figures retain their original scope. Revenue periods and headcount dates may differ; these are not a current audited financial statement.</p>
         <dl className="grid gap-4 sm:grid-cols-3">
-          <div className="rounded-xl border border-zinc-800 p-4"><dt className="text-xs text-zinc-400">Revenue / ARR as recorded</dt><dd className="mt-2 font-mono text-sm text-zinc-100">{company.metrics.arr ?? "Not reported"}<Citation source={company.metrics.sources?.arr} /></dd></div>
-          <div className="rounded-xl border border-zinc-800 p-4"><dt className="text-xs text-zinc-400">Company human headcount</dt><dd className="mt-2 font-mono text-sm text-zinc-100">{company.metrics.humans ?? "Not reported"}<Citation source={company.metrics.sources?.humans} /></dd></div>
+          <div className="rounded-xl border border-zinc-800 p-4"><dt className="text-xs text-zinc-400">{financial ? METRIC_LABELS[financial.kind] : "Financial observation"}</dt><dd className="mt-2 font-mono text-sm text-zinc-100">{financial?.display ?? "Not reported"}{financial && <p className="mt-2 text-xs text-zinc-400">{observationDate(financial)} · {financial.status} · {financial.checkedAt ? `Source checked ${financial.checkedAt}` : "Source not rechecked"}</p>}<Citation source={financial?.source ?? undefined} /></dd></div>
+          <div className="rounded-xl border border-zinc-800 p-4"><dt className="text-xs text-zinc-400">Reported team</dt><dd className="mt-2 font-mono text-sm text-zinc-100">{headcount?.display ?? "Not reported"}{headcount && <p className="mt-2 text-xs text-zinc-400">{observationDate(headcount)} · {headcount.population?.replaceAll("_", " ") ?? "Population unknown"} · {headcount.checkedAt ? `Source checked ${headcount.checkedAt}` : "Source not rechecked"}</p>}<Citation source={headcount?.source ?? undefined} />{contractors && <p className="mt-2 text-xs text-zinc-400">Disclosed contractors: {contractors.display} · {observationDate(contractors)}</p>}</dd></div>
           <div className="rounded-xl border border-zinc-800 p-4"><dt className="text-xs text-zinc-400">Funding as recorded</dt><dd className="mt-2 font-mono text-sm text-zinc-100">{company.funding.totalRaised ?? "Not reported"}<Citation source={company.metrics.sources?.raised} /></dd></div>
         </dl>
+        <FinancialHistory slug={company.slug} />
         {(company.funding.lastRound || company.funding.date || company.funding.valuation || company.funding.investors.length > 0) && <div className="mt-4 space-y-2 rounded-xl bg-zinc-900/40 p-4 text-sm text-zinc-400">
           {company.funding.lastRound && <p><span className="text-zinc-200">Round / transaction: </span>{company.funding.lastRound}</p>}
           {company.funding.date && <p><span className="text-zinc-200">Recorded date: </span>{company.funding.date}</p>}

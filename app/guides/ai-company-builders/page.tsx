@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { companies } from "@/lib/data";
+import { financialText } from "@/lib/financials";
 
 export const metadata: Metadata = {
   title: "AI Company Builders in 2026: Polsia, Cofounder, Atoms & Nanocorp compared",
@@ -46,7 +47,7 @@ export default function AiCompanyBuildersGuide() {
               <th className="py-3 pr-4">What it does</th>
               <th className="py-3 pr-4">Raised</th>
               <th className="py-3 pr-4">Pricing</th>
-              <th className="py-3 pr-4">ARR claim</th>
+              <th className="py-3 pr-4">Financial observation</th>
               <th className="py-3">Status</th>
             </tr>
           </thead>
@@ -57,7 +58,7 @@ export default function AiCompanyBuildersGuide() {
                 <td className="py-3 pr-4 text-zinc-400">{c.tagline}</td>
                 <td className="py-3 pr-4 font-mono text-xs text-zinc-300">{c.funding.totalRaised ?? "—"}</td>
                 <td className="py-3 pr-4 text-zinc-400">{c.pricing ?? "—"}</td>
-                <td className="py-3 pr-4 font-mono text-xs text-zinc-300">{c.metrics.arr ?? "—"}</td>
+                <td className="py-3 pr-4 font-mono text-xs text-zinc-300"><Link href={`/companies/${c.slug}#economics`} className="underline decoration-zinc-700">{financialText(c)}</Link></td>
                 <td className="py-3">
                   <span
                     className={`rounded-full border px-2 py-0.5 text-[10px] uppercase tracking-wide ${

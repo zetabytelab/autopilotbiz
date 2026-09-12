@@ -1,10 +1,10 @@
 # Business on Autopilot
 
-A public research and intelligence project tracking AI-operated businesses — who they are, what evidence supports their claims, what they run on, how they make money, and where humans remain involved. The project is being developed as a transferable audience, data and research asset; see [the sale-readiness plan](docs/SALE-READINESS-PLAN.md).
+A public research and intelligence project tracking AI-operated businesses — who they are, what evidence supports their claims, what they run on, how they make money, and where humans remain involved.
 
 ## What's inside
 
-- **The autopilot index** — leaderboard ranked by ARR per human; every figure links to its source (Crunchbase, Tracxn, press) and is labeled verified / self-reported / disputed.
+- **The autopilot index** — evidence-first comparison with separate ARR, revenue, run-rate and projection observations. Dates, source gaps, estimates and corrections remain visible. Financial ranking requires an eligible observation of the selected metric.
 - **[The Autopilot Criteria](/#criteria)** — the published framework for who makes the list.
 - **News pulse** (`/news`) — a heat-ranked live signal feed (funding, launches, interviews, social) aggregated from Google News, Hacker News, Techmeme and YouTube, plus a 📡 radar of unvetted new entrants discovered by keyword.
 - **The autopilot stack** — the infrastructure pyramid under agent-run companies, with referral programs and credits for builders.

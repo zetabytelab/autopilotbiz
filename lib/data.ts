@@ -31,6 +31,7 @@ export type Company = {
   };
   founders: { name: string; background: string }[];
   metrics: {
+    // Deprecated legacy snapshot. Use lib/financials.ts for dated observations and comparisons.
     arr: string | null;
     arrUsd: number | null;
     humans: number | null;
@@ -1095,9 +1096,9 @@ export const companies: Company[] = [
     slug: "gamma",
     url: "https://gamma.app",
     tagline: "PowerPoint for the AI era.",
-    categoryClaim: "The lean-AI benchmark: $100M ARR on 52 people, profitable, ~$23M primary capital.",
+    categoryClaim: "Founder-reported ARR above $100M in November 2025; team counts differ by source and population.",
     description:
-      "AI-native presentation and content platform — the cleanest lean-AI case on record: $100M ARR on 52 people (Nov 2025), profitable for over two years, reached on only ~$23M of primary capital. 70M users, 600K+ paying subscribers, users in 40% of the Fortune 500 (Sacra). $68M Series B led by a16z at a $2.1B valuation.",
+      "AI-native presentation and content platform. Its November 10, 2025 founder announcement reports ARR above $100M, two years of profitability and 50 employees. Earlier secondary research recorded 52 humans; the observations have different population definitions and do not establish a headcount change. The announcement also reports a $68M Series B led by a16z at a $2.1B valuation. These are reported company metrics, not an independent financial or autonomy audit.",
     techStack: [],
     funding: {
       totalRaised: "~$90M (incl. secondary)",
@@ -1122,7 +1123,8 @@ export const companies: Company[] = [
     news: [
       {
         date: "2025-11",
-        headline: "Passes $100M ARR on 52 people, profitable for 2+ years; $68M Series B led by a16z at a $2.1B valuation (~$20M of it secondary for early employees).",
+        headline: "Founder reports ARR above $100M, 50 employees and two years of profitability; announces $68M Series B at a $2.1B valuation.",
+        url: "https://gamma.app/insights/how-we-built-a-usd100m-business-differently",
       },
     ],
     verified: true,
@@ -1131,8 +1133,8 @@ export const companies: Company[] = [
       level: "L2",
       evidence: "C",
       section: "index",
-      story: "$100M ARR · 52 humans · profitable — the lean-AI benchmark, corroborated by TechCrunch/Sacra.",
-      flags: "~$1.9M ARR/human; a16z-led $2.1B valuation",
+      story: "ARR above $100M and profitability reported by the founder in November 2025; see dated financial and team observations.",
+      flags: "Headcount definitions differ by source; per-person ratio withheld",
     },
   },
   {

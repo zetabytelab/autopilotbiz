@@ -63,6 +63,10 @@ The Autopilot Index is **free**. No paid tiers, no paywall. Funded by a free new
 - GET /api/v1/stack — the autopilot tech stack (category, q, hasReferral)
 - GET /api/v1/editions — newsletter editions
 
+## Financial observations (September 12, 2026)
+
+Company lists default to evidence order. sort=arr ranks only eligible reported USD ARR point observations. metrics.arr and metrics.arrUsd contain ARR only; numeric values without sufficient source/date evidence are null. Revenue, annual run rates, projections, estimates, disputes and corrections are in metrics.observations. metrics.headcount and metrics.contractors contain historical dates, scope and population. Observation dates and source-check dates are distinct; do not combine an old headcount with a later financial figure. Different observation dates remain possible even within one metric ranking.
+
 ## MCP tools
 search_companies, get_company, list_stack_tools, list_editions.
 

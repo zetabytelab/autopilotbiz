@@ -41,6 +41,14 @@ export default function Developers() {
       </p>
 
       {/* REST */}
+      <p className="mt-4 text-sm leading-relaxed text-zinc-400">
+        Financial data update (September 12, 2026): company lists default to evidence order.
+        <code> sort=arr</code> ranks only dated, source-reviewed reported USD ARR point estimates; excluded records follow.
+        <code> metrics.arr</code> now describes ARR only, and <code>metrics.arrUsd</code> is null for ineligible figures.
+        Use <code>metrics.observations</code> for revenue, run rates, projections, estimates and corrections,
+        and <code>metrics.headcount</code> for the date and scope of the historical team count.
+        The observation date and source-check date are distinct. Matching a metric type does not align observation dates.
+      </p>
       <h2 className="mt-12 text-xl font-bold text-zinc-100">REST API</h2>
       <p className="mt-2 text-sm text-zinc-400">
         Base URL <code className="rounded bg-zinc-800 px-1 text-xs text-lime-400">https://autopilotindex.com/api/v1</code>.

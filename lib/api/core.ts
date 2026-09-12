@@ -3,6 +3,8 @@ import { companies, stackTools, type Company, type StackTool } from "@/lib/data"
 import { editions, type Edition } from "@/lib/editions";
 import { API_BASE } from "@/lib/api/http";
 import { getCompanyResearch } from "@/lib/company-profiles";
+import { comparableValue, financialHistory, latestObservation } from "@/lib/financials";
+import { compareCompanies } from "@/lib/autonomy";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // DTOs — EXPLICIT whitelists. We never spread raw internal objects into a
@@ -29,9 +31,13 @@ export function companyDTO(c: Company) {
     },
     founders: c.founders.map((f) => ({ name: f.name, background: f.background })),
     metrics: {
-      arr: c.metrics.arr,
-      arrUsd: c.metrics.arrUsd,
-      humans: c.metrics.humans,
+      arr: latestObservation(c, "arr")?.display ?? null,
+      arrUsd: comparableValue(latestObservation(c, "arr")),
+      humans: latestObservation(c, "headcount")?.value ?? null,
+      headcount: latestObservation(c, "headcount"),
+      contractors: latestObservation(c, "contractors"),
+      observations: financialHistory(c),
+      note: "ARR fields now contain ARR only. Numeric ARR requires a dated, source-reviewed reported point estimate. Consult observations for bounds, estimates, disputes, other metrics and historical dates. Headcount is historical, not necessarily current or comparable to ARR.",
     },
     pricing: currentResearch?.pricing.summary ?? c.pricing,
     pricingCheckedAt: currentResearch?.checkedAt ?? null,
@@ -90,7 +96,7 @@ export const listCompaniesSchema = z.object({
   cohort: z.enum(["hackathon", "expansion"]).optional(),
   section: z.enum(["index", "watchlist", "caution", "enabler"]).optional(),
   verified: z.enum(["true", "false"]).optional(),
-  sort: z.enum(["arr", "name"]).default("arr"),
+  sort: z.enum(["arr", "name", "evidence"]).default("evidence"),
 });
 export type ListCompaniesParams = z.infer<typeof listCompaniesSchema>;
 
@@ -123,7 +129,7 @@ export function listCompanies(p: ListCompaniesParams) {
   if (p.sort === "name") {
     rows.sort((a, b) => a.name.localeCompare(b.name));
   } else {
-    rows.sort((a, b) => (b.metrics.arrUsd ?? -1) - (a.metrics.arrUsd ?? -1) || a.name.localeCompare(b.name));
+    rows.sort((a, b) => compareCompanies(a, b, p.sort === "arr" ? "annual" : "evidence", "arr"));
   }
   const total = rows.length;
   const page = rows.slice(p.offset, p.offset + p.limit);
