@@ -1,0 +1,55 @@
+name: Alert
+
+# Four automation failures in the week to 2026-09-11 were all found by hand:
+# two Pulse runs lost to push rejections, nine consecutive red CI runs after
+# edition 7 landed, and an analytics allowlist that silently stopped tracking
+# two editions. GitHub's own notifications for scheduled workflows never
+# surfaced any of them. A failure now files a GitHub issue — which reaches the
+# repo owner by email — and a later success closes it again, so a long outage
+# is one thread rather than thirty.
+
+on:
+  workflow_run:
+    workflows: [CI, Pulse]
+    types: [completed]
+
+permissions:
+  issues: write
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: File or resolve the failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          WORKFLOW: ${{ github.event.workflow_run.name }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          BRANCH: ${{ github.event.workflow_run.head_branch }}
+          SHA: ${{ github.event.workflow_run.head_sha }}
+          TRIGGER: ${{ github.event.workflow_run.event }}
+        run: |
+          set -euo pipefail
+          title="$WORKFLOW is failing"
+
+          # Idempotent: the label may or may not exist yet.
+          gh label create automation-failure --color B60205 \
+            --description "An automated workflow failed" 2>/dev/null || true
+
+          open_issue=$(gh issue list --label automation-failure --state open --limit 50 \
+            --json number,title | jq -r --arg t "$title" '.[] | select(.title == $t) | .number' | head -1)
+
+          if [ "$CONCLUSION" = "failure" ]; then
+            body=$(printf '%s run failed.\n\nRun: %s\nTrigger: %s on %s\nCommit: %s\n' \
+              "$WORKFLOW" "$RUN_URL" "$TRIGGER" "$BRANCH" "$SHA")
+            if [ -n "$open_issue" ]; then
+              gh issue comment "$open_issue" --body "$body"
+            else
+              gh issue create --title "$title" --label automation-failure --body "$body"
+            fi
+          elif [ "$CONCLUSION" = "success" ] && [ -n "$open_issue" ]; then
+            gh issue comment "$open_issue" --body "Recovered: $RUN_URL"
+            gh issue close "$open_issue"
+          fi

@@ -7,8 +7,11 @@ on:
   schedule:
     # X is cheap enough to poll daily. LinkedIn bills per account even when it
     # has no new posts, so it rides a weekly cadence. The crons never overlap.
-    - cron: "0 7 * * 1-6" # Mon-Sat 07:00 UTC: X only
-    - cron: "0 7 * * 0" # Sunday 07:00 UTC: X and LinkedIn
+    # Deliberately off the hour: every scheduled run through early September
+    # queued behind the 07:00 rush and actually started around 11:50 UTC, so the
+    # "daily" refresh reached the site at lunchtime. Odd minutes queue shorter.
+    - cron: "17 6 * * 1-6" # Mon-Sat 06:17 UTC: X only
+    - cron: "17 6 * * 0" # Sunday 06:17 UTC: X and LinkedIn
   workflow_dispatch:
     inputs:
       mode:
