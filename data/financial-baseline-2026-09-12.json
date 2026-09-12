@@ -1,525 +1,544 @@
 {
-  "recordedAt": "2026-09-12",
-  "note": "Immutable import of legacy metrics; recordedAt is not a source verification date.",
-  "companies": [
-    {
-      "slug": "polsia",
-      "metrics": {
-        "arr": "~$10M",
-        "arrUsd": 10000000,
-        "humans": 1,
-        "sources": {
-          "humans": {
-            "name": "Pulse2",
-            "url": "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/"
-          },
-          "arr": {
-            "name": "Pulse2 · self-reported",
-            "url": "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/"
-          },
-          "raised": {
-            "name": "Pulse2",
-            "url": "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "nanocorp",
-      "metrics": {
-        "arr": "$193K (claimed)",
-        "arrUsd": 193000,
-        "humans": 1,
-        "sources": {
-          "humans": {
-            "name": "Y Combinator",
-            "url": "https://www.ycombinator.com/companies/nanocorp"
-          },
-          "arr": {
-            "name": "Founder claim · disputed",
-            "url": "https://www.alexisbouchez.com/reviews/2026/03/30/nanocorp"
-          },
-          "raised": {
-            "name": "Tech.eu",
-            "url": "https://tech.eu/2024/01/17/elaia-and-ycombinator-back-phospho-with-1-7m-for-genai-application-monitoring/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "cofounder",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": null,
-        "sources": {
-          "raised": {
-            "name": "Forbes",
-            "url": "https://www.forbes.com/sites/stevenwolfepereira/2025/12/08/building-a-one-person-unicorn-this-startup-just-raised-87m-to-help/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "chainopera-ai",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 40,
-        "sources": {
-          "humans": {
-            "name": "The Block ('40+ team')",
-            "url": "https://www.theblock.co/post/332347/chainopera-ai-raised-17-million-in-seed-funding-to-build-blockchain-l1-and-ai-os-for-ai-agents"
-          },
-          "raised": {
-            "name": "The Block",
-            "url": "https://www.theblock.co/post/332347/chainopera-ai-raised-17-million-in-seed-funding-to-build-blockchain-l1-and-ai-os-for-ai-agents"
-          }
-        }
-      }
-    },
-    {
-      "slug": "wordware",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 15,
-        "sources": {
-          "humans": {
-            "name": "Forbes (at Nov 2024 raise)",
-            "url": "https://www.forbes.com/sites/dariashunina/2024/11/27/how-wordware-secured-30m-seed-in-7-days/"
-          },
-          "raised": {
-            "name": "Forbes",
-            "url": "https://www.forbes.com/sites/dariashunina/2024/11/27/how-wordware-secured-30m-seed-in-7-days/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "feltsense",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": null,
-        "sources": {
-          "raised": {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/news/feltsense-raises-5-1m-launch-165000161.html"
-          }
-        }
-      }
-    },
-    {
-      "slug": "caffeine",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": null
-      }
-    },
-    {
-      "slug": "atoms",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": null,
-        "sources": {
-          "raised": {
-            "name": "Atoms funding announcement",
-            "url": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus"
-          }
-        }
-      }
-    },
-    {
-      "slug": "semio",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 7,
-        "sources": {
-          "humans": {
-            "name": "Tracxn",
-            "url": "https://tracxn.com/d/companies/semio/__BjN5hbn1zB_pkpRlyXAAgGbYOUmuxV496mQpEjKqmfA"
-          }
-        }
-      }
-    },
-    {
-      "slug": "boardy",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": null,
-        "sources": {
-          "raised": {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2025/01/14/boardy-ai-raises-8m-seed-round-months-after-closing-pre-seed/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "base44",
-      "metrics": {
-        "arr": "$3.5M at exit → $150M under Wix",
-        "arrUsd": 3500000,
-        "humans": 9,
-        "sources": {
-          "humans": {
-            "name": "TechCrunch (1 founder + 8 staff)",
-            "url": "https://techcrunch.com/2025/06/18/6-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash/"
-          },
-          "arr": {
-            "name": "Getlatka / Wix earnings",
-            "url": "https://getlatka.com/blog/base44-revenue-acquired-wix/"
-          },
-          "raised": {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2025/06/18/6-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "midjourney",
-      "metrics": {
-        "arr": "~$500M",
-        "arrUsd": 500000000,
-        "humans": 60,
-        "sources": {
-          "humans": {
-            "name": "Getlatka (~60; others up to 190)",
-            "url": "https://getlatka.com/companies/midjourney"
-          },
-          "arr": {
-            "name": "Third-party estimates",
-            "url": "https://sacra.com/c/midjourney/"
-          },
-          "raised": {
-            "name": "Crunchbase",
-            "url": "https://www.crunchbase.com/organization/midjourney"
-          }
-        }
-      }
-    },
-    {
-      "slug": "artisan",
-      "metrics": {
-        "arr": "$5M+",
-        "arrUsd": 5000000,
-        "humans": 35,
-        "sources": {
-          "humans": {
-            "name": "Getlatka",
-            "url": "https://getlatka.com/companies/artisan.co"
-          },
-          "arr": {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2025/04/09/artisan-the-stop-hiring-humans-ai-agent-startup-raises-25m-and-is-still-hiring-humans/"
-          },
-          "raised": {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2025/04/09/artisan-the-stop-hiring-humans-ai-agent-startup-raises-25m-and-is-still-hiring-humans/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "lindy",
-      "metrics": {
-        "arr": "$5.1M (2024 est.)",
-        "arrUsd": 5100000,
-        "humans": 52,
-        "sources": {
-          "humans": {
-            "name": "Tracxn",
-            "url": "https://tracxn.com/d/companies/lindy/__FJe0QVe6UcRHtdiPJpmyRG3livSd4eIGsIxMxz-kNPI"
-          },
-          "arr": {
-            "name": "Getlatka (2024 est.)",
-            "url": "https://getlatka.com/companies/lindyai"
-          },
-          "raised": {
-            "name": "Tracxn",
-            "url": "https://tracxn.com/d/companies/lindy/__FJe0QVe6UcRHtdiPJpmyRG3livSd4eIGsIxMxz-kNPI"
-          }
-        }
-      }
-    },
-    {
-      "slug": "basis",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 76,
-        "sources": {
-          "humans": {
-            "name": "Getlatka",
-            "url": "https://getlatka.com/companies/getbasis.ai"
-          },
-          "raised": {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-02-24/ai-for-accounting-startup-basis-hits-1-15-billion-valuation"
-          }
-        }
-      }
-    },
-    {
-      "slug": "delphi",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 37,
-        "sources": {
-          "humans": {
-            "name": "Tracxn",
-            "url": "https://tracxn.com/d/companies/delphi/__sanFr2u2e2tuCcA8J4CoLaZ1mPK11wUadGeq5Xb_Ois"
-          },
-          "raised": {
-            "name": "Delphi blog",
-            "url": "https://www.delphi.ai/blog/delphi-raises-16m-series-a-from-sequoia"
-          }
-        }
-      }
-    },
-    {
-      "slug": "payman",
-      "metrics": {
-        "arr": "$770K (2025 est.)",
-        "arrUsd": 770000,
-        "humans": 15,
-        "sources": {
-          "humans": {
-            "name": "Tracxn",
-            "url": "https://tracxn.com/d/companies/paymanai/__NSTYOZtZdNiGZxC0Vkul0dzUfj3ZUgPqDRNO08pHBUE"
-          },
-          "arr": {
-            "name": "Getlatka (2025 est.)",
-            "url": "https://getlatka.com/companies/paymanai.com"
-          },
-          "raised": {
-            "name": "Tracxn",
-            "url": "https://tracxn.com/d/companies/paymanai/__NSTYOZtZdNiGZxC0Vkul0dzUfj3ZUgPqDRNO08pHBUE/funding-and-investors"
-          }
-        }
-      }
-    },
-    {
-      "slug": "rentahuman",
-      "metrics": {
-        "arr": "~$240K run rate (claimed $20K MRR)",
-        "arrUsd": 240000,
-        "humans": 3,
-        "sources": {
-          "humans": {
-            "name": "Y Combinator",
-            "url": "https://www.ycombinator.com/companies/rentahuman"
-          },
-          "arr": {
-            "name": "YC profile · self-reported",
-            "url": "https://www.ycombinator.com/companies/rentahuman"
-          },
-          "raised": {
-            "name": "Crunchbase",
-            "url": "https://www.crunchbase.com/organization/rentahuman-ai"
-          }
-        }
-      }
-    },
-    {
-      "slug": "naive",
-      "metrics": {
-        "arr": "Low double-digit $M run-rate (self-reported)",
-        "arrUsd": 10000000,
-        "humans": null,
-        "sources": {
-          "arr": {
-            "name": "SiliconANGLE · self-reported",
-            "url": "https://siliconangle.com/2026/08/06/naive-bags-28-5m-funding-automate-creation-day-day-running-almost-business/"
-          },
-          "raised": {
-            "name": "SiliconANGLE",
-            "url": "https://siliconangle.com/2026/08/06/naive-bags-28-5m-funding-automate-creation-day-day-running-almost-business/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "moritz",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 10,
-        "sources": {
-          "humans": {
-            "name": "Y Combinator",
-            "url": "https://www.ycombinator.com/companies/moritz"
-          },
-          "raised": {
-            "name": "tech.eu",
-            "url": "https://tech.eu/2026/05/05/backed-by-y-combinator-and-20-unicorn-founders-moritz-lands-9m/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "minimal-ai",
-      "metrics": {
-        "arr": "7-figure (self-reported)",
-        "arrUsd": 1000000,
-        "humans": 3,
-        "sources": {
-          "humans": {
-            "name": "Y Combinator",
-            "url": "https://www.ycombinator.com/companies/minimal-ai"
-          },
-          "arr": {
-            "name": "Founder-stated · self-reported",
-            "url": "https://www.ycombinator.com/companies/minimal-ai"
-          },
-          "raised": {
-            "name": "Ziptone",
-            "url": "https://www.ziptone.nl/en/nieuws/minimal-ai-haalt-36-miljoen-dollar-op-om-klantenservice-te-automatiseren/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "lunavo",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 2,
-        "sources": {
-          "humans": {
-            "name": "Y Combinator",
-            "url": "https://www.ycombinator.com/companies/lunavo"
-          },
-          "raised": {
-            "name": "Y Combinator (standard deal)",
-            "url": "https://www.ycombinator.com/companies/lunavo"
-          }
-        }
-      }
-    },
-    {
-      "slug": "beacon-health",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 2,
-        "sources": {
-          "humans": {
-            "name": "Y Combinator",
-            "url": "https://www.ycombinator.com/companies/beacon-health"
-          },
-          "raised": {
-            "name": "Y Combinator (standard deal)",
-            "url": "https://www.ycombinator.com/companies/beacon-health"
-          }
-        }
-      }
-    },
-    {
-      "slug": "gamma",
-      "metrics": {
-        "arr": "$100M (Nov 2025)",
-        "arrUsd": 100000000,
-        "humans": 52,
-        "sources": {
-          "humans": {
-            "name": "Lean AI Leaderboard / Sacra",
-            "url": "https://sacra.com/c/gamma/"
-          },
-          "arr": {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
-          },
-          "raised": {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "retell-ai",
-      "metrics": {
-        "arr": "~$60M annualized (Sacra est., Apr 2026)",
-        "arrUsd": 60000000,
-        "humans": null,
-        "sources": {
-          "humans": {
-            "name": "Disputed: 21 (leaderboard) → 143 (Tracxn)",
-            "url": "https://leanaileaderboard.com/"
-          },
-          "arr": {
-            "name": "Sacra · estimate",
-            "url": "https://sacra.com/research/retell-ai-60m-yr-up-650-yoy/"
-          },
-          "raised": {
-            "name": "Retell blog",
-            "url": "https://www.retellai.com/blog/seed-announcement"
-          }
-        }
-      }
-    },
-    {
-      "slug": "11x",
-      "metrics": {
-        "arr": "claimed $10M; disputed ~$3M",
-        "arrUsd": null,
-        "humans": 77,
-        "sources": {
-          "humans": {
-            "name": "Tracxn",
-            "url": "https://tracxn.com/d/companies/11x/__P4mFd4dOZmyEt3qkI243p5AtNH1AhqMZw4A4Zd1scY4"
-          },
-          "arr": {
-            "name": "TechCrunch investigation",
-            "url": "https://techcrunch.com/2025/03/24/a16z-and-benchmark-backed-11x-has-been-claiming-customers-it-doesnt-have/"
-          },
-          "raised": {
-            "name": "Tracxn",
-            "url": "https://tracxn.com/d/companies/11x/__P4mFd4dOZmyEt3qkI243p5AtNH1AhqMZw4A4Zd1scY4"
-          }
-        }
-      }
-    },
-    {
-      "slug": "egbe",
-      "metrics": {
-        "arr": null,
-        "arrUsd": null,
-        "humans": 5,
-        "sources": {
-          "humans": {
-            "name": "LinkedIn · self-reported",
-            "url": "https://www.linkedin.com/company/egbe-ai/"
-          }
-        }
-      }
-    },
-    {
-      "slug": "medvi",
-      "metrics": {
-        "arr": "$401M 2025 sales, 16.2% net (NYT-verified); tracking $1.8B in 2026",
-        "arrUsd": 401000000,
-        "humans": 2,
-        "disclosedContractors": 9,
-        "sources": {
-          "humans": {
-            "name": "NYT (financials reviewed)",
-            "url": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html"
-          },
-          "arr": {
-            "name": "NYT (financials reviewed)",
-            "url": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html"
-          }
-        }
-      }
+ "recordedAt": "2026-09-12",
+ "note": "Immutable import of legacy metrics; recordedAt is not a source verification date.",
+ "companies": [
+  {
+   "slug": "polsia",
+   "metrics": {
+    "arr": "~$10M",
+    "arrUsd": 10000000,
+    "humans": 1,
+    "sources": {
+     "humans": {
+      "name": "Pulse2",
+      "url": "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/"
+     },
+     "arr": {
+      "name": "Pulse2 \u00b7 self-reported",
+      "url": "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/"
+     },
+     "raised": {
+      "name": "Pulse2",
+      "url": "https://pulse2.com/polsia-30-million-at-250-million-valuation-raised-for-ai-operations-platform/"
+     }
     }
-  ]
+   }
+  },
+  {
+   "slug": "nanocorp",
+   "metrics": {
+    "arr": "$193K (claimed)",
+    "arrUsd": 193000,
+    "humans": 1,
+    "sources": {
+     "humans": {
+      "name": "Y Combinator",
+      "url": "https://www.ycombinator.com/companies/nanocorp"
+     },
+     "arr": {
+      "name": "Founder claim \u00b7 disputed",
+      "url": "https://www.alexisbouchez.com/reviews/2026/03/30/nanocorp"
+     },
+     "raised": {
+      "name": "Tech.eu",
+      "url": "https://tech.eu/2024/01/17/elaia-and-ycombinator-back-phospho-with-1-7m-for-genai-application-monitoring/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "listen-labs",
+   "metrics": {
+    "arr": "~$30M annualised (press-reported)",
+    "arrUsd": 30000000,
+    "humans": null,
+    "sources": {
+     "arr": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+     },
+     "raised": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+     }
+    }
+   },
+   "note": "Not part of the 2026-09-12 legacy import. Added 2026-09-12 from a dated press source; see the ledger observations for provenance."
+  },
+  {
+   "slug": "cofounder",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": null,
+    "sources": {
+     "raised": {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/stevenwolfepereira/2025/12/08/building-a-one-person-unicorn-this-startup-just-raised-87m-to-help/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "chainopera-ai",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 40,
+    "sources": {
+     "humans": {
+      "name": "The Block ('40+ team')",
+      "url": "https://www.theblock.co/post/332347/chainopera-ai-raised-17-million-in-seed-funding-to-build-blockchain-l1-and-ai-os-for-ai-agents"
+     },
+     "raised": {
+      "name": "The Block",
+      "url": "https://www.theblock.co/post/332347/chainopera-ai-raised-17-million-in-seed-funding-to-build-blockchain-l1-and-ai-os-for-ai-agents"
+     }
+    }
+   }
+  },
+  {
+   "slug": "wordware",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 15,
+    "sources": {
+     "humans": {
+      "name": "Forbes (at Nov 2024 raise)",
+      "url": "https://www.forbes.com/sites/dariashunina/2024/11/27/how-wordware-secured-30m-seed-in-7-days/"
+     },
+     "raised": {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/dariashunina/2024/11/27/how-wordware-secured-30m-seed-in-7-days/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "feltsense",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": null,
+    "sources": {
+     "raised": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/feltsense-raises-5-1m-launch-165000161.html"
+     }
+    }
+   }
+  },
+  {
+   "slug": "caffeine",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": null
+   }
+  },
+  {
+   "slug": "atoms",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": null,
+    "sources": {
+     "raised": {
+      "name": "Atoms funding announcement",
+      "url": "https://atoms.dev/blog/atoms-raises-31m-series-a-and-a-plus"
+     }
+    }
+   }
+  },
+  {
+   "slug": "semio",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 7,
+    "sources": {
+     "humans": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/semio/__BjN5hbn1zB_pkpRlyXAAgGbYOUmuxV496mQpEjKqmfA"
+     }
+    }
+   }
+  },
+  {
+   "slug": "boardy",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": null,
+    "sources": {
+     "raised": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2025/01/14/boardy-ai-raises-8m-seed-round-months-after-closing-pre-seed/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "base44",
+   "metrics": {
+    "arr": "$3.5M at exit \u2192 $150M under Wix",
+    "arrUsd": 3500000,
+    "humans": 9,
+    "sources": {
+     "humans": {
+      "name": "TechCrunch (1 founder + 8 staff)",
+      "url": "https://techcrunch.com/2025/06/18/6-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash/"
+     },
+     "arr": {
+      "name": "Getlatka / Wix earnings",
+      "url": "https://getlatka.com/blog/base44-revenue-acquired-wix/"
+     },
+     "raised": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/18/6-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "midjourney",
+   "metrics": {
+    "arr": "~$500M",
+    "arrUsd": 500000000,
+    "humans": 60,
+    "sources": {
+     "humans": {
+      "name": "Getlatka (~60; others up to 190)",
+      "url": "https://getlatka.com/companies/midjourney"
+     },
+     "arr": {
+      "name": "Third-party estimates",
+      "url": "https://sacra.com/c/midjourney/"
+     },
+     "raised": {
+      "name": "Crunchbase",
+      "url": "https://www.crunchbase.com/organization/midjourney"
+     }
+    }
+   }
+  },
+  {
+   "slug": "artisan",
+   "metrics": {
+    "arr": "$5M+",
+    "arrUsd": 5000000,
+    "humans": 35,
+    "sources": {
+     "humans": {
+      "name": "Getlatka",
+      "url": "https://getlatka.com/companies/artisan.co"
+     },
+     "arr": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2025/04/09/artisan-the-stop-hiring-humans-ai-agent-startup-raises-25m-and-is-still-hiring-humans/"
+     },
+     "raised": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2025/04/09/artisan-the-stop-hiring-humans-ai-agent-startup-raises-25m-and-is-still-hiring-humans/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "lindy",
+   "metrics": {
+    "arr": "$5.1M (2024 est.)",
+    "arrUsd": 5100000,
+    "humans": 52,
+    "sources": {
+     "humans": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/lindy/__FJe0QVe6UcRHtdiPJpmyRG3livSd4eIGsIxMxz-kNPI"
+     },
+     "arr": {
+      "name": "Getlatka (2024 est.)",
+      "url": "https://getlatka.com/companies/lindyai"
+     },
+     "raised": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/lindy/__FJe0QVe6UcRHtdiPJpmyRG3livSd4eIGsIxMxz-kNPI"
+     }
+    }
+   }
+  },
+  {
+   "slug": "basis",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 76,
+    "sources": {
+     "humans": {
+      "name": "Getlatka",
+      "url": "https://getlatka.com/companies/getbasis.ai"
+     },
+     "raised": {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/ai-for-accounting-startup-basis-hits-1-15-billion-valuation"
+     }
+    }
+   }
+  },
+  {
+   "slug": "delphi",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 37,
+    "sources": {
+     "humans": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/delphi/__sanFr2u2e2tuCcA8J4CoLaZ1mPK11wUadGeq5Xb_Ois"
+     },
+     "raised": {
+      "name": "Delphi blog",
+      "url": "https://www.delphi.ai/blog/delphi-raises-16m-series-a-from-sequoia"
+     }
+    }
+   }
+  },
+  {
+   "slug": "payman",
+   "metrics": {
+    "arr": "$770K (2025 est.)",
+    "arrUsd": 770000,
+    "humans": 15,
+    "sources": {
+     "humans": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/paymanai/__NSTYOZtZdNiGZxC0Vkul0dzUfj3ZUgPqDRNO08pHBUE"
+     },
+     "arr": {
+      "name": "Getlatka (2025 est.)",
+      "url": "https://getlatka.com/companies/paymanai.com"
+     },
+     "raised": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/paymanai/__NSTYOZtZdNiGZxC0Vkul0dzUfj3ZUgPqDRNO08pHBUE/funding-and-investors"
+     }
+    }
+   }
+  },
+  {
+   "slug": "rentahuman",
+   "metrics": {
+    "arr": "~$240K run rate (claimed $20K MRR)",
+    "arrUsd": 240000,
+    "humans": 3,
+    "sources": {
+     "humans": {
+      "name": "Y Combinator",
+      "url": "https://www.ycombinator.com/companies/rentahuman"
+     },
+     "arr": {
+      "name": "YC profile \u00b7 self-reported",
+      "url": "https://www.ycombinator.com/companies/rentahuman"
+     },
+     "raised": {
+      "name": "Crunchbase",
+      "url": "https://www.crunchbase.com/organization/rentahuman-ai"
+     }
+    }
+   }
+  },
+  {
+   "slug": "naive",
+   "metrics": {
+    "arr": "Low double-digit $M run-rate (self-reported)",
+    "arrUsd": 10000000,
+    "humans": null,
+    "sources": {
+     "arr": {
+      "name": "SiliconANGLE \u00b7 self-reported",
+      "url": "https://siliconangle.com/2026/08/06/naive-bags-28-5m-funding-automate-creation-day-day-running-almost-business/"
+     },
+     "raised": {
+      "name": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/08/06/naive-bags-28-5m-funding-automate-creation-day-day-running-almost-business/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "moritz",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 10,
+    "sources": {
+     "humans": {
+      "name": "Y Combinator",
+      "url": "https://www.ycombinator.com/companies/moritz"
+     },
+     "raised": {
+      "name": "tech.eu",
+      "url": "https://tech.eu/2026/05/05/backed-by-y-combinator-and-20-unicorn-founders-moritz-lands-9m/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "minimal-ai",
+   "metrics": {
+    "arr": "7-figure (self-reported)",
+    "arrUsd": 1000000,
+    "humans": 3,
+    "sources": {
+     "humans": {
+      "name": "Y Combinator",
+      "url": "https://www.ycombinator.com/companies/minimal-ai"
+     },
+     "arr": {
+      "name": "Founder-stated \u00b7 self-reported",
+      "url": "https://www.ycombinator.com/companies/minimal-ai"
+     },
+     "raised": {
+      "name": "Ziptone",
+      "url": "https://www.ziptone.nl/en/nieuws/minimal-ai-haalt-36-miljoen-dollar-op-om-klantenservice-te-automatiseren/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "lunavo",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 2,
+    "sources": {
+     "humans": {
+      "name": "Y Combinator",
+      "url": "https://www.ycombinator.com/companies/lunavo"
+     },
+     "raised": {
+      "name": "Y Combinator (standard deal)",
+      "url": "https://www.ycombinator.com/companies/lunavo"
+     }
+    }
+   }
+  },
+  {
+   "slug": "beacon-health",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 2,
+    "sources": {
+     "humans": {
+      "name": "Y Combinator",
+      "url": "https://www.ycombinator.com/companies/beacon-health"
+     },
+     "raised": {
+      "name": "Y Combinator (standard deal)",
+      "url": "https://www.ycombinator.com/companies/beacon-health"
+     }
+    }
+   }
+  },
+  {
+   "slug": "gamma",
+   "metrics": {
+    "arr": "$100M (Nov 2025)",
+    "arrUsd": 100000000,
+    "humans": 52,
+    "sources": {
+     "humans": {
+      "name": "Lean AI Leaderboard / Sacra",
+      "url": "https://sacra.com/c/gamma/"
+     },
+     "arr": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
+     },
+     "raised": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "retell-ai",
+   "metrics": {
+    "arr": "~$60M annualized (Sacra est., Apr 2026)",
+    "arrUsd": 60000000,
+    "humans": null,
+    "sources": {
+     "humans": {
+      "name": "Disputed: 21 (leaderboard) \u2192 143 (Tracxn)",
+      "url": "https://leanaileaderboard.com/"
+     },
+     "arr": {
+      "name": "Sacra \u00b7 estimate",
+      "url": "https://sacra.com/research/retell-ai-60m-yr-up-650-yoy/"
+     },
+     "raised": {
+      "name": "Retell blog",
+      "url": "https://www.retellai.com/blog/seed-announcement"
+     }
+    }
+   }
+  },
+  {
+   "slug": "11x",
+   "metrics": {
+    "arr": "claimed $10M; disputed ~$3M",
+    "arrUsd": null,
+    "humans": 77,
+    "sources": {
+     "humans": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/11x/__P4mFd4dOZmyEt3qkI243p5AtNH1AhqMZw4A4Zd1scY4"
+     },
+     "arr": {
+      "name": "TechCrunch investigation",
+      "url": "https://techcrunch.com/2025/03/24/a16z-and-benchmark-backed-11x-has-been-claiming-customers-it-doesnt-have/"
+     },
+     "raised": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/11x/__P4mFd4dOZmyEt3qkI243p5AtNH1AhqMZw4A4Zd1scY4"
+     }
+    }
+   }
+  },
+  {
+   "slug": "egbe",
+   "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": 5,
+    "sources": {
+     "humans": {
+      "name": "LinkedIn \u00b7 self-reported",
+      "url": "https://www.linkedin.com/company/egbe-ai/"
+     }
+    }
+   }
+  },
+  {
+   "slug": "medvi",
+   "metrics": {
+    "arr": "$401M 2025 sales, 16.2% net (NYT-verified); tracking $1.8B in 2026",
+    "arrUsd": 401000000,
+    "humans": 2,
+    "disclosedContractors": 9,
+    "sources": {
+     "humans": {
+      "name": "NYT (financials reviewed)",
+      "url": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html"
+     },
+     "arr": {
+      "name": "NYT (financials reviewed)",
+      "url": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html"
+     }
+    }
+   }
+  }
+ ]
 }

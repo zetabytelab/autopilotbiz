@@ -103,6 +103,29 @@ const TAXONOMY = [
 ];
 
 // ------------------------------------------------------------ fetch helpers
+// Google News RSS links are opaque redirectors. A reviewer opening one from the
+// watchlist lands on Google's consent wall instead of the article, which made
+// every gnews candidate unverifiable by hand. Resolve to the publisher URL once,
+// for candidates only (a handful per run, not the whole feed), and keep the
+// original whenever the hop fails or stays inside Google.
+const GOOGLE_HOSTS = /(?:^|\.)(?:google|googleusercontent|gstatic)\.[a-z.]+$/i;
+
+export async function resolvePublisherUrl(url, { timeout = 8_000, fetchImpl = fetch } = {}) {
+  if (!/(?:^|\.)news\.google\.[a-z.]+$/i.test(hostOf(url))) return url;
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeout);
+  try {
+    const res = await fetchImpl(url, { signal: ctrl.signal, headers: { "user-agent": UA }, redirect: "follow" });
+    const final = res?.url;
+    if (!final || GOOGLE_HOSTS.test(hostOf(final))) return url;
+    return final;
+  } catch {
+    return url;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function fetchText(url, { timeout = 10_000, retries = 1, headers = {} } = {}) {
   for (let attempt = 0; ; attempt++) {
     const ctrl = new AbortController();
@@ -608,6 +631,7 @@ export async function main({ dataDir = DATA_DIR, flags = FLAGS, runSocial = coll
 
   // -------------------------------------------------------------- candidates
   const candidates = buildCandidates(discoveryItems, companies, cutoff, dataDir);
+  await resolveCandidateUrls(candidates);
 
   // ------------------------------------------------------------------ write
   if (items.length === 0) {
@@ -895,6 +919,22 @@ function buildCandidates(discoveryItems, companies, cutoff, dataDir = DATA_DIR) 
   for (const old of prevById.values()) if (old.status !== "new") candidates.push(old);
   candidates.sort((a, b) => b.score - a.score || (b.coverage ?? 0) - (a.coverage ?? 0));
   return { generatedAt: new Date().toISOString(), candidates: candidates.slice(0, 60) };
+}
+
+// Only "new" candidates need resolving; ones already reviewed keep the URL a
+// human has already followed.
+async function resolveCandidateUrls(built) {
+  const pending = [];
+  for (const candidate of built?.candidates ?? []) {
+    if (candidate.status !== "new") continue;
+    for (const evidence of candidate.evidence) pending.push(evidence);
+  }
+  for (const evidence of pending) {
+    const resolved = await resolvePublisherUrl(evidence.url);
+    if (resolved !== evidence.url) evidence.url = resolved;
+  }
+  const unresolved = pending.filter((e) => /news\.google\./i.test(hostOf(e.url))).length;
+  if (unresolved) console.warn(`Candidate URLs still unresolved: ${unresolved}/${pending.length}`);
 }
 
 function compactSourcesRun(runs) {

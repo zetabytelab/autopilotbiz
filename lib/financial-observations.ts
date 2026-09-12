@@ -3,6 +3,54 @@ import type { MetricObservation } from "./financial-types.ts";
 // Append observations. Corrections reference superseded IDs; never rewrite historical values.
 export const financialObservations: MetricObservation[] = [
   {
+    "id": "listen-labs-annual_run_rate-2026-09-09",
+    "slug": "listen-labs",
+    "kind": "annual_run_rate",
+    "value": 30000000,
+    "currency": "USD",
+    "precision": "approximate",
+    "display": "~$30M annualised",
+    "asOf": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "scope": "company",
+    "population": null,
+    "status": "reported",
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+    },
+    "publishedAt": "2026-09-09",
+    "recordedAt": "2026-09-12",
+    "checkedAt": "2026-09-12",
+    "supersedes": null,
+    "notes": "TechCrunch reports 'about $30 million in annualized revenue'. Annualised run rate, not audited ARR, and the reporting does not give an as-of date."
+  },
+  {
+    "id": "listen-labs-headcount-2026-09-12",
+    "slug": "listen-labs",
+    "kind": "headcount",
+    "value": null,
+    "currency": null,
+    "precision": "unknown",
+    "display": "undisclosed",
+    "asOf": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "scope": "company",
+    "population": "team_unspecified",
+    "status": "unclassified",
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+    },
+    "publishedAt": "2026-09-09",
+    "recordedAt": "2026-09-12",
+    "checkedAt": "2026-09-12",
+    "supersedes": null,
+    "notes": "Neither the press coverage nor the company site states a headcount, so revenue per human cannot be computed. Recorded explicitly so the gap is visible rather than absent."
+  },
+  {
     "id": "polsia-annual_run_rate-import-2026-09-12",
     "slug": "polsia",
     "kind": "annual_run_rate",

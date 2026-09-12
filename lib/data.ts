@@ -204,6 +204,51 @@ export const companies: Company[] = [
     },
   },
   {
+    name: "Listen Labs",
+    slug: "listen-labs",
+    url: "https://listenlabs.ai",
+    tagline: "AI that runs the customer interview.",
+    categoryClaim: "Customer research, end to end, moderated by an AI.",
+    description:
+      "Market-research company whose AI writes the survey questions, interviews customers over audio or video with follow-ups, and packages the conversations into reports and slide decks. Named customers include Anthropic, Microsoft, Cognition and Sweetgreen. Watchlist rather than index: the company also employs senior researchers, so the AI moderates a function rather than running the business. Reached roughly $30M annualised revenue within three years of founding, walked away from a signed $125M Series C term sheet at a $1.5bn valuation, and entered acquisition discussions with Salesforce at about $2bn. Those talks were not finalised and may not produce a deal.",
+    techStack: [],
+    funding: {
+      totalRaised: ">$69M",
+      lastRound: "$69M Series B",
+      date: "2026-01",
+      valuation: "$500M (Series B)",
+      investors: ["Ribbit Capital (lead)", "Sequoia", "Conviction", "Pear VC"],
+    },
+    founders: [
+      { name: "Florian J\u00fcngermann", background: "Co-founder; company founded 2023." },
+      { name: "Alfred Wahlforss", background: "Co-founder; company founded 2023." },
+    ],
+    metrics: {
+      arr: "~$30M annualised (press-reported)",
+      arrUsd: 30000000,
+      humans: null,
+      sources: {
+        arr: { name: "TechCrunch", url: "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/" },
+        raised: { name: "TechCrunch", url: "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: null,
+    news: [
+      { date: "2026-09", headline: "Walked away from a $1.5bn Series C term sheet to hold acquisition talks with Salesforce at ~$2bn; talks unfinalised.", url: "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/" },
+      { date: "2026-01", headline: "$69M Series B led by Ribbit Capital at a $500M valuation.", url: "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/" },
+    ],
+    verified: true,
+    cohort: "expansion",
+    autopilot: {
+      level: "L2",
+      evidence: "C",
+      section: "watchlist",
+      story: "An AI moderator runs the interview; humans still run the research",
+      flags: "Headcount undisclosed, so revenue per human cannot be computed",
+    },
+  },
+  {
     name: "Cofounder",
     slug: "cofounder",
     url: "https://cofounder.co",

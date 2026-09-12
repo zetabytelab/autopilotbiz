@@ -87,3 +87,29 @@ test("scores rank thesis and corroboration above bare mentions", () => {
   // score must discriminate — the old generator gave every candidate 0.5
   assert.equal(new Set([corroborated.score, single.score, thesis.score]).size, 3);
 });
+
+// --- publisher URL resolution ---------------------------------------------
+// Google News links are opaque redirectors, so a reviewer clicking one from the
+// watchlist lands on Google's consent wall rather than the article.
+import { resolvePublisherUrl } from "../update-pulse.mjs";
+
+const GNEWS = "https://news.google.com/rss/articles/CBMiabc123?oc=5";
+const fakeFetch = (finalUrl) => async () => ({ url: finalUrl });
+
+test("leaves a publisher URL untouched", async () => {
+  const direct = "https://techcrunch.com/2026/09/09/listen-labs/";
+  assert.equal(await resolvePublisherUrl(direct, { fetchImpl: fakeFetch("https://evil.example/") }), direct);
+});
+
+test("resolves a Google News link to the publisher it lands on", async () => {
+  assert.equal(
+    await resolvePublisherUrl(GNEWS, { fetchImpl: fakeFetch("https://www.fastcompany.com/91/ai-employees") }),
+    "https://www.fastcompany.com/91/ai-employees",
+  );
+});
+
+test("keeps the original when the hop stays inside Google or fails", async () => {
+  const consent = "https://consent.google.com/m?continue=https://news.google.com/rss/articles/CBMiabc123";
+  assert.equal(await resolvePublisherUrl(GNEWS, { fetchImpl: fakeFetch(consent) }), GNEWS);
+  assert.equal(await resolvePublisherUrl(GNEWS, { fetchImpl: async () => { throw new Error("network"); } }), GNEWS);
+});
