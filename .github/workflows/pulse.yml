@@ -49,8 +49,11 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
           CHOICE: ${{ inputs.platforms }}
         run: |
+          # Match on the cron's day-of-week field, not the whole string. Matching
+          # the literal "0 7 * * 0" silently dropped LinkedIn on 13 Sep 2026,
+          # the first Sunday after the schedule's time was edited.
           if [ "$EVENT" = "workflow_dispatch" ]; then platforms="$CHOICE"
-          elif [ "$SCHEDULE" = "0 7 * * 0" ]; then platforms="x,linkedin"
+          elif [ "${SCHEDULE##* }" = "0" ]; then platforms="x,linkedin"
           else platforms="x"
           fi
           echo "platforms=$platforms" >> "$GITHUB_OUTPUT"
