@@ -12,7 +12,8 @@
     "test:pulse": "node --test scripts/tests/*.test.mjs",
     "gen:index": "node --experimental-strip-types scripts/generate-index-readme.ts",
     "send:edition": "node --experimental-strip-types scripts/send-edition.ts",
-    "linkedin:article": "node --experimental-strip-types scripts/linkedin-article.ts"
+    "linkedin:article": "node --experimental-strip-types scripts/linkedin-article.ts",
+    "search:bench": "node scripts/search-bench/bench.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

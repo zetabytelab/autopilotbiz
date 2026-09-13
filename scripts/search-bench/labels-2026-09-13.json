@@ -1,0 +1,1523 @@
+{
+ "labelledAt": "2026-09-13",
+ "rubric": "L: named company or experiment that could enter the index or watchlist; R: useful edition context; N: noise",
+ "labels": [
+  {
+   "id": 0,
+   "label": "R",
+   "story": 0,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "msn.com",
+   "title": "AI agents for business: ZenBusiness ships an AI co-founder"
+  },
+  {
+   "id": 1,
+   "label": "R",
+   "story": 1,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "msn.com",
+   "title": "Alibaba.com president: The one-person unicorn is coming. AI is making it possible"
+  },
+  {
+   "id": 2,
+   "label": "L",
+   "story": 2,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "techcrunch.com",
+   "title": "An AI agent startup just let its agent run its $100M fundraise"
+  },
+  {
+   "id": 3,
+   "label": "R",
+   "story": 3,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "finance.yahoo.com",
+   "title": "Could AI create a one-person unicorn? Sam Altman thinks so\u2014and Silicon Valley sees the technology \u2018waiting for us\u2019"
+  },
+  {
+   "id": 4,
+   "label": "R",
+   "story": 4,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "manilatimes.net",
+   "title": "Solo Unicorn Club Presents 2026 One-Person Unicorn Pitch Day in New York City"
+  },
+  {
+   "id": 5,
+   "label": "N",
+   "story": 5,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "morningstar.com",
+   "title": "The 'One-Person Unicorn' Era is Here - MasterClass Debuts a New Class to Help Members Work Smarter"
+  },
+  {
+   "id": 6,
+   "label": "N",
+   "story": 6,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "morningstar.com",
+   "title": "The One-Person Unicorn Is Coming to Healthcare IT"
+  },
+  {
+   "id": 7,
+   "label": "R",
+   "story": 7,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "finance.yahoo.com",
+   "title": "The one-person unicorn: Myth, miracle, or the future of startups?"
+  },
+  {
+   "id": 8,
+   "label": "N",
+   "story": 8,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "venturebeat.com",
+   "title": "The \u2018self-operating\u2019 computer emerges"
+  },
+  {
+   "id": 9,
+   "label": "L",
+   "story": 9,
+   "hits": [
+    "bing:KEYWORD",
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "This startup wants to build the first one-person unicorn using AI"
+  },
+  {
+   "id": 10,
+   "label": "R",
+   "story": 10,
+   "hits": [
+    "bing:KEYWORD"
+   ],
+   "host": "forbes.com",
+   "title": "Why AI Agent Startups Are Becoming The New Solo-Founder Playbook"
+  },
+  {
+   "id": 11,
+   "label": "R",
+   "story": 11,
+   "hits": [
+    "bing:SIGNAL",
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "'There's no accountability': AI startups keep claiming huge revenue. VCs say the math is getting 'murky.'"
+  },
+  {
+   "id": 12,
+   "label": "R",
+   "story": 12,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "msn.com",
+   "title": "AI is letting solo founders build startups without hiring. Here\u2019s what AI couldn\u2019t do for them"
+  },
+  {
+   "id": 13,
+   "label": "R",
+   "story": 13,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "msn.com",
+   "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use"
+  },
+  {
+   "id": 14,
+   "label": "R",
+   "story": 14,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "siliconangle.com",
+   "title": "Agentic web search infrastructure startup Keenable raises $26M"
+  },
+  {
+   "id": 15,
+   "label": "R",
+   "story": 15,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "msn.com",
+   "title": "Airwallex raises US$320 million for push into autonomous finance, agentic commerce"
+  },
+  {
+   "id": 16,
+   "label": "R",
+   "story": 16,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "techcrunch.com",
+   "title": "As AI agents become employees, NewCore emerges with $66M to give them identities"
+  },
+  {
+   "id": 17,
+   "label": "R",
+   "story": 17,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "siliconangle.com",
+   "title": "Euno raises $23M to build the AI-native context brain for autonomous agents"
+  },
+  {
+   "id": 18,
+   "label": "R",
+   "story": 18,
+   "hits": [
+    "bing:SIGNAL",
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Exclusive: This $100 million startup wants to give companies AI employees"
+  },
+  {
+   "id": 19,
+   "label": "N",
+   "story": 19,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "securityinfowatch.com",
+   "title": "ExtraHop Launches Agentic SOC Alliance to Advance Autonomous Security Operations"
+  },
+  {
+   "id": 20,
+   "label": "R",
+   "story": 20,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "geekwire.com",
+   "title": "Former GitHub CEO\u2019s startup Entire unveils its answer to the crush of AI coding agents"
+  },
+  {
+   "id": 21,
+   "label": "R",
+   "story": 21,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "msn.com",
+   "title": "Germany\u2019s Limetax secures $41.9m financing for agentic tax platform"
+  },
+  {
+   "id": 22,
+   "label": "N",
+   "story": 22,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "entrepreneur.com",
+   "title": "His Bootstrapped Business Fixes Broken Customer Service and Brings in 9 Figures a Year: \u2018We Should Not Use AI to Replace the Human Touch\u2019"
+  },
+  {
+   "id": 23,
+   "label": "L",
+   "story": 23,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "msn.com",
+   "title": "I'm the cofounder of a company with an AI-powered tiny team. Here's what it takes for me to hire someone new."
+  },
+  {
+   "id": 24,
+   "label": "N",
+   "story": 24,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "financialcontent.com",
+   "title": "ImagineArt Moves from Generative AI to Agentic AI with Imagine Computer"
+  },
+  {
+   "id": 25,
+   "label": "R",
+   "story": 25,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "businessinsider.com",
+   "title": "In the AI era, revenue-per-employee is the new Big Tech metric"
+  },
+  {
+   "id": 26,
+   "label": "L",
+   "story": 26,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "courierpress.com",
+   "title": "Magai Surpasses $2 Million in Lifetime Revenue as a Fully Bootstrapped AI Platform"
+  },
+  {
+   "id": 27,
+   "label": "R",
+   "story": 27,
+   "hits": [
+    "bing:SIGNAL",
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Mark Zuckerberg Had a Secret Plan to Replace Meta Staff With AI Agents, and It Backfired Spectacularly"
+  },
+  {
+   "id": 28,
+   "label": "R",
+   "story": 28,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "reuters.com",
+   "title": "Mark Zuckerberg had a bold plan to replace Meta staff with AI \u2014 and it imploded. Answering readers\u2019 questions on Reddit"
+  },
+  {
+   "id": 29,
+   "label": "R",
+   "story": 29,
+   "hits": [
+    "bing:SIGNAL",
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here\u2019s how it imploded."
+  },
+  {
+   "id": 30,
+   "label": "R",
+   "story": 30,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "msn.com",
+   "title": "Mark Zuckerberg replaced 10% of staff with AI \u2014 now admits it is moving too slow"
+  },
+  {
+   "id": 31,
+   "label": "R",
+   "story": 31,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "thenextweb.com",
+   "title": "Meta planned to cut some teams by 60% and replace the work with AI"
+  },
+  {
+   "id": 32,
+   "label": "R",
+   "story": 32,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "pulse2.com",
+   "title": "Neo Raises $100 Million To Secure Agentic AI Software Across Enterprises"
+  },
+  {
+   "id": 33,
+   "label": "N",
+   "story": 33,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "hpcwire.com",
+   "title": "OliverAI Raises Pre-Seed Funding to Scale OliverDB for Agentic AI"
+  },
+  {
+   "id": 34,
+   "label": "L",
+   "story": 34,
+   "hits": [
+    "bing:SIGNAL",
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them"
+  },
+  {
+   "id": 35,
+   "label": "R",
+   "story": 35,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "msn.com",
+   "title": "Startup Founders Are Working Harder Than Ever to Keep Up With Their AI Agents"
+  },
+  {
+   "id": 36,
+   "label": "N",
+   "story": 36,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "tech.eu",
+   "title": "UK startup AI Score raises $5.4M to scale its enterprise AI governance platform"
+  },
+  {
+   "id": 37,
+   "label": "R",
+   "story": 37,
+   "hits": [
+    "bing:SIGNAL"
+   ],
+   "host": "morningstar.com",
+   "title": "altshare's Q2 report outlines the new rules of startup building: Solo founders rise, junior hiring falls, and capital concentrates in AI and cyber"
+  },
+  {
+   "id": 38,
+   "label": "L",
+   "story": 38,
+   "hits": [
+    "gdelt:KEYWORD"
+   ],
+   "host": "thestar.com.my",
+   "title": "A real - life Terminator : AI store manager fires human employee"
+  },
+  {
+   "id": 39,
+   "label": "N",
+   "story": 39,
+   "hits": [
+    "gdelt:KEYWORD"
+   ],
+   "host": "infoq.com",
+   "title": "Securing Autonomous AI Agents on Kubernetes : Trust Boundaries , Secrets , and Observability for a New Category of Cloud Workload"
+  },
+  {
+   "id": 40,
+   "label": "N",
+   "story": 40,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "7 AI Tools that Could Power a Solo Business in 2027"
+  },
+  {
+   "id": 41,
+   "label": "R",
+   "story": 41,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition"
+  },
+  {
+   "id": 42,
+   "label": "R",
+   "story": 42,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Adobe acquires Peak XV-backed Indian AI startup Rilo to expand agentic marketing capabilities"
+  },
+  {
+   "id": 43,
+   "label": "R",
+   "story": 43,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Adobe just acquired this Indian AI startup less than a year after it launched"
+  },
+  {
+   "id": 44,
+   "label": "N",
+   "story": 44,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Alibaba Deploys Cross-Platform AI Agents to Drive Global Enterprise Expansion"
+  },
+  {
+   "id": 45,
+   "label": "N",
+   "story": 45,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Anthropic biological weapons report: Company says it blocked misuse of its AI that could have supported biological weapons"
+  },
+  {
+   "id": 46,
+   "label": "N",
+   "story": 46,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "At 21, two best friends from Kyrgyzstan raised nearly $1 million in weeks from top Silicon Valley investors - the-tech.kz"
+  },
+  {
+   "id": 47,
+   "label": "L",
+   "story": 47,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Can a 1-Person Startup Be a Unicorn? This Founder Says Yes"
+  },
+  {
+   "id": 48,
+   "label": "N",
+   "story": 48,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Chalk Digital Revenue 2025: $4.4M Est. ARR"
+  },
+  {
+   "id": 49,
+   "label": "N",
+   "story": 49,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Cursor Builds Goes Default: Agent Fleets Survive Bad Commits, Start Three Times Faster"
+  },
+  {
+   "id": 50,
+   "label": "N",
+   "story": 50,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore | Artificial Intelligence"
+  },
+  {
+   "id": 51,
+   "label": "N",
+   "story": 51,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Esplanade Ventures Wins 2026 VC Regional Impact Award, Central Canada, for BrainBox AI"
+  },
+  {
+   "id": 52,
+   "label": "N",
+   "story": 52,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "From Scrunch to Searchable: How Utah Became a Launchpad for the AI Search Economy"
+  },
+  {
+   "id": 53,
+   "label": "N",
+   "story": 53,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "GUS completes takeover of Lincoln Bishop University"
+  },
+  {
+   "id": 54,
+   "label": "N",
+   "story": 54,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Go Zero Revenue 2025: $3.9M ARR"
+  },
+  {
+   "id": 55,
+   "label": "N",
+   "story": 55,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Google Documents a Six-Hour Agent-Run Credential Attack"
+  },
+  {
+   "id": 56,
+   "label": "N",
+   "story": 56,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Gupshup Launches Self-Serve Voice AI Platform, Extending Conversational Engagement into Phone Calls"
+  },
+  {
+   "id": 57,
+   "label": "N",
+   "story": 57,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Hope for Lapierre as court decision gives French bike manufacturer 'the right and the time to fight'"
+  },
+  {
+   "id": 58,
+   "label": "R",
+   "story": 58,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "How AI Agent Sandboxing Actually Works and Where Startups Cut Corners"
+  },
+  {
+   "id": 59,
+   "label": "R",
+   "story": 59,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "How KFC and Taco Bell's top technologist is embracing AI and automation across 63,000 restaurants"
+  },
+  {
+   "id": 60,
+   "label": "N",
+   "story": 60,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "India should Claude-ify its non-profits"
+  },
+  {
+   "id": 61,
+   "label": "N",
+   "story": 61,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Lapierre takes a step towards Accell independence"
+  },
+  {
+   "id": 62,
+   "label": "N",
+   "story": 62,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+  },
+  {
+   "id": 63,
+   "label": "N",
+   "story": 63,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Lincoln Bishop private takeover \u2018sign of an unhealthy system\u2019"
+  },
+  {
+   "id": 64,
+   "label": "N",
+   "story": 64,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Link and Motivation M&As SELF Inc., valued at 700 million, with 200 million in sales and 23 million in operating profit via stock swap | The reality of startup M&A\uff5c\u30e2\u30ea\u30bf\u30de\u30ca\u30f4 / M&A\u30cb\u30e5\u30fc\u30b9\u89e3\u8aac"
+  },
+  {
+   "id": 65,
+   "label": "N",
+   "story": 65,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Lumin Digital Revenue 2025: $62.6M ARR"
+  },
+  {
+   "id": 66,
+   "label": "N",
+   "story": 66,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Meta is asking some of its employees to become managers again in a new reorg"
+  },
+  {
+   "id": 67,
+   "label": "N",
+   "story": 67,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Meta\u2019s Muse: Should you let the AI agent run your digital life?"
+  },
+  {
+   "id": 68,
+   "label": "N",
+   "story": 68,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "New Industry Report Reveals Restaurants Lose Billions Annually from Missed Calls and Weak Phone Operations"
+  },
+  {
+   "id": 69,
+   "label": "R",
+   "story": 69,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "OpenAI Turns Codex Harness into API, Launches \"Agents API\" for Agent Development"
+  },
+  {
+   "id": 70,
+   "label": "R",
+   "story": 70,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Paystand Brings AI 'Digital Employees' to B2B Finance on Its Programmable Money Network"
+  },
+  {
+   "id": 71,
+   "label": "N",
+   "story": 71,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Playful.AI Revenue 2025: $770K Est. ARR"
+  },
+  {
+   "id": 72,
+   "label": "N",
+   "story": 72,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Silicon Valley Memes Reveal AI's New Role as Core Workforce"
+  },
+  {
+   "id": 73,
+   "label": "N",
+   "story": 73,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Surfshark Acquires Majority Stake In Optery To Expand Data Removal Capabilities"
+  },
+  {
+   "id": 74,
+   "label": "N",
+   "story": 74,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Taco Bell returns to UAE after 14 years with Dubai launch"
+  },
+  {
+   "id": 75,
+   "label": "N",
+   "story": 75,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Telcos, Mateo Doesn\u2019t Need AI. He Needs Help."
+  },
+  {
+   "id": 76,
+   "label": "N",
+   "story": 76,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "The 33-Year-Old AI Hotshot Taking Silicon Valley Swagger Back to Beijing"
+  },
+  {
+   "id": 77,
+   "label": "N",
+   "story": 77,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Valuation Surges to $4 Billion USD: Real-Time Interactive Video Sector Still Awaits Its Breakthrough Killer App"
+  },
+  {
+   "id": 78,
+   "label": "N",
+   "story": 78,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Vassar Digital Revenue 2025: $7.8M ARR"
+  },
+  {
+   "id": 79,
+   "label": "N",
+   "story": 79,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "WIZ.AI Revenue 2025: $18.3M Est. ARR"
+  },
+  {
+   "id": 80,
+   "label": "R",
+   "story": 80,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Yelp and Hatch Advance Voice AI for Restaurants and Service Pros with OpenAI's GPT-Live-1"
+  },
+  {
+   "id": 81,
+   "label": "R",
+   "story": 81,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "Yelp and Hatch put OpenAI's GPT-Live-1 into voice AI after 1 million calls"
+  },
+  {
+   "id": 82,
+   "label": "N",
+   "story": 82,
+   "hits": [
+    "gnews:KEYWORD"
+   ],
+   "host": "news.google.com",
+   "title": "eCommerce Order Tracking: The 2026 Buyer Guide, Benchmarks and Software Comparison"
+  },
+  {
+   "id": 83,
+   "label": "L",
+   "story": 83,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "50 Employees Startup Valued at 47.1 Billion Yuan"
+  },
+  {
+   "id": 84,
+   "label": "N",
+   "story": 84,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "AI Business Ideas: 15 Ways to Start in 2026"
+  },
+  {
+   "id": 85,
+   "label": "R",
+   "story": 85,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d"
+  },
+  {
+   "id": 86,
+   "label": "R",
+   "story": 86,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "AI spend per employee slumped at top firms in August \u2014 summer doldrums or a warning sign?"
+  },
+  {
+   "id": 87,
+   "label": "L",
+   "story": 34,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Agentic AI startup Runable raises $21 Mn in Series A led by Susquehanna and Nexus"
+  },
+  {
+   "id": 88,
+   "label": "R",
+   "story": 88,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Agentic VC is the Future of Silicon Valley"
+  },
+  {
+   "id": 89,
+   "label": "L",
+   "story": 89,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Almedia Ranks First for Revenue Per Employee Among the 100 Fastest-Growing Startups in DACH and CEE"
+  },
+  {
+   "id": 90,
+   "label": "N",
+   "story": 90,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Beam AI Revenue 2025: $4.5M Est. ARR"
+  },
+  {
+   "id": 91,
+   "label": "R",
+   "story": 91,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Black Lake founder Yuxiang Zhou pitted an AI agent against his top sales coach. His most experienced salespeople chose the AI"
+  },
+  {
+   "id": 92,
+   "label": "N",
+   "story": 92,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "CEOs shift messaging around AI and layoffs"
+  },
+  {
+   "id": 93,
+   "label": "L",
+   "story": 93,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Can AI Build a Startup in 72 Hours? Elon Musk's Team Will Livestream the Test"
+  },
+  {
+   "id": 94,
+   "label": "N",
+   "story": 94,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Consumer Fusion Revenue 2024: $10.1M Est. ARR"
+  },
+  {
+   "id": 95,
+   "label": "N",
+   "story": 95,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Deep-Tech Aerospace Startup Alteon Raises $2.5 Million in Pre-Seed Round Led by Lachy Groom"
+  },
+  {
+   "id": 96,
+   "label": "N",
+   "story": 96,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Demystifying agentic AI"
+  },
+  {
+   "id": 97,
+   "label": "N",
+   "story": 97,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Dutch Fintech Neno Secures \u20ac6.6M Seed Round to Disrupt SME Accounting with AI-Native General Ledger"
+  },
+  {
+   "id": 98,
+   "label": "R",
+   "story": 98,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "ElevenLabs Went From $0 to $600M+ ARR in 41 Months. When the AI Agent Closes the Deal, They Still Pay the Human. With Carles Reina, First VP of Revenue"
+  },
+  {
+   "id": 99,
+   "label": "N",
+   "story": 99,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Eubrics exits stealth with super{set} pre-seed for agentic sales training"
+  },
+  {
+   "id": 100,
+   "label": "N",
+   "story": 100,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Fierce Healthcare Fundraising Tracker '26: Epsilon Health nabs $27.6M; Implicity secures $40M"
+  },
+  {
+   "id": 101,
+   "label": "N",
+   "story": 101,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "For Startups Facing the AI Safety Uproar, Cybersecurity Looms Larger than Existential Risk"
+  },
+  {
+   "id": 102,
+   "label": "N",
+   "story": 102,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Full list of Israeli high-tech funding rounds in 2026"
+  },
+  {
+   "id": 103,
+   "label": "R",
+   "story": 103,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "How Wonderful AI went from zero to $70 million in revenue in one year"
+  },
+  {
+   "id": 104,
+   "label": "L",
+   "story": 104,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "How one hedge-fund manager built his firm to be powered entirely by AI agents"
+  },
+  {
+   "id": 105,
+   "label": "N",
+   "story": 105,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "How to Stop Burning Revenue on Bootstrapped SaaS"
+  },
+  {
+   "id": 106,
+   "label": "R",
+   "story": 106,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Hugging Face reportedly in talks to be acquired for $13B"
+  },
+  {
+   "id": 107,
+   "label": "N",
+   "story": 107,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "I'm a creative who was hesitant about AI. I found the parts of my small business I trust it with."
+  },
+  {
+   "id": 108,
+   "label": "N",
+   "story": 108,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Just $389m was raised across this week\u2019s 12 FinTech deals"
+  },
+  {
+   "id": 109,
+   "label": "N",
+   "story": 109,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Keboola.com Revenue 2024: $11.7M Est. ARR"
+  },
+  {
+   "id": 110,
+   "label": "R",
+   "story": 110,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Mark Zuckerberg hatched secret jobs bloodbath plan to ax 60% of staff \u2014 and then it blew up in his face"
+  },
+  {
+   "id": 111,
+   "label": "N",
+   "story": 111,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Mark Zuckerberg sends shocking message to Meta employees"
+  },
+  {
+   "id": 112,
+   "label": "N",
+   "story": 112,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Mate Security\u2019s Gamebooks Aim to Solve the Trust Problem Behind Agentic Security Operations"
+  },
+  {
+   "id": 113,
+   "label": "R",
+   "story": 113,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Meta Acquires AI Startup Stilla AI To Expand Business Messaging Capabilities"
+  },
+  {
+   "id": 114,
+   "label": "R",
+   "story": 114,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Meta\u2019s plans to replace workers with AI fell flat, report says"
+  },
+  {
+   "id": 115,
+   "label": "N",
+   "story": 115,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "More than a third of workers say they're hoarding expertise because they fear being replaced by the AI agents they\u2019re being asked to train"
+  },
+  {
+   "id": 116,
+   "label": "N",
+   "story": 116,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Oppex AI Raises Approx. USD500K in Pre-Seed Funding"
+  },
+  {
+   "id": 117,
+   "label": "N",
+   "story": 117,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Owain Evans: The 100 Most Influential People in AI 2026"
+  },
+  {
+   "id": 118,
+   "label": "R",
+   "story": 118,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Owner Raises $240M Led by Goldman Sachs Alternatives to Build the AI-Native Platform for Every Local Business"
+  },
+  {
+   "id": 119,
+   "label": "R",
+   "story": 119,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Owner raises $240M for 'AI-native' restaurant tech"
+  },
+  {
+   "id": 120,
+   "label": "L",
+   "story": 120,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Post Bridge Lands Inside ChatGPT and Sets Four Consecutive Daily Signup Records"
+  },
+  {
+   "id": 121,
+   "label": "L",
+   "story": 34,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Runable Raises $21 Million Series A As AI Agent Hits $2 Million ARR In 3 Weeks And 1.5 Million Users"
+  },
+  {
+   "id": 122,
+   "label": "L",
+   "story": 34,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Runable Raises $21M Series A to help small businesses run, build and grow"
+  },
+  {
+   "id": 123,
+   "label": "R",
+   "story": 123,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Sales automation startup Clay boosts valuation to $7.1B in $115M funding round"
+  },
+  {
+   "id": 124,
+   "label": "N",
+   "story": 124,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Skild AI surpasses $100 million ARR 10 months after deploying robot foundation model"
+  },
+  {
+   "id": 125,
+   "label": "N",
+   "story": 125,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Software, AI Startups and Cybersecurity: 2026 Surveys Show a Market Moving From Adoption to Accountability"
+  },
+  {
+   "id": 126,
+   "label": "N",
+   "story": 126,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Stealth AI Startup Revenue 2025: $1.5M Est. ARR"
+  },
+  {
+   "id": 127,
+   "label": "L",
+   "story": 127,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "SubMagic Revenue 2025: $8M ARR (Bootstrapped)"
+  },
+  {
+   "id": 128,
+   "label": "R",
+   "story": 128,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Surge AI Revenue and Valuation: Bootstrapped Past $1B"
+  },
+  {
+   "id": 129,
+   "label": "N",
+   "story": 129,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "The 12 Best AI Accounting Software and Tools for 2026"
+  },
+  {
+   "id": 130,
+   "label": "R",
+   "story": 130,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "The Agents Is Back. Outbound Isn\u2019t Dead. Our Agents Are Collapsing Into Each Other. And Collections Just Went on Autopilot."
+  },
+  {
+   "id": 131,
+   "label": "N",
+   "story": 131,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "The fight that Hollywood and newsrooms have in common"
+  },
+  {
+   "id": 132,
+   "label": "L",
+   "story": 132,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "These Founders Are Using AI to Build Lean Businesses With Millions in Revenue"
+  },
+  {
+   "id": 133,
+   "label": "N",
+   "story": 133,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "This Torrance Startup Just Raised $1B to Mass-Produce Hypersonic Missiles"
+  },
+  {
+   "id": 134,
+   "label": "L",
+   "story": 134,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "This eBay Alum Built A One-Person Marketing Agency With 35 AI Agents"
+  },
+  {
+   "id": 135,
+   "label": "N",
+   "story": 135,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "VanceAI Revenue 2026: $420K ARR"
+  },
+  {
+   "id": 136,
+   "label": "N",
+   "story": 136,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Wand AI Revenue 2025: $17.4M Est. ARR"
+  },
+  {
+   "id": 137,
+   "label": "R",
+   "story": 137,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Xpander Raises $7.5 Million Seed Funding As Enterprise AI Agent Omni Scores 90.9% On GAIA Benchmark"
+  },
+  {
+   "id": 138,
+   "label": "R",
+   "story": 138,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "Zuckerberg's plan to replace staff with AI lasted four months"
+  },
+  {
+   "id": 139,
+   "label": "N",
+   "story": 139,
+   "hits": [
+    "gnews:SIGNAL"
+   ],
+   "host": "news.google.com",
+   "title": "censhare Revenue 2025: $18.3M Est. ARR"
+  },
+  {
+   "id": 140,
+   "label": "N",
+   "story": 140,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "github.com",
+   "title": "Launch HN: OneCLI (YC S26) \u2013 OSS sandboxed agent harness for teams"
+  },
+  {
+   "id": 141,
+   "label": "N",
+   "story": 141,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "risklytics.ai",
+   "title": "Launch HN: Risklytics (YC S26) \u2013 Insurance brokerage for frontier tech companies"
+  },
+  {
+   "id": 142,
+   "label": "N",
+   "story": 142,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "news.ycombinator.com",
+   "title": "Launch HN: Salem Robotics (YC S26) \u2013 Software for industrial inspection robots"
+  },
+  {
+   "id": 143,
+   "label": "N",
+   "story": 143,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "news.ycombinator.com",
+   "title": "My Rebuttal to the Anthropic Extinction Event Hype Train"
+  },
+  {
+   "id": 144,
+   "label": "N",
+   "story": 144,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "github.com",
+   "title": "Show HN: Charter \u2013 Operate production-safe agents that run on your own infra"
+  },
+  {
+   "id": 145,
+   "label": "N",
+   "story": 145,
+   "hits": [
+    "hn:KEYWORD",
+    "hn:SIGNAL"
+   ],
+   "host": "apps.apple.com",
+   "title": "Show HN: Fog 2.0: I removed the AI auto-organizing I built my first app around"
+  },
+  {
+   "id": 146,
+   "label": "N",
+   "story": 146,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "github.com",
+   "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)"
+  },
+  {
+   "id": 147,
+   "label": "N",
+   "story": 147,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "rejourney.co",
+   "title": "Show HN: Rejourney \u2013 Finds user \"leaks\" in apps and websites"
+  },
+  {
+   "id": 148,
+   "label": "R",
+   "story": 148,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "telem.ai",
+   "title": "Show HN: Telem \u2013 Route agent web search across providers and inspect the traces"
+  },
+  {
+   "id": 149,
+   "label": "N",
+   "story": 149,
+   "hits": [
+    "hn:KEYWORD"
+   ],
+   "host": "news.ycombinator.com",
+   "title": "YC is betting on robotics and physical AI startups"
+  },
+  {
+   "id": 150,
+   "label": "L",
+   "story": 150,
+   "hits": [
+    "hn:SIGNAL"
+   ],
+   "host": "news.ycombinator.com",
+   "title": "One-person startup: a Cornell postdoc wants to put AI in everyone's hands"
+  }
+ ]
+}
