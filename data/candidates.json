@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-12T12:32:31.739Z",
+ "generatedAt": "2026-09-13T12:20:55.974Z",
  "candidates": [
   {
    "id": "9eed93f56762",
@@ -30,74 +30,6 @@
    "reviewedAt": "2026-09-12T12:36:02Z"
   },
   {
-   "id": "a51db7d03ba2",
-   "name": "Rilo",
-   "evidence": [
-    {
-     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
-     "source": "gnews",
-     "domain": "finance.biggo.com",
-     "publishedAt": "2026-09-03T18:35:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Adobe acquires Peak XV-backed Indian AI startup Rilo to expand agentic marketing capabilities",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSTFRTU1mQ00xbzVuVVlGTVhXR1N1Smtza0dVT24tb2ppT0JkN1dEZ1ViRVI3NlRvclh6elJSQjFySEhFRDNUcFpIMWx2NTMzazl6SktmYm96RzlZdWcwbFJoVVBXeWdrV0VLSzIxWXk5bEVfT0xkU0YzWEJPbUNScWVabW1lRFQ2YTlRY196LWVmak1wNmF3dFhmQUVqejN4UkZOd20tU0hYWFVyUmRMMDZxc2JadDNYb0VKZmFVOFdQVUxjeUNuZTZUUzBxdGdVb0RPbkdPMHZaMi1hSk5lU1Y0Z9IB6AFBVV95cUxNWGZjT0kyakRNTnRSZHFtSnN6THJIdXNUUDNTd2RNaE41M0pwczdoYXprM2tTZDJlUVlXTE9qOGI2S3AzaFZfRFp4YTc0ZloyVGVkakFwTlJqeEdJX3pkanpNTFBZMnAxVktLcnM1WFlLbTRyQWVDMGV1bTJzamw4M2xET25XYktGR1ZjVkxRNkNmSmw4X0VhU3V1eEJjaTQwYWdNWWg0SXVJRFl5SkFyVzY5NWUxS1lMUXZTS3F2aTVLZXpFZnRzVHI3NVNydHB1VFR0V19LQlVUaVIzeW1seld0b2hWSzc3?oc=5",
-     "source": "gnews",
-     "domain": "storyboard18.com",
-     "publishedAt": "2026-09-03T08:04:14.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Adobe acquires Indian AI startup Rilo to expand agentic AI push",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWdCTFAxQ05IRUczNjV0ekJmd2IyS0VaQnNtMFFDSlFmZjM3Y29zX0VORU9NRTJyNFE1eFJZQTlKdWxnLVJtYl9YZzJ2SExSMGpCTFczaFUwZTN4NEhCUDRPTFM3ZG1zU25HbW8wck5TcHRHWGlmSmpRQkV1Z2lVSzZ2S2xTS1hpelBHSzZleXFBajUxQ2NZNGtvanBMQQ?oc=5",
-     "source": "gnews",
-     "domain": "indiantelevision.com",
-     "publishedAt": "2026-09-03T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
-     "source": "gnews",
-     "domain": "business-standard.com",
-     "publishedAt": "2026-09-02T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Adobe acquires Peak XV-backed Indian AI marketing startup Rilo",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWGIxeWNFNF9hejZPQ0JSbFhkVnR3UkRRYnZSdG1SZlVrZGlCQTNqMTBfcVBrVFQtRlQzNlFLTUtYeDNoWUlQT053U2ppaU1Jb0JITmczZ01fSXYzUUVyRzRUbjROODVZS3VHbUZKQmZFdzJRRW41VjJzeWtvUzBnZGdVZlhYck1hcGRuNmdKYTRQWGdYSEZ1MjB3VmQyTW5XQXZwcl9TVUtzZFRkLVFBckpLX0pJYzJpLWJyb0xveVdVcWxQYWFVQkc4dU1UX0p5RFVv0gHYAUFVX3lxTFBNZnNfYUdfVHhsdzgtTzUtQlFWQ3oyakpnVFZBWTdLYkJzYWFyZFBDVUMwR1JCVmpPXzFuNERaSkg0V3gzM2R2dHV4dl84MWVHby1iNnNpV05UbDlIMk96YU9weVZndjZfblJTMk9QV0JMYURTQlMwbXdfbVRqRkZCY1VicWYxT0JnbThISWdLVVBweWZiRU0yUWUwb1VCX0VJV0M5Mkp6bl9faXNMWFkwYk15MTVzNTlVd0VPYVVSNERWNHpycVNRNkVWcmNtVXB5SGRlQkZRXw?oc=5",
-     "source": "gnews",
-     "domain": "moneycontrol.com",
-     "publishedAt": "2026-09-02T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 5,
-   "publishers": 5,
-   "firstSeen": "2026-09-12T12:32:31.738Z",
-   "score": 2,
-   "reasons": [
-    "named entity",
-    "5 publishers",
-    "acquired \u2014 no longer independent"
-   ],
-   "status": "rejected",
-   "reviewNote": "Acquired by Adobe. No longer an independent company, so it cannot enter the index.",
-   "reviewedAt": "2026-09-12T12:36:02Z"
-  },
-  {
    "id": "f9bdbd24163a",
    "name": "Paystand",
    "evidence": [
@@ -120,9 +52,32 @@
     "named entity",
     "autonomy thesis"
    ],
-   "status": "rejected",
-   "reviewNote": "Product launch by an established payments company. 'Digital employees' is the product, not how Paystand itself is run.",
-   "reviewedAt": "2026-09-12T12:36:02Z"
+   "status": "rejected"
+  },
+  {
+   "id": "892168464f72",
+   "name": "MAGIC AI",
+   "evidence": [
+    {
+     "title": "MAGIC AI Revenue 2025: $4.1M Est. ARR, $8.6M Raised",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fd3RYdjVCQVlWTlpqUG1MRlZNY05qTHo2REhlWDlkaG9VWERQcnpIWml4OEdLdVQya0lFZ3ZRRGZwZWZzTXU4V1BLRnRDZ3pmdkE?oc=5",
+     "source": "gnews",
+     "domain": "getlatka.com",
+     "publishedAt": "2026-09-02T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-13T12:20:55.973Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
   },
   {
    "id": "b97e67acef59",
@@ -147,9 +102,53 @@
     "autonomy thesis",
     "funding or revenue figure"
    ],
-   "status": "blocked",
-   "reviewNote": "Fast Company exclusive, but the Google News link resolves to a consent wall so the company cannot be identified or verified. Recheck once URL resolution lands.",
-   "reviewedAt": "2026-09-12T12:36:02Z"
+   "status": "blocked"
+  },
+  {
+   "id": "a51db7d03ba2",
+   "name": "Rilo",
+   "evidence": [
+    {
+     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
+     "source": "gnews",
+     "domain": "finance.biggo.com",
+     "publishedAt": "2026-09-03T18:35:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
+    {
+     "title": "Adobe acquires Peak XV-backed Indian AI startup Rilo to expand agentic marketing capabilities",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSTFRTU1mQ00xbzVuVVlGTVhXR1N1Smtza0dVT24tb2ppT0JkN1dEZ1ViRVI3NlRvclh6elJSQjFySEhFRDNUcFpIMWx2NTMzazl6SktmYm96RzlZdWcwbFJoVVBXeWdrV0VLSzIxWXk5bEVfT0xkU0YzWEJPbUNScWVabW1lRFQ2YTlRY196LWVmak1wNmF3dFhmQUVqejN4UkZOd20tU0hYWFVyUmRMMDZxc2JadDNYb0VKZmFVOFdQVUxjeUNuZTZUUzBxdGdVb0RPbkdPMHZaMi1hSk5lU1Y0Z9IB6AFBVV95cUxNWGZjT0kyakRNTnRSZHFtSnN6THJIdXNUUDNTd2RNaE41M0pwczdoYXprM2tTZDJlUVlXTE9qOGI2S3AzaFZfRFp4YTc0ZloyVGVkakFwTlJqeEdJX3pkanpNTFBZMnAxVktLcnM1WFlLbTRyQWVDMGV1bTJzamw4M2xET25XYktGR1ZjVkxRNkNmSmw4X0VhU3V1eEJjaTQwYWdNWWg0SXVJRFl5SkFyVzY5NWUxS1lMUXZTS3F2aTVLZXpFZnRzVHI3NVNydHB1VFR0V19LQlVUaVIzeW1seld0b2hWSzc3?oc=5",
+     "source": "gnews",
+     "domain": "storyboard18.com",
+     "publishedAt": "2026-09-03T08:04:14.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
+    {
+     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
+     "source": "gnews",
+     "domain": "business-standard.com",
+     "publishedAt": "2026-09-02T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 3,
+   "publishers": 3,
+   "firstSeen": "2026-09-12T12:32:31.738Z",
+   "score": 1.5,
+   "reasons": [
+    "named entity",
+    "3 publishers",
+    "acquired — no longer independent"
+   ],
+   "status": "rejected"
   },
   {
    "id": "079ecfc943c7",
@@ -173,9 +172,7 @@
    "reasons": [
     "named entity"
    ],
-   "status": "rejected",
-   "reviewNote": "Gupshup is an established conversational-messaging vendor. A self-serve product launch, not a tiny-team autonomous business.",
-   "reviewedAt": "2026-09-12T12:36:02Z"
+   "status": "rejected"
   },
   {
    "id": "f2e0ad526453",
@@ -199,9 +196,7 @@
    "reasons": [
     "autonomy thesis"
    ],
-   "status": "rejected",
-   "reviewNote": "False positive. A Meta management-restructuring story matched on the phrase 'AI employees'; it is not a company candidate.",
-   "reviewedAt": "2026-09-12T12:36:02Z"
+   "status": "rejected"
   },
   {
    "id": "b46460fa655d",
@@ -225,9 +220,7 @@
    "reasons": [
     "autonomy thesis"
    ],
-   "status": "blocked",
-   "reviewNote": "The most on-thesis lead in this batch, but the Yahoo link resolves to a consent wall so the company cannot be named. Recheck once URL resolution lands.",
-   "reviewedAt": "2026-09-12T12:36:02Z"
+   "status": "blocked"
   },
   {
    "id": "2dd907d06ca8",
@@ -249,11 +242,9 @@
    "firstSeen": "2026-09-12T12:32:31.739Z",
    "score": 0,
    "reasons": [
-    "acquired \u2014 no longer independent"
+    "acquired — no longer independent"
    ],
-   "status": "rejected",
-   "reviewNote": "Duplicate of the Adobe/Rilo acquisition, carrying no company name of its own.",
-   "reviewedAt": "2026-09-12T12:36:02Z"
+   "status": "rejected"
   }
  ]
 }
