@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-13T12:20:55.974Z",
+ "generatedAt": "2026-09-13T12:39:47.987Z",
  "candidates": [
   {
    "id": "9eed93f56762",
@@ -53,31 +53,6 @@
     "autonomy thesis"
    ],
    "status": "rejected"
-  },
-  {
-   "id": "892168464f72",
-   "name": "MAGIC AI",
-   "evidence": [
-    {
-     "title": "MAGIC AI Revenue 2025: $4.1M Est. ARR, $8.6M Raised",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fd3RYdjVCQVlWTlpqUG1MRlZNY05qTHo2REhlWDlkaG9VWERQcnpIWml4OEdLdVQya0lFZ3ZRRGZwZWZzTXU4V1BLRnRDZ3pmdkE?oc=5",
-     "source": "gnews",
-     "domain": "getlatka.com",
-     "publishedAt": "2026-09-02T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-13T12:20:55.973Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
   },
   {
    "id": "b97e67acef59",
