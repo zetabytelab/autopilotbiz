@@ -1,4 +1,22 @@
 {
+  "humanTimeEntries": [
+    {
+      "id": "2026-09-14-pulse-09-linkedin-publishing",
+      "date": "2026-09-14",
+      "actor": "Antonio",
+      "activity": "Publish Autopilot Pulse #09 on LinkedIn",
+      "humanMinutes": 60,
+      "measurement": "user-reported",
+      "scope": "Manual article entry and formatting in the LinkedIn newsletter editor",
+      "friction": [
+        "Correcting spaces manually",
+        "Correcting headers manually",
+        "Adding and adjusting images manually"
+      ],
+      "feedback": "User found the LinkedIn newsletter publishing process really frustrating.",
+      "articleUrl": "https://www.linkedin.com/pulse/autopilot-pulse-9-self-improving-products-wave-antonio-s--xw4we/"
+    }
+  ],
   "updatedAt": "2026-09-01T09:00:00Z",
   "status": "shipping",
   "statusNote": "Edition #4 live · /live gated private · pivoting from depth to distribution",

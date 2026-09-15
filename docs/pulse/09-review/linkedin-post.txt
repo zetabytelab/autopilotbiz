@@ -1,0 +1,32 @@
+The Self-Improving Products Wave
+
+Have your product on autopilot?
+
+The market is taking shape around three starting points:
+
+→ PostHog and Amplitude: understand what users need.
+→ Sentry and Datadog: understand what broke in production.
+→ Anthropic, OpenAI and GitHub: give agents the tools to act.
+
+Then come the specialists: Warp, Cursor and Cognition for execution; Veris and Antithesis for verification; Greptile, CodeRabbit and Renovate for recurring maintenance.
+
+For Autopilot Pulse #09, I mapped 20 companies across five categories and ten subcategories, then examined seven implementation reports from 14 July–14 September.
+
+Three cases stood out:
+
+• PostHog traced product friction to a fix with a public PR, human approval and recorded production deployments on 29 July.
+
+• Sentry rolled out an internal Seer + Claude workflow in mid-July. It generates fixes, finds reviewers and collects feedback. Review ownership is part of the system.
+
+• loveholidays reported more than ten new search experiences built with its Codex-powered Playground, with at least three live on its website. People still choose the work and define the checks.
+
+The interesting shift is the connection between finding a problem, preparing a change and learning from what happens next.
+
+The newsletter includes the market map, source links and a clear distinction between live deployments, internal use and demonstrations.
+
+What would you put on autopilot first: finding product friction, fixing bugs, checking changes or maintaining dependencies?
+
+Read the edition:
+https://www.autopilotindex.com/pulse/09-self-improving-products-wave?ref=linkedin
+
+#ProductManagement #AgenticAI #SoftwareEngineering
