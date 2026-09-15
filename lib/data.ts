@@ -54,6 +54,75 @@ export type Company = {
 
 export const companies: Company[] = [
   {
+  "techStack": [
+    "Pion"
+  ],
+  "funding": {
+    "totalRaised": null,
+    "lastRound": null,
+    "date": null,
+    "valuation": null,
+    "investors": [
+      "Y Combinator"
+    ]
+  },
+  "metrics": {
+    "arr": null,
+    "arrUsd": null,
+    "humans": null
+  },
+  "referralProgram": {
+    "exists": null,
+    "notes": null
+  },
+  "verified": false,
+  "cohort": "expansion",
+  "name": "Andon Labs",
+  "slug": "andon-labs",
+  "url": "https://andonlabs.com",
+  "tagline": "Testing business autonomy in the real world.",
+  "categoryClaim": "AI research and real-world business experiments.",
+  "description": "AI research company co-founded by Lukas Petersson and Axel Backlund. Studies agent behavior through simulations including Vending-Bench and real-world deployments including Project Vend with Anthropic, Andon Market, Andon Cafe and Andon FM. Its platform is Pion, listed in the tools directory. These experiments do not establish that the research company itself operates autonomously. Checked September 15, 2026; company revenue, total funding and current headcount are not established in this record.",
+  "founders": [
+    {
+      "name": "Lukas Petersson",
+      "background": "Co-founder of Andon Labs, the company behind Pion."
+    },
+    {
+      "name": "Axel Backlund",
+      "background": "Co-founder of Andon Labs, the company behind Pion."
+    }
+  ],
+  "pricing": "Research preview with gradual waitlist access. Selected ideas may receive seed tokens; Andon anticipates revenue sharing but publishes no fixed percentage on the reviewed page.",
+  "news": [
+    {
+      "date": "2026-09-14",
+      "headline": "Pion research preview opens a waitlist for existing businesses and new experiments. Andon reports that its market and cafe are still unprofitable.",
+      "url": "https://andonlabs.com/blog/why-we-built-pion"
+    },
+    {
+      "date": "2025-06-27",
+      "headline": "Anthropic documents the first Project Vend experiment, including losses and human support for physical operations.",
+      "url": "https://www.anthropic.com/research/project-vend-1"
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Preview page reviewed: applicants can bring an existing business or propose a new one; access is gradual and experiments can fail.",
+      "url": "https://andonlabs.com/pion"
+    },
+    {
+      "date": "2024-12-04",
+      "headline": "Axel Backlund announces founding Andon Labs with Lukas Petersson.",
+      "url": "https://www.linkedin.com/posts/axelbacklund_super-excited-to-share-im-starting-a-new-activity-7270153281769754624-5Cfs"
+    }
+  ],
+  "autopilot": {
+    "section": "watchlist",
+    "story": "A research case for comparing simulated performance with real business outcomes and human intervention.",
+    "flags": "Experimental deployments; company autonomy not assessed. Market and cafe unprofitable as reported September 14, 2026."
+  }
+},
+  {
     name: "Polsia",
     slug: "polsia",
     url: "https://polsia.com",
@@ -1473,6 +1542,16 @@ export const stackLayers: { key: StackCategory; label: string; blurb: string }[]
 // The infrastructure layer that showed up repeatedly behind autopilot businesses.
 // Referral notes are indicative — always confirm current terms on the vendor's site.
 export const stackTools: StackTool[] = [
+  {
+  "name": "Pion",
+  "url": "https://andonlabs.com/pion",
+  "role": "Andon Labs platform for persistent business agents with email, phone, banking, browser and computing tools. Research preview with gradual waitlist access, checked September 15, 2026; customer profitability and intervention rates unverified.",
+  "referral": null,
+  "usedBy": [
+    "Andon Labs"
+  ],
+  "category": "agents"
+},
   {
     name: "Claude (Anthropic)",
     url: "https://claude.com",

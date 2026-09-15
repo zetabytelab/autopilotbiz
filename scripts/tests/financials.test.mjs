@@ -35,7 +35,11 @@ test("ratio refuses incompatible dates, scope, population, unknowns and annual r
 
 test("baseline preserves every original company and every source-bearing legacy metric", () => {
   const baseline = JSON.parse(readFileSync(new URL("../../data/financial-baseline-2026-09-12.json", import.meta.url), "utf8"));
-  assert.deepEqual(baseline.companies.map((entry) => entry.slug), companies.map((entry) => entry.slug));
+  const currentSlugs = new Set(companies.map((entry) => entry.slug));
+  assert.equal(currentSlugs.size, companies.length, "company slugs must remain unique");
+  for (const entry of baseline.companies) {
+    assert.ok(currentSlugs.has(entry.slug), `original company missing: ${entry.slug}`);
+  }
   for (const { slug, metrics } of baseline.companies) {
     const history = financialHistory({ slug });
     if (metrics.arr) assert.ok(history.some((entry) => !["headcount", "contractors"].includes(entry.kind)), slug);

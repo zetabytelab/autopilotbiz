@@ -122,6 +122,12 @@ export function getCompanyResearch(slug: string): CompanyResearch | undefined {
 }
 
 const notes: Record<string, ProfileNotes> = {
+  "andon-labs": {
+  "relevance": "Connects long-horizon simulations to real businesses with customers, staff and bills. Andon Labs is the research company; Pion is its platform.",
+  "humanRole": "People perform physical work and support deployments. The lab itself has no assessed autonomy level, and ongoing intervention hours are not established.",
+  "nextEvidence": "Separate each experiment's sales, inventory, rent, wages and model costs from the lab's finances. Measure human intervention and compare agent decisions with conventional automation; a falling cash balance alone is not a profit statement."
+},
+
   atoms: {
     relevance: "A close match for the one-person business thesis: one founder coordinates specialist agents from research and product development through deployment and customer acquisition.",
     humanRole: "The founder sets direction, approves plans and compares alternative builds. Published app-building reviews do not establish the ongoing hours needed to operate a paying business.",

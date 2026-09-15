@@ -29,7 +29,7 @@ const indexRows = indexed
 const watchRows = companies
   .filter((c) => c.autopilot?.section === "watchlist")
   .sort((a, b) => LEVEL_ORDER[a.autopilot!.level ?? "L3"] - LEVEL_ORDER[b.autopilot!.level ?? "L3"])
-  .map((c) => `| ${link(c.name, c.url)} | **${c.autopilot!.level}** | ${cell(c.autopilot!.story)} | ${cell(c.autopilot!.flags)} |`)
+  .map((c) => `| ${link(c.name, c.url)} | **${c.autopilot!.level ?? "Not assessed"}** | ${cell(c.autopilot!.story)} | ${cell(c.autopilot!.flags)} |`)
   .join("\n");
 
 const cautionRows = companies
