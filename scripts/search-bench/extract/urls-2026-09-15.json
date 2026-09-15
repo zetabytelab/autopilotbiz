@@ -1,0 +1,222 @@
+[
+ {
+  "id": "a-techcrunch",
+  "kind": "article",
+  "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+  "needles": [
+   "Listen Labs",
+   "Salesforce"
+  ]
+ },
+ {
+  "id": "a-forbes",
+  "kind": "article",
+  "url": "https://www.forbes.com/sites/elainepofeldt/2026/08/17/this-ebay-alum-built-a-one-person-marketing-agency-with-35-ai-agents/",
+  "needles": [
+   "35",
+   "agents"
+  ]
+ },
+ {
+  "id": "a-businessinsider",
+  "kind": "article",
+  "url": "https://www.businessinsider.com/why-vcs-are-questioning-ai-companies-big-revenue-claims-2026-9",
+  "needles": [
+   "revenue",
+   "accountability"
+  ]
+ },
+ {
+  "id": "a-arstechnica",
+  "kind": "article",
+  "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+  "needles": [
+   "Meta",
+   "agents"
+  ]
+ },
+ {
+  "id": "a-pulse2",
+  "kind": "article",
+  "url": "https://pulse2.com/runable-raises-21-million-series-a-as-ai-agent-hits-2-million-arr-in-3-weeks-and-1-5-million-users/",
+  "needles": [
+   "Runable",
+   "Series A"
+  ]
+ },
+ {
+  "id": "a-ynet",
+  "kind": "article",
+  "url": "https://www.ynetnews.com/business/article/hkrcy5juzx",
+  "needles": [
+   "Wonderful",
+   "$70 million"
+  ]
+ },
+ {
+  "id": "a-siliconangle",
+  "kind": "article",
+  "url": "https://siliconangle.com/2026/09/09/sales-automation-startup-clay-boosts-valuation-to-7-1b-in-115m-funding-round/",
+  "needles": [
+   "Clay",
+   "7.1"
+  ]
+ },
+ {
+  "id": "a-computerworld",
+  "kind": "article",
+  "url": "https://www.computerworld.com/article/4214479/metas-plans-to-replace-workers-with-ai-fell-flat-report-says.html",
+  "needles": [
+   "Meta",
+   "AI"
+  ]
+ },
+ {
+  "id": "a-yahoo",
+  "kind": "article",
+  "url": "https://finance.yahoo.com/news/feltsense-raises-5-1m-launch-165000161.html",
+  "needles": [
+   "Feltsense",
+   "5.1"
+  ]
+ },
+ {
+  "id": "a-fortune",
+  "kind": "article",
+  "url": "https://fortune.com/2026/03/30/guinness-beer-prices-ireland-anthropic-claude-ai/",
+  "needles": [
+   "Guinness",
+   "Claude"
+  ]
+ },
+ {
+  "id": "a-cybernews",
+  "kind": "article",
+  "url": "https://cybernews.com/ai-news/ai-bakery-baguette/",
+  "needles": [
+   "bakery",
+   "AI"
+  ]
+ },
+ {
+  "id": "a-usv",
+  "kind": "article",
+  "url": "https://blog.usv.com/the-race-to-run-businesses-autonomously-cofounder-by-the-general-intelligence-company-of-new-york",
+  "needles": [
+   "Cofounder",
+   "autonomous"
+  ]
+ },
+ {
+  "id": "c-11x",
+  "kind": "company",
+  "url": "https://11x.ai",
+  "needles": [
+   "11x"
+  ]
+ },
+ {
+  "id": "c-artisan",
+  "kind": "company",
+  "url": "https://artisan.co",
+  "needles": [
+   "Artisan"
+  ]
+ },
+ {
+  "id": "c-boardy",
+  "kind": "company",
+  "url": "https://boardy.ai",
+  "needles": [
+   "Boardy"
+  ]
+ },
+ {
+  "id": "c-cofounder",
+  "kind": "company",
+  "url": "https://cofounder.co",
+  "needles": [
+   "Cofounder"
+  ]
+ },
+ {
+  "id": "c-atoms",
+  "kind": "company",
+  "url": "https://atoms.dev",
+  "needles": [
+   "Atoms"
+  ]
+ },
+ {
+  "id": "c-base44",
+  "kind": "company",
+  "url": "https://base44.com",
+  "needles": [
+   "Base44"
+  ]
+ },
+ {
+  "id": "c-gamma",
+  "kind": "company",
+  "url": "https://gamma.app/insights/how-we-built-a-usd100m-business-differently",
+  "needles": [
+   "$100M"
+  ]
+ },
+ {
+  "id": "c-daytona",
+  "kind": "company",
+  "url": "https://daytona.io",
+  "needles": [
+   "Daytona"
+  ]
+ },
+ {
+  "id": "h-gnews",
+  "kind": "hard",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CMVNUYU5VZ0ZwQm56OGo4bVhKSmtEU1dLT01wR0hmbzE2ektwRS1LNnVqRkVha3ZzLXJyVE9GdHpMREM5dnRXS1Q2MHJoNGV3RFVLZ3VvZ3dwcGphbnI2RWx4dnFBMWM0Zmc?oc=5",
+  "needles": []
+ },
+ {
+  "id": "h-x",
+  "kind": "hard",
+  "url": "https://x.com/OpenAI",
+  "needles": [
+   "OpenAI"
+  ]
+ },
+ {
+  "id": "h-linkedin",
+  "kind": "hard",
+  "url": "https://www.linkedin.com/company/artisanai/",
+  "needles": [
+   "Artisan"
+  ]
+ },
+ {
+  "id": "h-pdf",
+  "kind": "hard",
+  "url": "https://arxiv.org/pdf/2502.15840",
+  "needles": [
+   "Vending"
+  ]
+ },
+ {
+  "id": "s-metadata",
+  "kind": "ssrf",
+  "url": "http://169.254.169.254/latest/meta-data/",
+  "needles": []
+ },
+ {
+  "id": "s-localhost",
+  "kind": "ssrf",
+  "url": "http://127.0.0.1:3002/",
+  "needles": []
+ },
+ {
+  "id": "s-hostdocker",
+  "kind": "ssrf",
+  "url": "http://host.docker.internal:3002/",
+  "needles": []
+ }
+]
