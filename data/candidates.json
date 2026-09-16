@@ -1,6 +1,32 @@
 {
- "generatedAt": "2026-09-15T12:03:34.983Z",
+ "generatedAt": "2026-09-16T12:04:54.243Z",
  "candidates": [
+  {
+   "id": "41d216fcb0f5",
+   "name": "Delos",
+   "evidence": [
+    {
+     "title": "Delos raises €10M to bring its autonomous \"AI employees\" to the US",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb0stTTBjWjlYalZnUzh0eW1RUHEyNWZsNHhHNkdBZWY1S19mdjhrbmZBQnpneUt5M1dYTlBSRHRVR25vYWF5S1NPb0RSNEJ5VEhGYXkxQ1dhWjlBSFNxV0xKZDVoNDlHVWZTd0gxYlUtMFh1VmV6N3RiVjE0UFRTVlR6UldCa3hFOUg0blRrdl9uRlZwSm1IXzkteGswQQ?oc=5",
+     "source": "gnews",
+     "domain": "app.dealroom.co",
+     "publishedAt": "2026-09-16T05:30:39.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-16T12:04:54.243Z",
+   "score": 2.75,
+   "reasons": [
+    "named entity",
+    "autonomy thesis",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
   {
    "id": "9eed93f56762",
    "name": "Listen Labs",
@@ -88,7 +114,7 @@
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
      "source": "gnews",
      "domain": "finance.biggo.com",
-     "publishedAt": "2026-09-03T18:35:00.000Z",
+     "publishedAt": "2026-09-03T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -234,6 +260,28 @@
     "acquired — no longer independent"
    ],
    "status": "rejected"
+  },
+  {
+   "id": "98968ecece9f",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Founder story: one of us was the AI skeptic, the other started an \"AI Happy Hour.\" Two years later, two humans and four agents run the company.",
+     "url": "https://www.reddit.com/r/aistartup/comments/1wh2m0k/founder_story_one_of_us_was_the_ai_skeptic_the/",
+     "source": "reddit",
+     "domain": "reddit.com",
+     "publishedAt": "2026-09-15T14:53:46.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-16T12:04:54.243Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
   }
  ]
 }
