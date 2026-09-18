@@ -1,0 +1,28 @@
+Same model. Same benchmark. Up to 5x the cost.
+
+HarnessTax measured what the harness around a coding agent costs you. It comes from UC Berkeley's Sky Computing Lab — Melissa Z. Pan, Shuo Yang, Negar Arabzadeh, Ion Stoica and Matei Zaharia — with Wei-Lin Chiang of Arena. Stoica and Zaharia are behind Spark, Ray and Databricks; Chiang co-created Chatbot Arena. This group measures systems for a living.
+
+Seven models, three harnesses (Claude Code, Codex CLI, and Pi, a minimal four-tool harness), on SWE-bench Lite and Terminal-Bench 2.0. Thirty tasks each, three attempts per task.
+
+• Claude Fable 5 solved 97.8% of attempts in Claude Code, 96.7% in Codex and 96.7% in Pi — at $1.33, $0.89 and $0.67 per attempt.
+• Across shared models, Claude Code cost about 2.0x Pi and 1.6x Codex on SWE-bench Lite, by geometric mean of cost ratios.
+• The 5x gap is GPT-5.6 Luna: $0.15 against $0.03 per attempt for near-identical accuracy. A large multiple on a small base.
+• Kimi K3, open weight, sits close to the Pareto frontier on SWE-bench Lite and just below it on Terminal-Bench 2.0.
+• Claude Code's mean initial context is over 10x Pi's, at near-identical turn counts.
+
+The authors are careful, and so should we be: list API prices dated 1 September, 30 tasks per benchmark, benchmarks these models may have trained on, and no test of multi-session or evolving-requirement work, which is exactly where a richer harness may earn its cost. Arena sponsored the API access.
+
+For a product running on autopilot, cost per durable improvement has four levers, not one:
+
+→ Harness: how much context and scaffolding you pay for on every turn. Cheapest to change, least often measured.
+→ Model: the obvious lever, and on this evidence the one most likely to be over-credited.
+→ Tools: what the agent can call, and how much it must read before it can decide.
+→ Task: which work you hand to an agent at all. The routing decision that governs the other three.
+
+Directional data, not a verdict. But if you are running agents at volume, the harness line deserves the same scrutiny as the model line.
+
+Are you seeing this in your own runs?
+
+https://harnesstax.github.io/
+
+#FinOps #AIEngineering #Tokenomics #AgenticAI
