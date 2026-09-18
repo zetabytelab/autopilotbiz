@@ -1,0 +1,13 @@
+Autopilot Pulse #10 is out: The harness tax on self-driving products.
+
+PostHog runs over 90 scouts on its own product. One loop: a user complains, a scout files a report five minutes later, a PR is open eight minutes after that, and it is in production the same working day. They publish a price too — $15 per merged PR.
+
+Shopify's River works the other end. A vulnerability entry triggers it, and in the first eleven days the backlog fell about 70%. The part worth stealing is not the agent, it is the gate: CI computed against a stale head gets rejected. That is what makes the loop affordable.
+
+Then a Berkeley study, HarnessTax, holds the model constant and varies the scaffolding. Claude Fable 5 on SWE-bench Lite: 97.8% in Claude Code, 96.7% in Codex, 96.7% in Pi — at $1.33, $0.89 and $0.67 per attempt. Near-identical accuracy. Up to 5x apart on cost elsewhere in the table.
+
+So cost per durable improvement has four levers, not one: harness, model, tools, task.
+
+And the number none of them publishes: what fraction of agent-authored changes had to be reverted.
+
+Read it: https://www.autopilotindex.com/pulse/10-harness-tax?ref=linkedin

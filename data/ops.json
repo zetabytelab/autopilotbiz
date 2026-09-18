@@ -1,6 +1,19 @@
 {
   "humanTimeEntries": [
     {
+      "id": "2026-09-18-pulse-10-linkedin-publishing",
+      "date": "2026-09-18",
+      "actor": "Antonio",
+      "activity": "Publish Autopilot Pulse #10 on LinkedIn",
+      "humanMinutes": 15,
+      "measurement": "user-reported",
+      "scope": "Newsletter article entry in the LinkedIn editor",
+      "method": "Pasted the rendered output of scripts/linkedin-article.ts from a browser tab, rather than retyping into the editor",
+      "comparison": "Down from 60 minutes for edition 09, the previous entry. Same publisher, same editor; the change was the paste source.",
+      "frictionNote": "Not itemised for this run; the 60-minute edition 09 entry lists spaces, headers and images.",
+      "articleUrl": "https://www.linkedin.com/pulse/autopilot-pulse-10-harness-tax-self-driving-products-antonio-s--mvbxe/"
+    },
+    {
       "id": "2026-09-14-pulse-09-linkedin-publishing",
       "date": "2026-09-14",
       "actor": "Antonio",

@@ -29,7 +29,7 @@ export const editions: Edition[] = [
     "title": "The harness tax on self-driving products",
     "date": "2026-09-18",
     "cover": "/pulse/10-cover.png",
-    "linkedinUrl": "https://www.linkedin.com/posts/antonioserranopabon_harnesstax-how-much-does-the-harness-matter-activity-7506728660138188802-iZ0k",
+    "linkedinUrl": "https://www.linkedin.com/pulse/autopilot-pulse-10-harness-tax-self-driving-products-antonio-s--mvbxe/",
     "tldr": [
       "A Berkeley study held the model constant and varied the scaffolding around it. **The same model cost up to 5x more depending on the harness**, at near-identical success rates.",
       "**Claude Fable 5 on SWE-bench Lite:** 97.8% in Claude Code, 96.7% in Codex, 96.7% in Pi — at $1.33, $0.89 and $0.67 per attempt.",
