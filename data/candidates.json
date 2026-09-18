@@ -1,6 +1,32 @@
 {
- "generatedAt": "2026-09-17T12:11:02.358Z",
+ "generatedAt": "2026-09-18T11:34:22.973Z",
  "candidates": [
+  {
+   "id": "7eac249305c8",
+   "name": "Crusoe",
+   "evidence": [
+    {
+     "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+     "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+     "source": "investor",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-09-17T23:25:52.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-18T11:34:22.972Z",
+   "score": 2.25,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
   {
    "id": "9eed93f56762",
    "name": "Listen Labs",
@@ -55,6 +81,31 @@
    "status": "rejected"
   },
   {
+   "id": "d42c0112962b",
+   "name": "MIND",
+   "evidence": [
+    {
+     "title": "Israeli cybersecurity startup MIND raises $72 million as AI fuels data-security drive",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ka0o0QUR4aGpVXzQ4SkVFMWJyaEw4clJONW9aNkU5c2IzdGx0WndsZmtYTF85LWZISlNyaFR3alVtWU93T09Cd1M5VDU3UUI2ckNLcEcxdXJudnBCR1dicDllc2ExZFFmTk5mZg?oc=5",
+     "source": "gnews",
+     "domain": "ynetnews.com",
+     "publishedAt": "2026-09-18T01:53:56.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-18T11:34:22.972Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "b97e67acef59",
    "name": null,
    "evidence": [
@@ -80,6 +131,42 @@
    "status": "blocked"
   },
   {
+   "id": "a51db7d03ba2",
+   "name": "Rilo",
+   "evidence": [
+    {
+     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
+     "source": "gnews",
+     "domain": "finance.biggo.com",
+     "publishedAt": "2026-09-03T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
+    {
+     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB?oc=5",
+     "source": "gnews",
+     "domain": "business-standard.com",
+     "publishedAt": "2026-09-02T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 2,
+   "publishers": 2,
+   "firstSeen": "2026-09-12T12:32:31.738Z",
+   "score": 1,
+   "reasons": [
+    "named entity",
+    "2 publishers",
+    "acquired — no longer independent"
+   ],
+   "status": "rejected"
+  },
+  {
    "id": "7b40f84ddb48",
    "name": "Creem",
    "evidence": [
@@ -97,6 +184,54 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-17T12:11:02.358Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "730c64f12963",
+   "name": "UNIST",
+   "evidence": [
+    {
+     "title": "UNIST Launches Security Project for Self-Operating AI Agents",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdlF6b05zOTFYWUc5T1FjX1ZpRThxSE5scEFLXy15VVNGMEN2RjdabG5JMW9ua0dBVU1GUzA1b1Y5WGhQQ1NQTXdJOU1NZ2lPQk1OUmVSXzFrVGR4UlY4ZDZkTkdSVWxCRkwwYld6b1l4UEd4MFVOMTdIck1xeU5MM1NHdnFSSmw1akYyTGJUbjhpT3ZwVnJoTjF1dWNJcHZsaWItMzRmNGU?oc=5",
+     "source": "gnews",
+     "domain": "en.sedaily.com",
+     "publishedAt": "2026-09-18T01:33:55.000Z",
+     "matchedKeywords": [
+      "\"self-operating\" startup AI"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-18T11:34:22.973Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "69583e29ebe9",
+   "name": "Hancom",
+   "evidence": [
+    {
+     "title": "Hancom launches TV ad for Nomadian AI workforce platform, targeting U.S. market",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFdJSXFYeTNDUmkzMlRwYTBRdVd1eWFYOUdtZ012UkRwQUFGOFMxSGRaMDNtYzVEaEVmR2t6bzl6TlhKSDdTaGZ5Q284WlRrMGljMkVDeTdncGJpWVdqaGdXZC1VUE9DUE9vNFJtaDUwT3lvTzQ4RGdxcWZBX0otMkhRNmlpRDBkaE9aOUszZUYxLXJta1YwSkFvNk9mclZoRkw2dVBCQXN4UkN5R3RBLW5YbjFmd1hpVW9oMXJOTTY?oc=5",
+     "source": "gnews",
+     "domain": "digitaltoday.co.kr",
+     "publishedAt": "2026-09-18T00:58:09.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-18T11:34:22.973Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -152,30 +287,6 @@
    "status": "rejected"
   },
   {
-   "id": "079ecfc943c7",
-   "name": "Gupshup",
-   "evidence": [
-    {
-     "title": "Gupshup Launches Self-Serve Voice AI Platform, Extending Conversational Engagement into Phone Calls",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObnpndXRhUlVFSldWWW93UjZTN2tvZFlyZmZ5Um12eFlBeEtsNElrd2FnMmIwd01CZzYwbzNfdzZfdW1ldjJScWZmVUZoV0JyQVZTREllRHh0WHY0N3NGam9JMFdPZVVsdVdnSEJrMjZCTmtxQzB4VWRkRzRZanZLS1FHXzl0Vl9ZZHpDZ1hjX2pUUXZoWnpWZWxlazFLOTZQZWZTRmpCOUg2YXlkOTFVb1E3b3BYMFlFVWcwMkJDeVRjeHJEX2NZU3FRVUpPNnJNTkszd2MwRkNPTk1HRDVQcWh5Mm1wNEhna0IxaA?oc=5",
-     "source": "gnews",
-     "domain": "prnewswire.co.uk",
-     "publishedAt": "2026-09-04T06:00:00.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-12T12:32:31.738Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "rejected"
-  },
-  {
    "id": "b46460fa655d",
    "name": null,
    "evidence": [
@@ -200,27 +311,26 @@
    "status": "blocked"
   },
   {
-   "id": "a51db7d03ba2",
-   "name": "Rilo",
+   "id": "079ecfc943c7",
+   "name": "Gupshup",
    "evidence": [
     {
-     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
+     "title": "Gupshup Launches Self-Serve Voice AI Platform, Extending Conversational Engagement into Phone Calls",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObnpndXRhUlVFSldWWW93UjZTN2tvZFlyZmZ5Um12eFlBeEtsNElrd2FnMmIwd01CZzYwbzNfdzZfdW1ldjJScWZmVUZoV0JyQVZTREllRHh0WHY0N3NGam9JMFdPZVVsdVdnSEJrMjZCTmtxQzB4VWRkRzRZanZLS1FHXzl0Vl9ZZHpDZ1hjX2pUUXZoWnpWZWxlazFLOTZQZWZTRmpCOUg2YXlkOTFVb1E3b3BYMFlFVWcwMkJDeVRjeHJEX2NZU3FRVUpPNnJNTkszd2MwRkNPTk1HRDVQcWh5Mm1wNEhna0IxaA?oc=5",
      "source": "gnews",
-     "domain": "finance.biggo.com",
-     "publishedAt": "2026-09-03T07:00:00.000Z",
+     "domain": "prnewswire.co.uk",
+     "publishedAt": "2026-09-04T06:00:00.000Z",
      "matchedKeywords": [
-      "\"AI employees\" startup"
+      "AI voice agent called restaurants OR pubs OR shops price"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-12T12:32:31.738Z",
-   "score": 0.5,
+   "score": 1,
    "reasons": [
-    "named entity",
-    "acquired — no longer independent"
+    "named entity"
    ],
    "status": "rejected"
   },
