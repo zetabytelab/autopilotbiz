@@ -146,6 +146,16 @@ export async function runApifyTarget(target, input, token, settings, fetchImpl =
   return rows;
 }
 
+// Truncate without splitting an emoji. Slicing mid surrogate pair leaves a lone
+// high surrogate, which serialises as "\ud83d" and makes data/pulse.json invalid
+// JSON for the build — CI went red this way on 15 and 18 September 2026.
+function clip(text, max) {
+  if (text.length <= max) return text;
+  let cut = text.slice(0, max - 3);
+  if (/[\uD800-\uDBFF]$/.test(cut)) cut = cut.slice(0, -1);
+  return cut + "…";
+}
+
 function isoDate(raw) {
   if (raw === null || raw === undefined || raw === "") return null;
   const value = typeof raw === "number" && raw < 10_000_000_000 ? raw * 1000 : raw;
@@ -199,7 +209,7 @@ export function normalizeSocialRows(target, rows, now, settings) {
     const label = historical ? ` [${subject.relationship === "former" ? "formerly" : "affiliation under review:"} ${subject.entityName}]` : "";
     const points = platform === "x" ? r.likeCount : r.engagement?.likes ?? r.reactionsCount ?? r.likesCount;
     items.push({
-      title: `${prefix}${label}: ${text.length > 160 ? text.slice(0, 157) + "…" : text}`,
+      title: `${prefix}${label}: ${clip(text, 160)}`,
       url, domain: platform === "x" ? "x.com" : "linkedin.com", publishedAt, sourceId: platform,
       companySlug: historical ? null : subject.pulseSlug,
       ...(Number.isFinite(points) && points >= 0 ? { points } : {}),
