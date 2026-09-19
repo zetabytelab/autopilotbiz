@@ -1,6 +1,32 @@
 {
- "generatedAt": "2026-09-18T11:34:22.973Z",
+ "generatedAt": "2026-09-19T11:23:51.620Z",
  "candidates": [
+  {
+   "id": "41d216fcb0f5",
+   "name": "Delos",
+   "evidence": [
+    {
+     "title": "Delos raises €10M to bring its autonomous \"AI employees\" to the US",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb0stTTBjWjlYalZnUzh0eW1RUHEyNWZsNHhHNkdBZWY1S19mdjhrbmZBQnpneUt5M1dYTlBSRHRVR25vYWF5S1NPb0RSNEJ5VEhGYXkxQ1dhWjlBSFNxV0xKZDVoNDlHVWZTd0gxYlUtMFh1VmV6N3RiVjE0UFRTVlR6UldCa3hFOUg0blRrdl9uRlZwSm1IXzkteGswQQ?oc=5",
+     "source": "gnews",
+     "domain": "app.dealroom.co",
+     "publishedAt": "2026-09-16T05:30:39.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-19T11:23:51.619Z",
+   "score": 2.75,
+   "reasons": [
+    "named entity",
+    "autonomy thesis",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
   {
    "id": "7eac249305c8",
    "name": "Crusoe",
@@ -106,6 +132,31 @@
    "status": "new"
   },
   {
+   "id": "892168464f72",
+   "name": "MAGIC AI",
+   "evidence": [
+    {
+     "title": "MAGIC AI Revenue 2025: $4.1M Est. ARR, $8.6M Raised",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fd3RYdjVCQVlWTlpqUG1MRlZNY05qTHo2REhlWDlkaG9VWERQcnpIWml4OEdLdVQya0lFZ3ZRRGZwZWZzTXU4V1BLRnRDZ3pmdkE?oc=5",
+     "source": "gnews",
+     "domain": "getlatka.com",
+     "publishedAt": "2026-09-02T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-19T11:23:51.620Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "b97e67acef59",
    "name": null,
    "evidence": [
@@ -131,6 +182,41 @@
    "status": "blocked"
   },
   {
+   "id": "69583e29ebe9",
+   "name": "Hancom",
+   "evidence": [
+    {
+     "title": "Hancom launches TV ad for Nomadian AI workforce platform, targeting U.S. market",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFdJSXFYeTNDUmkzMlRwYTBRdVd1eWFYOUdtZ012UkRwQUFGOFMxSGRaMDNtYzVEaEVmR2t6bzl6TlhKSDdTaGZ5Q284WlRrMGljMkVDeTdncGJpWVdqaGdXZC1VUE9DUE9vNFJtaDUwT3lvTzQ4RGdxcWZBX0otMkhRNmlpRDBkaE9aOUszZUYxLXJta1YwSkFvNk9mclZoRkw2dVBCQXN4UkN5R3RBLW5YbjFmd1hpVW9oMXJOTTY?oc=5",
+     "source": "gnews",
+     "domain": "digitaltoday.co.kr",
+     "publishedAt": "2026-09-18T00:58:09.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    },
+    {
+     "title": "Hancom launches 'Nomadian,' billed as world's first AI workforce platform, targeting US solo entrepreneurs",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UaWV1NnEtTDJQM204Y2c4SFRLeEpMa1lkWWdzVG8zVnBwX2ZOZkdjbENuN0FGZzNVQjJmS043aXBaSUxmS2FtcTFjMTN1andEeExUd1VFOA?oc=5",
+     "source": "gnews",
+     "domain": "mbiz.heraldcorp.com",
+     "publishedAt": "2026-09-14T23:55:15.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 2,
+   "publishers": 2,
+   "firstSeen": "2026-09-18T11:34:22.973Z",
+   "score": 1.5,
+   "reasons": [
+    "named entity",
+    "2 publishers"
+   ],
+   "status": "new"
+  },
+  {
    "id": "a51db7d03ba2",
    "name": "Rilo",
    "evidence": [
@@ -146,7 +232,7 @@
     },
     {
      "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
      "source": "gnews",
      "domain": "business-standard.com",
      "publishedAt": "2026-09-02T07:00:00.000Z",
@@ -165,78 +251,6 @@
     "acquired — no longer independent"
    ],
    "status": "rejected"
-  },
-  {
-   "id": "7b40f84ddb48",
-   "name": "Creem",
-   "evidence": [
-    {
-     "title": "Creem secures €5M to build financial infrastructure for AI-native startups",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRlpuajZ3eG5jb0Z0dzB3TGktdXdURi1XWHpvN19sX2lFZ2VsT3RqUVd4eXpxUDF6VXhEaFlOVHlUU0drWUgwU0g5X1JuVTg1TThXRl8tazBCOEhLTkNabVlGQTNXUktkbUoyRmZIa05qR19WWUkzY1RXOVh6bVdnQVV0YjJTRE9oSEtPVGRrQVp4SThOS3VtMWhYbFZuejBzTUF5Wm0ybw?oc=5",
-     "source": "gnews",
-     "domain": "tech.eu",
-     "publishedAt": "2026-09-17T05:48:24.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-17T12:11:02.358Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "730c64f12963",
-   "name": "UNIST",
-   "evidence": [
-    {
-     "title": "UNIST Launches Security Project for Self-Operating AI Agents",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdlF6b05zOTFYWUc5T1FjX1ZpRThxSE5scEFLXy15VVNGMEN2RjdabG5JMW9ua0dBVU1GUzA1b1Y5WGhQQ1NQTXdJOU1NZ2lPQk1OUmVSXzFrVGR4UlY4ZDZkTkdSVWxCRkwwYld6b1l4UEd4MFVOMTdIck1xeU5MM1NHdnFSSmw1akYyTGJUbjhpT3ZwVnJoTjF1dWNJcHZsaWItMzRmNGU?oc=5",
-     "source": "gnews",
-     "domain": "en.sedaily.com",
-     "publishedAt": "2026-09-18T01:33:55.000Z",
-     "matchedKeywords": [
-      "\"self-operating\" startup AI"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-18T11:34:22.973Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "69583e29ebe9",
-   "name": "Hancom",
-   "evidence": [
-    {
-     "title": "Hancom launches TV ad for Nomadian AI workforce platform, targeting U.S. market",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFdJSXFYeTNDUmkzMlRwYTBRdVd1eWFYOUdtZ012UkRwQUFGOFMxSGRaMDNtYzVEaEVmR2t6bzl6TlhKSDdTaGZ5Q284WlRrMGljMkVDeTdncGJpWVdqaGdXZC1VUE9DUE9vNFJtaDUwT3lvTzQ4RGdxcWZBX0otMkhRNmlpRDBkaE9aOUszZUYxLXJta1YwSkFvNk9mclZoRkw2dVBCQXN4UkN5R3RBLW5YbjFmd1hpVW9oMXJOTTY?oc=5",
-     "source": "gnews",
-     "domain": "digitaltoday.co.kr",
-     "publishedAt": "2026-09-18T00:58:09.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-18T11:34:22.973Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
   },
   {
    "id": "5f493757a8d8",
@@ -357,6 +371,28 @@
     "acquired — no longer independent"
    ],
    "status": "rejected"
+  },
+  {
+   "id": "70cc19cbfe29",
+   "name": null,
+   "evidence": [
+    {
+     "title": "By 2027, AI Will Be Ubiquitous in Business, Yet Few Companies Will Unlock Its True Potential",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYVFQand6N05EOGhjSVBjRGUtTF9zSEdDXzN3MjducmlOX01tdlZpM0xoa1VsWHBSWjN6OWZyYm1pdy1XaEJHSF9KNGU4OWp5NE9PdkV4eWU0eld4N3l4SW16ZEJaS1RUd3B4TmlPcnNsZWJGaDFpemlVRy1NcGdpbnVKaEdZQWlTblMwdkRkQlloU1NSQjlDN1BoU1BVenFOT0lfY0RHM2l3emR3VnJVaWVRU0JNS0l4OHAyQTRScDFORjNva3ZWM1FkRlA1d9IBzgFBVV95cUxPYVFQand6N05EOGhjSVBjRGUtTF9zSEdDXzN3MjducmlOX01tdlZpM0xoa1VsWHBSWjN6OWZyYm1pdy1XaEJHSF9KNGU4OWp5NE9PdkV4eWU0eld4N3l4SW16ZEJaS1RUd3B4TmlPcnNsZWJGaDFpemlVRy1NcGdpbnVKaEdZQWlTblMwdkRkQlloU1NSQjlDN1BoU1BVenFOT0lfY0RHM2l3emR3VnJVaWVRU0JNS0l4OHAyQTRScDFORjNva3ZWM1FkRlA1dw?oc=5",
+     "source": "gnews",
+     "domain": "inkorr.com",
+     "publishedAt": "2026-09-18T09:12:56.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-19T11:23:51.620Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
   },
   {
    "id": "98968ecece9f",
