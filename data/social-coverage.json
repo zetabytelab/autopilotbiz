@@ -1,23 +1,2582 @@
 {
- "generatedAt": "2026-09-19T11:07:42.263Z",
+ "generatedAt": "2026-09-20T11:31:29.903Z",
  "plan": {
   "platforms": [
-   "x"
+   "x",
+   "linkedin"
   ],
   "subjects": 245,
   "entities": 67,
   "xAccounts": 157,
-  "linkedinProfiles": 0,
-  "linkedinCompanies": 0,
-  "requests": 157,
-  "maxReturnedPosts": 3140,
-  "maxChargeUsd": 3.14,
+  "linkedinProfiles": 151,
+  "linkedinCompanies": 61,
+  "requests": 369,
+  "maxReturnedPosts": 5260,
+  "maxChargeUsd": 9.5,
   "concurrency": 3,
   "reviewAccounts": 11,
   "missingAccounts": 108,
   "unresearchedEntities": []
  },
  "targets": [
+  {
+   "id": "linkedin:https://www.linkedin.com/company/11x-ai/",
+   "status": "ok",
+   "ok": true,
+   "items": 5,
+   "fetched": 5,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7983,
+   "published": 5,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/agentmailto/",
+   "status": "ok",
+   "ok": true,
+   "items": 6,
+   "fetched": 6,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 8752,
+   "published": 6,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/akamai-technologies/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 5191,
+   "published": 10,
+   "retained": 14
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/anchorbrowser/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3917,
+   "published": 1,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/anthropicresearch/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4191,
+   "published": 3,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/apify/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 9019,
+   "published": 10,
+   "retained": 20
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/artisanai/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7409,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/base44/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5347,
+   "published": 3,
+   "retained": 11
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/beacon-health-ai/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3225,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/blaxel-ai/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4993,
+   "published": 3,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/boardy/",
+   "status": "ok",
+   "ok": true,
+   "items": 7,
+   "fetched": 7,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7457,
+   "published": 7,
+   "retained": 12
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/browserbasehq/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4071,
+   "published": 3,
+   "retained": 10
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/caffeine-ai/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5562,
+   "published": 2,
+   "retained": 8
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/coreweave/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 6847,
+   "published": 10,
+   "retained": 19
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/cursorai/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4635,
+   "published": 1,
+   "retained": 6
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/daytonaio/",
+   "status": "ok",
+   "ok": true,
+   "items": 5,
+   "fetched": 5,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6444,
+   "published": 5,
+   "retained": 10
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/delphi-ai/",
+   "status": "partial",
+   "ok": false,
+   "items": 2,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {
+    "author-mismatch": 1
+   },
+   "ms": 4266,
+   "published": 2,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/digitalocean/",
+   "status": "ok",
+   "ok": true,
+   "items": 9,
+   "fetched": 9,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5790,
+   "published": 9,
+   "retained": 14
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/e2b-dev/",
+   "status": "ok",
+   "ok": true,
+   "items": 4,
+   "fetched": 4,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7144,
+   "published": 4,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/egbe-ai/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3217,
+   "published": 1,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/elevenlabsio/",
+   "status": "partial",
+   "ok": false,
+   "items": 0,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {
+    "author-mismatch": 10
+   },
+   "ms": 3753,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/feltsense/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3446,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/firecrawl/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3699,
+   "published": 1,
+   "retained": 8
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/gamma-app/",
+   "status": "partial",
+   "ok": false,
+   "items": 3,
+   "fetched": 4,
+   "hitLimit": false,
+   "rejected": {
+    "author-mismatch": 1
+   },
+   "ms": 4105,
+   "published": 3,
+   "retained": 8
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/gominimal/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4482,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/groq/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5224,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/happyrobot/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6777,
+   "published": 1,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/lambda-cloud/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 3832,
+   "published": 10,
+   "retained": 9
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/langfuse/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4126,
+   "published": 3,
+   "retained": 11
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/lindyai/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4288,
+   "published": 2,
+   "retained": 5
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/lunavo-ai/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3569,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/midjourney/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3908,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/modal-labs/",
+   "status": "ok",
+   "ok": true,
+   "items": 7,
+   "fetched": 7,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7859,
+   "published": 7,
+   "retained": 7
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/modelcontextprotocol/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4708,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/n8n/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 4628,
+   "published": 10,
+   "retained": 15
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/nanocorphq/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4931,
+   "published": 1,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/neondatabase/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5379,
+   "published": 3,
+   "retained": 7
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/nousresearch/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3638,
+   "published": 3,
+   "retained": 10
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/openai/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5076,
+   "published": 3,
+   "retained": 13
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/openrouter/",
+   "status": "ok",
+   "ok": true,
+   "items": 7,
+   "fetched": 7,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6051,
+   "published": 7,
+   "retained": 11
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/paymanai/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5757,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/polar-sh/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5471,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/polsia/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7936,
+   "published": 1,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/postmarkapp/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4644,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/renderco/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6163,
+   "published": 2,
+   "retained": 13
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/resend/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 6733,
+   "published": 10,
+   "retained": 19
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/retellai/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7111,
+   "published": 3,
+   "retained": 7
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/runpod-io/",
+   "status": "ok",
+   "ok": true,
+   "items": 9,
+   "fetched": 9,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6078,
+   "published": 9,
+   "retained": 14
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/saunabywordware/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6601,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/sciforium/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6584,
+   "published": 2,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/semio-ai/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3203,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/soniox/",
+   "status": "ok",
+   "ok": true,
+   "items": 7,
+   "fetched": 7,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3728,
+   "published": 7,
+   "retained": 12
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/supabase/",
+   "status": "ok",
+   "ok": true,
+   "items": 9,
+   "fetched": 9,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5081,
+   "published": 9,
+   "retained": 12
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/the-general-intelligence-company-of-new-york/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4015,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/the-openclaw-foundation/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6311,
+   "published": 1,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/togethercompute/",
+   "status": "partial",
+   "ok": false,
+   "items": 0,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {
+    "author-mismatch": 10
+   },
+   "ms": 4872,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/usebasis/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3314,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/usenaive/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3420,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/vapi-ai/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 3903,
+   "published": 10,
+   "retained": 20
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/vercel/",
+   "status": "ok",
+   "ok": true,
+   "items": 4,
+   "fetched": 4,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 9196,
+   "published": 4,
+   "retained": 11
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/abhinavboyed/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4219,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/abhishyantkhare/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7092,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/adivirsingh13/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4345,
+   "published": 3,
+   "retained": 6
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/akshat-bubna-188885103/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6982,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/alexander-liteplo/",
+   "status": "ok",
+   "ok": true,
+   "items": 5,
+   "fetched": 5,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7965,
+   "published": 5,
+   "retained": 11
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/alexatallah/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5657,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/aman-sanger-482243171/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3129,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ambroz-bizjak-07104a206/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4029,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/andrewdsouza/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3805,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/andrewpignanelli/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4386,
+   "published": 1,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ankur-boyed/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4372,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ant-wilson-46179937/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4298,
+   "published": 1,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/anuragoel/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4611,
+   "published": 1,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/arvid-lunnemark/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3209,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/azamat-khalilov-2530b91a9/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4089,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/bcherny/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4051,
+   "published": 0,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/benbroca/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 6285,
+   "published": 10,
+   "retained": 14
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/benjamin-mann/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6655,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/benuretsky/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7475,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/bingw/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5195,
+   "published": 1,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/birknilson/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4053,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/bkinoshita/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4041,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/bmcdorman/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 8486,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/branninmcbee/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4096,
+   "published": 1,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/brian-venturo-6719b812/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3741,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/caker/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5250,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/caleb-peffer/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7868,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ce-zhang-6aa37419/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4732,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/charles-drappier-48017962/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4690,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/chenglin-wu-x/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5577,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/christophe-ploujoux/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 9446,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/christopher-olah-b574414a/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4716,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/crochetthomas/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4160,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/daniela-amodei-790bb22a/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7950,
+   "published": 2,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/dara-ladjevardian/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5790,
+   "published": 1,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/dario-amodei-3934934/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5644,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/david-soria-parra-4a78b3a/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7946,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ddorda/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4429,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/denniszax/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 8889,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/dougwightman/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4343,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/embirico/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5045,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/eric-ciarla/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4306,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/erikbern/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3735,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/felix-loesch/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3297,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/filipkozera/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5541,
+   "published": 2,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/florentcrivello/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4344,
+   "published": 1,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/gallaghermatthew/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4972,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/gavrielco/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4509,
+   "published": 1,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/goran-draganic/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7532,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/gpus/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6485,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/grantslee/",
+   "status": "ok",
+   "ok": true,
+   "items": 5,
+   "fetched": 5,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4527,
+   "published": 5,
+   "retained": 9
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/guy-bensimhon/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5787,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/haaaujla/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3917,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/hasansukkar/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5216,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/hassan-akbari-48a1b270/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4898,
+   "published": 1,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/hechaoyang/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4212,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/heikki-linnakangas-6b58bb203/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4421,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/heun/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6071,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/hyun-michael-kim-281242220/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5342,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/idan-raman/",
+   "status": "ok",
+   "ok": true,
+   "items": 4,
+   "fetched": 4,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 8569,
+   "published": 4,
+   "retained": 7
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/idmcgregor/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5519,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ivanburazin/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4597,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jack-clark-5a320317/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5551,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jainprabhav/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3859,
+   "published": 1,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jakub-pachocki/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 2991,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/james-f-fox/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5262,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jancurn/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5330,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/janoberhauser/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5063,
+   "published": 1,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jared-kaplan-645843213/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4820,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/javierpalafox/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 8180,
+   "published": 1,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jbalada/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7253,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jeffrey-quesnelle-2490a524/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3738,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jonnilundy/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6345,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jonnoronha/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6347,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jordandearsley/",
+   "status": "partial",
+   "ok": false,
+   "items": 1,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {
+    "malformed": 9
+   },
+   "ms": 4529,
+   "published": 1,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jvandeboom/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7397,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/karan-s-malhotra/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6123,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/klemensimonic/",
+   "status": "ok",
+   "ok": true,
+   "items": 8,
+   "fetched": 8,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7522,
+   "published": 8,
+   "retained": 13
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/lazercohen/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 8628,
+   "published": 1,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/louisgv/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6952,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/luispaarup/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5433,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/malteubl/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5493,
+   "published": 2,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/maorshlomo/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7117,
+   "published": 1,
+   "retained": 8
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/marcklingen/",
+   "status": "ok",
+   "ok": true,
+   "items": 5,
+   "fetched": 5,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6644,
+   "published": 5,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/marektrunkat/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7572,
+   "published": 1,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/marikhazan/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5759,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mark-pothen/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7211,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mathis-joffre-30992712a/",
+   "status": "partial",
+   "ok": false,
+   "items": 0,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {
+    "author-mismatch": 1
+   },
+   "ms": 7323,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/matiii/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4593,
+   "published": 1,
+   "retained": 8
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/matt-harpe/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4587,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mattstein5/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6992,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/maxdeichmann/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 9640,
+   "published": 2,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/michael-intrator-2383aa57/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 28869,
+   "published": 1,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/michael-t-5b1bbb122/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5261,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/michaelggreer/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3714,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mitchelltroyanovsky/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4520,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mlejva/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4711,
+   "published": 3,
+   "retained": 7
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/neville-jos/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7511,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nicolas-lecomte-080317153/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3864,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nicolas-silberstein-camara/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5305,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/niek-hogenboom/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3730,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nikhilro/",
+   "status": "partial",
+   "ok": false,
+   "items": 0,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {
+    "malformed": 10
+   },
+   "ms": 3796,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nikitashamgunov/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5696,
+   "published": 1,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nottombrown/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3511,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/obinnaakahara/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 10870,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/pablorpalafox/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6970,
+   "published": 1,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/paddysrinivasan/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5139,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/pamirehsas/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7293,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/pankajlakhina/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4848,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/pardeep-singh-917830237/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5141,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/patricia-tani/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5090,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/paul-sinai/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6596,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/paulcopplestone/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4649,
+   "published": 2,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/paulkleiniv/",
+   "status": "ok",
+   "ok": true,
+   "items": 3,
+   "fetched": 3,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4430,
+   "published": 3,
+   "retained": 10
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/plbiojout/",
+   "status": "ok",
+   "ok": true,
+   "items": 4,
+   "fetched": 4,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6566,
+   "published": 4,
+   "retained": 10
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/prashanthkreddy/",
+   "status": "ok",
+   "ok": true,
+   "items": 9,
+   "fetched": 9,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4890,
+   "published": 9,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rahul-patil-a0944836/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5660,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/randallkaplan/",
+   "status": "partial",
+   "ok": false,
+   "items": 10,
+   "fetched": 10,
+   "hitLimit": true,
+   "rejected": {},
+   "ms": 3623,
+   "published": 10,
+   "retained": 16
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rauchg/",
+   "status": "ok",
+   "ok": true,
+   "items": 6,
+   "fetched": 6,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6653,
+   "published": 6,
+   "retained": 11
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rawert/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4809,
+   "published": 2,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/robertjhchandler/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4535,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ross-jonathan/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5175,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rossmead/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7416,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rupertdodkins/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6722,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/salanki/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3708,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/sam-mccandlish/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4198,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/samantha12345/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7152,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/samuel-spelsberg/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4896,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/sbalaban/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5211,
+   "published": 2,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/seandorje/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3642,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/shensivananthan/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5751,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/shivani-mitra/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3608,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/stefan-mandaric/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5702,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/steipete/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6192,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/sualeh-a-1a4a97116/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3284,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/teknium-b538932ab/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3496,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/thegdb/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3508,
+   "published": 1,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/thibault-sottiaux-27195366/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3509,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/titus-ex-85691711a/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7790,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/tleighton/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 6806,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/toddli1/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5084,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/tyllenbicakcic/",
+   "status": "ok",
+   "ok": true,
+   "items": 6,
+   "fetched": 6,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7296,
+   "published": 6,
+   "retained": 8
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/valentatomas/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4329,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/vedranjukic/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5903,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/vipulved/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4504,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/vyahhi/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5173,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/weijiayu88/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4055,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/yanwang131415/",
+   "status": "ok",
+   "ok": true,
+   "items": 1,
+   "fetched": 1,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 5249,
+   "published": 1,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/zeen/",
+   "status": "ok",
+   "ok": true,
+   "items": 2,
+   "fetched": 2,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 4813,
+   "published": 2,
+   "retained": 11
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/zenorocha/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7539,
+   "published": 0,
+   "retained": 9
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/zexia-zhang/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 7155,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/showcase/atoms-dev/",
+   "status": "empty",
+   "ok": true,
+   "items": 0,
+   "fetched": 0,
+   "hitLimit": false,
+   "rejected": {},
+   "ms": 3993,
+   "published": 0,
+   "retained": 0
+  },
   {
    "id": "x:0xtyllen",
    "status": "partial",
@@ -28,7 +2587,7 @@
    "rejected": {
     "repost": 2
    },
-   "ms": 23991,
+   "ms": 18871,
    "published": 18,
    "retained": 14
   },
@@ -43,7 +2602,7 @@
     "date-window": 16,
     "repost": 3
    },
-   "ms": 5894,
+   "ms": 43357,
    "published": 1,
    "retained": 0
   },
@@ -58,7 +2617,7 @@
     "repost": 16,
     "date-window": 4
    },
-   "ms": 5704,
+   "ms": 8015,
    "published": 0,
    "retained": 0
   },
@@ -72,9 +2631,9 @@
    "rejected": {
     "repost": 4
    },
-   "ms": 18961,
+   "ms": 45537,
    "published": 16,
-   "retained": 15
+   "retained": 17
   },
   {
    "id": "x:agentmail",
@@ -86,7 +2645,7 @@
    "rejected": {
     "repost": 10
    },
-   "ms": 8520,
+   "ms": 25978,
    "published": 10,
    "retained": 12
   },
@@ -101,7 +2660,7 @@
     "date-window": 15,
     "repost": 5
    },
-   "ms": 22793,
+   "ms": 34094,
    "published": 0,
    "retained": 0
   },
@@ -113,23 +2672,23 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 6035,
+   "ms": 4443,
    "published": 20,
-   "retained": 9
+   "retained": 7
   },
   {
    "id": "x:akshat_b",
    "status": "partial",
    "ok": false,
-   "items": 4,
+   "items": 3,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 7,
-    "date-window": 9
+    "date-window": 10
    },
-   "ms": 25661,
-   "published": 4,
+   "ms": 6713,
+   "published": 3,
    "retained": 0
   },
   {
@@ -142,7 +2701,7 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 4868,
+   "ms": 13934,
    "published": 19,
    "retained": 13
   },
@@ -157,7 +2716,7 @@
     "repost": 8,
     "date-window": 12
    },
-   "ms": 17072,
+   "ms": 20000,
    "published": 0,
    "retained": 0
   },
@@ -171,9 +2730,9 @@
    "rejected": {
     "repost": 9
    },
-   "ms": 25835,
+   "ms": 18085,
    "published": 11,
-   "retained": 9
+   "retained": 13
   },
   {
    "id": "x:altimor",
@@ -183,11 +2742,12 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 11
+    "date-window": 1,
+    "repost": 10
    },
-   "ms": 6668,
+   "ms": 5031,
    "published": 9,
-   "retained": 14
+   "retained": 15
   },
   {
    "id": "x:amanrsanger",
@@ -200,7 +2760,7 @@
     "repost": 4,
     "date-window": 16
    },
-   "ms": 7109,
+   "ms": 17631,
    "published": 0,
    "retained": 0
   },
@@ -215,7 +2775,7 @@
     "date-window": 13,
     "repost": 5
    },
-   "ms": 5838,
+   "ms": 23766,
    "published": 0,
    "retained": 0
   },
@@ -223,16 +2783,15 @@
    "id": "x:andrewdsouza",
    "status": "partial",
    "ok": false,
-   "items": 13,
+   "items": 14,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 1,
     "repost": 6
    },
-   "ms": 32344,
-   "published": 13,
-   "retained": 8
+   "ms": 17506,
+   "published": 14,
+   "retained": 7
   },
   {
    "id": "x:anthropicai",
@@ -244,7 +2803,7 @@
    "rejected": {
     "repost": 2
    },
-   "ms": 12878,
+   "ms": 6958,
    "published": 18,
    "retained": 5
   },
@@ -258,7 +2817,7 @@
    "rejected": {
     "repost": 15
    },
-   "ms": 27744,
+   "ms": 5759,
    "published": 5,
    "retained": 7
   },
@@ -272,23 +2831,23 @@
    "rejected": {
     "repost": 2
    },
-   "ms": 37680,
+   "ms": 15589,
    "published": 18,
-   "retained": 2
+   "retained": 0
   },
   {
    "id": "x:apify",
    "status": "partial",
    "ok": false,
-   "items": 17,
+   "items": 18,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 3
+    "repost": 2
    },
-   "ms": 11278,
-   "published": 17,
-   "retained": 30
+   "ms": 14690,
+   "published": 18,
+   "retained": 32
   },
   {
    "id": "x:arvid220u",
@@ -301,7 +2860,7 @@
     "repost": 3,
     "date-window": 8
    },
-   "ms": 19527,
+   "ms": 6081,
    "published": 0,
    "retained": 0
   },
@@ -316,7 +2875,7 @@
     "repost": 5,
     "date-window": 6
    },
-   "ms": 5940,
+   "ms": 32547,
    "published": 0,
    "retained": 0
   },
@@ -331,7 +2890,7 @@
     "date-window": 17,
     "repost": 2
    },
-   "ms": 16956,
+   "ms": 23582,
    "published": 1,
    "retained": 0
   },
@@ -345,7 +2904,7 @@
    "rejected": {
     "repost": 4
    },
-   "ms": 11800,
+   "ms": 39601,
    "published": 16,
    "retained": 4
   },
@@ -359,7 +2918,7 @@
    "rejected": {
     "repost": 10
    },
-   "ms": 5835,
+   "ms": 31074,
    "published": 10,
    "retained": 12
   },
@@ -373,9 +2932,9 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 24297,
+   "ms": 14440,
    "published": 19,
-   "retained": 44
+   "retained": 46
   },
   {
    "id": "x:bernhardsson",
@@ -388,7 +2947,7 @@
     "repost": 4,
     "date-window": 5
    },
-   "ms": 29177,
+   "ms": 6733,
    "published": 11,
    "retained": 0
   },
@@ -403,7 +2962,7 @@
     "date-window": 13,
     "repost": 4
    },
-   "ms": 36431,
+   "ms": 24244,
    "published": 3,
    "retained": 0
   },
@@ -418,7 +2977,7 @@
     "repost": 5,
     "date-window": 2
    },
-   "ms": 23549,
+   "ms": 16728,
    "published": 13,
    "retained": 0
   },
@@ -433,7 +2992,7 @@
     "repost": 3,
     "date-window": 8
    },
-   "ms": 12004,
+   "ms": 6490,
    "published": 9,
    "retained": 0
   },
@@ -447,7 +3006,7 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 12604,
+   "ms": 28632,
    "published": 19,
    "retained": 47
   },
@@ -461,7 +3020,7 @@
    "rejected": {
     "repost": 13
    },
-   "ms": 7310,
+   "ms": 50998,
    "published": 7,
    "retained": 9
   },
@@ -476,7 +3035,7 @@
     "date-window": 16,
     "repost": 4
    },
-   "ms": 31186,
+   "ms": 5962,
    "published": 0,
    "retained": 0
   },
@@ -491,7 +3050,7 @@
     "repost": 3,
     "date-window": 3
    },
-   "ms": 9462,
+   "ms": 27216,
    "published": 14,
    "retained": 0
   },
@@ -503,10 +3062,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 10,
-    "repost": 2
+    "repost": 3,
+    "date-window": 9
    },
-   "ms": 23261,
+   "ms": 16360,
    "published": 8,
    "retained": 0
   },
@@ -521,7 +3080,7 @@
     "repost": 18,
     "date-window": 2
    },
-   "ms": 8128,
+   "ms": 5974,
    "published": 0,
    "retained": 0
   },
@@ -535,7 +3094,7 @@
    "rejected": {
     "date-window": 18
    },
-   "ms": 14931,
+   "ms": 55261,
    "published": 2,
    "retained": 0
   },
@@ -547,10 +3106,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 9,
-    "date-window": 11
+    "date-window": 11,
+    "repost": 9
    },
-   "ms": 30190,
+   "ms": 16562,
    "published": 0,
    "retained": 0
   },
@@ -565,7 +3124,7 @@
     "repost": 14,
     "date-window": 6
    },
-   "ms": 4965,
+   "ms": 4890,
    "published": 0,
    "retained": 0
   },
@@ -573,29 +3132,29 @@
    "id": "x:coreweave",
    "status": "partial",
    "ok": false,
-   "items": 18,
+   "items": 17,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 2
+    "repost": 3
    },
-   "ms": 10378,
-   "published": 18,
-   "retained": 23
+   "ms": 5300,
+   "published": 17,
+   "retained": 25
   },
   {
    "id": "x:cramforce",
    "status": "partial",
    "ok": false,
-   "items": 14,
+   "items": 13,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 6
+    "repost": 7
    },
-   "ms": 21624,
-   "published": 14,
-   "retained": 23
+   "ms": 33031,
+   "published": 13,
+   "retained": 25
   },
   {
    "id": "x:cursor_ai",
@@ -605,10 +3164,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 3,
-    "date-window": 5
+    "date-window": 6,
+    "repost": 2
    },
-   "ms": 7741,
+   "ms": 5821,
    "published": 12,
    "retained": 0
   },
@@ -623,7 +3182,7 @@
     "repost": 14,
     "date-window": 6
    },
-   "ms": 7995,
+   "ms": 53892,
    "published": 0,
    "retained": 0
   },
@@ -631,15 +3190,15 @@
    "id": "x:daraladje",
    "status": "partial",
    "ok": false,
-   "items": 10,
+   "items": 9,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 8,
-    "date-window": 2
+    "date-window": 3
    },
-   "ms": 26924,
-   "published": 10,
+   "ms": 15399,
+   "published": 9,
    "retained": 0
   },
   {
@@ -653,7 +3212,7 @@
     "repost": 2,
     "date-window": 17
    },
-   "ms": 12827,
+   "ms": 29705,
    "published": 1,
    "retained": 0
   },
@@ -667,7 +3226,7 @@
    "rejected": {
     "date-window": 9
    },
-   "ms": 47613,
+   "ms": 27127,
    "published": 11,
    "retained": 0
   },
@@ -681,7 +3240,7 @@
    "rejected": {
     "repost": 12
    },
-   "ms": 9175,
+   "ms": 49068,
    "published": 8,
    "retained": 3
   },
@@ -695,7 +3254,7 @@
    "rejected": {
     "repost": 3
    },
-   "ms": 7671,
+   "ms": 53644,
    "published": 17,
    "retained": 11
   },
@@ -710,7 +3269,7 @@
     "repost": 2,
     "date-window": 5
    },
-   "ms": 38377,
+   "ms": 19190,
    "published": 13,
    "retained": 0
   },
@@ -724,7 +3283,7 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 53784,
+   "ms": 5179,
    "published": 19,
    "retained": 13
   },
@@ -736,7 +3295,7 @@
    "fetched": 1,
    "hitLimit": false,
    "rejected": {},
-   "ms": 4056,
+   "ms": 14044,
    "published": 0,
    "retained": 0
   },
@@ -750,7 +3309,7 @@
    "rejected": {
     "repost": 12
    },
-   "ms": 25667,
+   "ms": 49499,
    "published": 8,
    "retained": 2
   },
@@ -764,7 +3323,7 @@
    "rejected": {
     "repost": 12
    },
-   "ms": 6969,
+   "ms": 27529,
    "published": 8,
    "retained": 2
   },
@@ -779,7 +3338,7 @@
     "repost": 1,
     "date-window": 4
    },
-   "ms": 7220,
+   "ms": 30412,
    "published": 2,
    "retained": 0
   },
@@ -793,7 +3352,7 @@
    "rejected": {
     "repost": 5
    },
-   "ms": 6420,
+   "ms": 28508,
    "published": 15,
    "retained": 14
   },
@@ -808,7 +3367,7 @@
     "date-window": 14,
     "repost": 1
    },
-   "ms": 4221,
+   "ms": 18721,
    "published": 5,
    "retained": 0
   },
@@ -822,7 +3381,7 @@
    "rejected": {
     "repost": 7
    },
-   "ms": 23602,
+   "ms": 7702,
    "published": 13,
    "retained": 0
   },
@@ -836,7 +3395,7 @@
    "rejected": {
     "repost": 8
    },
-   "ms": 9507,
+   "ms": 39345,
    "published": 12,
    "retained": 0
   },
@@ -850,7 +3409,7 @@
    "rejected": {
     "repost": 4
    },
-   "ms": 27954,
+   "ms": 12839,
    "published": 0,
    "retained": 0
   },
@@ -865,7 +3424,7 @@
     "date-window": 19,
     "repost": 1
    },
-   "ms": 23852,
+   "ms": 31697,
    "published": 0,
    "retained": 0
   },
@@ -873,15 +3432,15 @@
    "id": "x:gavriel_cohen",
    "status": "partial",
    "ok": false,
-   "items": 5,
+   "items": 4,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 3,
-    "date-window": 12
+    "date-window": 13
    },
-   "ms": 41415,
-   "published": 5,
+   "ms": 6941,
+   "published": 4,
    "retained": 0
   },
   {
@@ -892,7 +3451,7 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 24657,
+   "ms": 18679,
    "published": 20,
    "retained": 9
   },
@@ -907,7 +3466,7 @@
     "date-window": 9,
     "repost": 11
    },
-   "ms": 13869,
+   "ms": 44141,
    "published": 0,
    "retained": 0
   },
@@ -915,15 +3474,15 @@
    "id": "x:getlindy",
    "status": "partial",
    "ok": false,
-   "items": 8,
+   "items": 7,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 10,
-    "date-window": 2
+    "date-window": 3
    },
-   "ms": 10318,
-   "published": 8,
+   "ms": 42717,
+   "published": 7,
    "retained": 0
   },
   {
@@ -936,7 +3495,7 @@
    "rejected": {
     "repost": 20
    },
-   "ms": 27247,
+   "ms": 4997,
    "published": 0,
    "retained": 0
   },
@@ -948,7 +3507,7 @@
    "fetched": 1,
    "hitLimit": false,
    "rejected": {},
-   "ms": 7510,
+   "ms": 26879,
    "published": 0,
    "retained": 0
   },
@@ -956,30 +3515,30 @@
    "id": "x:haakamaujla",
    "status": "partial",
    "ok": false,
-   "items": 7,
+   "items": 5,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 12,
-    "date-window": 1
+    "date-window": 3
    },
-   "ms": 15274,
-   "published": 7,
+   "ms": 5000,
+   "published": 5,
    "retained": 0
   },
   {
    "id": "x:happyrobot",
    "status": "partial",
    "ok": false,
-   "items": 11,
+   "items": 10,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 6,
-    "date-window": 3
+    "date-window": 4
    },
-   "ms": 7368,
-   "published": 11,
+   "ms": 25615,
+   "published": 10,
    "retained": 0
   },
   {
@@ -993,7 +3552,7 @@
     "repost": 7,
     "date-window": 11
    },
-   "ms": 7484,
+   "ms": 51936,
    "published": 2,
    "retained": 0
   },
@@ -1007,9 +3566,9 @@
    "rejected": {
     "repost": 4
    },
-   "ms": 16056,
+   "ms": 32335,
    "published": 16,
-   "retained": 57
+   "retained": 58
   },
   {
    "id": "x:jackclarksf",
@@ -1021,7 +3580,7 @@
    "rejected": {
     "repost": 2
    },
-   "ms": 6452,
+   "ms": 50654,
    "published": 18,
    "retained": 3
   },
@@ -1036,7 +3595,7 @@
     "date-window": 7,
     "repost": 13
    },
-   "ms": 17688,
+   "ms": 31941,
    "published": 0,
    "retained": 0
   },
@@ -1051,7 +3610,7 @@
     "repost": 10,
     "date-window": 10
    },
-   "ms": 30387,
+   "ms": 49360,
    "published": 0,
    "retained": 0
   },
@@ -1066,7 +3625,7 @@
     "repost": 14,
     "date-window": 6
    },
-   "ms": 29345,
+   "ms": 6078,
    "published": 0,
    "retained": 0
   },
@@ -1081,7 +3640,7 @@
     "repost": 3,
     "date-window": 15
    },
-   "ms": 28967,
+   "ms": 42670,
    "published": 2,
    "retained": 0
   },
@@ -1091,7 +3650,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 3322,
+   "ms": 23565,
    "published": 0,
    "retained": 0
   },
@@ -1105,7 +3664,7 @@
    "rejected": {
     "date-window": 15
    },
-   "ms": 30461,
+   "ms": 8110,
    "published": 5,
    "retained": 0
   },
@@ -1120,7 +3679,7 @@
     "date-window": 8,
     "repost": 12
    },
-   "ms": 42730,
+   "ms": 12629,
    "published": 0,
    "retained": 0
   },
@@ -1135,7 +3694,7 @@
     "repost": 7,
     "date-window": 1
    },
-   "ms": 11636,
+   "ms": 50170,
    "published": 0,
    "retained": 0
   },
@@ -1149,7 +3708,7 @@
    "rejected": {
     "repost": 11
    },
-   "ms": 33074,
+   "ms": 17217,
    "published": 9,
    "retained": 11
   },
@@ -1164,7 +3723,7 @@
     "repost": 17,
     "date-window": 3
    },
-   "ms": 17408,
+   "ms": 4985,
    "published": 0,
    "retained": 0
   },
@@ -1179,7 +3738,7 @@
     "repost": 11,
     "date-window": 9
    },
-   "ms": 22679,
+   "ms": 19670,
    "published": 0,
    "retained": 0
   },
@@ -1191,10 +3750,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 10,
-    "date-window": 2
+    "repost": 11,
+    "date-window": 1
    },
-   "ms": 29790,
+   "ms": 10473,
    "published": 8,
    "retained": 0
   },
@@ -1208,9 +3767,9 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 5957,
+   "ms": 11144,
    "published": 19,
-   "retained": 3
+   "retained": 2
   },
   {
    "id": "x:kozerafilip",
@@ -1223,7 +3782,7 @@
     "repost": 1,
     "date-window": 13
    },
-   "ms": 39630,
+   "ms": 7798,
    "published": 6,
    "retained": 0
   },
@@ -1237,7 +3796,7 @@
    "rejected": {
     "repost": 5
    },
-   "ms": 6527,
+   "ms": 7294,
    "published": 15,
    "retained": 14
   },
@@ -1249,10 +3808,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 5,
-    "date-window": 1
+    "date-window": 1,
+    "repost": 5
    },
-   "ms": 10412,
+   "ms": 43213,
    "published": 14,
    "retained": 0
   },
@@ -1260,15 +3819,15 @@
    "id": "x:lazer_cohen",
    "status": "partial",
    "ok": false,
-   "items": 8,
+   "items": 5,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 8,
-    "date-window": 4
+    "date-window": 7,
+    "repost": 8
    },
-   "ms": 4446,
-   "published": 8,
+   "ms": 18669,
+   "published": 5,
    "retained": 0
   },
   {
@@ -1282,7 +3841,7 @@
     "repost": 13,
     "date-window": 6
    },
-   "ms": 31496,
+   "ms": 4668,
    "published": 1,
    "retained": 0
   },
@@ -1290,15 +3849,15 @@
    "id": "x:marcklingen",
    "status": "partial",
    "ok": false,
-   "items": 14,
+   "items": 16,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 6
+    "repost": 4
    },
-   "ms": 26879,
-   "published": 14,
-   "retained": 35
+   "ms": 33084,
+   "published": 16,
+   "retained": 40
   },
   {
    "id": "x:matiii",
@@ -1306,7 +3865,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 20569,
+   "ms": 13263,
    "published": 0,
    "retained": 0
   },
@@ -1321,7 +3880,7 @@
     "date-window": 13,
     "repost": 6
    },
-   "ms": 4588,
+   "ms": 22355,
    "published": 1,
    "retained": 0
   },
@@ -1336,7 +3895,7 @@
     "repost": 8,
     "date-window": 8
    },
-   "ms": 6443,
+   "ms": 28543,
    "published": 4,
    "retained": 0
   },
@@ -1350,7 +3909,7 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 14281,
+   "ms": 21240,
    "published": 19,
    "retained": 7
   },
@@ -1365,7 +3924,7 @@
     "date-window": 12,
     "repost": 1
    },
-   "ms": 5416,
+   "ms": 23926,
    "published": 7,
    "retained": 0
   },
@@ -1380,7 +3939,7 @@
     "repost": 2,
     "date-window": 4
    },
-   "ms": 17268,
+   "ms": 18021,
    "published": 14,
    "retained": 0
   },
@@ -1394,7 +3953,7 @@
    "rejected": {
     "repost": 3
    },
-   "ms": 5878,
+   "ms": 22606,
    "published": 17,
    "retained": 9
   },
@@ -1409,7 +3968,7 @@
     "repost": 6,
     "date-window": 10
    },
-   "ms": 33265,
+   "ms": 18468,
    "published": 4,
    "retained": 0
   },
@@ -1423,9 +3982,9 @@
    "rejected": {
     "repost": 11
    },
-   "ms": 8224,
+   "ms": 39313,
    "published": 9,
-   "retained": 8
+   "retained": 10
   },
   {
    "id": "x:ms_base44",
@@ -1433,7 +3992,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 3650,
+   "ms": 16662,
    "published": 0,
    "retained": 0
   },
@@ -1447,7 +4006,7 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 15819,
+   "ms": 23367,
    "published": 19,
    "retained": 13
   },
@@ -1461,7 +4020,7 @@
    "rejected": {
     "date-window": 15
    },
-   "ms": 4589,
+   "ms": 4582,
    "published": 5,
    "retained": 0
   },
@@ -1476,7 +4035,7 @@
     "date-window": 19,
     "repost": 1
    },
-   "ms": 9705,
+   "ms": 26676,
    "published": 0,
    "retained": 0
   },
@@ -1484,15 +4043,15 @@
    "id": "x:ndrewpignanelli",
    "status": "partial",
    "ok": false,
-   "items": 17,
+   "items": 16,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 3
+    "repost": 4
    },
-   "ms": 20562,
-   "published": 17,
-   "retained": 15
+   "ms": 4547,
+   "published": 16,
+   "retained": 16
   },
   {
    "id": "x:neondatabase",
@@ -1504,9 +4063,9 @@
    "rejected": {
     "repost": 7
    },
-   "ms": 12268,
-   "published": 12,
-   "retained": 7
+   "ms": 22001,
+   "published": 13,
+   "retained": 6
   },
   {
    "id": "x:nickscamara_",
@@ -1516,10 +4075,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 8,
-    "date-window": 8
+    "date-window": 8,
+    "repost": 8
    },
-   "ms": 27213,
+   "ms": 5067,
    "published": 4,
    "retained": 0
   },
@@ -1527,16 +4086,16 @@
    "id": "x:nicolaslec91112",
    "status": "partial",
    "ok": false,
-   "items": 7,
+   "items": 6,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 5,
-    "date-window": 8
+    "date-window": 9
    },
-   "ms": 28862,
-   "published": 7,
-   "retained": 0
+   "ms": 6076,
+   "published": 6,
+   "retained": 1
   },
   {
    "id": "x:nikhilro_",
@@ -1549,7 +4108,7 @@
     "date-window": 6,
     "repost": 14
    },
-   "ms": 21520,
+   "ms": 14874,
    "published": 0,
    "retained": 0
   },
@@ -1563,7 +4122,7 @@
    "rejected": {
     "repost": 10
    },
-   "ms": 22406,
+   "ms": 34940,
    "published": 10,
    "retained": 5
   },
@@ -1578,7 +4137,7 @@
     "repost": 6,
     "date-window": 12
    },
-   "ms": 28457,
+   "ms": 7032,
    "published": 2,
    "retained": 0
   },
@@ -1592,7 +4151,7 @@
    "rejected": {
     "repost": 15
    },
-   "ms": 8725,
+   "ms": 6960,
    "published": 5,
    "retained": 11
   },
@@ -1607,7 +4166,7 @@
     "repost": 16,
     "date-window": 4
    },
-   "ms": 14946,
+   "ms": 5079,
    "published": 0,
    "retained": 0
   },
@@ -1621,7 +4180,7 @@
    "rejected": {
     "repost": 7
    },
-   "ms": 6759,
+   "ms": 6846,
    "published": 13,
    "retained": 9
   },
@@ -1629,15 +4188,15 @@
    "id": "x:openrouter",
    "status": "partial",
    "ok": false,
-   "items": 14,
+   "items": 16,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 6
+    "repost": 4
    },
-   "ms": 8886,
-   "published": 14,
-   "retained": 33
+   "ms": 41197,
+   "published": 16,
+   "retained": 36
   },
   {
    "id": "x:paarupluis",
@@ -1650,7 +4209,7 @@
     "date-window": 10,
     "repost": 8
    },
-   "ms": 32257,
+   "ms": 13086,
    "published": 0,
    "retained": 0
   },
@@ -1662,10 +4221,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 11,
-    "date-window": 6
+    "date-window": 7,
+    "repost": 10
    },
-   "ms": 31690,
+   "ms": 6027,
    "published": 3,
    "retained": 0
   },
@@ -1680,7 +4239,7 @@
     "repost": 12,
     "date-window": 7
    },
-   "ms": 6027,
+   "ms": 27177,
    "published": 1,
    "retained": 0
   },
@@ -1695,7 +4254,7 @@
     "date-window": 18,
     "repost": 2
    },
-   "ms": 9011,
+   "ms": 23760,
    "published": 0,
    "retained": 0
   },
@@ -1709,7 +4268,7 @@
    "rejected": {
     "repost": 10
    },
-   "ms": 20054,
+   "ms": 7853,
    "published": 10,
    "retained": 7
   },
@@ -1717,30 +4276,28 @@
    "id": "x:plbiojout",
    "status": "partial",
    "ok": false,
-   "items": 19,
+   "items": 20,
    "fetched": 20,
    "hitLimit": true,
-   "rejected": {
-    "repost": 1
-   },
-   "ms": 21902,
-   "published": 19,
-   "retained": 7
+   "rejected": {},
+   "ms": 18733,
+   "published": 20,
+   "retained": 8
   },
   {
    "id": "x:polar_sh",
    "status": "partial",
    "ok": false,
-   "items": 5,
+   "items": 4,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 12,
-    "date-window": 3
+    "date-window": 4,
+    "repost": 12
    },
-   "ms": 14182,
-   "published": 5,
-   "retained": 0
+   "ms": 26016,
+   "published": 4,
+   "retained": 1
   },
   {
    "id": "x:postmarkapp",
@@ -1753,7 +4310,7 @@
     "repost": 1,
     "date-window": 8
    },
-   "ms": 6913,
+   "ms": 18350,
    "published": 11,
    "retained": 0
   },
@@ -1765,9 +4322,9 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 14035,
+   "ms": 19728,
    "published": 20,
-   "retained": 12
+   "retained": 14
   },
   {
    "id": "x:rauchg",
@@ -1779,9 +4336,9 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 6291,
+   "ms": 30262,
    "published": 19,
-   "retained": 24
+   "retained": 26
   },
   {
    "id": "x:rawert",
@@ -1794,7 +4351,7 @@
     "repost": 13,
     "date-window": 2
    },
-   "ms": 5106,
+   "ms": 30654,
    "published": 5,
    "retained": 0
   },
@@ -1808,7 +4365,7 @@
    "rejected": {
     "repost": 4
    },
-   "ms": 8042,
+   "ms": 22088,
    "published": 16,
    "retained": 3
   },
@@ -1816,15 +4373,16 @@
    "id": "x:resend",
    "status": "partial",
    "ok": false,
-   "items": 18,
+   "items": 17,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 2
+    "repost": 2,
+    "date-window": 1
    },
-   "ms": 5544,
-   "published": 18,
-   "retained": 38
+   "ms": 22708,
+   "published": 17,
+   "retained": 41
   },
   {
    "id": "x:retellai",
@@ -1837,7 +4395,7 @@
     "date-window": 15,
     "repost": 2
    },
-   "ms": 9586,
+   "ms": 22793,
    "published": 3,
    "retained": 0
   },
@@ -1852,7 +4410,7 @@
     "repost": 13,
     "date-window": 7
    },
-   "ms": 52749,
+   "ms": 8877,
    "published": 0,
    "retained": 0
   },
@@ -1862,7 +4420,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 3567,
+   "ms": 15404,
    "published": 0,
    "retained": 0
   },
@@ -1876,7 +4434,7 @@
    "rejected": {
     "repost": 6
    },
-   "ms": 5276,
+   "ms": 25790,
    "published": 14,
    "retained": 4
   },
@@ -1891,7 +4449,7 @@
     "repost": 13,
     "date-window": 6
    },
-   "ms": 27017,
+   "ms": 27637,
    "published": 1,
    "retained": 0
   },
@@ -1903,7 +4461,7 @@
    "fetched": 1,
    "hitLimit": false,
    "rejected": {},
-   "ms": 9816,
+   "ms": 50698,
    "published": 0,
    "retained": 0
   },
@@ -1918,7 +4476,7 @@
     "repost": 6,
     "date-window": 3
    },
-   "ms": 24592,
+   "ms": 24204,
    "published": 11,
    "retained": 0
   },
@@ -1930,7 +4488,7 @@
    "fetched": 3,
    "hitLimit": false,
    "rejected": {},
-   "ms": 5653,
+   "ms": 20167,
    "published": 3,
    "retained": 0
   },
@@ -1945,7 +4503,7 @@
     "date-window": 14,
     "repost": 5
    },
-   "ms": 24132,
+   "ms": 6444,
    "published": 1,
    "retained": 0
   },
@@ -1957,10 +4515,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 5,
-    "repost": 12
+    "date-window": 6,
+    "repost": 11
    },
-   "ms": 23202,
+   "ms": 19571,
    "published": 3,
    "retained": 0
   },
@@ -1974,9 +4532,9 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 6855,
+   "ms": 6285,
    "published": 19,
-   "retained": 3
+   "retained": 2
   },
   {
    "id": "x:sorcer",
@@ -1989,7 +4547,7 @@
     "repost": 15,
     "date-window": 5
    },
-   "ms": 5426,
+   "ms": 22479,
    "published": 0,
    "retained": 0
   },
@@ -1997,29 +4555,30 @@
    "id": "x:steipete",
    "status": "partial",
    "ok": false,
-   "items": 10,
+   "items": 7,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 10
+    "repost": 13
    },
-   "ms": 50590,
-   "published": 10,
-   "retained": 20
+   "ms": 15737,
+   "published": 7,
+   "retained": 23
   },
   {
    "id": "x:stephenbalaban",
    "status": "partial",
    "ok": false,
-   "items": 12,
+   "items": 11,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
+    "date-window": 1,
     "repost": 8
    },
-   "ms": 25946,
-   "published": 12,
-   "retained": 8
+   "ms": 28057,
+   "published": 11,
+   "retained": 9
   },
   {
    "id": "x:sualehasif996",
@@ -2032,7 +4591,7 @@
     "repost": 19,
     "date-window": 1
    },
-   "ms": 18755,
+   "ms": 6221,
    "published": 0,
    "retained": 0
   },
@@ -2046,9 +4605,9 @@
    "rejected": {
     "repost": 9
    },
-   "ms": 5578,
+   "ms": 17714,
    "published": 11,
-   "retained": 19
+   "retained": 21
   },
   {
    "id": "x:teknium1",
@@ -2056,7 +4615,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 17521,
+   "ms": 25139,
    "published": 0,
    "retained": 0
   },
@@ -2068,10 +4627,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 12,
-    "repost": 1
+    "repost": 1,
+    "date-window": 12
    },
-   "ms": 18948,
+   "ms": 4675,
    "published": 7,
    "retained": 0
   },
@@ -2086,9 +4645,9 @@
     "date-window": 11,
     "repost": 1
    },
-   "ms": 29366,
+   "ms": 12993,
    "published": 8,
-   "retained": 1
+   "retained": 0
   },
   {
    "id": "x:thsottiaux",
@@ -2098,9 +4657,9 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 6112,
+   "ms": 5853,
    "published": 20,
-   "retained": 17
+   "retained": 18
   },
   {
    "id": "x:togethercompute",
@@ -2112,7 +4671,7 @@
    "rejected": {
     "repost": 4
    },
-   "ms": 9004,
+   "ms": 6085,
    "published": 16,
    "retained": 12
   },
@@ -2127,7 +4686,7 @@
     "repost": 6,
     "date-window": 10
    },
-   "ms": 12763,
+   "ms": 39625,
    "published": 4,
    "retained": 0
   },
@@ -2141,7 +4700,7 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 8084,
+   "ms": 32810,
    "published": 19,
    "retained": 10
   },
@@ -2155,7 +4714,7 @@
    "rejected": {
     "date-window": 1
    },
-   "ms": 12477,
+   "ms": 17774,
    "published": 0,
    "retained": 0
   },
@@ -2170,7 +4729,7 @@
     "repost": 1,
     "date-window": 7
    },
-   "ms": 19091,
+   "ms": 5693,
    "published": 12,
    "retained": 0
   },
@@ -2185,7 +4744,7 @@
     "date-window": 16,
     "repost": 4
    },
-   "ms": 4686,
+   "ms": 5163,
    "published": 0,
    "retained": 0
   },
@@ -2200,7 +4759,7 @@
     "repost": 1,
     "date-window": 14
    },
-   "ms": 7401,
+   "ms": 51664,
    "published": 5,
    "retained": 0
   },
@@ -2215,7 +4774,7 @@
     "repost": 4,
     "date-window": 1
    },
-   "ms": 5996,
+   "ms": 18694,
    "published": 0,
    "retained": 0
   },
@@ -2229,7 +4788,7 @@
    "rejected": {
     "repost": 16
    },
-   "ms": 15859,
+   "ms": 21195,
    "published": 4,
    "retained": 1
   },
@@ -2243,7 +4802,7 @@
    "rejected": {
     "repost": 7
    },
-   "ms": 5358,
+   "ms": 36079,
    "published": 0,
    "retained": 0
   },
@@ -2251,15 +4810,15 @@
    "id": "x:zenorocha",
    "status": "partial",
    "ok": false,
-   "items": 12,
+   "items": 11,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 6,
-    "date-window": 2
+    "date-window": 3
    },
-   "ms": 27155,
-   "published": 12,
+   "ms": 13045,
+   "published": 11,
    "retained": 0
   }
  ]

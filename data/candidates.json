@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-19T11:23:51.620Z",
+ "generatedAt": "2026-09-20T11:57:47.776Z",
  "candidates": [
   {
    "id": "41d216fcb0f5",
@@ -132,23 +132,23 @@
    "status": "new"
   },
   {
-   "id": "892168464f72",
-   "name": "MAGIC AI",
+   "id": "a0784c77ebab",
+   "name": "Magentic",
    "evidence": [
     {
-     "title": "MAGIC AI Revenue 2025: $4.1M Est. ARR, $8.6M Raised",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fd3RYdjVCQVlWTlpqUG1MRlZNY05qTHo2REhlWDlkaG9VWERQcnpIWml4OEdLdVQya0lFZ3ZRRGZwZWZzTXU4V1BLRnRDZ3pmdkE?oc=5",
+     "title": "Magentic Raises $18 Million Series A To Expand AI Digital Workers For Global Manufacturers",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEVac2ZRQ2E3SlNVaXhnTE5RcVhGN0tJOFJNUXR0UzY5bTZSVy1VUmFSbWJhU1QwS1NxX2ZNUmxSMFhhQ0RtWHBRQzdZS3BfdHlrNGlIU1E2RjdsWVIwejdEQUdpdEd2Z2RzazlIZGJUcEJHUUkwb1NCZFJTUEJwOTJuN3ZZalJaU0toWDVjcERyUUo1RVZlWFd4eFo4ZlVSRGhIQUdreVduRjJxdjJoYnQ5Y9IBswFBVV95cUxPNEVac2ZRQ2E3SlNVaXhnTE5RcVhGN0tJOFJNUXR0UzY5bTZSVy1VUmFSbWJhU1QwS1NxX2ZNUmxSMFhhQ0RtWHBRQzdZS3BfdHlrNGlIU1E2RjdsWVIwejdEQUdpdEd2Z2RzazlIZGJUcEJHUUkwb1NCZFJTUEJwOTJuN3ZZalJaU0toWDVjcERyUUo1RVZlWFd4eFo4ZlVSRGhIQUdreVduRjJxdjJoYnQ5Yw?oc=5",
      "source": "gnews",
-     "domain": "getlatka.com",
-     "publishedAt": "2026-09-02T07:00:00.000Z",
+     "domain": "pulse2.com",
+     "publishedAt": "2026-09-19T12:54:52.000Z",
      "matchedKeywords": [
-      "\"AI employees\" startup"
+      "\"digital employees\" raises"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-09-19T11:23:51.620Z",
+   "firstSeen": "2026-09-20T11:57:47.776Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -180,41 +180,6 @@
     "funding or revenue figure"
    ],
    "status": "blocked"
-  },
-  {
-   "id": "69583e29ebe9",
-   "name": "Hancom",
-   "evidence": [
-    {
-     "title": "Hancom launches TV ad for Nomadian AI workforce platform, targeting U.S. market",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFdJSXFYeTNDUmkzMlRwYTBRdVd1eWFYOUdtZ012UkRwQUFGOFMxSGRaMDNtYzVEaEVmR2t6bzl6TlhKSDdTaGZ5Q284WlRrMGljMkVDeTdncGJpWVdqaGdXZC1VUE9DUE9vNFJtaDUwT3lvTzQ4RGdxcWZBX0otMkhRNmlpRDBkaE9aOUszZUYxLXJta1YwSkFvNk9mclZoRkw2dVBCQXN4UkN5R3RBLW5YbjFmd1hpVW9oMXJOTTY?oc=5",
-     "source": "gnews",
-     "domain": "digitaltoday.co.kr",
-     "publishedAt": "2026-09-18T00:58:09.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    },
-    {
-     "title": "Hancom launches 'Nomadian,' billed as world's first AI workforce platform, targeting US solo entrepreneurs",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UaWV1NnEtTDJQM204Y2c4SFRLeEpMa1lkWWdzVG8zVnBwX2ZOZkdjbENuN0FGZzNVQjJmS043aXBaSUxmS2FtcTFjMTN1andEeExUd1VFOA?oc=5",
-     "source": "gnews",
-     "domain": "mbiz.heraldcorp.com",
-     "publishedAt": "2026-09-14T23:55:15.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 2,
-   "publishers": 2,
-   "firstSeen": "2026-09-18T11:34:22.973Z",
-   "score": 1.5,
-   "reasons": [
-    "named entity",
-    "2 publishers"
-   ],
-   "status": "new"
   },
   {
    "id": "a51db7d03ba2",
@@ -253,6 +218,54 @@
    "status": "rejected"
   },
   {
+   "id": "7b40f84ddb48",
+   "name": "Creem",
+   "evidence": [
+    {
+     "title": "Creem secures €5M to build financial infrastructure for AI-native startups",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRlpuajZ3eG5jb0Z0dzB3TGktdXdURi1XWHpvN19sX2lFZ2VsT3RqUVd4eXpxUDF6VXhEaFlOVHlUU0drWUgwU0g5X1JuVTg1TThXRl8tazBCOEhLTkNabVlGQTNXUktkbUoyRmZIa05qR19WWUkzY1RXOVh6bVdnQVV0YjJTRE9oSEtPVGRrQVp4SThOS3VtMWhYbFZuejBzTUF5Wm0ybw?oc=5",
+     "source": "gnews",
+     "domain": "tech.eu",
+     "publishedAt": "2026-09-17T05:48:24.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-20T11:57:47.776Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "69583e29ebe9",
+   "name": "Hancom",
+   "evidence": [
+    {
+     "title": "Hancom launches TV ad for Nomadian AI workforce platform, targeting U.S. market",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFdJSXFYeTNDUmkzMlRwYTBRdVd1eWFYOUdtZ012UkRwQUFGOFMxSGRaMDNtYzVEaEVmR2t6bzl6TlhKSDdTaGZ5Q284WlRrMGljMkVDeTdncGJpWVdqaGdXZC1VUE9DUE9vNFJtaDUwT3lvTzQ4RGdxcWZBX0otMkhRNmlpRDBkaE9aOUszZUYxLXJta1YwSkFvNk9mclZoRkw2dVBCQXN4UkN5R3RBLW5YbjFmd1hpVW9oMXJOTTY?oc=5",
+     "source": "gnews",
+     "domain": "digitaltoday.co.kr",
+     "publishedAt": "2026-09-18T00:58:09.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-18T11:34:22.973Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
    "id": "5f493757a8d8",
    "name": "Pion",
    "evidence": [
@@ -285,7 +298,7 @@
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbXRyRmhWYUg0b1lVOU0tTGp6STdYVThXZ09uRk5zSEIwNGk0QkFmckstQy1udFNaTGQwZFI4a1FsYUhZV3l0U00wQ25Fc0NTQjZ5cmUzMURfUHllWkFoRVZ5bG14NC04dVcwS2d1YVhYV2NsM1BtLXVBai1ZekRhaWtSY2EweTFaT2p1MVVuc2FVYzMzalkwcV93bF80aDAweE9xVFV0eF9kbVA0Ri1TbWpvUmF3eURsXzNuNWttdG5qYlBIMk9ZNmhIQ0nSAdIBQVVfeXFMUElrOGphcFJPLVB0WGtFNllHQ2d5Y3NvQm5CanYzX2tpMHN3SFVzQmIzblUtU0lBa1pvZWJ3RjF3NDN2aXBERDJuQlNfZWdrV3RwbzZHNFpyOHlFSnYyU0ZPMkRPWHVOTnE2REo4Y3d4cDFGVWwzc1BrZVdFOS1IaGZPU3RMTGxFNHE5YXdycWJweWNiZGYxa0Y5VmJ1OGZtaVN1Y2paMkVNR015bjRRNHItUnlobjRrMjc0el9YRkh6dGtvU1AzZVhqR2kxOUdIRXJB?oc=5",
      "source": "gnews",
      "domain": "firstpost.com",
-     "publishedAt": "2026-09-12T08:39:05.000Z",
+     "publishedAt": "2026-09-12T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -309,7 +322,7 @@
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ0FRR2dlaHZGNWVfRnJROHBfcnRKeXMzYmxOb3BvVlZPbDNlRGxIVzFyT0FYdG90SDYxLS1Pdy1QLWg1bGJPanhOTTk5SmVuZE44c3Nsb19hdkI4LWFCZ2o5dnpqWl9rUHFxTGhfYzE4Vy1ZUzI0TGpMN3ZzRThUMUNJT0Y?oc=5",
      "source": "gnews",
      "domain": "yahoo.com",
-     "publishedAt": "2026-09-11T12:00:00.000Z",
+     "publishedAt": "2026-09-11T07:00:00.000Z",
      "matchedKeywords": [
       "\"one-person unicorn\""
      ]
