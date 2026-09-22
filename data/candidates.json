@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-21T13:19:26.575Z",
+ "generatedAt": "2026-09-22T12:10:43.988Z",
  "candidates": [
   {
    "id": "41d216fcb0f5",
@@ -115,7 +115,7 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ka0o0QUR4aGpVXzQ4SkVFMWJyaEw4clJONW9aNkU5c2IzdGx0WndsZmtYTF85LWZISlNyaFR3alVtWU93T09Cd1M5VDU3UUI2ckNLcEcxdXJudnBCR1dicDllc2ExZFFmTk5mZg?oc=5",
      "source": "gnews",
      "domain": "ynetnews.com",
-     "publishedAt": "2026-09-18T01:53:56.000Z",
+     "publishedAt": "2026-09-17T15:53:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -137,7 +137,7 @@
    "evidence": [
     {
      "title": "Magentic Raises $18 Million Series A To Expand AI Digital Workers For Global Manufacturers",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEVac2ZRQ2E3SlNVaXhnTE5RcVhGN0tJOFJNUXR0UzY5bTZSVy1VUmFSbWJhU1QwS1NxX2ZNUmxSMFhhQ0RtWHBRQzdZS3BfdHlrNGlIU1E2RjdsWVIwejdEQUdpdEd2Z2RzazlIZGJUcEJHUUkwb1NCZFJTUEJwOTJuN3ZZalJaU0toWDVjcERyUUo1RVZlWFd4eFo4ZlVSRGhIQUdreVduRjJxdjJoYnQ5Y9IBswFBVV95cUxPNEVac2ZRQ2E3SlNVaXhnTE5RcVhGN0tJOFJNUXR0UzY5bTZSVy1VUmFSbWJhU1QwS1NxX2ZNUmxSMFhhQ0RtWHBRQzdZS3BfdHlrNGlIU1E2RjdsWVIwejdEQUdpdEd2Z2RzazlIZGJUcEJHUUkwb1NCZFJTUEJwOTJuN3ZZalJaU0toWDVjcERyUUo1RVZlWFd4eFo4ZlVSRGhIQUdreVduRjJxdjJoYnQ5Yw?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHRHSzRGdU5BM09mU2VLUGhKU3ZLbHNDeVR0emNfZ21hUE83Q2J4OWNqakxrSktMNU53SlU4RTBBejExMFZrdGJnM1AzTzRORlBJWjZyT0tJc0IxNGpDV3lab3BZcVdKMG95Nk10LUxqR0RPamFSeWUzcGM1aUZFc2VVeTluZFBYRjhqSEdtR2l4Y09HZlBaYWJoOVVPem0wVGZVSGVDZ21kUVZQU2fSAbMBQVVfeXFMTzRFWnNmUUNhN0pTVWl4Z0xOUXFYRjdLSThSTVF0dFM2OW02UlctVVJhUm1iYVNUMEtTcV9mTVJsUjBYYUNEbVhwUUM3WUtwX3R5azRpSFNRNkY3bFlSMHo3REFHaXRHdmdkc2s5SGRiVHBCR1FJMG9TQmRSU1BCcDkybjd2WWpSWlNLaFg1Y3BEclFKNUVWZVhXeHhaOGZVUkRoSEFHa3lXbkYycXYyaGJ0OWM?oc=5",
      "source": "gnews",
      "domain": "pulse2.com",
      "publishedAt": "2026-09-19T12:54:52.000Z",
@@ -226,7 +226,7 @@
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRlpuajZ3eG5jb0Z0dzB3TGktdXdURi1XWHpvN19sX2lFZ2VsT3RqUVd4eXpxUDF6VXhEaFlOVHlUU0drWUgwU0g5X1JuVTg1TThXRl8tazBCOEhLTkNabVlGQTNXUktkbUoyRmZIa05qR19WWUkzY1RXOVh6bVdnQVV0YjJTRE9oSEtPVGRrQVp4SThOS3VtMWhYbFZuejBzTUF5Wm0ybw?oc=5",
      "source": "gnews",
      "domain": "tech.eu",
-     "publishedAt": "2026-09-17T05:48:24.000Z",
+     "publishedAt": "2026-09-17T05:47:44.000Z",
      "matchedKeywords": [
       "\"agent-run\" startup"
      ]
@@ -362,6 +362,30 @@
    "status": "rejected"
   },
   {
+   "id": "9f470effce2a",
+   "name": null,
+   "evidence": [
+    {
+     "title": "I gave an autonomous AI company $0 and $200 of debt",
+     "url": "https://autonomouscompany.substack.com/p/i-gave-an-autonomous-ai-company-0",
+     "source": "hn",
+     "domain": "autonomouscompany.substack.com",
+     "publishedAt": "2026-09-21T18:02:44Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-22T12:10:43.988Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "2dd907d06ca8",
    "name": null,
    "evidence": [
@@ -403,6 +427,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-19T11:23:51.620Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "41e6a2f45825",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Service Copilots - Businesses are automating repetitive tasks with AI to free staff for exceptions",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYUFBZcHdsRnJYMkZRY1IzSU1YWW1ZRnp1VVhOdlpORXp1SG1JY0RidWIzdVZuM2I3MGlXekRYMkNoX2RRRTExZ1pvWmVyVnZyUGNkVU43a0VNdWl4Vk0xSGFDNC0?oc=5",
+     "source": "gnews",
+     "domain": "trendhunter.com",
+     "publishedAt": "2026-09-21T17:29:22.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-22T12:10:43.988Z",
    "score": 0,
    "reasons": [],
    "status": "new"
