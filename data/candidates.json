@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-22T12:10:43.988Z",
+ "generatedAt": "2026-09-23T12:08:02.540Z",
  "candidates": [
   {
    "id": "41d216fcb0f5",
@@ -45,6 +45,32 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-18T11:34:22.972Z",
+   "score": 2.25,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "6a7a536d60d2",
+   "name": "Ema",
+   "evidence": [
+    {
+     "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQTlkT0dzTlZZN1pCLWpmdTdUY3Jzb0lrN2FEVG9scE5hdFhUZE1TdkZmZjByaE9VSTlweDNXV2xPYTg5SVh4N2I1VTZsblhYcFVZSDRDbl8zazAxOXJOSHlfQkZEbUhJUHFzX0FTWnVuRDFNUzREZnBnTU5nT1BDdGRYMVhvSVNGVjNSMG9CQVZjVnRfQjdjRDQtMFlMN3Q4VkY5bkNNYVpUclU?oc=5",
+     "source": "gnews",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-09-23T12:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-23T12:08:02.539Z",
    "score": 2.25,
    "reasons": [
     "named entity",
@@ -180,6 +206,31 @@
     "funding or revenue figure"
    ],
    "status": "blocked"
+  },
+  {
+   "id": "df5920380cd7",
+   "name": null,
+   "evidence": [
+    {
+     "title": "This 25-year-old raised US$100 million for his AI startup at a US$4 billion valuation",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMGpDemRjTVcwdHpqM2lVWGlEaXNubWVJWlVzTDdvb1g0ZFRfVnJMZ2JsQ1N5QXBORm5SbnAzU3djdmcxMXdhV28zaklaQWx4bUZsR3RDUFh5WG0zQWlkTXpPb1g2N1ZRRnFWcW50SjE5aHR2aG10ZEtwNENySUlsV29Vc3VOMmhzWDBIQWtuOERTc0M2VXBNY1V5Mmx1UklNLWZUQnZIV2k5TWNWYmtfa3ByVmVrVWFNZ3FSVk1reWZ0M2xkc3VGVQ?oc=5",
+     "source": "gnews",
+     "domain": "forbes.com.au",
+     "publishedAt": "2026-09-22T21:12:02.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-23T12:08:02.540Z",
+   "score": 1.25,
+   "reasons": [
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
   },
   {
    "id": "a51db7d03ba2",
@@ -338,6 +389,30 @@
    "status": "blocked"
   },
   {
+   "id": "4401220c9b66",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Romanian tech executives launch Outcome1.AI to develop ‘Digital Employees’ for European SMEs",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcnNfUlo4R2hld3UtMkRQcFlGWEQ3eGI4Y3hOVTdEaHJvSF9ZZHZBTUNFMXh0RUtUWFZZZzFfSkl0X0tOSGNfVXNOWGNxbGpOZUJiOTFzNHR5dEJVNFFWUTVlcXdvY24wS0k2M3lYdTlrekpQTlo2d3lhZ1luWnBfaktwU25HdS16aUtOM3NoUXhzS19p?oc=5",
+     "source": "gnews",
+     "domain": "romania-insider.com",
+     "publishedAt": "2026-08-25T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-23T12:08:02.540Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
    "id": "079ecfc943c7",
    "name": "Gupshup",
    "evidence": [
@@ -386,6 +461,30 @@
    "status": "new"
   },
   {
+   "id": "aca1c8a14983",
+   "name": null,
+   "evidence": [
+    {
+     "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+     "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+     "source": "investor",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-09-22T23:21:49.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-23T12:08:02.540Z",
+   "score": 0.5,
+   "reasons": [
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
    "id": "2dd907d06ca8",
    "name": null,
    "evidence": [
@@ -410,28 +509,6 @@
    "status": "rejected"
   },
   {
-   "id": "70cc19cbfe29",
-   "name": null,
-   "evidence": [
-    {
-     "title": "By 2027, AI Will Be Ubiquitous in Business, Yet Few Companies Will Unlock Its True Potential",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYVFQand6N05EOGhjSVBjRGUtTF9zSEdDXzN3MjducmlOX01tdlZpM0xoa1VsWHBSWjN6OWZyYm1pdy1XaEJHSF9KNGU4OWp5NE9PdkV4eWU0eld4N3l4SW16ZEJaS1RUd3B4TmlPcnNsZWJGaDFpemlVRy1NcGdpbnVKaEdZQWlTblMwdkRkQlloU1NSQjlDN1BoU1BVenFOT0lfY0RHM2l3emR3VnJVaWVRU0JNS0l4OHAyQTRScDFORjNva3ZWM1FkRlA1d9IBzgFBVV95cUxPYVFQand6N05EOGhjSVBjRGUtTF9zSEdDXzN3MjducmlOX01tdlZpM0xoa1VsWHBSWjN6OWZyYm1pdy1XaEJHSF9KNGU4OWp5NE9PdkV4eWU0eld4N3l4SW16ZEJaS1RUd3B4TmlPcnNsZWJGaDFpemlVRy1NcGdpbnVKaEdZQWlTblMwdkRkQlloU1NSQjlDN1BoU1BVenFOT0lfY0RHM2l3emR3VnJVaWVRU0JNS0l4OHAyQTRScDFORjNva3ZWM1FkRlA1dw?oc=5",
-     "source": "gnews",
-     "domain": "inkorr.com",
-     "publishedAt": "2026-09-18T09:12:56.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-19T11:23:51.620Z",
-   "score": 0,
-   "reasons": [],
-   "status": "new"
-  },
-  {
    "id": "41e6a2f45825",
    "name": null,
    "evidence": [
@@ -449,6 +526,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-22T12:10:43.988Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "d60ab394ff72",
+   "name": null,
+   "evidence": [
+    {
+     "title": "An autonomous AI company could run itself. It still couldn't find a market",
+     "url": "https://autonomouscompany.substack.com/p/the-company-could-run-itself-it-still",
+     "source": "hn",
+     "domain": "autonomouscompany.substack.com",
+     "publishedAt": "2026-09-22T19:09:35Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-23T12:08:02.540Z",
    "score": 0,
    "reasons": [],
    "status": "new"
