@@ -1,10 +1,20 @@
 {
- "generatedAt": "2026-09-24T12:11:42.775Z",
+ "generatedAt": "2026-09-25T12:17:04.404Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
    "name": "Ema",
    "evidence": [
+    {
+     "title": "Ema Raised $77 Million Series B to Scale Enterprise AI Employees:",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX1BhYnhHcHcyM3pJbW9aZmxwZkJxc3ZXLXNmTEptMng1bjUwYllleTB0blUweFl3d3l4SGpaTUFQWGFxem91dWZ1TklIV1RoYzFXVG93ZGNGc01UeU5CT0J6eEFLU0xzYXRxSjE3SW1aR0NwRWJySWh0MEs4cGJmdHdwUEJoakVfT3A2SDlZazlKbEIxRVBaUi1lajNncWQ0NlR3?oc=5",
+     "source": "gnews",
+     "domain": "hedgeco.net",
+     "publishedAt": "2026-09-24T21:43:44.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
     {
      "title": "Enterprise AI startup Ema raises $77 million in Series B funding led by Creaegis",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcDhuU0p5aXh3Y2hwbzV6X3VzQkE4c0lXWC03SEpXbmpnOTNEdDZLTEE5SkFuMENNOE9rSm5FWFpVQTYzMFFabEdYYWZYXzlkeXJ4N1RqR3Y0dlFQTnZxRTUxUzRIdWlNR19nNnpRd24xbGczcGhTeGRSNUdZVDdTckxxYWVMVUlQZU5mU2JKYkhVRFFnYUdCdW45RXhUUFdlQ1NxRFBWYS1lV1I5ZE9wd3gxRF9jbUNLemdsMlJWMTRkY1Jr0gHEAUFVX3lxTE9wOG5TSnlpeHdjaHBvNXpfdXNCQThzSVdYLTdISlduamc5M0R0NktMQTlKQW4wQ004T2tKbkVYWlVBNjMwUVpsR1hhZlhfOWR5cng3VGpHdjR2UVBOdnFFNTFTNEh1aU1HX2c2elF3bjFsZzNwaFN4ZFI1R1lUN1NyTHFhZUxVSVBlTmZTYkpiSFVEUWdhR0J1bjlFeFRQV2VDU3FEUFZhLWVXUjlkT3B3eDFEX2NtQ0t6Z2wyUlYxNGRjUms?oc=5",
@@ -20,16 +30,6 @@
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2lpNm9MdjBiVVI4blRiMjcydmVPcElmaDl1aWVicllRbGVSWUJGTDlSUGdWZnhZaTFUaWsyOXFkc1JMWWJRLXBadks3QWtZalAwb3RDRm15aGRYdGFscllwRTFacklOYTA4VW1JVWJfSTFSaHF6UFNGSzRLTnNybkFRcWZFX2hZQ0wtWHc1LVZKeE1CQzF6S3dPbzZUNU9xaWxhNzNoUmJvR0dkWmZYbHItQzNNVUF3bG5QbU1jdmpJSTh3bEFtcWVDZnhoQQ?oc=5",
      "source": "gnews",
      "domain": "siliconangle.com",
-     "publishedAt": "2026-09-23T13:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Ema Raises $77M Series B to Put AI Employees to Work Across the Enterprise",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbkdDYzdIMUZITkJyTUwwd1Q1ZlFyVm1Sd2dZVjNOYUU2SDFubmpERFpMbzFTNkpTQkJhQW1LcE5VWjltZzZLOWdYS19SV1U5MWpoSVAzb3VhMFdtc2duM0EzSXh3UHlSczFrbU90VWlmVHlMZDVsWm5LYlh0MzJKSldkaG5pU0VrMVBlRDZXa0Y?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
      "publishedAt": "2026-09-23T13:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
@@ -54,58 +54,6 @@
     "named entity",
     "4 publishers",
     "autonomy thesis",
-    "funding or revenue figure",
-    "strong outlet"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "7eac249305c8",
-   "name": "Crusoe",
-   "evidence": [
-    {
-     "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
-     "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-     "source": "investor",
-     "domain": "techcrunch.com",
-     "publishedAt": "2026-09-17T23:25:52.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-18T11:34:22.972Z",
-   "score": 2.25,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure",
-    "strong outlet"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "905d74393e7d",
-   "name": "Runable",
-   "evidence": [
-    {
-     "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkYxQ1JZM205V3phS2ZpQnUxNzFtamJfZU1maFNSYXlWQXlJelVxejFYbG5EWjdfUTg3cXExclJEaDR6NWxIU0p0aUpmY3RvT2VkNXdjeHNTMHBFWERzVkRUUmhGazBKdE1RRWNRTDBaWFNqMGxUMGJpTEU5SjJ1QXFoRHc0c29lWWc1aTNBNHBPclZSQm1KZUlpNTA0Zk1DanFvRFl5emZpdDFUeVpkdWM3WVFEN0k?oc=5",
-     "source": "gnews",
-     "domain": "techcrunch.com",
-     "publishedAt": "2026-08-26T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-24T12:11:42.774Z",
-   "score": 2.25,
-   "reasons": [
-    "named entity",
     "funding or revenue figure",
     "strong outlet"
    ],
@@ -257,6 +205,31 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-24T12:11:42.775Z",
+   "score": 1.25,
+   "reasons": [
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "278ea3b97d7d",
+   "name": null,
+   "evidence": [
+    {
+     "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOHZsWXJaaWFuNUhMLTN6aXp4NVpVOFNlUXpzT01iMVNSVW9hdUFfTk1DTUVrRFNrSGNXbm96Vm5PSmprR1EybXhvUm1HcFg2NG1zVkhRbmdISmNvYmV3VC1TUi1kM2VaTUc2UVdhMW91MHhSTmFkS19qb25mTTFOT2hURV8zbWlFUUhGbWJwbFE5QWlpLVIxVTBwM29RalNiNy0zY1RVODUyMmJIVWFrczdn?oc=5",
+     "source": "gnews",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-09-18T23:25:01.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-25T12:17:04.404Z",
    "score": 1.25,
    "reasons": [
     "funding or revenue figure",
@@ -446,6 +419,30 @@
    "status": "blocked"
   },
   {
+   "id": "87b59c6e6072",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
+     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
+     "source": "reddit",
+     "domain": "reddit.com",
+     "publishedAt": "2026-08-27T07:25:11.000Z",
+     "matchedKeywords": [
+      "\"autonomous company\" AI"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-25T12:17:04.404Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
    "id": "f2e0ad526453",
    "name": null,
    "evidence": [
@@ -492,6 +489,30 @@
     "named entity"
    ],
    "status": "rejected"
+  },
+  {
+   "id": "c7feedfbab75",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Solo-built AI design tool slicer.dev raises €100,000 pre-seed",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcW5ldVJyUkxJWV9EQ2ZGZ190N3RDbldpVVdrbDJhWkxjbGV5S1hEMWt2N2p1eGxYaDF0TkNJUHVFQkNzb3NIU0JaYjV5bGx1anlDREVPbFVaU1F1TEI3anhXWkI0dzg5UGNNY09IMU9BYUtoOU5rR09ERGVUemJrelBMT0ZUYklhU1dLSmdmdHVlZ3kyZzRBUDhn?oc=5",
+     "source": "gnews",
+     "domain": "app.dealroom.co",
+     "publishedAt": "2026-09-24T12:14:24.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-25T12:17:04.404Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
   },
   {
    "id": "ae6e2eb9df23",
