@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-25T11:56:57.414Z",
+ "generatedAt": "2026-09-26T11:31:18.904Z",
  "plan": {
   "platforms": [
    "x"
@@ -28,7 +28,7 @@
    "rejected": {
     "repost": 5
    },
-   "ms": 4483,
+   "ms": 8079,
    "published": 15,
    "retained": 30
   },
@@ -43,7 +43,7 @@
     "date-window": 16,
     "repost": 3
    },
-   "ms": 27920,
+   "ms": 24080,
    "published": 1,
    "retained": 0
   },
@@ -58,7 +58,7 @@
     "repost": 16,
     "date-window": 4
    },
-   "ms": 22982,
+   "ms": 19417,
    "published": 0,
    "retained": 0
   },
@@ -66,15 +66,15 @@
    "id": "x:adisingh",
    "status": "partial",
    "ok": false,
-   "items": 18,
+   "items": 17,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 2
+    "repost": 3
    },
-   "ms": 42007,
-   "published": 18,
-   "retained": 30
+   "ms": 29083,
+   "published": 17,
+   "retained": 37
   },
   {
    "id": "x:agentmail",
@@ -86,9 +86,9 @@
    "rejected": {
     "repost": 8
    },
-   "ms": 28419,
+   "ms": 21615,
    "published": 12,
-   "retained": 19
+   "retained": 20
   },
   {
    "id": "x:aidenchaoyanghe",
@@ -101,7 +101,7 @@
     "date-window": 15,
     "repost": 5
    },
-   "ms": 7730,
+   "ms": 26292,
    "published": 0,
    "retained": 0
   },
@@ -113,9 +113,9 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 27674,
+   "ms": 14796,
    "published": 20,
-   "retained": 8
+   "retained": 7
   },
   {
    "id": "x:akshat_b",
@@ -128,7 +128,7 @@
     "repost": 8,
     "date-window": 9
    },
-   "ms": 24321,
+   "ms": 27845,
    "published": 3,
    "retained": 0
   },
@@ -142,9 +142,9 @@
    "rejected": {
     "repost": 3
    },
-   "ms": 27265,
+   "ms": 7670,
    "published": 17,
-   "retained": 39
+   "retained": 41
   },
   {
    "id": "x:alexanderwu0",
@@ -157,7 +157,7 @@
     "repost": 8,
     "date-window": 12
    },
-   "ms": 22018,
+   "ms": 30346,
    "published": 0,
    "retained": 0
   },
@@ -165,15 +165,15 @@
    "id": "x:alexatallah",
    "status": "partial",
    "ok": false,
-   "items": 17,
+   "items": 16,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 3
+    "repost": 4
    },
-   "ms": 23865,
-   "published": 17,
-   "retained": 13
+   "ms": 10971,
+   "published": 16,
+   "retained": 16
   },
   {
    "id": "x:altimor",
@@ -185,9 +185,9 @@
    "rejected": {
     "repost": 16
    },
-   "ms": 5382,
+   "ms": 18346,
    "published": 4,
-   "retained": 23
+   "retained": 25
   },
   {
    "id": "x:amanrsanger",
@@ -200,7 +200,7 @@
     "repost": 4,
     "date-window": 16
    },
-   "ms": 25663,
+   "ms": 16953,
    "published": 0,
    "retained": 0
   },
@@ -215,7 +215,7 @@
     "date-window": 13,
     "repost": 5
    },
-   "ms": 34990,
+   "ms": 22473,
    "published": 0,
    "retained": 0
   },
@@ -223,15 +223,16 @@
    "id": "x:andrewdsouza",
    "status": "partial",
    "ok": false,
-   "items": 16,
+   "items": 15,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
+    "date-window": 1,
     "repost": 4
    },
-   "ms": 4948,
-   "published": 16,
-   "retained": 16
+   "ms": 24659,
+   "published": 15,
+   "retained": 17
   },
   {
    "id": "x:anthropicai",
@@ -243,9 +244,9 @@
    "rejected": {
     "repost": 2
    },
-   "ms": 33269,
+   "ms": 18935,
    "published": 18,
-   "retained": 9
+   "retained": 10
   },
   {
    "id": "x:antwilson",
@@ -257,7 +258,7 @@
    "rejected": {
     "repost": 15
    },
-   "ms": 50990,
+   "ms": 5654,
    "published": 5,
    "retained": 7
   },
@@ -265,15 +266,15 @@
    "id": "x:anuraggoel",
    "status": "partial",
    "ok": false,
-   "items": 15,
+   "items": 14,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 2,
-    "date-window": 3
+    "date-window": 4
    },
-   "ms": 6194,
-   "published": 15,
+   "ms": 9082,
+   "published": 14,
    "retained": 0
   },
   {
@@ -284,11 +285,12 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 4
+    "date-window": 1,
+    "repost": 3
    },
-   "ms": 35835,
+   "ms": 19744,
    "published": 16,
-   "retained": 50
+   "retained": 55
   },
   {
    "id": "x:arvid220u",
@@ -301,7 +303,7 @@
     "repost": 3,
     "date-window": 8
    },
-   "ms": 24987,
+   "ms": 18934,
    "published": 0,
    "retained": 0
   },
@@ -316,7 +318,7 @@
     "repost": 5,
     "date-window": 6
    },
-   "ms": 25937,
+   "ms": 9852,
    "published": 0,
    "retained": 0
   },
@@ -328,10 +330,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 16,
-    "repost": 2
+    "date-window": 17,
+    "repost": 1
    },
-   "ms": 35667,
+   "ms": 20753,
    "published": 2,
    "retained": 0
   },
@@ -345,7 +347,7 @@
    "rejected": {
     "repost": 6
    },
-   "ms": 36646,
+   "ms": 21974,
    "published": 14,
    "retained": 12
   },
@@ -353,44 +355,39 @@
    "id": "x:bcherny",
    "status": "partial",
    "ok": false,
-   "items": 10,
+   "items": 9,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 10
+    "repost": 11
    },
-   "ms": 39989,
-   "published": 10,
-   "retained": 17
+   "ms": 20281,
+   "published": 9,
+   "retained": 20
   },
   {
    "id": "x:bencera",
    "status": "partial",
    "ok": false,
-   "items": 19,
+   "items": 18,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 1
+    "repost": 2
    },
-   "ms": 23383,
-   "published": 19,
+   "ms": 9922,
+   "published": 18,
    "retained": 51
   },
   {
    "id": "x:bernhardsson",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 12,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4,
-    "date-window": 4
-   },
-   "ms": 6093,
-   "published": 12,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 502",
+   "ms": 22656,
+   "published": 0,
+   "retained": 12
   },
   {
    "id": "x:bertie_ai",
@@ -403,7 +400,7 @@
     "date-window": 13,
     "repost": 4
    },
-   "ms": 26463,
+   "ms": 7069,
    "published": 3,
    "retained": 0
   },
@@ -411,14 +408,14 @@
    "id": "x:birk",
    "status": "partial",
    "ok": false,
-   "items": 15,
+   "items": 16,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 5
+    "repost": 4
    },
-   "ms": 24315,
-   "published": 15,
+   "ms": 9807,
+   "published": 16,
    "retained": 0
   },
   {
@@ -429,10 +426,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 3,
-    "date-window": 4
+    "repost": 4,
+    "date-window": 3
    },
-   "ms": 40412,
+   "ms": 18745,
    "published": 13,
    "retained": 0
   },
@@ -440,28 +437,28 @@
    "id": "x:boardyai",
    "status": "partial",
    "ok": false,
-   "items": 16,
+   "items": 17,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 4
+    "repost": 3
    },
-   "ms": 41324,
-   "published": 16,
-   "retained": 78
+   "ms": 17581,
+   "published": 17,
+   "retained": 82
   },
   {
    "id": "x:browserbase",
    "status": "partial",
    "ok": false,
-   "items": 9,
+   "items": 11,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 11
+    "repost": 9
    },
-   "ms": 23501,
-   "published": 9,
+   "ms": 14465,
+   "published": 11,
    "retained": 11
   },
   {
@@ -475,7 +472,7 @@
     "date-window": 16,
     "repost": 4
    },
-   "ms": 24943,
+   "ms": 6526,
    "published": 0,
    "retained": 0
   },
@@ -490,7 +487,7 @@
     "repost": 2,
     "date-window": 2
    },
-   "ms": 35292,
+   "ms": 14719,
    "published": 16,
    "retained": 0
   },
@@ -498,15 +495,15 @@
    "id": "x:calebpeffer",
    "status": "partial",
    "ok": false,
-   "items": 14,
+   "items": 12,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 3,
-    "date-window": 3
+    "date-window": 5,
+    "repost": 3
    },
-   "ms": 42977,
-   "published": 14,
+   "ms": 28229,
+   "published": 12,
    "retained": 0
   },
   {
@@ -520,7 +517,7 @@
     "repost": 18,
     "date-window": 2
    },
-   "ms": 21190,
+   "ms": 24512,
    "published": 0,
    "retained": 0
   },
@@ -534,7 +531,7 @@
    "rejected": {
     "date-window": 18
    },
-   "ms": 10572,
+   "ms": 18013,
    "published": 2,
    "retained": 0
   },
@@ -549,7 +546,7 @@
     "repost": 9,
     "date-window": 11
    },
-   "ms": 40587,
+   "ms": 9297,
    "published": 0,
    "retained": 0
   },
@@ -564,7 +561,7 @@
     "repost": 14,
     "date-window": 6
    },
-   "ms": 25440,
+   "ms": 28773,
    "published": 0,
    "retained": 0
   },
@@ -578,23 +575,23 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 25830,
+   "ms": 18653,
    "published": 19,
-   "retained": 41
+   "retained": 44
   },
   {
    "id": "x:cramforce",
    "status": "partial",
    "ok": false,
-   "items": 14,
+   "items": 13,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 6
+    "repost": 7
    },
-   "ms": 5029,
-   "published": 14,
-   "retained": 32
+   "ms": 7941,
+   "published": 13,
+   "retained": 34
   },
   {
    "id": "x:cursor_ai",
@@ -604,10 +601,9 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 1,
-    "repost": 1
+    "repost": 2
    },
-   "ms": 34665,
+   "ms": 18404,
    "published": 18,
    "retained": 0
   },
@@ -622,7 +618,7 @@
     "repost": 14,
     "date-window": 6
    },
-   "ms": 45284,
+   "ms": 18685,
    "published": 0,
    "retained": 0
   },
@@ -630,15 +626,15 @@
    "id": "x:daraladje",
    "status": "partial",
    "ok": false,
-   "items": 7,
+   "items": 6,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 8,
+    "repost": 9,
     "date-window": 5
    },
-   "ms": 7850,
-   "published": 7,
+   "ms": 29968,
+   "published": 6,
    "retained": 1
   },
   {
@@ -652,7 +648,7 @@
     "repost": 2,
     "date-window": 16
    },
-   "ms": 27505,
+   "ms": 20167,
    "published": 2,
    "retained": 0
   },
@@ -666,7 +662,7 @@
    "rejected": {
     "date-window": 11
    },
-   "ms": 22867,
+   "ms": 25740,
    "published": 9,
    "retained": 0
   },
@@ -674,15 +670,15 @@
    "id": "x:daytonaio",
    "status": "partial",
    "ok": false,
-   "items": 8,
+   "items": 9,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 12
+    "repost": 11
    },
-   "ms": 30935,
-   "published": 8,
-   "retained": 11
+   "ms": 15284,
+   "published": 9,
+   "retained": 12
   },
   {
    "id": "x:digitalocean",
@@ -694,23 +690,23 @@
    "rejected": {
     "repost": 5
    },
-   "ms": 19660,
+   "ms": 21675,
    "published": 15,
-   "retained": 27
+   "retained": 31
   },
   {
    "id": "x:dominic_w",
    "status": "partial",
    "ok": false,
-   "items": 15,
+   "items": 13,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 3,
-    "repost": 2
+    "date-window": 6,
+    "repost": 1
    },
-   "ms": 23790,
-   "published": 15,
+   "ms": 24339,
+   "published": 13,
    "retained": 0
   },
   {
@@ -723,7 +719,7 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 45011,
+   "ms": 7399,
    "published": 19,
    "retained": 17
   },
@@ -735,7 +731,7 @@
    "fetched": 1,
    "hitLimit": false,
    "rejected": {},
-   "ms": 21693,
+   "ms": 23202,
    "published": 0,
    "retained": 0
   },
@@ -749,7 +745,7 @@
    "rejected": {
     "repost": 12
    },
-   "ms": 23682,
+   "ms": 40165,
    "published": 8,
    "retained": 2
   },
@@ -757,15 +753,15 @@
    "id": "x:e2b",
    "status": "partial",
    "ok": false,
-   "items": 8,
+   "items": 7,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 12
+    "repost": 13
    },
-   "ms": 13878,
-   "published": 8,
-   "retained": 6
+   "ms": 17326,
+   "published": 7,
+   "retained": 7
   },
   {
    "id": "x:egbe_ai",
@@ -778,7 +774,7 @@
     "date-window": 5,
     "repost": 1
    },
-   "ms": 24189,
+   "ms": 27073,
    "published": 1,
    "retained": 0
   },
@@ -792,9 +788,9 @@
    "rejected": {
     "repost": 5
    },
-   "ms": 12587,
+   "ms": 27460,
    "published": 15,
-   "retained": 21
+   "retained": 25
   },
   {
    "id": "x:embirico",
@@ -807,7 +803,7 @@
     "date-window": 14,
     "repost": 1
    },
-   "ms": 21918,
+   "ms": 20465,
    "published": 5,
    "retained": 0
   },
@@ -815,28 +811,29 @@
    "id": "x:ericciarla",
    "status": "partial",
    "ok": false,
-   "items": 15,
+   "items": 14,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 5
+    "repost": 5,
+    "date-window": 1
    },
-   "ms": 22947,
-   "published": 15,
+   "ms": 23309,
+   "published": 14,
    "retained": 0
   },
   {
    "id": "x:firecrawl",
    "status": "partial",
    "ok": false,
-   "items": 14,
+   "items": 12,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 6
+    "repost": 8
    },
-   "ms": 9817,
-   "published": 14,
+   "ms": 27868,
+   "published": 12,
    "retained": 3
   },
   {
@@ -849,7 +846,7 @@
    "rejected": {
     "repost": 4
    },
-   "ms": 7542,
+   "ms": 12352,
    "published": 0,
    "retained": 0
   },
@@ -864,7 +861,7 @@
     "date-window": 19,
     "repost": 1
    },
-   "ms": 25860,
+   "ms": 22040,
    "published": 0,
    "retained": 0
   },
@@ -879,7 +876,7 @@
     "date-window": 14,
     "repost": 3
    },
-   "ms": 43742,
+   "ms": 14937,
    "published": 3,
    "retained": 0
   },
@@ -891,7 +888,7 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 5953,
+   "ms": 20454,
    "published": 20,
    "retained": 11
   },
@@ -906,7 +903,7 @@
     "date-window": 9,
     "repost": 11
    },
-   "ms": 43839,
+   "ms": 21009,
    "published": 0,
    "retained": 0
   },
@@ -914,15 +911,15 @@
    "id": "x:getlindy",
    "status": "partial",
    "ok": false,
-   "items": 6,
+   "items": 7,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 10,
-    "date-window": 4
+    "date-window": 3
    },
-   "ms": 33341,
-   "published": 6,
+   "ms": 21139,
+   "published": 7,
    "retained": 0
   },
   {
@@ -935,7 +932,7 @@
    "rejected": {
     "repost": 20
    },
-   "ms": 6063,
+   "ms": 17229,
    "published": 0,
    "retained": 0
   },
@@ -947,7 +944,7 @@
    "fetched": 1,
    "hitLimit": false,
    "rejected": {},
-   "ms": 25970,
+   "ms": 22964,
    "published": 0,
    "retained": 0
   },
@@ -955,15 +952,15 @@
    "id": "x:haakamaujla",
    "status": "partial",
    "ok": false,
-   "items": 4,
+   "items": 3,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 13,
-    "date-window": 3
+    "date-window": 4
    },
-   "ms": 41339,
-   "published": 4,
+   "ms": 25034,
+   "published": 3,
    "retained": 0
   },
   {
@@ -974,10 +971,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 7,
-    "date-window": 5
+    "repost": 8,
+    "date-window": 4
    },
-   "ms": 47799,
+   "ms": 21409,
    "published": 8,
    "retained": 0
   },
@@ -992,7 +989,7 @@
     "repost": 7,
     "date-window": 13
    },
-   "ms": 26772,
+   "ms": 12700,
    "published": 0,
    "retained": 0
   },
@@ -1000,15 +997,15 @@
    "id": "x:ivanburazin",
    "status": "partial",
    "ok": false,
-   "items": 17,
+   "items": 15,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 3
+    "repost": 5
    },
-   "ms": 25448,
-   "published": 17,
-   "retained": 87
+   "ms": 27887,
+   "published": 15,
+   "retained": 95
   },
   {
    "id": "x:jackclarksf",
@@ -1020,9 +1017,9 @@
    "rejected": {
     "repost": 3
    },
-   "ms": 24856,
+   "ms": 16126,
    "published": 17,
-   "retained": 3
+   "retained": 4
   },
   {
    "id": "x:jakubbalada",
@@ -1035,7 +1032,7 @@
     "date-window": 7,
     "repost": 13
    },
-   "ms": 40493,
+   "ms": 13285,
    "published": 0,
    "retained": 0
   },
@@ -1050,7 +1047,7 @@
     "repost": 10,
     "date-window": 9
    },
-   "ms": 47096,
+   "ms": 17100,
    "published": 1,
    "retained": 0
   },
@@ -1065,7 +1062,7 @@
     "repost": 14,
     "date-window": 6
    },
-   "ms": 24355,
+   "ms": 20465,
    "published": 0,
    "retained": 0
   },
@@ -1073,15 +1070,15 @@
    "id": "x:jasparcjack",
    "status": "partial",
    "ok": false,
-   "items": 3,
+   "items": 4,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 3,
-    "date-window": 14
+    "date-window": 13
    },
-   "ms": 25429,
-   "published": 3,
+   "ms": 23537,
+   "published": 4,
    "retained": 0
   },
   {
@@ -1090,7 +1087,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 3597,
+   "ms": 16665,
    "published": 0,
    "retained": 0
   },
@@ -1104,7 +1101,7 @@
    "rejected": {
     "date-window": 15
    },
-   "ms": 24637,
+   "ms": 5249,
    "published": 5,
    "retained": 0
   },
@@ -1116,10 +1113,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 8,
-    "repost": 12
+    "date-window": 7,
+    "repost": 13
    },
-   "ms": 30990,
+   "ms": 6750,
    "published": 0,
    "retained": 0
   },
@@ -1134,7 +1131,7 @@
     "repost": 7,
     "date-window": 1
    },
-   "ms": 21942,
+   "ms": 27030,
    "published": 0,
    "retained": 0
   },
@@ -1148,7 +1145,7 @@
    "rejected": {
     "repost": 10
    },
-   "ms": 22903,
+   "ms": 22967,
    "published": 10,
    "retained": 11
   },
@@ -1163,7 +1160,7 @@
     "repost": 17,
     "date-window": 3
    },
-   "ms": 6268,
+   "ms": 16094,
    "published": 0,
    "retained": 0
   },
@@ -1178,7 +1175,7 @@
     "repost": 11,
     "date-window": 9
    },
-   "ms": 4832,
+   "ms": 22479,
    "published": 0,
    "retained": 0
   },
@@ -1186,28 +1183,27 @@
    "id": "x:kiwicopple",
    "status": "partial",
    "ok": false,
-   "items": 12,
+   "items": 11,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
+    "date-window": 1,
     "repost": 8
    },
-   "ms": 20957,
-   "published": 12,
-   "retained": 3
+   "ms": 5472,
+   "published": 11,
+   "retained": 5
   },
   {
    "id": "x:klemensimonic",
    "status": "partial",
    "ok": false,
-   "items": 19,
+   "items": 20,
    "fetched": 20,
    "hitLimit": true,
-   "rejected": {
-    "repost": 1
-   },
-   "ms": 21451,
-   "published": 19,
+   "rejected": {},
+   "ms": 6441,
+   "published": 20,
    "retained": 2
   },
   {
@@ -1221,7 +1217,7 @@
     "repost": 1,
     "date-window": 13
    },
-   "ms": 22683,
+   "ms": 9571,
    "published": 6,
    "retained": 0
   },
@@ -1229,15 +1225,15 @@
    "id": "x:lambdaapi",
    "status": "partial",
    "ok": false,
-   "items": 15,
+   "items": 16,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 5
+    "repost": 4
    },
-   "ms": 6094,
-   "published": 15,
-   "retained": 17
+   "ms": 27645,
+   "published": 16,
+   "retained": 20
   },
   {
    "id": "x:langfuse",
@@ -1249,7 +1245,7 @@
    "rejected": {
     "repost": 7
    },
-   "ms": 6973,
+   "ms": 21301,
    "published": 13,
    "retained": 2
   },
@@ -1257,15 +1253,15 @@
    "id": "x:lazer_cohen",
    "status": "partial",
    "ok": false,
-   "items": 5,
+   "items": 4,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 9,
-    "date-window": 6
+    "date-window": 7
    },
-   "ms": 23821,
-   "published": 5,
+   "ms": 9957,
+   "published": 4,
    "retained": 0
   },
   {
@@ -1279,7 +1275,7 @@
     "repost": 13,
     "date-window": 7
    },
-   "ms": 4619,
+   "ms": 8924,
    "published": 0,
    "retained": 0
   },
@@ -1287,15 +1283,15 @@
    "id": "x:marcklingen",
    "status": "partial",
    "ok": false,
-   "items": 16,
+   "items": 15,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 4
+    "repost": 5
    },
-   "ms": 40390,
-   "published": 16,
-   "retained": 63
+   "ms": 19511,
+   "published": 15,
+   "retained": 65
   },
   {
    "id": "x:matiii",
@@ -1303,7 +1299,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 22170,
+   "ms": 33026,
    "published": 0,
    "retained": 0
   },
@@ -1318,7 +1314,7 @@
     "date-window": 12,
     "repost": 5
    },
-   "ms": 19955,
+   "ms": 19354,
    "published": 3,
    "retained": 0
   },
@@ -1333,7 +1329,7 @@
     "repost": 8,
     "date-window": 8
    },
-   "ms": 26331,
+   "ms": 19868,
    "published": 4,
    "retained": 0
   },
@@ -1341,15 +1337,16 @@
    "id": "x:michaelhyunkim",
    "status": "partial",
    "ok": false,
-   "items": 18,
+   "items": 17,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
+    "date-window": 1,
     "repost": 2
    },
-   "ms": 24752,
-   "published": 18,
-   "retained": 6
+   "ms": 25970,
+   "published": 17,
+   "retained": 7
   },
   {
    "id": "x:midjourney",
@@ -1362,7 +1359,7 @@
     "date-window": 11,
     "repost": 1
    },
-   "ms": 28907,
+   "ms": 17510,
    "published": 8,
    "retained": 1
   },
@@ -1374,7 +1371,7 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 5046,
+   "ms": 30361,
    "published": 20,
    "retained": 0
   },
@@ -1388,38 +1385,38 @@
    "rejected": {
     "repost": 5
    },
-   "ms": 28244,
+   "ms": 29374,
    "published": 15,
-   "retained": 14
+   "retained": 17
   },
   {
    "id": "x:mntruell",
    "status": "partial",
    "ok": false,
-   "items": 4,
+   "items": 3,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 6,
-    "date-window": 10
+    "date-window": 11
    },
-   "ms": 27967,
-   "published": 4,
+   "ms": 21100,
+   "published": 3,
    "retained": 0
   },
   {
    "id": "x:modal",
    "status": "partial",
    "ok": false,
-   "items": 13,
+   "items": 12,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 7
+    "repost": 8
    },
-   "ms": 4988,
-   "published": 13,
-   "retained": 10
+   "ms": 23302,
+   "published": 12,
+   "retained": 9
   },
   {
    "id": "x:ms_base44",
@@ -1427,7 +1424,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 3715,
+   "ms": 17552,
    "published": 0,
    "retained": 0
   },
@@ -1441,22 +1438,22 @@
    "rejected": {
     "repost": 2
    },
-   "ms": 45386,
+   "ms": 27527,
    "published": 18,
-   "retained": 23
+   "retained": 24
   },
   {
    "id": "x:nanocorphq",
    "status": "partial",
    "ok": false,
-   "items": 12,
+   "items": 11,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 8
+    "date-window": 9
    },
-   "ms": 5511,
-   "published": 12,
+   "ms": 29337,
+   "published": 11,
    "retained": 0
   },
   {
@@ -1470,7 +1467,7 @@
     "date-window": 19,
     "repost": 1
    },
-   "ms": 24288,
+   "ms": 8005,
    "published": 0,
    "retained": 0
   },
@@ -1484,21 +1481,21 @@
    "rejected": {
     "repost": 3
    },
-   "ms": 25323,
+   "ms": 19465,
    "published": 17,
-   "retained": 24
+   "retained": 27
   },
   {
    "id": "x:neondatabase",
    "status": "partial",
    "ok": false,
-   "items": 16,
+   "items": 15,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 4
+    "repost": 5
    },
-   "ms": 23468,
+   "ms": 29080,
    "published": 15,
    "retained": 10
   },
@@ -1506,31 +1503,31 @@
    "id": "x:nickscamara_",
    "status": "partial",
    "ok": false,
-   "items": 4,
+   "items": 5,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 9,
+    "repost": 8,
     "date-window": 7
    },
-   "ms": 23830,
-   "published": 4,
+   "ms": 19688,
+   "published": 5,
    "retained": 0
   },
   {
    "id": "x:nicolaslec91112",
    "status": "partial",
    "ok": false,
-   "items": 7,
+   "items": 8,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 5,
-    "date-window": 8
+    "repost": 6,
+    "date-window": 6
    },
-   "ms": 23411,
-   "published": 7,
-   "retained": 1
+   "ms": 16628,
+   "published": 8,
+   "retained": 0
   },
   {
    "id": "x:nikhilro_",
@@ -1543,7 +1540,7 @@
     "date-window": 6,
     "repost": 14
    },
-   "ms": 26511,
+   "ms": 6767,
    "published": 0,
    "retained": 0
   },
@@ -1557,9 +1554,9 @@
    "rejected": {
     "repost": 10
    },
-   "ms": 4896,
+   "ms": 16754,
    "published": 10,
-   "retained": 10
+   "retained": 11
   },
   {
    "id": "x:nottombrown",
@@ -1572,7 +1569,7 @@
     "repost": 6,
     "date-window": 11
    },
-   "ms": 5298,
+   "ms": 15281,
    "published": 3,
    "retained": 0
   },
@@ -1586,7 +1583,7 @@
    "rejected": {
     "repost": 13
    },
-   "ms": 27908,
+   "ms": 28871,
    "published": 7,
    "retained": 13
   },
@@ -1601,7 +1598,7 @@
     "repost": 16,
     "date-window": 4
    },
-   "ms": 5087,
+   "ms": 28023,
    "published": 0,
    "retained": 0
   },
@@ -1609,29 +1606,29 @@
    "id": "x:openclaw",
    "status": "partial",
    "ok": false,
-   "items": 19,
+   "items": 18,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 1
+    "repost": 2
    },
-   "ms": 8203,
-   "published": 19,
-   "retained": 16
+   "ms": 19846,
+   "published": 18,
+   "retained": 21
   },
   {
    "id": "x:openrouter",
    "status": "partial",
    "ok": false,
-   "items": 17,
+   "items": 14,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 3
+    "repost": 6
    },
-   "ms": 6199,
-   "published": 17,
-   "retained": 81
+   "ms": 17931,
+   "published": 14,
+   "retained": 98
   },
   {
    "id": "x:paarupluis",
@@ -1644,7 +1641,7 @@
     "date-window": 10,
     "repost": 8
    },
-   "ms": 6691,
+   "ms": 25871,
    "published": 0,
    "retained": 0
   },
@@ -1652,15 +1649,15 @@
    "id": "x:pablorpalafox",
    "status": "partial",
    "ok": false,
-   "items": 4,
+   "items": 5,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 10,
-    "date-window": 6
+    "date-window": 5
    },
-   "ms": 22679,
-   "published": 4,
+   "ms": 26819,
+   "published": 5,
    "retained": 0
   },
   {
@@ -1671,10 +1668,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 13,
-    "date-window": 5
+    "repost": 14,
+    "date-window": 4
    },
-   "ms": 24000,
+   "ms": 25294,
    "published": 2,
    "retained": 0
   },
@@ -1689,7 +1686,7 @@
     "date-window": 18,
     "repost": 2
    },
-   "ms": 24236,
+   "ms": 15114,
    "published": 0,
    "retained": 0
   },
@@ -1703,7 +1700,7 @@
    "rejected": {
     "repost": 10
    },
-   "ms": 8515,
+   "ms": 29643,
    "published": 10,
    "retained": 5
   },
@@ -1717,23 +1714,23 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 25358,
+   "ms": 25639,
    "published": 19,
-   "retained": 21
+   "retained": 23
   },
   {
    "id": "x:polar_sh",
    "status": "partial",
    "ok": false,
-   "items": 6,
+   "items": 3,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 12,
-    "date-window": 2
+    "date-window": 5
    },
-   "ms": 7204,
-   "published": 6,
+   "ms": 12085,
+   "published": 3,
    "retained": 0
   },
   {
@@ -1747,7 +1744,7 @@
     "repost": 1,
     "date-window": 11
    },
-   "ms": 23012,
+   "ms": 12585,
    "published": 8,
    "retained": 0
   },
@@ -1759,9 +1756,9 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 41591,
+   "ms": 26623,
    "published": 20,
-   "retained": 20
+   "retained": 21
   },
   {
    "id": "x:rauchg",
@@ -1771,9 +1768,9 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 6864,
+   "ms": 7989,
    "published": 20,
-   "retained": 38
+   "retained": 41
   },
   {
    "id": "x:rawert",
@@ -1783,10 +1780,9 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 12,
-    "date-window": 1
+    "repost": 13
    },
-   "ms": 5718,
+   "ms": 23397,
    "published": 7,
    "retained": 0
   },
@@ -1794,14 +1790,14 @@
    "id": "x:render",
    "status": "partial",
    "ok": false,
-   "items": 13,
+   "items": 14,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 7
+    "repost": 6
    },
-   "ms": 6084,
-   "published": 13,
+   "ms": 15137,
+   "published": 14,
    "retained": 11
   },
   {
@@ -1812,9 +1808,9 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 26256,
+   "ms": 15932,
    "published": 20,
-   "retained": 70
+   "retained": 78
   },
   {
    "id": "x:retellai",
@@ -1827,7 +1823,7 @@
     "date-window": 16,
     "repost": 2
    },
-   "ms": 24895,
+   "ms": 16974,
    "published": 2,
    "retained": 0
   },
@@ -1842,7 +1838,7 @@
     "repost": 13,
     "date-window": 7
    },
-   "ms": 4685,
+   "ms": 12788,
    "published": 0,
    "retained": 0
   },
@@ -1852,7 +1848,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 3545,
+   "ms": 16097,
    "published": 0,
    "retained": 0
   },
@@ -1866,9 +1862,9 @@
    "rejected": {
     "repost": 2
    },
-   "ms": 4625,
+   "ms": 18359,
    "published": 18,
-   "retained": 10
+   "retained": 11
   },
   {
    "id": "x:sampstallings",
@@ -1881,7 +1877,7 @@
     "repost": 13,
     "date-window": 6
    },
-   "ms": 5098,
+   "ms": 21470,
    "published": 1,
    "retained": 0
   },
@@ -1893,7 +1889,7 @@
    "fetched": 1,
    "hitLimit": false,
    "rejected": {},
-   "ms": 4400,
+   "ms": 13336,
    "published": 0,
    "retained": 0
   },
@@ -1901,15 +1897,15 @@
    "id": "x:samspelsberg",
    "status": "partial",
    "ok": false,
-   "items": 7,
+   "items": 5,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 6,
-    "date-window": 7
+    "date-window": 9
    },
-   "ms": 4439,
-   "published": 7,
+   "ms": 29482,
+   "published": 5,
    "retained": 0
   },
   {
@@ -1920,7 +1916,7 @@
    "fetched": 6,
    "hitLimit": false,
    "rejected": {},
-   "ms": 5161,
+   "ms": 23708,
    "published": 6,
    "retained": 1
   },
@@ -1935,7 +1931,7 @@
     "date-window": 14,
     "repost": 5
    },
-   "ms": 22329,
+   "ms": 14090,
    "published": 1,
    "retained": 0
   },
@@ -1950,7 +1946,7 @@
     "repost": 12,
     "date-window": 5
    },
-   "ms": 6192,
+   "ms": 30880,
    "published": 3,
    "retained": 0
   },
@@ -1964,9 +1960,9 @@
    "rejected": {
     "repost": 1
    },
-   "ms": 22175,
+   "ms": 25434,
    "published": 19,
-   "retained": 3
+   "retained": 4
   },
   {
    "id": "x:sorcer",
@@ -1979,7 +1975,7 @@
     "repost": 15,
     "date-window": 5
    },
-   "ms": 22786,
+   "ms": 19007,
    "published": 0,
    "retained": 0
   },
@@ -1987,15 +1983,15 @@
    "id": "x:steipete",
    "status": "partial",
    "ok": false,
-   "items": 11,
+   "items": 7,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 9
+    "repost": 13
    },
-   "ms": 4729,
-   "published": 11,
-   "retained": 42
+   "ms": 10618,
+   "published": 7,
+   "retained": 52
   },
   {
    "id": "x:stephenbalaban",
@@ -2007,7 +2003,7 @@
    "rejected": {
     "repost": 9
    },
-   "ms": 6698,
+   "ms": 25854,
    "published": 11,
    "retained": 9
   },
@@ -2022,7 +2018,7 @@
     "repost": 19,
     "date-window": 1
    },
-   "ms": 25462,
+   "ms": 17325,
    "published": 0,
    "retained": 0
   },
@@ -2030,15 +2026,15 @@
    "id": "x:supabase",
    "status": "partial",
    "ok": false,
-   "items": 14,
+   "items": 13,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 6
+    "repost": 7
    },
-   "ms": 24413,
-   "published": 14,
-   "retained": 26
+   "ms": 24468,
+   "published": 13,
+   "retained": 30
   },
   {
    "id": "x:teknium1",
@@ -2046,7 +2042,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify dataset contains an error record",
-   "ms": 20252,
+   "ms": 22040,
    "published": 0,
    "retained": 0
   },
@@ -2061,7 +2057,7 @@
     "repost": 2,
     "date-window": 14
    },
-   "ms": 38893,
+   "ms": 21806,
    "published": 4,
    "retained": 0
   },
@@ -2069,16 +2065,16 @@
    "id": "x:thisisgrantlee",
    "status": "partial",
    "ok": false,
-   "items": 5,
+   "items": 6,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 14,
+    "date-window": 13,
     "repost": 1
    },
-   "ms": 10004,
-   "published": 5,
-   "retained": 1
+   "ms": 24415,
+   "published": 6,
+   "retained": 0
   },
   {
    "id": "x:thsottiaux",
@@ -2088,23 +2084,23 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {},
-   "ms": 4855,
+   "ms": 12298,
    "published": 20,
-   "retained": 25
+   "retained": 28
   },
   {
    "id": "x:togethercompute",
    "status": "partial",
    "ok": false,
-   "items": 16,
+   "items": 14,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 4
+    "repost": 6
    },
-   "ms": 28795,
-   "published": 16,
-   "retained": 20
+   "ms": 26808,
+   "published": 14,
+   "retained": 23
   },
   {
    "id": "x:usenaive",
@@ -2117,7 +2113,7 @@
     "repost": 6,
     "date-window": 13
    },
-   "ms": 24540,
+   "ms": 24081,
    "published": 1,
    "retained": 0
   },
@@ -2131,9 +2127,9 @@
    "rejected": {
     "repost": 2
    },
-   "ms": 29526,
+   "ms": 24946,
    "published": 18,
-   "retained": 15
+   "retained": 14
   },
   {
    "id": "x:vedranjukic",
@@ -2145,7 +2141,7 @@
    "rejected": {
     "date-window": 1
    },
-   "ms": 6523,
+   "ms": 26682,
    "published": 0,
    "retained": 0
   },
@@ -2153,16 +2149,16 @@
    "id": "x:vercel",
    "status": "partial",
    "ok": false,
-   "items": 11,
+   "items": 14,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "date-window": 8,
+    "date-window": 5,
     "repost": 1
    },
-   "ms": 9522,
-   "published": 11,
-   "retained": 1
+   "ms": 22334,
+   "published": 14,
+   "retained": 0
   },
   {
    "id": "x:vyahhi",
@@ -2175,7 +2171,7 @@
     "date-window": 16,
     "repost": 4
    },
-   "ms": 24190,
+   "ms": 28471,
    "published": 0,
    "retained": 0
   },
@@ -2183,15 +2179,15 @@
    "id": "x:withdelphi",
    "status": "partial",
    "ok": false,
-   "items": 6,
+   "items": 7,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
     "repost": 1,
-    "date-window": 13
+    "date-window": 12
    },
-   "ms": 9078,
-   "published": 6,
+   "ms": 21782,
+   "published": 7,
    "retained": 0
   },
   {
@@ -2205,7 +2201,7 @@
     "repost": 4,
     "date-window": 1
    },
-   "ms": 7572,
+   "ms": 26864,
    "published": 0,
    "retained": 0
   },
@@ -2213,14 +2209,15 @@
    "id": "x:zai_org",
    "status": "partial",
    "ok": false,
-   "items": 4,
+   "items": 3,
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 16
+    "repost": 16,
+    "date-window": 1
    },
-   "ms": 26052,
-   "published": 4,
+   "ms": 29759,
+   "published": 3,
    "retained": 1
   },
   {
@@ -2233,7 +2230,7 @@
    "rejected": {
     "repost": 7
    },
-   "ms": 40733,
+   "ms": 19991,
    "published": 0,
    "retained": 0
   },
@@ -2245,10 +2242,10 @@
    "fetched": 20,
    "hitLimit": true,
    "rejected": {
-    "repost": 5,
-    "date-window": 1
+    "date-window": 2,
+    "repost": 4
    },
-   "ms": 29568,
+   "ms": 12449,
    "published": 14,
    "retained": 4
   }

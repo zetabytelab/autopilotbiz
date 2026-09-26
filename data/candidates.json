@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-25T12:17:04.404Z",
+ "generatedAt": "2026-09-26T11:49:40.768Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -26,6 +26,26 @@
      ]
     },
     {
+     "title": "Ema Raises $77 Million To Replace Enterprise Software With AI Agent Employees",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52dzFuVkR5QkV2TUZ6S2Q4LU1sYk1EU2d5RlJ6LXlwX2FGYngxWENpV2xKTmJ5UVBJRmV3QTNkLXZlbGtneWgzUjc2U09hX1lVeFM5UXJYaW55aGdLcm44RzVkMkUyUzlCX2dybFFuc2VNa3EwQXNVUnRCaEhvTG_SAX9BVV95cUxOdncxblZEeUJFdk1GektkOC1NbGJNRFNneUZSei15cF9hRmJ4MVhDaVdsSk5ieVFQSUZld0EzZC12ZWxrZ3loM1I3NlNPYV9ZVXhTOVFyWGlueWhnS3JuOEc1ZDJFMlM5Ql9ncmxRbnNlTWtxMEFzVVJ0QmhIb0xv?oc=5",
+     "source": "gnews",
+     "domain": "ventureburn.com",
+     "publishedAt": "2026-09-24T10:49:40.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
+    {
+     "title": "Enterprise AI startup Ema raises $77 Mn in Series B led by Creaegis",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3lRenJlYTNMWXZLZHlXa2s1SGd5bElxWTJSZDNfU1ZsWnFTMncwYXVwS28wSHZFWURBT1FxRXF6Z1pYbHBqRVZuc2FfZzRFSHdVbmlSLW96eU1NMlVCaXVhTVU5VkFOSjd5V3F6QWhPTWd6QjRfRkRIaTFWc2VCZ25JN0xjZDRrRFNHU2VKV1FHVTR2dlBqX01tWkRjUDJ5U1VF0gGjAUFVX3lxTE5PeVF6cmVhM0xZdktkeVdrazVIZ3lsSXFZMlJkM19TVmxacVMydzBhdXBLbzBIdkVZREFPUXFFcXpnWlhscGpFVm5zYV9nNEVId1VuaVItb3p5TU0yVUJpdWFNVTlWQU5KN3lXcXpBaE9NZ3pCNF9GREhpMVZzZUJnbkk3TGNkNGtEU0dTZUpXUUdVNHZ2UGpfTW1aRGNQMnlTVUU?oc=5",
+     "source": "gnews",
+     "domain": "entrackr.com",
+     "publishedAt": "2026-09-24T04:46:22.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
+    {
      "title": "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2lpNm9MdjBiVVI4blRiMjcydmVPcElmaDl1aWVicllRbGVSWUJGTDlSUGdWZnhZaTFUaWsyOXFkc1JMWWJRLXBadks3QWtZalAwb3RDRm15aGRYdGFscllwRTFacklOYTA4VW1JVWJfSTFSaHF6UFNGSzRLTnNybkFRcWZFX2hZQ0wtWHc1LVZKeE1CQzF6S3dPbzZUNU9xaWxhNzNoUmJvR0dkWmZYbHItQzNNVUF3bG5QbU1jdmpJSTh3bEFtcWVDZnhoQQ?oc=5",
      "source": "gnews",
@@ -34,28 +54,44 @@
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
-    },
+    }
+   ],
+   "coverage": 6,
+   "publishers": 6,
+   "firstSeen": "2026-09-23T12:08:02.539Z",
+   "score": 4.75,
+   "reasons": [
+    "named entity",
+    "6 publishers",
+    "autonomy thesis",
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "41d216fcb0f5",
+   "name": "Delos",
+   "evidence": [
     {
-     "title": "Ema raises $77M as AI starts eating into enterprise software and services",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQTlkT0dzTlZZN1pCLWpmdTdUY3Jzb0lrN2FEVG9scE5hdFhUZE1TdkZmZjByaE9VSTlweDNXV2xPYTg5SVh4N2I1VTZsblhYcFVZSDRDbl8zazAxOXJOSHlfQkZEbUhJUHFzX0FTWnVuRDFNUzREZnBnTU5nT1BDdGRYMVhvSVNGVjNSMG9CQVZjVnRfQjdjRDQtMFlMN3Q4VkY5bkNNYVpUclU?oc=5",
+     "title": "Delos raises €10M to bring its autonomous \"AI employees\" to the US",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb0stTTBjWjlYalZnUzh0eW1RUHEyNWZsNHhHNkdBZWY1S19mdjhrbmZBQnpneUt5M1dYTlBSRHRVR25vYWF5S1NPb0RSNEJ5VEhGYXkxQ1dhWjlBSFNxV0xKZDVoNDlHVWZTd0gxYlUtMFh1VmV6N3RiVjE0UFRTVlR6UldCa3hFOUg0blRrdl9uRlZwSm1IXzkteGswQQ?oc=5",
      "source": "gnews",
-     "domain": "techcrunch.com",
-     "publishedAt": "2026-09-23T12:00:00.000Z",
+     "domain": "app.dealroom.co",
+     "publishedAt": "2026-09-16T05:30:39.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
     }
    ],
-   "coverage": 4,
-   "publishers": 4,
-   "firstSeen": "2026-09-23T12:08:02.539Z",
-   "score": 4.75,
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-26T11:49:40.767Z",
+   "score": 2.75,
    "reasons": [
     "named entity",
-    "4 publishers",
     "autonomy thesis",
-    "funding or revenue figure",
-    "strong outlet"
+    "funding or revenue figure"
    ],
    "status": "new"
   },
@@ -121,7 +157,7 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ka0o0QUR4aGpVXzQ4SkVFMWJyaEw4clJONW9aNkU5c2IzdGx0WndsZmtYTF85LWZISlNyaFR3alVtWU93T09Cd1M5VDU3UUI2ckNLcEcxdXJudnBCR1dicDllc2ExZFFmTk5mZg?oc=5",
      "source": "gnews",
      "domain": "ynetnews.com",
-     "publishedAt": "2026-09-18T01:53:56.000Z",
+     "publishedAt": "2026-09-17T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -188,56 +224,6 @@
    "status": "blocked"
   },
   {
-   "id": "40c09b76e816",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Former Infosys chief’s AI startup nabs another $53M",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFd1UlB6TUNfekw3YnpDSEx2Um9sTGV6b1JKa1R3ajlUY0Z3eEVfbTloZ3dKWVJBQnQzNGNsMjRCQmRmS1ktNC13V3labXNheHl6UzZkeFE0Z3ZwSVVqR3N2dHFMRGZGUTVDR0dGM1NqQkJVc0lzREpQQTFmWWRpZkFCWDRVRzlpcVhDcENnS000a3hGVDVKNlpDMFRaOHNPbFZ3ZDh1X01nOUZLUU93?oc=5",
-     "source": "gnews",
-     "domain": "techcrunch.com",
-     "publishedAt": "2026-09-16T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-24T12:11:42.775Z",
-   "score": 1.25,
-   "reasons": [
-    "funding or revenue figure",
-    "strong outlet"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "278ea3b97d7d",
-   "name": null,
-   "evidence": [
-    {
-     "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOHZsWXJaaWFuNUhMLTN6aXp4NVpVOFNlUXpzT01iMVNSVW9hdUFfTk1DTUVrRFNrSGNXbm96Vm5PSmprR1EybXhvUm1HcFg2NG1zVkhRbmdISmNvYmV3VC1TUi1kM2VaTUc2UVdhMW91MHhSTmFkS19qb25mTTFOT2hURV8zbWlFUUhGbWJwbFE5QWlpLVIxVTBwM29RalNiNy0zY1RVODUyMmJIVWFrczdn?oc=5",
-     "source": "gnews",
-     "domain": "techcrunch.com",
-     "publishedAt": "2026-09-18T23:25:01.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-25T12:17:04.404Z",
-   "score": 1.25,
-   "reasons": [
-    "funding or revenue figure",
-    "strong outlet"
-   ],
-   "status": "new"
-  },
-  {
    "id": "df5920380cd7",
    "name": null,
    "evidence": [
@@ -297,6 +283,30 @@
     "acquired — no longer independent"
    ],
    "status": "rejected"
+  },
+  {
+   "id": "7f24d025f92d",
+   "name": "Plan Draws Questions",
+   "evidence": [
+    {
+     "title": "Delaware’s AI Company Plan Draws Questions Over Who Is Accountable",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1NzX3ZEWkdqbXkxLTMyUWVxbkYyTVVkb0c1cGR2T0JDOHFnc2RQMGhEaFlOeXNlMWNJMlhCV1pPUmFtdk5aSkdQVUlYaVNITjdNM1kxYnBKYkVLZjV2MlZQNUV2dW1iZFRkQ2dWYzM4TDVEdjhQVkI1SHV3X29GRGJYS01LdzJMZkFuMEw5UkE0NjFqcDZ2STVwWlhUZllsYjJUaUdIZXZGTkc3LW1aSDJ4OUpzc3U5cU1rOE1waw?oc=5",
+     "source": "gnews",
+     "domain": "pymnts.com",
+     "publishedAt": "2026-09-25T16:32:29.000Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-26T11:49:40.767Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
   },
   {
    "id": "7b40f84ddb48",
@@ -395,54 +405,6 @@
    "status": "new"
   },
   {
-   "id": "b46460fa655d",
-   "name": null,
-   "evidence": [
-    {
-     "title": "This startup wants to build the first one-person unicorn using AI",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ0FRR2dlaHZGNWVfRnJROHBfcnRKeXMzYmxOb3BvVlZPbDNlRGxIVzFyT0FYdG90SDYxLS1Pdy1QLWg1bGJPanhOTTk5SmVuZE44c3Nsb19hdkI4LWFCZ2o5dnpqWl9rUHFxTGhfYzE4Vy1ZUzI0TGpMN3ZzRThUMUNJT0Y?oc=5",
-     "source": "gnews",
-     "domain": "yahoo.com",
-     "publishedAt": "2026-09-11T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"one-person unicorn\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-12T12:32:31.739Z",
-   "score": 1,
-   "reasons": [
-    "autonomy thesis"
-   ],
-   "status": "blocked"
-  },
-  {
-   "id": "87b59c6e6072",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The autonomous company: how Replit does it with AI agents, and how to do it yourself",
-     "url": "https://www.reddit.com/r/u_maciejmm/comments/1vzn1wh/the_autonomous_company_how_replit_does_it_with_ai/",
-     "source": "reddit",
-     "domain": "reddit.com",
-     "publishedAt": "2026-08-27T07:25:11.000Z",
-     "matchedKeywords": [
-      "\"autonomous company\" AI"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-25T12:17:04.404Z",
-   "score": 1,
-   "reasons": [
-    "autonomy thesis"
-   ],
-   "status": "new"
-  },
-  {
    "id": "f2e0ad526453",
    "name": null,
    "evidence": [
@@ -465,6 +427,30 @@
     "autonomy thesis"
    ],
    "status": "rejected"
+  },
+  {
+   "id": "b46460fa655d",
+   "name": null,
+   "evidence": [
+    {
+     "title": "This startup wants to build the first one-person unicorn using AI",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ0FRR2dlaHZGNWVfRnJROHBfcnRKeXMzYmxOb3BvVlZPbDNlRGxIVzFyT0FYdG90SDYxLS1Pdy1QLWg1bGJPanhOTTk5SmVuZE44c3Nsb19hdkI4LWFCZ2o5dnpqWl9rUHFxTGhfYzE4Vy1ZUzI0TGpMN3ZzRThUMUNJT0Y?oc=5",
+     "source": "gnews",
+     "domain": "yahoo.com",
+     "publishedAt": "2026-09-11T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-12T12:32:31.739Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "blocked"
   },
   {
    "id": "079ecfc943c7",
