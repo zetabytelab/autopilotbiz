@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T11:49:40.768Z",
+ "generatedAt": "2026-09-27T12:41:23.856Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -56,13 +56,13 @@
      ]
     }
    ],
-   "coverage": 6,
-   "publishers": 6,
+   "coverage": 7,
+   "publishers": 7,
    "firstSeen": "2026-09-23T12:08:02.539Z",
    "score": 4.75,
    "reasons": [
     "named entity",
-    "6 publishers",
+    "7 publishers",
     "autonomy thesis",
     "funding or revenue figure",
     "strong outlet"
@@ -78,7 +78,7 @@
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb0stTTBjWjlYalZnUzh0eW1RUHEyNWZsNHhHNkdBZWY1S19mdjhrbmZBQnpneUt5M1dYTlBSRHRVR25vYWF5S1NPb0RSNEJ5VEhGYXkxQ1dhWjlBSFNxV0xKZDVoNDlHVWZTd0gxYlUtMFh1VmV6N3RiVjE0UFRTVlR6UldCa3hFOUg0blRrdl9uRlZwSm1IXzkteGswQQ?oc=5",
      "source": "gnews",
      "domain": "app.dealroom.co",
-     "publishedAt": "2026-09-16T05:30:39.000Z",
+     "publishedAt": "2026-09-16T08:05:08.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -249,42 +249,6 @@
    "status": "new"
   },
   {
-   "id": "a51db7d03ba2",
-   "name": "Rilo",
-   "evidence": [
-    {
-     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
-     "source": "gnews",
-     "domain": "finance.biggo.com",
-     "publishedAt": "2026-09-03T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
-     "source": "gnews",
-     "domain": "business-standard.com",
-     "publishedAt": "2026-09-02T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 2,
-   "publishers": 2,
-   "firstSeen": "2026-09-12T12:32:31.738Z",
-   "score": 1,
-   "reasons": [
-    "named entity",
-    "2 publishers",
-    "acquired — no longer independent"
-   ],
-   "status": "rejected"
-  },
-  {
    "id": "7f24d025f92d",
    "name": "Plan Draws Questions",
    "evidence": [
@@ -302,6 +266,54 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-26T11:49:40.767Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "fff33dfb39d3",
+   "name": "Efficiency",
+   "evidence": [
+    {
+     "title": "Almanac: AI-Powered Workspace for Business Efficiency",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSTJxVUFubGlNT2RxaFJPbGp2anRyREI0enoxdVgtNm00eURIdVpTcmw2bC1NeXJ3Z0RISDhrb2l6bjFSMktUVmhTNTYzU3NCTGUyUVlJYlpJS2p1YUJlVU85R0lsb3dRcThXNEhUVzdqWjFCTTAwd0Z3MzVKaHc2SjhNYUltZXYyNVl1MDJObFNEQ01KaWUyT2ZB?oc=5",
+     "source": "gnews",
+     "domain": "dynamicbusiness.com",
+     "publishedAt": "2026-09-27T02:34:08.000Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-27T12:41:23.856Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "c524cf98effe",
+   "name": "GoComet",
+   "evidence": [
+    {
+     "title": "GoComet launches Nova, an AI-native execution layer for enterprise logistics, at Odyssey Singapore",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDQ5QXVEZWpVM2ZncGF2cUtoVUc1TWh4X25uOUdRNzE4a05HM0xSa3Nnb24wZG1zaFYwdEhJX0tlTUFybzg0NUVvSEFORENlX2tjSTZaZlRIZElrRU9pRnhfbkQ4TllOZGRabG9ZR1Izak51R01uTkZic1lWXzgzTFRlOENzWmRBYU01UWQ5NENFTFJwNWNXbUVhQQ?oc=5",
+     "source": "gnews",
+     "domain": "finance.yahoo.com",
+     "publishedAt": "2026-09-24T01:00:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-27T12:41:23.856Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -525,6 +537,30 @@
    "status": "new"
   },
   {
+   "id": "7ea8820dd590",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
+     "url": "https://news.ycombinator.com/item?id=49824887",
+     "source": "hn",
+     "domain": "news.ycombinator.com",
+     "publishedAt": "2026-09-24T01:04:35Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-24T12:11:42.775Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "9f470effce2a",
    "name": null,
    "evidence": [
@@ -549,15 +585,15 @@
    "status": "new"
   },
   {
-   "id": "7ea8820dd590",
-   "name": null,
+   "id": "a51db7d03ba2",
+   "name": "Rilo",
    "evidence": [
     {
-     "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
-     "url": "https://news.ycombinator.com/item?id=49824887",
-     "source": "hn",
-     "domain": "news.ycombinator.com",
-     "publishedAt": "2026-09-24T01:04:35Z",
+     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
+     "source": "gnews",
+     "domain": "finance.biggo.com",
+     "publishedAt": "2026-09-03T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -565,12 +601,13 @@
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-09-24T12:11:42.775Z",
-   "score": 0.75,
+   "firstSeen": "2026-09-12T12:32:31.738Z",
+   "score": 0.5,
    "reasons": [
-    "funding or revenue figure"
+    "named entity",
+    "acquired — no longer independent"
    ],
-   "status": "new"
+   "status": "rejected"
   },
   {
    "id": "aca1c8a14983",
