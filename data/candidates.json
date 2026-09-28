@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-27T12:41:23.856Z",
+ "generatedAt": "2026-09-28T14:12:19.163Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -393,26 +393,26 @@
    "status": "new"
   },
   {
-   "id": "5f493757a8d8",
-   "name": "Pion",
+   "id": "53f594978cfe",
+   "name": null,
    "evidence": [
     {
-     "title": "Pion, an agent designed to run any company autonomously",
-     "url": "https://andonlabs.com/blog/why-we-built-pion",
-     "source": "hn",
-     "domain": "andonlabs.com",
-     "publishedAt": "2026-09-14T17:16:06Z",
+     "title": "Ninja Enterprise bundles AI employees and GPUs into one fixed yearly fee",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZWZ0TlpjdGcwLXJ3d3dCeUd3cG54VTIza0V6WnVJZm45bHFoUjRkWUk4OGViWF94Y1hweWxkeWtIUFpnWTJEVHVzUTA4TWgwVmNicDUyS3FQNFlEUTRVVm1FQzliM3ZYc2UtMjFkVjlNYVl3Z2hKVkhVOVRvcVFiSS1lT19GX0lSb3BfTlphdGY4OTJ4azdPWDY3c3BJX19ndm1qa2k1Tm9sYVNZbC1nOUtJdXUzOHhuSXNDVWo4UHc?oc=5",
+     "source": "gnews",
+     "domain": "siliconangle.com",
+     "publishedAt": "2026-09-28T13:00:00.000Z",
      "matchedKeywords": [
-      "\"autonomous company\""
+      "\"AI employees\" startup"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-09-15T12:03:34.983Z",
+   "firstSeen": "2026-09-28T14:12:19.163Z",
    "score": 1,
    "reasons": [
-    "named entity"
+    "autonomy thesis"
    ],
    "status": "new"
   },
@@ -585,6 +585,30 @@
    "status": "new"
   },
   {
+   "id": "aca1c8a14983",
+   "name": null,
+   "evidence": [
+    {
+     "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+     "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+     "source": "investor",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-09-22T23:21:49.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-23T12:08:02.540Z",
+   "score": 0.5,
+   "reasons": [
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
    "id": "a51db7d03ba2",
    "name": "Rilo",
    "evidence": [
@@ -608,30 +632,6 @@
     "acquired — no longer independent"
    ],
    "status": "rejected"
-  },
-  {
-   "id": "aca1c8a14983",
-   "name": null,
-   "evidence": [
-    {
-     "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
-     "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
-     "source": "investor",
-     "domain": "techcrunch.com",
-     "publishedAt": "2026-09-22T23:21:49.000Z",
-     "matchedKeywords": [
-      "investor:techcrunch-vc"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-23T12:08:02.540Z",
-   "score": 0.5,
-   "reasons": [
-    "strong outlet"
-   ],
-   "status": "new"
   },
   {
    "id": "2dd907d06ca8",
