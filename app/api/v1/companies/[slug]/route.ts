@@ -2,6 +2,7 @@ import type { NextRequest } from "next/server";
 import { z } from "zod";
 import { apiJson, apiError, preflight, methodNotAllowed } from "@/lib/api/http";
 import { getCompany } from "@/lib/api/core";
+import { databaseReadsEnabled, getCompanyFromDatabase } from "@/lib/db/projections";
 
 // Validate the slug shape before touching data — bounded, charset-restricted.
 const slugSchema = z.string().regex(/^[a-z0-9-]{1,64}$/);
@@ -12,7 +13,7 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
   if (!parsed.success) {
     return apiError(400, "invalid_slug", "Slug must be 1–64 lowercase letters, digits, or hyphens.");
   }
-  const company = getCompany(parsed.data);
+  const company = databaseReadsEnabled() ? await getCompanyFromDatabase(parsed.data) : getCompany(parsed.data);
   if (!company) {
     return apiError(404, "not_found", `No company with slug '${parsed.data}'.`);
   }

@@ -1,0 +1,47 @@
+AI can run the shop. Can it pay the rent?
+
+Andon Labs is putting agents in charge of businesses with real customers, employees and bills.
+
+Its store and cafe are still unprofitable.
+
+On September 14, Andon announced Pion, opening the platform behind these experiments to more business owners.
+
+The journey started with Vending-Bench, a simulation where agents managed stock, prices and expenses over extended periods. Then came a real shop inside Anthropic's office.
+
+The first version lost money. Claudius, the agent running it, sold products below cost and gave away too many discounts.
+
+Later results improved. Newer models arrived alongside better inventory tools, customer records and operating procedures. The progress came from changes to the whole system.
+
+Now the experiments involve more demanding businesses.
+
+At Andon Market in San Francisco, Luna orders products, coordinates employees and handles customer requests. Andon also documents conflicting schedules and a proposed extra hire without enough financial justification.
+
+At Andon Cafe in Stockholm, Mona handles suppliers, purchasing and staff coordination. Human baristas perform the physical work, and people help where identity checks require them.
+
+Andon FM adds another setting: four agents running live radio stations, selecting music, scheduling programmes and interacting with listeners.
+
+These are useful tests because business decisions accumulate. A poor order ties up cash. A missing ingredient prevents a sale. An unnecessary hire adds a recurring cost.
+
+Credit to Andon for putting money into the experiments and publishing what goes wrong.
+
+The distinction I want to track at Autopilot Index is simple: how much of the operation can an agent run, and can the business sustain it?
+
+A falling bank balance alone is not a profit statement. But rent, wages, inventory and model costs all count. So does the human time spent correcting mistakes.
+
+Pion is now recruiting participants through a research-preview waitlist. Owners of physical businesses can propose experiments, alongside digital businesses and people with new ideas.
+
+Andon wants to discover what frontier models can do across more industries than its own team can test.
+
+For business owners considering an application, I would start with two actions.
+
+1. Apply with a specific business and a clear scope for what the agent would manage.
+
+2. Record your baseline before the experiment: sales, costs, service quality and human operating hours.
+
+The result worth watching is whether agents improve the business while needing less human rescue.
+
+Read Andon's announcement:
+https://andonlabs.com/blog/why-we-built-pion
+
+Explore the Pion preview:
+https://andonlabs.com/pion

@@ -1,8 +1,9 @@
 import { apiJson, preflight, methodNotAllowed } from "@/lib/api/http";
 import { listEditions } from "@/lib/api/core";
+import { databaseReadsEnabled, listEditionsFromDatabase } from "@/lib/db/projections";
 
-export function GET() {
-  return apiJson(listEditions());
+export async function GET() {
+  return apiJson(databaseReadsEnabled() ? await listEditionsFromDatabase() : listEditions());
 }
 
 export function OPTIONS() {

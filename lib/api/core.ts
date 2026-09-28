@@ -4,6 +4,7 @@ import { editions, type Edition } from "@/lib/editions";
 import { API_BASE } from "@/lib/api/http";
 import { getCompanyResearch } from "@/lib/company-profiles";
 import { comparableValue, financialHistory, latestObservation } from "@/lib/financials";
+import type { MetricKind, MetricObservation } from "@/lib/financial-types";
 import { compareCompanies } from "@/lib/autonomy";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -12,8 +13,18 @@ import { compareCompanies } from "@/lib/autonomy";
 // already public on the site.
 // ─────────────────────────────────────────────────────────────────────────────
 
-export function companyDTO(c: Company) {
+function latestFromHistory(history: MetricObservation[], kind: MetricKind): MetricObservation | null {
+  const replaced = new Set(history.flatMap((entry) => entry.supersedes ? [entry.supersedes] : []));
+  return history
+    .filter((entry) => entry.kind === kind && !replaced.has(entry.id))
+    .sort((a, b) => (b.asOf ?? "").localeCompare(a.asOf ?? "") || b.recordedAt.localeCompare(a.recordedAt))[0] ?? null;
+}
+
+export function companyDTO(c: Company, observations = financialHistory(c)) {
   const currentResearch = getCompanyResearch(c.slug);
+  const arr = latestFromHistory(observations, "arr");
+  const headcount = latestFromHistory(observations, "headcount");
+  const contractors = latestFromHistory(observations, "contractors");
   return {
     slug: c.slug,
     name: c.name,
@@ -31,12 +42,12 @@ export function companyDTO(c: Company) {
     },
     founders: c.founders.map((f) => ({ name: f.name, background: f.background })),
     metrics: {
-      arr: latestObservation(c, "arr")?.display ?? null,
-      arrUsd: comparableValue(latestObservation(c, "arr")),
-      humans: latestObservation(c, "headcount")?.value ?? null,
-      headcount: latestObservation(c, "headcount"),
-      contractors: latestObservation(c, "contractors"),
-      observations: financialHistory(c),
+      arr: arr?.display ?? null,
+      arrUsd: comparableValue(arr),
+      humans: headcount?.value ?? null,
+      headcount,
+      contractors,
+      observations,
       note: "ARR fields now contain ARR only. Numeric ARR requires a dated, source-reviewed reported point estimate. Consult observations for bounds, estimates, disputes, other metrics and historical dates. Headcount is historical, not necessarily current or comparable to ARR.",
     },
     pricing: currentResearch?.pricing.summary ?? c.pricing,
@@ -117,8 +128,12 @@ function matches(hay: (string | null | undefined)[], q: string): boolean {
   return hay.some((h) => typeof h === "string" && h.toLowerCase().includes(needle));
 }
 
-export function listCompanies(p: ListCompaniesParams) {
-  let rows = companies.slice();
+export function listCompanies(
+  p: ListCompaniesParams,
+  source: Company[] = companies,
+  observationsBySlug?: ReadonlyMap<string, MetricObservation[]>,
+) {
+  let rows = source.slice();
   if (p.cohort) rows = rows.filter((c) => (c.cohort ?? "hackathon") === p.cohort);
   if (p.section) rows = rows.filter((c) => c.autopilot?.section === p.section);
   if (p.verified) rows = rows.filter((c) => c.verified === (p.verified === "true"));
@@ -133,16 +148,26 @@ export function listCompanies(p: ListCompaniesParams) {
   }
   const total = rows.length;
   const page = rows.slice(p.offset, p.offset + p.limit);
-  return { total, limit: p.limit, offset: p.offset, count: page.length, items: page.map(companyDTO) };
+  return {
+    total,
+    limit: p.limit,
+    offset: p.offset,
+    count: page.length,
+    items: page.map((company) => companyDTO(company, observationsBySlug?.get(company.slug) ?? financialHistory(company))),
+  };
 }
 
-export function getCompany(slug: string) {
-  const c = companies.find((x) => x.slug === slug);
-  return c ? companyDTO(c) : null;
+export function getCompany(
+  slug: string,
+  source: Company[] = companies,
+  observationsBySlug?: ReadonlyMap<string, MetricObservation[]>,
+) {
+  const c = source.find((x) => x.slug === slug);
+  return c ? companyDTO(c, observationsBySlug?.get(c.slug) ?? financialHistory(c)) : null;
 }
 
-export function listStack(p: z.infer<typeof listStackSchema>) {
-  let rows = stackTools.slice();
+export function listStack(p: z.infer<typeof listStackSchema>, source: StackTool[] = stackTools) {
+  let rows = source.slice();
   if (p.category) rows = rows.filter((t) => t.category.toLowerCase() === p.category!.toLowerCase());
   if (p.hasReferral) rows = rows.filter((t) => Boolean(t.referralUrl) === (p.hasReferral === "true"));
   if (p.q) {
@@ -155,7 +180,7 @@ export function listStack(p: z.infer<typeof listStackSchema>) {
   return { total, limit: p.limit, offset: p.offset, count: page.length, items: page.map(stackToolDTO) };
 }
 
-export function listEditions() {
-  const rows = editions.slice().sort((a, b) => b.number - a.number);
+export function listEditions(source: Edition[] = editions) {
+  const rows = source.slice().sort((a, b) => b.number - a.number);
   return { total: rows.length, items: rows.map(editionDTO) };
 }

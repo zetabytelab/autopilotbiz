@@ -10,18 +10,22 @@
     "pulse:plan": "node scripts/update-pulse.mjs --social-plan",
     "pulse:watchlist": "python3 scripts/generate-social-watchlist.py",
     "test:pulse": "node --test scripts/tests/*.test.mjs",
+    "export:csv": "node --experimental-strip-types scripts/export-index-csv.ts",
     "gen:index": "node --experimental-strip-types scripts/generate-index-readme.ts",
     "send:edition": "node --experimental-strip-types scripts/send-edition.ts",
     "linkedin:article": "node --experimental-strip-types scripts/linkedin-article.ts",
-    "search:bench": "node scripts/search-bench/bench.mjs"
+    "search:bench": "node scripts/search-bench/bench.mjs",
+    "db:import": "node --experimental-strip-types scripts/import-to-postgres.mts"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
     "@vercel/analytics": "^2.0.1",
     "botid": "^1.5.11",
     "next": "16.2.10",
     "octokit": "^5.0.5",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "workflow": "^4.8.9",
     "zod": "^4.4.3"
   },
   "devDependencies": {
