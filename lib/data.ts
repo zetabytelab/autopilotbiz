@@ -548,7 +548,7 @@ export const companies: Company[] = [
     },
     referralProgram: {
       exists: true,
-      notes: "atoms.dev/affiliate: commission on each referred user's first 6 recurring payments; referred users get $50 in credits; monthly payouts via Wise.",
+      notes: "atoms.dev/affiliate: commission on each referred user's first 6 recurring payments; referred users get 10 free credits (per Atoms' referral terms); monthly payouts via Wise.",
     },
     pricing: "Freemium: ~25 free credits/cycle; paid from $20/mo; Race Mode on the $100/mo Max plan.",
     news: [
@@ -1581,7 +1581,7 @@ export const stackTools: StackTool[] = [
     name: "Atoms",
     url: "https://atoms.dev",
     role: "AI business team — agents that build, deploy AND market your product",
-    referral: "Affiliate: referred users get $50 in credits",
+    referral: "Referred users get 10 free credits (per Atoms' referral terms)",
     referralUrl: "https://atoms.dev/?utm_source=affiliate&via=autopilot-biz",
     usedBy: ["One-person companies"],
     category: "intelligence",
@@ -1728,8 +1728,8 @@ export const stackTools: StackTool[] = [
     name: "Vapi",
     url: "https://vapi.ai",
     role: "Voice agents by API — dial, listen, respond; the fast path to a 'Rachel' of your own",
-    // TODO(referral): join at https://affiliates.vapi.ai (~15% via Tolt) → set referralUrl
-    referral: "Affiliate: ~15% commission",
+    // TODO(referral): join at https://affiliates.vapi.ai (via Tolt) → set referralUrl and referral terms
+    referral: null,
     usedBy: ["Solo builders"],
     category: "agents",
   },
@@ -1745,7 +1745,7 @@ export const stackTools: StackTool[] = [
     name: "Firecrawl",
     url: "https://firecrawl.dev",
     role: "Websites → LLM-ready data — the web-reading layer for agent pipelines",
-    referral: "Affiliate link — referred users get 20% off for 3 months",
+    referral: "10% off your first purchase",
     referralUrl: "https://firecrawl.link/autopilot-index",
     usedBy: ["Solo builders"],
     category: "agents",

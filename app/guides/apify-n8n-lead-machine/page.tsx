@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { stackTools } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -104,6 +105,7 @@ export default function ApifyN8nGuide() {
               </div>
               <p className="text-sm leading-snug text-zinc-400">{t.role}</p>
               {t.referral && <p className="font-mono text-[11px] text-lime-400/80">{t.referral}</p>}
+              <AffiliateDisclosure tool={t} />
             </a>
           ))}
         </div>
