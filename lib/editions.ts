@@ -28,17 +28,16 @@ export type Edition = {
   signOff?: boolean; // house sign-off in the footer; default true
 };
 
-// TODO(pulse-11 publish): PLACEHOLDER. Set this to the real go-live date
-// (YYYY-MM-DD) on the day edition #11 is published. It drives the page date,
-// the RSS pubDate, the sitemap lastModified and /api/v1/editions.
-export const PULSE_11_PUBLISH_DATE = "2026-09-28";
+// Edition #11 go-live date (YYYY-MM-DD). It drives the page date, the RSS
+// pubDate, the sitemap lastModified and /api/v1/editions.
+export const PULSE_11_PUBLISH_DATE = "2026-09-29";
 
 export const editions: Edition[] = [
   {
     "slug": "11-can-it-pay-the-rent",
     "number": 11,
     "title": "AI can run the shop. Can it pay the rent?",
-    "date": PULSE_11_PUBLISH_DATE, // TODO(pulse-11 publish): see PULSE_11_PUBLISH_DATE above
+    "date": PULSE_11_PUBLISH_DATE,
     "cover": "/pulse/11-cover.png",
     "coverAlt": "Title card: \"AI can run the shop. Can it pay the rent?\" Below: \"Andon Market and Andon Cafe are operating. Andon reports both are still unprofitable. Operating autonomy and business viability are separate tests.\" Source line: Andon Labs, Why we built Pion, September 14, 2026. autopilotindex.com",
     // Empty until the LinkedIn newsletter article is live (the site goes first);
