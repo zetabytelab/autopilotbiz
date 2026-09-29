@@ -26,18 +26,21 @@ export default function SubscribeForm() {
     // RefCapture stashed on the landing page. Never blocks the signup.
     let ref = "";
     let page = "";
+    const utm: Record<string, string> = {};
     try {
-      ref =
-        new URLSearchParams(window.location.search).get("ref") ??
-        sessionStorage.getItem("ap_ref") ??
-        "";
+      const qs = new URLSearchParams(window.location.search);
+      ref = qs.get("ref") ?? sessionStorage.getItem("ap_ref") ?? "";
       page = window.location.pathname;
+      for (const k of ["utm_source", "utm_campaign", "utm_content"]) {
+        const v = qs.get(k);
+        if (v) utm[k] = v.slice(0, 100);
+      }
     } catch {}
     try {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, website_url: "", ref, page }),
+        body: JSON.stringify({ email, website_url: "", ref, page, ...utm }),
       });
       const data = (await res.json()) as { ok: boolean; message?: string; error?: string; subscriptionStatus?: string };
       if (res.ok && data.ok) {

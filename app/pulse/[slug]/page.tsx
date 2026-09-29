@@ -4,6 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { editions, editionSummary, getEdition } from "@/lib/editions";
 import SubscribeForm from "@/components/SubscribeForm";
+import { editionJsonLd, jsonLdScript } from "@/lib/edition-jsonld";
 
 export function generateStaticParams() {
   return editions.map((e) => ({ slug: e.slug }));
@@ -46,6 +47,7 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
 
   return (
     <main className="mx-auto max-w-3xl px-4 pb-24 sm:px-6">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(editionJsonLd(e)) }} />
       <header className="py-12">
         <Link href="/pulse" className="font-mono text-xs text-zinc-500 hover:text-lime-400">
           ← All editions
@@ -119,11 +121,33 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
         </section>
       ))}
 
+      {e.sourceList && e.sourceList.length > 0 && (
+        <section className="mb-8" aria-labelledby="edition-sources">
+          <h2 id="edition-sources" className="mb-3 text-xl font-bold text-zinc-100">Sources</h2>
+          <ul className="space-y-3 border-l-2 border-zinc-700 pl-4 text-sm">
+            {e.sourceList.map((source) => (
+              <li key={source.label}>
+                <p className="text-zinc-300">{source.label}:</p>
+                {source.urls.map((url) => (
+                  <a key={url} href={url} className="block break-all text-lime-400 underline decoration-lime-400/40 underline-offset-4 hover:text-lime-300">
+                    {url}
+                  </a>
+                ))}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <footer className="mt-12 border-t border-zinc-800 pt-8">
-        <p className="mb-1 font-mono text-sm text-zinc-400">
-          Keep building — the agents have the night shift. 🛩
-        </p>
-        <p className="mb-6 font-mono text-xs text-zinc-600">— Antonio, the human in the loop</p>
+        {e.signOff !== false && (
+          <>
+            <p className="mb-1 font-mono text-sm text-zinc-400">
+              Keep building — the agents have the night shift. 🛩
+            </p>
+            <p className="mb-6 font-mono text-xs text-zinc-600">— Antonio, the human in the loop</p>
+          </>
+        )}
         <p className="text-sm text-zinc-400">
           Everything above is sourced and labeled on{" "}
           <Link href="/" className="text-lime-400 underline hover:text-lime-300">

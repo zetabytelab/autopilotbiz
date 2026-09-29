@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
+import { postContactWithAttribution, signupAttributes } from "@/lib/signup-attribution";
 
 export const runtime = "nodejs";
 
@@ -28,6 +29,10 @@ const schema = z
     // Attribution (both optional): ?ref= campaign tag + pathname the form was on.
     ref: z.string().max(100).optional(),
     page: z.string().max(200).optional(),
+    // UTMs from the form page's URL → SIGNUP_* Brevo attributes (optional).
+    utm_source: z.string().max(100).optional(),
+    utm_campaign: z.string().max(100).optional(),
+    utm_content: z.string().max(100).optional(),
   })
   .strict();
 
@@ -94,11 +99,13 @@ export async function POST(req: Request) {
       };
 
   try {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "api-key": BREVO_API_KEY, "content-type": "application/json" },
-      body: JSON.stringify(body),
-    });
+    const res = await postContactWithAttribution(
+      fetch,
+      url,
+      { "api-key": BREVO_API_KEY, "content-type": "application/json" },
+      body,
+      signupAttributes(parsed.data),
+    );
     // 201 created, 204 already existed & updated — both fine.
     if (!res.ok && res.status !== 204) {
       console.error("brevo contact create failed:", res.status, await res.text());

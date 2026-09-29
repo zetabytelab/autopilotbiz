@@ -1,4 +1,10 @@
-# The Autopilot Index
+import { editions } from "./editions.ts";
+
+// /llms.txt, served by app/llms.txt/route.ts. The static guidance below was
+// public/llms.txt; the "Autopilot Pulse editions" section is generated from
+// lib/editions.ts so each new edition appears automatically.
+
+const LLMS_BASE = `# The Autopilot Index
 
 > The Autopilot Index (autopilotindex.com) is a public research and intelligence project tracking AI-operated businesses, lean AI companies, their evidence and the tech stack behind them. It also publishes Autopilot Pulse, a weekly newsletter, and practical "Proof of Stack" build guides.
 
@@ -51,3 +57,29 @@ Use the API or MCP server to answer questions like "which companies are run by A
 - Newsletter: https://autopilotindex.com/pulse
 - LinkedIn: Autopilot Pulse (search "Autopilot Pulse")
 - X: https://x.com/autopilotindex
+`;
+
+const SITE = "https://autopilotindex.com";
+const MAX_EDITIONS = 20;
+
+export function llmsEditionsSection(): string {
+  const latest = editions
+    .slice()
+    .sort((a, b) => b.number - a.number)
+    .slice(0, MAX_EDITIONS)
+    .map((e) => `- [Autopilot Pulse #${e.number}: ${e.title}](${SITE}/pulse/${e.slug}) (${e.date})`);
+  return `## Autopilot Pulse editions
+
+Latest editions, newest first. Every edition is free to read; the full list is at ${SITE}/pulse and as RSS at ${SITE}/pulse/feed.xml.
+
+${latest.join("\n")}
+`;
+}
+
+export function llmsTxt(): string {
+  const marker = "## Pricing";
+  const i = LLMS_BASE.indexOf(marker);
+  return i === -1
+    ? `${LLMS_BASE.trimEnd()}\n\n${llmsEditionsSection()}`
+    : `${LLMS_BASE.slice(0, i)}${llmsEditionsSection()}\n${LLMS_BASE.slice(i)}`;
+}

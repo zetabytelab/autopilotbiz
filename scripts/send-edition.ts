@@ -44,7 +44,7 @@ ${s.paras.map((p) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font
 ${(s.sources ?? []).map((source) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:12px;line-height:1.6;padding-bottom:6px"><a href="${source.url}" style="color:#a3e635">${source.label}</a></td></tr>`).join("\n")}`,
   )
   .join("\n")}
-<tr><td style="border-top:1px solid #27272a;padding-top:18px;font-family:'Courier New',monospace;font-size:13px;color:#a1a1aa">Keep building — the agents have the night shift. 🛩<br/>— Antonio, the human in the loop</td></tr>
+${e.signOff !== false ? `<tr><td style="border-top:1px solid #27272a;padding-top:18px;font-family:'Courier New',monospace;font-size:13px;color:#a1a1aa">Keep building — the agents have the night shift. 🛩<br/>— Antonio, the human in the loop</td></tr>` : ""}
 <tr><td style="padding-top:14px;font-family:Helvetica,Arial,sans-serif;font-size:12px;color:#71717a">Read on the web: <a href="${SITE}/pulse/${e.slug}?ref=email" style="color:#a3e635">${SITE.replace("https://www.", "")}/pulse/${e.slug}</a> · Every claim sourced &amp; labeled on <a href="${SITE}/?ref=email" style="color:#a3e635">the index</a>.</td></tr>
 </table></td></tr></table></body></html>`;
 

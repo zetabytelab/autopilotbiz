@@ -22,6 +22,10 @@ export type Edition = {
   linkedinUrl: string; // "" until the LinkedIn article is live
   sections: EditionSection[];
   correction?: string;
+  // Separate "Sources" list rendered under the body: a label followed by one
+  // or more URLs, shown as given (link text = URL).
+  sourceList?: { label: string; urls: string[] }[];
+  signOff?: boolean; // house sign-off in the footer; default true
 };
 
 // TODO(pulse-11 publish): PLACEHOLDER. Set this to the real go-live date
@@ -43,6 +47,35 @@ export const editions: Edition[] = [
     // The approved copy has no TL;DR; the box is hidden and descriptions fall
     // back to the opening paragraphs (see editionSummary).
     "tldr": [],
+    // Fact-check sources (first-comment.txt), listed as given under the body.
+    "sourceList": [
+      {
+        "label": "Vending-Bench (Andon Labs paper, Feb 2025)",
+        "urls": ["https://arxiv.org/abs/2502.15840"]
+      },
+      {
+        "label": "Project Vend, phase one (Anthropic, Jun 27, 2025)",
+        "urls": ["https://www.anthropic.com/research/project-vend-1"]
+      },
+      {
+        "label": "Project Vend, phase two (Anthropic, Dec 18, 2025)",
+        "urls": ["https://www.anthropic.com/research/project-vend-2"]
+      },
+      {
+        "label": "Andon Market, how Luna runs the store",
+        "urls": ["https://andonlabs.com/market"]
+      },
+      {
+        "label": "Andon Café and Mona",
+        "urls": ["https://andonlabs.com/cafe", "https://andonlabs.com/blog/ai-cafe-stockholm", "https://apnews.com/article/ai-artificial-intelligence-sweden-84a8f903fdaea94e76e80e16ec3d9e6c"]
+      },
+      {
+        "label": "Andon FM",
+        "urls": ["https://andonlabs.com/radio"]
+      }
+    ],
+    // No house sign-off on #11 (the approved copy ends without one).
+    "signOff": false,
     "sections": [
       {
         "paras": [

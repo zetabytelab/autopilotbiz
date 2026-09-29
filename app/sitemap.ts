@@ -35,7 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const editionEntries: MetadataRoute.Sitemap = editions.map((e) => ({
     url: `${BASE}/pulse/${e.slug}`,
-    lastModified: e.date ? new Date(e.date) : now,
+    // Same value as the page's Article JSON-LD datePublished/dateModified.
+    lastModified: e.date || now,
     changeFrequency: "monthly",
     priority: 0.6,
   }));
