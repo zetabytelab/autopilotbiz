@@ -10,6 +10,7 @@ import {
   SECTION_LABELS,
   compareCompanies,
   getAutonomyAssessment,
+  indexLevelCounts,
   reportedAnnualFigurePerHuman,
   type CompanySort,
 } from "@/lib/autonomy";
@@ -44,6 +45,8 @@ export default function Leaderboard({ companies }: { companies: Company[] }) {
   const [section, setSection] = useState<SectionFilter>("index");
   const [level, setLevel] = useState<LevelFilter>("all");
   const [evidence, setEvidence] = useState<EvidenceFilter>("all");
+  // Index rows only: watchlist claims (e.g. Egbe's L4) do not occupy a level.
+  const levelCounts = useMemo(() => indexLevelCounts(companies), [companies]);
 
   const sorted = useMemo(() => companies.filter((company) => {
     const meta = company.autopilot;
@@ -90,7 +93,10 @@ export default function Leaderboard({ companies }: { companies: Company[] }) {
             Autonomy level
             <select value={level} onChange={(event) => setLevel(event.target.value as LevelFilter)} className={selectClass}>
               <option value="all">All levels</option>
-              {Object.entries(AUTONOMY_LABELS).map(([key, label]) => <option key={key} value={key}>{key} · {label}</option>)}
+              {Object.entries(AUTONOMY_LABELS).map(([key, label]) => {
+                const inIndex = levelCounts[key as keyof typeof levelCounts];
+                return <option key={key} value={key}>{key} · {label} · {inIndex ? `${inIndex} in Index` : "vacant"}</option>;
+              })}
               <option value="unknown">Not assessed</option>
             </select>
           </label>

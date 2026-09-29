@@ -26,10 +26,35 @@ export const SECTION_LABELS = {
 export const EVIDENCE_SCOPE_NOTE =
   "Evidence grades describe the sources behind reported facts, including financials. They do not certify autonomous operation. Levels are editorial assessments; human involvement still needs to be checked.";
 
+type AutonomyLevel = NonNullable<AutopilotMeta["level"]>;
+
+/** Only Index rows hold a level. Watchlist levels are the company's own claim. */
+export function isClaimedLevel(meta: AutopilotMeta | undefined): boolean {
+  return Boolean(meta?.level) && meta?.section === "watchlist";
+}
+
+/**
+ * Companies per autonomy level, counting Index rows only. Watchlist (and
+ * enabler/caution) rows never occupy a level, so an unverified claim such as
+ * Egbe's L4 leaves L4 vacant.
+ */
+export function indexLevelCounts(list: Company[]): Record<AutonomyLevel, number> {
+  const counts: Record<AutonomyLevel, number> = { L2: 0, L3: 0, L4: 0, L5: 0 };
+  for (const company of list) {
+    const meta = company.autopilot;
+    if (meta?.section === "index" && meta.level) counts[meta.level] += 1;
+  }
+  return counts;
+}
+
 export function getAutonomyAssessment(company: Company) {
   const meta = company.autopilot;
   return {
-    levelLabel: meta?.level ? `${meta.level} · ${AUTONOMY_LABELS[meta.level]}` : "Not assessed",
+    levelLabel: meta?.level
+      ? isClaimedLevel(meta)
+        ? `Claims ${meta.level}, unverified`
+        : `${meta.level} · ${AUTONOMY_LABELS[meta.level]}`
+      : "Not assessed",
     evidenceLabel: meta?.evidence ? `${meta.evidence} · ${EVIDENCE_LABELS[meta.evidence]}` : "Not graded",
     sectionLabel: meta ? SECTION_LABELS[meta.section] : "Unclassified",
     qualification:
