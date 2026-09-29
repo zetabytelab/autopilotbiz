@@ -14,7 +14,7 @@ const publicHosts = new Set(["autopilotindex.com", "www.autopilotindex.com"]);
 export const ANALYTICS_COMPANY_SLUGS = ["andon-labs", "polsia", "nanocorp", "cofounder", "chainopera-ai", "wordware", "feltsense", "caffeine", "atoms", "semio", "boardy", "base44", "midjourney", "artisan", "lindy", "basis", "delphi", "payman", "rentahuman", "naive", "moritz", "minimal-ai", "lunavo", "beacon-health", "gamma", "retell-ai", "11x", "egbe", "medvi", "listen-labs"];
 export const ANALYTICS_EDITION_SLUGS = ["10-harness-tax", "09-self-improving-products-wave", "08-not-paying-for-speed", "07-the-gate-had-no-buyer", "06-throwaway-computer", "05-two-readers", "04-ai-gateway-wars", "03-never-says-tomorrow", "02-the-bill", "01-org-chart-prompt"];
 const publicPaths = new Set([
-  "/", "/companies", "/news", "/pulse", "/about", "/pricing", "/privacy", "/contact", "/developers", "/submit", "/experiments/atoms",
+  "/", "/companies", "/news", "/pulse", "/about", "/pricing", "/privacy", "/contact", "/developers", "/dealroom", "/submit", "/experiments/atoms",
   ...ANALYTICS_COMPANY_SLUGS.map((slug) => `/companies/${slug}`),
   ...ANALYTICS_EDITION_SLUGS.map((slug) => `/pulse/${slug}`),
   ...["ai-company-builders", "apify-n8n-lead-machine", "is-n8n-obsolete", "agent-ready-web", "ai-gateways"].map((slug) => `/guides/${slug}`),
