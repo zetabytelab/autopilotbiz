@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { editions, getEdition } from "@/lib/editions";
+import { editions, editionSummary, getEdition } from "@/lib/editions";
 import SubscribeForm from "@/components/SubscribeForm";
 
 export function generateStaticParams() {
@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!e) return {};
   return {
     title: `Autopilot Pulse #${e.number} — ${e.title}`,
-    description: e.tldr[0],
+    description: editionSummary(e),
     alternates: { canonical: `/pulse/${e.slug}` },
     openGraph: { images: [e.cover] },
   };
@@ -58,13 +58,14 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
 
       <Image
         src={e.cover}
-        alt={`Edition #${e.number} cover`}
+        alt={e.coverAlt ?? `Edition #${e.number} cover`}
         width={1080}
         height={1350}
         className="mb-10 w-full rounded-2xl border border-zinc-800"
         priority
       />
 
+      {e.tldr.length > 0 && (
       <section className="mb-10 rounded-2xl border border-lime-400/30 bg-lime-400/5 p-5">
         <h2 className="mb-3 font-mono text-xs font-bold uppercase tracking-[0.2em] text-lime-400">TL;DR</h2>
         <ul className="space-y-2">
@@ -78,6 +79,7 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
           ))}
         </ul>
       </section>
+      )}
 
       {e.correction && (
         <aside className="mb-10 rounded-xl border border-zinc-700 p-4 text-sm leading-relaxed text-zinc-400" aria-label="Editorial correction">
@@ -94,9 +96,10 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
               alt={s.imageAlt ?? ""}
               width={1200}
               height={675}
-              className="mb-4 w-full rounded-xl border border-zinc-800"
+              className={`${s.imageCredit ? "mb-2" : "mb-4"} w-full rounded-xl border border-zinc-800`}
             />
           )}
+          {s.image && s.imageCredit && <p className="mb-4 font-mono text-xs text-zinc-500">{s.imageCredit}</p>}
           {s.paras.map((p, j) => (
             <p key={j} className="mb-4 text-[15px] leading-relaxed text-zinc-300">
               <Rich text={p} />
@@ -126,16 +129,21 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
           <Link href="/" className="text-lime-400 underline hover:text-lime-300">
             the index
           </Link>
-          . Also published on{" "}
-          <a
-            href={e.linkedinUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-lime-400 underline hover:text-lime-300"
-          >
-            LinkedIn
-          </a>
           .
+          {e.linkedinUrl && (
+            <>
+              {" "}Also published on{" "}
+              <a
+                href={e.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lime-400 underline hover:text-lime-300"
+              >
+                LinkedIn
+              </a>
+              .
+            </>
+          )}
         </p>
         <SubscribeForm />
       </footer>

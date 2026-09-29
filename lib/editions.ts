@@ -7,6 +7,7 @@ export type EditionSection = {
   paras: string[];
   image?: string;
   imageAlt?: string;
+  imageCredit?: string; // visible caption under the image, e.g. a screenshot credit
   sources?: { label: string; url: string }[];
 };
 
@@ -17,12 +18,82 @@ export type Edition = {
   date: string; // ISO
   tldr: string[];
   cover: string;
-  linkedinUrl: string;
+  coverAlt?: string; // defaults to "Edition #N cover"
+  linkedinUrl: string; // "" until the LinkedIn article is live
   sections: EditionSection[];
   correction?: string;
 };
 
+// TODO(pulse-11 publish): PLACEHOLDER. Set this to the real go-live date
+// (YYYY-MM-DD) on the day edition #11 is published. It drives the page date,
+// the RSS pubDate, the sitemap lastModified and /api/v1/editions.
+export const PULSE_11_PUBLISH_DATE = "2026-09-28";
+
 export const editions: Edition[] = [
+  {
+    "slug": "11-can-it-pay-the-rent",
+    "number": 11,
+    "title": "AI can run the shop. Can it pay the rent?",
+    "date": PULSE_11_PUBLISH_DATE, // TODO(pulse-11 publish): see PULSE_11_PUBLISH_DATE above
+    "cover": "/pulse/11-cover.png",
+    "coverAlt": "Title card: \"AI can run the shop. Can it pay the rent?\" Below: \"Andon Market and Andon Cafe are operating. Andon reports both are still unprofitable. Operating autonomy and business viability are separate tests.\" Source line: Andon Labs, Why we built Pion, September 14, 2026. autopilotindex.com",
+    // Empty until the LinkedIn newsletter article is live (the site goes first);
+    // the page hides the LinkedIn link and /api/v1/editions returns null while empty.
+    "linkedinUrl": "",
+    // The approved copy has no TL;DR; the box is hidden and descriptions fall
+    // back to the opening paragraphs (see editionSummary).
+    "tldr": [],
+    "sections": [
+      {
+        "paras": [
+          "Andon Labs is putting agents in charge of businesses with real customers, employees and bills.",
+          "Its store and cafe are still unprofitable.",
+          "On September 14, 2026, Andon announced Pion, opening the platform behind these experiments to more business owners.",
+          "The journey started with Vending-Bench, a simulation where agents managed stock, prices and expenses over extended periods. Then came a real shop inside Anthropic's office.",
+          "The first version lost money. Claudius, the agent running it, sold products below cost and gave away too many discounts.",
+          "Later results improved. Newer models arrived alongside better inventory tools, customer records and operating procedures. The progress came from changes to the whole system.",
+          "Now the experiments involve more demanding businesses.",
+          "At Andon Market in San Francisco, Luna orders products, coordinates employees and handles customer requests. Andon also documents conflicting schedules and a proposed extra hire without enough financial justification."
+        ]
+      },
+      {
+        "image": "/pulse/11-andon-market.jpg",
+        "imageAlt": "Screenshot of Andon Labs' Andon Market page: the shop interior with a smiling-moon \"Andon Market\" logo on the wall and the street number 2102 on the doorframe, under the headline \"Andon Market\" and the caption that Luna, an AI agent, runs the store in San Francisco end to end.",
+        "imageCredit": "Credit: andonlabs.com/market",
+        "paras": [
+          "At Andon Cafe in Stockholm, Mona handles suppliers, purchasing and staff coordination. Human baristas perform the physical work, and people help where identity checks require them."
+        ]
+      },
+      {
+        "image": "/pulse/11-andon-cafe.jpg",
+        "imageAlt": "Screenshot of Andon Labs' Andon Café page: customers at outdoor tables in front of the café in Stockholm, under the headline \"Andon Café\" and the caption that Mona, an autonomous AI agent, owns and operates the café at Norrbackagatan 48.",
+        "imageCredit": "Credit: andonlabs.com/cafe",
+        "paras": [
+          "Andon FM adds another setting: four agents running live radio stations, selecting music, scheduling programmes and interacting with listeners.",
+          "These are useful tests because business decisions accumulate. A poor order ties up cash. A missing ingredient prevents a sale. An unnecessary hire adds a recurring cost.",
+          "Credit to Andon for putting money into the experiments and publishing what goes wrong.",
+          "The distinction I want to track at Autopilot Index is simple: how much of the operation can an agent run, and can the business sustain it?",
+          "A falling bank balance alone is not a profit statement. But rent, wages, inventory and model costs all count. So does the human time spent correcting mistakes.",
+          "Pion is now recruiting participants through a research-preview waitlist. Owners of physical businesses can propose experiments, alongside digital businesses and people with new ideas.",
+          "Andon wants to discover what frontier models can do across more industries than its own team can test.",
+          "For business owners considering an application, I would start with two actions.",
+          "1. Apply with a specific business and a clear scope for what the agent would manage.",
+          "2. Record your baseline before the experiment: sales, costs, service quality and human operating hours.",
+          "The result worth watching is whether agents improve the business while needing less human rescue."
+        ],
+        "sources": [
+          {
+            "label": "Read Andon's announcement",
+            "url": "https://andonlabs.com/blog/why-we-built-pion"
+          },
+          {
+            "label": "Explore the Pion preview",
+            "url": "https://andonlabs.com/pion"
+          }
+        ]
+      }
+    ]
+  },
   {
     "slug": "10-harness-tax",
     "number": 10,
@@ -1257,3 +1328,8 @@ export const editions: Edition[] = [
 ];
 
 export const getEdition = (slug: string) => editions.find((e) => e.slug === slug);
+
+// One-line description: the first TL;DR bullet (unchanged), or, for editions
+// published without a TL;DR, the opening paragraphs with bold markers stripped.
+export const editionSummary = (e: Edition) =>
+  e.tldr[0] ?? (e.sections[0]?.paras.slice(0, 2).join(" ") ?? e.title).replace(/\*\*/g, "");

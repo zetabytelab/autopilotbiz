@@ -32,7 +32,7 @@ const html = `<!doctype html><html><body style="margin:0;padding:0;background:#0
 <tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#a3e635;padding-bottom:6px">Autopilot Pulse · #${String(e.number).padStart(2, "0")}</td></tr>
 <tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:26px;font-weight:bold;color:#fafafa;padding-bottom:16px">${e.title}</td></tr>
 <tr><td style="padding-bottom:20px"><img src="${SITE}${e.cover}" width="600" style="width:100%;border-radius:12px" alt="Edition cover"/></td></tr>
-<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#a3e635;padding-bottom:8px">TL;DR</td></tr>
+${e.tldr.length ? `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#a3e635;padding-bottom:8px">TL;DR</td></tr>` : ""}
 ${e.tldr.map((t) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:1.6;color:#d4d4d8;padding-bottom:6px">→ ${fmt(t)}</td></tr>`).join("\n")}
 ${e.correction ? `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:12px;line-height:1.6;color:#a1a1aa;padding:16px 0">${e.correction}</td></tr>` : ""}
 ${e.sections

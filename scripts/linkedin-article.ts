@@ -34,10 +34,10 @@ const body = `<h1>${esc(e.title)}</h1>
 ${img(e.cover, `${e.title} — Autopilot Pulse #${e.number}`)}
 <p><em>Autopilot Pulse #${String(e.number).padStart(2, "0")} · ${new Date(e.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</em></p>
 ${e.correction ? `<blockquote><p>${fmt(e.correction)}</p></blockquote>` : ""}
-<h2>The short version</h2>
+${e.tldr.length ? `<h2>The short version</h2>
 <ul>
 ${e.tldr.map((t) => `  <li>${fmt(t)}</li>`).join("\n")}
-</ul>
+</ul>` : ""}
 ${e.sections
   .map((s) =>
     [
