@@ -6,6 +6,7 @@ import {
   compareCompanies,
   compareEvidenceThenAutonomy,
   getAutonomyAssessment,
+  indexLevelCounts,
   reportedAnnualFigurePerHuman,
 } from "../../lib/autonomy.ts";
 
@@ -69,4 +70,25 @@ test("live Index default uses the existing grades without inventing ratings", ()
   assert.equal(indexed[0].slug, "medvi");
   assert.equal(indexed[0].autopilot.evidence, "A");
   assert.ok(indexed.every((entry) => entry.autopilot.section === "index"));
+});
+
+test("level counts include Index rows only, so a watchlist claim leaves its level vacant", () => {
+  const records = [
+    company("Indexed", { section: "index", evidence: "C", level: "L3" }),
+    company("Claimer", { section: "watchlist", evidence: "D", level: "L4" }),
+    company("Tool", { section: "enabler", level: "L2" }),
+    company("Cautioned", { section: "caution", level: "L3" }),
+  ];
+  assert.deepEqual(indexLevelCounts(records), { L2: 0, L3: 1, L4: 0, L5: 0 });
+});
+
+test("the live data keeps L4 and L5 vacant and labels Egbe's L4 as an unverified claim", () => {
+  const counts = indexLevelCounts(companies);
+  assert.equal(counts.L4, 0);
+  assert.equal(counts.L5, 0);
+  const egbe = companies.find((entry) => entry.slug === "egbe");
+  assert.equal(egbe?.autopilot?.section, "watchlist");
+  assert.equal(getAutonomyAssessment(egbe).levelLabel, "Claims L4, unverified");
+  const indexed = companies.find((entry) => entry.autopilot?.section === "index" && entry.autopilot.level);
+  assert.match(getAutonomyAssessment(indexed).levelLabel, /^L\d · /);
 });
