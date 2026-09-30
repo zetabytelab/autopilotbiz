@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { editions, getEdition } from "@/lib/editions";
+import { editions, editionSummary, getEdition } from "@/lib/editions";
 import SubscribeForm from "@/components/SubscribeForm";
+import { editionJsonLd, jsonLdScript } from "@/lib/edition-jsonld";
 
 export function generateStaticParams() {
   return editions.map((e) => ({ slug: e.slug }));
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!e) return {};
   return {
     title: `Autopilot Pulse #${e.number} — ${e.title}`,
-    description: e.tldr[0],
+    description: editionSummary(e),
     alternates: { canonical: `/pulse/${e.slug}` },
     openGraph: { images: [e.cover] },
   };
@@ -46,6 +47,7 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
 
   return (
     <main className="mx-auto max-w-3xl px-4 pb-24 sm:px-6">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(editionJsonLd(e)) }} />
       <header className="py-12">
         <Link href="/pulse" className="font-mono text-xs text-zinc-500 hover:text-lime-400">
           ← All editions
@@ -58,13 +60,14 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
 
       <Image
         src={e.cover}
-        alt={`Edition #${e.number} cover`}
+        alt={e.coverAlt ?? `Edition #${e.number} cover`}
         width={1080}
         height={1350}
         className="mb-10 w-full rounded-2xl border border-zinc-800"
         priority
       />
 
+      {e.tldr.length > 0 && (
       <section className="mb-10 rounded-2xl border border-lime-400/30 bg-lime-400/5 p-5">
         <h2 className="mb-3 font-mono text-xs font-bold uppercase tracking-[0.2em] text-lime-400">TL;DR</h2>
         <ul className="space-y-2">
@@ -78,6 +81,7 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
           ))}
         </ul>
       </section>
+      )}
 
       {e.correction && (
         <aside className="mb-10 rounded-xl border border-zinc-700 p-4 text-sm leading-relaxed text-zinc-400" aria-label="Editorial correction">
@@ -94,9 +98,10 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
               alt={s.imageAlt ?? ""}
               width={1200}
               height={675}
-              className="mb-4 w-full rounded-xl border border-zinc-800"
+              className={`${s.imageCredit ? "mb-2" : "mb-4"} w-full rounded-xl border border-zinc-800`}
             />
           )}
+          {s.image && s.imageCredit && <p className="mb-4 font-mono text-xs text-zinc-500">{s.imageCredit}</p>}
           {s.paras.map((p, j) => (
             <p key={j} className="mb-4 text-[15px] leading-relaxed text-zinc-300">
               <Rich text={p} />
@@ -116,26 +121,53 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
         </section>
       ))}
 
+      {e.sourceList && e.sourceList.length > 0 && (
+        <section className="mb-8" aria-labelledby="edition-sources">
+          <h2 id="edition-sources" className="mb-3 text-xl font-bold text-zinc-100">Sources</h2>
+          <ul className="space-y-3 border-l-2 border-zinc-700 pl-4 text-sm">
+            {e.sourceList.map((source) => (
+              <li key={source.label}>
+                <p className="text-zinc-300">{source.label}:</p>
+                {source.urls.map((url) => (
+                  <a key={url} href={url} className="block break-all text-lime-400 underline decoration-lime-400/40 underline-offset-4 hover:text-lime-300">
+                    {url}
+                  </a>
+                ))}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <footer className="mt-12 border-t border-zinc-800 pt-8">
-        <p className="mb-1 font-mono text-sm text-zinc-400">
-          Keep building — the agents have the night shift. 🛩
-        </p>
-        <p className="mb-6 font-mono text-xs text-zinc-600">— Antonio, the human in the loop</p>
+        {e.signOff !== false && (
+          <>
+            <p className="mb-1 font-mono text-sm text-zinc-400">
+              Keep building — the agents have the night shift. 🛩
+            </p>
+            <p className="mb-6 font-mono text-xs text-zinc-600">— Antonio, the human in the loop</p>
+          </>
+        )}
         <p className="text-sm text-zinc-400">
           Everything above is sourced and labeled on{" "}
           <Link href="/" className="text-lime-400 underline hover:text-lime-300">
             the index
           </Link>
-          . Also published on{" "}
-          <a
-            href={e.linkedinUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-lime-400 underline hover:text-lime-300"
-          >
-            LinkedIn
-          </a>
           .
+          {e.linkedinUrl && (
+            <>
+              {" "}Also published on{" "}
+              <a
+                href={e.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lime-400 underline hover:text-lime-300"
+              >
+                LinkedIn
+              </a>
+              .
+            </>
+          )}
         </p>
         <SubscribeForm />
       </footer>

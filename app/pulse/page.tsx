@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { editions } from "@/lib/editions";
+import { editions, editionSummary } from "@/lib/editions";
 import SubscribeForm from "@/components/SubscribeForm";
 
 export const metadata: Metadata = {
@@ -54,7 +54,7 @@ export default function PulseArchive() {
                   #{String(e.number).padStart(2, "0")} · {e.date}
                 </p>
                 <h2 className="mt-1 text-xl font-bold text-zinc-100 group-hover:text-lime-400">{e.title}</h2>
-                <p className="mt-2 line-clamp-2 text-sm text-zinc-400">{e.tldr[0]}</p>
+                <p className="mt-2 line-clamp-2 text-sm text-zinc-400">{editionSummary(e)}</p>
               </div>
             </Link>
           </li>

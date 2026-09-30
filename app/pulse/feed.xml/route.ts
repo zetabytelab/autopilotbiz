@@ -1,4 +1,4 @@
-import { editions } from "@/lib/editions";
+import { editions, editionSummary } from "@/lib/editions";
 
 const SITE = "https://www.autopilotindex.com";
 const esc = (s: string) =>
@@ -12,7 +12,7 @@ export function GET() {
       <link>${SITE}/pulse/${e.slug}</link>
       <guid>${SITE}/pulse/${e.slug}</guid>
       <pubDate>${new Date(e.date + "T08:00:00Z").toUTCString()}</pubDate>
-      <description>${esc(e.tldr.join(" "))}</description>
+      <description>${esc(e.tldr.length ? e.tldr.join(" ") : editionSummary(e))}</description>
     </item>`,
     )
     .join("\n");
