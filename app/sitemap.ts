@@ -1,8 +1,12 @@
 import type { MetadataRoute } from "next";
 import { editions } from "@/lib/editions";
 import { companies } from "@/lib/data";
+import { DEALROOM_PAGE_UPDATED } from "@/lib/dealroom";
 
 const BASE = "https://autopilotindex.com";
+
+// Pages whose lastmod is the date their content last changed, not the build time.
+const CONTENT_DATES: Record<string, string> = { "/dealroom": DEALROOM_PAGE_UPDATED };
 
 // Static, indexable routes. /live (private) and /styles (theme demos) are excluded.
 const STATIC_PATHS = [
@@ -14,6 +18,7 @@ const STATIC_PATHS = [
   "/submit",
   "/pricing",
   "/developers",
+  "/dealroom",
   "/about",
   "/contact",
   "/privacy",
@@ -28,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const staticEntries: MetadataRoute.Sitemap = STATIC_PATHS.map((path) => ({
     url: `${BASE}${path}`,
-    lastModified: now,
+    lastModified: CONTENT_DATES[path] ?? now,
     changeFrequency: path === "" || path === "/news" ? "daily" : "weekly",
     priority: path === "" ? 1 : 0.7,
   }));

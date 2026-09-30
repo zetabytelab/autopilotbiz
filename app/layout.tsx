@@ -95,6 +95,7 @@ export default function RootLayout({
             <Link href="/pulse" className="hover:text-lime-400">Editions</Link>
             <Link href="/pricing" className="hover:text-lime-400">Pricing</Link>
             <Link href="/developers" className="hover:text-lime-400">Developers</Link>
+            <Link href="/dealroom" className="hover:text-lime-400">Leverage Screener</Link>
             <Link href="/contact" className="hover:text-lime-400">Contact</Link>
             <Link href="/privacy" className="hover:text-lime-400">Privacy</Link>
             <a href="/llms.txt" className="hover:text-lime-400">llms.txt</a>

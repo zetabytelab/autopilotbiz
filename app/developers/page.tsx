@@ -89,6 +89,10 @@ export default function Developers() {
   }
 }`}</Code>
       <p className="mt-3 text-sm text-zinc-400">Tools: <code className="text-zinc-200">search_companies</code>, <code className="text-zinc-200">get_company</code>, <code className="text-zinc-200">list_stack_tools</code>, <code className="text-zinc-200">list_editions</code>.</p>
+      <p className="mt-3 text-sm text-zinc-400">
+        See the index as a leaderboard, and what we&apos;re building at the Dealroom hackathon, on the{" "}
+        <Link href="/dealroom" className="text-lime-400 hover:underline">Leverage Screener</Link> page.
+      </p>
 
       {/* CLI */}
       <h2 className="mt-12 text-xl font-bold text-zinc-100">From the terminal</h2>
