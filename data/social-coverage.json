@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T13:00:55.908Z",
+ "generatedAt": "2026-09-30T12:43:21.162Z",
  "plan": {
   "platforms": [
    "x"
@@ -20,1838 +20,1281 @@
  "targets": [
   {
    "id": "x:0xtyllen",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 16,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4
-   },
-   "ms": 57611,
-   "published": 16,
-   "retained": 32
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 48
   },
   {
    "id": "x:11x_official",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 1,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 16,
-    "repost": 3
-   },
-   "ms": 10377,
-   "published": 1,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 188,
+   "published": 0,
+   "retained": 1
   },
   {
    "id": "x:8enmann",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 16,
-    "date-window": 4
-   },
-   "ms": 19968,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:adisingh",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 18,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2
-   },
-   "ms": 69331,
-   "published": 18,
-   "retained": 47
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 65
   },
   {
    "id": "x:agentmail",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 9,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 1,
-    "repost": 10
-   },
-   "ms": 10792,
-   "published": 9,
-   "retained": 25
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 189,
+   "published": 0,
+   "retained": 34
   },
   {
    "id": "x:aidenchaoyanghe",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 15,
-    "repost": 5
-   },
-   "ms": 6640,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:akamai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 20,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {},
-   "ms": 8247,
-   "published": 20,
-   "retained": 7
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 246,
+   "published": 0,
+   "retained": 26
   },
   {
    "id": "x:akshat_b",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 8,
-    "date-window": 9
-   },
-   "ms": 37360,
-   "published": 3,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:alexandertw33ts",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 16,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4
-   },
-   "ms": 13780,
-   "published": 16,
-   "retained": 43
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 59
   },
   {
    "id": "x:alexanderwu0",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 8,
-    "date-window": 12
-   },
-   "ms": 7846,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:alexatallah",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 13,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 1,
-    "repost": 6
-   },
-   "ms": 66451,
-   "published": 13,
-   "retained": 25
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 38
   },
   {
    "id": "x:altimor",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 11,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 9
-   },
-   "ms": 13953,
-   "published": 11,
-   "retained": 28
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 39
   },
   {
    "id": "x:amanrsanger",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4,
-    "date-window": 16
-   },
-   "ms": 7358,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:anchorbrowser",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 18,
-   "hitLimit": false,
-   "rejected": {
-    "date-window": 13,
-    "repost": 5
-   },
-   "ms": 34954,
+   "reason": "Apify HTTP 401",
+   "ms": 183,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:andrewdsouza",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 18,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2
-   },
-   "ms": 63998,
-   "published": 18,
-   "retained": 20
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
+   "published": 0,
+   "retained": 38
   },
   {
    "id": "x:anthropicai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 18,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2
-   },
-   "ms": 6657,
-   "published": 18,
-   "retained": 8
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 26
   },
   {
    "id": "x:antwilson",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 1,
-    "repost": 16
-   },
-   "ms": 49939,
-   "published": 3,
-   "retained": 10
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
+   "published": 0,
+   "retained": 13
   },
   {
    "id": "x:anuraggoel",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 13,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2,
-    "date-window": 5
-   },
-   "ms": 15382,
-   "published": 13,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 13
   },
   {
    "id": "x:apify",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 17,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 3
-   },
-   "ms": 10514,
-   "published": 17,
-   "retained": 60
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 77
   },
   {
    "id": "x:arvid220u",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 11,
-   "hitLimit": false,
-   "rejected": {
-    "repost": 3,
-    "date-window": 8
-   },
-   "ms": 54768,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:atomicprashanth",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 11,
-   "hitLimit": false,
-   "rejected": {
-    "repost": 5,
-    "date-window": 6
-   },
-   "ms": 63299,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:atoms_dev",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 2,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 16,
-    "repost": 2
-   },
-   "ms": 18329,
-   "published": 2,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 63,
+   "published": 0,
+   "retained": 2
   },
   {
    "id": "x:base44",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 14,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 6
-   },
-   "ms": 46487,
-   "published": 14,
-   "retained": 12
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 26
   },
   {
    "id": "x:bcherny",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 9,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 11
-   },
-   "ms": 84675,
-   "published": 9,
-   "retained": 21
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 30
   },
   {
    "id": "x:bencera",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 19,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 1
-   },
-   "ms": 63818,
-   "published": 19,
-   "retained": 50
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 66
   },
   {
    "id": "x:bernhardsson",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 14,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4,
-    "date-window": 2
-   },
-   "ms": 64973,
-   "published": 14,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 14
   },
   {
    "id": "x:bertie_ai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 13,
-    "repost": 4
-   },
-   "ms": 16203,
-   "published": 3,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:birk",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 14,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 3,
-    "date-window": 3
-   },
-   "ms": 65897,
-   "published": 14,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 14
   },
   {
    "id": "x:blaxelai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 15,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4,
-    "date-window": 1
-   },
-   "ms": 57962,
-   "published": 15,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 15
   },
   {
    "id": "x:boardyai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 19,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 1
-   },
-   "ms": 51320,
-   "published": 19,
-   "retained": 97
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 116
   },
   {
    "id": "x:browserbase",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 13,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 7
-   },
-   "ms": 6335,
-   "published": 12,
-   "retained": 12
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 24
   },
   {
    "id": "x:bukinoshita",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 16,
-    "repost": 4
-   },
-   "ms": 61837,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:caffeineai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 14,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2,
-    "date-window": 4
-   },
-   "ms": 55484,
-   "published": 14,
-   "retained": 7
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 61,
+   "published": 0,
+   "retained": 21
   },
   {
    "id": "x:calebpeffer",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 9,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 3,
-    "date-window": 8
-   },
-   "ms": 40321,
-   "published": 9,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 9
   },
   {
    "id": "x:ch402",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 18,
-    "date-window": 2
-   },
-   "ms": 77925,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:chainopera_ai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 2,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 18
-   },
-   "ms": 45945,
-   "published": 2,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 2
   },
   {
    "id": "x:cnagele",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 9,
-    "date-window": 11
-   },
-   "ms": 51066,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:co_valenta",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 14,
-    "date-window": 6
-   },
-   "ms": 29719,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:coreweave",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 19,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 1
-   },
-   "ms": 23181,
-   "published": 19,
-   "retained": 57
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 76
   },
   {
    "id": "x:cramforce",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 11,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 9
-   },
-   "ms": 7912,
-   "published": 11,
-   "retained": 38
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 49
   },
   {
    "id": "x:cursor_ai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 17,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 1,
-    "date-window": 2
-   },
-   "ms": 39244,
-   "published": 17,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 17
   },
   {
    "id": "x:danielaamodei",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 14,
-    "date-window": 6
-   },
-   "ms": 33849,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:daraladje",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 6,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 9,
-    "date-window": 5
-   },
-   "ms": 60405,
-   "published": 6,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 6
   },
   {
    "id": "x:darioamodei",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 2,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2,
-    "date-window": 16
-   },
-   "ms": 57495,
-   "published": 2,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 77,
+   "published": 0,
+   "retained": 2
   },
   {
    "id": "x:davidsholz",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 10,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 10
-   },
-   "ms": 53166,
-   "published": 10,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 10
   },
   {
    "id": "x:daytonaio",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 9,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 11
-   },
-   "ms": 6036,
-   "published": 9,
-   "retained": 13
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 22
   },
   {
    "id": "x:digitalocean",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 16,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4
-   },
-   "ms": 16623,
-   "published": 16,
-   "retained": 33
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 49
   },
   {
    "id": "x:dominic_w",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 14,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 5,
-    "repost": 1
-   },
-   "ms": 64981,
-   "published": 14,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 14
   },
   {
    "id": "x:dopabees",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 19,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 1
-   },
-   "ms": 61215,
-   "published": 19,
-   "retained": 15
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 32
   },
   {
    "id": "x:dougwightman",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 1,
-   "hitLimit": false,
-   "rejected": {},
-   "ms": 61206,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:dsp_",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 8,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 12
-   },
-   "ms": 8980,
-   "published": 8,
-   "retained": 1
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 9
   },
   {
    "id": "x:e2b",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 7,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 13
-   },
-   "ms": 61359,
-   "published": 7,
-   "retained": 5
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 12
   },
   {
    "id": "x:egbe_ai",
-   "status": "ok",
-   "ok": true,
-   "items": 1,
-   "fetched": 7,
-   "hitLimit": false,
-   "rejected": {
-    "date-window": 5,
-    "repost": 1
-   },
-   "ms": 14053,
-   "published": 1,
-   "retained": 0
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 62,
+   "published": 0,
+   "retained": 1
   },
   {
    "id": "x:elevenlabs",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 11,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 9
-   },
-   "ms": 54833,
-   "published": 11,
-   "retained": 32
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 61,
+   "published": 0,
+   "retained": 43
   },
   {
    "id": "x:embirico",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 5,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 14,
-    "repost": 1
-   },
-   "ms": 70743,
-   "published": 5,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 64,
+   "published": 0,
+   "retained": 5
   },
   {
    "id": "x:ericciarla",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 7,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 5,
-    "date-window": 8
-   },
-   "ms": 6784,
-   "published": 7,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 7
   },
   {
    "id": "x:firecrawl",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 11,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 8,
-    "date-window": 1
-   },
-   "ms": 11387,
-   "published": 11,
-   "retained": 3
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
+   "published": 0,
+   "retained": 13
   },
   {
    "id": "x:flash__singh",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 4,
-   "hitLimit": false,
-   "rejected": {
-    "repost": 4
-   },
-   "ms": 13064,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:galligator",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 19,
-    "repost": 1
-   },
-   "ms": 8221,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:gavriel_cohen",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 14,
-    "repost": 3
-   },
-   "ms": 7970,
-   "published": 3,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:gdb",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 20,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {},
-   "ms": 49471,
-   "published": 20,
-   "retained": 12
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 32
   },
   {
    "id": "x:getartisanai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 5,
-    "repost": 15
-   },
-   "ms": 53123,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:getlindy",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 6,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 10,
-    "date-window": 4
-   },
-   "ms": 30460,
-   "published": 6,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 6
   },
   {
    "id": "x:gorandraganic",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 20
-   },
-   "ms": 16214,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:groqinc",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 1,
-   "hitLimit": false,
-   "rejected": {},
-   "ms": 3933,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:haakamaujla",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 13,
-    "date-window": 4
-   },
-   "ms": 58067,
-   "published": 3,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:happyrobot",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 7,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 8,
-    "date-window": 5
-   },
-   "ms": 49663,
-   "published": 7,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 7
   },
   {
    "id": "x:intelligenceco",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 7,
-    "date-window": 13
-   },
-   "ms": 5047,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:ivanburazin",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 17,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 3
-   },
-   "ms": 62499,
-   "published": 16,
-   "retained": 107
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 123
   },
   {
    "id": "x:jackclarksf",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 17,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 3
-   },
-   "ms": 64850,
-   "published": 17,
-   "retained": 3
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 20
   },
   {
    "id": "x:jakubbalada",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 7,
-    "repost": 13
-   },
-   "ms": 34804,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:jancurn",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 1,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 10,
-    "date-window": 9
-   },
-   "ms": 10912,
-   "published": 1,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
+   "published": 0,
+   "retained": 1
   },
   {
    "id": "x:janoberhauser",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 14,
-    "date-window": 6
-   },
-   "ms": 37363,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:jasparcjack",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 4,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 3,
-    "date-window": 13
-   },
-   "ms": 47336,
-   "published": 4,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 4
   },
   {
    "id": "x:javypalafox",
    "status": "failed",
    "ok": false,
    "items": 0,
-   "reason": "Apify dataset contains an error record",
-   "ms": 53932,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:jonnilundy",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 5,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 15
-   },
-   "ms": 62578,
-   "published": 5,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
+   "published": 0,
+   "retained": 5
   },
   {
    "id": "x:jordan_dearsley",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 7,
-    "repost": 13
-   },
-   "ms": 43609,
+   "reason": "Apify HTTP 401",
+   "ms": 61,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:jspahrsummers",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 8,
-   "hitLimit": false,
-   "rejected": {
-    "repost": 7,
-    "date-window": 1
-   },
-   "ms": 8069,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:karan4d",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 10,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 10
-   },
-   "ms": 45826,
-   "published": 10,
-   "retained": 9
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 19
   },
   {
    "id": "x:kelvich",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 3,
-    "repost": 17
-   },
-   "ms": 48225,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:khareabhishyant",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 11,
-    "date-window": 9
-   },
-   "ms": 7105,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:kiwicopple",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 11,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 9
-   },
-   "ms": 60768,
-   "published": 11,
-   "retained": 5
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 16
   },
   {
    "id": "x:klemensimonic",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 20,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {},
-   "ms": 53291,
-   "published": 20,
-   "retained": 1
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 20
   },
   {
    "id": "x:kozerafilip",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 8,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 11,
-    "repost": 1
-   },
-   "ms": 10438,
-   "published": 8,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 8
   },
   {
    "id": "x:lambdaapi",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 16,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4
-   },
-   "ms": 59890,
-   "published": 16,
-   "retained": 19
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 35
   },
   {
    "id": "x:langfuse",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 13,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 7
-   },
-   "ms": 7123,
-   "published": 13,
-   "retained": 2
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 15
   },
   {
    "id": "x:lazer_cohen",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 5,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 9,
-    "date-window": 6
-   },
-   "ms": 61014,
-   "published": 5,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 5
   },
   {
    "id": "x:louis_g_v",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 13,
-    "date-window": 7
-   },
-   "ms": 9046,
+   "reason": "Apify HTTP 401",
+   "ms": 66,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:marcklingen",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 16,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4
-   },
-   "ms": 5771,
-   "published": 16,
-   "retained": 70
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 86
   },
   {
    "id": "x:matiii",
    "status": "failed",
    "ok": false,
    "items": 0,
-   "reason": "Apify dataset contains an error record",
-   "ms": 59092,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:maxdeichmann",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 12,
-    "repost": 5
-   },
-   "ms": 4892,
-   "published": 3,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:merettm",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 4,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 8,
-    "date-window": 8
-   },
-   "ms": 68237,
-   "published": 4,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
+   "published": 0,
+   "retained": 4
   },
   {
    "id": "x:michaelhyunkim",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 18,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2
-   },
-   "ms": 33995,
-   "published": 18,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 18
   },
   {
    "id": "x:midjourney",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 6,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 13,
-    "repost": 1
-   },
-   "ms": 4902,
-   "published": 6,
-   "retained": 1
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 7
   },
   {
    "id": "x:mitch_troy",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 17,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 3
-   },
-   "ms": 69072,
-   "published": 17,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 17
   },
   {
    "id": "x:mlejva",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 15,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 5
-   },
-   "ms": 58220,
-   "published": 15,
-   "retained": 14
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 29
   },
   {
    "id": "x:mntruell",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 2,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 6,
-    "date-window": 12
-   },
-   "ms": 52619,
-   "published": 2,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 2
   },
   {
    "id": "x:modal",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 10,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 10
-   },
-   "ms": 13564,
-   "published": 10,
-   "retained": 10
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 20
   },
   {
    "id": "x:ms_base44",
    "status": "failed",
    "ok": false,
    "items": 0,
-   "reason": "Apify dataset contains an error record",
-   "ms": 7462,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:n8n_io",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 18,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2
-   },
-   "ms": 12657,
-   "published": 18,
-   "retained": 26
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 238,
+   "published": 0,
+   "retained": 43
   },
   {
    "id": "x:nanocorphq",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 9,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 11
-   },
-   "ms": 48495,
-   "published": 9,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 9
   },
   {
    "id": "x:natalienagele",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 19,
-    "repost": 1
-   },
-   "ms": 56745,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:ndrewpignanelli",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 17,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 3
-   },
-   "ms": 63860,
-   "published": 17,
-   "retained": 32
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 49
   },
   {
    "id": "x:neondatabase",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 15,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 5
-   },
-   "ms": 50433,
-   "published": 14,
-   "retained": 13
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 27
   },
   {
    "id": "x:nickscamara_",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 8,
-    "date-window": 9
-   },
-   "ms": 62204,
-   "published": 3,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:nicolaslec91112",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 10,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 7,
-    "date-window": 3
-   },
-   "ms": 52423,
-   "published": 10,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 10
   },
   {
    "id": "x:nikhilro_",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 6,
-    "repost": 14
-   },
-   "ms": 42383,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:nikitabase",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 10,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 10
-   },
-   "ms": 23914,
-   "published": 10,
-   "retained": 10
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 20
   },
   {
    "id": "x:nottombrown",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 11,
-    "repost": 6
-   },
-   "ms": 37160,
-   "published": 3,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:nousresearch",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 5,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 15
-   },
-   "ms": 22123,
-   "published": 5,
-   "retained": 15
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 20
   },
   {
    "id": "x:obinnaaka",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 16,
-    "date-window": 4
-   },
-   "ms": 49614,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:openclaw",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 18,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2
-   },
-   "ms": 56235,
-   "published": 18,
-   "retained": 21
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 39
   },
   {
    "id": "x:openrouter",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 16,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 4
-   },
-   "ms": 58828,
-   "published": 16,
-   "retained": 112
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 128
   },
   {
    "id": "x:paarupluis",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 18,
-   "hitLimit": false,
-   "rejected": {
-    "date-window": 10,
-    "repost": 8
-   },
-   "ms": 44120,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:pablorpalafox",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 5,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 10,
-    "date-window": 5
-   },
-   "ms": 53932,
-   "published": 5,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 5
   },
   {
    "id": "x:pamirehsas",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 2,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 14,
-    "date-window": 4
-   },
-   "ms": 8740,
-   "published": 2,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 2
   },
   {
    "id": "x:paymanai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 18,
-    "repost": 2
-   },
-   "ms": 63539,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:pk_iv",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 10,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 10
-   },
-   "ms": 56069,
-   "published": 10,
-   "retained": 3
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 12
   },
   {
    "id": "x:plbiojout",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 19,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 1
-   },
-   "ms": 44974,
-   "published": 19,
-   "retained": 25
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 42
   },
   {
    "id": "x:polar_sh",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 2,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 12,
-    "date-window": 6
-   },
-   "ms": 62997,
-   "published": 2,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 2
   },
   {
    "id": "x:postmarkapp",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 14,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 1,
-    "date-window": 5
-   },
-   "ms": 49892,
-   "published": 14,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 14
   },
   {
    "id": "x:randallkaplan",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 19,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 1
-   },
-   "ms": 44656,
-   "published": 19,
-   "retained": 23
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 42
   },
   {
    "id": "x:rauchg",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 19,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 1
-   },
-   "ms": 14257,
-   "published": 19,
-   "retained": 48
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 67
   },
   {
    "id": "x:rawert",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 7,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 13
-   },
-   "ms": 56553,
-   "published": 7,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 7
   },
   {
    "id": "x:render",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 14,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 6
-   },
-   "ms": 57927,
-   "published": 14,
-   "retained": 10
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 24
   },
   {
    "id": "x:resend",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 20,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {},
-   "ms": 41881,
-   "published": 20,
-   "retained": 91
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 111
   },
   {
    "id": "x:retellai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 2,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 16,
-    "repost": 2
-   },
-   "ms": 67219,
-   "published": 2,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 66,
+   "published": 0,
+   "retained": 2
   },
   {
    "id": "x:rossmead",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 13,
-    "date-window": 7
-   },
-   "ms": 32514,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -1860,409 +1303,290 @@
    "status": "failed",
    "ok": false,
    "items": 0,
-   "reason": "Apify dataset contains an error record",
-   "ms": 30964,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:sama",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 18,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2
-   },
-   "ms": 45884,
-   "published": 18,
-   "retained": 12
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 30
   },
   {
    "id": "x:sampstallings",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 1,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 13,
-    "date-window": 6
-   },
-   "ms": 5129,
-   "published": 1,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 1
   },
   {
    "id": "x:samsamoa",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 1,
-   "hitLimit": false,
-   "rejected": {},
-   "ms": 5466,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:samspelsberg",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 1,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 6,
-    "date-window": 13
-   },
-   "ms": 54827,
-   "published": 1,
-   "retained": 0
-  },
-  {
-   "id": "x:sciforium",
-   "status": "ok",
-   "ok": true,
-   "items": 6,
-   "fetched": 7,
-   "hitLimit": false,
-   "rejected": {
-    "repost": 1
-   },
-   "ms": 58268,
-   "published": 6,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
    "retained": 1
   },
   {
-   "id": "x:seandorje",
-   "status": "partial",
+   "id": "x:sciforium",
+   "status": "failed",
    "ok": false,
-   "items": 1,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 14,
-    "repost": 5
-   },
-   "ms": 17528,
-   "published": 1,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 7
+  },
+  {
+   "id": "x:seandorje",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 1
   },
   {
    "id": "x:shivani_3000",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 3,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 12,
-    "date-window": 5
-   },
-   "ms": 10180,
-   "published": 3,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:soniox_ai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 19,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 1
-   },
-   "ms": 13234,
-   "published": 19,
-   "retained": 2
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 20
   },
   {
    "id": "x:sorcer",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 15,
-    "date-window": 5
-   },
-   "ms": 70802,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:steipete",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 4,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 16
-   },
-   "ms": 55683,
-   "published": 4,
-   "retained": 58
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 62
   },
   {
    "id": "x:stephenbalaban",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 11,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 9
-   },
-   "ms": 43169,
-   "published": 11,
-   "retained": 7
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 18
   },
   {
    "id": "x:sualehasif996",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 19,
-    "date-window": 1
-   },
-   "ms": 48681,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:supabase",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 14,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 6
-   },
-   "ms": 19971,
-   "published": 14,
-   "retained": 34
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 48
   },
   {
    "id": "x:teknium1",
    "status": "failed",
    "ok": false,
    "items": 0,
-   "reason": "Apify dataset contains an error record",
-   "ms": 61563,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:theemozilla",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 7,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 2,
-    "date-window": 11
-   },
-   "ms": 5323,
-   "published": 7,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 7
   },
   {
    "id": "x:thisisgrantlee",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 5,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 14,
-    "repost": 1
-   },
-   "ms": 64003,
-   "published": 5,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 5
   },
   {
    "id": "x:thsottiaux",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 20,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {},
-   "ms": 52044,
-   "published": 20,
-   "retained": 35
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 55
   },
   {
    "id": "x:togethercompute",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 15,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 5
-   },
-   "ms": 31303,
-   "published": 15,
-   "retained": 24
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 39
   },
   {
    "id": "x:usenaive",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 1,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 6,
-    "date-window": 13
-   },
-   "ms": 57252,
-   "published": 1,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 1
   },
   {
    "id": "x:vapi_ai",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 17,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 3
-   },
-   "ms": 64644,
-   "published": 17,
-   "retained": 15
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 32
   },
   {
    "id": "x:vedranjukic",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 1,
-   "hitLimit": false,
-   "rejected": {
-    "date-window": 1
-   },
-   "ms": 12954,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:vercel",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 12,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 7,
-    "repost": 1
-   },
-   "ms": 65932,
-   "published": 12,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 12
   },
   {
    "id": "x:vyahhi",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
    "items": 0,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "date-window": 16,
-    "repost": 4
-   },
-   "ms": 7103,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:withdelphi",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 7,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 1,
-    "date-window": 12
-   },
-   "ms": 14732,
-   "published": 7,
-   "retained": 0
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 7
   },
   {
    "id": "x:wordware",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 5,
-   "hitLimit": false,
-   "rejected": {
-    "repost": 4,
-    "date-window": 1
-   },
-   "ms": 18085,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:zai_org",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 2,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 16,
-    "date-window": 2
-   },
-   "ms": 45257,
-   "published": 2,
-   "retained": 1
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 3
   },
   {
    "id": "x:zaxdennis",
-   "status": "empty",
-   "ok": true,
+   "status": "failed",
+   "ok": false,
    "items": 0,
-   "fetched": 7,
-   "hitLimit": false,
-   "rejected": {
-    "repost": 7
-   },
-   "ms": 64150,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
    "published": 0,
    "retained": 0
   },
   {
    "id": "x:zenorocha",
-   "status": "partial",
+   "status": "failed",
    "ok": false,
-   "items": 12,
-   "fetched": 20,
-   "hitLimit": true,
-   "rejected": {
-    "repost": 5,
-    "date-window": 3
-   },
-   "ms": 12450,
-   "published": 12,
-   "retained": 4
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 16
   }
  ]
 }
