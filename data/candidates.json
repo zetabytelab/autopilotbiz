@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T12:44:36.456Z",
+ "generatedAt": "2026-10-01T13:28:31.494Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -16,31 +16,11 @@
      ]
     },
     {
-     "title": "Ema Raises $77 Million To Replace Enterprise Software With AI Agent Employees",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52dzFuVkR5QkV2TUZ6S2Q4LU1sYk1EU2d5RlJ6LXlwX2FGYngxWENpV2xKTmJ5UVBJRmV3QTNkLXZlbGtneWgzUjc2U09hX1lVeFM5UXJYaW55aGdLcm44RzVkMkUyUzlCX2dybFFuc2VNa3EwQXNVUnRCaEhvTG_SAX9BVV95cUxOdncxblZEeUJFdk1GektkOC1NbGJNRFNneUZSei15cF9hRmJ4MVhDaVdsSk5ieVFQSUZld0EzZC12ZWxrZ3loM1I3NlNPYV9ZVXhTOVFyWGlueWhnS3JuOEc1ZDJFMlM5Ql9ncmxRbnNlTWtxMEFzVVJ0QmhIb0xv?oc=5",
-     "source": "gnews",
-     "domain": "ventureburn.com",
-     "publishedAt": "2026-09-24T10:49:40.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
      "title": "Enterprise AI startup Ema raises $77 Mn in Series B led by Creaegis",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3lRenJlYTNMWXZLZHlXa2s1SGd5bElxWTJSZDNfU1ZsWnFTMncwYXVwS28wSHZFWURBT1FxRXF6Z1pYbHBqRVZuc2FfZzRFSHdVbmlSLW96eU1NMlVCaXVhTVU5VkFOSjd5V3F6QWhPTWd6QjRfRkRIaTFWc2VCZ25JN0xjZDRrRFNHU2VKV1FHVTR2dlBqX01tWkRjUDJ5U1VF0gGjAUFVX3lxTE5PeVF6cmVhM0xZdktkeVdrazVIZ3lsSXFZMlJkM19TVmxacVMydzBhdXBLbzBIdkVZREFPUXFFcXpnWlhscGpFVm5zYV9nNEVId1VuaVItb3p5TU0yVUJpdWFNVTlWQU5KN3lXcXpBaE9NZ3pCNF9GREhpMVZzZUJnbkk3TGNkNGtEU0dTZUpXUUdVNHZ2UGpfTW1aRGNQMnlTVUU?oc=5",
      "source": "gnews",
      "domain": "entrackr.com",
      "publishedAt": "2026-09-24T04:46:22.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2lpNm9MdjBiVVI4blRiMjcydmVPcElmaDl1aWVicllRbGVSWUJGTDlSUGdWZnhZaTFUaWsyOXFkc1JMWWJRLXBadks3QWtZalAwb3RDRm15aGRYdGFscllwRTFacklOYTA4VW1JVWJfSTFSaHF6UFNGSzRLTnNybkFRcWZFX2hZQ0wtWHc1LVZKeE1CQzF6S3dPbzZUNU9xaWxhNzNoUmJvR0dkWmZYbHItQzNNVUF3bG5QbU1jdmpJSTh3bEFtcWVDZnhoQQ?oc=5",
-     "source": "gnews",
-     "domain": "siliconangle.com",
-     "publishedAt": "2026-09-23T13:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -56,14 +36,13 @@
      ]
     }
    ],
-   "coverage": 5,
-   "publishers": 5,
+   "coverage": 3,
+   "publishers": 3,
    "firstSeen": "2026-09-23T12:08:02.539Z",
-   "score": 4.75,
+   "score": 3.25,
    "reasons": [
     "named entity",
-    "5 publishers",
-    "autonomy thesis",
+    "3 publishers",
     "funding or revenue figure",
     "strong outlet"
    ],
@@ -78,7 +57,7 @@
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb0stTTBjWjlYalZnUzh0eW1RUHEyNWZsNHhHNkdBZWY1S19mdjhrbmZBQnpneUt5M1dYTlBSRHRVR25vYWF5S1NPb0RSNEJ5VEhGYXkxQ1dhWjlBSFNxV0xKZDVoNDlHVWZTd0gxYlUtMFh1VmV6N3RiVjE0UFRTVlR6UldCa3hFOUg0blRrdl9uRlZwSm1IXzkteGswQQ?oc=5",
      "source": "gnews",
      "domain": "app.dealroom.co",
-     "publishedAt": "2026-09-16T20:50:00.000Z",
+     "publishedAt": "2026-09-16T11:37:38.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -299,28 +278,40 @@
    "status": "new"
   },
   {
-   "id": "7f24d025f92d",
-   "name": "Plan Draws Questions",
+   "id": "a51db7d03ba2",
+   "name": "Rilo",
    "evidence": [
     {
-     "title": "Delaware’s AI Company Plan Draws Questions Over Who Is Accountable",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1NzX3ZEWkdqbXkxLTMyUWVxbkYyTVVkb0c1cGR2T0JDOHFnc2RQMGhEaFlOeXNlMWNJMlhCV1pPUmFtdk5aSkdQVUlYaVNITjdNM1kxYnBKYkVLZjV2MlZQNUV2dW1iZFRkQ2dWYzM4TDVEdjhQVkI1SHV3X29GRGJYS01LdzJMZkFuMEw5UkE0NjFqcDZ2STVwWlhUZllsYjJUaUdIZXZGTkc3LW1aSDJ4OUpzc3U5cU1rOE1waw?oc=5",
+     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
      "source": "gnews",
-     "domain": "pymnts.com",
-     "publishedAt": "2026-09-25T16:32:29.000Z",
+     "domain": "finance.biggo.com",
+     "publishedAt": "2026-09-03T07:00:00.000Z",
      "matchedKeywords": [
-      "\"autonomous company\""
+      "\"AI employees\" startup"
+     ]
+    },
+    {
+     "title": "Adobe acquires Indian AI automation startup Rilo to boost agentic push",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JqckNEWjR6enhNU1ZnVUVsMEVpZVlWSlBqaFdYamVGWjNGM3c2Y3JXa1dlR1VuSkNqbU0za0xmRk50VHh6czBzVDRtZ0RXc2VpbTdSS1dTb2o1aTFBeGE3ekFmREotdFZiMERULUxodXp4aG5HQUFzcTVKd0d1QWQ1VnlxQ2E3cjU3WGJtdFJKVl85cWI4SHMxcVJwUHlPUnhUMGZjenpWTEVNQ1N5Q2lIbF9qVkNpbTFNcTNJRGZrS1Y1UEN5RGMwakZ3UkZzLWpEbjBB0gHbAUFVX3lxTFBMREtfOHdiZ2w0RHU2c2t1WlBjNlZYWTRLMHFKb1ZOQ2FiX0pMY3B1STlsbWozTkhlTndXN09JNkNyT1MybElpMVRaWW1KNUFMVW1TVFJqWmZ5M050VjY2c1JFMExOWFF2WW5Qb2lFXzNMNGxpTjRYWXFCVkk0QXR5YUl2c1ptM25EdFFkYmxJeEJDNDVmajRkc2p0UFNTOG14WVFTa1hhWXE3cHBTSW83clcwTHhUODFjRGF5OG9DNkpmaEFUclNSUjg4MDNkUmVTdUxHZ24zbFpIaw?oc=5",
+     "source": "gnews",
+     "domain": "business-standard.com",
+     "publishedAt": "2026-09-02T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
      ]
     }
    ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-26T11:49:40.767Z",
+   "coverage": 2,
+   "publishers": 2,
+   "firstSeen": "2026-09-12T12:32:31.738Z",
    "score": 1,
    "reasons": [
-    "named entity"
+    "named entity",
+    "2 publishers",
+    "acquired — no longer independent"
    ],
-   "status": "new"
+   "status": "rejected"
   },
   {
    "id": "c524cf98effe",
@@ -331,7 +322,7 @@
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDQ5QXVEZWpVM2ZncGF2cUtoVUc1TWh4X25uOUdRNzE4a05HM0xSa3Nnb24wZG1zaFYwdEhJX0tlTUFybzg0NUVvSEFORENlX2tjSTZaZlRIZElrRU9pRnhfbkQ4TllOZGRabG9ZR1Izak51R01uTkZic1lWXzgzTFRlOENzWmRBYU01UWQ5NENFTFJwNWNXbUVhQQ?oc=5",
      "source": "gnews",
      "domain": "finance.yahoo.com",
-     "publishedAt": "2026-09-24T01:00:00.000Z",
+     "publishedAt": "2026-09-23T07:00:00.000Z",
      "matchedKeywords": [
       "\"one-person unicorn\""
      ]
@@ -364,78 +355,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-20T11:57:47.776Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "a5a3470a977c",
-   "name": "Workflows",
-   "evidence": [
-    {
-     "title": "super{set} Backs Moneyball.ai and Eubrics to Transform Complex Business Workflows",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZkdZNi1ObmwzMU5idml0ZHNDQ0pOQWFFeHhtZGU0MUdRVW9UYVowX19mNUkxdkotY0p4VUd5OF8tdXZCMVBQM0xnc0UwUDJldmRSLXN1NDVvVWxxYjB4QkpSVExzSU5GdjQ3YkhRMzZVMlVGbjFBNkxVRWUwdjRWNVNSblBrOHNiTXBqLWdNYkhkakhtQTM4?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
-     "publishedAt": "2026-09-09T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-24T12:11:42.775Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "69583e29ebe9",
-   "name": "Hancom",
-   "evidence": [
-    {
-     "title": "Hancom launches TV ad for Nomadian AI workforce platform, targeting U.S. market",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFdJSXFYeTNDUmkzMlRwYTBRdVd1eWFYOUdtZ012UkRwQUFGOFMxSGRaMDNtYzVEaEVmR2t6bzl6TlhKSDdTaGZ5Q284WlRrMGljMkVDeTdncGJpWVdqaGdXZC1VUE9DUE9vNFJtaDUwT3lvTzQ4RGdxcWZBX0otMkhRNmlpRDBkaE9aOUszZUYxLXJta1YwSkFvNk9mclZoRkw2dVBCQXN4UkN5R3RBLW5YbjFmd1hpVW9oMXJOTTY?oc=5",
-     "source": "gnews",
-     "domain": "digitaltoday.co.kr",
-     "publishedAt": "2026-09-18T00:58:09.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-18T11:34:22.973Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "5f493757a8d8",
-   "name": "Pion",
-   "evidence": [
-    {
-     "title": "Pion, an agent designed to run any company autonomously",
-     "url": "https://andonlabs.com/blog/why-we-built-pion",
-     "source": "hn",
-     "domain": "andonlabs.com",
-     "publishedAt": "2026-09-14T17:16:06Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-29T13:35:44.368Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -563,30 +482,6 @@
    "status": "new"
   },
   {
-   "id": "ae6e2eb9df23",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Former Amazon and Opendoor leaders raise $3M to give every key business metric its own AI agent",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZXVKWGRoVmM1ZmtYM3N4eHZDZjJOajB1TTBkWFY0cUJWYnM3VTA3VG9yZ1dKaFBvd2U0RHExTW5hdy10WnhWVWxMVzhMYjFYTEJpOV9qZGpMTWg5SlV1dHZGSnlTTUdoZmdjczdaQ1dSRHlxRGljY0pZYWJjcjNESFN1T2p0ekNaZVBZLWV2cjlnV1V2Ym1udVdaU3JMNVV0T2wtSUZ0SkcxSEtmbW5JbGI2WUpoZnBjRDhfcWJ4MFVGTG8?oc=5",
-     "source": "gnews",
-     "domain": "geekwire.com",
-     "publishedAt": "2026-09-23T13:00:00.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-24T12:11:42.775Z",
-   "score": 0.75,
-   "reasons": [
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "9f470effce2a",
    "name": null,
    "evidence": [
@@ -633,31 +528,6 @@
     "funding or revenue figure"
    ],
    "status": "new"
-  },
-  {
-   "id": "a51db7d03ba2",
-   "name": "Rilo",
-   "evidence": [
-    {
-     "title": "Adobe Buys Peak XV-Backed AI Startup Rilo in Second India Acquisition",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2OEhwQ0xQTzBaVHRtMWhyLUlqbHZid2IwUmtsajF2eFVEczlmSk8wNTBSWlgyUGIzQzJGSmdPSW1HMHJfVEpHSjlBaEVUTDN4SXZGUHFMT2VDRlZzS2pyTzJnSElYTG9TYXpTX0pKMW9oTkR5RXc?oc=5",
-     "source": "gnews",
-     "domain": "finance.biggo.com",
-     "publishedAt": "2026-09-03T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-12T12:32:31.738Z",
-   "score": 0.5,
-   "reasons": [
-    "named entity",
-    "acquired — no longer independent"
-   ],
-   "status": "rejected"
   },
   {
    "id": "2dd907d06ca8",
