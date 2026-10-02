@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T13:27:15.663Z",
+ "generatedAt": "2026-10-02T12:45:43.506Z",
  "plan": {
   "platforms": [
    "x"
@@ -24,7 +24,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 58,
+   "ms": 57,
    "published": 0,
    "retained": 48
   },
@@ -34,7 +34,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 216,
+   "ms": 221,
    "published": 0,
    "retained": 1
   },
@@ -44,7 +44,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 50,
    "published": 0,
    "retained": 0
   },
@@ -54,7 +54,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 61,
+   "ms": 49,
    "published": 0,
    "retained": 65
   },
@@ -64,7 +64,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 208,
+   "ms": 211,
    "published": 0,
    "retained": 34
   },
@@ -74,7 +74,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -84,9 +84,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 286,
+   "ms": 247,
    "published": 0,
-   "retained": 26
+   "retained": 25
   },
   {
    "id": "x:akshat_b",
@@ -94,7 +94,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 51,
+   "ms": 52,
    "published": 0,
    "retained": 3
   },
@@ -104,9 +104,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 174,
+   "ms": 53,
    "published": 0,
-   "retained": 59
+   "retained": 51
   },
   {
    "id": "x:alexanderwu0",
@@ -114,7 +114,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 57,
+   "ms": 49,
    "published": 0,
    "retained": 0
   },
@@ -124,7 +124,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 52,
+   "ms": 51,
    "published": 0,
    "retained": 38
   },
@@ -134,7 +134,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
    "retained": 39
   },
@@ -144,7 +144,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
@@ -154,7 +154,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 156,
+   "ms": 198,
    "published": 0,
    "retained": 0
   },
@@ -164,7 +164,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 57,
+   "ms": 49,
    "published": 0,
    "retained": 38
   },
@@ -174,7 +174,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 92,
+   "ms": 58,
    "published": 0,
    "retained": 18
   },
@@ -184,7 +184,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 58,
+   "ms": 47,
    "published": 0,
    "retained": 13
   },
@@ -194,9 +194,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 46,
    "published": 0,
-   "retained": 13
+   "retained": 11
   },
   {
    "id": "x:apify",
@@ -214,7 +214,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -224,7 +224,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -234,7 +234,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 49,
    "published": 0,
    "retained": 2
   },
@@ -244,9 +244,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 53,
    "published": 0,
-   "retained": 26
+   "retained": 23
   },
   {
    "id": "x:bcherny",
@@ -254,9 +254,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 49,
    "published": 0,
-   "retained": 30
+   "retained": 27
   },
   {
    "id": "x:bencera",
@@ -264,9 +264,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 48,
    "published": 0,
-   "retained": 64
+   "retained": 63
   },
   {
    "id": "x:bernhardsson",
@@ -274,9 +274,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 49,
    "published": 0,
-   "retained": 14
+   "retained": 13
   },
   {
    "id": "x:bertie_ai",
@@ -284,7 +284,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 53,
    "published": 0,
    "retained": 3
   },
@@ -296,7 +296,7 @@
    "reason": "Apify HTTP 401",
    "ms": 51,
    "published": 0,
-   "retained": 13
+   "retained": 10
   },
   {
    "id": "x:blaxelai",
@@ -304,7 +304,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 48,
    "published": 0,
    "retained": 15
   },
@@ -314,7 +314,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 53,
    "published": 0,
    "retained": 116
   },
@@ -324,7 +324,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 53,
    "published": 0,
    "retained": 23
   },
@@ -334,7 +334,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 68,
+   "ms": 50,
    "published": 0,
    "retained": 0
   },
@@ -344,7 +344,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 49,
    "published": 0,
    "retained": 17
   },
@@ -354,7 +354,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
    "retained": 9
   },
@@ -364,7 +364,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
@@ -384,7 +384,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 50,
    "published": 0,
    "retained": 0
   },
@@ -394,7 +394,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -404,7 +404,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 52,
+   "ms": 53,
    "published": 0,
    "retained": 76
   },
@@ -414,7 +414,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 49,
    "published": 0,
    "retained": 49
   },
@@ -424,9 +424,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 49,
    "published": 0,
-   "retained": 17
+   "retained": 16
   },
   {
    "id": "x:danielaamodei",
@@ -434,7 +434,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
@@ -444,7 +444,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 53,
    "published": 0,
    "retained": 5
   },
@@ -454,7 +454,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 48,
    "published": 0,
    "retained": 2
   },
@@ -484,9 +484,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 51,
+   "ms": 54,
    "published": 0,
-   "retained": 49
+   "retained": 46
   },
   {
    "id": "x:dominic_w",
@@ -494,9 +494,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 55,
    "published": 0,
-   "retained": 14
+   "retained": 13
   },
   {
    "id": "x:dopabees",
@@ -504,9 +504,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 48,
    "published": 0,
-   "retained": 30
+   "retained": 28
   },
   {
    "id": "x:dougwightman",
@@ -514,7 +514,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -524,7 +524,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 53,
    "published": 0,
    "retained": 8
   },
@@ -534,7 +534,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 48,
    "published": 0,
    "retained": 12
   },
@@ -544,7 +544,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 51,
    "published": 0,
    "retained": 1
   },
@@ -554,7 +554,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 53,
    "published": 0,
    "retained": 43
   },
@@ -564,7 +564,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 53,
    "published": 0,
    "retained": 5
   },
@@ -574,7 +574,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 48,
    "published": 0,
    "retained": 6
   },
@@ -584,7 +584,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 52,
+   "ms": 56,
    "published": 0,
    "retained": 13
   },
@@ -594,7 +594,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 51,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -604,7 +604,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -614,7 +614,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 56,
    "published": 0,
    "retained": 2
   },
@@ -624,7 +624,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 54,
    "published": 0,
    "retained": 32
   },
@@ -634,7 +634,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -644,9 +644,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 48,
    "published": 0,
-   "retained": 6
+   "retained": 5
   },
   {
    "id": "x:gorandraganic",
@@ -654,7 +654,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -664,7 +664,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 49,
    "published": 0,
    "retained": 0
   },
@@ -674,7 +674,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 54,
    "published": 0,
    "retained": 3
   },
@@ -684,7 +684,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 55,
    "published": 0,
    "retained": 7
   },
@@ -694,7 +694,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
@@ -704,7 +704,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 49,
    "published": 0,
    "retained": 123
   },
@@ -714,7 +714,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 49,
    "published": 0,
    "retained": 19
   },
@@ -724,7 +724,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 59,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -734,7 +734,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 50,
    "published": 0,
    "retained": 1
   },
@@ -744,7 +744,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -754,7 +754,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 52,
+   "ms": 61,
    "published": 0,
    "retained": 4
   },
@@ -764,7 +764,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 54,
    "published": 0,
    "retained": 0
   },
@@ -774,7 +774,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 56,
    "published": 0,
    "retained": 5
   },
@@ -784,7 +784,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 49,
    "published": 0,
    "retained": 0
   },
@@ -794,7 +794,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 50,
    "published": 0,
    "retained": 0
   },
@@ -804,9 +804,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 56,
    "published": 0,
-   "retained": 19
+   "retained": 16
   },
   {
    "id": "x:kelvich",
@@ -814,7 +814,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 47,
    "published": 0,
    "retained": 0
   },
@@ -824,7 +824,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 49,
    "published": 0,
    "retained": 0
   },
@@ -834,7 +834,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 54,
    "published": 0,
    "retained": 16
   },
@@ -844,7 +844,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 58,
+   "ms": 49,
    "published": 0,
    "retained": 20
   },
@@ -854,9 +854,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 47,
    "published": 0,
-   "retained": 8
+   "retained": 6
   },
   {
    "id": "x:lambdaapi",
@@ -864,9 +864,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 49,
    "published": 0,
-   "retained": 34
+   "retained": 33
   },
   {
    "id": "x:langfuse",
@@ -874,9 +874,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 54,
    "published": 0,
-   "retained": 13
+   "retained": 12
   },
   {
    "id": "x:lazer_cohen",
@@ -884,7 +884,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 53,
    "published": 0,
    "retained": 5
   },
@@ -894,7 +894,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -904,7 +904,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 52,
    "published": 0,
    "retained": 86
   },
@@ -914,7 +914,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 57,
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
@@ -924,7 +924,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 60,
+   "ms": 48,
    "published": 0,
    "retained": 3
   },
@@ -934,9 +934,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 49,
    "published": 0,
-   "retained": 4
+   "retained": 3
   },
   {
    "id": "x:michaelhyunkim",
@@ -944,9 +944,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 54,
    "published": 0,
-   "retained": 17
+   "retained": 16
   },
   {
    "id": "x:midjourney",
@@ -954,7 +954,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 51,
    "published": 0,
    "retained": 7
   },
@@ -964,7 +964,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 53,
    "published": 0,
    "retained": 16
   },
@@ -974,7 +974,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 47,
    "published": 0,
    "retained": 27
   },
@@ -984,7 +984,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 48,
    "published": 0,
    "retained": 2
   },
@@ -994,9 +994,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
-   "retained": 20
+   "retained": 19
   },
   {
    "id": "x:ms_base44",
@@ -1004,7 +1004,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 50,
    "published": 0,
    "retained": 0
   },
@@ -1014,7 +1014,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 53,
    "published": 0,
    "retained": 42
   },
@@ -1024,7 +1024,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 53,
    "published": 0,
    "retained": 9
   },
@@ -1044,7 +1044,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 48,
+   "ms": 52,
    "published": 0,
    "retained": 49
   },
@@ -1054,7 +1054,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 53,
    "published": 0,
    "retained": 27
   },
@@ -1064,9 +1064,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 61,
+   "ms": 49,
    "published": 0,
-   "retained": 3
+   "retained": 2
   },
   {
    "id": "x:nicolaslec91112",
@@ -1074,7 +1074,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 53,
    "published": 0,
    "retained": 10
   },
@@ -1084,7 +1084,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 47,
    "published": 0,
    "retained": 0
   },
@@ -1094,7 +1094,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 50,
    "published": 0,
    "retained": 20
   },
@@ -1104,7 +1104,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 52,
    "published": 0,
    "retained": 3
   },
@@ -1114,7 +1114,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 51,
+   "ms": 53,
    "published": 0,
    "retained": 20
   },
@@ -1124,7 +1124,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 51,
    "published": 0,
    "retained": 0
   },
@@ -1134,9 +1134,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 53,
    "published": 0,
-   "retained": 39
+   "retained": 35
   },
   {
    "id": "x:openrouter",
@@ -1144,7 +1144,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 58,
+   "ms": 48,
    "published": 0,
    "retained": 128
   },
@@ -1154,7 +1154,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 49,
    "published": 0,
    "retained": 0
   },
@@ -1164,9 +1164,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 50,
    "published": 0,
-   "retained": 5
+   "retained": 4
   },
   {
    "id": "x:pamirehsas",
@@ -1174,7 +1174,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 48,
    "published": 0,
    "retained": 2
   },
@@ -1184,7 +1184,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 50,
    "published": 0,
    "retained": 0
   },
@@ -1194,9 +1194,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 51,
+   "ms": 54,
    "published": 0,
-   "retained": 12
+   "retained": 11
   },
   {
    "id": "x:plbiojout",
@@ -1204,9 +1204,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 53,
    "published": 0,
-   "retained": 40
+   "retained": 38
   },
   {
    "id": "x:polar_sh",
@@ -1214,7 +1214,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 52,
    "published": 0,
    "retained": 1
   },
@@ -1224,7 +1224,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 60,
    "published": 0,
    "retained": 14
   },
@@ -1234,9 +1234,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
-   "retained": 40
+   "retained": 38
   },
   {
    "id": "x:rauchg",
@@ -1244,7 +1244,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 48,
+   "ms": 65,
    "published": 0,
    "retained": 67
   },
@@ -1254,7 +1254,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 53,
    "published": 0,
    "retained": 7
   },
@@ -1264,9 +1264,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 48,
    "published": 0,
-   "retained": 24
+   "retained": 20
   },
   {
    "id": "x:resend",
@@ -1274,7 +1274,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 57,
+   "ms": 51,
    "published": 0,
    "retained": 111
   },
@@ -1284,7 +1284,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 57,
    "published": 0,
    "retained": 2
   },
@@ -1304,7 +1304,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -1314,7 +1314,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 53,
+   "ms": 49,
    "published": 0,
    "retained": 30
   },
@@ -1334,7 +1334,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 50,
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
@@ -1344,9 +1344,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 51,
    "published": 0,
-   "retained": 1
+   "retained": 0
   },
   {
    "id": "x:sciforium",
@@ -1354,7 +1354,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 48,
    "published": 0,
    "retained": 7
   },
@@ -1364,7 +1364,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 51,
    "published": 0,
    "retained": 1
   },
@@ -1374,9 +1374,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
-   "retained": 3
+   "retained": 2
   },
   {
    "id": "x:soniox_ai",
@@ -1384,7 +1384,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 49,
    "published": 0,
    "retained": 20
   },
@@ -1394,7 +1394,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 47,
    "published": 0,
    "retained": 0
   },
@@ -1404,7 +1404,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 57,
+   "ms": 49,
    "published": 0,
    "retained": 62
   },
@@ -1414,9 +1414,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 53,
    "published": 0,
-   "retained": 15
+   "retained": 13
   },
   {
    "id": "x:sualehasif996",
@@ -1424,7 +1424,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
@@ -1434,7 +1434,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 48,
+   "ms": 51,
    "published": 0,
    "retained": 48
   },
@@ -1444,7 +1444,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 47,
    "published": 0,
    "retained": 0
   },
@@ -1454,7 +1454,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 52,
    "published": 0,
    "retained": 7
   },
@@ -1464,7 +1464,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 56,
+   "ms": 52,
    "published": 0,
    "retained": 5
   },
@@ -1474,7 +1474,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 49,
+   "ms": 55,
    "published": 0,
    "retained": 55
   },
@@ -1486,7 +1486,7 @@
    "reason": "Apify HTTP 401",
    "ms": 53,
    "published": 0,
-   "retained": 38
+   "retained": 37
   },
   {
    "id": "x:usenaive",
@@ -1494,7 +1494,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 54,
+   "ms": 71,
    "published": 0,
    "retained": 1
   },
@@ -1504,72 +1504,12 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 55,
+   "ms": 48,
    "published": 0,
-   "retained": 30
+   "retained": 28
   },
   {
    "id": "x:vedranjukic",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 47,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:vercel",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 59,
-   "published": 0,
-   "retained": 11
-  },
-  {
-   "id": "x:vyahhi",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 58,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:withdelphi",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 54,
-   "published": 0,
-   "retained": 7
-  },
-  {
-   "id": "x:wordware",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 51,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:zai_org",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 54,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:zaxdennis",
    "status": "failed",
    "ok": false,
    "items": 0,
@@ -1579,12 +1519,72 @@
    "retained": 0
   },
   {
+   "id": "x:vercel",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 10
+  },
+  {
+   "id": "x:vyahhi",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:withdelphi",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 7
+  },
+  {
+   "id": "x:wordware",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:zai_org",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:zaxdennis",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 0
+  },
+  {
    "id": "x:zenorocha",
    "status": "failed",
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 58,
+   "ms": 50,
    "published": 0,
    "retained": 16
   }
