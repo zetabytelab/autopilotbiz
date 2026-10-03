@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T12:46:59.865Z",
+ "generatedAt": "2026-10-03T11:47:45.152Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -50,7 +50,7 @@
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQTlkT0dzTlZZN1pCLWpmdTdUY3Jzb0lrN2FEVG9scE5hdFhUZE1TdkZmZjByaE9VSTlweDNXV2xPYTg5SVh4N2I1VTZsblhYcFVZSDRDbl8zazAxOXJOSHlfQkZEbUhJUHFzX0FTWnVuRDFNUzREZnBnTU5nT1BDdGRYMVhvSVNGVjNSMG9CQVZjVnRfQjdjRDQtMFlMN3Q4VkY5bkNNYVpUclU?oc=5",
      "source": "gnews",
      "domain": "techcrunch.com",
-     "publishedAt": "2026-09-23T12:00:00.000Z",
+     "publishedAt": "2026-09-23T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -148,15 +148,15 @@
    "status": "new"
   },
   {
-   "id": "976adf56bae3",
-   "name": "Yutori AI",
+   "id": "d57734b2f9be",
+   "name": "Ema Raises",
    "evidence": [
     {
-     "title": "Yutori AI Revenue 2025: $2.3M Est. ARR, $15M Raised",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zRjZwNmJPczNMZkI0UF9iMWNzcHc2ZGJBTU1jY1NiWEY0djQ5NmQ5T1JlaDFWb0F2OE4tU0JrTEJzR0d0TS1NUmVjZkhBUQ?oc=5",
+     "title": "Enterprise AI Startup Ema Raises $77 Million in Series B Led by Creaegis",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMzYyV1dDOUJaQTY3N2pDbElHQnRhSmJyQzlWTkdZNkFUZ0lLYjBmTzIzdGVDeUJPTENuS0l6MWlPYUVPMVhZRzdvczNvYk9uS2xxQmZGYWJ0NWJyWEp5aVVpLUhoSWZ0MlZ4czh2ODhzaHFNSUkxMUNvRFlHZnpRZDJGOVlzeDBIdXozaUxsc3F5Y0FrVG9qWmVOdjdsb0gxVFpOYlU3SQ?oc=5",
      "source": "gnews",
-     "domain": "getlatka.com",
-     "publishedAt": "2026-09-14T07:00:00.000Z",
+     "domain": "cxodigitalpulse.com",
+     "publishedAt": "2026-09-24T07:12:44.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -173,15 +173,15 @@
    "status": "new"
   },
   {
-   "id": "d57734b2f9be",
-   "name": "Ema Raises",
+   "id": "976adf56bae3",
+   "name": "Yutori AI",
    "evidence": [
     {
-     "title": "Enterprise AI Startup Ema Raises $77 Million in Series B Led by Creaegis",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMzYyV1dDOUJaQTY3N2pDbElHQnRhSmJyQzlWTkdZNkFUZ0lLYjBmTzIzdGVDeUJPTENuS0l6MWlPYUVPMVhZRzdvczNvYk9uS2xxQmZGYWJ0NWJyWEp5aVVpLUhoSWZ0MlZ4czh2ODhzaHFNSUkxMUNvRFlHZnpRZDJGOVlzeDBIdXozaUxsc3F5Y0FrVG9qWmVOdjdsb0gxVFpOYlU3SQ?oc=5",
+     "title": "Yutori AI Revenue 2025: $2.3M Est. ARR, $15M Raised",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zRjZwNmJPczNMZkI0UF9iMWNzcHc2ZGJBTU1jY1NiWEY0djQ5NmQ5T1JlaDFWb0F2OE4tU0JrTEJzR0d0TS1NUmVjZkhBUQ?oc=5",
      "source": "gnews",
-     "domain": "cxodigitalpulse.com",
-     "publishedAt": "2026-09-24T07:12:44.000Z",
+     "domain": "getlatka.com",
+     "publishedAt": "2026-09-14T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -344,30 +344,6 @@
    "status": "new"
   },
   {
-   "id": "c524cf98effe",
-   "name": "GoComet",
-   "evidence": [
-    {
-     "title": "GoComet launches Nova, an AI-native execution layer for enterprise logistics, at Odyssey Singapore",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDQ5QXVEZWpVM2ZncGF2cUtoVUc1TWh4X25uOUdRNzE4a05HM0xSa3Nnb24wZG1zaFYwdEhJX0tlTUFybzg0NUVvSEFORENlX2tjSTZaZlRIZElrRU9pRnhfbkQ4TllOZGRabG9ZR1Izak51R01uTkZic1lWXzgzTFRlOENzWmRBYU01UWQ5NENFTFJwNWNXbUVhQQ?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
-     "publishedAt": "2026-09-23T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"one-person unicorn\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-27T12:41:23.856Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
    "id": "7b40f84ddb48",
    "name": "Creem",
    "evidence": [
@@ -385,54 +361,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-20T11:57:47.776Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "a5a3470a977c",
-   "name": "Workflows",
-   "evidence": [
-    {
-     "title": "super{set} Backs Moneyball.ai and Eubrics to Transform Complex Business Workflows",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZkdZNi1ObmwzMU5idml0ZHNDQ0pOQWFFeHhtZGU0MUdRVW9UYVowX19mNUkxdkotY0p4VUd5OF8tdXZCMVBQM0xnc0UwUDJldmRSLXN1NDVvVWxxYjB4QkpSVExzSU5GdjQ3YkhRMzZVMlVGbjFBNkxVRWUwdjRWNVNSblBrOHNiTXBqLWdNYkhkakhtQTM4?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
-     "publishedAt": "2026-09-09T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-02T12:46:59.864Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "5f493757a8d8",
-   "name": "Pion",
-   "evidence": [
-    {
-     "title": "Pion, an agent designed to run any company autonomously",
-     "url": "https://andonlabs.com/blog/why-we-built-pion",
-     "source": "hn",
-     "domain": "andonlabs.com",
-     "publishedAt": "2026-09-14T17:16:06Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-02T12:46:59.864Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -560,30 +488,6 @@
    "status": "new"
   },
   {
-   "id": "7ea8820dd590",
-   "name": null,
-   "evidence": [
-    {
-     "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
-     "url": "https://news.ycombinator.com/item?id=49824887",
-     "source": "hn",
-     "domain": "news.ycombinator.com",
-     "publishedAt": "2026-09-24T01:04:35Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-24T12:11:42.775Z",
-   "score": 0.75,
-   "reasons": [
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "9f470effce2a",
    "name": null,
    "evidence": [
@@ -601,6 +505,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-22T12:10:43.988Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "7ea8820dd590",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
+     "url": "https://news.ycombinator.com/item?id=49824887",
+     "source": "hn",
+     "domain": "news.ycombinator.com",
+     "publishedAt": "2026-09-24T01:04:35Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-24T12:11:42.775Z",
    "score": 0.75,
    "reasons": [
     "funding or revenue figure"
