@@ -1,20 +1,10 @@
 {
- "generatedAt": "2026-10-04T12:30:39.832Z",
+ "generatedAt": "2026-10-05T14:52:38.933Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
    "name": "Ema",
    "evidence": [
-    {
-     "title": "Enterprise AI startup Ema raises $77 million in Series B funding led by Creaegis",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcDhuU0p5aXh3Y2hwbzV6X3VzQkE4c0lXWC03SEpXbmpnOTNEdDZLTEE5SkFuMENNOE9rSm5FWFpVQTYzMFFabEdYYWZYXzlkeXJ4N1RqR3Y0dlFQTnZxRTUxUzRIdWlNR19nNnpRd24xbGczcGhTeGRSNUdZVDdTckxxYWVMVUlQZU5mU2JKYkhVRFFnYUdCdW45RXhUUFdlQ1NxRFBWYS1lV1I5ZE9wd3gxRF9jbUNLemdsMlJWMTRkY1Jr0gHEAUFVX3lxTE9wOG5TSnlpeHdjaHBvNXpfdXNCQThzSVdYLTdISlduamc5M0R0NktMQTlKQW4wQ004T2tKbkVYWlVBNjMwUVpsR1hhZlhfOWR5cng3VGpHdjR2UVBOdnFFNTFTNEh1aU1HX2c2elF3bjFsZzNwaFN4ZFI1R1lUN1NyTHFhZUxVSVBlTmZTYkpiSFVEUWdhR0J1bjlFeFRQV2VDU3FEUFZhLWVXUjlkT3B3eDFEX2NtQ0t6Z2wyUlYxNGRjUms?oc=5",
-     "source": "gnews",
-     "domain": "indianstartupnews.com",
-     "publishedAt": "2026-09-24T11:33:40.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
     {
      "title": "Enterprise AI startup Ema raises $77 Mn in Series B led by Creaegis",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3lRenJlYTNMWXZLZHlXa2s1SGd5bElxWTJSZDNfU1ZsWnFTMncwYXVwS28wSHZFWURBT1FxRXF6Z1pYbHBqRVZuc2FfZzRFSHdVbmlSLW96eU1NMlVCaXVhTVU5VkFOSjd5V3F6QWhPTWd6QjRfRkRIaTFWc2VCZ25JN0xjZDRrRFNHU2VKV1FHVTR2dlBqX01tWkRjUDJ5U1VF0gGjAUFVX3lxTE5PeVF6cmVhM0xZdktkeVdrazVIZ3lsSXFZMlJkM19TVmxacVMydzBhdXBLbzBIdkVZREFPUXFFcXpnWlhscGpFVm5zYV9nNEVId1VuaVItb3p5TU0yVUJpdWFNVTlWQU5KN3lXcXpBaE9NZ3pCNF9GREhpMVZzZUJnbkk3TGNkNGtEU0dTZUpXUUdVNHZ2UGpfTW1aRGNQMnlTVUU?oc=5",
@@ -54,15 +44,25 @@
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
+    },
+    {
+     "title": "Enterprise AI startup Ema raises $77 million led by Creaegis",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU3NvLUVWMF90VzBTNU5sTVFUWTF1WVY1VlRYNnFCd0YzLXlDcUplamlmcmY2cng1QUhUMFBydVlBYzFNMzNpYVMxdmc0LUpfWUNFRTg5eTAwSzM4UTQxZW1NRG5QYnZSUXZSMW1tWDRsOE02djZWdGNGVkNmYV9CZkg0eUZ4NGpqSHptZ0RPU3A0TXZJSzhaNFlfRnVLUXZMLWlBdjRXcWtUZjkxemk0X1luSnNCZnEtWkFObVphQWoxUE9x0gHKAUFVX3lxTE1oRHUwS1pmbms2TUdqR1diVzV5Y0RPaFpNOE1yZmJnVV9qV3B1QzhLZzdnb080RFl4Q3ByU0t6WE03OU1EaXkyN280T2FsWTBfZkhSbFExVHdYZms2Z2Z3RTBmZTNhZXJoczZLN3JsWG1ZN1JPSjRkRE5kbXZmLUJlTjNMYldqSk5SOFBZdGUtekRuUkk5cFVPTjVGX0h5Zy0xUENPZGROMk1RemRLVHpJVUxWZkNZMUt0S2lfb09TX2VHZWZ2RkJMOVE?oc=5",
+     "source": "gnews",
+     "domain": "m.economictimes.com",
+     "publishedAt": "2026-09-23T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
     }
    ],
-   "coverage": 7,
-   "publishers": 7,
+   "coverage": 6,
+   "publishers": 6,
    "firstSeen": "2026-09-23T12:08:02.539Z",
    "score": 4.75,
    "reasons": [
     "named entity",
-    "7 publishers",
+    "6 publishers",
     "autonomy thesis",
     "funding or revenue figure",
     "strong outlet"
@@ -173,6 +173,31 @@
    "status": "new"
   },
   {
+   "id": "894345e035d3",
+   "name": "Globally",
+   "evidence": [
+    {
+     "title": "Ema Raises $77 Million to Expand Universal AI Employee Platform Globally",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdDdMSTJHYldQVHZVMkotMEJHZXdhYno0SDNxVTdqMV9kNlZnMl85OHlJYUQtdVo4Qmt0T2RDUDcyMDRVOU0zbzdJdENmTkk4N29ZX1J5X3dMelhLbTZIYURwcm5HTW1UbGlIV2ZFRjNPQUFTQ0pBekYxTE1rOVRTRjBLSU1HdTJqMHpDR3JTbWI3ZFZWVUVoRXpPTEhmbG1xVzkw?oc=5",
+     "source": "gnews",
+     "domain": "equitypandit.com",
+     "publishedAt": "2026-09-24T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-05T14:52:38.933Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "976adf56bae3",
    "name": "Yutori AI",
    "evidence": [
@@ -223,23 +248,23 @@
    "status": "new"
   },
   {
-   "id": "9f68e3347000",
-   "name": "Presto",
+   "id": "8f2092a7e61c",
+   "name": "Zenithon",
    "evidence": [
     {
-     "title": "Presto Raises $10M to Accelerate Voice AI for Restaurants",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNmxNcHFBeXdhUXFvN1FxX3NsU01zM1dud3U3SVBWQ1c1b0Jqazl4ZXZRbjAta2F4LTJCVmExMGVPWEdnb3Q4ZTBwemhiay1zN1ZJTEZtYlcyM1JmX0I5ei1BMjhjaWxSX09NbzcxdTFNMk9TWk5CeWx1aHRHOEladUJSaXdDNmJNbkt2aHc0Z2pHeGU1R25hTmIyOA?oc=5",
+     "title": "Cambridge-backed AI startup Zenithon raises $10m to accelerate fusion, aerospace and chip design",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUDhVaUtIcTAzZ1lod0w5WjZfTXNBYzJQbXZLVzN2bFk1T0ZGUUdBYjRiOEp0WTdjZ0FlQ01IUFI5T1p5OXJ3LU5FQVBOS29HaUtfYnlzUXJoMmdLc25CeWVUd1psaUZneklVN2E2UUk2eTlRU1o3VEVvbVVqZU5nWlB2cEFVbGJjOXU0TXNVclBYcHJjTTI2ZTVqTEF2VmNTWnlxRG5VN1o2amVyUEgxa1FSQnd0SnRPM3hhdnVQd01TZ29rai1FdXNyRlV1YlZi?oc=5",
      "source": "gnews",
-     "domain": "citybiz.co",
-     "publishedAt": "2026-09-29T10:25:47.000Z",
+     "domain": "edtechinnovationhub.com",
+     "publishedAt": "2026-10-04T23:30:50.000Z",
      "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
+      "\"solo founder\" AI agents raises"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-04T12:30:39.831Z",
+   "firstSeen": "2026-10-05T14:52:38.933Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -369,30 +394,6 @@
    "status": "new"
   },
   {
-   "id": "7f24d025f92d",
-   "name": "Plan Draws Questions",
-   "evidence": [
-    {
-     "title": "Delaware’s AI Company Plan Draws Questions Over Who Is Accountable",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1NzX3ZEWkdqbXkxLTMyUWVxbkYyTVVkb0c1cGR2T0JDOHFnc2RQMGhEaFlOeXNlMWNJMlhCV1pPUmFtdk5aSkdQVUlYaVNITjdNM1kxYnBKYkVLZjV2MlZQNUV2dW1iZFRkQ2dWYzM4TDVEdjhQVkI1SHV3X29GRGJYS01LdzJMZkFuMEw5UkE0NjFqcDZ2STVwWlhUZllsYjJUaUdIZXZGTkc3LW1aSDJ4OUpzc3U5cU1rOE1waw?oc=5",
-     "source": "gnews",
-     "domain": "pymnts.com",
-     "publishedAt": "2026-09-25T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-04T12:30:39.831Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
    "id": "7b40f84ddb48",
    "name": "Creem",
    "evidence": [
@@ -413,6 +414,78 @@
    "score": 1,
    "reasons": [
     "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "a5a3470a977c",
+   "name": "Workflows",
+   "evidence": [
+    {
+     "title": "super{set} Backs Moneyball.ai and Eubrics to Transform Complex Business Workflows",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZkdZNi1ObmwzMU5idml0ZHNDQ0pOQWFFeHhtZGU0MUdRVW9UYVowX19mNUkxdkotY0p4VUd5OF8tdXZCMVBQM0xnc0UwUDJldmRSLXN1NDVvVWxxYjB4QkpSVExzSU5GdjQ3YkhRMzZVMlVGbjFBNkxVRWUwdjRWNVNSblBrOHNiTXBqLWdNYkhkakhtQTM4?oc=5",
+     "source": "gnews",
+     "domain": "finance.yahoo.com",
+     "publishedAt": "2026-09-09T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-05T14:52:38.933Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "5f493757a8d8",
+   "name": "Pion",
+   "evidence": [
+    {
+     "title": "Pion, an agent designed to run any company autonomously",
+     "url": "https://andonlabs.com/blog/why-we-built-pion",
+     "source": "hn",
+     "domain": "andonlabs.com",
+     "publishedAt": "2026-09-14T17:16:06Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-05T14:52:38.933Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "9be2ad7f55d9",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Could AI agents become the next digital employees in retail?",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQXcwbFJOc2dzWEJJb3gxRVVxQlVGOU1mc2dwd3EwZnV2R0d6aWNLR0hMeUNldkpUNUcwblNZOU1vRXBGU05tdkx5aGtOQ2FpdWFqZWhQSnhKYzFnS3ZGNnlJRXNxYmswd0t2UVJMb3d0ZTItMmh0VnpmaUN5SXhhaUR3MGFUSmZfTjRYaGhVZjdxVGlfWnF3bjVPMjFPcDdxWVE?oc=5",
+     "source": "gnews",
+     "domain": "retailtechinnovationhub.com",
+     "publishedAt": "2026-10-05T04:54:45.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-05T14:52:38.933Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
    ],
    "status": "new"
   },
@@ -497,7 +570,7 @@
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcW5ldVJyUkxJWV9EQ2ZGZ190N3RDbldpVVdrbDJhWkxjbGV5S1hEMWt2N2p1eGxYaDF0TkNJUHVFQkNzb3NIU0JaYjV5bGx1anlDREVPbFVaU1F1TEI3anhXWkI0dzg5UGNNY09IMU9BYUtoOU5rR09ERGVUemJrelBMT0ZUYklhU1dLSmdmdHVlZ3kyZzRBUDhn?oc=5",
      "source": "gnews",
      "domain": "app.dealroom.co",
-     "publishedAt": "2026-09-24T12:14:24.000Z",
+     "publishedAt": "2026-09-24T11:46:39.000Z",
      "matchedKeywords": [
       "\"solo founder\" AI agents raises"
      ]
@@ -558,6 +631,28 @@
    "reasons": [
     "funding or revenue figure"
    ],
+   "status": "new"
+  },
+  {
+   "id": "7076512819df",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Asteroid-mining company to launch first autonomous space mission in 2027",
+     "url": "https://www.space.com/technology/without-a-single-command-from-the-ground-asteroid-mining-company-to-launch-worlds-1st-autonomous-space-mission-in-2027",
+     "source": "hn",
+     "domain": "space.com",
+     "publishedAt": "2026-10-04T20:24:44Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-05T14:52:38.933Z",
+   "score": 0,
+   "reasons": [],
    "status": "new"
   },
   {
