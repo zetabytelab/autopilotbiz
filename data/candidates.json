@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T14:52:38.933Z",
+ "generatedAt": "2026-10-06T13:25:03.365Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -11,16 +11,6 @@
      "source": "gnews",
      "domain": "entrackr.com",
      "publishedAt": "2026-09-24T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Ema Raises $77 Million Series B to Scale ‘AI Employees’ Across HR, IT and Finance",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUnYwTmtUS242QjJtMC1VaG5pbUNKSlFiVWZ6V1pRV1dwYnVMbUNWQnlfelJMdDdILVp5RllFY1d1dk5iS3BURzhWX1U3WmhXdWRjNFNQUlRCbmN5cXVnd21WN0hEUk5qOWVoYWNHOHNYVE9DejZvTjZteXF5ZUYtRzUtZ2tFWlBFTDFOUG9BTGRjR29zNEdj?oc=5",
-     "source": "gnews",
-     "domain": "ascendants.in",
-     "publishedAt": "2026-09-23T19:32:04.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -54,15 +44,25 @@
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
+    },
+    {
+     "title": "AI startup Ema raises $77 million in funding led by Creaegis",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY0FpYWtNUlQ4aUd3X1NsV0tMUHRCdkZDM3pMbEoxaDh6d1Y3dWYtVnlsakZXY0FNejg3Q2pOV2ducXVLMEhMMUs3WmZEbGVDMFJIeEhUc08yZ0U2NHczcWNPUEpvdlF1bHV3OVhHX19NQS0wcllkNzVrRWJLT2c0OUNjT2RhSkl5WlNfa2lOV19yejhDQ2pDaEVySUpGZ1pIVUFqMnE1UHNoX0hTaEdQMVFaaVdna0Q1SnFlNUxyWS11QdIBxwFBVV95cUxOZTJ5MFY1SV9QWFhNZkhiaUxIX1U2elp1b0gyclZjZUFyS2Zqa2pBT3V4cDNQQndqX3QtdHZYRFV5MHFWVl9oeTRIWkN2OENSR3RjWWI0T0J1cm9QLXQxUU1DeGxPRkdITGxkV1lvTU0ySU9haHFNRE5aczJEbTFEbTFFZ3BjSm5ZdXdaV3JVLUVybHJqSkdqOUJuNTlObmszeXNoSlVXdm9aelBScTdNYkVGdUhydG5WMGgzdUNTN3lKWjJ4Z2dF?oc=5",
+     "source": "gnews",
+     "domain": "moneycontrol.com",
+     "publishedAt": "2026-09-23T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
     }
    ],
-   "coverage": 6,
-   "publishers": 6,
+   "coverage": 5,
+   "publishers": 5,
    "firstSeen": "2026-09-23T12:08:02.539Z",
    "score": 4.75,
    "reasons": [
     "named entity",
-    "6 publishers",
+    "5 publishers",
     "autonomy thesis",
     "funding or revenue figure",
     "strong outlet"
@@ -140,56 +140,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-18T11:34:22.972Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "d57734b2f9be",
-   "name": "Ema Raises",
-   "evidence": [
-    {
-     "title": "Enterprise AI Startup Ema Raises $77 Million in Series B Led by Creaegis",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMzYyV1dDOUJaQTY3N2pDbElHQnRhSmJyQzlWTkdZNkFUZ0lLYjBmTzIzdGVDeUJPTENuS0l6MWlPYUVPMVhZRzdvczNvYk9uS2xxQmZGYWJ0NWJyWEp5aVVpLUhoSWZ0MlZ4czh2ODhzaHFNSUkxMUNvRFlHZnpRZDJGOVlzeDBIdXozaUxsc3F5Y0FrVG9qWmVOdjdsb0gxVFpOYlU3SQ?oc=5",
-     "source": "gnews",
-     "domain": "cxodigitalpulse.com",
-     "publishedAt": "2026-09-24T07:12:44.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-02T12:46:59.864Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "894345e035d3",
-   "name": "Globally",
-   "evidence": [
-    {
-     "title": "Ema Raises $77 Million to Expand Universal AI Employee Platform Globally",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdDdMSTJHYldQVHZVMkotMEJHZXdhYno0SDNxVTdqMV9kNlZnMl85OHlJYUQtdVo4Qmt0T2RDUDcyMDRVOU0zbzdJdENmTkk4N29ZX1J5X3dMelhLbTZIYURwcm5HTW1UbGlIV2ZFRjNPQUFTQ0pBekYxTE1rOVRTRjBLSU1HdTJqMHpDR3JTbWI3ZFZWVUVoRXpPTEhmbG1xVzkw?oc=5",
-     "source": "gnews",
-     "domain": "equitypandit.com",
-     "publishedAt": "2026-09-24T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-05T14:52:38.933Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -344,6 +294,31 @@
    "status": "rejected"
   },
   {
+   "id": "98ab316ab6b3",
+   "name": null,
+   "evidence": [
+    {
+     "title": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI",
+     "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
+     "source": "investor",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-10-05T18:07:07.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-06T13:25:03.364Z",
+   "score": 1.25,
+   "reasons": [
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
    "id": "80e266a219a7",
    "name": null,
    "evidence": [
@@ -411,30 +386,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-20T11:57:47.776Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "a5a3470a977c",
-   "name": "Workflows",
-   "evidence": [
-    {
-     "title": "super{set} Backs Moneyball.ai and Eubrics to Transform Complex Business Workflows",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZkdZNi1ObmwzMU5idml0ZHNDQ0pOQWFFeHhtZGU0MUdRVW9UYVowX19mNUkxdkotY0p4VUd5OF8tdXZCMVBQM0xnc0UwUDJldmRSLXN1NDVvVWxxYjB4QkpSVExzSU5GdjQ3YkhRMzZVMlVGbjFBNkxVRWUwdjRWNVNSblBrOHNiTXBqLWdNYkhkakhtQTM4?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
-     "publishedAt": "2026-09-09T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-05T14:52:38.933Z",
    "score": 1,
    "reasons": [
     "named entity"
