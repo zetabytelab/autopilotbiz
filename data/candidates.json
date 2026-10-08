@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T13:34:13.356Z",
+ "generatedAt": "2026-10-08T13:40:05.320Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -64,6 +64,58 @@
     "named entity",
     "6 publishers",
     "autonomy thesis",
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "062a73b26696",
+   "name": "Vesta",
+   "evidence": [
+    {
+     "title": "Vesta raises $30M to bring swarms of agents to mortgage lenders",
+     "url": "https://techcrunch.com/2026/10/08/vesta-raises-30m-as-lenders-adopt-ai-agents/",
+     "source": "investor",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-10-08T12:00:00.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-08T13:40:05.319Z",
+   "score": 2.25,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "6e783cd720f5",
+   "name": "Mecka AI",
+   "evidence": [
+    {
+     "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
+     "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+     "source": "investor",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-10-07T23:36:57.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-08T13:40:05.319Z",
+   "score": 2.25,
+   "reasons": [
+    "named entity",
     "funding or revenue figure",
     "strong outlet"
    ],
@@ -148,6 +200,31 @@
    "status": "new"
   },
   {
+   "id": "976adf56bae3",
+   "name": "Yutori AI",
+   "evidence": [
+    {
+     "title": "Yutori AI Revenue 2025: $2.3M Est. ARR, $15M Raised",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zRjZwNmJPczNMZkI0UF9iMWNzcHc2ZGJBTU1jY1NiWEY0djQ5NmQ5T1JlaDFWb0F2OE4tU0JrTEJzR0d0TS1NUmVjZkhBUQ?oc=5",
+     "source": "gnews",
+     "domain": "getlatka.com",
+     "publishedAt": "2026-09-14T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-08T13:40:05.319Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "00954e483463",
    "name": "Boxd",
    "evidence": [
@@ -202,7 +279,7 @@
    "name": "Zenithon",
    "evidence": [
     {
-     "title": "Cambridge-backed AI startup Zenithon raises $10m to accelerate fusion, aerospace and chip design",
+     "title": "Cambridge AI startup Zenithon raises $10m for physics models | ETIH EdTech News",
      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUDhVaUtIcTAzZ1lod0w5WjZfTXNBYzJQbXZLVzN2bFk1T0ZGUUdBYjRiOEp0WTdjZ0FlQ01IUFI5T1p5OXJ3LU5FQVBOS29HaUtfYnlzUXJoMmdLc25CeWVUd1psaUZneklVN2E2UUk2eTlRU1o3VEVvbVVqZU5nWlB2cEFVbGJjOXU0TXNVclBYcHJjTTI2ZTVqTEF2VmNTWnlxRG5VN1o2amVyUEgxa1FSQnd0SnRPM3hhdnVQd01TZ29rai1FdXNyRlV1YlZi?oc=5",
      "source": "gnews",
      "domain": "edtechinnovationhub.com",
@@ -443,23 +520,23 @@
    "status": "new"
   },
   {
-   "id": "5f493757a8d8",
-   "name": "Pion",
+   "id": "dd9f5cdf7bff",
+   "name": "Targeting U.S. Solo",
    "evidence": [
     {
-     "title": "Pion, an agent designed to run any company autonomously",
-     "url": "https://andonlabs.com/blog/why-we-built-pion",
-     "source": "hn",
-     "domain": "andonlabs.com",
-     "publishedAt": "2026-09-14T17:16:06Z",
+     "title": "Hancom to Unveil 'Nomadian' AI Workforce Platform Targeting U.S. Solo Founders in December",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PaHFPR2IyOGhydV9FNUZIMTFwVWZtYVFfVVlveFpGYndBZHFCT1prbkZBWXBhLVdid1JWaHZ0ZVdBTUE5SEdZZWdPQVNEQmd4ZXczaWpUdnEyOXU5RGNXM1pPZnFUelhRT2lZRW8tNm1XRWkxX3c?oc=5",
+     "source": "gnews",
+     "domain": "finance.biggo.com",
+     "publishedAt": "2026-10-06T07:05:00.000Z",
      "matchedKeywords": [
-      "\"autonomous company\""
+      "\"solo founder\" AI agents raises"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-05T14:52:38.933Z",
+   "firstSeen": "2026-10-08T13:40:05.320Z",
    "score": 1,
    "reasons": [
     "named entity"
