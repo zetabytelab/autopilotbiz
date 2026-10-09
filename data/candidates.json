@@ -1,10 +1,20 @@
 {
- "generatedAt": "2026-10-08T13:40:05.320Z",
+ "generatedAt": "2026-10-09T13:25:48.815Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
    "name": "Ema",
    "evidence": [
+    {
+     "title": "Ema Raises $77M Series B to Scale AI Agents Across Enterprise HR, IT and Finance",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSUZqeHdQSVRYWDljZTdqc3liS094UG1xTkR0TVFLemR2dEZFR2ZIYlVSVjBMUS00NHNEMnIxcjBNS21Rc211aUdUZEtmRWdnUm4yRkxMaHVESnhhYmEtX2J4aDRRVWxFeFN6WU1rdHlWeGRvYXZTVHlMeHRmQnEyQ2dvNEV4VDNrMlRtQTE0bXZuUFZWTUVXZmlGRC1tZkhENWMyM1U1UnF5SGVMUXZrbU9wcTlHRm8?oc=5",
+     "source": "gnews",
+     "domain": "theaiinsider.tech",
+     "publishedAt": "2026-09-24T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
     {
      "title": "Enterprise AI startup Ema raises $77 Mn in Series B led by Creaegis",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3lRenJlYTNMWXZLZHlXa2s1SGd5bElxWTJSZDNfU1ZsWnFTMncwYXVwS28wSHZFWURBT1FxRXF6Z1pYbHBqRVZuc2FfZzRFSHdVbmlSLW96eU1NMlVCaXVhTVU5VkFOSjd5V3F6QWhPTWd6QjRfRkRIaTFWc2VCZ25JN0xjZDRrRFNHU2VKV1FHVTR2dlBqX01tWkRjUDJ5U1VF0gGjAUFVX3lxTE5PeVF6cmVhM0xZdktkeVdrazVIZ3lsSXFZMlJkM19TVmxacVMydzBhdXBLbzBIdkVZREFPUXFFcXpnWlhscGpFVm5zYV9nNEVId1VuaVItb3p5TU0yVUJpdWFNVTlWQU5KN3lXcXpBaE9NZ3pCNF9GREhpMVZzZUJnbkk3TGNkNGtEU0dTZUpXUUdVNHZ2UGpfTW1aRGNQMnlTVUU?oc=5",
@@ -44,25 +54,15 @@
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
-    },
-    {
-     "title": "Ema Raises $77M Series B to Put AI Employees to Work Across the Enterprise",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbkdDYzdIMUZITkJyTUwwd1Q1ZlFyVm1Sd2dZVjNOYUU2SDFubmpERFpMbzFTNkpTQkJhQW1LcE5VWjltZzZLOWdYS19SV1U5MWpoSVAzb3VhMFdtc2duM0EzSXh3UHlSczFrbU90VWlmVHlMZDVsWm5LYlh0MzJKSldkaG5pU0VrMVBlRDZXa0Y?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
-     "publishedAt": "2026-09-23T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
     }
    ],
-   "coverage": 6,
-   "publishers": 6,
+   "coverage": 7,
+   "publishers": 7,
    "firstSeen": "2026-09-23T12:08:02.539Z",
    "score": 4.75,
    "reasons": [
     "named entity",
-    "6 publishers",
+    "7 publishers",
     "autonomy thesis",
     "funding or revenue figure",
     "strong outlet"
@@ -200,31 +200,6 @@
    "status": "new"
   },
   {
-   "id": "976adf56bae3",
-   "name": "Yutori AI",
-   "evidence": [
-    {
-     "title": "Yutori AI Revenue 2025: $2.3M Est. ARR, $15M Raised",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zRjZwNmJPczNMZkI0UF9iMWNzcHc2ZGJBTU1jY1NiWEY0djQ5NmQ5T1JlaDFWb0F2OE4tU0JrTEJzR0d0TS1NUmVjZkhBUQ?oc=5",
-     "source": "gnews",
-     "domain": "getlatka.com",
-     "publishedAt": "2026-09-14T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-08T13:40:05.319Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "00954e483463",
    "name": "Boxd",
    "evidence": [
@@ -309,31 +284,6 @@
      "source": "gnews",
      "domain": "foodondemand.com",
      "publishedAt": "2026-10-06T15:40:24.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-07T13:34:13.356Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "9f68e3347000",
-   "name": "Presto",
-   "evidence": [
-    {
-     "title": "Presto Raises $10 Million to Expand Drive-Thru Voice AI as POS Integration Shapes Competition",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOWRwWDBWVGVVS1RfVThPNWJKNjYzUFM5bzV0am9xOTh1a2ZXaGRmamI2YjN6Z0dhcW5rMUlPYUFzSjJvd2R5MExQeWxpV2dqVWdPZ1gxaENHTDJHZnFlWmZOT3J5ZlIybjEyMnBVX3Iya1Y2Q1hyRXBZYVRqTHVjaWdMNmRxTWxrMXdGSzMzZ0RpTzJTSXcwbUF3aC01SUVteGcweHlNWi1nb3JISjUzWHQ2TFhiZzV1MzhWSUFWcDM5MWx3dC15WWtlOFFYNnNZR0ZIaA?oc=5",
-     "source": "gnews",
-     "domain": "restauranttechnologynews.com",
-     "publishedAt": "2026-10-06T20:21:55.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
      ]
@@ -544,6 +494,30 @@
    "status": "new"
   },
   {
+   "id": "5f493757a8d8",
+   "name": "Pion",
+   "evidence": [
+    {
+     "title": "Pion, an agent designed to run any company autonomously",
+     "url": "https://andonlabs.com/blog/why-we-built-pion",
+     "source": "hn",
+     "domain": "andonlabs.com",
+     "publishedAt": "2026-09-14T17:16:06Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-09T13:25:48.815Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
    "id": "9be2ad7f55d9",
    "name": null,
    "evidence": [
@@ -640,23 +614,23 @@
    "status": "rejected"
   },
   {
-   "id": "c7feedfbab75",
+   "id": "9f470effce2a",
    "name": null,
    "evidence": [
     {
-     "title": "Solo-built AI design tool slicer.dev raises €100,000 pre-seed",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcW5ldVJyUkxJWV9EQ2ZGZ190N3RDbldpVVdrbDJhWkxjbGV5S1hEMWt2N2p1eGxYaDF0TkNJUHVFQkNzb3NIU0JaYjV5bGx1anlDREVPbFVaU1F1TEI3anhXWkI0dzg5UGNNY09IMU9BYUtoOU5rR09ERGVUemJrelBMT0ZUYklhU1dLSmdmdHVlZ3kyZzRBUDhn?oc=5",
-     "source": "gnews",
-     "domain": "app.dealroom.co",
-     "publishedAt": "2026-09-24T11:46:39.000Z",
+     "title": "I gave an autonomous AI company $0 and $200 of debt",
+     "url": "https://autonomouscompany.substack.com/p/i-gave-an-autonomous-ai-company-0",
+     "source": "hn",
+     "domain": "autonomouscompany.substack.com",
+     "publishedAt": "2026-09-21T18:02:44Z",
      "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
+      "\"autonomous company\""
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-09-25T12:17:04.404Z",
+   "firstSeen": "2026-09-22T12:10:43.988Z",
    "score": 0.75,
    "reasons": [
     "funding or revenue figure"
@@ -681,30 +655,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-24T12:11:42.775Z",
-   "score": 0.75,
-   "reasons": [
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "9f470effce2a",
-   "name": null,
-   "evidence": [
-    {
-     "title": "I gave an autonomous AI company $0 and $200 of debt",
-     "url": "https://autonomouscompany.substack.com/p/i-gave-an-autonomous-ai-company-0",
-     "source": "hn",
-     "domain": "autonomouscompany.substack.com",
-     "publishedAt": "2026-09-21T18:02:44Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-22T12:10:43.988Z",
    "score": 0.75,
    "reasons": [
     "funding or revenue figure"
@@ -773,28 +723,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-23T12:08:02.540Z",
-   "score": 0,
-   "reasons": [],
-   "status": "new"
-  },
-  {
-   "id": "f6d34b6b74bc",
-   "name": null,
-   "evidence": [
-    {
-     "title": "trying to build an AI software startup as 14 year old",
-     "url": "https://www.reddit.com/r/alphaandbetausers/comments/1wx4flx/trying_to_build_an_ai_software_startup_as_14_year/",
-     "source": "reddit",
-     "domain": "reddit.com",
-     "publishedAt": "2026-10-04T02:26:47.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-04T12:30:39.832Z",
    "score": 0,
    "reasons": [],
    "status": "new"
