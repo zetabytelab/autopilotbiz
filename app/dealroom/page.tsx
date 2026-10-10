@@ -13,10 +13,11 @@ import { DEALROOM_PAGE_UPDATED } from "@/lib/dealroom";
 // Dealroom terms (see DEALROOM-TERMS-OVERRIDE): until Dealroom gives written
 // permission this page shows OUR index data only. No Dealroom data, fields,
 // logos or Dealroom-derived numbers; the Dataset JSON-LD describes our CC BY 4.0
-// index only; the screener is described in words. The hackathon is on
-// Thu 1 Oct 2026, so the copy is future / present-progressive tense and claims
-// no results. Every figure below is derived from lib/data.ts and
-// lib/financial-observations.ts at build time, never typed by hand.
+// index only; the screener is described in words. Built at the Dealroom
+// hackathon on 1 Oct 2026; page still shows index data only until Dealroom
+// gives written permission to show joined fields. Every figure below is
+// derived from lib/data.ts and lib/financial-observations.ts at build time,
+// never typed by hand.
 
 export const revalidate = 3600;
 
@@ -26,7 +27,7 @@ const OG_IMAGE = `${BASE}/og/dealroom.png`;
 
 const TITLE = "Autopilot Leverage Screener: AI-run companies by funding per employee";
 const DESCRIPTION =
-  "We're joining The Autopilot Index of AI-run companies to Dealroom's API at the Dealroom hackathon on 1 Oct 2026. See the evidence-graded index leaderboard now.";
+  "Built at the Dealroom hackathon on 1 Oct 2026: Autopilot Index autonomy levels next to funding and revenue per employee. This page shows our own evidence-graded index data only.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "The Autopilot Index",
     title: "How much company does each employee buy?",
     description:
-      "The Autopilot Leverage Screener: funding and revenue per employee vs autonomy level for AI-run companies. Being built at the Dealroom hackathon on 1 Oct 2026.",
+      "The Autopilot Leverage Screener: funding and revenue per employee vs autonomy level for AI-run companies. Built at the Dealroom hackathon on 1 Oct 2026. Index data only until Dealroom gives written permission for joined fields.",
     images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Autopilot Leverage Screener: funding per employee vs autonomy level, L2 to L5" }],
     locale: "en_GB",
   },
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@autopilotindex",
     title: "Autopilot Leverage Screener",
-    description: "Funding and revenue per employee vs autonomy level for AI-run companies. Being built at the Dealroom hackathon, 1 Oct 2026.",
+    description: "Funding and revenue per employee vs autonomy level for AI-run companies. Built at the Dealroom hackathon, 1 Oct 2026. Index data only on this page.",
     images: [OG_IMAGE],
   },
 };
@@ -79,7 +80,7 @@ const datasetModified = financialObservations
 const FAQ: { q: string; a: string }[] = [
   {
     q: "What is the Autopilot Leverage Screener?",
-    a: "A screen we're building at the Dealroom hackathon on Thursday 1 October 2026. It joins The Autopilot Index (companies that say AI runs them, each with an autonomy level and an evidence grade) to Dealroom's funding and headcount data, so funding per employee and revenue per employee can sit next to how much of the business AI actually runs. Until then, this page shows our own index data only.",
+    a: "A screen designed at the Dealroom hackathon on 1 October 2026. It joins The Autopilot Index (companies that say AI runs them, each with an autonomy level and an evidence grade) to Dealroom's funding and headcount data, so funding per employee and revenue per employee can sit next to how much of the business AI actually runs. Until Dealroom gives written permission to show joined fields, this page shows our own index data only.",
   },
   {
     q: "What do L1 to L5 mean, and why is L1 left out?",
@@ -213,16 +214,16 @@ export default function DealroomPage() {
       {/* 1. Hero */}
       <header className="py-14 sm:py-20">
         <p className="inline-block rounded-full border border-lime-400/30 bg-lime-400/10 px-3 py-1 font-mono text-xs text-lime-400">
-          Being built at the Dealroom hackathon · Thu 1 Oct 2026 · London
+          Built at the Dealroom hackathon · 1 Oct 2026 · London
         </p>
         <h1 className="mt-6 max-w-3xl text-4xl font-black leading-tight tracking-tight text-zinc-50 sm:text-6xl">
           How much company does each employee buy?
         </h1>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-          On Thursday 1 October we&apos;re joining The Autopilot Index, a free, evidence-graded index of companies that say
-          AI runs them, to Dealroom&apos;s company data at the Dealroom hackathon. The goal is one screen: funding per
-          employee and revenue per employee, set against how much of the business AI actually runs (L2 to L5). Until
-          then, this page shows our own index data, and every figure on it has a source and a date.
+          At the Dealroom hackathon on 1 October 2026 we designed one screen: funding per employee and revenue per
+          employee, set against how much of the business AI actually runs (L2 to L5), by joining The Autopilot Index
+          to Dealroom&apos;s company data. Until Dealroom gives written permission to show joined fields, this page
+          shows our own index data, and every figure on it has a source and a date.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a href="#signup" className="rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300">
@@ -247,7 +248,7 @@ export default function DealroomPage() {
           <li className="rounded-2xl border border-zinc-800 bg-zinc-950/60 p-5">
             <p className="font-semibold text-zinc-100">Joins two datasets</p>
             <p className="mt-2 text-sm leading-relaxed text-zinc-400">
-              We&apos;re matching each company in The Autopilot Index (autonomy level, evidence grade, reported humans,
+              Matching each company in The Autopilot Index (autonomy level, evidence grade, reported humans,
               dated financial observations) by domain to Dealroom&apos;s records for funding rounds and headcount.
             </p>
           </li>
@@ -396,7 +397,7 @@ export default function DealroomPage() {
       {/* 7. Footer strip */}
       <footer className="border-t border-zinc-900 pt-8 text-xs leading-relaxed text-zinc-500">
         <p>
-          Being built at the Dealroom hackathon, 1 Oct 2026 · Data CC BY 4.0 ·{" "}
+          Built at the Dealroom hackathon, 1 Oct 2026 · Data CC BY 4.0 ·{" "}
           <Link href="/about" className="text-lime-400 hover:underline">Methodology</Link> ·{" "}
           <Link href="/submit" className="text-lime-400 hover:underline">Submit a correction</Link>
         </p>
