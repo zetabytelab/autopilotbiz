@@ -345,7 +345,7 @@ export default function SubmitForm() {
         <p className="mb-2 font-mono text-xs uppercase tracking-wider text-zinc-500">
           Live preview — how it would look on the tracker
         </p>
-        <CompanyCard company={preview} />
+        <CompanyCard company={preview} preview />
       </div>
     </div>
   );
