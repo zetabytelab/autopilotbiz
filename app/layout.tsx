@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import RefCapture from "@/components/RefCapture";
 import AnalyticsEvents from "@/components/AnalyticsEvents";
 import "./globals.css";
+import LegacyChrome from "@/components/registry/LegacyChrome";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -51,7 +52,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-200">
         <RefCapture />
         <AnalyticsEvents production={process.env.VERCEL_ENV === "production"} />
-        <nav className="sticky top-0 z-50 border-b border-zinc-900 bg-zinc-950/80 backdrop-blur">
+        <LegacyChrome><nav className="sticky top-0 z-50 border-b border-zinc-900 bg-zinc-950/80 backdrop-blur">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6">
             <Link href="/" className="font-mono text-sm font-bold tracking-tight text-zinc-100 hover:text-lime-400">
               autopilot<span className="text-lime-400">index</span>
@@ -77,9 +78,9 @@ export default function RootLayout({
               </Link>
             </div>
           </div>
-        </nav>
+        </nav></LegacyChrome>
         {children}
-        <footer className="mt-auto border-t border-zinc-900 py-6 text-center">
+        <LegacyChrome><footer className="mt-auto border-t border-zinc-900 py-6 text-center">
           <a
             href="https://buymeacoffee.com/serranox"
             target="_blank"
@@ -101,7 +102,7 @@ export default function RootLayout({
             <a href="/llms.txt" className="hover:text-lime-400">llms.txt</a>
             <a href="https://github.com/zetabytelab/autopilot" target="_blank" rel="noopener noreferrer" className="hover:text-lime-400">GitHub</a>
           </nav>
-        </footer>
+        </footer></LegacyChrome>
       </body>
     </html>
   );

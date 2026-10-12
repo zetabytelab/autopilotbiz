@@ -13,7 +13,10 @@
     "gen:index": "node --experimental-strip-types scripts/generate-index-readme.ts",
     "send:edition": "node --experimental-strip-types scripts/send-edition.ts",
     "linkedin:article": "node --experimental-strip-types scripts/linkedin-article.ts",
-    "search:bench": "node scripts/search-bench/bench.mjs"
+    "search:bench": "node scripts/search-bench/bench.mjs",
+    "gen:registry": "node scripts/build-registry.mjs",
+    "predev": "npm run gen:registry",
+    "prebuild": "npm run gen:registry"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
