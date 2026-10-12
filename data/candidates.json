@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11T13:00:10.573Z",
+ "generatedAt": "2026-10-12T15:39:12.345Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -10,7 +10,7 @@
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcDhuU0p5aXh3Y2hwbzV6X3VzQkE4c0lXWC03SEpXbmpnOTNEdDZLTEE5SkFuMENNOE9rSm5FWFpVQTYzMFFabEdYYWZYXzlkeXJ4N1RqR3Y0dlFQTnZxRTUxUzRIdWlNR19nNnpRd24xbGczcGhTeGRSNUdZVDdTckxxYWVMVUlQZU5mU2JKYkhVRFFnYUdCdW45RXhUUFdlQ1NxRFBWYS1lV1I5ZE9wd3gxRF9jbUNLemdsMlJWMTRkY1Jr0gHEAUFVX3lxTE9wOG5TSnlpeHdjaHBvNXpfdXNCQThzSVdYLTdISlduamc5M0R0NktMQTlKQW4wQ004T2tKbkVYWlVBNjMwUVpsR1hhZlhfOWR5cng3VGpHdjR2UVBOdnFFNTFTNEh1aU1HX2c2elF3bjFsZzNwaFN4ZFI1R1lUN1NyTHFhZUxVSVBlTmZTYkpiSFVEUWdhR0J1bjlFeFRQV2VDU3FEUFZhLWVXUjlkT3B3eDFEX2NtQ0t6Z2wyUlYxNGRjUms?oc=5",
      "source": "gnews",
      "domain": "indianstartupnews.com",
-     "publishedAt": "2026-09-24T11:33:40.000Z",
+     "publishedAt": "2026-09-24T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -20,16 +20,6 @@
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3lRenJlYTNMWXZLZHlXa2s1SGd5bElxWTJSZDNfU1ZsWnFTMncwYXVwS28wSHZFWURBT1FxRXF6Z1pYbHBqRVZuc2FfZzRFSHdVbmlSLW96eU1NMlVCaXVhTVU5VkFOSjd5V3F6QWhPTWd6QjRfRkRIaTFWc2VCZ25JN0xjZDRrRFNHU2VKV1FHVTR2dlBqX01tWkRjUDJ5U1VF0gGjAUFVX3lxTE5PeVF6cmVhM0xZdktkeVdrazVIZ3lsSXFZMlJkM19TVmxacVMydzBhdXBLbzBIdkVZREFPUXFFcXpnWlhscGpFVm5zYV9nNEVId1VuaVItb3p5TU0yVUJpdWFNVTlWQU5KN3lXcXpBaE9NZ3pCNF9GREhpMVZzZUJnbkk3TGNkNGtEU0dTZUpXUUdVNHZ2UGpfTW1aRGNQMnlTVUU?oc=5",
      "source": "gnews",
      "domain": "entrackr.com",
-     "publishedAt": "2026-09-24T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Ema Raises $77 Million Series B to Scale ‘AI Employees’ Across HR, IT and Finance",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUnYwTmtUS242QjJtMC1VaG5pbUNKSlFiVWZ6V1pRV1dwYnVMbUNWQnlfelJMdDdILVp5RllFY1d1dk5iS3BURzhWX1U3WmhXdWRjNFNQUlRCbmN5cXVnd21WN0hEUk5qOWVoYWNHOHNYVE9DejZvTjZteXF5ZUYtRzUtZ2tFWlBFTDFOUG9BTGRjR29zNEdj?oc=5",
-     "source": "gnews",
-     "domain": "ascendants.in",
      "publishedAt": "2026-09-24T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
@@ -56,14 +46,13 @@
      ]
     }
    ],
-   "coverage": 5,
-   "publishers": 5,
+   "coverage": 4,
+   "publishers": 4,
    "firstSeen": "2026-09-23T12:08:02.539Z",
-   "score": 4.75,
+   "score": 3.75,
    "reasons": [
     "named entity",
-    "5 publishers",
-    "autonomy thesis",
+    "4 publishers",
     "funding or revenue figure",
     "strong outlet"
    ],
@@ -175,31 +164,6 @@
    "status": "rejected"
   },
   {
-   "id": "d42c0112962b",
-   "name": "MIND",
-   "evidence": [
-    {
-     "title": "Israeli cybersecurity startup MIND raises $72 million as AI fuels data-security drive",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ka0o0QUR4aGpVXzQ4SkVFMWJyaEw4clJONW9aNkU5c2IzdGx0WndsZmtYTF85LWZISlNyaFR3alVtWU93T09Cd1M5VDU3UUI2ckNLcEcxdXJudnBCR1dicDllc2ExZFFmTk5mZg?oc=5",
-     "source": "gnews",
-     "domain": "ynetnews.com",
-     "publishedAt": "2026-09-17T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-18T11:34:22.972Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "00954e483463",
    "name": "Boxd",
    "evidence": [
@@ -217,31 +181,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-07T13:34:13.355Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "a0784c77ebab",
-   "name": "Magentic",
-   "evidence": [
-    {
-     "title": "Magentic Raises $18 Million Series A To Expand AI Digital Workers For Global Manufacturers",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHRHSzRGdU5BM09mU2VLUGhKU3ZLbHNDeVR0emNfZ21hUE83Q2J4OWNqakxrSktMNU53SlU4RTBBejExMFZrdGJnM1AzTzRORlBJWjZyT0tJc0IxNGpDV3lab3BZcVdKMG95Nk10LUxqR0RPamFSeWUzcGM1aUZFc2VVeTluZFBYRjhqSEdtR2l4Y09HZlBaYWJoOVVPem0wVGZVSGVDZ21kUVZQU2fSAbMBQVVfeXFMTzRFWnNmUUNhN0pTVWl4Z0xOUXFYRjdLSThSTVF0dFM2OW02UlctVVJhUm1iYVNUMEtTcV9mTVJsUjBYYUNEbVhwUUM3WUtwX3R5azRpSFNRNkY3bFlSMHo3REFHaXRHdmdkc2s5SGRiVHBCR1FJMG9TQmRSU1BCcDkybjd2WWpSWlNLaFg1Y3BEclFKNUVWZVhXeHhaOGZVUkRoSEFHa3lXbkYycXYyaGJ0OWM?oc=5",
-     "source": "gnews",
-     "domain": "pulse2.com",
-     "publishedAt": "2026-09-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-20T11:57:47.776Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -292,31 +231,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-07T13:34:13.356Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "9f68e3347000",
-   "name": "Presto",
-   "evidence": [
-    {
-     "title": "Presto Raises $10 Million to Expand Drive-Thru Voice AI as POS Integration Shapes Competition",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOWRwWDBWVGVVS1RfVThPNWJKNjYzUFM5bzV0am9xOTh1a2ZXaGRmamI2YjN6Z0dhcW5rMUlPYUFzSjJvd2R5MExQeWxpV2dqVWdPZ1gxaENHTDJHZnFlWmZOT3J5ZlIybjEyMnBVX3Iya1Y2Q1hyRXBZYVRqTHVjaWdMNmRxTWxrMXdGSzMzZ0RpTzJTSXcwbUF3aC01SUVteGcweHlNWi1nb3JISjUzWHQ2TFhiZzV1MzhWSUFWcDM5MWx3dC15WWtlOFFYNnNZR0ZIaA?oc=5",
-     "source": "gnews",
-     "domain": "restauranttechnologynews.com",
-     "publishedAt": "2026-10-06T20:21:55.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-10T12:41:06.887Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -446,6 +360,30 @@
    "status": "new"
   },
   {
+   "id": "c69e24a42de7",
+   "name": "Huxe",
+   "evidence": [
+    {
+     "title": "Apple strikes deal with AI audio startup Huxe after shutdown, raising questions over future podcasts",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOM2JpN1RrWWFGR21iVnNOY2tnRDd1Y00zSndITmR1QUdBRE43NGNFQXpkbEZQTE9TcFI4WUQ4RnZORTZzb1FlXzBiUkl1a0R5T0ItX1FWbnBkR2FKTE1pZ2t0Nmp0aU1HUmRDUnhxX0hCbk52VTUxOG42MGI4cXBKLXBmX0pUVm5sUGZJRE5mMkFfWEpBMFhTSHl3VkV0THNCWXQxYzZ1RFpzOFAyTnp2VV9kRi1Fc29CZEdNSUk0djNrVURFdzBJcFA0WWE1dG50NjM5d3NRWFU3eDZ4cWVwbzNn0gHnAUFVX3lxTFB5eG8zUnM5bGZlb2lGM185Y2FfNXZxakxCLVliR2VxeVdZZGhaR1d5MnJ0S05YaURILWowNDcxYVVhYWVmQmJWeUp1MzNBazU2ekJrV1BNb2x2b2hHSkdGbm9tVTlwY1FaLXplM2E1bHRzeE1ZWDBQV0t6dldNY3Z5a3lKTmFxZHgybkhlUnh2dFNFOXdGUy12M3JUWnJpSk9tWHVVTUxCMzVXaEpnVWlRZEQ2ZlFJUHdFTERpMC1wakMxOWtKbHpEMEJkNEYxaHg1YXVtTURGd2VOUklYaUpJckk0TElqVQ?oc=5",
+     "source": "gnews",
+     "domain": "wionews.com",
+     "publishedAt": "2026-10-11T17:31:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-12T15:39:12.344Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
    "id": "7b40f84ddb48",
    "name": "Creem",
    "evidence": [
@@ -494,6 +432,30 @@
    "status": "new"
   },
   {
+   "id": "5f493757a8d8",
+   "name": "Pion",
+   "evidence": [
+    {
+     "title": "Pion, an agent designed to run any company autonomously",
+     "url": "https://andonlabs.com/blog/why-we-built-pion",
+     "source": "hn",
+     "domain": "andonlabs.com",
+     "publishedAt": "2026-09-14T17:16:06Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-12T15:39:12.345Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
    "id": "9be2ad7f55d9",
    "name": null,
    "evidence": [
@@ -511,6 +473,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-05T14:52:38.933Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "f98bd61b1897",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The Other Side of the \"Great AI Opportunity\" for Digital Employees",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41cEdKaGlwZ1lxNEtoYnZYNG5VWUZnQloxdGI5RFZJS21VZExTOHVudzVmV3NIVGxBbFczeXZlLXI3eUxSdGI3VExBRVd1LVdKYkhZ?oc=5",
+     "source": "gnews",
+     "domain": "eu.36kr.com",
+     "publishedAt": "2026-10-12T07:24:19.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-12T15:39:12.345Z",
    "score": 1,
    "reasons": [
     "autonomy thesis"
@@ -679,6 +665,31 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-11T13:00:10.572Z",
+   "score": 0.5,
+   "reasons": [
+    "named entity",
+    "acquired — no longer independent"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "d925926a77db",
+   "name": "Jarabot",
+   "evidence": [
+    {
+     "title": "Shoptet buys Czech AI startup Jarabot after its billion-crown sale",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWE16Uy1VbEczd2Z1NVFSR1NCMlVNbDVNOU1XUTlpTTJwMWdNS3RxQ05lN0VsOUl4LTdXUXNXdUI0RHozZldvcUhDR3ZIR1FmWUNBSWJzYmtidTV3bGJmeGgyRVlUeVdxXzFSeVdlcUZvaG1sUjhJdFM1eVNXdGw1aThJSnRkenJuVGgxVWdJN3RqOXRUb1RrRXBQcFgzTTAtLXYtM3pZS3dnTE8ycmxnbg?oc=5",
+     "source": "gnews",
+     "domain": "aroundprague.cz",
+     "publishedAt": "2026-10-12T10:35:58.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-12T15:39:12.345Z",
    "score": 0.5,
    "reasons": [
     "named entity",
