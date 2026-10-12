@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..'),source=path.join(root,'lib/registry-source'),out=path.join(root,'public/registry');
-const files=['content.js','observations.js','socials.js','signals.js','workflows.js','registry-dense.js','registry-evolution.js','sponsorship.js','milestones.js','frontier-data.js','frontier.js','frontier-visual.js'];
+const files=['content.js','observations.js','socials.js','founder-portraits.js','signals.js','workflows.js','registry-dense.js','registry-evolution.js','sponsorship.js','milestones.js','frontier-data.js','frontier.js','frontier-visual.js'];
 const css=['registry-dense.css','registry-evolution.css','sponsorship.css','milestones.css','frontier.css','frontier-visual.css'];
 const prelude=`window.mountAutopilotRegistry=function(){
 const abort=new AbortController(), timers=[],timeouts=[];
