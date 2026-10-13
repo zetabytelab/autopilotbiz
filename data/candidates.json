@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-12T15:39:12.345Z",
+ "generatedAt": "2026-10-13T14:20:56.306Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -26,6 +26,16 @@
      ]
     },
     {
+     "title": "Ema Raises $77 Million Series B to Scale ‘AI Employees’ Across HR, IT and Finance",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUnYwTmtUS242QjJtMC1VaG5pbUNKSlFiVWZ6V1pRV1dwYnVMbUNWQnlfelJMdDdILVp5RllFY1d1dk5iS3BURzhWX1U3WmhXdWRjNFNQUlRCbmN5cXVnd21WN0hEUk5qOWVoYWNHOHNYVE9DejZvTjZteXF5ZUYtRzUtZ2tFWlBFTDFOUG9BTGRjR29zNEdj?oc=5",
+     "source": "gnews",
+     "domain": "ascendants.in",
+     "publishedAt": "2026-09-24T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    },
+    {
      "title": "Ema raises $77M as AI starts eating into enterprise software and services",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQTlkT0dzTlZZN1pCLWpmdTdUY3Jzb0lrN2FEVG9scE5hdFhUZE1TdkZmZjByaE9VSTlweDNXV2xPYTg5SVh4N2I1VTZsblhYcFVZSDRDbl8zazAxOXJOSHlfQkZEbUhJUHFzX0FTWnVuRDFNUzREZnBnTU5nT1BDdGRYMVhvSVNGVjNSMG9CQVZjVnRfQjdjRDQtMFlMN3Q4VkY5bkNNYVpUclU?oc=5",
      "source": "gnews",
@@ -36,23 +46,24 @@
      ]
     },
     {
-     "title": "AI startup Ema raises $77 million in funding led by Creaegis",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY0FpYWtNUlQ4aUd3X1NsV0tMUHRCdkZDM3pMbEoxaDh6d1Y3dWYtVnlsakZXY0FNejg3Q2pOV2ducXVLMEhMMUs3WmZEbGVDMFJIeEhUc08yZ0U2NHczcWNPUEpvdlF1bHV3OVhHX19NQS0wcllkNzVrRWJLT2c0OUNjT2RhSkl5WlNfa2lOV19yejhDQ2pDaEVySUpGZ1pIVUFqMnE1UHNoX0hTaEdQMVFaaVdna0Q1SnFlNUxyWS11QdIBxwFBVV95cUxOZTJ5MFY1SV9QWFhNZkhiaUxIX1U2elp1b0gyclZjZUFyS2Zqa2pBT3V4cDNQQndqX3QtdHZYRFV5MHFWVl9oeTRIWkN2OENSR3RjWWI0T0J1cm9QLXQxUU1DeGxPRkdITGxkV1lvTU0ySU9haHFNRE5aczJEbTFEbTFFZ3BjSm5ZdXdaV3JVLUVybHJqSkdqOUJuNTlObmszeXNoSlVXdm9aelBScTdNYkVGdUhydG5WMGgzdUNTN3lKWjJ4Z2dF?oc=5",
+     "title": "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc2lpNm9MdjBiVVI4blRiMjcydmVPcElmaDl1aWVicllRbGVSWUJGTDlSUGdWZnhZaTFUaWsyOXFkc1JMWWJRLXBadks3QWtZalAwb3RDRm15aGRYdGFscllwRTFacklOYTA4VW1JVWJfSTFSaHF6UFNGSzRLTnNybkFRcWZFX2hZQ0wtWHc1LVZKeE1CQzF6S3dPbzZUNU9xaWxhNzNoUmJvR0dkWmZYbHItQzNNVUF3bG5QbU1jdmpJSTh3bEFtcWVDZnhoQQ?oc=5",
      "source": "gnews",
-     "domain": "moneycontrol.com",
+     "domain": "siliconangle.com",
      "publishedAt": "2026-09-23T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
     }
    ],
-   "coverage": 4,
-   "publishers": 4,
+   "coverage": 6,
+   "publishers": 6,
    "firstSeen": "2026-09-23T12:08:02.539Z",
-   "score": 3.75,
+   "score": 4.75,
    "reasons": [
     "named entity",
-    "4 publishers",
+    "6 publishers",
+    "autonomy thesis",
     "funding or revenue figure",
     "strong outlet"
    ],
@@ -181,6 +192,56 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-07T13:34:13.355Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "a0784c77ebab",
+   "name": "Magentic",
+   "evidence": [
+    {
+     "title": "Magentic Raises $18 Million Series A To Expand AI Digital Workers For Global Manufacturers",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHRHSzRGdU5BM09mU2VLUGhKU3ZLbHNDeVR0emNfZ21hUE83Q2J4OWNqakxrSktMNU53SlU4RTBBejExMFZrdGJnM1AzTzRORlBJWjZyT0tJc0IxNGpDV3lab3BZcVdKMG95Nk10LUxqR0RPamFSeWUzcGM1aUZFc2VVeTluZFBYRjhqSEdtR2l4Y09HZlBaYWJoOVVPem0wVGZVSGVDZ21kUVZQU2fSAbMBQVVfeXFMTzRFWnNmUUNhN0pTVWl4Z0xOUXFYRjdLSThSTVF0dFM2OW02UlctVVJhUm1iYVNUMEtTcV9mTVJsUjBYYUNEbVhwUUM3WUtwX3R5azRpSFNRNkY3bFlSMHo3REFHaXRHdmdkc2s5SGRiVHBCR1FJMG9TQmRSU1BCcDkybjd2WWpSWlNLaFg1Y3BEclFKNUVWZVhXeHhaOGZVUkRoSEFHa3lXbkYycXYyaGJ0OWM?oc=5",
+     "source": "gnews",
+     "domain": "pulse2.com",
+     "publishedAt": "2026-09-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-13T14:20:56.306Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "80dbac8bb2ad",
+   "name": "Alchera Technologies",
+   "evidence": [
+    {
+     "title": "Alchera Technologies Raises £2.7M Seed for AI Transport Data Platform for Local Authorities",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaUM0NjR1aVRmVWlwdjE4cDY5bXc2ZzJiUXBLaHZNSk1KeFRjUlhqN2IwT25Ib29WVkdINEpDS2pCdmdzNXZVeTdjZEpLWUplTnhOQkRfQTd2SGRwXzMwVHdTbGpybk04c1RnQmViVTVQeUwwTUpEZmRsVTk0MDB5eTF0N0dpSUNfYXB3QnVPZ1laelkxN3lvTWhiQTVWc0dMeWlXRjlHT2cwM2RncWdoNGYwMEtyVFpvQUVsUFFPQk5SQWc?oc=5",
+     "source": "gnews",
+     "domain": "konsulteer.com",
+     "publishedAt": "2026-10-13T08:59:13.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-13T14:20:56.306Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -343,7 +404,7 @@
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMGpDemRjTVcwdHpqM2lVWGlEaXNubWVJWlVzTDdvb1g0ZFRfVnJMZ2JsQ1N5QXBORm5SbnAzU3djdmcxMXdhV28zaklaQWx4bUZsR3RDUFh5WG0zQWlkTXpPb1g2N1ZRRnFWcW50SjE5aHR2aG10ZEtwNENySUlsV29Vc3VOMmhzWDBIQWtuOERTc0M2VXBNY1V5Mmx1UklNLWZUQnZIV2k5TWNWYmtfa3ByVmVrVWFNZ3FSVk1reWZ0M2xkc3VGVQ?oc=5",
      "source": "gnews",
      "domain": "forbes.com.au",
-     "publishedAt": "2026-09-22T21:12:02.000Z",
+     "publishedAt": "2026-09-23T07:00:00.000Z",
      "matchedKeywords": [
       "\"solo founder\" AI agents raises"
      ]
@@ -432,30 +493,6 @@
    "status": "new"
   },
   {
-   "id": "5f493757a8d8",
-   "name": "Pion",
-   "evidence": [
-    {
-     "title": "Pion, an agent designed to run any company autonomously",
-     "url": "https://andonlabs.com/blog/why-we-built-pion",
-     "source": "hn",
-     "domain": "andonlabs.com",
-     "publishedAt": "2026-09-14T17:16:06Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-12T15:39:12.345Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
    "id": "9be2ad7f55d9",
    "name": null,
    "evidence": [
@@ -497,6 +534,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-12T15:39:12.345Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "db97e1a1db77",
+   "name": null,
+   "evidence": [
+    {
+     "title": "HUMAIN and Napster Partner to Develop Arabic-Native AI Digital Employees for Enterprises",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVjhLaHdtYkl6UmYzYWdSVF9ZRXoyUlRuWGxTRUd5Rkx4ZlNCQXI5SFJrNVJxR2lMa1N2Wk5VZGVwbWRENDdfdWl1U1lXLUZMQ0lyWENJRTN5UUs2M2M2YUtyQTRtejJpQlJueHNreF9Mck9fQWpFTnNMSENmWGdPTG1WckNySGJlOXVJM3hGX0FUUV95MDZlMml6SlFoVVRSa0lxNUJIQk1seWlPSzdIc3RTblR0WnpWS2FNTE5DWmo?oc=5",
+     "source": "gnews",
+     "domain": "konsulteer.com",
+     "publishedAt": "2026-10-13T08:29:20.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-13T14:20:56.306Z",
    "score": 1,
    "reasons": [
     "autonomy thesis"
