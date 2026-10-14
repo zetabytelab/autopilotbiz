@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { trackFunnelEvent } from "@/lib/analytics";
 
-export default function SubscribeForm() {
+export default function SubscribeForm({ label = "🛩 Put your inbox on autopilot →" }: { label?: string }) {
   const [email, setEmail] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -60,7 +60,7 @@ export default function SubscribeForm() {
   if (state === "done") {
     return (
       <p className="mt-5 inline-block rounded-full border border-lime-400/40 bg-lime-400/10 px-5 py-2.5 text-sm font-semibold text-lime-400">
-        🛩 {message} Daily signals, zero effort.
+        {message}
       </p>
     );
   }
@@ -72,7 +72,8 @@ export default function SubscribeForm() {
         required
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="you@fund.vc"
+        placeholder="you@example.com"
+        autoComplete="email"
         aria-label="Email address"
         className="min-w-0 flex-1 rounded-full border border-zinc-700 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-lime-400 focus:outline-none"
       />
@@ -81,7 +82,7 @@ export default function SubscribeForm() {
         disabled={state === "sending"}
         className="rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300 disabled:opacity-60"
       >
-        {state === "sending" ? "Boarding…" : "🛩 Put your inbox on autopilot →"}
+        {state === "sending" ? "Subscribing…" : label}
       </button>
       {state === "error" && <p className="w-full text-xs text-amber-400">{message}</p>}
     </form>

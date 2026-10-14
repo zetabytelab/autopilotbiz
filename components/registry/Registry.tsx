@@ -33,7 +33,7 @@ export default function Registry() {
       dispose?.();
       script.remove();
       styles.remove();
-      document.body.classList.remove("registry-active", "frontier-active", "comfortable", "with-sponsor-rail");
+      document.body.classList.remove("registry-active", "frontier-active", "capital-active", "comfortable", "with-sponsor-rail");
     };
   }, []);
   return <>

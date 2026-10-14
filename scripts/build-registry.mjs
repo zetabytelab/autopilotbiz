@@ -1,8 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..'),source=path.join(root,'lib/registry-source'),out=path.join(root,'public/registry');
-const files=['content.js','observations.js','socials.js','founder-portraits.js','signals.js','workflows.js','registry-dense.js','registry-evolution.js','sponsorship.js','milestones.js','frontier-data.js','frontier.js','frontier-visual.js','capital.js'];
-const css=['registry-dense.css','registry-evolution.css','sponsorship.css','milestones.css','frontier.css','frontier-visual.css','capital.css'];
+const files=['content.js','observations.js','socials.js','founder-portraits.js','signals.js','workflows.js','registry-dense.js','registry-evolution.js','sponsorship.js','milestones.js','frontier-data.js','frontier.js','frontier-visual.js','capital.js','polish.js'];
+const css=['registry-dense.css','registry-evolution.css','sponsorship.css','milestones.css','frontier.css','frontier-visual.css','capital.css','polish.css'];
 const prelude=`window.mountAutopilotRegistry=function(){
 const abort=new AbortController(), timers=[],timeouts=[];
 const listen=(target,event,fn,options)=>target.addEventListener(event,fn,{...(typeof options==='boolean'?{capture:options}:options),signal:abort.signal});
@@ -10,6 +10,7 @@ const setInterval=(fn,delay)=>{const id=window.setInterval(fn,delay);timers.push
 const setTimeout=(fn,delay)=>{const id=window.setTimeout(fn,delay);timeouts.push(id);return id};
 // Hackathon-only provider snapshots and portraits are not bundled for public distribution.
 window.FUNDAMENTALS={};window.PORTRAITS={};
+const TOOL_SHOTS=${JSON.stringify(Object.fromEntries(fs.readdirSync(path.join(out,'assets/sites/tools')).filter(f=>f.endsWith('.jpg')).map(f=>[f.replace('.jpg',''),['23.jpg','24.jpg','25.jpg'].includes(f)?'2026-10-12':Number(f.split('.')[0])>=6?'2026-10-14':'2026-10-13'])))};
 `;
 let bundle=files.map(f=>fs.readFileSync(path.join(source,f),'utf8')).join('\n;\n');
 bundle=bundle.replace(/\b(document|window|app)\.addEventListener\(/g,'listen($1,')

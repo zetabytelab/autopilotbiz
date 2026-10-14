@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 
 export default function PulseArchive() {
   return (
-    <main className="mx-auto max-w-3xl px-4 pb-24 sm:px-6">
+    <main className="mx-auto max-w-5xl px-4 pb-24 sm:px-6">
       <header className="py-14">
         <p className="mb-2 font-mono text-xs uppercase tracking-[0.2em] text-lime-400">Autopilot Pulse</p>
         <h1 className="text-3xl font-black tracking-tight text-zinc-50 sm:text-4xl">
-          The newsletter, on its home turf.
+          Build more. Read the signals that matter.
         </h1>
         <p className="mt-3 max-w-2xl text-base leading-relaxed text-zinc-400">
           Weekly signals from the businesses that run themselves — companies, field experiments, and the
@@ -32,10 +32,10 @@ export default function PulseArchive() {
           </a>
           . Every claim labeled: verified, self-reported, or disputed.
         </p>
-        <SubscribeForm />
+        <section id="subscribe" className="newsletter-signup" aria-labelledby="signup-heading"><h2 id="signup-heading">Get the Autopilot Pulse</h2><p>Companies, practical workflows and the tools behind them. Free to subscribe.</p><SubscribeForm label="Subscribe free →" /><small>Confirm your email to join. Unsubscribe anytime.</small></section>
       </header>
 
-      <ol className="space-y-6">
+      <h2 className="archive-heading">Explore all editions</h2><ol className="edition-grid">
         {editions.map((e) => (
           <li key={e.slug}>
             <Link
