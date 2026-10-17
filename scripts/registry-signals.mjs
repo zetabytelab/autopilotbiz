@@ -21,6 +21,7 @@ export function buildSignals(pulse) {
       return (
         SIGNAL_KINDS.includes(i.kind) &&
         !i.social && // collected X/LinkedIn posts are not news items
+        i.dateVerified !== false && // aggregator date we could not check against the publisher page
         i.title && i.url && Number.isFinite(t) && t >= start && t <= end
       );
     })

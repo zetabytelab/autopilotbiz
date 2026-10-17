@@ -4,8 +4,10 @@
 // channel RSS; Reddit/Bing behind flags), dedupes, classifies, scores hotness,
 // and hunts for new-entrant candidates via a keyword taxonomy.
 //
-// Usage: node scripts/update-pulse.mjs [--reddit] [--bing] [--verbose] [--social-plan | --social-only]
-// Writes: data/pulse.json, data/candidates.json (atomic; merges with previous).
+// Usage: node scripts/update-pulse.mjs [--reddit] [--bing] [--verbose] [--no-verify-dates] [--social-plan | --social-only]
+// Writes: data/pulse.json, data/candidates.json, data/date-cache.json (atomic; merges with previous).
+// Google/Bing News dates are untrusted: pulse-dates.mjs checks them against the
+// publisher page (see PULSE_DATE_FETCH_CAP, default 60 new lookups per run).
 
 import { readFileSync, writeFileSync, renameSync, mkdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -13,6 +15,7 @@ import { dirname, join } from "node:path";
 import { pathToFileURL, fileURLToPath } from "node:url";
 
 import { loadCompanies, loadStackEntities, STACK_WATCH } from "./pulse-entities.mjs";
+import { normalizeCache, verifyDates } from "./pulse-dates.mjs";
 import { readWatchlist, collectionPlan, socialSettings, collectSocial, isTrustedSocial, validateSocialState, restoreLegacySocial } from "./pulse-social.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -614,6 +617,24 @@ export async function main({ dataDir = DATA_DIR, flags = FLAGS, runSocial = coll
       }
     } catch {}
   }
+  // Aggregator-only items carry a pubDate Google/Bing may have refreshed. Check
+  // it against the publisher page; a failure here must never fail the run.
+  const cachePath = join(dataDir, "date-cache.json");
+  let dateCache = { schemaVersion: 1, entries: {} };
+  try {
+    dateCache = normalizeCache(existsSync(cachePath) ? JSON.parse(readFileSync(cachePath, "utf8")) : null, NOW);
+  } catch {}
+  if (!flags.has("--social-only") && !flags.has("--no-verify-dates")) {
+    try {
+      const v = await verifyDates(items, { cache: dateCache, now: NOW, cap: Number(process.env.PULSE_DATE_FETCH_CAP) || 60 });
+      dateCache = v.cache;
+      // A corrected (older) date may now fall outside the retention window.
+      items = v.items.filter((i) => Date.parse(i.publishedAt) >= cutoff);
+      console.log(`Date check: ${JSON.stringify({ ...v.stats, dropped: v.items.length - items.length })}`);
+    } catch (err) {
+      console.warn(`Date check skipped: ${err?.message ?? err}`);
+    }
+  }
   // Derive the track from the slug prefix (also stamps carried-over items).
   const subjectById = new Map(watchlist.subjects.map((subject) => [subject.id, subject]));
   items = items.map((i) => {
@@ -645,6 +666,7 @@ export async function main({ dataDir = DATA_DIR, flags = FLAGS, runSocial = coll
     items,
   });
   atomicWrite(join(dataDir, "candidates.json"), candidates);
+  atomicWrite(cachePath, dateCache);
   for (const run of social.report.targets) {
     const fresh = new Set(social.items.filter((i) => i.social.targetId === run.id).map((i) => canonicalUrl(i.url)));
     run.published = items.filter((i) => i.social?.targetId === run.id && fresh.has(canonicalUrl(i.url))).length;

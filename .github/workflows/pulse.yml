@@ -86,7 +86,7 @@ jobs:
         run: |
           git config user.name "autopilot-pulse[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/pulse.json data/candidates.json data/social-state.json data/social-coverage.json
+          git add data/pulse.json data/candidates.json data/date-cache.json data/social-state.json data/social-coverage.json
           git diff --cached --quiet && echo "pulse unchanged" && exit 0
           git commit -m "pulse: daily refresh"
           # A human pushing to main mid-run used to lose the whole collection:
