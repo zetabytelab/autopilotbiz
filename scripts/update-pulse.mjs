@@ -7,7 +7,7 @@
 // Usage: node scripts/update-pulse.mjs [--reddit] [--bing] [--verbose] [--no-verify-dates] [--social-plan | --social-only]
 // Writes: data/pulse.json, data/candidates.json, data/date-cache.json (atomic; merges with previous).
 // Google/Bing News dates are untrusted: pulse-dates.mjs checks them against the
-// publisher page (see PULSE_DATE_FETCH_CAP, default 60 new lookups per run).
+// publisher page (see PULSE_DATE_FETCH_CAP / PULSE_DATE_CATCHUP_CAP / PULSE_DATE_BUDGET_MS).
 
 import { readFileSync, writeFileSync, renameSync, mkdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -15,7 +15,7 @@ import { dirname, join } from "node:path";
 import { pathToFileURL, fileURLToPath } from "node:url";
 
 import { loadCompanies, loadStackEntities, STACK_WATCH } from "./pulse-entities.mjs";
-import { normalizeCache, verifyDates } from "./pulse-dates.mjs";
+import { normalizeCache, verifyDates, dateCheckMeta, DEFAULT_BUDGET_MS } from "./pulse-dates.mjs";
 import { readWatchlist, collectionPlan, socialSettings, collectSocial, isTrustedSocial, validateSocialState, restoreLegacySocial } from "./pulse-social.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -621,16 +621,28 @@ export async function main({ dataDir = DATA_DIR, flags = FLAGS, runSocial = coll
   // it against the publisher page; a failure here must never fail the run.
   const cachePath = join(dataDir, "date-cache.json");
   let dateCache = { schemaVersion: 1, entries: {} };
+  let dateCheck = null;
   try {
     dateCache = normalizeCache(existsSync(cachePath) ? JSON.parse(readFileSync(cachePath, "utf8")) : null, NOW);
   } catch {}
   if (!flags.has("--social-only") && !flags.has("--no-verify-dates")) {
     try {
-      const v = await verifyDates(items, { cache: dateCache, now: NOW, cap: Number(process.env.PULSE_DATE_FETCH_CAP) || 60 });
+      const num = (k) => Number(process.env[k]) || undefined;
+      const v = await verifyDates(items, {
+        cache: dateCache,
+        now: NOW,
+        selfTest: true,
+        baseCap: num("PULSE_DATE_FETCH_CAP") ?? 60,
+        catchupCap: num("PULSE_DATE_CATCHUP_CAP") ?? 400,
+        budgetMs: num("PULSE_DATE_BUDGET_MS") ?? DEFAULT_BUDGET_MS,
+        wayback: process.env.PULSE_DATE_WAYBACK === "1",
+      });
       dateCache = v.cache;
+      dateCheck = dateCheckMeta(v.stats, NOW);
       // A corrected (older) date may now fall outside the retention window.
       items = v.items.filter((i) => Date.parse(i.publishedAt) >= cutoff);
       console.log(`Date check: ${JSON.stringify({ ...v.stats, dropped: v.items.length - items.length })}`);
+      if (!v.stats.lookupHealthy) console.warn(`::warning::Google News link resolver looks broken (${v.stats.breaker}); aggregator items stay unverified until it recovers`);
     } catch (err) {
       console.warn(`Date check skipped: ${err?.message ?? err}`);
     }
@@ -663,6 +675,7 @@ export async function main({ dataDir = DATA_DIR, flags = FLAGS, runSocial = coll
   atomicWrite(join(dataDir, "pulse.json"), {
     generatedAt: new Date().toISOString(),
     sourcesRun: compactSourcesRun(sourcesRun),
+    ...(dateCheck ? { dateCheck } : {}),
     items,
   });
   atomicWrite(join(dataDir, "candidates.json"), candidates);

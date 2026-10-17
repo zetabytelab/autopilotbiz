@@ -21,7 +21,7 @@ export function buildSignals(pulse) {
       return (
         SIGNAL_KINDS.includes(i.kind) &&
         !i.social && // collected X/LinkedIn posts are not news items
-        i.dateVerified !== false && // aggregator date we could not check against the publisher page
+        i.dateVerified !== false && // aggregator date we have no (agreeing) evidence for; true and 'inferred' both pass
         i.title && i.url && Number.isFinite(t) && t >= start && t <= end
       );
     })
@@ -47,6 +47,8 @@ export function buildSignals(pulse) {
       track: i.track,
       hot: !!i.hot,
       selection: SIGNAL_SELECTION,
+      // true = publisher's own date; 'inferred' = URL/<time> date that agrees; absent = trusted-date source
+      ...(i.dateVerified === true || i.dateVerified === "inferred" ? { dateVerified: i.dateVerified, dateEvidence: i.dateEvidence } : {}),
     }));
   return { generatedAt: pulse.generatedAt, items };
 }
