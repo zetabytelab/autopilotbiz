@@ -3,15 +3,27 @@ import { getCompanyResearch } from "@/lib/company-profiles";
 import Logo from "@/components/Logo";
 import Link from "next/link";
 
-export default function CompanyCard({ company: c }: { company: Company }) {
-  const research = getCompanyResearch(c.slug);
+// `preview` renders the card for a company that has no profile page yet (the
+// /submit live preview). Profile links would point at /companies/preview (404),
+// so the name falls back to the company's own website, as the card did before
+// profile pages existed.
+export default function CompanyCard({ company: c, preview = false }: { company: Company; preview?: boolean }) {
+  const research = preview ? undefined : getCompanyResearch(c.slug);
   return (
-    <article id={c.slug} className="flex flex-col gap-4 rounded-2xl border border-zinc-800 bg-zinc-950/60 p-6">
+    <article id={preview ? undefined : c.slug} className="flex flex-col gap-4 rounded-2xl border border-zinc-800 bg-zinc-950/60 p-6">
       <div className="flex items-start justify-between gap-3">
         <div>
           <h3 className="flex items-center gap-2.5 text-lg font-semibold text-zinc-100">
             <Logo url={c.url} name={c.name} size={24} />
-            <Link href={`/companies/${c.slug}`} className="hover:text-lime-400">{c.name}</Link>
+            {preview ? (
+              c.url ? (
+                <a href={c.url} target="_blank" rel="noopener noreferrer" className="hover:text-lime-400">{c.name}</a>
+              ) : (
+                <span>{c.name}</span>
+              )
+            ) : (
+              <Link href={`/companies/${c.slug}`} className="hover:text-lime-400">{c.name}</Link>
+            )}
           </h3>
           <p className="mt-0.5 text-sm italic text-zinc-400">“{c.tagline}”</p>
         </div>
@@ -81,7 +93,11 @@ export default function CompanyCard({ company: c }: { company: Company }) {
         </ul>
       )}
       <div className="mt-auto flex flex-wrap gap-4 border-t border-zinc-800/80 pt-3 text-xs">
-        <Link href={`/companies/${c.slug}`} className="font-medium text-lime-400 hover:underline">Evidence & full profile →</Link>
+        {preview ? (
+          <span className="font-medium text-zinc-500">Evidence & full profile: published after review</span>
+        ) : (
+          <Link href={`/companies/${c.slug}`} className="font-medium text-lime-400 hover:underline">Evidence & full profile →</Link>
+        )}
         {c.url && <a href={c.url} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-zinc-100">Company website ↗</a>}
       </div>
     </article>
