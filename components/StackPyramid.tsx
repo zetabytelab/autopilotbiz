@@ -1,4 +1,5 @@
 import Logo from "@/components/Logo";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { stackLayers, stackTools } from "@/lib/data";
 
 // Architecture pyramid: apex = the autopilot business, foundation = the rails
@@ -52,6 +53,16 @@ export default function StackPyramid() {
                 </a>
               ))}
             </div>
+            {tools.some((t) => t.referralUrl) && (
+              <div className="mt-3 space-y-1 border-t border-zinc-800/80 pt-2 text-center">
+                {tools.filter((t) => t.referralUrl).map((t) => (
+                  <div key={t.name} className="flex flex-wrap items-baseline justify-center gap-x-1.5">
+                    <span className="text-[11px] font-medium text-zinc-400">{t.name}:</span>
+                    <AffiliateDisclosure tool={t} className="inline" />
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         );
       })}
