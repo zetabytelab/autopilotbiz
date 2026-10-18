@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T10:53:48.337Z",
+ "generatedAt": "2026-10-18T11:17:44.920Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -225,31 +225,6 @@
    "status": "new"
   },
   {
-   "id": "8f2092a7e61c",
-   "name": "Zenithon",
-   "evidence": [
-    {
-     "title": "Cambridge AI startup Zenithon raises $10m for physics models | ETIH EdTech News",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUDhVaUtIcTAzZ1lod0w5WjZfTXNBYzJQbXZLVzN2bFk1T0ZGUUdBYjRiOEp0WTdjZ0FlQ01IUFI5T1p5OXJ3LU5FQVBOS29HaUtfYnlzUXJoMmdLc25CeWVUd1psaUZneklVN2E2UUk2eTlRU1o3VEVvbVVqZU5nWlB2cEFVbGJjOXU0TXNVclBYcHJjTTI2ZTVqTEF2VmNTWnlxRG5VN1o2amVyUEgxa1FSQnd0SnRPM3hhdnVQd01TZ29rai1FdXNyRlV1YlZi?oc=5",
-     "source": "gnews",
-     "domain": "edtechinnovationhub.com",
-     "publishedAt": "2026-10-04T23:30:50.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-05T14:52:38.933Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "c490c8219d10",
    "name": "Raises",
    "evidence": [
@@ -258,7 +233,7 @@
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMnI2S1JGc2NOelNLbk9UX2dia2E0R29KcmJyQ2ZEaDJib05rcTlYTzBBWUk5eUZQbjNHbVdkNjhNcmIwQ1hzdGV2bXBsUTlxOUpkdFB6OVdGbTczdmlUR1ZJRmt3NUhLNGwtUUdubVdycjZ1cHRSWnpybVU0eklBRHl6N1M?oc=5",
      "source": "gnews",
      "domain": "foodondemand.com",
-     "publishedAt": "2026-10-06T15:40:24.000Z",
+     "publishedAt": "2026-10-06T07:00:00.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
      ]
@@ -371,6 +346,31 @@
    "status": "rejected"
   },
   {
+   "id": "df5920380cd7",
+   "name": null,
+   "evidence": [
+    {
+     "title": "This 25-year-old raised US$100 million for his AI startup at a US$4 billion valuation",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMGpDemRjTVcwdHpqM2lVWGlEaXNubWVJWlVzTDdvb1g0ZFRfVnJMZ2JsQ1N5QXBORm5SbnAzU3djdmcxMXdhV28zaklaQWx4bUZsR3RDUFh5WG0zQWlkTXpPb1g2N1ZRRnFWcW50SjE5aHR2aG10ZEtwNENySUlsV29Vc3VOMmhzWDBIQWtuOERTc0M2VXBNY1V5Mmx1UklNLWZUQnZIV2k5TWNWYmtfa3ByVmVrVWFNZ3FSVk1reWZ0M2xkc3VGVQ?oc=5",
+     "source": "gnews",
+     "domain": "forbes.com.au",
+     "publishedAt": "2026-09-23T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-18T11:17:44.920Z",
+   "score": 1.25,
+   "reasons": [
+    "funding or revenue figure",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
    "id": "c69e24a42de7",
    "name": "Huxe",
    "evidence": [
@@ -388,6 +388,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-12T15:39:12.344Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "c524cf98effe",
+   "name": "GoComet",
+   "evidence": [
+    {
+     "title": "GoComet launches Nova, an AI-native execution layer for enterprise logistics, at Odyssey Singapore",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDQ5QXVEZWpVM2ZncGF2cUtoVUc1TWh4X25uOUdRNzE4a05HM0xSa3Nnb24wZG1zaFYwdEhJX0tlTUFybzg0NUVvSEFORENlX2tjSTZaZlRIZElrRU9pRnhfbkQ4TllOZGRabG9ZR1Izak51R01uTkZic1lWXzgzTFRlOENzWmRBYU01UWQ5NENFTFJwNWNXbUVhQQ?oc=5",
+     "source": "gnews",
+     "domain": "finance.yahoo.com",
+     "publishedAt": "2026-09-23T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-18T11:17:44.920Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -439,6 +463,78 @@
    "score": 1,
    "reasons": [
     "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "53f594978cfe",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Ninja Enterprise bundles AI employees and GPUs into one fixed yearly fee",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZWZ0TlpjdGcwLXJ3d3dCeUd3cG54VTIza0V6WnVJZm45bHFoUjRkWUk4OGViWF94Y1hweWxkeWtIUFpnWTJEVHVzUTA4TWgwVmNicDUyS3FQNFlEUTRVVm1FQzliM3ZYc2UtMjFkVjlNYVl3Z2hKVkhVOVRvcVFiSS1lT19GX0lSb3BfTlphdGY4OTJ4azdPWDY3c3BJX19ndm1qa2k1Tm9sYVNZbC1nOUtJdXUzOHhuSXNDVWo4UHc?oc=5",
+     "source": "gnews",
+     "domain": "siliconangle.com",
+     "publishedAt": "2026-09-28T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-18T11:17:44.920Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "9be2ad7f55d9",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Could AI agents become the next digital employees in retail?",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQXcwbFJOc2dzWEJJb3gxRVVxQlVGOU1mc2dwd3EwZnV2R0d6aWNLR0hMeUNldkpUNUcwblNZOU1vRXBGU05tdkx5aGtOQ2FpdWFqZWhQSnhKYzFnS3ZGNnlJRXNxYmswd0t2UVJMb3d0ZTItMmh0VnpmaUN5SXhhaUR3MGFUSmZfTjRYaGhVZjdxVGlfWnF3bjVPMjFPcDdxWVE?oc=5",
+     "source": "gnews",
+     "domain": "retailtechinnovationhub.com",
+     "publishedAt": "2026-10-05T04:54:45.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-18T11:17:44.920Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "f98bd61b1897",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The Other Side of the \"Great AI Opportunity\" for Digital Employees",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41cEdKaGlwZ1lxNEtoYnZYNG5VWUZnQloxdGI5RFZJS21VZExTOHVudzVmV3NIVGxBbFczeXZlLXI3eUxSdGI3VExBRVd1LVdKYkhZ?oc=5",
+     "source": "gnews",
+     "domain": "eu.36kr.com",
+     "publishedAt": "2026-10-12T07:24:19.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-18T11:17:44.920Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
    ],
    "status": "new"
   },
@@ -539,30 +635,6 @@
    "status": "new"
   },
   {
-   "id": "7ea8820dd590",
-   "name": null,
-   "evidence": [
-    {
-     "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
-     "url": "https://news.ycombinator.com/item?id=49824887",
-     "source": "hn",
-     "domain": "news.ycombinator.com",
-     "publishedAt": "2026-09-24T01:04:35Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-24T12:11:42.775Z",
-   "score": 0.75,
-   "reasons": [
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "9f470effce2a",
    "name": null,
    "evidence": [
@@ -580,6 +652,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-09-22T12:10:43.988Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "7ea8820dd590",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
+     "url": "https://news.ycombinator.com/item?id=49824887",
+     "source": "hn",
+     "domain": "news.ycombinator.com",
+     "publishedAt": "2026-09-24T01:04:35Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-24T12:11:42.775Z",
    "score": 0.75,
    "reasons": [
     "funding or revenue figure"
