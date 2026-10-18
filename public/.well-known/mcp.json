@@ -1,6 +1,6 @@
 {
   "name": "autopilot-index",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Read-only MCP server over The Autopilot Index: companies run by AI and their tech stack.",
   "protocol": "mcp",
   "protocolVersion": "2025-06-18",

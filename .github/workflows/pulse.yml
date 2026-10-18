@@ -1,8 +1,18 @@
 name: Pulse
 
 # Daily news-pulse refresh. Replaces the old launchd job on the maintainer's
-# Mac, which macOS TCC silently blocked from ~/Desktop since 2026-07-13.
+# Mac (~/Library/LaunchAgents/biz.autopilot.pulse.plist -> scripts/refresh.sh,
+# daily 08:00 local: `node scripts/update-pulse.mjs` then `npm run build`),
+# which macOS TCC silently blocked from ~/Desktop since 2026-07-13.
 # With Vercel git integration connected, the data commit auto-deploys.
+#
+# Required repository secrets (Settings -> Secrets and variables -> Actions):
+#   APIFY_SECRET   Apify API token, passed to the scripts as APIFY_TOKEN
+#                  (X/LinkedIn collection and the smoke test). Without it the
+#                  keyless sources (Google News, HN, Techmeme, YouTube) still run
+#                  and social targets report "skipped credentials".
+#   GITHUB_TOKEN   provided automatically; needs "contents: write" (set below)
+#                  and Settings -> Actions -> Workflow permissions allowing writes.
 on:
   schedule:
     # X is cheap enough to poll daily. LinkedIn bills per account even when it
@@ -41,6 +51,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
       # A choice input and env indirection keep the value out of the shell text.
       - name: Select social platforms
         id: cadence
@@ -81,6 +92,16 @@ jobs:
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_SECRET }}
           PULSE_SOCIAL_PLATFORMS: ${{ steps.cadence.outputs.platforms }}
+      # Mirror of the old launchd job (scripts/refresh.sh: update-pulse, then
+      # `npm run build`): the refreshed data must still build the site before
+      # it is committed, so a malformed feed can never reach production.
+      - name: Build gate (site must build with the new data)
+        if: inputs.mode != 'smoke'
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
       - name: Commit and push if changed
         if: inputs.mode != 'smoke'
         run: |
