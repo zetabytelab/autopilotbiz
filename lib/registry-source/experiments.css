@@ -1,0 +1,23 @@
+.exp-section{margin:8px 0 34px}
+.exp-heading h3{font-size:22px;font-weight:500;margin:8px 0 6px}
+.exp-heading p{color:#6f7f6e;font-size:12px;line-height:1.6;max-width:720px;margin:0 0 16px}
+.exp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.exp-card{border:1px solid #dfe8dd;padding:20px;display:flex;flex-direction:column;background:#fff}
+.exp-card.is-sim{background:#f7f8f4;border-style:dashed}
+.exp-meta{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.exp-badge{font:500 9px/14px var(--mono);padding:0 5px;border-radius:2px;white-space:nowrap}
+.exp-field{background:#e7eee3;color:#406347}
+.exp-sim{background:#f3e9cf;color:#7a5a12}
+.exp-own{background:#e3ecf3;color:#2f5878}
+.exp-date{font:9px var(--mono);color:#9baa91}
+.exp-card h3{font-size:18px;font-weight:500;line-height:1.35;margin:14px 0 4px}
+.exp-who{font-size:11px;color:#84957e;margin:0 0 10px}
+.exp-summary{color:#5d6b5a;font-size:12px;line-height:1.65;margin:0}
+.exp-card dl{border-top:1px solid #e3e9df;padding-top:12px;margin-top:16px}
+.exp-card dt{font:9px var(--mono);color:#9baa91}
+.exp-card dd{margin:5px 0 0;font-size:11px;line-height:1.6}
+.exp-evidence{font-size:11px;color:#6f7f6e;margin:12px 0 0}
+.exp-links{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:14px;font-size:11px}
+.exp-links a{color:#3a7650}
+@media(max-width:1100px){.exp-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.exp-grid{grid-template-columns:1fr}}

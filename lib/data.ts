@@ -2157,6 +2157,10 @@ export type CaseStudy = {
   stack: string[];
   links: { label: string; url: string }[];
   verified: boolean;
+  // Homepage Experiments tab labels. "simulation" = no real-world business involved.
+  kind?: "field" | "simulation";
+  // Short, honest evidence note shown on the card (e.g. "Reported by the operator").
+  evidence?: string;
   // Condensed row for the generated GitHub Autopilot Index README.
   index?: { agent: string; legwork: string; cost: string };
 };
@@ -2180,6 +2184,8 @@ export const caseStudies: CaseStudy[] = [
       { label: "Inside the Cask (UK)", url: "https://insidethecask.com/2026/06/04/the-guinndex-uk/" },
     ],
     verified: true,
+    kind: "field",
+    evidence: "Operator-reported figures; press-covered",
     index: {
       agent: "\"Rachel\" (ElevenLabs voice + Twilio)",
       legwork:
@@ -2200,6 +2206,8 @@ export const caseStudies: CaseStudy[] = [
       { label: "Write-up (Substack)", url: "https://nicoguyon.substack.com/p/le-baguette-index-5-000-boulangeries" },
     ],
     verified: true,
+    kind: "field",
+    evidence: "Operator-reported figures; press-covered",
     index: {
       agent: "\"Brigitte\"",
       legwork:
@@ -2220,6 +2228,8 @@ export const caseStudies: CaseStudy[] = [
       { label: "Skeptical take (Tech Trenches)", url: "https://techtrenches.dev/p/the-autonomy-illusion" },
     ],
     verified: true,
+    kind: "simulation",
+    evidence: "Self-reported benchmark; independent write-ups exist",
     index: {
       agent: "41 LLMs vs. one human, same rules",
       legwork:
@@ -2239,6 +2249,8 @@ export const caseStudies: CaseStudy[] = [
       { label: "Lander Analytics", url: "https://www.landeranalytics.com/post/revisiting-the-pizza-principle-twelve-years-later" },
     ],
     verified: true,
+    kind: "field",
+    evidence: "Site-reported figures; one independent mention",
     index: {
       agent: "\"Heather\" (ElevenLabs + Twilio; Claude parses transcripts)",
       legwork:
@@ -2258,6 +2270,8 @@ export const caseStudies: CaseStudy[] = [
       { label: "GitHub", url: "https://github.com/HallyAus/flatwhiteindex" },
     ],
     verified: true,
+    kind: "field",
+    evidence: "Self-reported figures",
     index: {
       agent: "\"Mia\"",
       legwork:
@@ -2274,12 +2288,126 @@ export const caseStudies: CaseStudy[] = [
     stack: ["AI voice agents (vendor undisclosed)"],
     links: [{ label: "flatwhiteindex.thedx.ai", url: "https://flatwhiteindex.thedx.ai" }],
     verified: true,
+    kind: "field",
+    evidence: "Self-reported figures",
     index: {
       agent: "Unnamed voice agents by TheDX",
       legwork:
         "Contacted **2,288 independent London coffee shops** across all 33 boroughs — 416 flat-white prices captured, median £3.50, Westminster priciest.",
       cost: "Not disclosed",
     },
+  },
+  {
+    title: "Andon Market — an AI-run shop in San Francisco",
+    who: "Andon Labs (Lukas Petersson, Axel Backlund)",
+    date: "April 2026",
+    summary:
+      "Reported by Andon Labs (10 Apr 2026): its AI agent 'Luna', running on Claude, was given a 3-year retail lease in San Francisco and asked to make a profit. Because a shop needs physical labour, Luna hired humans: gig workers for the build-out and full-time staff after posting job listings and holding phone interviews. Bloomberg covered early over-ordering (the headline is about candles). Figures are not restated here; they come from the operator and press, not an audit. See the Andon Labs record in the Index for its level and evidence grade.",
+    stack: ["Claude Sonnet 4.6 (agent 'Luna', per Andon Labs)"],
+    links: [
+      { label: "Andon Labs launch post", url: "https://andonlabs.com/blog/andon-market-launch" },
+      { label: "Bloomberg", url: "https://www.bloomberg.com/news/articles/2026-04-23/an-ai-agent-takes-over-a-store-and-orders-too-many-candles-mobwrfw2" },
+    ],
+    verified: false,
+    kind: "field",
+    evidence: "Reported by the operator; press-covered",
+  },
+  {
+    title: "Andon Café — an AI-run café in Stockholm",
+    who: "Andon Labs",
+    date: "April 2026",
+    summary:
+      "Reported by Andon Labs: its agent 'Mona' ran a real café in Stockholm, handling the lease paperwork, supplier orders and two hired baristas. Humans were still needed for BankID (the Swedish digital ID) and physical work. Andon reports 44,000 SEK in sales over the first 14 days. Its later post says the Gemini-powered Mona spent about $38K against about $9K in sales in roughly two months, after which it switched the agent to GPT-5.5. All figures are Andon Labs' own.",
+    stack: ["Agent 'Mona' (Gemini, later GPT-5.5)", "Human staff for physical work and BankID"],
+    links: [
+      { label: "Andon Café launch post", url: "https://andonlabs.com/blog/ai-cafe-stockholm" },
+      { label: "Why Gemini lost money", url: "https://andonlabs.com/blog/why-gemini-lost-money-andon-cafe" },
+    ],
+    verified: false,
+    kind: "field",
+    evidence: "Reported by the operator",
+  },
+  {
+    title: "Andon FM — four AI-run radio stations",
+    who: "Andon Labs",
+    date: "May 2026",
+    summary:
+      "Reported by Andon Labs (13 May 2026): four online radio stations, each run by a different model (Claude, GPT, Gemini, Grok) with $20 of starting funds and the instruction to develop a personality and turn a profit. After about half a year, only the Gemini station had closed a sponsorship, a $45 deal for one month of ads. The Grok station's boasted 'xAI sponsors' and 'crypto sponsors' turned out to be hallucinations. Andon then moved the stations to its store and café agent harness.",
+    stack: ["Claude Opus 4.7", "GPT-5.5", "Gemini 3.1 Pro", "Grok 4.3"],
+    links: [{ label: "Andon FM write-up", url: "https://andonlabs.com/blog/andon-fm" }],
+    verified: false,
+    kind: "field",
+    evidence: "Reported by the operator",
+  },
+  {
+    title: "Project Vend — Claude runs an office shop (phases 1 and 2)",
+    who: "Anthropic with Andon Labs",
+    date: "December 2025",
+    summary:
+      "Anthropic's own reports. Phase 1 (27 Jun 2025): Claude Sonnet 3.7, nicknamed Claudius, ran a small automated store in Anthropic's San Francisco office; it was manipulated into discounts and at one point claimed it would deliver in person wearing a blue blazer. Phase 2 (18 Dec 2025): a 'CEO' agent (Seymour Cash) was added and the shop expanded to San Francisco, New York and London. Anthropic reports that discounts fell by about 80% and that weeks with negative profit margin were largely eliminated, while noting the agent was still easy to talk into things.",
+    stack: ["Claude Sonnet 3.7 and later Claude models", "CEO agent 'Seymour Cash'", "Andon Labs tooling"],
+    links: [
+      { label: "Anthropic, phase 1", url: "https://www.anthropic.com/research/project-vend-1" },
+      { label: "Anthropic, phase 2", url: "https://www.anthropic.com/research/project-vend-2" },
+    ],
+    verified: true,
+    kind: "field",
+    evidence: "Primary report by the operator (Anthropic)",
+  },
+  {
+    title: "WSJ newsroom vending machine",
+    who: "The Wall Street Journal, with Anthropic and Andon Labs",
+    date: "December 2025",
+    summary:
+      "A Claude-run vending machine installed in the Wall Street Journal newsroom, reported first-hand by the Journal (18 Dec 2025). According to The Verge's summary, the agent ordered a PlayStation 5 and a live betta fish, tried to order stun guns, and staff talked it into giving away almost everything for free, losing money. The WSJ article is paywalled and was not read in full, so no loss figure is stated here.",
+    stack: ["Claude", "Andon Labs vending setup"],
+    links: [
+      { label: "Wall Street Journal", url: "https://www.wsj.com/tech/ai/anthropic-claude-ai-vending-machine-agent-b7e84e34" },
+      { label: "The Verge", url: "https://www.theverge.com/news/847489/anthropics-ai-vending-machine-tried-to-order-stun-guns-to-the-wall-street-journal" },
+    ],
+    verified: false,
+    kind: "field",
+    evidence: "Press-reported; WSJ article not read in full",
+  },
+  {
+    title: "AI Village merch store competition",
+    who: "AI Digest (AI Village)",
+    date: "July 2025",
+    summary:
+      "Reported by the AI Village project in its 2025 retrospective: AI agents each tried to run an online merch store and compete on profit. Claude Opus 4 won with a reported $126 profit against about $40 for the other models. A self-reported experiment by the operator; not independently audited.",
+    stack: ["Claude Opus 4 and other frontier models", "Online merch storefronts"],
+    links: [{ label: "AI Village, what we learned in 2025", url: "https://aivillageblog.substack.com/p/what-we-learned-2025" }],
+    verified: false,
+    kind: "field",
+    evidence: "Reported by the operator",
+  },
+  {
+    title: "Alpha Arena — AI models trade real money (Season 1.5)",
+    who: "Nof1",
+    date: "December 2025",
+    summary:
+      "Reported by Nof1: frontier AI models traded in real markets under identical rules. Season 1.5 ended on 3 Dec 2025; Nof1 says the winner, an unnamed 'Mystery Model', returned 12.11% in aggregate over two weeks and made $4,844 across competitions. Results are the organiser's own; no independent audit is cited here.",
+    stack: ["Frontier LLMs", "US equities (Season 1.5)"],
+    links: [{ label: "Alpha Arena (Nof1)", url: "https://www.alphaarena.ai/" }],
+    verified: false,
+    kind: "field",
+    evidence: "Reported by the organiser",
+  },
+  {
+    title: "HurumoAI — a startup staffed by AI agents (Shell Game, season 2)",
+    who: "Evan Ratliff (journalist)",
+    date: "January 2026",
+    summary:
+      "Journalist Evan Ratliff co-founded HurumoAI in July 2025 with AI agents as co-founders and staff (running on Lindy) and documented it on the Shell Game podcast. In WIRED he reports that the team shipped a working prototype, Sloth Surf, within three months, and that one agent invented a progress report that never happened. In a Scientific American interview he says about 10% of what the agents told him was 'completely made-up', and that the company had raised no money. Ratliff's own account; other details circulating in secondary write-ups are not repeated here.",
+    stack: ["Lindy AI agents (CEO, sales, CTO, HR)", "Sloth Surf app"],
+    links: [
+      { label: "WIRED (Ratliff)", url: "https://www.wired.com/story/all-my-employees-are-ai-agents-so-are-my-executives/" },
+      { label: "Scientific American interview", url: "https://www.scientificamerican.com/podcast/episode/what-are-ai-agents-inside-a-real-experiment-where-ai-ran-a-start-up/" },
+      { label: "Shell Game", url: "https://www.shellgame.co/about" },
+    ],
+    verified: false,
+    kind: "field",
+    evidence: "Journalist's first-hand account",
   },
 ];
 
