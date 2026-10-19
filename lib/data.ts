@@ -2182,6 +2182,11 @@ export type CaseStudy = {
   evidence?: string;
   // Condensed row for the generated GitHub Autopilot Index README.
   index?: { agent: string; legwork: string; cost: string };
+  // Homepage Experiments card image (files in public/experiments/). Illustrative only:
+  // it never replaces the card's figures, which come from the cited sources.
+  image?: { src: string; width: number; height: number; alt: string; credit: string; creditUrl: string };
+  // Used instead of an image when no usable photo exists (site-styled text block).
+  textCard?: { headline: string; body: string; attribution: string; credit: string; creditUrl: string };
 };
 
 // Small-scale but telling experiments: agents doing real-world legwork
@@ -2205,6 +2210,14 @@ export const caseStudies: CaseStudy[] = [
     verified: true,
     kind: "field",
     evidence: "Operator-reported figures; press-covered",
+    image: {
+      src: "/experiments/guinndex.webp",
+      width: 1200,
+      height: 630,
+      alt: "Guinndex banner reading 'An AI called every pub in the UK to find the price of a pint' with figures 46,237 pubs indexed, 4 nations and 37 years of ONS price data",
+      credit: "Image: Guinndex",
+      creditUrl: "https://guinndex.co.uk/opengraph-image?197bda6bff899e4b",
+    },
     index: {
       agent: "\"Rachel\" (ElevenLabs voice + Twilio)",
       legwork:
@@ -2227,6 +2240,14 @@ export const caseStudies: CaseStudy[] = [
     verified: true,
     kind: "field",
     evidence: "Operator-reported figures; press-covered",
+    image: {
+      src: "/experiments/le-baguette-index.webp",
+      width: 1200,
+      height: 630,
+      alt: "Le Baguette Index title card on cream background showing a baguette tradition price range of 0,90 € to 1,90 € and the line 'vérifié par IA'",
+      credit: "Image: Le Baguette Index",
+      creditUrl: "https://lebaguetteindex.fr/img/og-image.png",
+    },
     index: {
       agent: "\"Brigitte\"",
       legwork:
@@ -2249,6 +2270,14 @@ export const caseStudies: CaseStudy[] = [
     verified: true,
     kind: "simulation",
     evidence: "Self-reported benchmark; independent write-ups exist",
+    image: {
+      src: "/experiments/foodtruckbench.webp",
+      width: 1200,
+      height: 630,
+      alt: "FoodTruckBench homepage hero reading 'Can AI Run a Food Truck Business? Can You?' over a dark city map, describing a 30-day simulated food truck in Austin",
+      credit: "Screenshot: foodtruckbench.com, 19 Oct 2026",
+      creditUrl: "https://foodtruckbench.com/",
+    },
     index: {
       agent: "41 LLMs vs. one human, same rules",
       legwork:
@@ -2270,6 +2299,14 @@ export const caseStudies: CaseStudy[] = [
     verified: true,
     kind: "field",
     evidence: "Site-reported figures; one independent mention",
+    image: {
+      src: "/experiments/slicedex.webp",
+      width: 1200,
+      height: 630,
+      alt: "SliceDex homepage with headline stats: average slice $3.42, 2,252 shops tracked, 829 prices collected, cheapest $1.00, priciest $6.00, above a search box and slice map",
+      credit: "Screenshot: slicedex.com, 19 Oct 2026",
+      creditUrl: "https://slicedex.com",
+    },
     index: {
       agent: "\"Heather\" (ElevenLabs + Twilio; Claude parses transcripts)",
       legwork:
@@ -2291,6 +2328,14 @@ export const caseStudies: CaseStudy[] = [
     verified: true,
     kind: "field",
     evidence: "Self-reported figures",
+    image: {
+      src: "/experiments/flat-white-index-sydney.webp",
+      width: 1200,
+      height: 630,
+      alt: "Flat White Index page showing 100 prices on the map, 61 suburbs, lowest suburb average $4.20 and highest $5.50, above a search bar and a map of Sydney cafés",
+      credit: "Screenshot: flatwhiteindex.com.au, 19 Oct 2026",
+      creditUrl: "https://flatwhiteindex.com.au",
+    },
     index: {
       agent: "\"Mia\"",
       legwork:
@@ -2309,6 +2354,14 @@ export const caseStudies: CaseStudy[] = [
     verified: true,
     kind: "field",
     evidence: "Self-reported figures",
+    image: {
+      src: "/experiments/london-coffee-index.webp",
+      width: 1200,
+      height: 630,
+      alt: "Map of London boroughs shaded green by flat white price, next to a panel asking 'What does a flat white cost across London?' with a price distribution chart",
+      credit: "Screenshot: flatwhiteindex.thedx.ai, 19 Oct 2026",
+      creditUrl: "https://flatwhiteindex.thedx.ai",
+    },
     index: {
       agent: "Unnamed voice agents by TheDX",
       legwork:
@@ -2330,6 +2383,14 @@ export const caseStudies: CaseStudy[] = [
     verified: false,
     kind: "field",
     evidence: "Reported by the operator; press-covered",
+    image: {
+      src: "/experiments/andon-market.webp",
+      width: 1200,
+      height: 630,
+      alt: "Andon Market shopfront at 2102 seen through the open door, with a smiling moon logo on a dark wall above the counter and the Andon Labs logo",
+      credit: "Image: Andon Labs (staff blurred by the Index)",
+      creditUrl: "https://andonlabs.com/andon-market-og.webp",
+    },
   },
   {
     title: "Andon Café — an AI-run café in Stockholm",
@@ -2345,6 +2406,14 @@ export const caseStudies: CaseStudy[] = [
     verified: false,
     kind: "field",
     evidence: "Reported by the operator",
+    image: {
+      src: "/experiments/andon-cafe.webp",
+      width: 1200,
+      height: 630,
+      alt: "Floor plan for the Andon Café outdoor seating area on Norrbackagatan, showing tables and chairs laid out in a rectangle",
+      credit: "Image: Andon Labs",
+      creditUrl: "https://andonlabs.com/blog/ai-cafe-stockholm/image3.png",
+    },
   },
   {
     title: "Andon FM — four AI-run radio stations",
@@ -2357,6 +2426,14 @@ export const caseStudies: CaseStudy[] = [
     verified: false,
     kind: "field",
     evidence: "Reported by the operator",
+    image: {
+      src: "/experiments/andon-fm.webp",
+      width: 1200,
+      height: 630,
+      alt: "Wooden retro radio on a table with the text 'Four AIs run radio stations. Here's what happened.' and the Andon Labs logo",
+      credit: "Image: Andon Labs",
+      creditUrl: "https://andonlabs.com/andon-fm-blog-og.webp",
+    },
   },
   {
     title: "Project Vend — Claude runs an office shop (phases 1 and 2)",
@@ -2372,6 +2449,14 @@ export const caseStudies: CaseStudy[] = [
     verified: true,
     kind: "field",
     evidence: "Primary report by the operator (Anthropic)",
+    image: {
+      src: "/experiments/project-vend.webp",
+      width: 1200,
+      height: 630,
+      alt: "Line drawing of a hand holding out a banknote on a sage green background",
+      credit: "Image: Anthropic",
+      creditUrl: "https://www-cdn.anthropic.com/images/4zrzovbb/website/f500f4f87cffe316978b281cc3566b66741863d3-2400x1260.png",
+    },
   },
   {
     title: "WSJ newsroom vending machine",
@@ -2387,6 +2472,14 @@ export const caseStudies: CaseStudy[] = [
     verified: false,
     kind: "field",
     evidence: "Press-reported; WSJ article not read in full",
+    // No photo: the only image is WSJ's press photo of a staff member. Text card uses only facts from The Verge summary above.
+    textCard: {
+      headline: "Claude ran the WSJ newsroom vending machine",
+      body: "It ordered a PlayStation 5 and a live betta fish, and staff talked it into giving away almost everything for free.",
+      attribution: "As reported by WSJ, per The Verge's summary",
+      credit: "Text card: The Autopilot Index",
+      creditUrl: "https://www.theverge.com/news/847489/anthropics-ai-vending-machine-tried-to-order-stun-guns-to-the-wall-street-journal",
+    },
   },
   {
     title: "AI Village merch store competition",
@@ -2399,6 +2492,14 @@ export const caseStudies: CaseStudy[] = [
     verified: false,
     kind: "field",
     evidence: "Reported by the operator",
+    image: {
+      src: "/experiments/ai-village-merch-store.webp",
+      width: 1200,
+      height: 630,
+      alt: "Diagram of the AI Village: four computers labelled GPT-5.2, DeepSeek V3.2, Claude Opus 4.5 and Gemini 3 Pro linked to a central group chat, with viewers watching live",
+      credit: "Image: AI Digest",
+      creditUrl: "https://substack-post-media.s3.amazonaws.com/public/images/70d43350-068e-4522-b437-429b24860f6a_1200x630.png",
+    },
   },
   {
     title: "Alpha Arena — AI models trade real money (Season 1.5)",
@@ -2411,6 +2512,14 @@ export const caseStudies: CaseStudy[] = [
     verified: false,
     kind: "field",
     evidence: "Reported by the organiser",
+    image: {
+      src: "/experiments/alpha-arena.webp",
+      width: 1200,
+      height: 630,
+      alt: "Alpha Arena leaderboard table listing AI models and strategies with account value, return and profit-and-loss columns",
+      credit: "Screenshot: alphaarena.ai, 19 Oct 2026",
+      creditUrl: "https://www.alphaarena.ai/leaderboard",
+    },
   },
   {
     title: "HurumoAI — a startup staffed by AI agents (Shell Game, season 2)",
@@ -2427,6 +2536,14 @@ export const caseStudies: CaseStudy[] = [
     verified: false,
     kind: "field",
     evidence: "Journalist's first-hand account",
+    image: {
+      src: "/experiments/hurumoai.webp",
+      width: 1200,
+      height: 630,
+      alt: "The Shell Game podcast logo: the words 'Shell Game' beside a grid of purple tiles with one blue tile hiding a ball, centred on a light grey background",
+      credit: "Image: Shell Game",
+      creditUrl: "https://substack-post-media.s3.amazonaws.com/public/images/daf34077-95ae-40de-bf21-a780529d1512_800x800.png",
+    },
   },
 ];
 
