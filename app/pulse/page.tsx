@@ -32,7 +32,7 @@ export default function PulseArchive() {
           </a>
           . Every claim labeled: verified, self-reported, or disputed.
         </p>
-        <section id="subscribe" className="newsletter-signup" aria-labelledby="signup-heading"><h2 id="signup-heading">Get the Autopilot Pulse</h2><p>Companies, practical workflows and the tools behind them. Free to subscribe.</p><SubscribeForm label="Subscribe free →" /><small>Confirm your email to join. Unsubscribe anytime.</small></section>
+        <section id="subscribe" className="newsletter-signup" aria-labelledby="signup-heading"><h2 id="signup-heading">Get the Autopilot Pulse</h2><p>Companies, practical workflows and the tools behind them. Free to subscribe.</p><SubscribeForm label="Subscribe free →" placement="pulse_index" /><small>Confirm your email to join. Unsubscribe anytime.</small></section>
       </header>
 
       <h2 className="archive-heading">Explore all editions</h2><ol className="edition-grid">
