@@ -1691,6 +1691,12 @@ export const stackLayers: { key: StackCategory; label: string; blurb: string }[]
   { key: "distribution", label: "Distribution & comms", blurb: "Ads, email, phone — reaching the real world" },
 ];
 
+// Always-visible disclosure shown wherever tool links can be affiliate links
+// (homepage Builder stack via lib/registry-source/polish.js, and guides).
+// Keep the registry copy in polish.js identical.
+export const AFFILIATE_DISCLOSURE =
+  "Some tool links are affiliate links. We may earn a commission at no cost to you. It never affects inclusion or grading.";
+
 // The infrastructure layer that showed up repeatedly behind autopilot businesses.
 // Referral notes are indicative — always confirm current terms on the vendor's site.
 export const stackTools: StackTool[] = [

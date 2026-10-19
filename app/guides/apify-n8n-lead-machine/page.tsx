@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Logo from "@/components/Logo";
-import { stackTools } from "@/lib/data";
+import { stackTools, AFFILIATE_DISCLOSURE } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Lead generation on autopilot: Apify × n8n (scrape → orchestrate → CRM)",
@@ -84,13 +84,20 @@ export default function ApifyN8nGuide() {
       <section className="mb-12">
         <h2 className="mb-1 text-xl font-bold text-zinc-100">The stack</h2>
         <p className="mb-4 text-sm text-zinc-400">Two tools. Each does one job well.</p>
+        <p
+          role="note"
+          data-affiliate-disclosure
+          className="mb-4 rounded-xl border border-lime-400/25 bg-lime-400/[0.05] px-4 py-3 text-xs leading-relaxed text-zinc-300"
+        >
+          <span className="font-semibold text-zinc-100">Disclosure:</span> {AFFILIATE_DISCLOSURE}
+        </p>
         <div className="grid gap-3 sm:grid-cols-2">
           {affTools.map((t) => (
             <a
               key={t.name}
               href={t.referralUrl ?? t.url}
               target="_blank"
-              rel={t.referralUrl ? "noopener noreferrer sponsored" : "noopener noreferrer"}
+              rel={t.referralUrl ? "sponsored nofollow noopener noreferrer" : "noopener noreferrer"}
               className="group flex flex-col gap-2 rounded-2xl border border-lime-400/30 bg-lime-400/[0.04] p-5 transition hover:border-lime-400 hover:bg-lime-400/[0.08]"
             >
               <div className="flex items-center gap-2">
