@@ -24,6 +24,10 @@ on:
         type: choice
         options: [x, "x,linkedin", linkedin]
         default: x
+      dates_catchup:
+        description: One-off catch-up of publish-date checks only (no social or Reddit collection, no Apify spend)
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -59,6 +63,7 @@ jobs:
           echo "platforms=$platforms" >> "$GITHUB_OUTPUT"
           echo "Collecting social posts from: $platforms"
       - run: node scripts/update-pulse.mjs --social-plan
+        if: "!inputs.dates_catchup"
         env:
           PULSE_SOCIAL_PLATFORMS: ${{ steps.cadence.outputs.platforms }}
       - name: Live smoke test
@@ -77,16 +82,21 @@ jobs:
             .smoke-social/pulse.json
           include-hidden-files: true
       - run: node scripts/update-pulse.mjs --reddit
-        if: inputs.mode != 'smoke'
+        if: inputs.mode != 'smoke' && !inputs.dates_catchup
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_SECRET }}
           PULSE_SOCIAL_PLATFORMS: ${{ steps.cadence.outputs.platforms }}
+      # Catch-up: re-checks every aggregator item with a 15-minute lookup budget and
+      # writes only data/pulse.json + data/date-cache.json. Free: no Apify, no keys.
+      - name: Catch up publish-date checks
+        if: inputs.dates_catchup
+        run: node scripts/recheck-dates.mjs --scope=all --budget=900000 --write
       - name: Commit and push if changed
         if: inputs.mode != 'smoke'
         run: |
           git config user.name "autopilot-pulse[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/pulse.json data/candidates.json data/social-state.json data/social-coverage.json
+          git add data/pulse.json data/candidates.json data/date-cache.json data/social-state.json data/social-coverage.json
           git diff --cached --quiet && echo "pulse unchanged" && exit 0
           git commit -m "pulse: daily refresh"
           # A human pushing to main mid-run used to lose the whole collection:
@@ -99,3 +109,8 @@ jobs:
           done
           echo "could not push after 3 attempts"
           exit 1
+      # After the data is safely pushed: fail the run (so alert.yml opens its usual
+      # issue) when the Google News resolver is broken or the dated share collapses.
+      - name: Date-check health
+        if: inputs.mode != 'smoke'
+        run: node scripts/check-date-health.mjs
