@@ -1,13 +1,29 @@
-// Brevo signup attribution. The form sends utm_source / utm_campaign /
-// utm_content from the page URL plus its pathname; these become the
-// SIGNUP_SOURCE / SIGNUP_CAMPAIGN / SIGNUP_PLACEMENT contact attributes.
-// Without UTMs: SIGNUP_SOURCE=site, SIGNUP_PLACEMENT=<page path>.
+// Brevo signup attribution. The form sends its placement (which box), its
+// pathname and utm_source / utm_campaign / utm_content from the page URL;
+// these become the SIGNUP_SOURCE / SIGNUP_CAMPAIGN / SIGNUP_PLACEMENT contact
+// attributes (all Brevo "text" attributes, which must exist in the account).
+// SIGNUP_PLACEMENT = placement, else utm_content, else the page path.
+// Without UTMs: SIGNUP_SOURCE=site.
+
+// Every signup box on the site. Keep in sync with the forms that send them.
+export const SIGNUP_PLACEMENTS = [
+  "home_hero", // homepage, under the headline
+  "header", // a header newsletter button that scrolls to a form
+  "company_profile", // /companies/[slug]
+  "pulse_top", // /pulse/[slug], near the top
+  "pulse_end", // /pulse/[slug], at the end
+  "pulse_index", // /pulse
+  "news", // /news
+  "dealroom", // /dealroom
+] as const;
+export type SignupPlacement = (typeof SIGNUP_PLACEMENTS)[number];
 
 export type SignupAttributionInput = {
   utm_source?: string;
   utm_campaign?: string;
   utm_content?: string;
   page?: string;
+  placement?: SignupPlacement;
 };
 
 // Untrusted input collapsed to a short [a-z0-9_./-] value; "" when empty.
@@ -18,7 +34,7 @@ export function signupAttributes(input: SignupAttributionInput): Record<string, 
   const path = clean((input.page ?? "").replace(/^\/+|\/+$/g, "")) || "home";
   const attrs: Record<string, string> = {
     SIGNUP_SOURCE: clean(input.utm_source) || "site",
-    SIGNUP_PLACEMENT: clean(input.utm_content) || path,
+    SIGNUP_PLACEMENT: clean(input.placement) || clean(input.utm_content) || path,
   };
   const campaign = clean(input.utm_campaign);
   if (campaign) attrs.SIGNUP_CAMPAIGN = campaign;
