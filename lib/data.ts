@@ -82,7 +82,7 @@ export const companies: Company[] = [
   "url": "https://andonlabs.com",
   "tagline": "Testing business autonomy in the real world.",
   "categoryClaim": "AI research and real-world business experiments.",
-  "description": "AI research company co-founded by Lukas Petersson and Axel Backlund. Studies agent behavior through simulations including Vending-Bench and real-world deployments including Project Vend with Anthropic, Andon Market, Andon Cafe and Andon FM. Its platform is Pion, listed in the tools directory. These experiments do not establish that the research company itself operates autonomously. Checked September 15, 2026; company revenue, total funding and current headcount are not established in this record.",
+  "description": "AI research company co-founded by Lukas Petersson and Axel Backlund. Studies agent behavior through simulations including Vending-Bench and real-world deployments including Project Vend with Anthropic, Andon Market, Andon Cafe and Andon FM. Its platform is Pion, listed in the tools directory. These experiments do not establish that the research company itself operates autonomously. Checked September 15, 2026; company revenue, total funding and current headcount are not established in this record. Provisional L3, grade C, added October 17, 2026 from press and company pages: Luna, an AI agent, has run Andon Market in San Francisco since April 10, 2026, but Andon Labs monitors every Slack message and overrules decisions, so the L4 test is not met. Treat it as an experiment and an L3 candidate, not a graded autonomous company.",
   "founders": [
     {
       "name": "Lukas Petersson",
@@ -95,6 +95,16 @@ export const companies: Company[] = [
   ],
   "pricing": "Research preview with gradual waitlist access. Selected ideas may receive seed tokens; Andon anticipates revenue sharing but publishes no fixed percentage on the reviewed page.",
   "news": [
+    {
+      "date": "2026-08-14",
+      "headline": "Time reports the Andon Market bank balance fell from $100K to $61,186 in five months.",
+      "url": "https://time.com/article/2026/08/14/claude-fired-worker-ai-job-disruption/"
+    },
+    {
+      "date": "2026-04-10",
+      "headline": "Andon Market opens in San Francisco, with Luna, an AI agent, running the store; company page describes hiring, scheduling, pricing and ordering through Slack.",
+      "url": "https://andonlabs.com/market"
+    },
     {
       "date": "2026-09-14",
       "headline": "Pion research preview opens a waitlist for existing businesses and new experiments. Andon reports that its market and cafe are still unprofitable.",
@@ -117,9 +127,11 @@ export const companies: Company[] = [
     }
   ],
   "autopilot": {
+    "level": "L3",
+    "evidence": "C",
     "section": "watchlist",
-    "story": "A research case for comparing simulated performance with real business outcomes and human intervention.",
-    "flags": "Experimental deployments; company autonomy not assessed. Market and cafe unprofitable as reported September 14, 2026."
+    "story": "An experiment, not yet an autonomous company: Luna, an AI agent, has run Andon Market in San Francisco since 10 April 2026 (hiring, scheduling, pricing, ordering via Slack). Provisional L3 candidate; the L4 test is not met.",
+    "flags": "Provisional L3, grade C. L4 test not met: the founders monitor every Slack message and overrule decisions. Store bank balance fell from $100K to $61,186 in five months (Time, 14 Aug 2026). Company revenue, funding and headcount not established; market and cafe unprofitable as reported September 14, 2026."
   }
 },
   {
