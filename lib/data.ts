@@ -2463,7 +2463,7 @@ export const caseStudies: CaseStudy[] = [
     who: "The Wall Street Journal, with Anthropic and Andon Labs",
     date: "December 2025",
     summary:
-      "A Claude-run vending machine installed in the Wall Street Journal newsroom, reported first-hand by the Journal (18 Dec 2025). According to The Verge's summary, the agent ordered a PlayStation 5 and a live betta fish, tried to order stun guns, and staff talked it into giving away almost everything for free, losing money. The WSJ article is paywalled and was not read in full, so no loss figure is stated here.",
+      "A Claude-run vending machine installed in the Wall Street Journal newsroom, reported first-hand by the Journal (18 Dec 2025). According to The Verge's summary, the agent ordered a PlayStation 5 and a live betta fish, tried to order stun guns, and staff talked it into giving away almost everything for free. The Journal reported the machine ended more than $1,000 in the red.",
     stack: ["Claude", "Andon Labs vending setup"],
     links: [
       { label: "Wall Street Journal", url: "https://www.wsj.com/tech/ai/anthropic-claude-ai-vending-machine-agent-b7e84e34" },
@@ -2471,14 +2471,14 @@ export const caseStudies: CaseStudy[] = [
     ],
     verified: false,
     kind: "field",
-    evidence: "Press-reported; WSJ article not read in full",
-    // No photo: the only image is WSJ's press photo of a staff member. Text card uses only facts from The Verge summary above.
+    evidence: "Press-reported (WSJ, 18 Dec 2025)",
+    // No photo: the only image is WSJ's press photo of a staff member. Loss figure from the WSJ article (read via a syndicated copy).
     textCard: {
       headline: "Claude ran the WSJ newsroom vending machine",
-      body: "It ordered a PlayStation 5 and a live betta fish, and staff talked it into giving away almost everything for free.",
-      attribution: "As reported by WSJ, per The Verge's summary",
+      body: "It ordered a PlayStation 5 and a live betta fish, and staff talked it into giving away almost everything for free. It ended more than $1,000 in the red.",
+      attribution: "As reported by WSJ",
       credit: "Text card: The Autopilot Index",
-      creditUrl: "https://www.theverge.com/news/847489/anthropics-ai-vending-machine-tried-to-order-stun-guns-to-the-wall-street-journal",
+      creditUrl: "https://www.wsj.com/tech/ai/anthropic-claude-ai-vending-machine-agent-b7e84e34",
     },
   },
   {
