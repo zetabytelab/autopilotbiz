@@ -43,6 +43,15 @@ export type Company = {
     sources?: { humans?: Source; arr?: Source; raised?: Source };
   };
   referralProgram: { exists: boolean | null; notes: string | null };
+  // Commercial relationship flag (draft policy, pending approval): set while we
+  // earn money from this company (affiliate link, sponsorship or other value).
+  // It never changes the level, evidence grade or rank. `since` is "YYYY-MM"
+  // and stays null until confirmed from the partner dashboard.
+  commercialRelationship?: {
+    active: boolean;
+    types: ("affiliate" | "sponsorship" | "other")[];
+    since: string | null;
+  };
   pricing: string | null;
   news: { date: string; headline: string; url?: string }[];
   verified: boolean;
@@ -562,6 +571,9 @@ export const companies: Company[] = [
       exists: true,
       notes: "atoms.dev/affiliate: commission on each referred user's first 6 recurring payments; referred users get 10 credits after signing up and sending at least one message (atoms.dev/affiliate, checked 19 Oct 2026); monthly payouts via Wise.",
     },
+    // Affiliate link (Rewardful) on the homepage Builder stack. Start month to
+    // confirm from the Rewardful dashboard, so `since` stays null.
+    commercialRelationship: { active: true, types: ["affiliate"], since: null },
     pricing: "Freemium: ~25 free credits/cycle; paid from $20/mo; Race Mode on the $100/mo Max plan.",
     news: [
       { date: "2026-06-16", headline: "MarkTechPost: Research, app delivery, SEO and ads agents coordinated with founder approvals; sponsored by Atoms.", url: "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/" },

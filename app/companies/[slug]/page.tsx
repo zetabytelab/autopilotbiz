@@ -40,6 +40,11 @@ function FindingSources({ finding }: { finding: ResearchFinding }) {
   </div>;
 }
 
+function commercialTypesLabel(types: ("affiliate" | "sponsorship" | "other")[]) {
+  const labels = { affiliate: "an affiliate link on this site", sponsorship: "a sponsorship", other: "another paid arrangement" };
+  return types.map((t) => labels[t]).join(" and ");
+}
+
 export default async function CompanyProfile({ params }: Props) {
   const { slug } = await params;
   const company = companies.find((entry) => entry.slug === slug);
@@ -63,8 +68,16 @@ export default async function CompanyProfile({ params }: Props) {
         <div className="mt-5 flex flex-wrap gap-2 text-xs">
           <span className="rounded-full border border-lime-400/30 bg-lime-400/5 px-3 py-1.5 text-lime-300">{assessment.levelLabel}</span>
           <span className="rounded-full border border-zinc-700 px-3 py-1.5 text-zinc-300">{assessment.evidenceLabel}</span>
+          {company.commercialRelationship?.active && (
+            <a href="#commercial-relationship" data-commercial-relationship className="rounded-full border border-amber-400/40 bg-amber-400/5 px-3 py-1.5 text-amber-200 hover:border-amber-300">Commercial relationship</a>
+          )}
         </div>
         <p className="mt-3 text-xs leading-relaxed text-zinc-500">{assessment.qualification}</p>
+        {company.commercialRelationship?.active && (
+          <p id="commercial-relationship" role="note" className="mt-3 rounded-xl border border-amber-400/25 bg-amber-400/[0.04] px-4 py-3 text-xs leading-relaxed text-zinc-300">
+            <span className="font-semibold text-amber-200">Commercial relationship:</span> We may earn money from {company.name} through {commercialTypesLabel(company.commercialRelationship.types)}{company.commercialRelationship.since ? `, since ${company.commercialRelationship.since}` : ""}. It has no effect on its level, evidence grade or rank.
+          </p>
+        )}
         {research && <p className="mt-3 text-xs leading-relaxed text-zinc-400">Primary sources checked <time dateTime={research.checkedAt}>{research.checkedAt}</time>. Published claims and terms reviewed; no independent product or financial audit.</p>}
         <div className="mt-5 flex flex-wrap gap-4 text-sm">
           {company.url ? <a href={company.url} target="_blank" rel="noopener noreferrer" className="text-lime-400 hover:underline">Visit company website ↗</a> : <span className="text-amber-300">Company website withheld pending verification</span>}
