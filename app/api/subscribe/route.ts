@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { z } from "zod";
 import { postContactWithAttribution, signupAttributes } from "@/lib/signup-attribution";
+import { subscribeSchema } from "@/lib/subscribe-schema";
 
 export const runtime = "nodejs";
 
@@ -21,20 +21,7 @@ function rateLimited(req: Request): boolean {
   return entry.count > RL_MAX;
 }
 
-const schema = z
-  .object({
-    email: z.string().trim().toLowerCase().email().max(200),
-    // Honeypot — real users never fill this.
-    website_url: z.string().max(0).optional().or(z.literal("")),
-    // Attribution (both optional): ?ref= campaign tag + pathname the form was on.
-    ref: z.string().max(100).optional(),
-    page: z.string().max(200).optional(),
-    // UTMs from the form page's URL → SIGNUP_* Brevo attributes (optional).
-    utm_source: z.string().max(100).optional(),
-    utm_campaign: z.string().max(100).optional(),
-    utm_content: z.string().max(100).optional(),
-  })
-  .strict();
+const schema = subscribeSchema;
 
 // Collapse untrusted attribution input to a short [a-z0-9_-] slug.
 const slug = (s: string | undefined) =>

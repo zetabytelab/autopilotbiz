@@ -5,6 +5,7 @@ import { companies, type Source } from "@/lib/data";
 import { getAutonomyAssessment } from "@/lib/autonomy";
 import { financialSummary, latestObservation, METRIC_LABELS, observationDate } from "@/lib/financials";
 import FinancialHistory from "@/components/FinancialHistory";
+import SubscribeForm from "@/components/SubscribeForm";
 import { getCompanyResearch, getCompanySources, getProfileNotes, type ResearchFinding } from "@/lib/company-profiles";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -143,6 +144,12 @@ export default async function CompanyProfile({ params }: Props) {
       <section className="mt-10" aria-labelledby="timeline">
         <h2 id="timeline" className="text-xl font-semibold text-zinc-100">Research timeline</h2>
         {timeline.length ? <ol className="mt-4 space-y-4 border-l border-zinc-800 pl-5">{timeline.map((item) => <li key={`${item.date}-${item.headline}`}><p className="font-mono text-xs text-lime-400">{item.date}</p><p className="mt-1 text-sm leading-relaxed text-zinc-400">{item.url ? <a href={item.url} target="_blank" rel="noopener noreferrer" className="underline decoration-zinc-700 hover:text-lime-400">{item.headline} ↗</a> : item.headline}</p>{!item.url && <p className="mt-1 text-xs text-zinc-600">Direct article link not recorded.</p>}</li>)}</ol> : <p className="mt-3 text-sm text-zinc-500">No dated developments recorded.</p>}
+      </section>
+
+      <section id="subscribe" className="mt-10 scroll-mt-24 rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5" aria-labelledby="subscribe-heading">
+        <h2 id="subscribe-heading" className="text-base font-semibold text-zinc-100">Get the Autopilot Pulse by email</h2>
+        <p className="mt-1 text-sm leading-relaxed text-zinc-400">Companies like {company.name}, the evidence behind them and the tools they run on. Free. Confirm by email; unsubscribe anytime.</p>
+        <SubscribeForm label="Subscribe free →" placement="company_profile" />
       </section>
 
       <section id="sources" className="mt-10 scroll-mt-24 border-t border-zinc-800 pt-8" aria-labelledby="sources-heading">

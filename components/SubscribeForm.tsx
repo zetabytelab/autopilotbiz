@@ -2,8 +2,25 @@
 
 import { useEffect, useState } from "react";
 import { trackFunnelEvent } from "@/lib/analytics";
+import type { SignupPlacement } from "@/lib/signup-attribution";
 
-export default function SubscribeForm({ label = "🛩 Put your inbox on autopilot →" }: { label?: string }) {
+// A header button that scrolls to this form dispatches
+// `ap:subscribe-via` with { target: <this form's placement>, placement: "header" }
+// so a signup that follows is attributed to the button, not the box.
+export const SUBSCRIBE_VIA_EVENT = "ap:subscribe-via";
+
+type Props = {
+  label?: string;
+  /** Which box this is, sent to /api/subscribe for Brevo attribution. */
+  placement?: SignupPlacement;
+  /** "light" for white pages such as the homepage registry. */
+  tone?: "dark" | "light";
+  /** Drops the top margin, for inline rows. */
+  compact?: boolean;
+};
+
+export default function SubscribeForm({ label = "🛩 Put your inbox on autopilot →", placement, tone = "dark", compact = false }: Props) {
+  const [via, setVia] = useState<SignupPlacement | undefined>(undefined);
   const [email, setEmail] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -18,10 +35,21 @@ export default function SubscribeForm({ label = "🛩 Put your inbox on autopilo
     } catch {}
   }, []);
 
+  useEffect(() => {
+    if (!placement) return;
+    const onVia = (e: Event) => {
+      const d = (e as CustomEvent<{ target?: string; placement?: SignupPlacement }>).detail;
+      if (d?.target === placement && d.placement) setVia(d.placement);
+    };
+    window.addEventListener(SUBSCRIBE_VIA_EVENT, onVia);
+    return () => window.removeEventListener(SUBSCRIBE_VIA_EVENT, onVia);
+  }, [placement]);
+
   async function subscribe(e: React.FormEvent) {
     e.preventDefault();
     if (state === "sending") return;
     setState("sending");
+    const sentPlacement = via ?? placement;
     // Best-effort attribution: ?ref= on the current URL wins, else whatever
     // RefCapture stashed on the landing page. Never blocks the signup.
     let ref = "";
@@ -40,7 +68,7 @@ export default function SubscribeForm({ label = "🛩 Put your inbox on autopilo
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, website_url: "", ref, page, ...utm }),
+        body: JSON.stringify({ email, website_url: "", ref, page, ...(sentPlacement ? { placement: sentPlacement } : {}), ...utm }),
       });
       const data = (await res.json()) as { ok: boolean; message?: string; error?: string; subscriptionStatus?: string };
       if (res.ok && data.ok) {
@@ -57,16 +85,24 @@ export default function SubscribeForm({ label = "🛩 Put your inbox on autopilo
     }
   }
 
+  const light = tone === "light";
+  const top = compact ? "" : "mt-5 ";
+
   if (state === "done") {
     return (
-      <p className="mt-5 inline-block rounded-full border border-lime-400/40 bg-lime-400/10 px-5 py-2.5 text-sm font-semibold text-lime-400">
+      <p
+        role="status"
+        className={light
+          ? `${top}inline-block rounded border border-[#b9d3c6] bg-[#eef6f1] px-4 py-2 text-sm font-medium text-[#1d6653]`
+          : `${top}inline-block rounded-full border border-lime-400/40 bg-lime-400/10 px-5 py-2.5 text-sm font-semibold text-lime-400`}
+      >
         {message}
       </p>
     );
   }
 
   return (
-    <form onSubmit={subscribe} className="mt-5 flex max-w-md flex-wrap items-center gap-2">
+    <form onSubmit={subscribe} data-placement={placement} className={`${top}flex max-w-md flex-wrap items-center gap-2`}>
       <input
         type="email"
         required
@@ -75,16 +111,20 @@ export default function SubscribeForm({ label = "🛩 Put your inbox on autopilo
         placeholder="you@example.com"
         autoComplete="email"
         aria-label="Email address"
-        className="min-w-0 flex-1 rounded-full border border-zinc-700 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-lime-400 focus:outline-none"
+        className={light
+          ? "min-w-0 flex-1 rounded border border-[#c9d6cf] bg-white px-3 py-2 text-sm text-[#24322e] placeholder:text-[#93a29a] focus:border-[#1d6653] focus:outline-none"
+          : "min-w-0 flex-1 rounded-full border border-zinc-700 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-lime-400 focus:outline-none"}
       />
       <button
         type="submit"
         disabled={state === "sending"}
-        className="rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300 disabled:opacity-60"
+        className={light
+          ? "rounded bg-[#1d6653] px-4 py-2 text-sm font-medium text-white hover:bg-[#17523f] disabled:opacity-60"
+          : "rounded-full bg-lime-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-lime-300 disabled:opacity-60"}
       >
         {state === "sending" ? "Subscribing…" : label}
       </button>
-      {state === "error" && <p className="w-full text-xs text-amber-400">{message}</p>}
+      {state === "error" && <p role="alert" className={`w-full text-xs ${light ? "text-[#a3471f]" : "text-amber-400"}`}>{message}</p>}
     </form>
   );
 }

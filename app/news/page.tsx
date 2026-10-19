@@ -87,7 +87,7 @@ export default function NewsPage() {
           (Claude Code, Codex, OpenClaw, OpenRouter…) through a solo-builder lens. Deduped, heat-ranked, fresh
           daily.
         </p>
-        <SubscribeForm />
+        <SubscribeForm placement="news" />
       </header>
 
       {/* Live signals */}

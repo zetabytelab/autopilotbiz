@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -44,6 +45,9 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
   const { slug } = await params;
   const e = getEdition(slug);
   if (!e) notFound();
+  // Second signup box near the top: after the opening section (before the
+  // first one if an edition has a single section). The end form stays.
+  const topFormAt = e.sections.length > 1 ? 1 : 0;
 
   return (
     <main className="mx-auto max-w-3xl px-4 pb-24 sm:px-6">
@@ -90,7 +94,16 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
       )}
 
       {e.sections.map((s, i) => (
-        <section key={i} className="mb-8">
+        <Fragment key={i}>
+        {i === topFormAt && (
+          <section id="subscribe" className="newsletter-signup mb-8" aria-labelledby="edition-signup-heading">
+            <h2 id="edition-signup-heading">You&apos;re reading the web copy of Autopilot Pulse #{e.number}.</h2>
+            <p>Get the next edition by email. Free.</p>
+            <SubscribeForm label="Subscribe free →" placement="pulse_top" />
+            <small>Confirm your email to join. Unsubscribe anytime.</small>
+          </section>
+        )}
+        <section className="mb-8">
           {s.heading && <h2 className="mb-3 text-xl font-bold text-zinc-100">{s.heading}</h2>}
           {s.image && (
             <Image
@@ -119,6 +132,7 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
             </ul>
           )}
         </section>
+        </Fragment>
       ))}
 
       {e.sourceList && e.sourceList.length > 0 && (
@@ -169,7 +183,7 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
             </>
           )}
         </p>
-        <SubscribeForm />
+        <SubscribeForm label="Subscribe free →" placement="pulse_end" />
       </footer>
     </main>
   );

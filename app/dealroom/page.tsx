@@ -376,7 +376,7 @@ export default function DealroomPage() {
           run on. Every claim is labelled verified, self-reported or disputed. Free, and you can unsubscribe in one click.
         </p>
         {/* Posts page=/dealroom, so the signup is attributed to this placement; UTMs ride along where the form supports them. */}
-        <SubscribeForm />
+        <SubscribeForm placement="dealroom" />
       </section>
 
       {/* 6. FAQ */}
