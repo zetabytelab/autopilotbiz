@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T11:17:44.920Z",
+ "generatedAt": "2026-10-19T13:35:03.963Z",
  "candidates": [
   {
    "id": "6a7a536d60d2",
@@ -10,16 +10,6 @@
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT3lRenJlYTNMWXZLZHlXa2s1SGd5bElxWTJSZDNfU1ZsWnFTMncwYXVwS28wSHZFWURBT1FxRXF6Z1pYbHBqRVZuc2FfZzRFSHdVbmlSLW96eU1NMlVCaXVhTVU5VkFOSjd5V3F6QWhPTWd6QjRfRkRIaTFWc2VCZ25JN0xjZDRrRFNHU2VKV1FHVTR2dlBqX01tWkRjUDJ5U1VF0gGjAUFVX3lxTE5PeVF6cmVhM0xZdktkeVdrazVIZ3lsSXFZMlJkM19TVmxacVMydzBhdXBLbzBIdkVZREFPUXFFcXpnWlhscGpFVm5zYV9nNEVId1VuaVItb3p5TU0yVUJpdWFNVTlWQU5KN3lXcXpBaE9NZ3pCNF9GREhpMVZzZUJnbkk3TGNkNGtEU0dTZUpXUUdVNHZ2UGpfTW1aRGNQMnlTVUU?oc=5",
      "source": "gnews",
      "domain": "entrackr.com",
-     "publishedAt": "2026-09-24T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Ema Raises $77 Million Series B to Scale ‘AI Employees’ Across HR, IT and Finance",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUnYwTmtUS242QjJtMC1VaG5pbUNKSlFiVWZ6V1pRV1dwYnVMbUNWQnlfelJMdDdILVp5RllFY1d1dk5iS3BURzhWX1U3WmhXdWRjNFNQUlRCbmN5cXVnd21WN0hEUk5qOWVoYWNHOHNYVE9DejZvTjZteXF5ZUYtRzUtZ2tFWlBFTDFOUG9BTGRjR29zNEdj?oc=5",
-     "source": "gnews",
-     "domain": "ascendants.in",
      "publishedAt": "2026-09-24T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
@@ -56,13 +46,13 @@
      ]
     }
    ],
-   "coverage": 5,
-   "publishers": 5,
+   "coverage": 4,
+   "publishers": 4,
    "firstSeen": "2026-09-23T12:08:02.539Z",
    "score": 4.75,
    "reasons": [
     "named entity",
-    "5 publishers",
+    "4 publishers",
     "autonomy thesis",
     "funding or revenue figure",
     "strong outlet"
@@ -200,6 +190,56 @@
    "status": "rejected"
   },
   {
+   "id": "894345e035d3",
+   "name": "Globally",
+   "evidence": [
+    {
+     "title": "Ema Raises $77 Mn To Scale Its Universal AI Employee Platform Globally",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU29Tb1BYWkllVkRpZUN0OVhielBucmtfLVVMUV9VRlNxNHI5VmJrT0NwVlVndUV3elp6djFHZW5Kc3JBQ3pvSDJSRFc3MUlPWlhiTUZOVmp3UjB1S2ljeDQ3LW9ZOWwtX0ZYMDRXS3c3RFc0ZGdrSnpPdk5DX0tWWUlFOEVUNi1oZlRFZ2Q4NGdkTGhkeUFfaA?oc=5",
+     "source": "gnews",
+     "domain": "inc42.com",
+     "publishedAt": "2026-09-24T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-19T13:35:03.962Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "a1f13b3bc20a",
+   "name": "Files",
+   "evidence": [
+    {
+     "title": "Disney to Hire Character.AI's Staff in $60 Million Deal After Chatbot Startup Files For Bankruptcy",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSUJfU243M0dDT2tabzI0REE2Sk5JOF9lVE5EVnRTWG9vQzhVS3pFNDVtODdLdGpfSUtaalU2Rnp2aWpZVWMzTU9LamszRkRaOGpwT2VFMnBKcU45UFNsYXZtNDVvcEM1RkM3X3F0ejFuUjlUYUJ2czFtR1Vhb0Z4bm40M1lnNGFtZ3dELTVBWlQ0Rm00WTR3aWlnV3RLTlFhZTA5dmRUNDNlaUF4d2RJWUdBclI3cEJydk15VDdiTDI0S3o0N3U0SFBCVVJrcFJDRmljUVJyRVM4UdIB4gFBVV95cUxOM3VOMVRyMTZFS2Ztc1hzbGRjWVhIU1Y2R1hybXpaZlZucFpTYXpLSm5rbk9uOGZBZGluNDF4MkhRWks1OHEyakU0M2pINjIycTZ4TkdENnNRdXZXS01XdTN2Q1liZENkc1dlQnh1STJMbHF5MTRLa1VnMU4yX3dtRGlHcXF6Sm0weE1neVFFZEZPM2FQandJVS0yT1FzMEg2SGhoYklfOHR1SnllNk8zcHByYURtR3hjSzBzeENkYU55a1VfaEZGN3NnWTVqVTl4RWxGLTNlS0d1ZmkyNTJlRlNn?oc=5",
+     "source": "gnews",
+     "domain": "ndtvprofit.com",
+     "publishedAt": "2026-10-19T12:21:10.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-19T13:35:03.963Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "d57734b2f9be",
    "name": "Ema Raises",
    "evidence": [
@@ -245,6 +285,31 @@
    "score": 1.75,
    "reasons": [
     "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "0b0a8e237e62",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Disney Agrees To Pay $60 Million Annually For 66 Character.AI Employees: 7 outlets compared",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWExwSjBZY2lCMkFZTlVlazFMbnhIUFNJazhFVlgwTTM2UGE4aGp2ZFZnNlNhU3k5bFFqMFBsT0VvWnU1WlR4alFhQmdxRC1lS2dWNHpfLVZlSzEtZERLc3FWUEV4bzM2VHZlOUVIRWRVWURCRFlJc3ctMG10SVhyYS1Hbk9mQ1Y1QnNGY2tDd2s2Sk9nUkt2OXNaYU1DZUFtQzdYUm1ZZnQzNXIzNGxVTHUwUy1QSVVIZ2JuMXVwZmpIbjY1eHplMFRsWjkzQkhYS2NJb1FOeWFkbHM?oc=5",
+     "source": "gnews",
+     "domain": "newscord.org",
+     "publishedAt": "2026-10-19T00:04:53.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-19T13:35:03.963Z",
+   "score": 1.75,
+   "reasons": [
+    "autonomy thesis",
     "funding or revenue figure"
    ],
    "status": "new"
@@ -395,6 +460,30 @@
    "status": "new"
   },
   {
+   "id": "683c862e4739",
+   "name": "Character.AI",
+   "evidence": [
+    {
+     "title": "Troubled chatbot startup Character.AI files for bankruptcy — and Disney is first in line for key assets",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbUdKVURhdlBHYUtHSFB1cWpjZTk4X19jdHJsV1ZGQWFpcGUxWi1RTFZOckxtcGs0elptWnlnLTJiQWpmZ2ItQ2VrOTN3S0NEbllnSGpjNDZnMXN2VnZoRlVHN3k3NUswekh1WE8zSWdrS2RLRWdMeUhjVEtHN2tvQnl5bTk4NC1BQU1uYkN2bDJnRDVkUC1VcVI0Ui1wOExCN2pvYTJmamhsUHFYblNrdTN3?oc=5",
+     "source": "gnews",
+     "domain": "businessinsider.com",
+     "publishedAt": "2026-10-13T10:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-19T13:35:03.963Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
    "id": "c524cf98effe",
    "name": "GoComet",
    "evidence": [
@@ -412,6 +501,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-18T11:17:44.920Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "c85f1eac2af4",
+   "name": "JP Urban Digital",
+   "evidence": [
+    {
+     "title": "JP Urban Digital Launches AI Workflow Automation Services to Help Businesses Streamline Operations",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVGNzNkI2M3hBbTZXc3BxS1F5b2otVnZ0X1BPWXU3by1rZEF1TkFXT2pCdHdtcW15T3NZeEtObDBUTVpweGRJWW5WYkw2X3kwdlBUVXpHSjg4d2lxOTVHNk0teDZIeVdIMXd1cWMzbnFKbjR4MXJuWDdoOHFaUTVjUlE0X3d5WUpYalhNTkNidDZDRlpXY1hV?oc=5",
+     "source": "gnews",
+     "domain": "finance.yahoo.com",
+     "publishedAt": "2026-10-16T16:43:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-19T13:35:03.963Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -443,26 +556,26 @@
    "status": "new"
   },
   {
-   "id": "bfed89e80ea0",
-   "name": "Square",
+   "id": "5bc0f96f8f25",
+   "name": null,
    "evidence": [
     {
-     "title": "Square Launches \"Square Kiosk,\" a Large Self-Ordering Terminal with AI Voice Capabilities, in the U.S.",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QTXpjUXdhUlViUUN5UmhjWFNDS1VWYmFQckNONFJwVVVyamNZcnBLamIxWV9kSmhGMy1pQVU0N3BJRWVHMXBaX3JlRmpuR05hb3lNVWRKSEFnU09kODlMelAtZ1BGcGl4QkVMbUNGbVRwem9SOHc?oc=5",
+     "title": "The Future of Work Is Already Here: AI Agents, Robotics and the Rise of the Autonomous Company",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ081OUktcWxxOS1MemlIcFNNLWY2SFl1cU0xZ1psRGtGa0lqeE9ibThtU1hGRWhDUGlWUm5QVmhLcV96VUx0MF9vdm9XdF91dWhRaFFSVVFtcUFQS1FUSzN4ZmFPYk9BWkpsVXN3eG01OGlBMGhTcmFZaDVZdWJoQTlBY1JJcTNOTFVleg?oc=5",
      "source": "gnews",
-     "domain": "finance.biggo.com",
-     "publishedAt": "2026-10-15T05:06:00.000Z",
+     "domain": "clclt.com",
+     "publishedAt": "2026-10-18T18:23:32.000Z",
      "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
+      "\"autonomous company\""
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-17T10:53:48.336Z",
+   "firstSeen": "2026-10-19T13:35:03.963Z",
    "score": 1,
    "reasons": [
-    "named entity"
+    "autonomy thesis"
    ],
    "status": "new"
   },
@@ -491,6 +604,30 @@
    "status": "new"
   },
   {
+   "id": "e1cab5313fbb",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Disney agrees to offer jobs to at least 60 Character.AI employees — TechCrunch",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVXh4NmtaT0doVVBYMjhHRkotU3U2MHJ6a3oyMlFfa1hkVGJyaGUtSmNKR283QVJRWUttZnBBUGg5SmtHLVRZNlRfbDZCZUJDSXNKVXVIV1RWZEVSMW9nLTFZcWFaLVAydDdobmk2dUdBMVZ4OFlYOUZ6MGdTT2VtWExSSHFRTUdyVDNlQThrbk9BVWc5ejFyNlF6STR5OTcxamw3UmNsSjV3ZHNvMzRqUWRDNlFGTk5hWHRlQTBZN3dKbVct?oc=5",
+     "source": "gnews",
+     "domain": "ua.news",
+     "publishedAt": "2026-10-18T16:43:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-19T13:35:03.963Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
    "id": "9be2ad7f55d9",
    "name": null,
    "evidence": [
@@ -500,30 +637,6 @@
      "source": "gnews",
      "domain": "retailtechinnovationhub.com",
      "publishedAt": "2026-10-05T04:54:45.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-18T11:17:44.920Z",
-   "score": 1,
-   "reasons": [
-    "autonomy thesis"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "f98bd61b1897",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The Other Side of the \"Great AI Opportunity\" for Digital Employees",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41cEdKaGlwZ1lxNEtoYnZYNG5VWUZnQloxdGI5RFZJS21VZExTOHVudzVmV3NIVGxBbFczeXZlLXI3eUxSdGI3VExBRVd1LVdKYkhZ?oc=5",
-     "source": "gnews",
-     "domain": "eu.36kr.com",
-     "publishedAt": "2026-10-12T07:24:19.000Z",
      "matchedKeywords": [
       "\"digital employees\" raises"
      ]
@@ -635,30 +748,6 @@
    "status": "new"
   },
   {
-   "id": "9f470effce2a",
-   "name": null,
-   "evidence": [
-    {
-     "title": "I gave an autonomous AI company $0 and $200 of debt",
-     "url": "https://autonomouscompany.substack.com/p/i-gave-an-autonomous-ai-company-0",
-     "source": "hn",
-     "domain": "autonomouscompany.substack.com",
-     "publishedAt": "2026-09-21T18:02:44Z",
-     "matchedKeywords": [
-      "\"autonomous company\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-09-22T12:10:43.988Z",
-   "score": 0.75,
-   "reasons": [
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "7ea8820dd590",
    "name": null,
    "evidence": [
@@ -683,6 +772,30 @@
    "status": "new"
   },
   {
+   "id": "9f470effce2a",
+   "name": null,
+   "evidence": [
+    {
+     "title": "I gave an autonomous AI company $0 and $200 of debt",
+     "url": "https://autonomouscompany.substack.com/p/i-gave-an-autonomous-ai-company-0",
+     "source": "hn",
+     "domain": "autonomouscompany.substack.com",
+     "publishedAt": "2026-09-21T18:02:44Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-09-22T12:10:43.988Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "50c0788f5b4c",
    "name": "Reflection",
    "evidence": [
@@ -691,7 +804,7 @@
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ndDRnTHhKR3pGUHhtSmxvQmdIaHN6TW1LT01Ha3kxSjZwb2I0UEpsN1poNnpwZ3ZxcS01SldaWkZacGV4czUzdGQtQWU2aXo1NzR6WHhtYVh0bHFjT2JCOUIySHVUZFFMZktEZFVmb1RheEdnZVE?oc=5",
      "source": "gnews",
      "domain": "finance.biggo.com",
-     "publishedAt": "2026-10-10T21:25:00.000Z",
+     "publishedAt": "2026-10-10T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -730,6 +843,28 @@
     "funding or revenue figure",
     "acquired — no longer independent"
    ],
+   "status": "new"
+  },
+  {
+   "id": "115782b5fd4f",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Benchmark Partners Say AI Boom Erodes Venture Pact Against Backing Rival Startups: what 5 outlets left out",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdERQOWlKZHRKWUxnTzBiRTN1VmV2YnRwWTliVXJRcmNlWEJ2d2RSYzFCLXBXVVVxeWVseWNSVTIyOUZWOTktX0RLRlpiOWJPUTl6WkVvMWx5S2FfX011djlWb0J5aGRxNk9GSmRhLTVnZjE1S2FhT1U0dlR3MVNaY19hSndpaEJuWnAwU3VTcXBqLXBhcWV6VVhLQklzV3BZbFd4dHE2Z1oxWU5oMDI3VkxjcnoxUmN3R19zaVN3V3JnZEZ2WXlPQ29YMExrOTY5aHhCcEFJSVhKQXQ4c09palln?oc=5",
+     "source": "gnews",
+     "domain": "newscord.org",
+     "publishedAt": "2026-10-16T05:46:11.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-19T13:35:03.963Z",
+   "score": 0,
+   "reasons": [],
    "status": "new"
   },
   {
