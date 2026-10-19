@@ -34,7 +34,7 @@ export default function StackPyramid() {
                   key={t.name}
                   href={t.referralUrl ?? t.url}
                   target="_blank"
-                  rel={t.referralUrl ? "noopener noreferrer sponsored" : "noopener noreferrer"}
+                  rel={t.referralUrl ? "sponsored nofollow noopener noreferrer" : "noopener noreferrer"}
                   title={t.role}
                   className={`group flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm transition ${
                     t.referral

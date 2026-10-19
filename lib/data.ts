@@ -43,6 +43,15 @@ export type Company = {
     sources?: { humans?: Source; arr?: Source; raised?: Source };
   };
   referralProgram: { exists: boolean | null; notes: string | null };
+  // Commercial relationship flag (draft policy, pending approval): set while we
+  // earn money from this company (affiliate link, sponsorship or other value).
+  // It never changes the level, evidence grade or rank. `since` is "YYYY-MM"
+  // and stays null until confirmed from the partner dashboard.
+  commercialRelationship?: {
+    active: boolean;
+    types: ("affiliate" | "sponsorship" | "other")[];
+    since: string | null;
+  };
   pricing: string | null;
   news: { date: string; headline: string; url?: string }[];
   verified: boolean;
@@ -560,8 +569,11 @@ export const companies: Company[] = [
     },
     referralProgram: {
       exists: true,
-      notes: "atoms.dev/affiliate: commission on each referred user's first 6 recurring payments; referred users get $50 in credits; monthly payouts via Wise.",
+      notes: "atoms.dev/affiliate: commission on each referred user's first 6 recurring payments; referred users get 10 credits after signing up and sending at least one message (atoms.dev/affiliate, checked 19 Oct 2026); monthly payouts via Wise.",
     },
+    // Affiliate link (Rewardful) on the homepage Builder stack. Start month to
+    // confirm from the Rewardful dashboard, so `since` stays null.
+    commercialRelationship: { active: true, types: ["affiliate"], since: null },
     pricing: "Freemium: ~25 free credits/cycle; paid from $20/mo; Race Mode on the $100/mo Max plan.",
     news: [
       { date: "2026-06-16", headline: "MarkTechPost: Research, app delivery, SEO and ads agents coordinated with founder approvals; sponsored by Atoms.", url: "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/" },
@@ -1691,6 +1703,12 @@ export const stackLayers: { key: StackCategory; label: string; blurb: string }[]
   { key: "distribution", label: "Distribution & comms", blurb: "Ads, email, phone — reaching the real world" },
 ];
 
+// Always-visible disclosure shown wherever tool links can be affiliate links
+// (homepage Builder stack via lib/registry-source/polish.js, and guides).
+// Keep the registry copy in polish.js identical.
+export const AFFILIATE_DISCLOSURE =
+  "Some tool links are affiliate links. We may earn a commission at no cost to you. It never affects inclusion or grading.";
+
 // The infrastructure layer that showed up repeatedly behind autopilot businesses.
 // Referral notes are indicative — always confirm current terms on the vendor's site.
 export const stackTools: StackTool[] = [
@@ -1733,7 +1751,7 @@ export const stackTools: StackTool[] = [
     name: "Atoms",
     url: "https://atoms.dev",
     role: "AI business team — agents that build, deploy AND market your product",
-    referral: "Affiliate: referred users get $50 in credits",
+    referral: "Affiliate link — referred users get 10 credits after signing up and sending one message",
     referralUrl: "https://atoms.dev/?utm_source=affiliate&via=autopilot-biz",
     usedBy: ["One-person companies"],
     category: "intelligence",
@@ -1880,8 +1898,9 @@ export const stackTools: StackTool[] = [
     name: "Vapi",
     url: "https://vapi.ai",
     role: "Voice agents by API — dial, listen, respond; the fast path to a 'Rachel' of your own",
-    // TODO(referral): join at https://affiliates.vapi.ai (~15% via Tolt) → set referralUrl
-    referral: "Affiliate: ~15% commission",
+    // Creators program (vapi.ai/creators) shows "APPLICATIONS ON HOLD" (checked
+    // 19 Oct 2026). No affiliate link is live, so no affiliate copy is shown.
+    referral: null,
     usedBy: ["Solo builders"],
     category: "agents",
   },
@@ -1897,7 +1916,7 @@ export const stackTools: StackTool[] = [
     name: "Firecrawl",
     url: "https://firecrawl.dev",
     role: "Websites → LLM-ready data — the web-reading layer for agent pipelines",
-    referral: "Affiliate link — referred users get 20% off for 3 months",
+    referral: "Affiliate link — referred users get 10% off their first purchase",
     referralUrl: "https://firecrawl.link/autopilot-index",
     usedBy: ["Solo builders"],
     category: "agents",

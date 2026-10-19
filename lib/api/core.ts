@@ -43,6 +43,7 @@ export function companyDTO(c: Company) {
     pricingCheckedAt: currentResearch?.checkedAt ?? null,
     pricingSources: currentResearch?.pricing.sources.map((source) => ({ name: source.name, url: source.url })) ?? [],
     referralProgram: { exists: c.referralProgram.exists, notes: c.referralProgram.notes },
+    commercialRelationship: c.commercialRelationship ?? null,
     verified: c.verified,
     cohort: c.cohort ?? null,
     autopilot: c.autopilot
