@@ -22,9 +22,6 @@ bundle=bundle.replace(/\b(document|window|app)\.addEventListener\(/g,'listen($1,
  .replace(/<div class="preview-strip">[\s\S]*?<\/div><main/,'<main')
  .replaceAll('REFERRAL PREVIEW','TOOL SPOTLIGHT')
  .replaceAll('Preview placement · ordinary website link; referral URL pending','Independent tool spotlight · no paid placement')
- .replaceAll('PROPOSED V1 PLACEMENT','SPONSORSHIP ENQUIRIES')
- .replaceAll('This is a sponsorship concept. Availability, pricing and audience figures will be confirmed before booking. No payment or enquiry is submitted from this preview.','For availability and pricing, contact Antonio on LinkedIn. Sponsored placements will be labeled.')
- .replaceAll('<button class="outline-link" data-sponsor-show>Show the placement on the page</button>','<a class="outline-link" href="https://www.linkedin.com/in/antonioserranopabon/" target="_blank" rel="noopener noreferrer">Discuss sponsorship ↗</a>')
  .replaceAll('No exact-domain Dealroom match in this refresh. Existing sourced observations appear below.','Company fundamentals below retain their original sources.')
  .replaceAll('Dealroom API ·','Dealroom API ·');
 const cleanup=`
