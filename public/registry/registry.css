@@ -40,6 +40,15 @@
 .exp-evidence{font-size:11px;color:#6f7f6e;margin:12px 0 0}
 .exp-links{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:14px;font-size:11px}
 .exp-links a{color:#3a7650}
+.exp-media{margin:-20px -20px 14px}
+.exp-media img,.exp-textcard{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;background:#eef0ec;border-bottom:1px solid #dfe8dd}
+.exp-credit{font:9px/14px var(--mono);color:#9baa91;margin:6px 20px 0;overflow-wrap:anywhere}
+.exp-credit a{color:#84957e;text-decoration:underline;text-underline-offset:2px}
+.exp-textcard{box-sizing:border-box;padding:6% 7%;background:#293b2e;color:#f4f7f1;display:flex;flex-direction:column;justify-content:center;gap:8px}
+.exp-textcard-eyebrow{font:500 9px/14px var(--mono);color:#a9c5a3;letter-spacing:.04em}
+.exp-textcard strong{font-size:clamp(15px,1.45vw,21px);font-weight:500;line-height:1.25}
+.exp-textcard-body{font-size:12px;line-height:1.5;color:#d7e2d3}
+.exp-textcard-attr{font:9px/14px var(--mono);color:#a9c5a3}
 @media(max-width:1100px){.exp-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.exp-grid{grid-template-columns:1fr}}
 
