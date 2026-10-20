@@ -5,6 +5,7 @@
 // Runs on plain Node: node --experimental-strip-types scripts/send-edition.ts <slug>
 
 import { editions } from "../lib/editions.ts";
+import { sponsorUrl } from "../lib/sponsor.ts";
 
 const SITE = "https://www.autopilotindex.com";
 const slug = process.argv[2];
@@ -25,19 +26,28 @@ const fmt = (s: string) =>
     .replace(/\*\*(.+?)\*\*/g, "<strong style='color:#e4e4e7'>$1</strong>")
     .replace(/\*(.+?)\*/g, "<em style='color:#d4d4d8'>$1</em>");
 
+const sp = e.sponsor;
+const spLine = sp
+  ? `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#a1a1aa;padding-bottom:16px"><span style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#71717a">Sponsored by</span> <a href="${sponsorUrl(sp.url)}" rel="sponsored" style="color:#e4e4e7"><strong>${sp.name}</strong>: ${sp.pitch} →</a></td></tr>`
+  : "";
+const spBlock = sp
+  ? `<tr><td style="padding:8px 0 16px"><table role="presentation" width="100%" style="border:1px solid #3f3f46;border-radius:10px"><tr><td style="padding:14px;font-family:Helvetica,Arial,sans-serif"><div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#71717a">Sponsored</div>${sp.logo ? `<img src="${SITE}${sp.logo}" width="40" height="40" alt="" style="margin-top:8px;border-radius:4px"/>` : ""}<div style="font-size:14px;font-weight:bold;color:#fafafa;padding-top:6px">${sp.name}</div><div style="font-size:13px;color:#a1a1aa">${sp.pitch}</div><a href="${sponsorUrl(sp.url)}" rel="sponsored" style="font-size:13px;color:#a3e635">Visit →</a></td></tr></table></td></tr>`
+  : "";
+
 const html = `<!doctype html><html><body style="margin:0;padding:0;background:#09090b">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#09090b"><tr><td align="center" style="padding:32px 12px">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%">
 <tr><td style="font-family:'Courier New',monospace;font-size:18px;font-weight:bold;color:#f4f4f5;padding-bottom:18px">autopilot<span style="color:#a3e635">index</span></td></tr>
 <tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#a3e635;padding-bottom:6px">Autopilot Pulse · #${String(e.number).padStart(2, "0")}</td></tr>
 <tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:26px;font-weight:bold;color:#fafafa;padding-bottom:16px">${e.title}</td></tr>
+${spLine}
 <tr><td style="padding-bottom:20px"><img src="${SITE}${e.cover}" width="600" style="width:100%;border-radius:12px" alt="Edition cover"/></td></tr>
 ${e.tldr.length ? `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#a3e635;padding-bottom:8px">TL;DR</td></tr>` : ""}
 ${e.tldr.map((t) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:1.6;color:#d4d4d8;padding-bottom:6px">→ ${fmt(t)}</td></tr>`).join("\n")}
 ${e.correction ? `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:12px;line-height:1.6;color:#a1a1aa;padding:16px 0">${e.correction}</td></tr>` : ""}
 ${e.sections
   .map(
-    (s) => `
+    (s, i) => `${i === 1 ? spBlock : ""}
 ${s.heading ? `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:19px;font-weight:bold;color:#fafafa;padding:22px 0 8px">${s.heading}</td></tr>` : ""}
 ${s.image ? `<tr><td style="padding:4px 0 10px"><img src="${SITE}${s.image}" width="600" style="width:100%;border-radius:10px" alt=""/></td></tr>` : ""}
 ${s.paras.map((p) => `<tr><td style="font-family:Helvetica,Arial,sans-serif;font-size:14.5px;line-height:1.65;color:#a1a1aa;padding-bottom:12px">${fmt(p)}</td></tr>`).join("\n")}

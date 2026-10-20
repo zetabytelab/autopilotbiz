@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { editions, editionSummary, getEdition } from "@/lib/editions";
 import SubscribeForm from "@/components/SubscribeForm";
 import { editionJsonLd, jsonLdScript } from "@/lib/edition-jsonld";
+import { SPONSOR_REL, sponsorUrl } from "@/lib/sponsor";
 
 export function generateStaticParams() {
   return editions.map((e) => ({ slug: e.slug }));
@@ -62,6 +63,18 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
         <h1 className="text-3xl font-black tracking-tight text-zinc-50 sm:text-4xl">{e.title}</h1>
       </header>
 
+      {e.sponsor && (
+        <p className="mb-6 text-sm text-zinc-400" data-sponsor-line>
+          <span className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500">Sponsored by</span>{" "}
+          <a href={sponsorUrl(e.sponsor.url)} rel={SPONSOR_REL} target="_blank" className="text-zinc-100 hover:text-lime-400">
+            <strong>{e.sponsor.name}</strong>: {e.sponsor.pitch} →
+          </a>
+          {e.sponsor.listedSlug && (
+            <> · <Link href={`/companies/${e.sponsor.listedSlug}`} className="text-zinc-500 underline">also listed in the index</Link></>
+          )}
+        </p>
+      )}
+
       <Image
         src={e.cover}
         alt={e.coverAlt ?? `Edition #${e.number} cover`}
@@ -95,6 +108,20 @@ export default async function EditionPage({ params }: { params: Promise<{ slug: 
 
       {e.sections.map((s, i) => (
         <Fragment key={i}>
+        {i === topFormAt && e.sponsor && (
+          <aside className="mb-8 rounded-xl border border-zinc-700 p-4" aria-label="Sponsored" data-sponsor-block>
+            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500">Sponsored</p>
+            <div className="mt-2 flex gap-3">
+              {e.sponsor.logo && <Image src={e.sponsor.logo} alt="" width={40} height={40} className="h-10 w-10 rounded" />}
+              <div className="text-sm">
+                <p className="font-semibold text-zinc-100">{e.sponsor.name}</p>
+                <p className="text-zinc-400">{e.sponsor.pitch}</p>
+                <a href={sponsorUrl(e.sponsor.url)} rel={SPONSOR_REL} target="_blank" className="text-lime-400 hover:underline">Visit →</a>
+                {e.sponsor.listedSlug && <p className="mt-1 text-xs text-zinc-500">{e.sponsor.name} is also a company in the index.</p>}
+              </div>
+            </div>
+          </aside>
+        )}
         {i === topFormAt && (
           <section id="subscribe" className="newsletter-signup mb-8" aria-labelledby="edition-signup-heading">
             <h2 id="edition-signup-heading">You&apos;re reading the web copy of Autopilot Pulse #{e.number}.</h2>

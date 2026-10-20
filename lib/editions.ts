@@ -26,6 +26,18 @@ export type Edition = {
   // or more URLs, shown as given (link text = URL).
   sourceList?: { label: string; urls: string[] }[];
   signOff?: boolean; // house sign-off in the footer; default true
+  // Paid sponsor for this edition (see /sponsor). Rendered as a "Sponsored by"
+  // line near the top and a featured block inside the edition, on the web copy,
+  // the Brevo email and the LinkedIn article. Links get rel="sponsored" and UTM tags.
+  sponsor?: EditionSponsor;
+};
+
+export type EditionSponsor = {
+  name: string;
+  pitch: string; // about 40 characters
+  url: string; // UTM tags added unless the sponsor's URL already has its own
+  logo?: string; // site path, square PNG or SVG
+  listedSlug?: string; // set if the sponsor is also a company in the index
 };
 
 // Edition #11 go-live date (YYYY-MM-DD). It drives the page date, the RSS
