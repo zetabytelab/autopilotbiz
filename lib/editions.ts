@@ -44,7 +44,206 @@ export type EditionSponsor = {
 // pubDate, the sitemap lastModified and /api/v1/editions.
 export const PULSE_11_PUBLISH_DATE = "2026-09-29";
 
+// Edition #12 go-live date (YYYY-MM-DD), published on LinkedIn 20 Oct 2026.
+export const PULSE_12_PUBLISH_DATE = "2026-10-20";
+
 export const editions: Edition[] = [
+  {
+    "slug": "12-your-workflow-is-the-product",
+    "number": 12,
+    "title": "Your workflow is the product",
+    "date": PULSE_12_PUBLISH_DATE,
+    "cover": "/pulse/12-cover.jpg",
+    "coverAlt": "Illustration: a path of task cards, checkpoints and tool icons climbing in loops towards a stacked, glowing platform of records and databases.",
+    "linkedinUrl": "https://www.linkedin.com/pulse/autopilot-pulse-12-your-workflow-product-antonio-s--rqwve/",
+    // The LinkedIn article has no TL;DR; descriptions fall back to the opening paragraphs.
+    "tldr": [],
+    // Sources line from the LinkedIn article, listed as given under the body.
+    "sourceList": [
+      {
+        "label": "micro1 announcement",
+        "urls": [
+          "https://www.financialcontent.com/article/bizwire-2026-10-9-micro1-announces-1-billion-enterprise-ai-data-commitment"
+        ]
+      },
+      {
+        "label": "micro1 data partnerships",
+        "urls": [
+          "https://www.micro1.ai/data-partnerships"
+        ]
+      },
+      {
+        "label": "Spirit auction notice, Dkt. 1463",
+        "urls": [
+          "https://storage.courtlistener.com/recap/gov.uscourts.nysb.331039/gov.uscourts.nysb.331039.1463.0.pdf"
+        ]
+      },
+      {
+        "label": "Spirit privacy ombudsman report",
+        "urls": [
+          "https://document.epiq11.com/document/getdocumentbycode?docId=4611564&projectCode=SPJ&source=DM"
+        ]
+      },
+      {
+        "label": "Spirit hearing adjournment and 6 November date",
+        "urls": [
+          "https://chapter11cases.com/blogs/news/spirit-airlines-case-update-the-data-sale-slips-to-november-as-spirit-moves-to-unwind-the-hfs-aircraft-deal"
+        ]
+      },
+      {
+        "label": "Dust Index",
+        "urls": [
+          "https://dust.tt/blog/dust-index-ai-strategy-beyond-models"
+        ]
+      },
+      {
+        "label": "Xiangyi Li",
+        "urls": [
+          "https://x.com/xdotli/status/2108010243200590199"
+        ]
+      },
+      {
+        "label": "Arjun Raj Jain",
+        "urls": [
+          "https://x.com/ArjunRajJain/status/2108639115608514988"
+        ]
+      },
+      {
+        "label": "Nazneen Rajani",
+        "urls": [
+          "https://x.com/nazneenrajani/status/2108250227149017308"
+        ]
+      },
+      {
+        "label": "Gokul Rajaram",
+        "urls": [
+          "https://x.com/gokulr/status/2107851356019290569"
+        ]
+      },
+      {
+        "label": "Sacra on Handshake",
+        "urls": [
+          "https://sacra.com/research/handshake-indeed-for-data-labelers/"
+        ]
+      },
+      {
+        "label": "Hone launch",
+        "urls": [
+          "https://hone.com/blog/introducing-engines/"
+        ]
+      },
+      {
+        "label": "Hone simulations",
+        "urls": [
+          "https://hone.com/blog/closing-the-gap/"
+        ]
+      },
+      {
+        "label": "Index Ventures on Hone",
+        "urls": [
+          "https://www.indexventures.com/perspectives/ai-that-owns-business-outcomes-our-investment-in-hone/"
+        ]
+      },
+      {
+        "label": "Forbes Agentic 20",
+        "urls": [
+          "https://www.forbes.com/sites/annatong/2026/10/08/the-agentic-20/"
+        ]
+      },
+      {
+        "label": "Andon Market",
+        "urls": [
+          "https://andonlabs.com/market"
+        ]
+      },
+      {
+        "label": "Autopilot Index levels",
+        "urls": [
+          "https://github.com/zetabytelab/autopilot"
+        ]
+      }
+    ],
+    "signOff": false,
+    "sections": [
+      {
+        "paras": [
+          "AI labs are buying records of how companies work. The more durable prize may be the workflow that keeps creating that record — and improving from it.",
+          "AI labs have worked out what they are short of. Not another model, but the record of how real companies get work done: the tickets, decisions, repairs and exceptions that turn a general model into a useful colleague.",
+          "On 9 October, micro1 said it would commit $1B over the next 12 months to acquiring and licensing enterprise data. That is a company claim, not a disclosed financing arrangement. The more revealing evidence is a live bankruptcy case: Google’s proposed $10M purchase of Spirit Airlines’ de-identified business data has drawn objections, a privacy review and repeated delays.",
+          "My argument this week: an archive is a one-off asset. A well-run agent workflow is a factory for fresh operational evidence. It produces work, records how that work was done, captures corrections and can use the result to get better. That is a more interesting asset than the archive alone."
+        ]
+      },
+      {
+        "heading": "1 — The buyers have names, budgets and a court date",
+        "paras": [
+          "micro1 announcement says it has a commitment to spend $1B in a year on enterprise data acquisition and licensing, with backing from Citi and Hercules. Its data-partnerships page advertises qualified partnership payouts beginning at $100,000. Neither source discloses deal terms or completed purchases, so both should be read as company statements rather than market totals.",
+          "Spirit is the harder case. At its August auction, Google was selected as the successful bidder for $10M; Mercor $7.5M proposal was the alternate bid. The sale concerns de-identified enterprise data, including a reported 100 million emails and 500 million Teams items.",
+          "micro1 later submitted a proposed $12.5M competing offer. Selection at auction is not court approval, completion or delivery of the data.",
+          "That distinction matters because the hearing scheduled for 14 October did not decide the sale. It was adjourned to 6 November. In the meantime, the court-appointed consumer privacy ombudsman recommended approval of Google’s revised proposal, which excludes passenger databases and calls for a third party to de-identify the material before Google receives it. Her review leaves a practical question hanging:",
+          "**how useful is a work record once the people in it have been scrubbed out?**",
+          "The lesson is not that every company should sell its records. It is that the record of work is now valuable enough to be separately priced, contested and reviewed by a bankruptcy court."
+        ]
+      },
+      {
+        "heading": "2 — The record is made inside the workflow",
+        "paras": [
+          "The most useful record is unlikely to be sitting in a dormant Slack export. It is made live, by agents working through real jobs, with people correcting them and the path recorded.",
+          "Dust calls this path an agent trace: the steps an agent took, the tools it used and the results it produced. Its first Dust Index is a vendor study of its own customers, so it is evidence of its user base, not the entire market. Still, the pattern is worth noting:",
+          "**65% of messages to agents went to custom agents used by more than one person. Only 1.8% of enterprise custom agents had 50 or more users, yet those agents accounted for 43.3% of messages.**",
+          "Shared agents are where operational memory accumulates. They encounter the edge case, take an action, receive a correction and leave behind more than a chat transcript: a trace connected to the tools, policies and outcome that shaped it.",
+          "There is a credible counterargument.",
+          "BenchFlow founder Xiangyi Li argues that companies may keep their data and train specialised internal models rather than package it for sale.",
+          "pre.dev founder Arjun Raj Jain is more sceptical, arguing that most sellers cannot show why their business data would improve a particular task — and that agents will not behave exactly like employees.",
+          "I think Jain’s second point strengthens the case for live workflow data. If agents work differently from people, a historical archive of people working may be less useful than an ongoing record of agents working, being checked and being corrected. That is my inference, not his claim."
+        ],
+        "image": "/pulse/12-inline-1.jpg",
+        "imageAlt": "Illustration: a loop of four cards joined by arrows, from a task card to a stack of logged records, to a card being corrected with a pencil, to an improved card and back again."
+      },
+      {
+        "heading": "3 — Quick revenue is not the same as a durable asset",
+        "paras": [
+          "The data rush offers an enticing shortcut, which makes the terms worth inspecting. Collinear chief executive Nazneen Rajani wrote that a new entrant can reach $80M–$100M of one-time revenue from a single account if it does not care much about margins. Investor Gokul Rajaram separately described an unnamed data company reaching $80M in monthly revenue and $1B annualised, while saying that most of it was not recurring. Both are public claims, not audited results.",
+          "Two words are doing a lot of work there.",
+          "Annualised usually means one month multiplied by twelve.",
+          "Gross is before the payouts required to create the data.",
+          "Sacra estimates Handshake at $1.1B of annualised gross revenue, but roughly $450M net after contractor payouts. That is an estimate, not a company disclosure, but it illustrates why the label on the revenue matters.",
+          "Selling an archive pays once. An agent-run workflow can keep producing a new record, while using the old one to improve the next attempt. The compounding asset is not merely the data store. It is the loop:",
+          "**work → trace → correction → better work.**"
+        ]
+      },
+      {
+        "heading": "4 — Hone is a useful test of the thesis",
+        "paras": [
+          "Hone is about five months old and says it has raised a $60M seed, led by Benchmark and co-led by Index Ventures, at a $285M valuation. Those are company-reported fundraising figures. Its team also fits a broader pattern worth watching: chief executive Moritz Stephan was an early Cognition employee and later its chief of staff; chief technology officer Oliver Brady came from Harvey and Mercor; co-founder Carlo Kobe previously co-founded Mine.",
+          "Hone calls its Engines “persistent AI that owns outcomes” and says operating knowledge should not disappear at the end of a session or live inside a model available to everyone else. That is product language, not proof of results. But it defines the strategic object clearly: a company-specific system that retains how work is actually done.",
+          "Hone also says its director agent can simulate a customer’s coworkers, suppliers and tools from the customer’s records, allowing an Engine to test a change before using it in production.",
+          "The company reports that, across 125 scenarios, replaying a change before promotion reduced regressions from 33% to 5%. That is a company result with no independent methodology published, so it should be treated as an encouraging claim, not a benchmark.",
+          "The underlying proposition is sound enough to test: a workflow history becomes more valuable when it is not only training material, but the environment in which an agent can rehearse and be evaluated."
+        ],
+        "image": "/pulse/12-inline-2.jpg",
+        "imageAlt": "Illustration: a glass cube containing a miniature model of a company, with a path of glowing dots passing through and a check mark, before leaving through a shield-marked gate."
+      },
+      {
+        "heading": "5 — What the Index measures that pedigree cannot",
+        "paras": [
+          "The Autopilot Index ranks companies by who runs them: from L2, where AI runs whole functions end-to-end with human review, to L4, where a human sets goals and signs papers while AI operates the company day to day.",
+          "My view is that a higher level should create a richer work record by default. More of the work is completed, logged and corrected within agent workflows. In that sense, the Index is also a map of who may be creating the most valuable operational data — provided the claimed autonomy can be demonstrated.",
+          "That matters.",
+          "Forbes’ Agentic 20 says explicitly that it is not a formula-driven ranking.",
+          "It includes Instinct, reported to have raised at a $10B valuation with 14 staff and no disclosed revenue, alongside Andon Labs’ Luna, an AI manager that has run a San Francisco shop since April.",
+          "Luna’s shop reportedly approved every time-off request and saw its bank balance fall from $100,000 to $61,186 over five months. Both examples are more useful as questions than as trophies: what did the agent actually own, and what did the humans still control?",
+          "No company is at L4 yet. The Index’s L4 test requires independent observation of a company serving real customers for weeks without human operational intervention. A funding round, a benchmark score, a data deal or a memorable demonstration does not meet that standard."
+        ]
+      },
+      {
+        "heading": "What to watch next",
+        "paras": [
+          "On 6 November, the Spirit court will consider whether Google’s proposed purchase of de-identified enterprise data can proceed and on what terms. The hearing will not settle the value of workflow data, but it will clarify what one buyer is willing to pay for a very large, contested archive.",
+          "The more durable signal will come from companies that make their own work record every day: agents doing real jobs, people correcting them, systems retaining what happened and teams showing the outcome improved. That is the transition from data as inventory to workflow as product."
+        ]
+      }
+    ]
+  },
   {
     "slug": "11-can-it-pay-the-rent",
     "number": 11,
