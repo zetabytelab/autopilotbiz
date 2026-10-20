@@ -1416,6 +1416,78 @@ export const companies: Company[] = [
     },
   },
   {
+    name: "Hone",
+    slug: "hone",
+    url: "https://hone.com",
+    tagline: "Sells \"Engines\": AI agents assigned business outcomes rather than tasks.",
+    categoryClaim: "Agent vendor for enterprises; says it runs its own operations on its Engines.",
+    description:
+      "San Francisco agent vendor that launched on 8 October 2026 with a $60M seed round led by Benchmark and co-led by Index Ventures (Hone, Index Ventures and Bloomberg); Bloomberg reports a $285M valuation according to Hone. Its product, Engines, is sold to enterprises: persistent agents assigned an outcome, which Hone says work in Slack, Teams and email and need human approval for sensitive actions. On the watchlist only because Hone's job ads say it runs its own operations on Engines. That claim comes from hiring copy, names no function already handed to an Engine and gives no metrics; the ads describe humans building each function first and handing it to an Engine later. Revenue is not disclosed. LinkedIn lists a self-reported 11-50 staff band, and Hone listed 12 open roles on 19 October 2026. Checked 19 October 2026.",
+    techStack: ["Hone Engines (own product)"],
+    funding: {
+      totalRaised: "$60M",
+      lastRound: "$60M seed (Benchmark lead, Index Ventures co-lead)",
+      date: "2026-10-08",
+      valuation: "$285M (per Hone, reported by Bloomberg)",
+      investors: ["Benchmark", "Index Ventures"],
+    },
+    founders: [
+      {
+        name: "Moritz Stephan",
+        background: "CEO. Previously at Cognition, latterly as chief of staff; Stanford CS, agent research at the Stanford AI Lab (Index Ventures, LinkedIn).",
+      },
+      {
+        name: "Oliver Brady",
+        background: "Co-founder and CTO. Previously an engineer at Harvey and head of engineering for enterprise at Mercor (Index Ventures, LinkedIn).",
+      },
+      {
+        name: "Carlo Kobe",
+        background: "Co-founder. 2025 Thiel Fellow; previously co-founded and ran Fizz, later Mine, with Moritz Stephan (Thiel Foundation, LinkedIn).",
+      },
+    ],
+    metrics: {
+      arr: null,
+      arrUsd: null,
+      humans: null,
+      sources: {
+        raised: { name: "Hone", url: "https://hone.com/blog/introducing-engines/" },
+      },
+    },
+    referralProgram: { exists: null, notes: null },
+    pricing: "No public pricing. The CEO says Hone is exploring budget- or outcome-based pricing (TBPN Digest, 8 Oct 2026).",
+    news: [
+      {
+        date: "2026-10-19",
+        headline: "Hone job ads (Ashby) say \"Hone runs its own operations on engines\"; the roles describe handing functions to Engines once they work, with no function named as already handed over.",
+        url: "https://jobs.ashbyhq.com/hone",
+      },
+      {
+        date: "2026-10-08",
+        headline: "Hone launches Engines and announces a $60M seed round from Benchmark and Index.",
+        url: "https://hone.com/blog/introducing-engines/",
+      },
+      {
+        date: "2026-10-08",
+        headline: "Bloomberg reports the round values Hone at $285M, according to the company.",
+        url: "https://news.bloomberglaw.com/artificial-intelligence/former-openai-cognition-staffers-want-ai-to-help-run-a-business",
+      },
+      {
+        date: "2026-10-08",
+        headline: "Index Ventures explains its investment in Hone.",
+        url: "https://www.indexventures.com/perspectives/ai-that-owns-business-outcomes-our-investment-in-hone/",
+      },
+    ],
+    verified: false,
+    cohort: "expansion",
+    autopilot: {
+      level: "L2",
+      evidence: "D",
+      section: "watchlist",
+      story: "Agent vendor whose job ads say \"Hone runs its own operations on engines\"; no internal function or metric disclosed yet.",
+      flags: "Provisional L2, grade D, low confidence. The dogfooding claim comes from job ads only and reads as forward-looking. Out of scope as tooling unless a dated first-party account shows an Engine running a named Hone function end to end with metrics. Revenue undisclosed; 11-50 staff (LinkedIn band) and 12 open roles fail the size test. $285M valuation is per Hone.",
+    },
+  },
+  {
     name: "Retell AI",
     slug: "retell-ai",
     url: "https://www.retellai.com",
