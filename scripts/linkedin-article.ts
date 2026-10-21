@@ -8,6 +8,7 @@
 // re-uploaded by LinkedIn on paste and should be checked afterwards.
 
 import { editions } from "../lib/editions.ts";
+import { sponsorUrl } from "../lib/sponsor.ts";
 
 const SITE = "https://www.autopilotindex.com";
 const slug = process.argv[2];
@@ -30,7 +31,12 @@ const fmt = (s: string) =>
 const img = (src: string, alt: string) =>
   `<p><img src="${SITE}${src}" alt="${esc(alt)}" style="max-width:100%"/></p>`;
 
+const sp = e.sponsor;
+const spLine = sp ? `<p><em>Sponsored by</em> <a href="${sponsorUrl(sp.url)}" rel="sponsored">${esc(sp.name)}</a>: ${esc(sp.pitch)}</p>` : "";
+const spBlock = sp ? `<blockquote><p><strong>SPONSORED · ${esc(sp.name)}</strong><br/>${esc(sp.pitch)}<br/><a href="${sponsorUrl(sp.url)}" rel="sponsored">Visit →</a></p></blockquote>` : "";
+
 const body = `<h1>${esc(e.title)}</h1>
+${spLine}
 ${img(e.cover, `${e.title} — Autopilot Pulse #${e.number}`)}
 <p><em>Autopilot Pulse #${String(e.number).padStart(2, "0")} · ${new Date(e.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</em></p>
 ${e.correction ? `<blockquote><p>${fmt(e.correction)}</p></blockquote>` : ""}
@@ -39,8 +45,9 @@ ${e.tldr.length ? `<h2>The short version</h2>
 ${e.tldr.map((t) => `  <li>${fmt(t)}</li>`).join("\n")}
 </ul>` : ""}
 ${e.sections
-  .map((s) =>
+  .map((s, i) =>
     [
+      i === 1 ? spBlock : "",
       s.heading ? `<h2>${esc(s.heading)}</h2>` : "",
       s.image ? img(s.image, s.imageAlt ?? "") : "",
       ...s.paras.map((p) => `<p>${fmt(p)}</p>`),

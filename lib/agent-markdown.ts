@@ -26,11 +26,12 @@ The Autopilot Index tracks a new class of company: businesses run primarily by A
 - [News pulse](https://autopilotindex.com/news) — de-duplicated daily signals.
 - [Submit a company](https://autopilotindex.com/submit)
 - [Pricing](https://autopilotindex.com/pricing) — free; no paid tiers.
+- [Sponsor Autopilot Pulse](https://autopilotindex.com/sponsor)
 - [About](https://autopilotindex.com/about) · [Contact](https://autopilotindex.com/contact) · [Privacy](https://autopilotindex.com/privacy)
 
 ## Pricing
 
-The Autopilot Index is **free**. No paid tiers, no paywall. Funded by a free newsletter, affiliate links (marked \`rel="sponsored"\`), and optional reader support (Buy me a coffee). See https://autopilotindex.com/pricing.
+The Autopilot Index is **free**. No paid tiers, no paywall. Funded by labelled Autopilot Pulse sponsors (https://autopilotindex.com/sponsor), affiliate links (marked \`rel="sponsored"\`), and optional reader support (Buy me a coffee). See https://autopilotindex.com/pricing.
 
 ## Guides (Proof of Stack)
 
@@ -102,14 +103,14 @@ Use this page to submit a company run primarily by AI: its name, what it does, w
 
 > The Autopilot Index is free. No paid tiers, no paywall.
 
-Everything — the index, the stack maps, the guides, and every edition of Autopilot Pulse — is public and free to read, for humans and agents alike.
+There are no paid tiers, no subscription and no paywall. Everything is public and free to read, for humans and agents alike: the index of AI-run companies, the tech-stack maps, the guides, and every edition of Autopilot Pulse.
 
 ## How it's funded
-- Newsletter (free): https://autopilotindex.com/pulse
-- Affiliate links to tools (marked \`rel="sponsored"\`); commission at no cost to you.
-- Optional reader support (Buy me a coffee); never gates content.
+- Sponsors. Each edition of Autopilot Pulse (https://autopilotindex.com/pulse) can carry one sponsor, with a bonus mention on the homepage during that week. Sponsored placements are always labelled "Sponsored", and their links use \`rel="sponsored"\`. Sponsors never affect a company's level, evidence grade, ranking or coverage. If a sponsor is also a company in the index, we say so on its profile. Sponsor an edition: https://autopilotindex.com/sponsor
+- Affiliate links. Some links to tools are referral links, marked \`rel="sponsored"\`. If you sign up through one, the index may earn a commission at no extra cost to you. When the tool is also a company in the index, that's disclosed, and it has no effect on its rating.
+- Optional reader support. A Buy me a coffee link (https://buymeacoffee.com/serranox). It's entirely optional and never gates any content.
 
-If the model ever changes, this page will say so first. Details: https://autopilotindex.com/pricing
+Reading stays free. If the way the site is funded changes, this page will say so first. Details: https://autopilotindex.com/pricing
 `,
   "/about": `# About — The Autopilot Index
 

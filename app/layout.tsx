@@ -70,6 +70,9 @@ export default function RootLayout({
               <Link href="/submit" className="text-zinc-400 hover:text-zinc-100">
                 Submit
               </Link>
+              <Link href="/sponsor" className="text-zinc-400 hover:text-zinc-100">
+                Sponsor
+              </Link>
               <Link
                 href="/news"
                 className="rounded-full border border-lime-400/40 bg-lime-400/10 px-3 py-1 font-medium text-lime-400 hover:bg-lime-400/20"
@@ -95,6 +98,7 @@ export default function RootLayout({
             <Link href="/experiments/atoms" className="hover:text-lime-400">Atoms experiment</Link>
             <Link href="/pulse" className="hover:text-lime-400">Editions</Link>
             <Link href="/pricing" className="hover:text-lime-400">Pricing</Link>
+            <Link href="/sponsor" className="hover:text-lime-400">Sponsor</Link>
             <Link href="/developers" className="hover:text-lime-400">Developers</Link>
             <Link href="/dealroom" className="hover:text-lime-400">Leverage Screener</Link>
             <Link href="/contact" className="hover:text-lime-400">Contact</Link>

@@ -25,11 +25,12 @@ It is a public media/reference index and structured data project, not currently 
 - [News pulse](https://autopilotindex.com/news): de-duplicated daily signals from the AI-company beat.
 - [Submit a company](https://autopilotindex.com/submit): add an AI-run company to the index.
 - [Pricing](https://autopilotindex.com/pricing): free — no paid tiers, no paywall.
+- [Sponsor Autopilot Pulse](https://autopilotindex.com/sponsor): one labelled sponsor per edition; founding rate $500 per edition (3 founding slots), then $750. Contact partners@autopilotindex.com.
 - [About](https://autopilotindex.com/about) · [Contact](https://autopilotindex.com/contact)
 
 ## Pricing
 
-The Autopilot Index is free. No paid tiers, no paywall. It is funded by a free newsletter, affiliate links to tools (marked rel="sponsored"), and optional reader support (Buy me a coffee). Nothing gates content.
+The Autopilot Index is free. No paid tiers, no paywall. It is funded by labelled Autopilot Pulse sponsors (one per edition, links marked rel="sponsored"; see https://autopilotindex.com/sponsor), affiliate links to tools (marked rel="sponsored"), and optional reader support (Buy me a coffee). Sponsors never affect a company's level, evidence grade, ranking or coverage. Nothing gates content.
 
 ## Guides (Proof of Stack)
 
