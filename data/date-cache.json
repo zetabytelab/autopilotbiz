@@ -18,20 +18,13 @@
    "attempts": 1
   },
   "32f4280d9416": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://hedgeco.net/news/10/2026/ai-agent-start-up-hone-raised-a-60-million-seed-round-led-by-benchmark-and-index-ventures-at-a-285-million-valuation.html",
-   "evidence": [
-    {
-     "kind": "feed",
-     "date": "2026-10-13T10:04:41.000Z",
-     "via": "feed",
-     "strong": true
-    }
-   ],
-   "realDate": "2026-10-13T10:04:41.000Z",
-   "via": "feed",
-   "attempts": 1
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 2
   },
   "cf6670b71a92": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -82,7 +75,7 @@
    "attempts": 1
   },
   "0f7993795832": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/business/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-2026-10-07/",
    "evidence": [
@@ -95,7 +88,7 @@
    ],
    "realDate": "2026-10-07T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "f6f6e73a621b": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -114,13 +107,13 @@
    "attempts": 1
   },
   "840a371e3c1d": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://tech-insider.org/cursor-ai-agents-56-percent-merged-prs-2026/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "c83d911a6b55": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -139,7 +132,7 @@
    "attempts": 1
   },
   "1f941eb1fb1e": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/legal/government/coreweaves-ceo-sold-nearly-1-billion-stock-since-ipo-filings-show-2026-10-16/",
    "evidence": [
@@ -152,7 +145,7 @@
    ],
    "realDate": "2026-10-16T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "edb04ffd3cdc": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -171,13 +164,13 @@
    "attempts": 1
   },
   "576ba52d77bd": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.techrepublic.com/fr/article/news-databricks-neon-acquisition/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "b91feece1c41": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -250,13 +243,13 @@
    "attempts": 1
   },
   "f81a39cf8405": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://app.dealroom.co/news/note/hone-raises-60m-seed-to-build-ai-that-owns-business-outcomes",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "0c98fce97238": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -307,16 +300,16 @@
    "attempts": 1
   },
   "83fb5bbc586c": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://tech-insider.org/nous-research-90-million-series-b-ai-agents-2026/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "4c5cdad7c870": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.bloomberg.com/news/articles/2026-10-07/video-game-designer-behind-sky-journey-raises-35-million",
    "evidence": [
@@ -329,7 +322,7 @@
    ],
    "realDate": "2026-10-07T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "90d393564828": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -364,16 +357,16 @@
    "attempts": 1
   },
   "40f4c9013861": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.businessofapps.com/video/0-of-series-a-spent-ai-app-gamma-ran-on-cheaper-llms/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "ee9faf0cc5b7": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.axios.com/pro/all-deals/2026/10/06/exclusive-antseed-decentralized-openrouter",
    "evidence": [
@@ -386,7 +379,7 @@
    ],
    "realDate": "2026-10-06T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "894161ff6f24": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -405,7 +398,7 @@
    "attempts": 1
   },
   "0711248c06f9": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.forbes.com/sites/legalentertainment/2026/10/05/audibles-new-ai-story-feature-raises-unanswered-copyright-questions/",
    "evidence": [
@@ -418,7 +411,7 @@
    ],
    "realDate": "2026-10-05T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "0ff7633156af": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -437,13 +430,13 @@
    "attempts": 1
   },
   "e2e4af105525": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://vmblog.com/news/radware-introduces-model-context-protocol-mcp-server-protection-to-help-secure-the-integration-layer-of-agentic-ai/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "910279478dd7": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -542,7 +535,7 @@
    "attempts": 1
   },
   "b08332d93076": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/orchestration/magnific-one-launches-to-give-teams-an-image-generator-that-avoids-the-ai-look-and-automatically-upholds-their-brand-kit",
    "evidence": [],
@@ -600,7 +593,7 @@
    "attempts": 1
   },
   "c0b0d9d01a7a": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
    "evidence": [],
@@ -648,7 +641,7 @@
    "attempts": 1
   },
   "c1e4c4a5475f": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.businesswire.com/news/home/20261006266441/en/Gamma-Launches-Gamma-5-to-Eliminate-the-AI-Smell-From-AI-Generated-Content",
    "evidence": [
@@ -661,16 +654,16 @@
    ],
    "realDate": "2026-10-06T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "855dccb2eeb9": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://getlatka.com/companies/browserbase.com",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "e29687e2bae8": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -689,40 +682,40 @@
    "attempts": 1
   },
   "0a98634eb45c": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://getlatka.com/companies/retellai.com",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "02b11dc44787": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://hedgeco.net/news/09/2026/firecrawl-raised-75-million-series-b-led-by-smash-capital.html",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "6506d213b7f3": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://vocal.media/01/groq-raises-350m-at-35b-valuation-as-it-pivots-from-ai-chipmaker-to-neocloud-provider",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "2dfc31c67ff6": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.mobihealthnews.com/news/elevenlabs-hits-22b-valuation-employee-tender",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "51244a70c1ab": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -853,7 +846,7 @@
    "attempts": 1
   },
   "7ed9a865e311": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/technology/anthropic-rolls-out-second-claude-55-model-it-builds-toward-ipo-2026-09-28/",
    "evidence": [
@@ -866,25 +859,25 @@
    ],
    "realDate": "2026-09-28T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "f2f9eb0a321f": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://getlatka.com/companies/cursor.com",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "ea9bbf2e12f6": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://getlatka.com/companies/n8nio",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "56b0cc77c5d0": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -969,7 +962,7 @@
    "attempts": 1
   },
   "ca1f39b4956f": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
    "evidence": [
@@ -982,7 +975,7 @@
    ],
    "realDate": "2026-09-23T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "9f08fd9bb530": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1001,7 +994,7 @@
    "attempts": 1
   },
   "ca3a681ce676": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/technology/modal-labs-talks-raise-funds-15-billion-valuation-bloomberg-news-reports-2026-09-23/",
    "evidence": [
@@ -1014,10 +1007,10 @@
    ],
    "realDate": "2026-09-23T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "28b7083778d8": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.nonbillable.co.uk/news/wim-dejonghe-launches-ai-native-law-firm-falcon",
    "evidence": [
@@ -1030,7 +1023,7 @@
    ],
    "realDate": "2026-10-02T14:55:00.000Z",
    "via": "feed",
-   "attempts": 1
+   "attempts": 2
   },
   "ea9c32e1cef1": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1049,13 +1042,13 @@
    "attempts": 1
   },
   "96b82ac8ca2e": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://devops.com/base44-unveils-ai-platform-to-transform-application-development/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "940527ec3578": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1138,7 +1131,7 @@
    "attempts": 1
   },
   "44162e8e42e3": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/orchestration/openclaw-launches-free-enterprise-control-plane-for-persistent-ai-agents-backed-by-openai-red-hat-and-nvidia",
    "evidence": [],
@@ -1148,13 +1141,13 @@
    "attempts": 0
   },
   "fb761775bc9c": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://sifted.eu/articles/h-company-cofounder-charles-kantor-new-ai-neocloud-startup/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "92a58ec99340": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1297,7 +1290,7 @@
    "attempts": 1
   },
   "ca0a2fa6c071": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.recordedfuture.com/blog/mcp-intelligence-layer",
    "evidence": [
@@ -1310,7 +1303,7 @@
    ],
    "realDate": "2026-09-28T00:00:00.000Z",
    "via": "feed",
-   "attempts": 1
+   "attempts": 2
   },
   "491347c00b75": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1345,13 +1338,13 @@
    "attempts": 1
   },
   "3a3de0394d83": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.techrepublic.com/article/news-anthropic-claude-opus-5-5-pricing-performance/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "35af42056df8": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1600,121 +1593,121 @@
    "attempts": 1
   },
   "bdcd52eea8bc": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/Wpku3vxih78",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "a4ea55d9087e": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/kOoHqDF2EEc?si=pAbnRfLJCktnbXkc",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "595a85fd370c": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/reldbbZmPBI",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "b9eb28eda54b": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/OXgMJCj-glw?si=Du8Skv_4BB0E28cE",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "a3ce2c0c21a1": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/5vCFSii4RzQ",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "3299b8cc7d9a": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/BHxARrI1kW4?si=a9OAGB6NyNyOVJxG",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "80a2c3baea6e": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/ees4uBDe-VQ",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "6ec8cb4a54e1": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/WOVR2RyBAOg?si=RMKj0oaJvPY_ehSl",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "139b4d39a01a": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/_EfM0VehYkI?si=ZFL58WdbE7uVKBk5",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "40ab3472e3d4": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/sKq1D59-qHQ",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "ba608c9b6b1f": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/skCTV334ExA?si=Nt0XTDqXaHi-xKXe",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "868f33f0257a": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/Zmbrerrt9Bo",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "bbb32417e73c": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/3C9h3T2BRMU?si=4a0Loc_ONRoG1GEA",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "ae33fb68ee8d": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1726,13 +1719,13 @@
    "attempts": 1
   },
   "fc3c08af5f11": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.indiagazette.com/news/279382461/uk-india-partnership-grown-in-ambition-breadth-outgoing-uk-envoy-lindy-cameron-hails-fta-vision-2035",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "6ca5b855ff4f": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1799,13 +1792,13 @@
    "attempts": 1
   },
   "a91393aa4fa1": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.citybiz.co/article/917605/runpod-surpasses-325m-in-annual-recurring-revenue-appoints-brian-erickson-as-cfo/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "88f92e5f0f76": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1846,7 +1839,7 @@
    "attempts": 1
   },
   "56b7735d3802": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.cnbc.com/2026/10/06/anthropic-claude-startups-program.html",
    "evidence": [
@@ -1859,7 +1852,7 @@
    ],
    "realDate": "2026-10-06T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "2e818d0188b0": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1976,13 +1969,13 @@
    "attempts": 1
   },
   "3329dba05ed8": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-404",
    "publisherUrl": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4199984:0-inab-promising-gamma-delta-t-cell-therapies-advance-toward-key-data-and-partnership-milestones-in-2026/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "36eaf7661b7c": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -2033,13 +2026,13 @@
    "attempts": 1
   },
   "7b2448337308": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.phoronix.com/news/AI-Reverse-Engineer-Linux-HW",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "c988e58d9fa5": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -4468,22 +4461,22 @@
    "attempts": 1
   },
   "5bb89b6c9540": {
-   "checkedAt": "2026-10-20T11:46:50.144Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.finsmes.com/2026/10/hone-raises-60m-in-funding-at-285m-valuation.html",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "d43e50bc4e15": {
-   "checkedAt": "2026-10-20T11:46:50.144Z",
+   "checkedAt": "2026-10-22T12:01:02.865Z",
    "status": "page:http-403",
    "publisherUrl": "https://tech-insider.org/supabase-150m-turso-acquisition-agent-database-2026/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "f6c96e4d606e": {
    "checkedAt": "2026-10-20T11:46:50.144Z",
@@ -12270,6 +12263,133 @@
    "evidence": [],
    "realDate": null,
    "via": null,
+   "attempts": 1
+  },
+  "e07c2b081932": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "ok",
+   "publisherUrl": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-15T10:00:11.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-15T10:00:11.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "a71d27329a66": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://fourweekmba.com/ai-cloud-runpod-reaches-325m-arr-nearly-3x-since-january/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "60ffc5a985d3": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "ok",
+   "publisherUrl": "https://quasa.io/stories/supabase-raises-150m-and-buys-turso-agent-databases-get-two-engines",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-09T07:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-09T07:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "a2abd93113ac": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "ok",
+   "publisherUrl": "https://ventureburn.com/supabase-raises-150-million-acquires-turso-for-agentic-ai/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-02T17:17:54.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-02T17:17:54.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "110b94e6e4ff": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "resolve:no-url",
+   "evidence": [],
+   "realDate": null,
+   "attempts": 1
+  },
+  "13000d3eeb5b": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.benzinga.com/markets/tech/26/10/62521320/googles-ex-ceo-says-china-trails-us-by-6-months-in-ai-race-but-could-still-win-due-to-this-strategy-were-already-losing",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "61e837480b4c": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "ok",
+   "publisherUrl": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-22T09:33:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-22T09:33:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "8a985bb4a99c": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "ok",
+   "publisherUrl": "https://www.bandt.com.au/martech-pioneer-scott-brinker-warns-against-naive-companies-replacing-marketers-with-ai/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-22T01:37:37.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-22T01:37:37.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "cfc7f90bc576": {
+   "checkedAt": "2026-10-22T12:01:02.865Z",
+   "status": "ok",
+   "publisherUrl": "https://www.trendforce.com/news/2026/10/22/news-nvidia-linked-groq-reportedly-eyes-shift-from-sram-to-3d-stacked-dram-for-next-gen-ai-chips/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-22T08:30:12.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-22T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-22T08:30:12.000Z",
+   "via": "json-ld",
    "attempts": 1
   }
  }
