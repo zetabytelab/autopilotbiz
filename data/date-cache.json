@@ -535,7 +535,7 @@
    "attempts": 1
   },
   "b08332d93076": {
-   "checkedAt": "2026-10-23T11:46:46.462Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/orchestration/magnific-one-launches-to-give-teams-an-image-generator-that-avoids-the-ai-look-and-automatically-upholds-their-brand-kit",
    "evidence": [],
@@ -593,7 +593,7 @@
    "attempts": 1
   },
   "c0b0d9d01a7a": {
-   "checkedAt": "2026-10-23T11:46:46.462Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
    "evidence": [],
@@ -1131,7 +1131,7 @@
    "attempts": 1
   },
   "44162e8e42e3": {
-   "checkedAt": "2026-10-23T11:46:46.462Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/orchestration/openclaw-launches-free-enterprise-control-plane-for-persistent-ai-agents-backed-by-openai-red-hat-and-nvidia",
    "evidence": [],
@@ -2099,7 +2099,7 @@
    "attempts": 1
   },
   "e0a421aea9a9": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.technology.org/2026/10/19/ai-sales-presentation-maker-tools/",
    "evidence": [
@@ -2112,7 +2112,7 @@
    ],
    "realDate": "2026-10-19T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "9420d3083c46": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -2236,13 +2236,13 @@
    "attempts": 1
   },
   "f257758ae6cf": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:no-date",
    "publisherUrl": "https://finance.biggo.com/podcast/63f41820354173bb",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "d11a35938d1e": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -2968,13 +2968,13 @@
    "attempts": 1
   },
   "36d5cea89274": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "d1c2217d589b": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -3101,7 +3101,7 @@
    "attempts": 1
   },
   "400f97decef6": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/legal/transactional/analysts-react-coreweave-debt-woes-ai-selloff-2026-10-15/",
    "evidence": [
@@ -3114,7 +3114,7 @@
    ],
    "realDate": "2026-10-15T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "76656fcc151c": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -3337,12 +3337,19 @@
    "attempts": 1
   },
   "e1455bb31382": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
-   "status": "page:http-403",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
    "publisherUrl": "https://www.kron4.com/news/technology-ai/zombie-shooter-game-based-in-san-francisco-sparks-online-controversy/",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-15T02:34:59.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-15T02:34:59.000Z",
+   "via": "json-ld",
    "attempts": 1
   },
   "d24c3887ab50": {
@@ -4635,13 +4642,13 @@
    "attempts": 1
   },
   "42daf0aaaf1b": {
-   "checkedAt": "2026-10-20T11:46:50.144Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.inc.com/steven-melendez-2/meet-the-2026-power-partners-in-saas-products/91413689",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "ecd6ffd154c8": {
    "checkedAt": "2026-10-20T11:46:50.144Z",
@@ -4660,13 +4667,13 @@
    "attempts": 1
   },
   "6f5034533289": {
-   "checkedAt": "2026-10-20T11:46:50.144Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-403",
    "publisherUrl": "https://tech-insider.org/github-copilot-4-ai-models-challenge-cursor-2026/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "c0cdaad76e5f": {
    "checkedAt": "2026-10-20T11:46:50.144Z",
@@ -4685,13 +4692,13 @@
    "attempts": 1
   },
   "30d555905c84": {
-   "checkedAt": "2026-10-20T11:46:50.144Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.coinbase.com/en-de/price/old-national-bancorp-rstock",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "4a04ef1e951f": {
    "checkedAt": "2026-10-20T11:46:50.144Z",
@@ -4806,7 +4813,7 @@
    "attempts": 1
   },
   "40d531242ac2": {
-   "checkedAt": "2026-10-20T11:46:50.144Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/world/asia-pacific/us-chip-stocks-rise-after-steepest-weekly-selloff-months-2026-10-19/",
    "evidence": [
@@ -4819,7 +4826,7 @@
    ],
    "realDate": "2026-10-19T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "303d59a2c89e": {
    "checkedAt": "2026-10-20T11:46:50.144Z",
@@ -4847,13 +4854,13 @@
    "attempts": 1
   },
   "3e504f4b83bb": {
-   "checkedAt": "2026-10-20T11:46:50.144Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/ar/codex-originals/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "1359ef3cb18d": {
    "checkedAt": "2026-10-20T11:46:50.144Z",
@@ -7295,13 +7302,13 @@
    "attempts": 1
   },
   "4d7844f77a01": {
-   "checkedAt": "2026-10-20T11:46:50.144Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:no-date",
    "publisherUrl": "https://ca.finance.yahoo.com/quote/2513.HK/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "fc8113e2349f": {
    "checkedAt": "2026-10-20T11:46:50.144Z",
@@ -8215,13 +8222,13 @@
    "attempts": 1
   },
   "d5921dc18bfb": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-403",
    "publisherUrl": "https://app.dealroom.co/news/note/gradient-raises-4m-to-build-an-ai-native-accounting-firm-for-startups",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "8de308bbe3d7": {
    "checkedAt": "2026-10-21T11:58:45.631Z",
@@ -8274,13 +8281,13 @@
    "attempts": 1
   },
   "ded4dd58136c": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/59iRgDWaUac",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "6ee1de706c28": {
    "checkedAt": "2026-10-21T11:58:45.631Z",
@@ -8353,13 +8360,13 @@
    "attempts": 1
   },
   "8586c3c2618e": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-403",
    "publisherUrl": "https://dailyinvestor.com/industry-news/160778/what-sa-businesses-need-to-know-about-self-hosting-n8n/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "a5eb4c92ebc6": {
    "checkedAt": "2026-10-21T11:58:45.631Z",
@@ -8544,7 +8551,7 @@
    "attempts": 1
   },
   "30604e9f8f4b": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/business/finance/coreweave-debt-selloff-poses-limited-risk-global-banks-jp-morgan-says-2026-10-20/",
    "evidence": [
@@ -8557,10 +8564,10 @@
    ],
    "realDate": "2026-10-20T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "8158d293f31d": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.bloomberg.com/news/videos/2026-10-20/z-ai-founds-worked-with-accused-chinese-spy-group-video",
    "evidence": [
@@ -8573,7 +8580,7 @@
    ],
    "realDate": "2026-10-20T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "cb3c605bc5de": {
    "checkedAt": "2026-10-21T11:58:45.631Z",
@@ -8608,12 +8615,19 @@
    "attempts": 1
   },
   "beede0c2574b": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
-   "status": "page:http-403",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
    "publisherUrl": "https://www.digitaljournal.com/article/op-ed-is-ai-the-unlikely-unwitting-saviour-of-human-critical-thinking-its-unavoidable/",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-18T23:43:56.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-18T23:43:56.000Z",
+   "via": "json-ld",
    "attempts": 1
   },
   "4d77c6d5ab05": {
@@ -8655,13 +8669,13 @@
    "attempts": 1
   },
   "2e574d4d1288": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.gsa.gov/si-community-of-practice/events-and-training/mcp-server-and-si-agent-government-hackathon",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "754862526e60": {
    "checkedAt": "2026-10-21T11:58:45.631Z",
@@ -8680,22 +8694,22 @@
    "attempts": 1
   },
   "80fa9460af4e": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:no-date",
    "publisherUrl": "https://vnua.edu.vn/content/102188135.htm",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "f65738cc6102": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:no-date",
    "publisherUrl": "https://vnua.edu.vn/detail/102043165.html",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "54532348e53b": {
    "checkedAt": "2026-10-21T11:58:45.631Z",
@@ -10820,13 +10834,13 @@
    "attempts": 1
   },
   "c9753d0a91d1": {
-   "checkedAt": "2026-10-21T11:58:45.631Z",
+   "checkedAt": "2026-10-24T11:11:29.909Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.binance.com/en-NG/price/chainopera-ai",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "1d24e347fb8b": {
    "checkedAt": "2026-10-21T11:58:45.631Z",
@@ -13243,6 +13257,529 @@
    ],
    "realDate": "2026-10-20T14:13:32.000Z",
    "via": "json-ld",
+   "attempts": 1
+  },
+  "afa7efc454c2": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://techfundingnews.com/daytona-raises-60m-at-1b-valuation-to-build-a-cloud-for-ai-agents/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-21T11:40:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-21T11:40:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "32288e6f4e91": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.orcarouter.ai/blog/glm-5-5",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-13T08:23:21.879Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-13T08:23:21.879Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "7137a8e7357e": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.globenewswire.com/news-release/2026/10/21/3385795/0/en/notified-opens-model-context-protocol-mcp-beta-program-for-pr-and-ir-data-and-services.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-21T17:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-21T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-21T17:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "109c5faae09a": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://cryptobriefing.com/hone-ai-agents-60-million-seed/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-08T18:47:46.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-08T18:47:46.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "94aae1c6729e": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-09-30T18:23:57.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-09-30T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-09-30T18:23:57.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "1176209dd86a": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-09-26T14:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-09-26T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-09-26T14:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "9e874f07b1e5": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.businessinsider.com/palantir-joe-lonsdale-tradwife-ai-agent-nickname-2026-10",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-24T09:54:01.220Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-24T09:54:01.220Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "c7f66606f417": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://thenextweb.com/news/elevenlabs-valuation-22bn-300m-tender-wellington-t-rowe-price",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-09-30T16:39:10.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-09-30T16:39:10.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "1e6bfb2c5d74": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://pk.ign.com/news/263060/indie-game-dev-takes-down-vibe-coded-zombie-shooter-after-san-francisco-officials-condemn-dehumanizi",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T22:27:10.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T22:27:10.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "04aa6a0374d4": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.coloradoboulevard.net/pasadena-post-office-celebrates-route-66-centennial-with-commemorative-postmark/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T13:06:09.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T13:06:09.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "b5112f04f3cf": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.hostinger.com/my/tutorials/cursor-vs-vs-code/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T14:52:03.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T14:52:03.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "5ff1e7ffdc1f": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.privateequityinternational.com/vcs-fully-embrace-ai-for-operations/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-04-30T20:30:10.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-04-30T20:30:10.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "bdd3fe26cbd4": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://mezha.net/eng/news/mezha-07239bdc87164c81b1f8135b_five_actors_join/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T22:57:41.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T22:57:41.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "1551150e726b": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://seekingalpha.com/article/4957087-digitaloceans-ai-flywheel-unleashing-massive-growth-potential-for-bold-investors",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "d2aa007d7067": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://thenewstack.io/vercel-oidc-static-credentials/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T20:04:16.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T20:04:16.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "8b7cbb121f38": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.emjreviews.com/neurology/news/ai-models-show-promise-in-alzheimers-classification/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T15:31:36.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T15:31:36.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "19fc48569d2b": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://quasa.io/video/lindy-ai-work-assistant-workflow-automation-meeting-management",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "e30892c372cd": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://thenextweb.com/news/openclaw-steinberger-10m-tokens-cloudflare-connect",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T13:49:57.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T13:49:57.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "a43618331156": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.inc.com/kamya-marwah/gamma-ceo-grant-lee-ai-product-reinvention/91423545",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "a12ecfb6a121": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.chinatalk.media/p/where-is-chinas-groq",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T10:56:32.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T10:56:32.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "364179f2101b": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.lexology.com/library/detail.aspx?g=dcfddd7f-6e78-4153-83bc-911282959fb8",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "edec7d2f9b4c": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://reason.com/2026/10/23/the-man-who-saved-the-internet/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T13:30:11.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-23T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-23T13:30:11.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "cf03544b54d2": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.britannica.com/topic/Why-does-AI-art-screw-up-hands-and-fingers-2230501",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "dd7fc92e0214": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.opensecrets.org/federal-lobbying/clients/groq-inc/lobbyists?client_id=154612&cycle=2022",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "8ea7894a5673": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.bbc.com/news/articles/c623d7z1rxg5o",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-20T18:52:32.303Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-20T18:52:32.303Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "6c7917c4a389": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-20T17:59:07.000Z",
+     "via": "meta:article:published_time",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-20T17:59:07.000Z",
+   "via": "meta:article:published_time",
+   "attempts": 1
+  },
+  "6e627ec55fd8": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.itpro.com/software/development/amazon-targets-trainium-gains-with-new-torchneuron-developer-tool",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-20T13:40:36.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-20T13:40:36.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "6cbc608430e9": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.tweaktown.com/news/114177/tcl-google-tv-owner-hands-the-remote-to-claude-code-and-the-ads-dont-survive/index.html",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "4b61de10cbcc": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://startupfortune.com/zai-founders-built-models-on-research-tied-to-an-alleged-chinese-spy-front/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-20T06:09:35.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-20T06:09:35.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "ec31a05fb73d": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://app.dealroom.co/news/note/z-ai-founders-tied-to-research-funded-by-china-institute-uk-flagged-as-spy-front",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "ba84a3ceaa28": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://openai.com/index/low-resource-programming-languages/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "67fbd0557960": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://san.com/cc/hey-chat-who-can-i-torture-to-stop-the-apocalypse-ai-takes-on-a-modern-day-trolley-problem/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-19T16:40:12.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-19T16:40:12.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "138f9c829b43": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/technology/ai/articles/ballerine-wins-2026-money20-20-123000988.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-19T12:30:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-19T12:30:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "38cf9d19ae6e": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.healthcareitnews.com/video/prior-auth-takes-too-blunt-approach-apis-could-hone-it",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "04d20ca1896e": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "ok",
+   "publisherUrl": "https://www.xda-developers.com/made-claude-code-build-map-of-my-files/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-18T20:00:19.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-18T20:00:19.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "aef9c473faea": {
+   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://dairynews.today/news/rural_transport_disruptions_are_limiting_artisan_dairy_sales_2575880.html",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
    "attempts": 1
   }
  }
