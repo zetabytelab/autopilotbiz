@@ -1,17 +1,18 @@
 {
- "generatedAt": "2026-10-24T11:11:29.909Z",
+ "generatedAt": "2026-10-25T11:40:19.029Z",
  "plan": {
   "platforms": [
-   "x"
+   "x",
+   "linkedin"
   ],
   "subjects": 245,
   "entities": 67,
   "xAccounts": 157,
-  "linkedinProfiles": 0,
-  "linkedinCompanies": 0,
-  "requests": 157,
-  "maxReturnedPosts": 3140,
-  "maxChargeUsd": 3.14,
+  "linkedinProfiles": 151,
+  "linkedinCompanies": 61,
+  "requests": 369,
+  "maxReturnedPosts": 5260,
+  "maxChargeUsd": 9.5,
   "concurrency": 3,
   "reviewAccounts": 11,
   "missingAccounts": 108,
@@ -19,1107 +20,7 @@
  },
  "targets": [
   {
-   "id": "x:0xtyllen",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 36,
-   "published": 0,
-   "retained": 11
-  },
-  {
-   "id": "x:11x_official",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 146,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:8enmann",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:adisingh",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 43,
-   "published": 0,
-   "retained": 19
-  },
-  {
-   "id": "x:agentmail",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 150,
-   "published": 0,
-   "retained": 5
-  },
-  {
-   "id": "x:aidenchaoyanghe",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:akamai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 188,
-   "published": 0,
-   "retained": 4
-  },
-  {
-   "id": "x:akshat_b",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:alexandertw33ts",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 6
-  },
-  {
-   "id": "x:alexanderwu0",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:alexatallah",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 31,
-   "published": 0,
-   "retained": 10
-  },
-  {
-   "id": "x:altimor",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 14
-  },
-  {
-   "id": "x:amanrsanger",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 35,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:anchorbrowser",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 97,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:andrewdsouza",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 13
-  },
-  {
-   "id": "x:anthropicai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:antwilson",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:anuraggoel",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:apify",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 38,
-   "published": 0,
-   "retained": 15
-  },
-  {
-   "id": "x:arvid220u",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 38,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:atomicprashanth",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 36,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:atoms_dev",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:base44",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 91,
-   "published": 0,
-   "retained": 4
-  },
-  {
-   "id": "x:bcherny",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 3
-  },
-  {
-   "id": "x:bencera",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 40,
-   "published": 0,
-   "retained": 12
-  },
-  {
-   "id": "x:bernhardsson",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:bertie_ai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:birk",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 31,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:blaxelai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 4
-  },
-  {
-   "id": "x:boardyai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 32
-  },
-  {
-   "id": "x:browserbase",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 43,
-   "published": 0,
-   "retained": 7
-  },
-  {
-   "id": "x:bukinoshita",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 35,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:caffeineai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 8
-  },
-  {
-   "id": "x:calebpeffer",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:ch402",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 35,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:chainopera_ai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 35,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:cnagele",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:co_valenta",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:coreweave",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 43,
-   "published": 0,
-   "retained": 21
-  },
-  {
-   "id": "x:cramforce",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 31,
-   "published": 0,
-   "retained": 5
-  },
-  {
-   "id": "x:cursor_ai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:danielaamodei",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:daraladje",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 43,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:darioamodei",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:davidsholz",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 3
-  },
-  {
-   "id": "x:daytonaio",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 5
-  },
-  {
-   "id": "x:digitalocean",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 41,
-   "published": 0,
-   "retained": 10
-  },
-  {
-   "id": "x:dominic_w",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:dopabees",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 38,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:dougwightman",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:dsp_",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:e2b",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:egbe_ai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:elevenlabs",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 38,
-   "published": 0,
-   "retained": 7
-  },
-  {
-   "id": "x:embirico",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:ericciarla",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:firecrawl",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 36,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:flash__singh",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:galligator",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:gavriel_cohen",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:gdb",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:getartisanai",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 36,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:getlindy",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 35,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:gorandraganic",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 57,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:groqinc",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 65,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:haakamaujla",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:happyrobot",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 36,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:intelligenceco",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 38,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:ivanburazin",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 26
-  },
-  {
-   "id": "x:jackclarksf",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 40,
-   "published": 0,
-   "retained": 3
-  },
-  {
-   "id": "x:jakubbalada",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 40,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:jancurn",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 44,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:janoberhauser",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:jasparcjack",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:javypalafox",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:jonnilundy",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:jordan_dearsley",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:jspahrsummers",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 40,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:karan4d",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:kelvich",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:khareabhishyant",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 38,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:kiwicopple",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 41,
-   "published": 0,
-   "retained": 4
-  },
-  {
-   "id": "x:klemensimonic",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 3
-  },
-  {
-   "id": "x:kozerafilip",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:lambdaapi",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 7
-  },
-  {
-   "id": "x:langfuse",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:lazer_cohen",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:louis_g_v",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 41,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:marcklingen",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 110,
-   "published": 0,
-   "retained": 7
-  },
-  {
-   "id": "x:matiii",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:maxdeichmann",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:merettm",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 36,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:michaelhyunkim",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:midjourney",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 38,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:mitch_troy",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 5
-  },
-  {
-   "id": "x:mlejva",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 36,
-   "published": 0,
-   "retained": 5
-  },
-  {
-   "id": "x:mntruell",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 34,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:modal",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 43,
-   "published": 0,
-   "retained": 4
-  },
-  {
-   "id": "x:ms_base44",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:n8n_io",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 6
-  },
-  {
-   "id": "x:nanocorphq",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 40,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:natalienagele",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 32,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:ndrewpignanelli",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 31,
-   "published": 0,
-   "retained": 10
-  },
-  {
-   "id": "x:neondatabase",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 2
-  },
-  {
-   "id": "x:nickscamara_",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:nicolaslec91112",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 37,
-   "published": 0,
-   "retained": 3
-  },
-  {
-   "id": "x:nikhilro_",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 33,
-   "published": 0,
-   "retained": 0
-  },
-  {
-   "id": "x:nikitabase",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 39,
-   "published": 0,
-   "retained": 3
-  },
-  {
-   "id": "x:nottombrown",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 35,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:nousresearch",
-   "status": "failed",
-   "ok": false,
-   "items": 0,
-   "reason": "Apify HTTP 401",
-   "ms": 42,
-   "published": 0,
-   "retained": 1
-  },
-  {
-   "id": "x:obinnaaka",
+   "id": "linkedin:https://www.linkedin.com/company/11x-ai/",
    "status": "failed",
    "ok": false,
    "items": 0,
@@ -1129,12 +30,3232 @@
    "retained": 0
   },
   {
+   "id": "linkedin:https://www.linkedin.com/company/agentmailto/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/akamai-technologies/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/anchorbrowser/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/anthropicresearch/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/apify/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 5
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/artisanai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/base44/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/beacon-health-ai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/blaxel-ai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/boardy/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/browserbasehq/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/caffeine-ai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/coreweave/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/cursorai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/daytonaio/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/delphi-ai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/digitalocean/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/e2b-dev/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/egbe-ai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/elevenlabsio/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/feltsense/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/firecrawl/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/gamma-app/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/gominimal/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/groq/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 58,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/happyrobot/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/lambda-cloud/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/langfuse/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/lindyai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/lunavo-ai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/midjourney/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/modal-labs/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/modelcontextprotocol/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/n8n/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/nanocorphq/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/neondatabase/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/nousresearch/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/openai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/openrouter/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 4
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/paymanai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/polar-sh/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 60,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/polsia/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/postmarkapp/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/renderco/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/resend/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/retellai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/runpod-io/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/saunabywordware/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/sciforium/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/semio-ai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/soniox/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/supabase/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/the-general-intelligence-company-of-new-york/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/the-openclaw-foundation/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/togethercompute/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/usebasis/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/usenaive/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/vapi-ai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/company/vercel/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/abhinavboyed/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/abhishyantkhare/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/adivirsingh13/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/akshat-bubna-188885103/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/alexander-liteplo/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/alexatallah/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/aman-sanger-482243171/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ambroz-bizjak-07104a206/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/andrewdsouza/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/andrewpignanelli/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ankur-boyed/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ant-wilson-46179937/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/anuragoel/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/arvid-lunnemark/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/azamat-khalilov-2530b91a9/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/bcherny/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/benbroca/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/benjamin-mann/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/benuretsky/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/bingw/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/birknilson/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/bkinoshita/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/bmcdorman/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/branninmcbee/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/brian-venturo-6719b812/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/caker/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/caleb-peffer/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ce-zhang-6aa37419/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/charles-drappier-48017962/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/chenglin-wu-x/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/christophe-ploujoux/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/christopher-olah-b574414a/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/crochetthomas/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/daniela-amodei-790bb22a/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/dara-ladjevardian/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/dario-amodei-3934934/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/david-soria-parra-4a78b3a/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ddorda/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/denniszax/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/dougwightman/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/embirico/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/eric-ciarla/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/erikbern/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/felix-loesch/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/filipkozera/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/florentcrivello/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/gallaghermatthew/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/gavrielco/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/goran-draganic/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/gpus/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/grantslee/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/guy-bensimhon/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/haaaujla/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/hasansukkar/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/hassan-akbari-48a1b270/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/hechaoyang/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/heikki-linnakangas-6b58bb203/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/heun/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/hyun-michael-kim-281242220/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/idan-raman/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/idmcgregor/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ivanburazin/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jack-clark-5a320317/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jainprabhav/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jakub-pachocki/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/james-f-fox/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jancurn/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/janoberhauser/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jared-kaplan-645843213/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/javierpalafox/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jbalada/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jeffrey-quesnelle-2490a524/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jonnilundy/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jonnoronha/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jordandearsley/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/jvandeboom/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/karan-s-malhotra/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/klemensimonic/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/lazercohen/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/louisgv/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/luispaarup/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/malteubl/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/maorshlomo/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/marcklingen/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/marektrunkat/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/marikhazan/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mark-pothen/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mathis-joffre-30992712a/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/matiii/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/matt-harpe/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mattstein5/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/maxdeichmann/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/michael-intrator-2383aa57/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/michael-t-5b1bbb122/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/michaelggreer/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mitchelltroyanovsky/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/mlejva/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/neville-jos/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nicolas-lecomte-080317153/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nicolas-silberstein-camara/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/niek-hogenboom/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nikhilro/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nikitashamgunov/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/nottombrown/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/obinnaakahara/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/pablorpalafox/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/paddysrinivasan/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/pamirehsas/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/pankajlakhina/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/pardeep-singh-917830237/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/patricia-tani/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/paul-sinai/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/paulcopplestone/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/paulkleiniv/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/plbiojout/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/prashanthkreddy/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 59,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rahul-patil-a0944836/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/randallkaplan/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rauchg/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rawert/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/robertjhchandler/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/ross-jonathan/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rossmead/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/rupertdodkins/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/salanki/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/sam-mccandlish/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/samantha12345/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/samuel-spelsberg/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/sbalaban/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/seandorje/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/shensivananthan/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/shivani-mitra/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/stefan-mandaric/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/steipete/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/sualeh-a-1a4a97116/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/teknium-b538932ab/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/thegdb/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/thibault-sottiaux-27195366/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/titus-ex-85691711a/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/tleighton/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/toddli1/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/tyllenbicakcic/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/valentatomas/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/vedranjukic/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/vipulved/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/vyahhi/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/weijiayu88/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/yanwang131415/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/zeen/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/zenorocha/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/in/zexia-zhang/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "linkedin:https://www.linkedin.com/showcase/atoms-dev/",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:0xtyllen",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "x:11x_official",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 204,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:8enmann",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:adisingh",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 16
+  },
+  {
+   "id": "x:agentmail",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 196,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "x:aidenchaoyanghe",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:akamai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 240,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:akshat_b",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:alexandertw33ts",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "x:alexanderwu0",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:alexatallah",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 9
+  },
+  {
+   "id": "x:altimor",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 12
+  },
+  {
+   "id": "x:amanrsanger",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:anchorbrowser",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 175,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:andrewdsouza",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 9
+  },
+  {
+   "id": "x:anthropicai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:antwilson",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:anuraggoel",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:apify",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 11
+  },
+  {
+   "id": "x:arvid220u",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:atomicprashanth",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:atoms_dev",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:base44",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 62,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:bcherny",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "x:bencera",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 9
+  },
+  {
+   "id": "x:bernhardsson",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:bertie_ai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:birk",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:blaxelai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:boardyai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 22
+  },
+  {
+   "id": "x:browserbase",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 62,
+   "published": 0,
+   "retained": 5
+  },
+  {
+   "id": "x:bukinoshita",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:caffeineai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 6
+  },
+  {
+   "id": "x:calebpeffer",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:ch402",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:chainopera_ai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:cnagele",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:co_valenta",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:coreweave",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 56,
+   "published": 0,
+   "retained": 16
+  },
+  {
+   "id": "x:cramforce",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "x:cursor_ai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:danielaamodei",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:daraladje",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:darioamodei",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:davidsholz",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "x:daytonaio",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 3
+  },
+  {
+   "id": "x:digitalocean",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 55,
+   "published": 0,
+   "retained": 7
+  },
+  {
+   "id": "x:dominic_w",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:dopabees",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:dougwightman",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:dsp_",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:e2b",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:egbe_ai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:elevenlabs",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 7
+  },
+  {
+   "id": "x:embirico",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:ericciarla",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:firecrawl",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:flash__singh",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 57,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:galligator",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 76,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:gavriel_cohen",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:gdb",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:getartisanai",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:getlindy",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:gorandraganic",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:groqinc",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:haakamaujla",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:happyrobot",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:intelligenceco",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:ivanburazin",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 19
+  },
+  {
+   "id": "x:jackclarksf",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:jakubbalada",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:jancurn",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:janoberhauser",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:jasparcjack",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:javypalafox",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:jonnilundy",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:jordan_dearsley",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:jspahrsummers",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:karan4d",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:kelvich",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:khareabhishyant",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:kiwicopple",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:klemensimonic",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:kozerafilip",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:lambdaapi",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 6
+  },
+  {
+   "id": "x:langfuse",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:lazer_cohen",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:louis_g_v",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:marcklingen",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 7
+  },
+  {
+   "id": "x:matiii",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:maxdeichmann",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:merettm",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 54,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:michaelhyunkim",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:midjourney",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:mitch_troy",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:mlejva",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 48,
+   "published": 0,
+   "retained": 5
+  },
+  {
+   "id": "x:mntruell",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 47,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:modal",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:ms_base44",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:n8n_io",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 4
+  },
+  {
+   "id": "x:nanocorphq",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 45,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:natalienagele",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 49,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:ndrewpignanelli",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 8
+  },
+  {
+   "id": "x:neondatabase",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 50,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:nickscamara_",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:nicolaslec91112",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 201,
+   "published": 0,
+   "retained": 2
+  },
+  {
+   "id": "x:nikhilro_",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:nikitabase",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 46,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:nottombrown",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 53,
+   "published": 0,
+   "retained": 1
+  },
+  {
+   "id": "x:nousresearch",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 52,
+   "published": 0,
+   "retained": 0
+  },
+  {
+   "id": "x:obinnaaka",
+   "status": "failed",
+   "ok": false,
+   "items": 0,
+   "reason": "Apify HTTP 401",
+   "ms": 51,
+   "published": 0,
+   "retained": 0
+  },
+  {
    "id": "x:openclaw",
    "status": "failed",
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 35,
+   "ms": 48,
    "published": 0,
    "retained": 4
   },
@@ -1144,9 +3265,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 32,
+   "ms": 47,
    "published": 0,
-   "retained": 38
+   "retained": 30
   },
   {
    "id": "x:paarupluis",
@@ -1154,7 +3275,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 40,
+   "ms": 46,
    "published": 0,
    "retained": 0
   },
@@ -1164,9 +3285,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 33,
+   "ms": 49,
    "published": 0,
-   "retained": 2
+   "retained": 1
   },
   {
    "id": "x:pamirehsas",
@@ -1174,9 +3295,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 38,
+   "ms": 53,
    "published": 0,
-   "retained": 1
+   "retained": 0
   },
   {
    "id": "x:paymanai",
@@ -1184,7 +3305,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 38,
+   "ms": 51,
    "published": 0,
    "retained": 0
   },
@@ -1194,7 +3315,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 42,
+   "ms": 49,
    "published": 0,
    "retained": 0
   },
@@ -1204,9 +3325,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 33,
+   "ms": 50,
    "published": 0,
-   "retained": 9
+   "retained": 7
   },
   {
    "id": "x:polar_sh",
@@ -1214,7 +3335,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 42,
+   "ms": 55,
    "published": 0,
    "retained": 0
   },
@@ -1224,7 +3345,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 34,
+   "ms": 47,
    "published": 0,
    "retained": 6
   },
@@ -1234,9 +3355,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 42,
+   "ms": 53,
    "published": 0,
-   "retained": 5
+   "retained": 4
   },
   {
    "id": "x:rauchg",
@@ -1244,9 +3365,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 41,
+   "ms": 47,
    "published": 0,
-   "retained": 10
+   "retained": 9
   },
   {
    "id": "x:rawert",
@@ -1254,7 +3375,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 35,
+   "ms": 47,
    "published": 0,
    "retained": 0
   },
@@ -1264,9 +3385,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 36,
+   "ms": 50,
    "published": 0,
-   "retained": 3
+   "retained": 1
   },
   {
    "id": "x:resend",
@@ -1274,9 +3395,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 42,
+   "ms": 51,
    "published": 0,
-   "retained": 25
+   "retained": 18
   },
   {
    "id": "x:retellai",
@@ -1284,7 +3405,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 34,
+   "ms": 53,
    "published": 0,
    "retained": 0
   },
@@ -1294,7 +3415,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 33,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -1304,7 +3425,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 46,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -1314,7 +3435,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 42,
+   "ms": 47,
    "published": 0,
    "retained": 2
   },
@@ -1324,7 +3445,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 31,
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -1334,7 +3455,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 33,
+   "ms": 51,
    "published": 0,
    "retained": 0
   },
@@ -1344,7 +3465,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 34,
+   "ms": 49,
    "published": 0,
    "retained": 0
   },
@@ -1354,9 +3475,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 34,
+   "ms": 48,
    "published": 0,
-   "retained": 4
+   "retained": 0
   },
   {
    "id": "x:seandorje",
@@ -1364,7 +3485,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 40,
+   "ms": 47,
    "published": 0,
    "retained": 0
   },
@@ -1374,7 +3495,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 32,
+   "ms": 50,
    "published": 0,
    "retained": 0
   },
@@ -1384,9 +3505,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 44,
+   "ms": 50,
    "published": 0,
-   "retained": 3
+   "retained": 2
   },
   {
    "id": "x:sorcer",
@@ -1394,7 +3515,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 43,
+   "ms": 47,
    "published": 0,
    "retained": 0
   },
@@ -1404,9 +3525,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 37,
+   "ms": 48,
    "published": 0,
-   "retained": 13
+   "retained": 9
   },
   {
    "id": "x:stephenbalaban",
@@ -1414,7 +3535,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 38,
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -1424,7 +3545,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 42,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -1434,9 +3555,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 46,
+   "ms": 53,
    "published": 0,
-   "retained": 9
+   "retained": 8
   },
   {
    "id": "x:teknium1",
@@ -1444,7 +3565,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 41,
+   "ms": 51,
    "published": 0,
    "retained": 0
   },
@@ -1454,7 +3575,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 38,
+   "ms": 46,
    "published": 0,
    "retained": 3
   },
@@ -1464,7 +3585,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 35,
+   "ms": 48,
    "published": 0,
    "retained": 1
   },
@@ -1474,9 +3595,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 37,
+   "ms": 54,
    "published": 0,
-   "retained": 11
+   "retained": 10
   },
   {
    "id": "x:togethercompute",
@@ -1484,9 +3605,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 34,
+   "ms": 46,
    "published": 0,
-   "retained": 4
+   "retained": 3
   },
   {
    "id": "x:usenaive",
@@ -1494,7 +3615,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 35,
+   "ms": 50,
    "published": 0,
    "retained": 0
   },
@@ -1504,9 +3625,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 42,
+   "ms": 47,
    "published": 0,
-   "retained": 4
+   "retained": 2
   },
   {
    "id": "x:vedranjukic",
@@ -1514,7 +3635,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 36,
+   "ms": 46,
    "published": 0,
    "retained": 0
   },
@@ -1524,7 +3645,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 32,
+   "ms": 57,
    "published": 0,
    "retained": 3
   },
@@ -1534,7 +3655,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 40,
+   "ms": 47,
    "published": 0,
    "retained": 0
   },
@@ -1544,9 +3665,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 44,
+   "ms": 49,
    "published": 0,
-   "retained": 2
+   "retained": 1
   },
   {
    "id": "x:wordware",
@@ -1554,7 +3675,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 35,
+   "ms": 48,
    "published": 0,
    "retained": 0
   },
@@ -1564,7 +3685,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 38,
+   "ms": 52,
    "published": 0,
    "retained": 0
   },
@@ -1574,7 +3695,7 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 33,
+   "ms": 51,
    "published": 0,
    "retained": 0
   },
@@ -1584,9 +3705,9 @@
    "ok": false,
    "items": 0,
    "reason": "Apify HTTP 401",
-   "ms": 40,
+   "ms": 48,
    "published": 0,
-   "retained": 2
+   "retained": 0
   }
  ]
 }
