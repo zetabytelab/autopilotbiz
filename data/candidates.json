@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T11:45:27.530Z",
+ "generatedAt": "2026-10-26T13:15:39.487Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -44,42 +44,6 @@
     "named entity",
     "3 publishers",
     "autonomy thesis"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "9f68e3347000",
-   "name": "Presto",
-   "evidence": [
-    {
-     "title": "Presto Raises $10 Million to Expand Drive-Thru Voice AI as POS Integration Shapes Competition",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOWRwWDBWVGVVS1RfVThPNWJKNjYzUFM5bzV0am9xOTh1a2ZXaGRmamI2YjN6Z0dhcW5rMUlPYUFzSjJvd2R5MExQeWxpV2dqVWdPZ1gxaENHTDJHZnFlWmZOT3J5ZlIybjEyMnBVX3Iya1Y2Q1hyRXBZYVRqTHVjaWdMNmRxTWxrMXdGSzMzZ0RpTzJTSXcwbUF3aC01SUVteGcweHlNWi1nb3JISjUzWHQ2TFhiZzV1MzhWSUFWcDM5MWx3dC15WWtlOFFYNnNZR0ZIaA?oc=5",
-     "source": "gnews",
-     "domain": "restauranttechnologynews.com",
-     "publishedAt": "2026-10-06T20:20:52.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    },
-    {
-     "title": "Presto Raises $10M to Accelerate Voice AI for Restaurants",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNmxNcHFBeXdhUXFvN1FxX3NsU01zM1dud3U3SVBWQ1c1b0Jqazl4ZXZRbjAta2F4LTJCVmExMGVPWEdnb3Q4ZTBwemhiay1zN1ZJTEZtYlcyM1JmX0I5ei1BMjhjaWxSX09NbzcxdTFNMk9TWk5CeWx1aHRHOEladUJSaXdDNmJNbkt2aHc0Z2pHeGU1R25hTmIyOA?oc=5",
-     "source": "gnews",
-     "domain": "citybiz.co",
-     "publishedAt": "2026-09-29T10:25:47.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 2,
-   "publishers": 2,
-   "firstSeen": "2026-10-25T11:45:27.530Z",
-   "score": 2.25,
-   "reasons": [
-    "named entity",
-    "2 publishers",
-    "funding or revenue figure"
    ],
    "status": "new"
   },
@@ -289,26 +253,26 @@
    "status": "new"
   },
   {
-   "id": "0b0a8e237e62",
-   "name": null,
+   "id": "c490c8219d10",
+   "name": "Raises",
    "evidence": [
     {
-     "title": "Disney Agrees To Pay $60 Million Annually For 66 Character.AI Employees: 7 outlets compared",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWExwSjBZY2lCMkFZTlVlazFMbnhIUFNJazhFVlgwTTM2UGE4aGp2ZFZnNlNhU3k5bFFqMFBsT0VvWnU1WlR4alFhQmdxRC1lS2dWNHpfLVZlSzEtZERLc3FWUEV4bzM2VHZlOUVIRWRVWURCRFlJc3ctMG10SVhyYS1Hbk9mQ1Y1QnNGY2tDd2s2Sk9nUkt2OXNaYU1DZUFtQzdYUm1ZZnQzNXIzNGxVTHUwUy1QSVVIZ2JuMXVwZmpIbjY1eHplMFRsWjkzQkhYS2NJb1FOeWFkbHM?oc=5",
+     "title": "Off-Prem-Focused AI Agent Startup Raises $4M",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMnI2S1JGc2NOelNLbk9UX2dia2E0R29KcmJyQ2ZEaDJib05rcTlYTzBBWUk5eUZQbjNHbVdkNjhNcmIwQ1hzdGV2bXBsUTlxOUpkdFB6OVdGbTczdmlUR1ZJRmt3NUhLNGwtUUdubVdycjZ1cHRSWnpybVU0eklBRHl6N1M?oc=5",
      "source": "gnews",
-     "domain": "newscord.org",
-     "publishedAt": "2026-10-19T00:46:48.000Z",
+     "domain": "foodondemand.com",
+     "publishedAt": "2026-10-06T07:00:00.000Z",
      "matchedKeywords": [
-      "\"AI employees\" startup"
+      "AI voice agent called restaurants OR pubs OR shops price"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-19T13:35:03.963Z",
+   "firstSeen": "2026-10-26T13:15:39.487Z",
    "score": 1.75,
    "reasons": [
-    "autonomy thesis",
+    "named entity",
     "funding or revenue figure"
    ],
    "status": "new"
@@ -322,7 +286,7 @@
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWVJmZnB0VFdNLTViWWVPOVQtN0pHeXpYaTJCbHB5cWxYUEtmUGZ6Mkd2U1kzU2JPWVpLTHVGQzZISmhDbGdhOWdRREx1cE1KUHZYREd2QW5OcEtSTTE2U05XYlZ5RlJUMklTZXV3UjdSdkRlTGE0b1MteUNjZFhuX25SRVVIS3c3R0dxckNmZFVyNW1sM3c4U3ZULTBvck50Q3RWMVh1MG4?oc=5",
      "source": "gnews",
      "domain": "benzinga.com",
-     "publishedAt": "2026-10-17T09:33:37.000Z",
+     "publishedAt": "2026-10-17T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -435,7 +399,7 @@
    "status": "rejected"
   },
   {
-   "id": "e1cab5313fbb",
+   "id": "cb2b45904c65",
    "name": null,
    "evidence": [
     {
@@ -453,7 +417,7 @@
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVXh4NmtaT0doVVBYMjhHRkotU3U2MHJ6a3oyMlFfa1hkVGJyaGUtSmNKR283QVJRWUttZnBBUGg5SmtHLVRZNlRfbDZCZUJDSXNKVXVIV1RWZEVSMW9nLTFZcWFaLVAydDdobmk2dUdBMVZ4OFlYOUZ6MGdTT2VtWExSSHFRTUdyVDNlQThrbk9BVWc5ejFyNlF6STR5OTcxamw3UmNsSjV3ZHNvMzRqUWRDNlFGTk5hWHRlQTBZN3dKbVct?oc=5",
      "source": "gnews",
      "domain": "ua.news",
-     "publishedAt": "2026-10-18T16:43:00.000Z",
+     "publishedAt": "2026-10-18T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -461,7 +425,7 @@
    ],
    "coverage": 2,
    "publishers": 2,
-   "firstSeen": "2026-10-19T13:35:03.963Z",
+   "firstSeen": "2026-10-26T13:15:39.487Z",
    "score": 1.5,
    "reasons": [
     "2 publishers",
@@ -590,6 +554,30 @@
    "status": "new"
   },
   {
+   "id": "f98bd61b1897",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The Other Side of the \"Great AI Opportunity\" for Digital Employees",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41cEdKaGlwZ1lxNEtoYnZYNG5VWUZnQloxdGI5RFZJS21VZExTOHVudzVmV3NIVGxBbFczeXZlLXI3eUxSdGI3VExBRVd1LVdKYkhZ?oc=5",
+     "source": "gnews",
+     "domain": "eu.36kr.com",
+     "publishedAt": "2026-10-12T07:24:19.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-26T13:15:39.487Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
    "id": "f2e0ad526453",
    "name": null,
    "evidence": [
@@ -710,31 +698,6 @@
    "status": "new"
   },
   {
-   "id": "50c0788f5b4c",
-   "name": "Reflection",
-   "evidence": [
-    {
-     "title": "Nvidia Pursues Acquisition of Open-Source AI Startup Reflection to Counter DeepSeek",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ndDRnTHhKR3pGUHhtSmxvQmdIaHN6TW1LT01Ha3kxSjZwb2I0UEpsN1poNnpwZ3ZxcS01SldaWkZacGV4czUzdGQtQWU2aXo1NzR6WHhtYVh0bHFjT2JCOUIySHVUZFFMZktEZFVmb1RheEdnZVE?oc=5",
-     "source": "gnews",
-     "domain": "finance.biggo.com",
-     "publishedAt": "2026-10-10T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-11T13:00:10.572Z",
-   "score": 0.5,
-   "reasons": [
-    "named entity",
-    "acquired — no longer independent"
-   ],
-   "status": "new"
-  },
-  {
    "id": "06471da8e570",
    "name": null,
    "evidence": [
@@ -777,6 +740,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-20T11:52:05.594Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "d3f1fde9d75c",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Assessing and Managing the Risk of Doing Business with Small Software Companies in ﻿the Age of AI",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZTQ3RFVKeDRaOVJPVVJaOXBZajJORE9pa3JCVUszVmVXeU1nbXlXZGZ5VWs1Rm1LZXpKb08xQ2NLNnNoaWJ3a3VLbVMxX1RRaXpWUDNMalRxQlNBOUQ0NlRTT1ZPdUZFWG5FZ1hZMVNta0dQZ01ldVl1TUxydTduRzRmb3pabUhYdUUzSFRaeVIyampYWUJlVzBibFROS2d1LTMyRDVSX0M1a1VoMGtqdUlhNVVpTUlVbjF1NzBnMV9NUENyemMxRlVnNG9fTXNxcWROeHZTbzU?oc=5",
+     "source": "gnews",
+     "domain": "grainjournal.com",
+     "publishedAt": "2026-10-19T19:06:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-26T13:15:39.487Z",
    "score": 0,
    "reasons": [],
    "status": "new"
