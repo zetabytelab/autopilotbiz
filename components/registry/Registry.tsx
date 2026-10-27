@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import SubscribeForm from "@/components/SubscribeForm";
 import { SIGNUP_PLACEMENTS, type SignupPlacement } from "@/lib/signup-attribution";
@@ -9,7 +9,7 @@ declare global {
   interface Window { mountAutopilotRegistry?: () => (() => void); }
 }
 
-export default function Registry() {
+export default function Registry({ children }: { children?: ReactNode }) {
   const root = useRef<HTMLDivElement>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   // Signup boxes the vanilla registry renders (lib/registry-source/subscribe.js)
@@ -55,6 +55,7 @@ export default function Registry() {
       <p>{status === "error" ? "The interactive index could not load. Please reload this page." : "Opening the index…"}</p>
       <a href="/pulse">Read the Autopilot Pulse</a>{" · "}
       <a href="https://www.linkedin.com/in/antonioserranopabon/">Contact Antonio Serrano on LinkedIn</a>
+      {children}
     </section>}
     <div ref={root} id="app" />
     {slots.map(({ node, placement }) => createPortal(

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Registry from "@/components/registry/Registry";
+import { companies } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Autopilot Index — Build more. Operate smaller.",
@@ -22,4 +23,20 @@ export const metadata: Metadata = {
     images: ["/og.png"],
   },
 };
-export default function Home() { return <Registry />; }
+// The interactive registry mounts client-side; this crawlable list of every
+// company profile is in the initial HTML for non-JS crawlers (e.g. CCBot) and
+// is hidden once the interactive index is ready.
+export default function Home() {
+  return (
+    <Registry>
+      <nav aria-label="Companies in the index">
+        <h2>Companies in the index</h2>
+        <ul>
+          {companies.map((c) => (
+            <li key={c.slug}><a href={`/companies/${c.slug}`}>{c.name}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </Registry>
+  );
+}
