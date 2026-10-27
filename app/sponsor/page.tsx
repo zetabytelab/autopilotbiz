@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SponsorInquiryForm from "@/components/lead/SponsorInquiryForm";
 import { AUDIENCE, FOUNDING_SLOTS_LEFT, PRICES, SPONSOR_EMAIL, SPONSOR_MAILTO, slotsLine } from "@/lib/sponsor";
 
 const TITLE = "Sponsor Autopilot Pulse";
@@ -160,6 +161,10 @@ export default function Sponsor() {
         <p className="text-xs text-zinc-500">
           Questions first? <a href={`mailto:${SPONSOR_EMAIL}`} className="text-lime-400 hover:underline">{SPONSOR_EMAIL}</a>
         </p>
+
+        <h2 className={h2} id="inquire">Send an inquiry</h2>
+        <p className="text-sm text-zinc-400">Tell us a little about you and we&apos;ll reply by email. Prefer email? Write to {SPONSOR_EMAIL}.</p>
+        <SponsorInquiryForm />
 
         <h2 className={h2}>How it works</h2>
         <ol className="list-decimal space-y-2 pl-5">

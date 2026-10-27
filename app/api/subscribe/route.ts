@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { postContactWithAttribution, signupAttributes } from "@/lib/signup-attribution";
 import { subscribeSchema } from "@/lib/subscribe-schema";
+import { leadAttributes, leadScore } from "@/lib/lead-score";
 
 export const runtime = "nodejs";
 
@@ -91,7 +92,7 @@ export async function POST(req: Request) {
       url,
       { "api-key": BREVO_API_KEY, "content-type": "application/json" },
       body,
-      signupAttributes(parsed.data),
+      { ...signupAttributes(parsed.data), ...newsletterLeadAttributes(parsed.data) },
     );
     // 201 created, 204 already existed & updated — both fine.
     if (!res.ok && res.status !== 204) {
@@ -107,4 +108,13 @@ export async function POST(req: Request) {
     console.error("brevo request failed:", err);
     return NextResponse.json({ ok: false, error: "could not subscribe, try again later" }, { status: 502 });
   }
+}
+
+// Lead score v0 for newsletter boxes: interest defaults to "newsletter" (score
+// capped at 40, nurture only). Our own Brevo attributes; never sent to ads.
+function newsletterLeadAttributes(d: import("@/lib/subscribe-schema").SubscribeBody): Record<string, string | number> {
+  if (!d.name && !d.role && !d.company) return {};
+  const interest = d.interest ?? "newsletter";
+  const scored = leadScore({ email: d.email, formComplete: false, role: d.role, interest, signals: d.signals });
+  return leadAttributes({ name: d.name, company: d.company, role: d.role, interest }, scored);
 }

@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react";
 import { trackFunnelEvent } from "@/lib/analytics";
 import type { SignupPlacement } from "@/lib/signup-attribution";
+import { LEAD_ROLES, ROLE_LABELS } from "@/lib/lead-score";
+import { readLeadSignals } from "@/lib/lead-signals";
+import EnrichmentNotice from "@/components/lead/EnrichmentNotice";
 
 // A header button that scrolls to this form dispatches
 // `ap:subscribe-via` with { target: <this form's placement>, placement: "header" }
@@ -22,6 +25,9 @@ type Props = {
 export default function SubscribeForm({ label = "🛩 Put your inbox on autopilot →", placement, tone = "dark", compact = false }: Props) {
   const [via, setVia] = useState<SignupPlacement | undefined>(undefined);
   const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [role, setRole] = useState("");
+  const [company, setCompany] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [message, setMessage] = useState("");
 
@@ -68,7 +74,7 @@ export default function SubscribeForm({ label = "🛩 Put your inbox on autopilo
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, website_url: "", ref, page, ...(sentPlacement ? { placement: sentPlacement } : {}), ...utm }),
+        body: JSON.stringify({ email, name, role, ...(company.trim() ? { company } : {}), interest: "newsletter", ...(readLeadSignals() ? { signals: readLeadSignals() } : {}), website_url: "", ref, page, ...(sentPlacement ? { placement: sentPlacement } : {}), ...utm }),
       });
       const data = (await res.json()) as { ok: boolean; message?: string; error?: string; subscriptionStatus?: string };
       if (res.ok && data.ok) {
@@ -87,6 +93,10 @@ export default function SubscribeForm({ label = "🛩 Put your inbox on autopilo
 
   const light = tone === "light";
   const top = compact ? "" : "mt-5 ";
+
+  const fieldCls = light
+    ? "min-w-0 flex-1 basis-40 rounded border border-[#c9d6cf] bg-white px-3 py-2 text-sm text-[#24322e] placeholder:text-[#93a29a] focus:border-[#1d6653] focus:outline-none"
+    : "min-w-0 flex-1 basis-40 rounded-full border border-zinc-700 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-lime-400 focus:outline-none";
 
   if (state === "done") {
     return (
@@ -108,13 +118,19 @@ export default function SubscribeForm({ label = "🛩 Put your inbox on autopilo
         required
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="you@example.com"
+        placeholder="Work email"
         autoComplete="email"
         aria-label="Email address"
         className={light
-          ? "min-w-0 flex-1 rounded border border-[#c9d6cf] bg-white px-3 py-2 text-sm text-[#24322e] placeholder:text-[#93a29a] focus:border-[#1d6653] focus:outline-none"
-          : "min-w-0 flex-1 rounded-full border border-zinc-700 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-lime-400 focus:outline-none"}
+          ? "min-w-0 flex-1 basis-40 rounded border border-[#c9d6cf] bg-white px-3 py-2 text-sm text-[#24322e] placeholder:text-[#93a29a] focus:border-[#1d6653] focus:outline-none"
+          : "min-w-0 flex-1 basis-40 rounded-full border border-zinc-700 bg-zinc-950 px-4 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-lime-400 focus:outline-none"}
       />
+      <input type="text" required value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" autoComplete="name" aria-label="Name" maxLength={100} className={fieldCls} />
+      <select required value={role} onChange={(e) => setRole(e.target.value)} aria-label="Role" className={fieldCls}>
+        <option value="" disabled>Role</option>
+        {LEAD_ROLES.map((r) => <option key={r} value={r}>{ROLE_LABELS[r]}</option>)}
+      </select>
+      <input type="text" value={company} onChange={(e) => setCompany(e.target.value)} placeholder="Company (optional)" autoComplete="organization" aria-label="Company (optional)" maxLength={120} className={fieldCls} />
       <button
         type="submit"
         disabled={state === "sending"}
@@ -124,6 +140,7 @@ export default function SubscribeForm({ label = "🛩 Put your inbox on autopilo
       >
         {state === "sending" ? "Subscribing…" : label}
       </button>
+      <EnrichmentNotice tone={light ? "light" : "dark"} />
       {state === "error" && <p role="alert" className={`w-full text-xs ${light ? "text-[#a3471f]" : "text-amber-400"}`}>{message}</p>}
     </form>
   );
