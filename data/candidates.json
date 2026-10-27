@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T13:15:39.487Z",
+ "generatedAt": "2026-10-27T12:23:18.351Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -44,6 +44,42 @@
     "named entity",
     "3 publishers",
     "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "9f68e3347000",
+   "name": "Presto",
+   "evidence": [
+    {
+     "title": "Presto Raises $10 Million to Expand Drive-Thru Voice AI as POS Integration Shapes Competition",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOWRwWDBWVGVVS1RfVThPNWJKNjYzUFM5bzV0am9xOTh1a2ZXaGRmamI2YjN6Z0dhcW5rMUlPYUFzSjJvd2R5MExQeWxpV2dqVWdPZ1gxaENHTDJHZnFlWmZOT3J5ZlIybjEyMnBVX3Iya1Y2Q1hyRXBZYVRqTHVjaWdMNmRxTWxrMXdGSzMzZ0RpTzJTSXcwbUF3aC01SUVteGcweHlNWi1nb3JISjUzWHQ2TFhiZzV1MzhWSUFWcDM5MWx3dC15WWtlOFFYNnNZR0ZIaA?oc=5",
+     "source": "gnews",
+     "domain": "restauranttechnologynews.com",
+     "publishedAt": "2026-10-06T20:20:52.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    },
+    {
+     "title": "Presto Raises $10M to Accelerate Voice AI for Restaurants",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNmxNcHFBeXdhUXFvN1FxX3NsU01zM1dud3U3SVBWQ1c1b0Jqazl4ZXZRbjAta2F4LTJCVmExMGVPWEdnb3Q4ZTBwemhiay1zN1ZJTEZtYlcyM1JmX0I5ei1BMjhjaWxSX09NbzcxdTFNMk9TWk5CeWx1aHRHOEladUJSaXdDNmJNbkt2aHc0Z2pHeGU1R25hTmIyOA?oc=5",
+     "source": "gnews",
+     "domain": "citybiz.co",
+     "publishedAt": "2026-09-29T07:00:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 2,
+   "publishers": 2,
+   "firstSeen": "2026-10-27T12:23:18.350Z",
+   "score": 2.25,
+   "reasons": [
+    "named entity",
+    "2 publishers",
+    "funding or revenue figure"
    ],
    "status": "new"
   },
@@ -253,23 +289,23 @@
    "status": "new"
   },
   {
-   "id": "c490c8219d10",
-   "name": "Raises",
+   "id": "b5a5e4293b3f",
+   "name": "Podcast",
    "evidence": [
     {
-     "title": "Off-Prem-Focused AI Agent Startup Raises $4M",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMnI2S1JGc2NOelNLbk9UX2dia2E0R29KcmJyQ2ZEaDJib05rcTlYTzBBWUk5eUZQbjNHbVdkNjhNcmIwQ1hzdGV2bXBsUTlxOUpkdFB6OVdGbTczdmlUR1ZJRmt3NUhLNGwtUUdubVdycjZ1cHRSWnpybVU0eklBRHl6N1M?oc=5",
+     "title": "AI Raised the Ceiling for Designers｜Y Combinator Startup Podcast",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2N2xLbHpyQVQwQWVlLWJmY1JqdHBuMGJ2d2xSY1JGdTFPenVKdjc0MHhTVnhGd0Z6Y3ZNNHZKb1JUSVVzYmRUN3R4b2Z3NkdTS00tSlNlUTdlV3lJYzVN?oc=5",
      "source": "gnews",
-     "domain": "foodondemand.com",
-     "publishedAt": "2026-10-06T07:00:00.000Z",
+     "domain": "finance.biggo.com",
+     "publishedAt": "2026-10-27T00:41:17.000Z",
      "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
+      "\"solo founder\" AI agents raises"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-26T13:15:39.487Z",
+   "firstSeen": "2026-10-27T12:23:18.350Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -320,6 +356,31 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-23T11:48:53.499Z",
+   "score": 1.75,
+   "reasons": [
+    "autonomy thesis",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "95a9b4e9a590",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Disney to Hire Majority of Character.AI Employees in $60 Mn Deal",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTFpmS09lX1ZuckFnUFRya3ZXY19yUDJFempmUDVtR182YnI1VUxaZHdITEJodDhvMkNpblZvQWRZUktPTVpBNkp6dXA1VGsyZ095WGg2ZGY4aXVTZjJXYnM1czFBWEhJS1lUYUR4dU9oVGk0VkxRbUt0UUVMd1BWMnJfeXNwRFJBWG8xQ1hR?oc=5",
+     "source": "gnews",
+     "domain": "techstory.in",
+     "publishedAt": "2026-10-19T16:26:02.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-27T12:23:18.351Z",
    "score": 1.75,
    "reasons": [
     "autonomy thesis",
@@ -482,30 +543,6 @@
    "status": "new"
   },
   {
-   "id": "bc2701556292",
-   "name": "Yelp",
-   "evidence": [
-    {
-     "title": "Yelp launches AI voice agent to check restauran...",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWJ1czVWZTlaUEc3MTQ5aXUyZE9KMHRaRFlVa1JRN2hBNm1LYng4UFFKc3BTZG5OZDZfOE1nMmEwQ0daQWZsWjNiWTFYVjZXUTZuNDNNaGRPM2tjcGJ5aVVHXzB6M1lDU3ZEZHBpcWNzMmdoQU5WTVlOQ3h0aTlKU1liVQ?oc=5",
-     "source": "gnews",
-     "domain": "pluang.com",
-     "publishedAt": "2026-10-20T11:16:55.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-25T11:45:27.530Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
    "id": "53f594978cfe",
    "name": null,
    "evidence": [
@@ -547,30 +584,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-18T11:17:44.920Z",
-   "score": 1,
-   "reasons": [
-    "autonomy thesis"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "f98bd61b1897",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The Other Side of the \"Great AI Opportunity\" for Digital Employees",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41cEdKaGlwZ1lxNEtoYnZYNG5VWUZnQloxdGI5RFZJS21VZExTOHVudzVmV3NIVGxBbFczeXZlLXI3eUxSdGI3VExBRVd1LVdKYkhZ?oc=5",
-     "source": "gnews",
-     "domain": "eu.36kr.com",
-     "publishedAt": "2026-10-12T07:24:19.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-26T13:15:39.487Z",
    "score": 1,
    "reasons": [
     "autonomy thesis"
