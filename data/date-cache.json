@@ -535,7 +535,7 @@
    "attempts": 1
   },
   "b08332d93076": {
-   "checkedAt": "2026-10-27T12:21:13.770Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/orchestration/magnific-one-launches-to-give-teams-an-image-generator-that-avoids-the-ai-look-and-automatically-upholds-their-brand-kit",
    "evidence": [],
@@ -593,7 +593,7 @@
    "attempts": 1
   },
   "c0b0d9d01a7a": {
-   "checkedAt": "2026-10-27T12:21:13.770Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
    "evidence": [],
@@ -880,7 +880,7 @@
    "attempts": 3
   },
   "56b0cc77c5d0": {
-   "checkedAt": "2026-10-19T13:29:46.269Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/legal/transactional/elevenlabs-valuation-doubles-22-billion-surging-ai-voice-agent-demand-2026-09-30/",
    "evidence": [
@@ -893,7 +893,7 @@
    ],
    "realDate": "2026-09-30T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "21d4d5796f35": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -1131,7 +1131,7 @@
    "attempts": 1
   },
   "44162e8e42e3": {
-   "checkedAt": "2026-10-27T12:21:13.770Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/orchestration/openclaw-launches-free-enterprise-control-plane-for-persistent-ai-agents-backed-by-openai-red-hat-and-nvidia",
    "evidence": [],
@@ -2293,14 +2293,13 @@
    "attempts": 1
   },
   "1bc7aff448f3": {
-   "checkedAt": "2026-10-25T11:40:19.029Z",
-   "status": "page:http-429",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
    "publisherUrl": "https://finance.biggo.com/podcast/ea01e142d69130ad",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "transient": true,
-   "attempts": 1
+   "attempts": 2
   },
   "b8f6b87e97ba": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -2491,7 +2490,7 @@
    "attempts": 1
   },
   "583da352e739": {
-   "checkedAt": "2026-10-25T11:40:19.029Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html",
    "evidence": [
@@ -2504,7 +2503,7 @@
    ],
    "realDate": "2026-10-16T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 2
+   "attempts": 3
   },
   "2a813928eecd": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -2523,13 +2522,13 @@
    "attempts": 1
   },
   "ecf3d3bb55dd": {
-   "checkedAt": "2026-10-25T11:40:19.029Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:http-403",
    "publisherUrl": "https://saywhomedia.com/people/beatrice-d-martin/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "4a73cc3f15f5": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -2636,13 +2635,13 @@
    "attempts": 1
   },
   "8af64ccd818a": {
-   "checkedAt": "2026-10-25T11:40:19.029Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:http-403",
    "publisherUrl": "https://app.dealroom.co/news/note/technovatime-lands-3-4m-to-automate-hospital-admin-work",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "0d3b54fb49fb": {
    "checkedAt": "2026-10-19T13:29:46.269Z",
@@ -7317,13 +7316,13 @@
    "attempts": 1
   },
   "4d7844f77a01": {
-   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:no-date",
    "publisherUrl": "https://ca.finance.yahoo.com/quote/2513.HK/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "fc8113e2349f": {
    "checkedAt": "2026-10-20T11:46:50.144Z",
@@ -12541,13 +12540,13 @@
    "attempts": 1
   },
   "114538a98a95": {
-   "checkedAt": "2026-10-23T11:46:46.462Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:http-403",
    "publisherUrl": "https://seekingalpha.com/news/4648698-elevenlabs-doubles-valuation-to-22b-after-recent-300m-employee-tender-offer",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "f60b74165fcb": {
    "checkedAt": "2026-10-23T11:46:46.462Z",
@@ -13807,13 +13806,13 @@
    "attempts": 1
   },
   "aef9c473faea": {
-   "checkedAt": "2026-10-24T11:11:29.909Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:no-date",
    "publisherUrl": "https://dairynews.today/news/rural_transport_disruptions_are_limiting_artisan_dairy_sales_2575880.html",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "5bcc2524229f": {
    "checkedAt": "2026-10-25T11:40:19.029Z",
@@ -14065,13 +14064,13 @@
    "attempts": 2
   },
   "e296f1aa27b1": {
-   "checkedAt": "2026-10-25T11:40:19.029Z",
+   "checkedAt": "2026-10-28T13:06:54.416Z",
    "status": "page:no-date",
    "publisherUrl": "https://news.futunn.com/en/post/1001498945/10-year-treasury-yield-plunges-17-basis-points-in-a",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "05faf79d23c6": {
    "checkedAt": "2026-10-25T11:40:19.029Z",
@@ -15584,6 +15583,652 @@
    "checkedAt": "2026-10-27T12:21:13.770Z",
    "status": "page:no-date",
    "publisherUrl": "https://weather.com/en-CA/ca/ontario/tecumseh/postcode/n8n-2y4/today",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "6bf9cdd3a6c6": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://siliconangle.com/2026/10/27/red-hat-openclaw-agents-kubeconna/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-28T00:09:09.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-27T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-28T00:09:09.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "69f74a281c01": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://app.dealroom.co/news/note/tokyo-artisan-intelligence-raises-8-1m-series-c-first-close-for-ai-chips",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "0698333d7c24": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://app.dealroom.co/news/note/phaze-ventures-launches-two-funds-targeting-75m-for-ai-and-deeptech",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "16a2ebe846cd": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://via.tt.se/pressmeddelande/4617728/listen-labs-launches-listen-twins-ai-models-that-predict-how-real-customers-behave?publisherId=259167&lang=en",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "63266ec0a8cc": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://app.dealroom.co/news/note/nanocorp-founder-launched-from-a-us-hospital-bed-after-comparing-kaiser-and-french-er",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "8ea14019b64c": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T00:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T00:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "c062c004a912": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://openai.com/index/oracle-apps-in-chatgpt/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "7ec22e83943b": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.tradingview.com/news/prnewswire:c4f9b9877e0b4:0-oracle-plans-to-expand-multicloud-ai-database-services-to-us-government-and-public-sector-workloads/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T19:30:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T19:30:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "574001a124c8": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.indexbox.io/blog/cma-cgm-scales-ai-voice-agents-with-happyrobot-across-global-operations/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-15T17:31:13.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-15T17:31:13.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "f9508794e5e6": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "74568d55ae63": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.biggo.com/news/225dd765141dec5b",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-28T11:08:20.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-28T11:08:20.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "47b310b27447": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/technology/ai/articles/quick-restaurants-pypestream-voice-ai-110000558.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-28T11:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-28T11:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "97548ae0b047": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.techtarget.com/news/Neon-previews-serverless-PostgreSQL-database-service/843669/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2022-06-17T15:29:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2022-06-17T15:29:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "61d0acd0d12c": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://waya.media/phaze-ventures-targets-usd-75m-to-support-ai-and-deeptech-companies/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-28T08:48:18.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-28T08:48:18.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "95b8639f2ed9": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.techbriefs.com/component/content/article/56182-doc-10023",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "057e0e7f88f0": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.omanobserver.om/ampArticle/1198707",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-28T05:58:58.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-28T05:58:58.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "89e56c55fd07": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://toyotagazooracing.com/pressrelease/2026/1028-01/",
+   "evidence": [
+    {
+     "kind": "feed",
+     "date": "2026-10-28T04:30:00.000Z",
+     "via": "feed",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-28T04:30:00.000Z",
+   "via": "feed",
+   "attempts": 1
+  },
+  "5bcfde8cb434": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.einpresswire.com/article/952297147/phaze-ventures-announces-75m-global-venture-platform-from-oman",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-28T04:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-28T04:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "d19efd486c12": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.king5.com/article/news/politics/elections/washington-voters-urged-to-use-drop-boxes-as-mail-postmark-window-narrows/281-a2ff4199-7494-48a4-97a2-78fd62b90139",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "8866e1560d80": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://techbullion.com/the-12-best-ai-avatar-tools-for-ugc-video-ads/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-28T00:05:04.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-28T00:05:04.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "0eecd224b65f": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://techbullion.com/10-best-ai-video-ad-generators-for-businesses-in-2026/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T23:25:26.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T23:25:26.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "7536aca57387": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/markets/stocks/articles/artisan-partners-nyse-apam-q3-204501942.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T20:45:01.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T20:45:01.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "b48405a91651": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.techinasia.com/news/openai-models-power-80-calls-voice-ai-startup-retell",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "ee85aa924914": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.anthropic.com/research/early-progress-drug-development",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T00:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T00:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "6e66cb2385df": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.nine.com.au/australia-news/videos/ai-models-reported-to-have-caused-rise-in-online-attacks/cmvqdco8900420hqm9dj8mc6z",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "5fabf460f12f": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/healthcare/articles/valify-named-finalist-d-ceo-133500630.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T13:35:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T13:35:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "4ea3f8ce2bcb": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.bizjournals.com/pittsburgh/news/2026/10/27/bakery-square-credo-technology-group-ai-avenue.html",
+   "evidence": [
+    {
+     "kind": "url",
+     "date": "2026-10-27T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-27T00:00:00.000Z",
+   "via": "url-path",
+   "attempts": 1
+  },
+  "53af22da1c3b": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/markets/stocks/articles/digitalocean-holdings-inc-docn-expected-130016621.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T13:00:16.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T13:00:16.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "c17d0f607b0f": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.nine.com.au/australia-news/videos/foreign-criminals-allegedly-trying-to-use-ai-to-access-superannuation/cmvqa9izh004p0hpl06jvx7ad",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "1c491096c648": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.bloomberg.com/news/articles/2026-10-27/microsoft-alumni-score-funding-to-build-ai-agents-for-finance",
+   "evidence": [
+    {
+     "kind": "url",
+     "date": "2026-10-27T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-27T00:00:00.000Z",
+   "via": "url-path",
+   "attempts": 1
+  },
+  "8ef81b2213e2": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://appleworld.today/2026/10/openrouter-review-its-5-best-alternatives-2026/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T11:05:00.000Z",
+     "via": "meta:article:published_time",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T11:05:00.000Z",
+   "via": "meta:article:published_time",
+   "attempts": 1
+  },
+  "d12520af7588": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.weeklytimesnow.com.au/news/national/humour-in-politics-always-a-winner-amid-controversy-surrounding-one-nations-cartoons/video/e4937bd9516b7784b9f644b46276bf80",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "029724434aa1": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.stocktitan.net/sec-filings/ITGR/form-4-integer-holdings-corp-insider-trading-activity-5d0ab798e63a.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-26T22:06:07.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-26T22:06:07.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "025c806bd676": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://es.tradingview.com/news/marketbeat:f21e62431094b:0-broadcom-s-ai-chip-business-is-booming-but-alphabet-s-strategy-highlights-2-key-risks/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-26T12:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-26T12:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "9f9b653c0a20": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.theaustralian.com.au/breaking-news/mp-security-upgrades-after-helen-haines-attack/news-story/9e29b9714f21b6b68e121dd69856114d",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "a0926adb52a2": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.weeklytimesnow.com.au/news/national/jim-chalmers-should-apologise-to-australian-people-for-labors-budget/video/2802132b64813f4c779ba13b9e60f8b7",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "2feaf1260b41": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.bandt.com.au/majority-of-australians-dont-want-copyright-laws-changed-for-big-tech/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-25T23:32:55.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-25T23:32:55.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "4a8600de05a4": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.tubefilter.com/2026/10/23/change-org-petition-redesign-ai-tiktok-posts/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T20:30:29.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-23T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-23T20:30:29.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "eeaa199d2952": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://ffnews.com/news/finom-mcp-lets-you-ask-your-business-account-questions-inside-claude-and-chatgpt-9af47759",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "df4c5bc2a619": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-22T10:44:00.000Z",
+     "via": "meta:datepublished",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-22T10:44:00.000Z",
+   "via": "meta:datepublished",
+   "attempts": 1
+  },
+  "5dceaa5ce243": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.konsulteer.com/article/akamai-appoints-palvinder-singh-chahil-as-director-of-product-management-for-ai-and-compute-in-apj",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "f956e9af75d4": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.nine.com.au/australia-news/videos/experts-warn-ai-influencers-are-becoming-impossible-to-spot/cmvj9yygu002h0go58qpdg9zm",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "48a084dce82f": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.bloomberg.com/company/stories/skills-over-mcp-how-bloomberg-helped-standardize-agent-skills-at-scale/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "15a530d7902c": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-getting-crushed-heres-140500165.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-21T14:05:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-21T14:05:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "ced804c5a90f": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://openai.com/index/att-legal/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "1946538b8ab6": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.practicalecommerce.com/shopify-vercel-arm-stores-for-ai-agents",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-20T14:09:21.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-20T14:09:21.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "db3c26df0c91": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "ok",
+   "publisherUrl": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-20T22:03:17.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-20T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-20T22:03:17.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "1d7767e286b7": {
+   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.weeklytimesnow.com.au/news/national/albanese-confirms-helen-haines-attack-is-a-serious-incident/video/990777f63d4b3e18b65bc75db2df5fde",
    "evidence": [],
    "realDate": null,
    "via": null,
