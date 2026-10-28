@@ -51,8 +51,8 @@ export async function postContactWithAttribution(
   fetchImpl: FetchLike,
   url: string,
   headers: Record<string, string>,
-  body: { attributes?: Record<string, string> } & Record<string, unknown>,
-  extra: Record<string, string>,
+  body: { attributes?: Record<string, string | number> } & Record<string, unknown>,
+  extra: Record<string, string | number>,
 ): Promise<Response> {
   const withExtra = { ...body, attributes: { ...(body.attributes ?? {}), ...extra } };
   const res = await fetchImpl(url, { method: "POST", headers, body: JSON.stringify(withExtra) });

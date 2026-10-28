@@ -1,4 +1,4 @@
-export type FunnelEvent = "profile_view" | "profile_engaged" | "experiment_view" | "calculation_completed" | "signup_request_accepted" | "affiliate_outbound";
+export type FunnelEvent = "profile_view" | "profile_engaged" | "experiment_view" | "calculation_completed" | "signup_request_accepted" | "affiliate_outbound" | "sponsor_engaged";
 export type AnalyticsContext = {
   production: boolean;
   hostname: string;
@@ -36,6 +36,7 @@ export function funnelPayload(event: FunnelEvent, pathname: string, detail?: str
   const page = safeAnalyticsPath(pathname);
   if (!page) return null;
   if ((event === "profile_view" || event === "profile_engaged") && !page.startsWith("/companies/")) return null;
+  if (event === "sponsor_engaged" && page !== "/sponsor") return null;
   if (event === "experiment_view" && !page.startsWith("/experiments/")) return null;
   if (event === "signup_request_accepted") {
     return detail === "confirmation_requested" || detail === "subscribed" ? { page, status: detail } : null;

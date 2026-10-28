@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { Analytics } from "@vercel/analytics/react";
+import { recordLeadSignal } from "@/lib/lead-signals";
 import { canTrackAnalytics, configureAnalytics, redactAnalyticsEvent, trackFunnelEvent } from "@/lib/analytics";
 
 export default function AnalyticsEvents({ production }: { production: boolean }) {
@@ -12,8 +13,16 @@ export default function AnalyticsEvents({ production }: { production: boolean })
 
   useEffect(() => {
     configureAnalytics(production);
+    // Lead score v0: first-party signals kept in this browser (lib/lead-signals.ts),
+    // independent of Vercel Analytics, sent only with a form the reader submits.
+    if (pathname.startsWith("/companies/")) recordLeadSignal("company", pathname.slice("/companies/".length));
+    if (pathname.startsWith("/pulse/")) recordLeadSignal("pulse_open");
+    if (pathname === "/dealroom") recordLeadSignal("dealroom");
+    let sponsorTimer: ReturnType<typeof setTimeout> | undefined;
+    if (pathname === "/sponsor") sponsorTimer = setTimeout(() => { recordLeadSignal("sponsor_dwell"); trackFunnelEvent("sponsor_engaged"); }, 30_000);
+    const clearSponsor = () => { if (sponsorTimer) clearTimeout(sponsorTimer); };
     setEnabled(canTrackAnalytics());
-    if (!canTrackAnalytics()) return;
+    if (!canTrackAnalytics()) return clearSponsor;
     if (lastView.current !== pathname) {
       lastView.current = pathname;
       if (pathname.startsWith("/companies/")) trackFunnelEvent("profile_view");
@@ -42,7 +51,7 @@ export default function AnalyticsEvents({ production }: { production: boolean })
     document.addEventListener("visibilitychange", visibility);
     document.addEventListener("click", outbound);
     document.addEventListener("auxclick", outbound);
-    return () => { stop(); document.removeEventListener("visibilitychange", visibility); document.removeEventListener("click", outbound); document.removeEventListener("auxclick", outbound); };
+    return () => { clearSponsor(); stop(); document.removeEventListener("visibilitychange", visibility); document.removeEventListener("click", outbound); document.removeEventListener("auxclick", outbound); };
   }, [pathname, production]);
 
   if (!enabled) return null;
