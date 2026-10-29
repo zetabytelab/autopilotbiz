@@ -1,25 +1,25 @@
 {
- "generatedAt": "2026-10-28T13:09:06.054Z",
+ "generatedAt": "2026-10-29T13:17:50.798Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
    "name": "Faces Bankruptcy",
    "evidence": [
     {
-     "title": "Disney to Hire Most Character.AI Employees as AI Chatbot Startup Faces Bankruptcy",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTVZXSGZaN0pKOWpYeTRPR1JKUXNXTzBzNmtsaUtvM0JiLVd5ZEl4UE5GTGhBanBlR1JIWkZGeEo2eWpVclk0TWRHcG5ZQlJtTUVEbzFEZ0N2dVFoTnN0a1BFLUpIVWV4SG9tS1M5NFA4dkhBYldtaU9Xb1REN00ySjQ3bGIybnlKckp4Q0pLQjdHT0JIWWdqN2YwenRTRGxWUFNobDJscHlwdnNYcXFwV2dqYnVWTEVXWTkwUTB1NDdLb0NhZk85SQ?oc=5",
+     "title": "Disney Offers Jobs to Most Character.AI Employees as Startup Faces Bankruptcy",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObFJpelNCemJ2cUxleGxFbExuQTJtc3FQSXAwRDMtMEpOaHFXaXNab3hhTTB2WEpYMU5oNklwLVNXdHVHNnpXWjBmZEt0RlVEQnQzUHpEcHZOeUFyR3hwbHRIdmRpOXlNN1ViOTRXTWZuSnRlUnBCWVYxZEZoSkpPenpiYVc2Mk5kY0NOWTJEN2xxNmNoV0J6RW40dlZrb2ZOUUZ5Nzlkdlh4aUNDTnJLTGd3?oc=5",
      "source": "gnews",
-     "domain": "techtimes.com",
-     "publishedAt": "2026-10-19T10:10:08.000Z",
+     "domain": "konsulteer.com",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
     },
     {
-     "title": "Disney Offers Jobs to Most Character.AI Employees as Startup Faces Bankruptcy",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObFJpelNCemJ2cUxleGxFbExuQTJtc3FQSXAwRDMtMEpOaHFXaXNab3hhTTB2WEpYMU5oNklwLVNXdHVHNnpXWjBmZEt0RlVEQnQzUHpEcHZOeUFyR3hwbHRIdmRpOXlNN1ViOTRXTWZuSnRlUnBCWVYxZEZoSkpPenpiYVc2Mk5kY0NOWTJEN2xxNmNoV0J6RW40dlZrb2ZOUUZ5Nzlkdlh4aUNDTnJLTGd3?oc=5",
+     "title": "Disney to Hire Most Character.AI Employees as AI Chatbot Startup Faces Bankruptcy",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTVZXSGZaN0pKOWpYeTRPR1JKUXNXTzBzNmtsaUtvM0JiLVd5ZEl4UE5GTGhBanBlR1JIWkZGeEo2eWpVclk0TWRHcG5ZQlJtTUVEbzFEZ0N2dVFoTnN0a1BFLUpIVWV4SG9tS1M5NFA4dkhBYldtaU9Xb1REN00ySjQ3bGIybnlKckp4Q0pLQjdHT0JIWWdqN2YwenRTRGxWUFNobDJscHlwdnNYcXFwV2dqYnVWTEVXWTkwUTB1NDdLb0NhZk85SQ?oc=5",
      "source": "gnews",
-     "domain": "konsulteer.com",
+     "domain": "techtimes.com",
      "publishedAt": "2026-10-19T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
@@ -169,6 +169,31 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-19T13:35:03.963Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "0cd0b19231db",
+   "name": "Town",
+   "evidence": [
+    {
+     "title": "Town Raises $108M Series B at a $1B Valuation to Bring AI Assistants to Whole Teams",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUS1KX29SOUJTZmJJMjRLbENMRFFoSWY3eDMyVGNKNE1fcnd2STR5ZjVrbGxoVTNEREEwbmtyb3ZtU1djcFBwRkhWSmdFTlZGdjBCTzkwTDFOWTNTUXVTWUxEdFlNSGVHcFhpS19ZX0szd2RUZnN5M3Y4cTZtSGIxLWRtYjh6NFFtcGd3TDV0UzBjYms?oc=5",
+     "source": "gnews",
+     "domain": "finance.yahoo.com",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-29T13:17:50.798Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -344,6 +369,31 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-23T11:48:53.499Z",
+   "score": 1.75,
+   "reasons": [
+    "autonomy thesis",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "95a9b4e9a590",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Disney to Hire Majority of Character.AI Employees in $60 Mn Deal",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTFpmS09lX1ZuckFnUFRya3ZXY19yUDJFempmUDVtR182YnI1VUxaZHdITEJodDhvMkNpblZvQWRZUktPTVpBNkp6dXA1VGsyZ095WGg2ZGY4aXVTZjJXYnM1czFBWEhJS1lUYUR4dU9oVGk0VkxRbUt0UUVMd1BWMnJfeXNwRFJBWG8xQ1hR?oc=5",
+     "source": "gnews",
+     "domain": "techstory.in",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-29T13:17:50.798Z",
    "score": 1.75,
    "reasons": [
     "autonomy thesis",
@@ -530,23 +580,47 @@
    "status": "new"
   },
   {
-   "id": "bc2701556292",
-   "name": "Yelp",
+   "id": "2496690ce6c2",
+   "name": "Control M",
    "evidence": [
     {
-     "title": "Yelp launches AI voice agent to check restauran...",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWJ1czVWZTlaUEc3MTQ5aXUyZE9KMHRaRFlVa1JRN2hBNm1LYng4UFFKc3BTZG5OZDZfOE1nMmEwQ0daQWZsWjNiWTFYVjZXUTZuNDNNaGRPM2tjcGJ5aVVHXzB6M1lDU3ZEZHBpcWNzMmdoQU5WTVlOQ3h0aTlKU1liVQ?oc=5",
+     "title": "AI food tech company Control M announced on the 29th that it has been selected as the \"2026 Scale-up..",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93YmprMl9RZm9kWTJaajBxSEZwRkJXOFA1bTJVeHJwSnc3UGoxYjhjeGRudjhLU182cFNUZnVQX29qUjZoWUpzX2hyVQ?oc=5",
      "source": "gnews",
-     "domain": "pluang.com",
-     "publishedAt": "2026-10-20T11:16:55.000Z",
+     "domain": "mk.co.kr",
+     "publishedAt": "2026-10-29T05:43:43.000Z",
      "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
+      "\"self-operating\" startup AI"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-28T13:09:06.053Z",
+   "firstSeen": "2026-10-29T13:17:50.798Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "2fe14b9b993e",
+   "name": "Daily",
+   "evidence": [
+    {
+     "title": "Self-Running Business Daily - a sourced daily log of companies that claim AI agents run them",
+     "url": "https://www.reddit.com/r/SideProject/comments/1xi919k/selfrunning_business_daily_a_sourced_daily_log_of/",
+     "source": "reddit",
+     "domain": "reddit.com",
+     "publishedAt": "2026-10-29T03:17:40.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-29T13:17:50.798Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -571,6 +645,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-18T11:17:44.920Z",
+   "score": 1,
+   "reasons": [
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "24c57276c950",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Sell first, build second, automate last: A solo founder’s playbook for the AI era",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEtOT25obEswWTJuM2RwNHNrVzJrVTgwYjI5VFFKbmhFSXRWVmNfWF9NVkc2MUFMeDlOY3drdVZmWmxsTzRtcnhsaFljOVlvWlVYNGtTazVyUFJHaklDbDFyLVZvc2JldW4xSFBWUjJ0Mlh4NW1GZUdfbXg0MHUyRE85OElybmVXVXk3VkttekpOMWFRaGZVS243SlQzRUN3NVNLNVVCTmJoQ0E?oc=5",
+     "source": "gnews",
+     "domain": "yourstory.com",
+     "publishedAt": "2026-10-29T09:00:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-29T13:17:50.798Z",
    "score": 1,
    "reasons": [
     "autonomy thesis"
@@ -650,30 +748,6 @@
    "status": "rejected"
   },
   {
-   "id": "d47901fae306",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Character.AI bankruptcy explained: Why Disney will pay $60 million a year to hire 66 employees",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPR3c4eF9JYko0cml6WWFydERBNTA4OTZJRno1SWQ2MVBmazJZQkRnRjZpTWpMaTFZSmIxb3RMTjNFQVhUM2ZLN1hhSUZNMk04SUNNOWZueFFmZkVHSmEzdHA1dnRyUmdzVGRXdFRrLWlzbS1XN2k0dVA1N2RjdHFhb0tYaHhxRFU0RU1JSDVpb2xuREpISm1aRS1ET0VtalQ4UWNESVNNUm5SN2VXeVJLUTNIay1DNmxFeThWeEkyeGphS0pRMER2eG5nVlV0aWZOT3hmVW5YQldOVE5RNmQzUlVKQ1pjZmVGMzVpVnZzaUhSZ9IB9wFBVV95cUxPdTZyMjk4bUpWcUZDRU9vOHdLd0F1QWNuazNqSmwyUGYzdGszZFhXamg5N0ZHZGVZdjdNN2R5V0ZHM0hkWUlOWGZETGc1a2J6MnBpLUtUOXk2eHRKSGZqbVZicFkza21TcC1xb0YzZVRTRmdqdWo4ZDV6WFN4RDVzYjk3a2JjTzVnODYtdVVPcXpXdnlqSWhHNkpoR1R5RnNNaXdvLTNzamZNNERJZHQ2aVQtN3RMQnRsb1NWWGpERXJldWt5WG81cUc1T2RlWUtVbFR4Wi1zUXp1WjA5RjVGYWJoanp1RG1Fc1hnd2EwblMtMEFFLXFR?oc=5",
-     "source": "gnews",
-     "domain": "businesstoday.in",
-     "publishedAt": "2026-10-19T06:40:12.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-23T11:48:53.499Z",
-   "score": 0.75,
-   "reasons": [
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "06471da8e570",
    "name": null,
    "evidence": [
@@ -743,6 +817,28 @@
    "status": "new"
   },
   {
+   "id": "fe0cbf07c60b",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Fall 2026 Product Release: Expedia Group launches AI-powered tools and services to simplify the entire trip, from planning and booking to payment and support",
+     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOb2JfbGVuc0FlU1hFalNya1hmN0lmY1QtLV9vdms2TEhBeE80NzZEYVZWS3hLX19IcUZPbGhJX2lSZm1jRzRjejZwYWdlX0h3Q3J5RzRaRHZHQUE0RGFHbFFTNHVNTVFVRTdNc0pEMUFaNXRTekxXbEI5TFdoRDFEdTVqb3JGXzQycDdOa0ZFcG1xNnpIQWxuUTQwMkFkc2FsbzZ5NmdxWE1KNnNKMkMyY2NVcnVVRUhpWXVBQ0FoNmdhdW5hQjBZR19ZUGJUNXgwM1k1dzUxdjBDMmhaX3FkeFVVNEVwZUp5a0NuZkZTV0RJZ2F1VS1xZ0hFcXFJMS1YYWw0eTFnWkxna25TeVlTaVUtRlAwZ2FkNWZFdGctUHpicXZqRkE?oc=5",
+     "source": "gnews",
+     "domain": "hospitalitynet.org",
+     "publishedAt": "2026-10-29T11:24:39.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-29T13:17:50.798Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
    "id": "7076512819df",
    "name": null,
    "evidence": [
@@ -760,6 +856,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-05T14:52:38.933Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "2ccd9f444887",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Grok Bot, Muse, Dots, Gemini, Duet: five big-tech agents in 10 weeks. An honest founder’s take on what they got right, and why I think none of them will be the last one you set up",
+     "url": "https://www.reddit.com/r/AI_Agents/comments/1xhtp7v/grok_bot_muse_dots_gemini_duet_five_bigtech/",
+     "source": "reddit",
+     "domain": "reddit.com",
+     "publishedAt": "2026-10-28T16:57:37.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-29T13:17:50.798Z",
    "score": 0,
    "reasons": [],
    "status": "new"
