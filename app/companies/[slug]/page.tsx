@@ -7,6 +7,7 @@ import { financialSummary, latestObservation, METRIC_LABELS, observationDate } f
 import FinancialHistory from "@/components/FinancialHistory";
 import SubscribeForm from "@/components/SubscribeForm";
 import { getCompanyResearch, getCompanySources, getProfileNotes, type ResearchFinding } from "@/lib/company-profiles";
+import { companyJsonLd, serializeJsonLd } from "@/lib/company-jsonld";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -61,6 +62,7 @@ export default async function CompanyProfile({ params }: Props) {
 
   return (
     <main className="mx-auto max-w-4xl px-4 pb-24 pt-12 sm:px-6">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(companyJsonLd(company)) }} />
       <Link href="/companies" className="font-mono text-xs text-zinc-400 hover:text-lime-400">← All company profiles</Link>
       <header className="mb-9 mt-8">
         <p className="font-mono text-xs uppercase tracking-widest text-lime-400">Company research · {assessment.sectionLabel}</p>
