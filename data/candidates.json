@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T13:17:50.798Z",
+ "generatedAt": "2026-10-30T13:07:15.113Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -660,7 +660,7 @@
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEtOT25obEswWTJuM2RwNHNrVzJrVTgwYjI5VFFKbmhFSXRWVmNfWF9NVkc2MUFMeDlOY3drdVZmWmxsTzRtcnhsaFljOVlvWlVYNGtTazVyUFJHaklDbDFyLVZvc2JldW4xSFBWUjJ0Mlh4NW1GZUdfbXg0MHUyRE85OElybmVXVXk3VkttekpOMWFRaGZVS243SlQzRUN3NVNLNVVCTmJoQ0E?oc=5",
      "source": "gnews",
      "domain": "yourstory.com",
-     "publishedAt": "2026-10-29T09:00:00.000Z",
+     "publishedAt": "2026-10-29T09:07:16.000Z",
      "matchedKeywords": [
       "\"solo founder\" AI agents raises"
      ]
@@ -795,6 +795,28 @@
    "status": "new"
   },
   {
+   "id": "d3f1fde9d75c",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Assessing and Managing the Risk of Doing Business with Small Software Companies in ﻿the Age of AI",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZTQ3RFVKeDRaOVJPVVJaOXBZajJORE9pa3JCVUszVmVXeU1nbXlXZGZ5VWs1Rm1LZXpKb08xQ2NLNnNoaWJ3a3VLbVMxX1RRaXpWUDNMalRxQlNBOUQ0NlRTT1ZPdUZFWG5FZ1hZMVNta0dQZ01ldVl1TUxydTduRzRmb3pabUhYdUUzSFRaeVIyampYWUJlVzBibFROS2d1LTMyRDVSX0M1a1VoMGtqdUlhNVVpTUlVbjF1NzBnMV9NUENyemMxRlVnNG9fTXNxcWROeHZTbzU?oc=5",
+     "source": "gnews",
+     "domain": "grainjournal.com",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-30T13:07:15.112Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
    "id": "dfa6a8defad3",
    "name": null,
    "evidence": [
@@ -812,6 +834,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-28T13:09:06.054Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "e0ab7a97c1a5",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI Agents for Small Businesses Guide 2026",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SelR3V0hsUzlmVmlvd2lzWmhOVG1VaXc0and6d01YNm1DTVo3YkFnOXJNLTlsVDBRUTNLb3BBV2h2VjZNd1ZaVWpRRmcwQUlVWnJEWW81TTVndC05ZFhCc1BXV2NhUjJlZ1hsSzRiRENDOUZMa3RVVQ?oc=5",
+     "source": "gnews",
+     "domain": "bitcoinfoundation.org",
+     "publishedAt": "2026-10-30T07:26:37.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-30T13:07:15.113Z",
    "score": 0,
    "reasons": [],
    "status": "new"
