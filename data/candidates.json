@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T13:07:15.113Z",
+ "generatedAt": "2026-10-31T12:45:10.065Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -48,28 +48,38 @@
    "status": "new"
   },
   {
-   "id": "97dad7c01143",
-   "name": "Legora",
+   "id": "95a9b4e9a590",
+   "name": null,
    "evidence": [
     {
-     "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
-     "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
-     "source": "investor",
-     "domain": "techcrunch.com",
-     "publishedAt": "2026-10-21T18:51:56.000Z",
+     "title": "Disney to Hire 60 Character.AI Employees in USD 60 Million Deal",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWltMDZIVHU3Qy1wREpQcUdlTm9jQkdudFQzR1F3aUc0TTg5ZEw0OWVVYW5uRmpWUnR1ak9IM09OMVp2MmVyQnNzaE1ZQUF4VnhkazZyTWpBaGg2WV9YdDlUWDZGM3M0dm1YOUgwdk1SdldFMFN1YTRtWDBqWU1aX2cwNFpycmFJeUJxTGdOcEFweU1OY25ZNUlTalZhWE90S0HSAa8BQVVfeXFMT2dFZnkxeFBFRVdOckhWcDBUMG16ZzB5d1ZidVdITWtSODBrQ240UTlVcnYyREhFN2JTR2ppaV9QSnFnYzRPVkwta0kyS3pVOHJ3Y3JjeEt1WWFvS0VqMU40Y3EzRlZDMVFUWGUzR204RlFvYzZDeTdmdlNSYWlHVGRmYnMwdEN6OUVLcG41cWFzaExoVThWOG1hYnYyaHNxUjBpX3UwNzFGQjZZM1NNMA?oc=5",
+     "source": "gnews",
+     "domain": "analyticsinsight.net",
+     "publishedAt": "2026-10-19T07:15:00.000Z",
      "matchedKeywords": [
-      "investor:techcrunch-vc"
+      "\"AI employees\" startup"
+     ]
+    },
+    {
+     "title": "Disney to Hire Majority of Character.AI Employees in $60 Mn Deal",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTFpmS09lX1ZuckFnUFRya3ZXY19yUDJFempmUDVtR182YnI1VUxaZHdITEJodDhvMkNpblZvQWRZUktPTVpBNkp6dXA1VGsyZ095WGg2ZGY4aXVTZjJXYnM1czFBWEhJS1lUYUR4dU9oVGk0VkxRbUt0UUVMd1BWMnJfeXNwRFJBWG8xQ1hR?oc=5",
+     "source": "gnews",
+     "domain": "techstory.in",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
      ]
     }
    ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-22T12:03:10.928Z",
+   "coverage": 2,
+   "publishers": 2,
+   "firstSeen": "2026-10-29T13:17:50.798Z",
    "score": 2.25,
    "reasons": [
-    "named entity",
-    "funding or revenue figure",
-    "strong outlet"
+    "2 publishers",
+    "autonomy thesis",
+    "funding or revenue figure"
    ],
    "status": "new"
   },
@@ -177,31 +187,6 @@
    "status": "new"
   },
   {
-   "id": "0cd0b19231db",
-   "name": "Town",
-   "evidence": [
-    {
-     "title": "Town Raises $108M Series B at a $1B Valuation to Bring AI Assistants to Whole Teams",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUS1KX29SOUJTZmJJMjRLbENMRFFoSWY3eDMyVGNKNE1fcnd2STR5ZjVrbGxoVTNEREEwbmtyb3ZtU1djcFBwRkhWSmdFTlZGdjBCTzkwTDFOWTNTUXVTWUxEdFlNSGVHcFhpS19ZX0szd2RUZnN5M3Y4cTZtSGIxLWRtYjh6NFFtcGd3TDV0UzBjYms?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-29T13:17:50.798Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "8f2092a7e61c",
    "name": "Zenithon",
    "evidence": [
@@ -277,15 +262,15 @@
    "status": "new"
   },
   {
-   "id": "c490c8219d10",
-   "name": "Raises",
+   "id": "9f68e3347000",
+   "name": "Presto",
    "evidence": [
     {
-     "title": "Off-Prem-Focused AI Agent Startup Raises $4M",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMnI2S1JGc2NOelNLbk9UX2dia2E0R29KcmJyQ2ZEaDJib05rcTlYTzBBWUk5eUZQbjNHbVdkNjhNcmIwQ1hzdGV2bXBsUTlxOUpkdFB6OVdGbTczdmlUR1ZJRmt3NUhLNGwtUUdubVdycjZ1cHRSWnpybVU0eklBRHl6N1M?oc=5",
+     "title": "Presto Raises $10 Million to Expand Drive-Thru Voice AI as POS Integration Shapes Competition",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOWRwWDBWVGVVS1RfVThPNWJKNjYzUFM5bzV0am9xOTh1a2ZXaGRmamI2YjN6Z0dhcW5rMUlPYUFzSjJvd2R5MExQeWxpV2dqVWdPZ1gxaENHTDJHZnFlWmZOT3J5ZlIybjEyMnBVX3Iya1Y2Q1hyRXBZYVRqTHVjaWdMNmRxTWxrMXdGSzMzZ0RpTzJTSXcwbUF3aC01SUVteGcweHlNWi1nb3JISjUzWHQ2TFhiZzV1MzhWSUFWcDM5MWx3dC15WWtlOFFYNnNZR0ZIaA?oc=5",
      "source": "gnews",
-     "domain": "foodondemand.com",
-     "publishedAt": "2026-10-06T07:00:00.000Z",
+     "domain": "restauranttechnologynews.com",
+     "publishedAt": "2026-10-06T20:20:52.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
      ]
@@ -293,7 +278,7 @@
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-28T13:09:06.053Z",
+   "firstSeen": "2026-10-31T12:45:10.065Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -327,31 +312,6 @@
    "status": "new"
   },
   {
-   "id": "0246e02d4775",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Disney Commits $60 Million Annually to Character.AI Employees Following Mass Internal Layoffs",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkJqS0QzVUY1Z3prUW42Nl9CNXNHeDVTcG1xeFBfbDRzZThKWkZ2amJWdXgteFgwZ2dGTGxFWWpERFhQcUVMSmpyNEhMeklseGZEX01LVFdkM041dFNRTlhkanAyc01xNTd1aTlZYVk2OFhxSWduMktpYlA5aDk4YTBvaURqU1FITUxSNWxnOFF0ZnU1djVIbGdyU3NOY2Z3Nm50WkFLaUZ3Mm1WZlNHd3ZqMVJLcWVRX3hJ?oc=5",
-     "source": "gnews",
-     "domain": "wdwnt.com",
-     "publishedAt": "2026-10-17T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-28T13:09:06.054Z",
-   "score": 1.75,
-   "reasons": [
-    "autonomy thesis",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "4fd59665dbf0",
    "name": null,
    "evidence": [
@@ -369,31 +329,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-23T11:48:53.499Z",
-   "score": 1.75,
-   "reasons": [
-    "autonomy thesis",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "95a9b4e9a590",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Disney to Hire Majority of Character.AI Employees in $60 Mn Deal",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTFpmS09lX1ZuckFnUFRya3ZXY19yUDJFempmUDVtR182YnI1VUxaZHdITEJodDhvMkNpblZvQWRZUktPTVpBNkp6dXA1VGsyZ095WGg2ZGY4aXVTZjJXYnM1czFBWEhJS1lUYUR4dU9oVGk0VkxRbUt0UUVMd1BWMnJfeXNwRFJBWG8xQ1hR?oc=5",
-     "source": "gnews",
-     "domain": "techstory.in",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-29T13:17:50.798Z",
    "score": 1.75,
    "reasons": [
     "autonomy thesis",
@@ -597,6 +532,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-29T13:17:50.798Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "bc2701556292",
+   "name": "Yelp",
+   "evidence": [
+    {
+     "title": "Yelp launches AI voice agent to check restauran...",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWJ1czVWZTlaUEc3MTQ5aXUyZE9KMHRaRFlVa1JRN2hBNm1LYng4UFFKc3BTZG5OZDZfOE1nMmEwQ0daQWZsWjNiWTFYVjZXUTZuNDNNaGRPM2tjcGJ5aVVHXzB6M1lDU3ZEZHBpcWNzMmdoQU5WTVlOQ3h0aTlKU1liVQ?oc=5",
+     "source": "gnews",
+     "domain": "pluang.com",
+     "publishedAt": "2026-10-20T07:00:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-31T12:45:10.065Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -839,11 +798,11 @@
    "status": "new"
   },
   {
-   "id": "e0ab7a97c1a5",
+   "id": "098b821c74f5",
    "name": null,
    "evidence": [
     {
-     "title": "AI Agents for Small Businesses Guide 2026",
+     "title": "AI Agents for Small Businesses in 2026",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SelR3V0hsUzlmVmlvd2lzWmhOVG1VaXc0and6d01YNm1DTVo3YkFnOXJNLTlsVDBRUTNLb3BBV2h2VjZNd1ZaVWpRRmcwQUlVWnJEWW81TTVndC05ZFhCc1BXV2NhUjJlZ1hsSzRiRENDOUZMa3RVVQ?oc=5",
      "source": "gnews",
      "domain": "bitcoinfoundation.org",
@@ -855,7 +814,7 @@
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-30T13:07:15.113Z",
+   "firstSeen": "2026-10-31T12:45:10.065Z",
    "score": 0,
    "reasons": [],
    "status": "new"

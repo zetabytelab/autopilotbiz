@@ -535,7 +535,7 @@
    "attempts": 1
   },
   "b08332d93076": {
-   "checkedAt": "2026-10-30T13:05:08.853Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/orchestration/magnific-one-launches-to-give-teams-an-image-generator-that-avoids-the-ai-look-and-automatically-upholds-their-brand-kit",
    "evidence": [],
@@ -593,7 +593,7 @@
    "attempts": 1
   },
   "c0b0d9d01a7a": {
-   "checkedAt": "2026-10-30T13:05:08.853Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
    "evidence": [],
@@ -15641,13 +15641,13 @@
    "attempts": 1
   },
   "69f74a281c01": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-403",
    "publisherUrl": "https://app.dealroom.co/news/note/tokyo-artisan-intelligence-raises-8-1m-series-c-first-close-for-ai-chips",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "0698333d7c24": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15659,22 +15659,22 @@
    "attempts": 1
   },
   "16a2ebe846cd": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://via.tt.se/pressmeddelande/4617728/listen-labs-launches-listen-twins-ai-models-that-predict-how-real-customers-behave?publisherId=259167&lang=en",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "63266ec0a8cc": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-403",
    "publisherUrl": "https://app.dealroom.co/news/note/nanocorp-founder-launched-from-a-us-hospital-bed-after-comparing-kaiser-and-french-er",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "8ea14019b64c": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15693,13 +15693,13 @@
    "attempts": 1
   },
   "c062c004a912": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/index/oracle-apps-in-chatgpt/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "7ec22e83943b": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15734,13 +15734,13 @@
    "attempts": 1
   },
   "f9508794e5e6": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "74568d55ae63": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15807,13 +15807,13 @@
    "attempts": 1
   },
   "95b8639f2ed9": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.techbriefs.com/component/content/article/56182-doc-10023",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "057e0e7f88f0": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15832,7 +15832,7 @@
    "attempts": 1
   },
   "89e56c55fd07": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://toyotagazooracing.com/pressrelease/2026/1028-01/",
    "evidence": [
@@ -15845,7 +15845,7 @@
    ],
    "realDate": "2026-10-28T04:30:00.000Z",
    "via": "feed",
-   "attempts": 1
+   "attempts": 2
   },
   "5bcfde8cb434": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15864,13 +15864,13 @@
    "attempts": 1
   },
   "d19efd486c12": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.king5.com/article/news/politics/elections/washington-voters-urged-to-use-drop-boxes-as-mail-postmark-window-narrows/281-a2ff4199-7494-48a4-97a2-78fd62b90139",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "8866e1560d80": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15921,13 +15921,13 @@
    "attempts": 1
   },
   "b48405a91651": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.techinasia.com/news/openai-models-power-80-calls-voice-ai-startup-retell",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "ee85aa924914": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15946,13 +15946,13 @@
    "attempts": 1
   },
   "6e66cb2385df": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.nine.com.au/australia-news/videos/ai-models-reported-to-have-caused-rise-in-online-attacks/cmvqdco8900420hqm9dj8mc6z",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "5fabf460f12f": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -15971,7 +15971,7 @@
    "attempts": 1
   },
   "4ea3f8ce2bcb": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.bizjournals.com/pittsburgh/news/2026/10/27/bakery-square-credo-technology-group-ai-avenue.html",
    "evidence": [
@@ -15984,7 +15984,7 @@
    ],
    "realDate": "2026-10-27T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "53af22da1c3b": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -16003,16 +16003,16 @@
    "attempts": 1
   },
   "c17d0f607b0f": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.nine.com.au/australia-news/videos/foreign-criminals-allegedly-trying-to-use-ai-to-access-superannuation/cmvqa9izh004p0hpl06jvx7ad",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "1c491096c648": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.bloomberg.com/news/articles/2026-10-27/microsoft-alumni-score-funding-to-build-ai-agents-for-finance",
    "evidence": [
@@ -16025,7 +16025,7 @@
    ],
    "realDate": "2026-10-27T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "8ef81b2213e2": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -16044,13 +16044,13 @@
    "attempts": 1
   },
   "d12520af7588": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.weeklytimesnow.com.au/news/national/humour-in-politics-always-a-winner-amid-controversy-surrounding-one-nations-cartoons/video/e4937bd9516b7784b9f644b46276bf80",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "029724434aa1": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -16085,22 +16085,22 @@
    "attempts": 1
   },
   "9f9b653c0a20": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.theaustralian.com.au/breaking-news/mp-security-upgrades-after-helen-haines-attack/news-story/9e29b9714f21b6b68e121dd69856114d",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "a0926adb52a2": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.weeklytimesnow.com.au/news/national/jim-chalmers-should-apologise-to-australian-people-for-labors-budget/video/2802132b64813f4c779ba13b9e60f8b7",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "2feaf1260b41": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -16141,13 +16141,13 @@
    "attempts": 1
   },
   "eeaa199d2952": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://ffnews.com/news/finom-mcp-lets-you-ask-your-business-account-questions-inside-claude-and-chatgpt-9af47759",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "df4c5bc2a619": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -16166,31 +16166,31 @@
    "attempts": 1
   },
   "5dceaa5ce243": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.konsulteer.com/article/akamai-appoints-palvinder-singh-chahil-as-director-of-product-management-for-ai-and-compute-in-apj",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "f956e9af75d4": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.nine.com.au/australia-news/videos/experts-warn-ai-influencers-are-becoming-impossible-to-spot/cmvj9yygu002h0go58qpdg9zm",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "48a084dce82f": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.bloomberg.com/company/stories/skills-over-mcp-how-bloomberg-helped-standardize-agent-skills-at-scale/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "15a530d7902c": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -16209,13 +16209,13 @@
    "attempts": 1
   },
   "ced804c5a90f": {
-   "checkedAt": "2026-10-28T13:06:54.416Z",
+   "checkedAt": "2026-10-31T12:43:04.025Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/index/att-legal/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "1946538b8ab6": {
    "checkedAt": "2026-10-28T13:06:54.416Z",
@@ -18399,6 +18399,524 @@
    ],
    "realDate": "2026-10-01T15:27:04.000Z",
    "via": "json-ld",
+   "attempts": 1
+  },
+  "f3c790de4a6c": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.manilatimes.net/2026/10/31/tmt-newswire/globenewswire/usps-postmark-standard-raises-questions-about-proof-of-timely-mailing-for-law-firms-using-certified-mail/2458537",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T19:07:35.000Z",
+     "via": "meta:article:published_time",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-31T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-30T19:07:35.000Z",
+   "via": "meta:article:published_time",
+   "attempts": 1
+  },
+  "45e369ec4a6a": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/technology/ai/articles/presentations-ai-expands-google-docs-062300822.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-31T06:23:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-31T06:23:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "ef3c68a3c467": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/technology/ai/articles/salesforce-acquire-ai-analytics-platform-150707713.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-12T15:07:07.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-12T15:07:07.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "d3b762507495": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.01net.it/pear-vc-raises-333m-fund-v-to-double-down-on-finding-founders-before-the-market-does/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "f21aab320062": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.techzine.eu/news/applications/144707/salesforce-acquires-listen-labs-for-ai-powered-context-in-customer-feedback/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "71d9deac57e6": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.newcomer.co/p/anthropics-ipo-cant-wait-forever",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-02T16:39:49.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-02T16:39:49.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "577a54934c48": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.biggo.com/news/36ddfaa29a286760",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-31T09:08:21.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-31T09:08:21.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "c04e00482812": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.vcstar.com/story/shopping/home/2026/10/30/ai-powered-digital-candle-selling-150-dollars/92515378007/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T20:54:05.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-30T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-30T20:54:05.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "97b8aa29df02": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-401",
+   "publisherUrl": "https://www.wsj.com/tech/ai/ai-anthropic-rsi-recursive-self-improvement-bff4e815",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "57db4f2bacbf": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://cen.acs.org/education/artificial-intelligence-chemistry-training/104/web/2026/10",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T00:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-30T00:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "9172207e2bba": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://aimultiple.com/fr/apify-alternatives",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "2dc9bcfbd094": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.bostonherald.com/2026/10/30/joe-mazzulla-explains-how-why-he-uses-ai-as-celtics-coach/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T16:39:29.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-30T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-30T16:39:29.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "c049da8becbb": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.techbuzz.ai/articles/theranos-whistleblower-warns-ai-boom-creates-fraud-risk",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T16:29:16.850Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-30T16:29:16.850Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "ee779d4b0ecd": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.techcentral.ie/the-great-threat-from-artificial-intelligence-is-that-it-could-make-us-boring/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T15:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-30T15:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "591966f5fe81": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.tipranks.com/news/company-announcements/nurexone-shows-consistent-anti-inflammatory-activity-in-naive-exosome-batches",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "26959b1bb280": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://supplychaindigital.com/articles/happyrobot-ai-agent-use-scales-with-cma-cgm",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T14:18:54.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-30T14:18:54.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "10c1cb586ad0": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-31T01:02:57.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-30T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-31T01:02:57.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "5ef3e9744a31": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.sdxcentral.com/news/viavi-taps-model-context-protocol-to-help-engineers-streamline-network-testing/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2025-11-18T00:00:00.000Z",
+     "via": "meta:datepublished",
+     "strong": true
+    }
+   ],
+   "realDate": "2025-11-18T00:00:00.000Z",
+   "via": "meta:datepublished",
+   "attempts": 1
+  },
+  "6d926212e4e2": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+   "evidence": [
+    {
+     "kind": "feed",
+     "date": "2026-10-31T09:32:50.000Z",
+     "via": "feed",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-31T09:32:50.000Z",
+   "via": "feed",
+   "attempts": 1
+  },
+  "7827232a9baa": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://ffnews.com/videos/money20-20-vegas-2026-elevenlabs-lauren-kiefer-on-ai-voice-in-banking",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "b341384de3e0": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.ox.security/blog/malicious-claude-code-extension-cursor-ssh-backdoor/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T13:20:40.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-30T13:20:40.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "44df5ac86104": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://ca.finance.yahoo.com/quote/HZAD.SI/profile/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "7c1b19fb72d5": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.columbiamissourian.com/news/local/request-a-personal-letter-from-santa-with-a-north-pole-postmark/article_70a1f224-afec-472b-90af-cd97ba661768.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-29T22:30:00.000Z",
+     "via": "meta:datepublished",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-29T22:30:00.000Z",
+   "via": "meta:datepublished",
+   "attempts": 1
+  },
+  "f000df45e4d1": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://sg.finance.yahoo.com/quote/COAI38489-USD/seasonality/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "eb2085c1348f": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://openai.com/index/updated-model-spec/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "bee7eaa1e386": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.hostinger.com/support/how-to-get-started-with-openclaw-on-hostinger-vps/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-03-27T00:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-03-27T00:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "c527a397e277": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "940ce8a3b19b": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-29T14:50:50.427Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-29T14:50:50.427Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "b2c36fb623ef": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+   "evidence": [
+    {
+     "kind": "feed",
+     "date": "2026-10-29T10:00:00.000Z",
+     "via": "feed",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-29T10:00:00.000Z",
+   "via": "feed",
+   "attempts": 1
+  },
+  "3cbb35564f5f": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://bioengineer.org/blood-lymphocyte-patterns-predict-relapse-risk-in-treatment-naive-myositis-patients/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-29T09:14:02.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-29T09:14:02.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "83dbca174af6": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.agenzianova.com/en/news/cina-irregular-modello-ia-di-z-ai-ha-condotto-cyberattacchi-complessi-in-simulazioni-controllate/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "8abe62b0acf4": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.xda-developers.com/i-tested-the-3-claude-code-alternatives-the-internet-keeps-talking-about-and-only-one-let-me-down/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-28T23:00:21.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-28T23:00:21.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "e432fbbddc3c": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-401",
+   "publisherUrl": "https://www.barrons.com/articles/coreweave-stock-price-debt-buy-ecf5e877",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "0dd3c9ffb2db": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://www.hostinger.com/tutorials/openclaw-use-cases/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-02-05T00:09:44.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-02-05T00:09:44.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "80f3345f9bea": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "ok",
+   "publisherUrl": "https://mezha.net/eng/news/mezha-625c5cad159483a99ba32a26_san_francisco_officials/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T22:56:42.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-23T22:56:42.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "9cbd9b1f92eb": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://openai.com/he-IL/index/speeding-up-agentic-workflows-with-websockets/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "3589d9d2133c": {
+   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://sc.edu/study/colleges_schools/cic/library_and_information_science/news/2026/ai-ghosh.php",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
    "attempts": 1
   }
  }
