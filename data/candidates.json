@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T12:45:10.065Z",
+ "generatedAt": "2026-11-01T13:35:32.303Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -187,6 +187,31 @@
    "status": "new"
   },
   {
+   "id": "0cd0b19231db",
+   "name": "Town",
+   "evidence": [
+    {
+     "title": "Town Raises $108M Series B at a $1B Valuation to Bring AI Assistants to Whole Teams",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUS1KX29SOUJTZmJJMjRLbENMRFFoSWY3eDMyVGNKNE1fcnd2STR5ZjVrbGxoVTNEREEwbmtyb3ZtU1djcFBwRkhWSmdFTlZGdjBCTzkwTDFOWTNTUXVTWUxEdFlNSGVHcFhpS19ZX0szd2RUZnN5M3Y4cTZtSGIxLWRtYjh6NFFtcGd3TDV0UzBjYms?oc=5",
+     "source": "gnews",
+     "domain": "finance.yahoo.com",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-01T13:35:32.303Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "8f2092a7e61c",
    "name": "Zenithon",
    "evidence": [
@@ -204,31 +229,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-24T11:13:37.850Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "7b119565acda",
-   "name": "Reliable Robotics",
-   "evidence": [
-    {
-     "title": "Reliable Robotics raises $115M at $1B+ valuation to certify autonomous flight system",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1Jqc3hCTE5uN2lpLWFyME5HSlM2UF9hcHhLa0U3U2R1MC1kbXNqbERVTHljQnF1WFFXY2F4ZlZXSGJ3aTRPS0pmNDRBalFLRjdPUWgzZ3dQQU1PVnlLWU93T18wdW9SbGprTEpTTjQxZEM4bmhJcDVacVJqdV96VWxNUENMMTVNeG5pWXVPUGVtT3p5QlpWN2ptOHJtZFFDZ3pDUlBnUjluNGpwSWNR?oc=5",
-     "source": "gnews",
-     "domain": "news.lavx.hu",
-     "publishedAt": "2026-10-21T00:08:58.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-22T12:03:10.929Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -262,15 +262,40 @@
    "status": "new"
   },
   {
-   "id": "9f68e3347000",
-   "name": "Presto",
+   "id": "7b119565acda",
+   "name": "Reliable Robotics",
    "evidence": [
     {
-     "title": "Presto Raises $10 Million to Expand Drive-Thru Voice AI as POS Integration Shapes Competition",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOWRwWDBWVGVVS1RfVThPNWJKNjYzUFM5bzV0am9xOTh1a2ZXaGRmamI2YjN6Z0dhcW5rMUlPYUFzSjJvd2R5MExQeWxpV2dqVWdPZ1gxaENHTDJHZnFlWmZOT3J5ZlIybjEyMnBVX3Iya1Y2Q1hyRXBZYVRqTHVjaWdMNmRxTWxrMXdGSzMzZ0RpTzJTSXcwbUF3aC01SUVteGcweHlNWi1nb3JISjUzWHQ2TFhiZzV1MzhWSUFWcDM5MWx3dC15WWtlOFFYNnNZR0ZIaA?oc=5",
+     "title": "Reliable Robotics raises $115M at $1B+ valuation to certify autonomous flight system",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1Jqc3hCTE5uN2lpLWFyME5HSlM2UF9hcHhLa0U3U2R1MC1kbXNqbERVTHljQnF1WFFXY2F4ZlZXSGJ3aTRPS0pmNDRBalFLRjdPUWgzZ3dQQU1PVnlLWU93T18wdW9SbGprTEpTTjQxZEM4bmhJcDVacVJqdV96VWxNUENMMTVNeG5pWXVPUGVtT3p5QlpWN2ptOHJtZFFDZ3pDUlBnUjluNGpwSWNR?oc=5",
      "source": "gnews",
-     "domain": "restauranttechnologynews.com",
-     "publishedAt": "2026-10-06T20:20:52.000Z",
+     "domain": "news.lavx.hu",
+     "publishedAt": "2026-10-21T00:08:58.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-10-22T12:03:10.929Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "c490c8219d10",
+   "name": "Raises",
+   "evidence": [
+    {
+     "title": "Off-Prem-Focused AI Agent Startup Raises $4M",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMnI2S1JGc2NOelNLbk9UX2dia2E0R29KcmJyQ2ZEaDJib05rcTlYTzBBWUk5eUZQbjNHbVdkNjhNcmIwQ1hzdGV2bXBsUTlxOUpkdFB6OVdGbTczdmlUR1ZJRmt3NUhLNGwtUUdubVdycjZ1cHRSWnpybVU0eklBRHl6N1M?oc=5",
+     "source": "gnews",
+     "domain": "foodondemand.com",
+     "publishedAt": "2026-10-06T07:00:00.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
      ]
@@ -278,7 +303,7 @@
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-31T12:45:10.065Z",
+   "firstSeen": "2026-11-01T13:35:32.303Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -304,31 +329,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-17T10:53:48.336Z",
-   "score": 1.75,
-   "reasons": [
-    "autonomy thesis",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "4fd59665dbf0",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Disney offers to hire 60 ex-Character.AI employees with a $60 million incentive",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTWkybFFrNUZWWGdXTm1mc0F0SDBvSVdSb1hGMzNOck93NW1jaGNKTFVRa0cxSVJEQWRwcjZxc2c4NnFSTWxPTUZnWWRCQmNNWkw3ZzUtb19MMzNkazI3dHM4WHJ4MlNZMkdaNnRtbGp0QjlBVDg3dGRzbHBoSEFtMmFLRlNHYUQtMTNYZG5kTWpsTVEwaGlPRXlfZ1B1MXd1b3gxa2xqUWJqZVgzVkVwTldB?oc=5",
-     "source": "gnews",
-     "domain": "briefia.fr",
-     "publishedAt": "2026-10-18T17:06:51.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-23T11:48:53.499Z",
    "score": 1.75,
    "reasons": [
     "autonomy thesis",
@@ -475,7 +475,7 @@
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdkdTTl9GbHV5Ml96VFJrUmEyVklDb2pnOVBaejN6WjZOT2JOcFlCNnUxMFpvTTV4Yllrc1hhNlNHYU9wazlaY2lUTU04aDd0ZE5GQ0tMZHlLU0RQLXRhMFktTzdrb29rbjVjbkRvRURXNFhPY2Y4NDNCTzZ6N2h3N2ltMzNPZ3pGS1VUZlJxaDhzcV82bFhvakM5cHVBbzRfaldsSEljTE9tZWtzODRPY1VOWHBWUU5yOFE?oc=5",
      "source": "gnews",
      "domain": "digitaltoday.co.kr",
-     "publishedAt": "2026-10-20T05:00:18.000Z",
+     "publishedAt": "2026-10-20T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -705,6 +705,31 @@
     "named entity"
    ],
    "status": "rejected"
+  },
+  {
+   "id": "50c0788f5b4c",
+   "name": "Reflection",
+   "evidence": [
+    {
+     "title": "Nvidia Pursues Acquisition of Open-Source AI Startup Reflection to Counter DeepSeek",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ndDRnTHhKR3pGUHhtSmxvQmdIaHN6TW1LT01Ha3kxSjZwb2I0UEpsN1poNnpwZ3ZxcS01SldaWkZacGV4czUzdGQtQWU2aXo1NzR6WHhtYVh0bHFjT2JCOUIySHVUZFFMZktEZFVmb1RheEdnZVE?oc=5",
+     "source": "gnews",
+     "domain": "finance.biggo.com",
+     "publishedAt": "2026-10-10T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-01T13:35:32.302Z",
+   "score": 0.5,
+   "reasons": [
+    "named entity",
+    "acquired — no longer independent"
+   ],
+   "status": "new"
   },
   {
    "id": "06471da8e570",
