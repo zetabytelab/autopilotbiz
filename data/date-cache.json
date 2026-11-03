@@ -535,7 +535,7 @@
    "attempts": 1
   },
   "b08332d93076": {
-   "checkedAt": "2026-11-02T16:09:06.012Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/orchestration/magnific-one-launches-to-give-teams-an-image-generator-that-avoids-the-ai-look-and-automatically-upholds-their-brand-kit",
    "evidence": [],
@@ -593,7 +593,7 @@
    "attempts": 1
   },
   "c0b0d9d01a7a": {
-   "checkedAt": "2026-11-02T16:09:06.012Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
    "evidence": [],
@@ -15476,7 +15476,7 @@
    "attempts": 1
   },
   "b47a6fed7d9f": {
-   "checkedAt": "2026-10-29T13:12:32.935Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.businesswire.com/news/home/20261023960916/en/Convergent-Therapeutics-to-Present-Phase-2-Results-Demonstrating-Potent-Anti-Tumor-Activity-of-CONV01--in-Lu-PSMA-Nave-Prostate-Cancer-at-ESMO-Congress-2026",
    "evidence": [
@@ -15489,7 +15489,7 @@
    ],
    "realDate": "2026-10-23T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 2
+   "attempts": 3
   },
   "6c4c54a57902": {
    "checkedAt": "2026-10-27T12:21:13.770Z",
@@ -16329,13 +16329,13 @@
    "attempts": 1
   },
   "1cfa54a14d8c": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://bernamabiz.com/news.php?id=2626740",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "f5159900eb10": {
    "checkedAt": "2026-10-29T13:12:32.935Z",
@@ -16411,13 +16411,13 @@
    "attempts": 1
   },
   "79ccde2413fa": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/index/openai-servicenow-partnership-expansion/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "afd11cc6d43e": {
    "checkedAt": "2026-10-29T13:12:32.935Z",
@@ -16500,22 +16500,22 @@
    "attempts": 1
   },
   "6cd183b17c0c": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://technologyreseller.uk/gamma-showcases-nine-new-innovations-at-gammaverse-26-as-webex-milestone-and-sky-partnership-strengthen-market-position/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "040f6548a565": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://news.futunn.com/en/post/1002649528/cicc-no-basis-for-consecutive-aggressive-rate-hikes-by-the",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "d58372ea5c89": {
    "checkedAt": "2026-10-29T13:12:32.935Z",
@@ -16598,13 +16598,13 @@
    "attempts": 1
   },
   "e7de9e6263e2": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://t.co/qykpkoSrdw",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "cfb816530b2f": {
    "checkedAt": "2026-10-29T13:12:32.935Z",
@@ -16639,13 +16639,13 @@
    "attempts": 1
   },
   "3e7a9e383b66": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.hospitalitynet.org/news/4135158/hotels-are-putting-ai-agents-to-work-in-live-operations-with-apaleo-mcp-server-use-up-70",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "f34aa8fe9eab": {
    "checkedAt": "2026-10-29T13:12:32.935Z",
@@ -16705,20 +16705,13 @@
    "attempts": 1
   },
   "7ed9fe3681a8": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.dqindia.com/news/gartner-top-ai-trends-infrastructure-it-operations-2027-12760489",
-   "evidence": [
-    {
-     "kind": "feed",
-     "date": "2026-10-28T07:31:37.000Z",
-     "via": "feed",
-     "strong": true
-    }
-   ],
-   "realDate": "2026-10-28T07:31:37.000Z",
-   "via": "feed",
-   "attempts": 2
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 3
   },
   "e1d3b295d288": {
    "checkedAt": "2026-10-29T13:12:32.935Z",
@@ -16737,13 +16730,13 @@
    "attempts": 1
   },
   "aaf8b2faf861": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/so-DJ/index/ringcentral/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "b70f65f35ac9": {
    "checkedAt": "2026-10-29T13:12:32.935Z",
@@ -16800,31 +16793,31 @@
    "attempts": 1
   },
   "cc4a055cfe45": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.weeklytimesnow.com.au/news/national/pattern-of-behaviour-albanese-has-a-hard-relationship-with-the-truth/video/13582bb8a562b48ce9a4aabea1cc15f9",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "5db752d0d552": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/index/introducing-gpt-6-1-terra/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "bb54995e5afb": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.weeklytimesnow.com.au/news/national/anthony-albanese-has-made-lying-an-art-form/video/de4515cfa8948f3ffd47d87074c59aa5",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "f55decad15d0": {
    "checkedAt": "2026-10-29T13:12:32.935Z",
@@ -17707,13 +17700,13 @@
    "attempts": 1
   },
   "ec617167b597": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.retailtouchpoints.com/news/virid-launches-marketagility-mcp-connector-for-e-commerce-retailers/621925/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "093dc659c1c0": {
    "checkedAt": "2026-10-30T13:05:08.853Z",
@@ -17725,13 +17718,13 @@
    "attempts": 1
   },
   "24f34d5625ef": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.research-live.com/article/news/listen-labs-launches-digital-twins/id/5154326",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "cb55e2943dea": {
    "checkedAt": "2026-10-30T13:05:08.853Z",
@@ -17820,16 +17813,16 @@
    "attempts": 1
   },
   "e9b6159e1329": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.gurufocus.com/news/9158319/cursor-ai-coding-breach-highlights-risks-amid-spcxs-market-valuation-dynamics",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "6624221c8056": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/business/media-telecom/cursor-says-up-5000-users-affected-by-tampered-claude-code-extension-2026-10-30/",
    "evidence": [
@@ -17842,7 +17835,7 @@
    ],
    "realDate": "2026-10-30T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 2
+   "attempts": 3
   },
   "d0b8ca78fe69": {
    "checkedAt": "2026-10-30T13:05:08.853Z",
@@ -17918,13 +17911,13 @@
    "attempts": 1
   },
   "72aff33b97fd": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.ephotozine.com/user/owdman-289473/blog/photography--ai-and-midjourney-ramblings-14781",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "e83e4853e501": {
    "checkedAt": "2026-10-30T13:05:08.853Z",
@@ -17943,22 +17936,22 @@
    "attempts": 1
   },
   "6b2c64dd3f9a": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.oikoumene.org/news/wacc-europe-leaders-hone-plans-for-future",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "d9eae07487b3": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://vnua.edu.vn/product-103006436",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "4227139d7f6f": {
    "checkedAt": "2026-10-30T13:05:08.853Z",
@@ -18137,13 +18130,13 @@
    "attempts": 1
   },
   "fc8be3d527ca": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.moomoo.com/stock/02513-HK/forecast?chain_id=Name1K9-3FXPhg.1ldvqc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A57,%22f%22%3A%22www.moomoo.com%2Fstock%2FPAPL-US%2Fearnings%22%7D",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "f70362b68f15": {
    "checkedAt": "2026-10-30T13:05:08.853Z",
@@ -18162,40 +18155,40 @@
    "attempts": 1
   },
   "bc0e70e3d0aa": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.kavout.com/stocks/nasdaq-ibrx/immunitybio-inc",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "5c39279d4a51": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/index/retell-ai/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "4a408df544ed": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://builtin.com/articles/claude-ai",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "b3ca53ad52d7": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/ms-MY/index/running-codex-safely/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "8742127048e0": {
    "checkedAt": "2026-10-30T13:05:08.853Z",
@@ -18923,13 +18916,13 @@
    "attempts": 1
   },
   "9cbd9b1f92eb": {
-   "checkedAt": "2026-10-31T12:43:04.025Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/he-IL/index/speeding-up-agentic-workflows-with-websockets/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "3589d9d2133c": {
    "checkedAt": "2026-10-31T12:43:04.025Z",
@@ -18989,22 +18982,22 @@
    "attempts": 1
   },
   "eba8ed02b8a3": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://cairoscene.com/Business/Phaze-Ventures-Launches-Two-AI-Deeptech-Funds-Targeting-75-Million",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "346201b449fe": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/v3IN_SYYRvg?si=F593VjSMgHxHkGw5",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "7685ba0d23f6": {
    "checkedAt": "2026-11-01T13:32:53.976Z",
@@ -19039,13 +19032,13 @@
    "attempts": 1
   },
   "bce5740b3fee": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://fourweekmba.com/ai-anthropic-draws-2-1x-openais-spend-per-token-on-openrouter/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "5440b09d0611": {
    "checkedAt": "2026-11-01T13:32:53.976Z",
@@ -19064,13 +19057,13 @@
    "attempts": 1
   },
   "60f0ca112481": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://openai.com/so-DJ/index/retell-ai/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "43a417d29938": {
    "checkedAt": "2026-11-01T13:32:53.976Z",
@@ -19133,13 +19126,13 @@
    "attempts": 1
   },
   "9badc0702c57": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://vnua.edu.vn/mipnews/110150263.aspx",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "fc3fe752390b": {
    "checkedAt": "2026-11-01T13:32:53.976Z",
@@ -19158,13 +19151,13 @@
    "attempts": 1
   },
   "b0cb3f864804": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.barchart.com/story/news/8553514/dear-coreweave-stock-fans-mark-your-calendars-for-november-10",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "b74d7d5cca6a": {
    "checkedAt": "2026-11-01T13:32:53.976Z",
@@ -19199,7 +19192,7 @@
    "attempts": 1
   },
   "c46e10f39cb7": {
-   "checkedAt": "2026-11-01T13:32:53.976Z",
+   "checkedAt": "2026-11-03T14:25:19.027Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.axios.com/2026/10/28/ai-open-ai-token-prices",
    "evidence": [
@@ -19212,7 +19205,7 @@
    ],
    "realDate": "2026-10-28T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "e7afe623b8ec": {
    "checkedAt": "2026-11-02T16:09:06.012Z",
@@ -19534,6 +19527,405 @@
    "checkedAt": "2026-11-02T16:09:06.012Z",
    "status": "page:http-403",
    "publisherUrl": "https://tech-insider.org/cursor-ai-code-editor-rewrite-churn-git-history-13-steps-2026/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "5bcb7bb5ee24": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.bloomberg.com/news/articles/2026-11-03/elevenlabs-ceo-says-a-good-goal-is-to-start-ipo-prep-in-2028",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-03T10:43:06.872Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-11-03T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-03T10:43:06.872Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "573814582e06": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://finance.yahoo.com/technology/ai/articles/klearcom-unveils-agentic-assurance-solution-133000783.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-03T13:30:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-03T13:30:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "fecfb53975ac": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://startupfortune.com/solo-founders-now-start-over-a-third-of-new-startups-but-the-one-person-unicorn-isnt-here/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-20T22:04:03.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-20T22:04:03.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "cf67f04fe55c": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://theaiinsider.tech/2026/10/06/supabase-announces-150m-in-new-funding-and-turso-acquisition/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-06T15:34:46.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-10-06T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-06T15:34:46.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "230dd5ce1938": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.linkedin.com/pulse/agents-chaos-notes-from-study-six-openclaw-david-borish-gez9c",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-21T10:54:53.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-21T10:54:53.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "ab99435ef7af": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.scmp.com/tech/big-tech/article/3373124/why-chinese-ai-stars-zai-minimax-struggle-match-anthropics-profit-margin?module=latest&pgtype=homepage",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-03T12:30:13.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-03T12:30:13.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "62e2abb55e67": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://techcentral.co.za/south-africa-cyber-risk-five-worries-neworder/288021/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-03T13:11:06.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-03T13:11:06.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "de9f69971e54": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/amp/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-03T08:49:03.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-03T08:49:03.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "fb894dad43b7": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.bloomberg.com/news/videos/2026-11-03/elevenlabs-on-voice-ai-video",
+   "evidence": [
+    {
+     "kind": "url",
+     "date": "2026-11-03T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-03T00:00:00.000Z",
+   "via": "url-path",
+   "attempts": 1
+  },
+  "cfcf1daf17fe": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://fourweekmba.com/ai-modal-grows-30-40-a-month-buys-2-3x-gpus-3-4-months-out/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "2980636e1ada": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.bizjournals.com/dallas/news/2026/11/02/groq-dallas-regional-hq-capital.html",
+   "evidence": [
+    {
+     "kind": "url",
+     "date": "2026-11-02T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-02T00:00:00.000Z",
+   "via": "url-path",
+   "attempts": 1
+  },
+  "20b692dc425c": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.digitaljournal.com/pr/news/access-newswire/ideavo-makes-full-stack-ai-app-1460577664.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-02T18:27:39.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-02T18:27:39.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "faec29a7880f": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.investors.com/research/options/coreweave-stock-crwv-bear-put-spread-options/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-02T19:34:10.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-02T19:34:10.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "52f563c83126": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://openai.com/index/qodo-codex-plugin/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "d66c85693a07": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://quasa.io/stories/openrouter-or-together-ai-speed-wins-do-not-predict-reliability",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-02T18:10:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-02T18:10:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "58f5f1951ee6": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/02/dataverse-for-coding-agents-n8n-copilot-cowork/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-02T16:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    },
+    {
+     "kind": "url",
+     "date": "2026-11-02T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-02T16:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "3ca0fa1b8f11": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://openai.com/index/grid-protectors-program/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "9f6f3fdfe236": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.jpost.com/science/ai-news/article-913207",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-31T08:06:35.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-31T08:06:35.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "d8f088455b3c": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.sophos.com/en-us/blog/malicious-claude-code-extension-distributed-through-cursor-marketplace",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T00:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-30T00:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "6aa78d558a55": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.rescana.com/post/claude-code-extension-2-1-313-cursor-marketplace-trojanized-ssh-backdoor",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-30T08:31:30.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-30T08:31:30.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "7a2687c61c5e": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://worldofwalt.com/main-street-usa-postmark-now-at-magic-kingdom.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-29T22:41:52.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-29T22:41:52.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "df4b74b699c4": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.nine.com.au/australia-news/wa-senator-fatima-payman-stuns-by-asking-anthony-albanese-if-he-was-waiting-for-helen-haines-style-attack-against-her-20261027-p618y0.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-27T01:48:43.217Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-27T01:48:43.217Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "1d7e70aeadbd": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.forbes.com/advisor/business/ai/best-base44-alternatives/",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "c7907f8c9fc3": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.businesswire.com/news/home/20261020160556/en/Pfizers-TALZENNA-Plus-XTANDI-FDA-Approved-for-an-Earlier-Metastatic-Prostate-Cancer-Treatment-Setting",
+   "evidence": [
+    {
+     "kind": "url",
+     "date": "2026-10-20T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-20T00:00:00.000Z",
+   "via": "url-path",
+   "attempts": 1
+  },
+  "2e5e98b5dd37": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "ok",
+   "publisherUrl": "https://www.voiceoverherald.com/elevenlabs-realtime-translation-mistral-voxtral-3-voice-clone-languages/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-24T13:05:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-10-24T13:05:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "65032991bbe9": {
+   "checkedAt": "2026-11-03T14:25:19.027Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://www.weeklytimesnow.com.au/news/national/queensland-child-safety-minister-amanda-camm-resigns-from-frontbench/video/ce099fb5a9e3d620905b0eafe9790335",
    "evidence": [],
    "realDate": null,
    "via": null,
