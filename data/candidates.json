@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T13:15:11.425Z",
+ "generatedAt": "2026-11-08T13:35:28.410Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -263,6 +263,31 @@
    "status": "new"
   },
   {
+   "id": "0b0a8e237e62",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Disney Agrees To Pay $60 Million Annually For 66 Character.AI Employees: 7 outlets compared",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWExwSjBZY2lCMkFZTlVlazFMbnhIUFNJazhFVlgwTTM2UGE4aGp2ZFZnNlNhU3k5bFFqMFBsT0VvWnU1WlR4alFhQmdxRC1lS2dWNHpfLVZlSzEtZERLc3FWUEV4bzM2VHZlOUVIRWRVWURCRFlJc3ctMG10SVhyYS1Hbk9mQ1Y1QnNGY2tDd2s2Sk9nUkt2OXNaYU1DZUFtQzdYUm1ZZnQzNXIzNGxVTHUwUy1QSVVIZ2JuMXVwZmpIbjY1eHplMFRsWjkzQkhYS2NJb1FOeWFkbHM?oc=5",
+     "source": "gnews",
+     "domain": "newscord.org",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-08T13:35:28.410Z",
+   "score": 1.75,
+   "reasons": [
+    "autonomy thesis",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "68de23d13437",
    "name": null,
    "evidence": [
@@ -271,7 +296,7 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjhxQ0FIMGFpM3k5S3U4cnpOTE8zLTl1MElyMTRGNWQxdjJzRmNqVG00TXFHOXRYRUZCck81OVdraldaUUJDNTBKbExURE54YUxJTm9vMGJIeU9aMHBySW1CUWNsY0RYcmo0MmpKdWlDcXRzMW5EOUNaeUY1b3huS24xd2JsMWo1UU9rWGVKWS1FclB5QnpnT2hJOHNqM1V0NEZoLUFFMDRPN0h3TXo0X21B?oc=5",
      "source": "gnews",
      "domain": "app.dealroom.co",
-     "publishedAt": "2026-11-05T07:17:20.000Z",
+     "publishedAt": "2026-11-04T21:29:44.000Z",
      "matchedKeywords": [
       "\"solo founder\" AI agents raises"
      ]
@@ -470,30 +495,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-24T11:13:37.849Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "bed97175b06e",
-   "name": "Plan",
-   "evidence": [
-    {
-     "title": "James Comer Demands Documents From Matt Meyer Over Delaware AIC AI-Run Company Plan: 7 outlets compared",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdEhZVEdMamRWWVFVcHViYVFxQ09KWk4tcThjN2dTR2N0b0FienFIZm9GLXV1ZTNEY3RaLTl6X2hQUEE0SmZQZENwX0JubmgwODY4SWdSbEV4ajlDeUl4cEI2QWl6MWVBSDREQzUzRVJHOGdXcUV1Ui1XS0w1WGRDYlZNUWVhSEthZ1RpcmYwRERhUlgtemJJT1NQampMdm1hazBmdGs4ck1TNVZQRG0zMmhLdlFOM2psN2I5cWNBbVFSbHc4RTJVcGR2emJXZV90ejlQM2FieW02TnlsM1duWnFnWlM3OGJnZUE?oc=5",
-     "source": "gnews",
-     "domain": "newscord.org",
-     "publishedAt": "2026-10-27T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-07T13:15:11.425Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -760,6 +761,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-20T11:52:05.594Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "074966636f69",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI Fuels Solo Entrepreneur Boom as Startups Ditch Hiring",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2hlYV9hMFIyREQ4aTBmUC1kakp5RWFqSlVVZ3BJWXp5Um43UGo1VFFGd0JsM3ZRU0wyeGQ5d2NDZUdrM1F4dWlBZ21rT05FS0NsMTM0a2w5aXBvZ1dYODJzX2cyamNBUmd0bFQ1ODM0RkFHVWpMdGkzVzI3SGNhSFU3dFRUbXpzaHV2N2JuSmpVRFk?oc=5",
+     "source": "gnews",
+     "domain": "techbuzz.ai",
+     "publishedAt": "2026-11-07T15:06:13.000Z",
+     "matchedKeywords": [
+      "\"zero employees\" startup AI"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-08T13:35:28.410Z",
    "score": 0,
    "reasons": [],
    "status": "new"
