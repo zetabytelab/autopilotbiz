@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T16:34:04.695Z",
+ "generatedAt": "2026-11-10T15:01:19.784Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -163,6 +163,31 @@
    "status": "new"
   },
   {
+   "id": "fc46163a4cc7",
+   "name": "Applications Rise",
+   "evidence": [
+    {
+     "title": "Solo Founder Business Applications Rise 26.8% in AI-Exposed US Industries",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXJ0bzFnOU8zYWhla2hQTlRXczRNWW1ZWjBZMHUwcm1FdnF4Y2pZZ3g5UlhRb09ldlpGSXZReEpwTllCT2diMEltZEt5OUtOMjVQcDhVb2Jxd0ZsaGN1MHpZUGFqV2ZxZE1sWlpzSUlZemdxM3dtLXBoWE4wcTRyNHRoOEMtRFRLYlVIeDREdVIwZlhSaG44dg?oc=5",
+     "source": "gnews",
+     "domain": "journalarta.com",
+     "publishedAt": "2026-11-10T00:37:35.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-10T15:01:19.783Z",
+   "score": 2,
+   "reasons": [
+    "named entity",
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
    "id": "f9bdbd24163a",
    "name": "Paystand",
    "evidence": [
@@ -188,6 +213,31 @@
    "status": "rejected"
   },
   {
+   "id": "830b13fd569f",
+   "name": "Skyfall AI",
+   "evidence": [
+    {
+     "title": "Skyfall AI launches \"AI CEO\" Steve and a $2M program to buy five more startups",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcjYxOTRjZW5zczNxMWYySjlSdVhuQWlteThZb3hPQTFmeDVQZmE2eHlwVkc2NVVzcjY2Y1JacXNfdTBzMF9FbXRiOXNobVVqajhlS0pUTXZkZlFKbVlONlo3Mkx2TkFxWTJZdGY5QnpJaWFiQlRGOWZCVWtzOE82VG5IaWRSNDk3Q2N5dE0wNlZfWFBDRVFZbGZjdEUtNjNjdWEwM3VJRWhpU0ZuS0E?oc=5",
+     "source": "gnews",
+     "domain": "app.dealroom.co",
+     "publishedAt": "2026-11-09T17:49:20.000Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-10T15:01:19.783Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "a1f13b3bc20a",
    "name": "Files",
    "evidence": [
@@ -205,31 +255,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-19T13:35:03.963Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "a3ebdab37128",
-   "name": "Readily",
-   "evidence": [
-    {
-     "title": "Readily Raises $11 Million Series A to Expand AI Compliance Intelligence and Advance Enterprise Oversight for Healthcare",
-     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYmdmanlyMWYtTE1FYUVOdjVBYkEwa3ptU0FEamJaeFpWRUZyNGpBZ1NrckxFcW9DblNlaHA5SzNDckF3NlNjV0I2SU1uUDh6NVNDYWwxZWVxMEVPNUFSV2dELURrd2N5RlJrTWZhREozTlg4c3IyeS1lTW4wd09ackxTUnJOcEYtMmNTcEZaRzRHSnc2b1hzVDhzMVRJYzJ0OUpzRmMtd0Zta2dDXzdoQ1QyUXRIcm0zN0psdFQwRXFFT2NGYl9sSFVaVHUwNHZ5NkF4TlVyNGd2VzlpNnUwalpjaDlOZGJwVU1aZ0VDdmNVZUZDMGxrWnRpZkpEamthSEN3?oc=5",
-     "source": "gnews",
-     "domain": "azcentral.com",
-     "publishedAt": "2026-10-13T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"digital employees\" raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-05T14:46:59.875Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -384,6 +409,41 @@
    "status": "rejected"
   },
   {
+   "id": "bc2701556292",
+   "name": "Yelp",
+   "evidence": [
+    {
+     "title": "Yelp launches AI agent to qualify leads for service professionals",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRGp4azNNQWtuTkVzYzRFSkVzVzZPRUpXbGNQMkxjTEdkajhiODhvZF9kWHRpOTVvUkV6S1h3d2dRemZMdkhSLTRsMWtZWWMzZFQ4WGR4VUhCQUNiMXIxYnZQWlZlcnFPOXlkWkZfZVM3M2xmb3RXTGxMSHNzYnB6ZXFQM25ZNjlyUkFsbjZiOUxYSlRvblhsOFNiVFlhYU5LSEZiTkFoWGJRcXhYdUlsVU1ENktXQQ?oc=5",
+     "source": "gnews",
+     "domain": "scanx.trade",
+     "publishedAt": "2026-10-20T07:00:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    },
+    {
+     "title": "Yelp launches AI voice agent to check restauran...",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWJ1czVWZTlaUEc3MTQ5aXUyZE9KMHRaRFlVa1JRN2hBNm1LYng4UFFKc3BTZG5OZDZfOE1nMmEwQ0daQWZsWjNiWTFYVjZXUTZuNDNNaGRPM2tjcGJ5aVVHXzB6M1lDU3ZEZHBpcWNzMmdoQU5WTVlOQ3h0aTlKU1liVQ?oc=5",
+     "source": "gnews",
+     "domain": "pluang.com",
+     "publishedAt": "2026-10-20T07:00:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 2,
+   "publishers": 2,
+   "firstSeen": "2026-11-06T14:25:13.049Z",
+   "score": 1.5,
+   "reasons": [
+    "named entity",
+    "2 publishers"
+   ],
+   "status": "new"
+  },
+  {
    "id": "cb2b45904c65",
    "name": null,
    "evidence": [
@@ -419,30 +479,6 @@
    "status": "new"
   },
   {
-   "id": "c69e24a42de7",
-   "name": "Huxe",
-   "evidence": [
-    {
-     "title": "Apple strikes deal with AI audio startup Huxe after shutdown, raising questions over future podcasts",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOM2JpN1RrWWFGR21iVnNOY2tnRDd1Y00zSndITmR1QUdBRE43NGNFQXpkbEZQTE9TcFI4WUQ4RnZORTZzb1FlXzBiUkl1a0R5T0ItX1FWbnBkR2FKTE1pZ2t0Nmp0aU1HUmRDUnhxX0hCbk52VTUxOG42MGI4cXBKLXBmX0pUVm5sUGZJRE5mMkFfWEpBMFhTSHl3VkV0THNCWXQxYzZ1RFpzOFAyTnp2VV9kRi1Fc29CZEdNSUk0djNrVURFdzBJcFA0WWE1dG50NjM5d3NRWFU3eDZ4cWVwbzNn0gHnAUFVX3lxTFB5eG8zUnM5bGZlb2lGM185Y2FfNXZxakxCLVliR2VxeVdZZGhaR1d5MnJ0S05YaURILWowNDcxYVVhYWVmQmJWeUp1MzNBazU2ekJrV1BNb2x2b2hHSkdGbm9tVTlwY1FaLXplM2E1bHRzeE1ZWDBQV0t6dldNY3Z5a3lKTmFxZHgybkhlUnh2dFNFOXdGUy12M3JUWnJpSk9tWHVVTUxCMzVXaEpnVWlRZEQ2ZlFJUHdFTERpMC1wakMxOWtKbHpEMEJkNEYxaHg1YXVtTURGd2VOUklYaUpJckk0TElqVQ?oc=5",
-     "source": "gnews",
-     "domain": "wionews.com",
-     "publishedAt": "2026-10-11T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-12T15:39:12.344Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
    "id": "683c862e4739",
    "name": "Character.AI",
    "evidence": [
@@ -460,30 +496,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-24T11:13:37.849Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "bed97175b06e",
-   "name": "Plan",
-   "evidence": [
-    {
-     "title": "James Comer Demands Documents From Matt Meyer Over Delaware AIC AI-Run Company Plan: 7 outlets compared",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdEhZVEdMamRWWVFVcHViYVFxQ09KWk4tcThjN2dTR2N0b0FienFIZm9GLXV1ZTNEY3RaLTl6X2hQUEE0SmZQZENwX0JubmgwODY4SWdSbEV4ajlDeUl4cEI2QWl6MWVBSDREQzUzRVJHOGdXcUV1Ui1XS0w1WGRDYlZNUWVhSEthZ1RpcmYwRERhUlgtemJJT1NQampMdm1hazBmdGs4ck1TNVZQRG0zMmhLdlFOM2psN2I5cWNBbVFSbHc4RTJVcGR2emJXZV90ejlQM2FieW02TnlsM1duWnFnWlM3OGJnZUE?oc=5",
-     "source": "gnews",
-     "domain": "newscord.org",
-     "publishedAt": "2026-10-27T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-09T16:34:04.695Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -544,34 +556,10 @@
    "evidence": [
     {
      "title": "Bigly Sales Launches Talk Kit, a Voice Agent That Lets Any Website Talk Back",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRjFkcVFhTFlqN0tPUWJNNkk4Um5GdFg5RHpEZ2tTQjdFMktzRWdoVDN4UGtsX1lHQVdpSUNxc1JjVzEzakZrUzE4X2RhZm9mZXJMa3M4aVFPZmpYVmcwV1JXeXNQM0syQm0wQl9LcjY0V214R2F2NGFsUU8zb0JwNXBHOERqMG9sem1fTERVMWI0Y00tMlp2bUlMbDYxdXBhRWdTTUZJYzZhSUg1QWVOQlVhYlgzT0JwZEdQVVdsQV9LeHpWNHpIa2FpaW03S29OYUV3?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb3J3Q1hNUEFJZDJWZnpObDdsa3R3R0tjVlZqMVdoUldoWlV5YW5XYjFfbGFFY3plaFFXbW5sQ1ZrUVVyX1J2VVhBT2JBd0xZdGtyaVdVNWhrNWo0ZGZuUGdQNjkwNjVSb093OGdUTW9oVUI3dFB6VnpYZFNjM3B4dGhUMkJISnFEcjVqVHNuYWFwLVE3N1Y3MG4weDRKTnlxVVFFZVIwcjJ2Vk9LU05xOHlDblQwTTQ4MmY5YXhZX0MzZHBGbVZJd1ZiaGpSQQ?oc=5",
      "source": "gnews",
-     "domain": "desmoinesregister.com",
-     "publishedAt": "2026-10-29T17:56:10.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-06T14:25:13.049Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "bc2701556292",
-   "name": "Yelp",
-   "evidence": [
-    {
-     "title": "Yelp launches AI agent to qualify leads for service professionals",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRGp4azNNQWtuTkVzYzRFSkVzVzZPRUpXbGNQMkxjTEdkajhiODhvZF9kWHRpOTVvUkV6S1h3d2dRemZMdkhSLTRsMWtZWWMzZFQ4WGR4VUhCQUNiMXIxYnZQWlZlcnFPOXlkWkZfZVM3M2xmb3RXTGxMSHNzYnB6ZXFQM25ZNjlyUkFsbjZiOUxYSlRvblhsOFNiVFlhYU5LSEZiTkFoWGJRcXhYdUlsVU1ENktXQQ?oc=5",
-     "source": "gnews",
-     "domain": "scanx.trade",
-     "publishedAt": "2026-10-20T07:00:00.000Z",
+     "domain": "beaconjournal.com",
+     "publishedAt": "2026-10-29T07:00:00.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
      ]
@@ -681,31 +669,6 @@
     "named entity"
    ],
    "status": "rejected"
-  },
-  {
-   "id": "50c0788f5b4c",
-   "name": "Reflection",
-   "evidence": [
-    {
-     "title": "Nvidia Pursues Acquisition of Open-Source AI Startup Reflection to Counter DeepSeek",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ndDRnTHhKR3pGUHhtSmxvQmdIaHN6TW1LT01Ha3kxSjZwb2I0UEpsN1poNnpwZ3ZxcS01SldaWkZacGV4czUzdGQtQWU2aXo1NzR6WHhtYVh0bHFjT2JCOUIySHVUZFFMZktEZFVmb1RheEdnZVE?oc=5",
-     "source": "gnews",
-     "domain": "finance.biggo.com",
-     "publishedAt": "2026-10-10T21:28:39.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-01T13:35:32.302Z",
-   "score": 0.5,
-   "reasons": [
-    "named entity",
-    "acquired — no longer independent"
-   ],
-   "status": "new"
   },
   {
    "id": "06471da8e570",
