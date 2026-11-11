@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T15:01:19.784Z",
+ "generatedAt": "2026-11-11T14:32:40.963Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -80,6 +80,32 @@
     "2 publishers",
     "autonomy thesis",
     "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "cb20c9d8834d",
+   "name": "Proximal Ventures",
+   "evidence": [
+    {
+     "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
+     "url": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
+     "source": "investor",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-11-10T20:47:05.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-11T14:32:40.962Z",
+   "score": 2.25,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure",
+    "strong outlet"
    ],
    "status": "new"
   },
@@ -288,31 +314,6 @@
    "status": "new"
   },
   {
-   "id": "0b0a8e237e62",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Disney Agrees To Pay $60 Million Annually For 66 Character.AI Employees: 7 outlets compared",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWExwSjBZY2lCMkFZTlVlazFMbnhIUFNJazhFVlgwTTM2UGE4aGp2ZFZnNlNhU3k5bFFqMFBsT0VvWnU1WlR4alFhQmdxRC1lS2dWNHpfLVZlSzEtZERLc3FWUEV4bzM2VHZlOUVIRWRVWURCRFlJc3ctMG10SVhyYS1Hbk9mQ1Y1QnNGY2tDd2s2Sk9nUkt2OXNaYU1DZUFtQzdYUm1ZZnQzNXIzNGxVTHUwUy1QSVVIZ2JuMXVwZmpIbjY1eHplMFRsWjkzQkhYS2NJb1FOeWFkbHM?oc=5",
-     "source": "gnews",
-     "domain": "newscord.org",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-08T13:35:28.410Z",
-   "score": 1.75,
-   "reasons": [
-    "autonomy thesis",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "68de23d13437",
    "name": null,
    "evidence": [
@@ -479,6 +480,30 @@
    "status": "new"
   },
   {
+   "id": "3c72abbe626f",
+   "name": "Platform",
+   "evidence": [
+    {
+     "title": "Autonomous Business: Joule Work, Joule Assistants, and the SAP Business AI Platform - E3-Magazin",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUldQNEE1LU9KYVhYWVhYNmU5VXZCUy03cVdzclNIeW5rS1U5TWJrVUpjOUxDWDRDVnZiQkJoNDA2Wk1MbVNSZV9YXzNHVzVBb1FuTEhPekUzcG9RZDJ3a3Y3N1BPVHF3eF9mMVhDNkpTU0ZzNEk5MjdNTXRNNEVHaUFGcFd5QWktNFpqanAzZExPR3NxY1JENkdhc0VKNHM5SzJmdA?oc=5",
+     "source": "gnews",
+     "domain": "e3mag.com",
+     "publishedAt": "2026-11-11T09:00:00.000Z",
+     "matchedKeywords": [
+      "\"autonomous company\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-11T14:32:40.962Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
    "id": "683c862e4739",
    "name": "Character.AI",
    "evidence": [
@@ -568,6 +593,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-06T14:25:13.049Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "184b08a74262",
+   "name": "ThunderPhone Launches",
+   "evidence": [
+    {
+     "title": "Voice AI Startup ThunderPhone Launches v3 Architecture and Zeus, an Agentic Harness for Phone Agents",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMUphT0ZNRmg4aTl3MW4xZE5uSTJ3M1ZlUEZOOFBySjdMZzFQUTBIdjJldElZVW1hdWtpQkJoVHNyOUFmZVNyMnBmRUxseUQyNU5wUXNJLWtBeWZpekN1S3otdmFDZlpPemxPSHBOODNIRTNoNGFZbnZjUmdjT3o1SU9kUW9EM2FXS0I4RVhWQXNOc21rS2djWnV5V1hVYWpvb3huT1kxYWYwaTY4Q0hiWXM3Rld0YlVhUUNmdTloZHJzUHFCQW1obGtBSjVkaGp0VjRlZE84X0h3bll6UnJHOTJ3dEVNdEJwM1NB?oc=5",
+     "source": "gnews",
+     "domain": "prnewswire.com",
+     "publishedAt": "2026-11-10T13:36:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-11T14:32:40.963Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -735,6 +784,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-08T13:35:28.410Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "d3f1fde9d75c",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Assessing and Managing the Risk of Doing Business with Small Software Companies in ﻿the Age of AI",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZTQ3RFVKeDRaOVJPVVJaOXBZajJORE9pa3JCVUszVmVXeU1nbXlXZGZ5VWs1Rm1LZXpKb08xQ2NLNnNoaWJ3a3VLbVMxX1RRaXpWUDNMalRxQlNBOUQ0NlRTT1ZPdUZFWG5FZ1hZMVNta0dQZ01ldVl1TUxydTduRzRmb3pabUhYdUUzSFRaeVIyampYWUJlVzBibFROS2d1LTMyRDVSX0M1a1VoMGtqdUlhNVVpTUlVbjF1NzBnMV9NUENyemMxRlVnNG9fTXNxcWROeHZTbzU?oc=5",
+     "source": "gnews",
+     "domain": "grainjournal.com",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-11T14:32:40.963Z",
    "score": 0,
    "reasons": [],
    "status": "new"
