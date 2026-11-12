@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T14:32:40.963Z",
+ "generatedAt": "2026-11-12T15:25:04.425Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -194,7 +194,7 @@
    "evidence": [
     {
      "title": "Solo Founder Business Applications Rise 26.8% in AI-Exposed US Industries",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXJ0bzFnOU8zYWhla2hQTlRXczRNWW1ZWjBZMHUwcm1FdnF4Y2pZZ3g5UlhRb09ldlpGSXZReEpwTllCT2diMEltZEt5OUtOMjVQcDhVb2Jxd0ZsaGN1MHpZUGFqV2ZxZE1sWlpzSUlZemdxM3dtLXBoWE4wcTRyNHRoOEMtRFRLYlVIeDREdVIwZlhSaG44dg?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTUhqcWJYRG5jei0yYUxRMTBxLUszdTlsMW5sV19jZzRpTHFUa2ZTZVhUZDlvd1B0S2tsWUI4UFNQR2VFUDZKR3hSU28xdU1lblA5Vzk2WkkwVXRrYk5jSFV3N1B3Tmp3eGRlWEIxMC1oMkx1bmdKYVBscTdfakNMMW1WSVk1THVMUkpGNWI4N0hDblA0cS1OeFItVGs?oc=5",
      "source": "gnews",
      "domain": "journalarta.com",
      "publishedAt": "2026-11-10T00:37:35.000Z",
@@ -480,12 +480,37 @@
    "status": "new"
   },
   {
+   "id": "d7bc69c96e3b",
+   "name": null,
+   "evidence": [
+    {
+     "title": "No employees and prototypes within days: AI agents supercharge startups",
+     "url": "https://www.ft.com/content/d338594b-ca66-418a-9884-8f562a175fed",
+     "source": "hn",
+     "domain": "ft.com",
+     "publishedAt": "2026-11-11T17:25:37Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-12T15:25:04.425Z",
+   "score": 1.5,
+   "reasons": [
+    "autonomy thesis",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
    "id": "3c72abbe626f",
    "name": "Platform",
    "evidence": [
     {
      "title": "Autonomous Business: Joule Work, Joule Assistants, and the SAP Business AI Platform - E3-Magazin",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUldQNEE1LU9KYVhYWVhYNmU5VXZCUy03cVdzclNIeW5rS1U5TWJrVUpjOUxDWDRDVnZiQkJoNDA2Wk1MbVNSZV9YXzNHVzVBb1FuTEhPekUzcG9RZDJ3a3Y3N1BPVHF3eF9mMVhDNkpTU0ZzNEk5MjdNTXRNNEVHaUFGcFd5QWktNFpqanAzZExPR3NxY1JENkdhc0VKNHM5SzJmdA?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUE9XZ2laM2ZNOFpNVWZhUDk2MHZTbkJyTWJ5dnhRV0ZjUlN5R3E4c2VKS2xmU2VtVXVVTWtXdC1wU3RKLVlETHRBUmNfYllvZWhZVExJalJXdGtfRGhxQUhGMWJzRERyU24wQm5PWm1RQ2k5Mk85WDVrTXdCRFZlYkxDYUlKNERTZlhlVXMwdGVYajVTc1ZOeFFCSlJEZXEzeU0ybw?oc=5",
      "source": "gnews",
      "domain": "e3mag.com",
      "publishedAt": "2026-11-11T09:00:00.000Z",
@@ -593,30 +618,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-06T14:25:13.049Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "184b08a74262",
-   "name": "ThunderPhone Launches",
-   "evidence": [
-    {
-     "title": "Voice AI Startup ThunderPhone Launches v3 Architecture and Zeus, an Agentic Harness for Phone Agents",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMUphT0ZNRmg4aTl3MW4xZE5uSTJ3M1ZlUEZOOFBySjdMZzFQUTBIdjJldElZVW1hdWtpQkJoVHNyOUFmZVNyMnBmRUxseUQyNU5wUXNJLWtBeWZpekN1S3otdmFDZlpPemxPSHBOODNIRTNoNGFZbnZjUmdjT3o1SU9kUW9EM2FXS0I4RVhWQXNOc21rS2djWnV5V1hVYWpvb3huT1kxYWYwaTY4Q0hiWXM3Rld0YlVhUUNmdTloZHJzUHFCQW1obGtBSjVkaGp0VjRlZE84X0h3bll6UnJHOTJ3dEVNdEJwM1NB?oc=5",
-     "source": "gnews",
-     "domain": "prnewswire.com",
-     "publishedAt": "2026-11-10T13:36:00.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-11T14:32:40.963Z",
    "score": 1,
    "reasons": [
     "named entity"
