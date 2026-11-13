@@ -15,20 +15,22 @@ export function proxy(request: NextRequest) {
   if (pathname === "/live" || pathname.startsWith("/live/")) {
     const user = process.env.LIVE_USER || "";
     const password = process.env.LIVE_PASSWORD || "";
-    if (!password) return new NextResponse("Not found", { status: 404 });
+    // Never let a CDN or browser keep any /live response, authorised or not.
+    const noStore = { "Cache-Control": "private, no-store, max-age=0" };
+    if (!password) return new NextResponse("Not found", { status: 404, headers: noStore });
 
     const auth = request.headers.get("authorization") || "";
     if (auth.startsWith("Basic ")) {
       try {
         const [u, p] = atob(auth.slice(6)).split(":");
-        if (u === user && p === password) return NextResponse.next();
+        if (u === user && p === password) return NextResponse.next({ headers: noStore });
       } catch {
         /* malformed header → challenge */
       }
     }
     return new NextResponse("Authentication required", {
       status: 401,
-      headers: { "WWW-Authenticate": 'Basic realm="Autopilot Index ops", charset="UTF-8"' },
+      headers: { ...noStore, "WWW-Authenticate": 'Basic realm="Autopilot Index ops", charset="UTF-8"' },
     });
   }
 
