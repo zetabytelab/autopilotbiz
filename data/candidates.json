@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T14:42:56.049Z",
+ "generatedAt": "2026-11-14T13:40:09.637Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -153,6 +153,56 @@
    "status": "new"
   },
   {
+   "id": "5e5c94184453",
+   "name": "Shaffra",
+   "evidence": [
+    {
+     "title": "Saudi AI firm Shaffra helps firms save up to 800,000 work hours using digital employees",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdk5saENvckttZENmRWNGT194WmZIOURYOGxpWWVaVk8wNW9fd204Rk1CQ3JSV1dtSjBxOEdva01KclhWUFhtUE5VNkZPNGF1THRwZ3V5dGZQYndENkkyR1VHNjQ2WTNNSHpfLVNlcnJuMTBXSUpvSnBhTEJfNjZNbmRuZ015N2tjRlhaa0Nvem13MkFFeF9PQ1QzdExqR2N3eXhfWUp3TDkzcHN2M1JQQmlzOWQzV3czYkVPSjA1VS0zNm1LU1Rv?oc=5",
+     "source": "gnews",
+     "domain": "arabnews.com",
+     "publishedAt": "2026-11-14T08:03:00.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-14T13:40:09.636Z",
+   "score": 2,
+   "reasons": [
+    "named entity",
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "fc46163a4cc7",
+   "name": "Applications Rise",
+   "evidence": [
+    {
+     "title": "Solo Founder Business Applications Rise 26.8% in AI-Exposed US Industries",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTUhqcWJYRG5jei0yYUxRMTBxLUszdTlsMW5sV19jZzRpTHFUa2ZTZVhUZDlvd1B0S2tsWUI4UFNQR2VFUDZKR3hSU28xdU1lblA5Vzk2WkkwVXRrYk5jSFV3N1B3Tmp3eGRlWEIxMC1oMkx1bmdKYVBscTdfakNMMW1WSVk1THVMUkpGNWI4N0hDblA0cS1OeFItVGs?oc=5",
+     "source": "gnews",
+     "domain": "journalarta.com",
+     "publishedAt": "2026-11-10T00:37:35.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-14T13:40:09.636Z",
+   "score": 2,
+   "reasons": [
+    "named entity",
+    "autonomy thesis"
+   ],
+   "status": "new"
+  },
+  {
    "id": "f9bdbd24163a",
    "name": "Paystand",
    "evidence": [
@@ -261,7 +311,7 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjhxQ0FIMGFpM3k5S3U4cnpOTE8zLTl1MElyMTRGNWQxdjJzRmNqVG00TXFHOXRYRUZCck81OVdraldaUUJDNTBKbExURE54YUxJTm9vMGJIeU9aMHBySW1CUWNsY0RYcmo0MmpKdWlDcXRzMW5EOUNaeUY1b3huS24xd2JsMWo1UU9rWGVKWS1FclB5QnpnT2hJOHNqM1V0NEZoLUFFMDRPN0h3TXo0X21B?oc=5",
      "source": "gnews",
      "domain": "app.dealroom.co",
-     "publishedAt": "2026-11-04T21:29:44.000Z",
+     "publishedAt": "2026-11-05T01:53:31.000Z",
      "matchedKeywords": [
       "\"solo founder\" AI agents raises"
      ]
@@ -439,6 +489,31 @@
    "score": 1.5,
    "reasons": [
     "autonomy thesis",
+    "strong outlet"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "d5a37fa38eb0",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+     "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+     "source": "investor",
+     "domain": "techcrunch.com",
+     "publishedAt": "2026-11-13T22:43:00.000Z",
+     "matchedKeywords": [
+      "investor:techcrunch-vc"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-14T13:40:09.636Z",
+   "score": 1.25,
+   "reasons": [
+    "funding or revenue figure",
     "strong outlet"
    ],
    "status": "new"
@@ -701,6 +776,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-20T11:52:05.594Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "074966636f69",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI Fuels Solo Entrepreneur Boom as Startups Ditch Hiring",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2hlYV9hMFIyREQ4aTBmUC1kakp5RWFqSlVVZ3BJWXp5Um43UGo1VFFGd0JsM3ZRU0wyeGQ5d2NDZUdrM1F4dWlBZ21rT05FS0NsMTM0a2w5aXBvZ1dYODJzX2cyamNBUmd0bFQ1ODM0RkFHVWpMdGkzVzI3SGNhSFU3dFRUbXpzaHV2N2JuSmpVRFk?oc=5",
+     "source": "gnews",
+     "domain": "techbuzz.ai",
+     "publishedAt": "2026-11-07T15:06:13.000Z",
+     "matchedKeywords": [
+      "\"zero employees\" startup AI"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-14T13:40:09.637Z",
    "score": 0,
    "reasons": [],
    "status": "new"
