@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T13:40:09.637Z",
+ "generatedAt": "2026-11-15T14:03:36.718Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -16,16 +16,6 @@
      ]
     },
     {
-     "title": "Disney Offers Jobs to Most Character.AI Employees as Startup Faces Bankruptcy",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObFJpelNCemJ2cUxleGxFbExuQTJtc3FQSXAwRDMtMEpOaHFXaXNab3hhTTB2WEpYMU5oNklwLVNXdHVHNnpXWjBmZEt0RlVEQnQzUHpEcHZOeUFyR3hwbHRIdmRpOXlNN1ViOTRXTWZuSnRlUnBCWVYxZEZoSkpPenpiYVc2Mk5kY0NOWTJEN2xxNmNoV0J6RW40dlZrb2ZOUUZ5Nzlkdlh4aUNDTnJLTGd3?oc=5",
-     "source": "gnews",
-     "domain": "konsulteer.com",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
      "title": "Disney will hire most of Character.AI's employees following the startup's bankruptcy",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU3l3bVItMDRfM1FDUV9oRV9sVzhyTzAwelUwUlBwakZIVHU0SHBRdlhvbUxxX1Y0dmNKdWptTTZaLVVwVnV3YnNJX2Z2dmtOLWprU09hMlZ2S01uRm96U1FvYWJHN1ZvbFdMaElZQ1JWVTFyMnE1QmsybXUya0hBanAwRWRQSE9UTy0wNnU3MFRIQdIBlwFBVV95cUxOcDY1aG1ZeDV1N2hiZ2w1UTc1ZUxKRHdOZVFBaFBMcEVMYVNrZUVGWWpQWkFCSWVBZF95SnB0QVBybGN0MnhJd1hDYU00Zm1mNDlmUDYtaTZ2cGtrejhSYy0tSUZaU1Z0RnFpamRyRVJ1RmVfTWtaTUM2M2p1cUgzaHFNQmdDYUNTLXU2bzc1dVhTS3FNOWpJ?oc=5",
      "source": "gnews",
@@ -36,13 +26,13 @@
      ]
     }
    ],
-   "coverage": 3,
-   "publishers": 3,
+   "coverage": 2,
+   "publishers": 2,
    "firstSeen": "2026-10-20T11:52:05.593Z",
-   "score": 3,
+   "score": 2.5,
    "reasons": [
     "named entity",
-    "3 publishers",
+    "2 publishers",
     "autonomy thesis"
    ],
    "status": "new"
@@ -126,31 +116,6 @@
    "status": "watchlist",
    "reviewNote": "Added to the index watchlist. $30M annualised revenue and a ~$2B Salesforce approach are real economics, but the company employs senior researchers alongside the AI moderator, so it fails 'agents execute, humans direct' today.",
    "reviewedAt": "2026-09-12T12:36:02Z"
-  },
-  {
-   "id": "ba156e2c081b",
-   "name": "Powered",
-   "evidence": [
-    {
-     "title": "One-Person Company Powered by AI Agents: Does It Scale?",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOTml2TTV4cXpDN084aWU5T0FBLVVYSENOWk1Zak9KSHV1VDBfd19kSmpDWjM0SFNoUjRHZVp4QUhHZ2dIQWNQLW03azR1VDBrblVIWDZZNDFJTjAyNGhHUFR3?oc=5",
-     "source": "gnews",
-     "domain": "tradeflock.com",
-     "publishedAt": "2026-10-16T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"zero employees\" startup AI"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-17T10:53:48.336Z",
-   "score": 2,
-   "reasons": [
-    "named entity",
-    "autonomy thesis"
-   ],
-   "status": "new"
   },
   {
    "id": "5e5c94184453",
@@ -295,31 +260,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-17T10:53:48.336Z",
-   "score": 1.75,
-   "reasons": [
-    "autonomy thesis",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "68de23d13437",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Solo founder wins $500K Gemini XPRIZE with AI 3D-model startup built in 90 days",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjhxQ0FIMGFpM3k5S3U4cnpOTE8zLTl1MElyMTRGNWQxdjJzRmNqVG00TXFHOXRYRUZCck81OVdraldaUUJDNTBKbExURE54YUxJTm9vMGJIeU9aMHBySW1CUWNsY0RYcmo0MmpKdWlDcXRzMW5EOUNaeUY1b3huS24xd2JsMWo1UU9rWGVKWS1FclB5QnpnT2hJOHNqM1V0NEZoLUFFMDRPN0h3TXo0X21B?oc=5",
-     "source": "gnews",
-     "domain": "app.dealroom.co",
-     "publishedAt": "2026-11-05T01:53:31.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-05T14:46:59.875Z",
    "score": 1.75,
    "reasons": [
     "autonomy thesis",
@@ -619,10 +559,10 @@
    "name": "Bigly Sales",
    "evidence": [
     {
-     "title": "Bigly Sales Launches Talk Kit, a Voice Agent That Lets Any Website Talk Back",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb3J3Q1hNUEFJZDJWZnpObDdsa3R3R0tjVlZqMVdoUldoWlV5YW5XYjFfbGFFY3plaFFXbW5sQ1ZrUVVyX1J2VVhBT2JBd0xZdGtyaVdVNWhrNWo0ZGZuUGdQNjkwNjVSb093OGdUTW9oVUI3dFB6VnpYZFNjM3B4dGhUMkJISnFEcjVqVHNuYWFwLVE3N1Y3MG4weDRKTnlxVVFFZVIwcjJ2Vk9LU05xOHlDblQwTTQ4MmY5YXhZX0MzZHBGbVZJd1ZiaGpSQQ?oc=5",
+     "title": "Bigly Sales Launches Talk Kit, a Voice Agent That Lets Any Website Talk Back - The Courier-Journal",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRjFFRlJXYXdEWFNKc0tiVWdNNWhhc19NNHNqdTN5RHowRUpjNDRFQXVKRm1RTmpVTmFkYXFtay1RSUJsZVVUX2RLM1NLVko3TlhHM3FmVlNvY2lsaHgyVU9sUmdBdFJNWHFqNUI1TE9USXo4OGhNaTIxZngtS0lNcERXMnBaY1hlNGtFRGlIVXI3aFZ6RVhic3d0blZGSDJlRGpSU3Zlb25vazM5VjM0Z1lwUkR0UWNMTGVDTmFYZUNjTUU4Y0d1eWFRS2hId0E2?oc=5",
      "source": "gnews",
-     "domain": "beaconjournal.com",
+     "domain": "courier-journal.com",
      "publishedAt": "2026-10-29T07:00:00.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
@@ -842,28 +782,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-31T12:45:10.065Z",
-   "score": 0,
-   "reasons": [],
-   "status": "new"
-  },
-  {
-   "id": "a491822582b3",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The Guinndex: A simple question turned AI experiment - EU-Startups",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTl9ZblEtSlI5cjZxNzJsSnlsNXJpZHQ1d21oajMxQ1I5YnhneWx2V25QUkZISk1zeWJBMGZFVjN3TlpZMGpUeVZRMFpVSG1HbGZlTkRGcHNKcS1MNVgwajZZaGZZeUM2WGdHbWJBemVnbVVkTUdhdG1NT0JNemJ1cG5XT2JmOWszaE5qLWt3RWtnZw?oc=5",
-     "source": "gnews",
-     "domain": "eu-startups.com",
-     "publishedAt": "2026-11-13T10:22:22.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-13T14:42:56.049Z",
    "score": 0,
    "reasons": [],
    "status": "new"
