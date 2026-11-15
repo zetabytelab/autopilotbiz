@@ -1760,7 +1760,15 @@ export type StackTool = {
   referralUrl?: string;
   usedBy: string[];
   category: StackCategory;
+  // Optional grouping inside a homepage stack layer (layer 05 "Compute & sandboxes").
+  sublayer?: StackSublayer;
+  // Cited funding line from the research shortlist; omit when not sourced.
+  funding?: string | null;
+  // Primary sources for the role/funding facts above.
+  sources?: Source[];
 };
+
+export type StackSublayer = "Agent sandboxes" | "Browser infra" | "GPU clouds";
 
 // Pyramid layers, top (apex) → bottom (foundation).
 export const stackLayers: { key: StackCategory; label: string; blurb: string }[] = [
@@ -1983,6 +1991,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Solo builders"],
     category: "agents",
+    sublayer: "Browser infra",
   },
   {
     name: "Firecrawl",
@@ -2041,6 +2050,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Coding agents"],
     category: "sandboxes",
+    sublayer: "Agent sandboxes",
   },
   {
     name: "E2B",
@@ -2049,6 +2059,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Coding agents"],
     category: "sandboxes",
+    sublayer: "Agent sandboxes",
   },
   {
     name: "Daytona",
@@ -2057,6 +2068,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Coding agents"],
     category: "sandboxes",
+    sublayer: "Agent sandboxes",
   },
   {
     name: "CoreWeave",
@@ -2065,6 +2077,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Model providers"],
     category: "sandboxes",
+    sublayer: "GPU clouds",
   },
   {
     name: "Lambda Labs",
@@ -2073,6 +2086,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Solo builders"],
     category: "sandboxes",
+    sublayer: "GPU clouds",
   },
   {
     name: "RunPod",
@@ -2081,6 +2095,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Solo builders"],
     category: "sandboxes",
+    sublayer: "GPU clouds",
   },
   {
     name: "DigitalOcean",
@@ -2149,6 +2164,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Polsia"],
     category: "agents",
+    sublayer: "Browser infra",
   },
   {
     name: "Blaxel (YC X25)",
@@ -2157,6 +2173,7 @@ export const stackTools: StackTool[] = [
     referral: null,
     usedBy: ["Polsia"],
     category: "agents",
+    sublayer: "Agent sandboxes",
   },
   {
     name: "MCP (Model Context Protocol)",
@@ -2225,6 +2242,161 @@ export const stackTools: StackTool[] = [
     referral: "Activate: up to $200K startup credits",
     usedBy: ["Polsia"],
     category: "code-deploy",
+  },
+  {
+    name: "Vercel Sandbox",
+    url: "https://vercel.com/sandbox",
+    role: "Isolated VMs for running agent-generated code — 19 regions, snapshot “Drives” in beta",
+    referral: null,
+    usedBy: ["LangChain Deep Agents"],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "Vercel: $300M Series F at a $9.3B valuation (Sep 2025)",
+    sources: [
+      { name: "Vercel Sandbox", url: "https://vercel.com/sandbox" },
+      { name: "Vercel — Series F", url: "https://vercel.com/blog/series-f" },
+    ],
+  },
+  {
+    name: "Cloudflare Sandboxes",
+    url: "https://developers.cloudflare.com/sandbox",
+    role: "Sandboxes started from a Worker’s Durable Object — custom images, snapshots (beta), Dynamic Workers",
+    referral: null,
+    usedBy: [],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "Public company (NYSE: NET)",
+    sources: [
+      { name: "Cloudflare Sandbox docs", url: "https://developers.cloudflare.com/sandbox" },
+    ],
+  },
+  {
+    name: "AWS Bedrock AgentCore",
+    url: "https://aws.amazon.com/bedrock/agentcore",
+    role: "First-party AWS code interpreter, browser and agent runtime",
+    referral: null,
+    usedBy: ["LangChain Deep Agents"],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "Amazon (public company)",
+    sources: [
+      { name: "AWS Bedrock AgentCore", url: "https://aws.amazon.com/bedrock/agentcore" },
+    ],
+  },
+  {
+    name: "LangSmith Sandboxes",
+    url: "https://langchain.com/langsmith/sandboxes",
+    role: "LangChain’s own hosted sandboxes — prewarmed starts, root + Docker, snapshots and copy-on-write forks",
+    referral: null,
+    usedBy: ["LangChain Deep Agents"],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "LangChain: $300M Series C at a $3B valuation, led by CapitalG (Nov 2026)",
+    sources: [
+      { name: "LangSmith Sandboxes", url: "https://langchain.com/langsmith/sandboxes" },
+      { name: "LangChain — Series C", url: "https://www.langchain.com/blog/series-c" },
+    ],
+  },
+  {
+    name: "Runloop",
+    url: "https://runloop.ai",
+    role: "Enterprise devboxes for building, evaluating and deploying coding agents — snapshots, blueprints, SWE-bench",
+    referral: null,
+    usedBy: ["LangChain Deep Agents"],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "$7M seed led by The General Partnership, with Blank Ventures (Jul 2025)",
+    sources: [
+      { name: "Runloop", url: "https://runloop.ai" },
+      { name: "Runloop — $7M seed", url: "https://runloop.ai/media/runloop-raises-7m-seed-round-to-bring-enterprise-grade-infrastructure-to-ai-coding-agents" },
+    ],
+  },
+  {
+    name: "Fly.io Sprites",
+    url: "https://fly.io/sprites",
+    role: "Computers for agents — ~1s creates, live copy-on-write checkpoints, wake-on-HTTPS",
+    referral: null,
+    usedBy: [],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "Fly.io: $25M Series D co-led by Dell Technologies Capital and Intel Capital (Jul 2026)",
+    sources: [
+      { name: "Fly.io Sprites", url: "https://fly.io/sprites" },
+      { name: "Fly.io — computers for agents", url: "https://fly.io/news/fly-io-launches-computers-for-agents/" },
+    ],
+  },
+  {
+    name: "Together Code Sandbox",
+    url: "https://together.ai/sandbox",
+    role: "Code sandbox VMs from the former CodeSandbox SDK — ~2.7s P95 cold start, ~500ms P95 snapshot resume, VM clone under 1s",
+    referral: null,
+    usedBy: [],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "Together AI (acquired CodeSandbox, Dec 2024): $305M Series B at ~$3.3B (Feb 2025)",
+    sources: [
+      { name: "Together Code Sandbox", url: "https://together.ai/sandbox" },
+      { name: "Together AI — CodeSandbox acquisition", url: "https://www.together.ai/blog/codesandbox-acquisition-together-code-interpreter" },
+      { name: "Together AI — Series B", url: "https://www.together.ai/blog/together-ai-announcing-305m-series-b" },
+    ],
+  },
+  {
+    name: "Freestyle",
+    url: "https://freestyle.sh",
+    role: "Full Linux VMs for agents — millisecond provisioning, hibernate/resume, cheap snapshot and branch; fastest resume (0.35s) on aisandboxbench",
+    referral: null,
+    usedBy: [],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "YC S24; $500K pre-seed incl. YC (Aug 2024, per Indexed.vc)",
+    sources: [
+      { name: "Freestyle", url: "https://freestyle.sh" },
+      { name: "Y Combinator profile", url: "https://www.ycombinator.com/companies/freestyle" },
+      { name: "Indexed.vc", url: "https://indexed.vc/companies/freestylecloud" },
+    ],
+  },
+  {
+    name: "Superserve",
+    url: "https://superserve.ai",
+    role: "Pausable Firecracker microVMs for long-horizon agents — start, snapshot and fork, with a credential broker outside the VM; fastest cold start (0.52s) on aisandboxbench",
+    referral: null,
+    usedBy: [],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "YC F26; pre-seed from Open Core Ventures (amount undisclosed)",
+    sources: [
+      { name: "Superserve", url: "https://superserve.ai" },
+      { name: "Y Combinator profile", url: "https://www.ycombinator.com/companies/superserve" },
+      { name: "Founder post (pre-seed)", url: "https://www.linkedin.com/posts/pavitrabhalla_careers-superserve-building-sandbox-infra-activity-7384310361862131712-yqC2" },
+    ],
+  },
+  {
+    name: "Upstash Box",
+    url: "https://upstash.com/docs/box",
+    role: "Ephemeral and sized boxes from 2 vCPU / 4 GB — cheapest per 1,000 tasks on aisandboxbench",
+    referral: null,
+    usedBy: [],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "Upstash: $10M Series A led by Andreessen Horowitz (Feb 2024)",
+    sources: [
+      { name: "Upstash Box docs", url: "https://upstash.com/docs/box" },
+      { name: "TechCrunch — Series A", url: "https://techcrunch.com/2024/02/08/upstashs-serverless-data-platform-hits-arr-of-1m-just-two-years-after-seed-funding/" },
+    ],
+  },
+  {
+    name: "Boat",
+    url: "https://boat.dev",
+    role: "Cheap Ubuntu VMs with desktop, Chrome, Docker and snapshots — used for 1,500 agents in the Minecraft scaling race",
+    referral: null,
+    usedBy: [],
+    category: "sandboxes",
+    sublayer: "Agent sandboxes",
+    funding: "YC F26 (amount undisclosed)",
+    sources: [
+      { name: "Boat", url: "https://boat.dev" },
+      { name: "Y Combinator profile", url: "https://www.ycombinator.com/companies/boat" },
+    ],
   },
 ];
 

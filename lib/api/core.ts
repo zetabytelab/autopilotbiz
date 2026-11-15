@@ -67,6 +67,9 @@ export function stackToolDTO(t: StackTool) {
     referralUrl: t.referralUrl ?? null,
     referralTerms: t.referral,
     usedBy: t.usedBy,
+    sublayer: t.sublayer ?? null,
+    funding: t.funding ?? null,
+    sources: t.sources ?? [],
   };
 }
 
@@ -148,7 +151,7 @@ export function listStack(p: z.infer<typeof listStackSchema>) {
   if (p.hasReferral) rows = rows.filter((t) => Boolean(t.referralUrl) === (p.hasReferral === "true"));
   if (p.q) {
     const q = p.q;
-    rows = rows.filter((t) => matches([t.name, t.role, t.category, ...t.usedBy], q));
+    rows = rows.filter((t) => matches([t.name, t.role, t.category, t.sublayer, ...t.usedBy], q));
   }
   rows.sort((a, b) => a.name.localeCompare(b.name));
   const total = rows.length;
