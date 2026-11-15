@@ -122,7 +122,7 @@ const spec = {
       },
       StackTool: {
         type: "object",
-        properties: { name: { type: "string" }, category: { type: "string" }, role: { type: "string" }, url: { type: "string" }, referralUrl: { type: ["string", "null"] }, referralTerms: { type: ["string", "null"] }, usedBy: { type: "array", items: { type: "string" } } },
+        properties: { name: { type: "string" }, category: { type: "string" }, role: { type: "string" }, url: { type: "string" }, referralUrl: { type: ["string", "null"] }, referralTerms: { type: ["string", "null"] }, usedBy: { type: "array", items: { type: "string" } }, sublayer: { type: ["string", "null"], description: "Grouping inside a homepage stack layer, e.g. Agent sandboxes, Browser infra, GPU clouds." }, funding: { type: ["string", "null"], description: "Cited funding line, when sourced." }, sources: { type: "array", items: { type: "object", properties: { name: { type: "string" }, url: { type: "string" } } } } },
       },
       StackList: { type: "object", properties: { total: { type: "integer" }, items: { type: "array", items: { $ref: "#/components/schemas/StackTool" } } } },
       Edition: { type: "object", properties: { slug: { type: "string" }, number: { type: "integer" }, title: { type: "string" }, date: { type: "string" }, tldr: { type: "array", items: { type: "string" } }, url: { type: "string" } } },
