@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T14:03:36.718Z",
+ "generatedAt": "2026-11-16T16:00:53.222Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -143,31 +143,6 @@
    "status": "new"
   },
   {
-   "id": "fc46163a4cc7",
-   "name": "Applications Rise",
-   "evidence": [
-    {
-     "title": "Solo Founder Business Applications Rise 26.8% in AI-Exposed US Industries",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTUhqcWJYRG5jei0yYUxRMTBxLUszdTlsMW5sV19jZzRpTHFUa2ZTZVhUZDlvd1B0S2tsWUI4UFNQR2VFUDZKR3hSU28xdU1lblA5Vzk2WkkwVXRrYk5jSFV3N1B3Tmp3eGRlWEIxMC1oMkx1bmdKYVBscTdfakNMMW1WSVk1THVMUkpGNWI4N0hDblA0cS1OeFItVGs?oc=5",
-     "source": "gnews",
-     "domain": "journalarta.com",
-     "publishedAt": "2026-11-10T00:37:35.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-14T13:40:09.636Z",
-   "score": 2,
-   "reasons": [
-    "named entity",
-    "autonomy thesis"
-   ],
-   "status": "new"
-  },
-  {
    "id": "f9bdbd24163a",
    "name": "Paystand",
    "evidence": [
@@ -243,23 +218,23 @@
    "status": "new"
   },
   {
-   "id": "b7b2649a5282",
+   "id": "68de23d13437",
    "name": null,
    "evidence": [
     {
-     "title": "Disney to Pay $60 Million Annually for 66 Character.AI Employees - Alphabet (NASDAQ:GOOGL), Alphabet (NAS",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWVJmZnB0VFdNLTViWWVPOVQtN0pHeXpYaTJCbHB5cWxYUEtmUGZ6Mkd2U1kzU2JPWVpLTHVGQzZISmhDbGdhOWdRREx1cE1KUHZYREd2QW5OcEtSTTE2U05XYlZ5RlJUMklTZXV3UjdSdkRlTGE0b1MteUNjZFhuX25SRVVIS3c3R0dxckNmZFVyNW1sM3c4U3ZULTBvck50Q3RWMVh1MG4?oc=5",
+     "title": "Solo founder wins $500K Gemini XPRIZE with AI 3D-model startup built in 90 days",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjhxQ0FIMGFpM3k5S3U4cnpOTE8zLTl1MElyMTRGNWQxdjJzRmNqVG00TXFHOXRYRUZCck81OVdraldaUUJDNTBKbExURE54YUxJTm9vMGJIeU9aMHBySW1CUWNsY0RYcmo0MmpKdWlDcXRzMW5EOUNaeUY1b3huS24xd2JsMWo1UU9rWGVKWS1FclB5QnpnT2hJOHNqM1V0NEZoLUFFMDRPN0h3TXo0X21B?oc=5",
      "source": "gnews",
-     "domain": "benzinga.com",
-     "publishedAt": "2026-10-17T07:00:00.000Z",
+     "domain": "app.dealroom.co",
+     "publishedAt": "2026-11-05T07:49:30.000Z",
      "matchedKeywords": [
-      "\"AI employees\" startup"
+      "\"solo founder\" AI agents raises"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-17T10:53:48.336Z",
+   "firstSeen": "2026-11-16T16:00:53.222Z",
    "score": 1.75,
    "reasons": [
     "autonomy thesis",
@@ -760,6 +735,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-11T14:32:40.963Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "04c1d047471f",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Venmo Co-Founder's JellyJelly App Adds Encrypted Face Verification As AI Bots Clear Captcha Tests",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd1BQQzBkUWJjalVFNTVRQ0haN015Wnl5OW43UkpGZjh5WTUzOUJibzZPTU1KM0dwVWtWbjlyNG5mUmw4NGM1d3RnX0N3cDBHdjMwc2NxVFlfMDh5YVVkeG1FSU0zZWhodWc2TWh0bWFJM25rMkVQNTJ4U25VTzhvWmNndW1GNlRMU011c05zTTBacGNPbGVFV1dVUlI3SzE0dk1kMTZjSEpHcFhlRDQ5SVp4YUhjZHBVRVV2ckJ6UUpveVdobl9GTVNuNjZsMmhV?oc=5",
+     "source": "gnews",
+     "domain": "benzinga.com",
+     "publishedAt": "2026-11-16T15:24:04.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-16T16:00:53.222Z",
    "score": 0,
    "reasons": [],
    "status": "new"
