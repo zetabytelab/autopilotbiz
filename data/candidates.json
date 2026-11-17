@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T16:00:53.222Z",
+ "generatedAt": "2026-11-17T16:12:04.635Z",
  "candidates": [
   {
    "id": "9867eeb87dea",
@@ -218,31 +218,6 @@
    "status": "new"
   },
   {
-   "id": "68de23d13437",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Solo founder wins $500K Gemini XPRIZE with AI 3D-model startup built in 90 days",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjhxQ0FIMGFpM3k5S3U4cnpOTE8zLTl1MElyMTRGNWQxdjJzRmNqVG00TXFHOXRYRUZCck81OVdraldaUUJDNTBKbExURE54YUxJTm9vMGJIeU9aMHBySW1CUWNsY0RYcmo0MmpKdWlDcXRzMW5EOUNaeUY1b3huS24xd2JsMWo1UU9rWGVKWS1FclB5QnpnT2hJOHNqM1V0NEZoLUFFMDRPN0h3TXo0X21B?oc=5",
-     "source": "gnews",
-     "domain": "app.dealroom.co",
-     "publishedAt": "2026-11-05T07:49:30.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-16T16:00:53.222Z",
-   "score": 1.75,
-   "reasons": [
-    "autonomy thesis",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "b97e67acef59",
    "name": null,
    "evidence": [
@@ -363,11 +338,11 @@
      ]
     },
     {
-     "title": "Disney agrees to offer jobs to at least 60 Character.AI employees — TechCrunch",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVXh4NmtaT0doVVBYMjhHRkotU3U2MHJ6a3oyMlFfa1hkVGJyaGUtSmNKR283QVJRWUttZnBBUGg5SmtHLVRZNlRfbDZCZUJDSXNKVXVIV1RWZEVSMW9nLTFZcWFaLVAydDdobmk2dUdBMVZ4OFlYOUZ6MGdTT2VtWExSSHFRTUdyVDNlQThrbk9BVWc5ejFyNlF6STR5OTcxamw3UmNsSjV3ZHNvMzRqUWRDNlFGTk5hWHRlQTBZN3dKbVct?oc=5",
+     "title": "Disney Offers Jobs to Most Character.AI Employees After Bankruptcy",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10eWhSeFpnNjExcTN6VTVxRlE4WE10a0pIYzg0M0RMR3BnMXdfWmdScTBHUmNpNFA2TFZybjhZS0t2SWpCdVF2NmRXeFlqODVGLWEzQXBLNzJGZUNXQjhjUEQ0b3dxX0otN0pGVg?oc=5",
      "source": "gnews",
-     "domain": "ua.news",
-     "publishedAt": "2026-10-18T07:00:00.000Z",
+     "domain": "suaragarut.id",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -482,23 +457,23 @@
    "status": "new"
   },
   {
-   "id": "9f6b05dce241",
-   "name": "Until You Answer",
+   "id": "bed97175b06e",
+   "name": "Plan",
    "evidence": [
     {
-     "title": "Don’t Deploy an AI Agent in Your Business Until You Answer These Questions",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ2pKSjVSVHhsY1oxelN5eU82NGZkWWdJd291UU43TEJYSUtIXzhpUzdUZElWaDJWOC1vU0JPTlcxZkJXZ2JIeklBWk80dk4taVJ1cnU3Rk5oY1BDMkNjNTdwNUNvcDZPdVFXdjlmN2tzeHpINjR3aDJtNVR0amQyaGFGUmNHWWhCeE9NUkhxQm9LU2xCMkI3Vy1OdXVlV0g4VkgyQkxWOTM5bVRvOVJxMkZ1Rk1reFA5NGFIQTFB?oc=5",
+     "title": "James Comer Demands Documents From Matt Meyer Over Delaware AIC AI-Run Company Plan: 7 outlets compared",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdEhZVEdMamRWWVFVcHViYVFxQ09KWk4tcThjN2dTR2N0b0FienFIZm9GLXV1ZTNEY3RaLTl6X2hQUEE0SmZQZENwX0JubmgwODY4SWdSbEV4ajlDeUl4cEI2QWl6MWVBSDREQzUzRVJHOGdXcUV1Ui1XS0w1WGRDYlZNUWVhSEthZ1RpcmYwRERhUlgtemJJT1NQampMdm1hazBmdGs4ck1TNVZQRG0zMmhLdlFOM2psN2I5cWNBbVFSbHc4RTJVcGR2emJXZV90ejlQM2FieW02TnlsM1duWnFnWlM3OGJnZUE?oc=5",
      "source": "gnews",
-     "domain": "entrepreneur.com",
-     "publishedAt": "2026-10-26T07:00:00.000Z",
+     "domain": "newscord.org",
+     "publishedAt": "2026-10-27T07:00:00.000Z",
      "matchedKeywords": [
-      "\"digital employees\" raises"
+      "\"agent-run\" startup"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-11-05T14:46:59.875Z",
+   "firstSeen": "2026-11-17T16:12:04.634Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -674,6 +649,30 @@
    "status": "rejected"
   },
   {
+   "id": "39752096ec32",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI assistants surge in Korea as convenience raises workloads and service blocks",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQclc2R3FMMHJrN1pHRFk5UGIyblVaYmU1V0lTMUpDS3VxVTd2SFJoLVR3VGEzTXJOTUdZdXpLWUtCVkdVYmNZWDBLLVNaZnEzckkyMWdleG9BMU9LX3FTSC00TE1KLU5neHFOVWQ3NkxsSnhxazlqaVhVOVJIZHdDYdIBlAFBVV95cUxQRVljaEg0MmF4WDdlNEdrNHpnZzFwX3ZhZDhPZ1JTeS1KdGp4NGh2N080UmhiZ3RRakhaZlQ5NmlBSUpnOGJ1U2ZPLTFfYllHQ1Q0bG9SWTZUNU1sdGU2dWdydnlhTXNSSXU4S3o3UG80T3k2WktUREM1cFBmczcyNm9rRTJxNGJMTVlpTFkybHRNQ01a?oc=5",
+     "source": "gnews",
+     "domain": "biz.chosun.com",
+     "publishedAt": "2026-11-16T21:00:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-17T16:12:04.635Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "a906a48d97ff",
    "name": null,
    "evidence": [
@@ -784,15 +783,15 @@
    "status": "new"
   },
   {
-   "id": "32cd1cea3725",
+   "id": "b69c8a74a160",
    "name": null,
    "evidence": [
     {
-     "title": "Building an AI Startup in One of the Most Competitive Markets: Lessons From Restaurant Tech | TechFinancials",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSVNWTkZEdi1pSlFEaDU0bHFGZHNHMGh4Z01vazFBOEhzWjc2bmxjS3ozRUw2dzl5dEQ1S2pUa2dPLUxLaDQyVnRNZE1ObWY4NFBMRFQtcnZXYWo2bWNZa2xpQUlsMFdHcXppQi11NllFaGZqaTBEYUdmNEc5U0RpcEU2YmdpRnFpYkVuMnAwdERha0NTam5FOU43S1ZnbU9yaFMtYXdwY3FlRF81VnYyM1VYN0RuRTlRV2RpMUtpQlJ0N1ZfcXo0Mldnb9IB0wFBVV95cUxPN1F4WHZ4WXVnRVFwb2U3eGpESXpMTlZwbVhpYkE2VVdIZkx0UDVhbkRYXy1rUV9KSnFwXzNLVF9SUW1OSkpFQ0Q0UWl0Z09TSHpkQVMyRHhHSTktTTB5bjZydnBSNGJwckI4Y0gtNDducXV0el9UeGhacU9Qb2xMTDZzUU1oLVk4MEd2djBZOEdyYWpUMm5QMWpIZFNxalBFdzN1eFFRWEtOLWxkdU0wT2FkbGxZeFpHSXZLVndLN3VXZ25MUnZITl9Qc0QzRnk0QzI4?oc=5",
+     "title": "Salesforce Pays Billions for Voice AI, and Small Businesses Should Pay Attention",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzhkX19hbWNYM0wzMWJhbUxNTWwzbFh3QnpXQVZDTXl2NVFSZjZVSkFOSWJ6aEFvMVFJSFdDMDN4bE8yY01IbUVOSVJPWk1QcEFEYzNFRWN0Z2FvRDNFdDFqdkFkWHBETVVqd0N4Q0k4TzNxZ21LV3dpRWQyMERma2tTMHlXV2JibURDYVVpLXRPMW1XME5DNllSMmNpbHY5TkRRaQ?oc=5",
      "source": "gnews",
-     "domain": "techfinancials.co.za",
-     "publishedAt": "2026-11-12T19:03:59.000Z",
+     "domain": "t2conline.com",
+     "publishedAt": "2026-11-09T05:01:04.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
      ]
@@ -800,7 +799,7 @@
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-11-13T14:42:56.049Z",
+   "firstSeen": "2026-11-17T16:12:04.635Z",
    "score": 0,
    "reasons": [],
    "status": "new"
