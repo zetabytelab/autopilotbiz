@@ -1,42 +1,6 @@
 {
- "generatedAt": "2026-11-17T16:12:04.635Z",
+ "generatedAt": "2026-11-18T15:48:09.128Z",
  "candidates": [
-  {
-   "id": "9867eeb87dea",
-   "name": "Faces Bankruptcy",
-   "evidence": [
-    {
-     "title": "Disney to Hire Most Character.AI Employees as AI Chatbot Startup Faces Bankruptcy",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTVZXSGZaN0pKOWpYeTRPR1JKUXNXTzBzNmtsaUtvM0JiLVd5ZEl4UE5GTGhBanBlR1JIWkZGeEo2eWpVclk0TWRHcG5ZQlJtTUVEbzFEZ0N2dVFoTnN0a1BFLUpIVWV4SG9tS1M5NFA4dkhBYldtaU9Xb1REN00ySjQ3bGIybnlKckp4Q0pLQjdHT0JIWWdqN2YwenRTRGxWUFNobDJscHlwdnNYcXFwV2dqYnVWTEVXWTkwUTB1NDdLb0NhZk85SQ?oc=5",
-     "source": "gnews",
-     "domain": "techtimes.com",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Disney will hire most of Character.AI's employees following the startup's bankruptcy",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU3l3bVItMDRfM1FDUV9oRV9sVzhyTzAwelUwUlBwakZIVHU0SHBRdlhvbUxxX1Y0dmNKdWptTTZaLVVwVnV3YnNJX2Z2dmtOLWprU09hMlZ2S01uRm96U1FvYWJHN1ZvbFdMaElZQ1JWVTFyMnE1QmsybXUya0hBanAwRWRQSE9UTy0wNnU3MFRIQdIBlwFBVV95cUxOcDY1aG1ZeDV1N2hiZ2w1UTc1ZUxKRHdOZVFBaFBMcEVMYVNrZUVGWWpQWkFCSWVBZF95SnB0QVBybGN0MnhJd1hDYU00Zm1mNDlmUDYtaTZ2cGtrejhSYy0tSUZaU1Z0RnFpamRyRVJ1RmVfTWtaTUM2M2p1cUgzaHFNQmdDYUNTLXU2bzc1dVhTS3FNOWpJ?oc=5",
-     "source": "gnews",
-     "domain": "mezha.ua",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 2,
-   "publishers": 2,
-   "firstSeen": "2026-10-20T11:52:05.593Z",
-   "score": 2.5,
-   "reasons": [
-    "named entity",
-    "2 publishers",
-    "autonomy thesis"
-   ],
-   "status": "new"
-  },
   {
    "id": "cb20c9d8834d",
    "name": "Proximal Ventures",
@@ -193,31 +157,6 @@
    "status": "new"
   },
   {
-   "id": "a1f13b3bc20a",
-   "name": "Files",
-   "evidence": [
-    {
-     "title": "Disney to Hire Character.AI's Staff in $60 Million Deal After Chatbot Startup Files For Bankruptcy",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSUJfU243M0dDT2tabzI0REE2Sk5JOF9lVE5EVnRTWG9vQzhVS3pFNDVtODdLdGpfSUtaalU2Rnp2aWpZVWMzTU9LamszRkRaOGpwT2VFMnBKcU45UFNsYXZtNDVvcEM1RkM3X3F0ejFuUjlUYUJ2czFtR1Vhb0Z4bm40M1lnNGFtZ3dELTVBWlQ0Rm00WTR3aWlnV3RLTlFhZTA5dmRUNDNlaUF4d2RJWUdBclI3cEJydk15VDdiTDI0S3o0N3U0SFBCVVJrcFJDRmljUVJyRVM4UdIB4gFBVV95cUxOM3VOMVRyMTZFS2Ztc1hzbGRjWVhIU1Y2R1hybXpaZlZucFpTYXpLSm5rbk9uOGZBZGluNDF4MkhRWks1OHEyakU0M2pINjIycTZ4TkdENnNRdXZXS01XdTN2Q1liZENkc1dlQnh1STJMbHF5MTRLa1VnMU4yX3dtRGlHcXF6Sm0weE1neVFFZEZPM2FQandJVS0yT1FzMEg2SGhoYklfOHR1SnllNk8zcHByYURtR3hjSzBzeENkYU55a1VfaEZGN3NnWTVqVTl4RWxGLTNlS0d1ZmkyNTJlRlNn?oc=5",
-     "source": "gnews",
-     "domain": "ndtvprofit.com",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-19T13:35:03.963Z",
-   "score": 1.75,
-   "reasons": [
-    "named entity",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "b97e67acef59",
    "name": null,
    "evidence": [
@@ -324,41 +263,6 @@
    "status": "new"
   },
   {
-   "id": "cb2b45904c65",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Disney offers jobs to 66 Character.AI employees as it expands AI capabilities",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVXZGLTdPUVpTbkhpQmV4RjY4VThMQUt2QkpaMlI1WnZtVGdVVGFKdXBDNWNkcldNYkVSV0hVR3dVcVlZRy1EbG1xMl9RWXl6NmxKR3pGOFVwQUY1bmRkaFFhMDZVb2dpZW5Hc1ZKVS1DVHQyU2d1VTJDQXlZNzlETS1RNkliMVZvcUdhMEUyMkhTM1JkRjNJTXVVSDExaWRhcnJreXgzUE51ZFJsSVpMblFxX1NFLUpqMVZkLVVvcDlpMnR1NjVySDVRbkUyV0owTlUtYlpfOTNVcG1v?oc=5",
-     "source": "gnews",
-     "domain": "sea.peoplemattersglobal.com",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    },
-    {
-     "title": "Disney Offers Jobs to Most Character.AI Employees After Bankruptcy",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10eWhSeFpnNjExcTN6VTVxRlE4WE10a0pIYzg0M0RMR3BnMXdfWmdScTBHUmNpNFA2TFZybjhZS0t2SWpCdVF2NmRXeFlqODVGLWEzQXBLNzJGZUNXQjhjUEQ0b3dxX0otN0pGVg?oc=5",
-     "source": "gnews",
-     "domain": "suaragarut.id",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 2,
-   "publishers": 2,
-   "firstSeen": "2026-10-26T13:15:39.487Z",
-   "score": 1.5,
-   "reasons": [
-    "2 publishers",
-    "autonomy thesis"
-   ],
-   "status": "new"
-  },
-  {
    "id": "d7bc69c96e3b",
    "name": null,
    "evidence": [
@@ -414,7 +318,7 @@
    "evidence": [
     {
      "title": "Autonomous Business: Joule Work, Joule Assistants, and the SAP Business AI Platform - E3-Magazin",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUE9XZ2laM2ZNOFpNVWZhUDk2MHZTbkJyTWJ5dnhRV0ZjUlN5R3E4c2VKS2xmU2VtVXVVTWtXdC1wU3RKLVlETHRBUmNfYllvZWhZVExJalJXdGtfRGhxQUhGMWJzRERyU24wQm5PWm1RQ2k5Mk85WDVrTXdCRFZlYkxDYUlKNERTZlhlVXMwdGVYajVTc1ZOeFFCSlJEZXEzeU0ybw?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUldQNEE1LU9KYVhYWVhYNmU5VXZCUy03cVdzclNIeW5rS1U5TWJrVUpjOUxDWDRDVnZiQkJoNDA2Wk1MbVNSZV9YXzNHVzVBb1FuTEhPekUzcG9RZDJ3a3Y3N1BPVHF3eF9mMVhDNkpTU0ZzNEk5MjdNTXRNNEVHaUFGcFd5QWktNFpqanAzZExPR3NxY1JENkdhc0VKNHM5SzJmdA?oc=5",
      "source": "gnews",
      "domain": "e3mag.com",
      "publishedAt": "2026-11-11T09:00:00.000Z",
@@ -450,30 +354,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-10-24T11:13:37.849Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "bed97175b06e",
-   "name": "Plan",
-   "evidence": [
-    {
-     "title": "James Comer Demands Documents From Matt Meyer Over Delaware AIC AI-Run Company Plan: 7 outlets compared",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdEhZVEdMamRWWVFVcHViYVFxQ09KWk4tcThjN2dTR2N0b0FienFIZm9GLXV1ZTNEY3RaLTl6X2hQUEE0SmZQZENwX0JubmgwODY4SWdSbEV4ajlDeUl4cEI2QWl6MWVBSDREQzUzRVJHOGdXcUV1Ui1XS0w1WGRDYlZNUWVhSEthZ1RpcmYwRERhUlgtemJJT1NQampMdm1hazBmdGs4ck1TNVZQRG0zMmhLdlFOM2psN2I5cWNBbVFSbHc4RTJVcGR2emJXZV90ejlQM2FieW02TnlsM1duWnFnWlM3OGJnZUE?oc=5",
-     "source": "gnews",
-     "domain": "newscord.org",
-     "publishedAt": "2026-10-27T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-17T16:12:04.634Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -529,26 +409,26 @@
    "status": "new"
   },
   {
-   "id": "b2a873379bb1",
-   "name": null,
+   "id": "bada7a496fc3",
+   "name": "Wimi",
    "evidence": [
     {
-     "title": "Disney to Hire 60 Character.AI Employees in USD 60 Million Deal",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWltMDZIVHU3Qy1wREpQcUdlTm9jQkdudFQzR1F3aUc0TTg5ZEw0OWVVYW5uRmpWUnR1ak9IM09OMVp2MmVyQnNzaE1ZQUF4VnhkazZyTWpBaGg2WV9YdDlUWDZGM3M0dm1YOUgwdk1SdldFMFN1YTRtWDBqWU1aX2cwNFpycmFJeUJxTGdOcEFweU1OY25ZNUlTalZhWE90S0HSAa8BQVVfeXFMT2dFZnkxeFBFRVdOckhWcDBUMG16ZzB5d1ZidVdITWtSODBrQ240UTlVcnYyREhFN2JTR2ppaV9QSnFnYzRPVkwta0kyS3pVOHJ3Y3JjeEt1WWFvS0VqMU40Y3EzRlZDMVFUWGUzR204RlFvYzZDeTdmdlNSYWlHVGRmYnMwdEN6OUVLcG41cWFzaExoVThWOG1hYnYyaHNxUjBpX3UwNzFGQjZZM1NNMA?oc=5",
+     "title": "Wimi Opens Its AI Review-Reply Agent to Every Local Business on Google",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT3FSLTM2WkRQWWdiZUJfM0NPaTI2Z0Q5ejlRSHNoRWJJRjFHRXp1VTMxY1drd2JQZGNjRGtDcy1ZZlF0bV8zQkZLMVFudC1TTVFoaGgxWThJYWRYNEhGeVljMF9Cc1dPcnhkNWd4R1doR2UtOHluaU9JVnkwbXUwTExISTZLOW82aHFIRjkxcUNsemppUklCNzF0Y3BWTnVVakZTU215Y2Zfa2FUZFFPUE1KVHZ4WGlWMk9qaUdXZlJlRUxy?oc=5",
      "source": "gnews",
-     "domain": "analyticsinsight.net",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "domain": "detroitnews.com",
+     "publishedAt": "2026-11-18T14:39:19.000Z",
      "matchedKeywords": [
-      "\"AI employees\" startup"
+      "AI voice agent called restaurants OR pubs OR shops price"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-11-05T14:46:59.875Z",
+   "firstSeen": "2026-11-18T15:48:09.128Z",
    "score": 1,
    "reasons": [
-    "autonomy thesis"
+    "named entity"
    ],
    "status": "new"
   },
@@ -649,39 +529,15 @@
    "status": "rejected"
   },
   {
-   "id": "39752096ec32",
+   "id": "9766e3f81c47",
    "name": null,
    "evidence": [
     {
-     "title": "AI assistants surge in Korea as convenience raises workloads and service blocks",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQclc2R3FMMHJrN1pHRFk5UGIyblVaYmU1V0lTMUpDS3VxVTd2SFJoLVR3VGEzTXJOTUdZdXpLWUtCVkdVYmNZWDBLLVNaZnEzckkyMWdleG9BMU9LX3FTSC00TE1KLU5neHFOVWQ3NkxsSnhxazlqaVhVOVJIZHdDYdIBlAFBVV95cUxQRVljaEg0MmF4WDdlNEdrNHpnZzFwX3ZhZDhPZ1JTeS1KdGp4NGh2N080UmhiZ3RRakhaZlQ5NmlBSUpnOGJ1U2ZPLTFfYllHQ1Q0bG9SWTZUNU1sdGU2dWdydnlhTXNSSXU4S3o3UG80T3k2WktUREM1cFBmczcyNm9rRTJxNGJMTVlpTFkybHRNQ01a?oc=5",
+     "title": "Wilmington’s AugWork AI Helps Users Build Agentic Employees For Specific Roles",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa3FiWU5wRzR3QmlmMUVrTXAtUGlmblpaMkRnbVJOcHI5OXlRLXQ2X2g3Q043SHcta1hxVm52MDk1aEFrRWRoYS1IMDYxN2FjVkxtYl9INWJ3ZUxJWEhjS3pjckZ6SFJ1T0dwQVNqQmZRb2Q3MjRESGoxVkw3Y3lfaVRNdGhHdlEteUNfdkJzdTJYc1V6Ui16T1gzQkdtd09GczhEbVZLalRFQno3TGRZ?oc=5",
      "source": "gnews",
-     "domain": "biz.chosun.com",
-     "publishedAt": "2026-11-16T21:00:00.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-17T16:12:04.635Z",
-   "score": 0.75,
-   "reasons": [
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "a906a48d97ff",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Disney Agrees to Hire Majority of Character.AI Workforce Following Chatbot Startup’s Bankruptcy",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUVSYW8tbmpzYlZLV2ZtWjgzcVZSNjF1dnpzNXU2Zk52N2k4bnpuUG9id0hhSFZTUUwwMjAxTHlzbFFhSWFEbmc2dm95QV9Ubko1RXJXc0tWQzl1NUtvcmlxdTFOU3ZvYmpETUtlLThDWU5teUlGVmc0RS03d0hjT0IzTHVJQjNBRzFxY1B2WEI5b1ZjeV9VRTVxcmd5VVB4M3FOM3dzUWhORkJBU2RRZUEwMWVtMzFvaURCeGliOGtGOGIzZElrZEYzT0k?oc=5",
-     "source": "gnews",
-     "domain": "theaiinsider.tech",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "domain": "grepbeat.com",
+     "publishedAt": "2026-10-28T07:00:00.000Z",
      "matchedKeywords": [
       "\"AI employees\" startup"
      ]
@@ -689,7 +545,29 @@
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-10-20T11:52:05.594Z",
+   "firstSeen": "2026-11-18T15:48:09.128Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "dcae5c3d737d",
+   "name": null,
+   "evidence": [
+    {
+     "title": "News | For Thread AI’s founders, it was ‘New York or nowhere’",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLUhGSUtUS1VLUkI0UUhia3pqdjBsZnVKOUVoeWUyQjNUbzVDbV93VXZCYkJLd1JYS3A4M3Y2TFlrMTJZSktUTkJWc3pBelJKWWszSmgzQnpHaXI0LUQ2UmhrMUd4Z25lb0NvNm84NXR5Y0VPZTNVQ2k5RGZfcDdMUDdHa1ZaU0xvb05kVndJT0prYk56Rzd3?oc=5",
+     "source": "gnews",
+     "domain": "costar.com",
+     "publishedAt": "2026-10-30T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-18T15:48:09.128Z",
    "score": 0,
    "reasons": [],
    "status": "new"
@@ -703,7 +581,7 @@
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2hlYV9hMFIyREQ4aTBmUC1kakp5RWFqSlVVZ3BJWXp5Um43UGo1VFFGd0JsM3ZRU0wyeGQ5d2NDZUdrM1F4dWlBZ21rT05FS0NsMTM0a2w5aXBvZ1dYODJzX2cyamNBUmd0bFQ1ODM0RkFHVWpMdGkzVzI3SGNhSFU3dFRUbXpzaHV2N2JuSmpVRFk?oc=5",
      "source": "gnews",
      "domain": "techbuzz.ai",
-     "publishedAt": "2026-11-07T15:06:13.000Z",
+     "publishedAt": "2026-11-07T08:00:00.000Z",
      "matchedKeywords": [
       "\"zero employees\" startup AI"
      ]
@@ -712,28 +590,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-14T13:40:09.637Z",
-   "score": 0,
-   "reasons": [],
-   "status": "new"
-  },
-  {
-   "id": "d3f1fde9d75c",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Assessing and Managing the Risk of Doing Business with Small Software Companies in ﻿the Age of AI",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZTQ3RFVKeDRaOVJPVVJaOXBZajJORE9pa3JCVUszVmVXeU1nbXlXZGZ5VWs1Rm1LZXpKb08xQ2NLNnNoaWJ3a3VLbVMxX1RRaXpWUDNMalRxQlNBOUQ0NlRTT1ZPdUZFWG5FZ1hZMVNta0dQZ01ldVl1TUxydTduRzRmb3pabUhYdUUzSFRaeVIyampYWUJlVzBibFROS2d1LTMyRDVSX0M1a1VoMGtqdUlhNVVpTUlVbjF1NzBnMV9NUENyemMxRlVnNG9fTXNxcWROeHZTbzU?oc=5",
-     "source": "gnews",
-     "domain": "grainjournal.com",
-     "publishedAt": "2026-10-19T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"one-person unicorn\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-11T14:32:40.963Z",
    "score": 0,
    "reasons": [],
    "status": "new"
