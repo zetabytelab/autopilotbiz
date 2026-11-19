@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T15:48:09.128Z",
+ "generatedAt": "2026-11-19T15:53:43.518Z",
  "candidates": [
   {
    "id": "cb20c9d8834d",
@@ -157,6 +157,31 @@
    "status": "new"
   },
   {
+   "id": "68de23d13437",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Solo founder wins $500K Gemini XPRIZE with AI 3D-model startup built in 90 days",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjhxQ0FIMGFpM3k5S3U4cnpOTE8zLTl1MElyMTRGNWQxdjJzRmNqVG00TXFHOXRYRUZCck81OVdraldaUUJDNTBKbExURE54YUxJTm9vMGJIeU9aMHBySW1CUWNsY0RYcmo0MmpKdWlDcXRzMW5EOUNaeUY1b3huS24xd2JsMWo1UU9rWGVKWS1FclB5QnpnT2hJOHNqM1V0NEZoLUFFMDRPN0h3TXo0X21B?oc=5",
+     "source": "gnews",
+     "domain": "app.dealroom.co",
+     "publishedAt": "2026-11-05T21:48:47.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-19T15:53:43.518Z",
+   "score": 1.75,
+   "reasons": [
+    "autonomy thesis",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "b97e67acef59",
    "name": null,
    "evidence": [
@@ -228,41 +253,6 @@
    "status": "rejected"
   },
   {
-   "id": "bc2701556292",
-   "name": "Yelp",
-   "evidence": [
-    {
-     "title": "Yelp launches AI agent to qualify leads for service professionals",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRGp4azNNQWtuTkVzYzRFSkVzVzZPRUpXbGNQMkxjTEdkajhiODhvZF9kWHRpOTVvUkV6S1h3d2dRemZMdkhSLTRsMWtZWWMzZFQ4WGR4VUhCQUNiMXIxYnZQWlZlcnFPOXlkWkZfZVM3M2xmb3RXTGxMSHNzYnB6ZXFQM25ZNjlyUkFsbjZiOUxYSlRvblhsOFNiVFlhYU5LSEZiTkFoWGJRcXhYdUlsVU1ENktXQQ?oc=5",
-     "source": "gnews",
-     "domain": "scanx.trade",
-     "publishedAt": "2026-10-20T07:00:00.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    },
-    {
-     "title": "Yelp launches AI voice agent to check restauran...",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWJ1czVWZTlaUEc3MTQ5aXUyZE9KMHRaRFlVa1JRN2hBNm1LYng4UFFKc3BTZG5OZDZfOE1nMmEwQ0daQWZsWjNiWTFYVjZXUTZuNDNNaGRPM2tjcGJ5aVVHXzB6M1lDU3ZEZHBpcWNzMmdoQU5WTVlOQ3h0aTlKU1liVQ?oc=5",
-     "source": "gnews",
-     "domain": "pluang.com",
-     "publishedAt": "2026-10-20T07:00:00.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 2,
-   "publishers": 2,
-   "firstSeen": "2026-11-06T14:25:13.049Z",
-   "score": 1.5,
-   "reasons": [
-    "named entity",
-    "2 publishers"
-   ],
-   "status": "new"
-  },
-  {
    "id": "d7bc69c96e3b",
    "name": null,
    "evidence": [
@@ -330,30 +320,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-11T14:32:40.962Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "683c862e4739",
-   "name": "Character.AI",
-   "evidence": [
-    {
-     "title": "Disney moves to hire most staff at bankrupt chatbot startup Character.AI",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdkdTTl9GbHV5Ml96VFJrUmEyVklDb2pnOVBaejN6WjZOT2JOcFlCNnUxMFpvTTV4Yllrc1hhNlNHYU9wazlaY2lUTU04aDd0ZE5GQ0tMZHlLU0RQLXRhMFktTzdrb29rbjVjbkRvRURXNFhPY2Y4NDNCTzZ6N2h3N2ltMzNPZ3pGS1VUZlJxaDhzcV82bFhvakM5cHVBbzRfaldsSEljTE9tZWtzODRPY1VOWHBWUU5yOFE?oc=5",
-     "source": "gnews",
-     "domain": "digitaltoday.co.kr",
-     "publishedAt": "2026-10-20T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-10-24T11:13:37.849Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -595,28 +561,6 @@
    "status": "new"
   },
   {
-   "id": "04c1d047471f",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Venmo Co-Founder's JellyJelly App Adds Encrypted Face Verification As AI Bots Clear Captcha Tests",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd1BQQzBkUWJjalVFNTVRQ0haN015Wnl5OW43UkpGZjh5WTUzOUJibzZPTU1KM0dwVWtWbjlyNG5mUmw4NGM1d3RnX0N3cDBHdjMwc2NxVFlfMDh5YVVkeG1FSU0zZWhodWc2TWh0bWFJM25rMkVQNTJ4U25VTzhvWmNndW1GNlRMU011c05zTTBacGNPbGVFV1dVUlI3SzE0dk1kMTZjSEpHcFhlRDQ5SVp4YUhjZHBVRVV2ckJ6UUpveVdobl9GTVNuNjZsMmhV?oc=5",
-     "source": "gnews",
-     "domain": "benzinga.com",
-     "publishedAt": "2026-11-16T15:24:04.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-16T16:00:53.222Z",
-   "score": 0,
-   "reasons": [],
-   "status": "new"
-  },
-  {
    "id": "098b821c74f5",
    "name": null,
    "evidence": [
@@ -647,7 +591,7 @@
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzhkX19hbWNYM0wzMWJhbUxNTWwzbFh3QnpXQVZDTXl2NVFSZjZVSkFOSWJ6aEFvMVFJSFdDMDN4bE8yY01IbUVOSVJPWk1QcEFEYzNFRWN0Z2FvRDNFdDFqdkFkWHBETVVqd0N4Q0k4TzNxZ21LV3dpRWQyMERma2tTMHlXV2JibURDYVVpLXRPMW1XME5DNllSMmNpbHY5TkRRaQ?oc=5",
      "source": "gnews",
      "domain": "t2conline.com",
-     "publishedAt": "2026-11-09T05:01:04.000Z",
+     "publishedAt": "2026-11-09T08:00:00.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
      ]
@@ -656,6 +600,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-17T16:12:04.635Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "32cd1cea3725",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Building an AI Startup in One of the Most Competitive Markets: Lessons From Restaurant Tech | TechFinancials",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSVNWTkZEdi1pSlFEaDU0bHFGZHNHMGh4Z01vazFBOEhzWjc2bmxjS3ozRUw2dzl5dEQ1S2pUa2dPLUxLaDQyVnRNZE1ObWY4NFBMRFQtcnZXYWo2bWNZa2xpQUlsMFdHcXppQi11NllFaGZqaTBEYUdmNEc5U0RpcEU2YmdpRnFpYkVuMnAwdERha0NTam5FOU43S1ZnbU9yaFMtYXdwY3FlRF81VnYyM1VYN0RuRTlRV2RpMUtpQlJ0N1ZfcXo0Mldnb9IB0wFBVV95cUxPN1F4WHZ4WXVnRVFwb2U3eGpESXpMTlZwbVhpYkE2VVdIZkx0UDVhbkRYXy1rUV9KSnFwXzNLVF9SUW1OSkpFQ0Q0UWl0Z09TSHpkQVMyRHhHSTktTTB5bjZydnBSNGJwckI4Y0gtNDducXV0el9UeGhacU9Qb2xMTDZzUU1oLVk4MEd2djBZOEdyYWpUMm5QMWpIZFNxalBFdzN1eFFRWEtOLWxkdU0wT2FkbGxZeFpHSXZLVndLN3VXZ25MUnZITl9Qc0QzRnk0QzI4?oc=5",
+     "source": "gnews",
+     "domain": "techfinancials.co.za",
+     "publishedAt": "2026-11-12T19:03:59.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-19T15:53:43.518Z",
    "score": 0,
    "reasons": [],
    "status": "new"
