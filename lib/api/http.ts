@@ -29,7 +29,13 @@ type JsonOpts = {
   methods?: string;
 };
 
-const DEFAULT_CACHE = "public, s-maxage=3600, stale-while-revalidate=86400";
+// The data behind every GET changes at most once a day (the daily Pulse
+// refresh commit triggers a deploy, and a deploy purges Vercel's CDN cache).
+// So the CDN may hold a response for a day and keep serving it for another
+// day while it revalidates in the background; browsers and API clients
+// re-check after 5 minutes. Errors, MCP and POSTs stay no-store.
+export const PUBLIC_GET_CACHE = "public, max-age=300, s-maxage=86400, stale-while-revalidate=86400";
+const DEFAULT_CACHE = PUBLIC_GET_CACHE;
 
 export function apiJson(data: unknown, opts: JsonOpts = {}): NextResponse {
   const { status = 200, cache = DEFAULT_CACHE, methods = "GET, OPTIONS" } = opts;
