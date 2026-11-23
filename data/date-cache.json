@@ -27666,7 +27666,7 @@
    "attempts": 1
   },
   "7439f7a2dc8b": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.bloomberg.com/news/articles/2026-11-16/ai-startup-dreamteam-raises-capital-to-challenge-salesforce-sap",
    "evidence": [
@@ -27679,16 +27679,16 @@
    ],
    "realDate": "2026-11-16T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 2
+   "attempts": 3
   },
   "5aa2aa29671d": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:no-date",
    "publisherUrl": "https://youtu.be/3NBN4ECbI4U?si=MXRFEaxgTG48TFLc",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "b98a44ddeb66": {
    "checkedAt": "2026-11-17T16:09:57.177Z",
@@ -27754,31 +27754,31 @@
    "attempts": 1
   },
   "215c0c510910": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://fourweekmba.com/ai-openrouter-ai-agent-token-use-up-106x-in-2026-human-use-7x/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "e975a4efcb6d": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://fourweekmba.com/ai-hugging-face-moves-160-chat-models-onto-openrouter-routing/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "0167b0129a3e": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://mlq.ai/news/lambda-says-its-10000-gpu-nvidia-cluster-in-quebec-is-the-first-large-scale-production-deployment-of-co-packaged-optics/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "2c2bb21402f7": {
    "checkedAt": "2026-11-17T16:09:57.177Z",
@@ -27797,13 +27797,13 @@
    "attempts": 1
   },
   "9898ad508a9f": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://fourweekmba.com/ai-deepseek-rations-chat-as-its-model-tops-openrouter-at-61-2t/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "5d17f5894474": {
    "checkedAt": "2026-11-17T16:09:57.177Z",
@@ -28158,13 +28158,13 @@
    "attempts": 1
   },
   "c8c19085bb67": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/16541603/testdynamics-raises-9m-for-imaging-ai-benchmarking-platform",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 2
+   "attempts": 3
   },
   "62a4aff6d420": {
    "checkedAt": "2026-11-18T15:46:03.036Z",
@@ -28355,7 +28355,7 @@
    "attempts": 1
   },
   "ac075573b937": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.hpcwire.com/2026/11/17/lambda-touts-first-cpo-deployment-of-blackwell-gpus/",
    "evidence": [
@@ -28368,7 +28368,7 @@
    ],
    "realDate": "2026-11-17T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 2
+   "attempts": 3
   },
   "c0a4588755f1": {
    "checkedAt": "2026-11-18T15:46:03.036Z",
@@ -28521,22 +28521,36 @@
    "attempts": 1
   },
   "943b1b4bdd85": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
-   "status": "page:no-date",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
    "publisherUrl": "https://quasa.io/video/style-dna-ai-personal-stylist-color-analysis-wardrobe-outfit-planning",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
-   "attempts": 2
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-17T15:25:32.000Z",
+     "via": "time-tag",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-17T15:25:32.000Z",
+   "via": "time-tag",
+   "attempts": 1
   },
   "b3bcb1984c40": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
-   "status": "page:no-date",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
    "publisherUrl": "https://quasa.io/video/playabl-ai-ai-game-builder-conversational-editing-shareable-web-games",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
-   "attempts": 2
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-17T15:25:09.000Z",
+     "via": "time-tag",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-17T15:25:09.000Z",
+   "via": "time-tag",
+   "attempts": 1
   },
   "9be14e44817e": {
    "checkedAt": "2026-11-21T14:44:49.518Z",
@@ -28897,7 +28911,7 @@
    "attempts": 1
   },
   "769a11bac7dd": {
-   "checkedAt": "2026-11-22T14:40:21.761Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-429",
    "publisherUrl": "https://venturebeat.com/data/firecrawl-launches-alexandria-to-connect-your-ai-agents-to-more-than-550-specialized-data-sources",
    "evidence": [],
@@ -29025,13 +29039,19 @@
    "attempts": 1
   },
   "99b18e475dcd": {
-   "checkedAt": "2026-11-22T14:40:21.761Z",
-   "status": "page:timeout",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
    "publisherUrl": "https://aithority.com/it-and-devops/data-management/firecrawl-shows-how-enterprises-can-close-the-agentic-ai-gap/",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
-   "transient": true,
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-20T07:53:49.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-20T07:53:49.000Z",
+   "via": "json-ld",
    "attempts": 1
   },
   "46df3e17da21": {
@@ -29598,13 +29618,13 @@
    "attempts": 1
   },
   "f71dc4eac44e": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.governor.ny.gov/news/governor-hochul-breaks-ground-permanent-empire-ai-supercomputing-center-marking-major",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "a82144aac66b": {
    "checkedAt": "2026-11-20T15:33:39.736Z",
@@ -29693,13 +29713,13 @@
    "attempts": 1
   },
   "83ab7e162fe5": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.businessofapps.com/insights/10-ways-ai-subscription-apps-can-stay-profitable/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "5fd318eecfc5": {
    "checkedAt": "2026-11-20T15:33:39.736Z",
@@ -29766,12 +29786,19 @@
    "attempts": 1
   },
   "74991731ffec": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
-   "status": "page:http-403",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
    "publisherUrl": "https://seekingalpha.com/article/4970443-digitalocean-ill-buy-while-the-market-is-selling",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-20T03:36:08.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-20T03:36:08.000Z",
+   "via": "json-ld",
    "attempts": 1
   },
   "752da5b512b4": {
@@ -29832,13 +29859,13 @@
    "attempts": 1
   },
   "5f5f12e84a37": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
-   "status": "page:http-403",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "page:no-date",
    "publisherUrl": "https://openai.com/business/learn/codex-security-plugin-demo/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "0bd6240479fb": {
    "checkedAt": "2026-11-20T15:33:39.736Z",
@@ -29857,12 +29884,19 @@
    "attempts": 1
   },
   "4262dc815480": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
-   "status": "page:no-date",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
    "publisherUrl": "https://quasa.io/video/base44-ai-app-builder-natural-language-development-integrated-hosting",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-19T19:11:21.000Z",
+     "via": "time-tag",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-19T19:11:21.000Z",
+   "via": "time-tag",
    "attempts": 1
   },
   "dd3de8fde478": {
@@ -29923,7 +29957,7 @@
    "attempts": 1
   },
   "0f0adff30858": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.newsmax.com/world/globaltalk/xi-jinpin-china/2026/11/19/id/1276884/",
    "evidence": [
@@ -29936,7 +29970,7 @@
    ],
    "realDate": "2026-11-19T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "47c557a06c65": {
    "checkedAt": "2026-11-20T15:33:39.736Z",
@@ -30003,12 +30037,19 @@
    "attempts": 1
   },
   "7ae451070b27": {
-   "checkedAt": "2026-11-20T15:33:39.736Z",
-   "status": "page:http-403",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
    "publisherUrl": "https://openai.com/index/managing-frontier-ai-risk/",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-10-23T10:00:00.000Z",
+     "via": "time-tag",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-10-23T10:00:00.000Z",
+   "via": "time-tag",
    "attempts": 1
   },
   "96eaf862e27e": {
@@ -30139,13 +30180,13 @@
    "attempts": 1
   },
   "bc2b95d178e4": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://mlq.ai/news/lancedb-raises-nearly-58-million-to-manage-ai-training-data-for-microsoft-netflix-and-runway/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "bb832e086fc7": {
    "checkedAt": "2026-11-21T14:44:49.518Z",
@@ -30250,22 +30291,22 @@
    "attempts": 1
   },
   "f9384127e392": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.inc.com/marc-berman/as-healthcare-becomes-a-lifestyle-brand-celebs-like-serena-williams-and-jonas-brothers-are-making-the-same-bet/91440113",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "862b65721686": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:no-date",
    "publisherUrl": "https://www.mysanantonio.com/shopping/article/plantum-ai-plant-identifier-lifetime-deal-22535181.php",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "bf538ace779d": {
    "checkedAt": "2026-11-21T14:44:49.518Z",
@@ -30300,13 +30341,13 @@
    "attempts": 1
   },
   "84dd6f25f6d3": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.washingtontimes.com/news/2026/nov/20/ai-agents-carrying-cyberattacks-minimal-human-input/",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "f092ccbfc068": {
    "checkedAt": "2026-11-21T14:44:49.518Z",
@@ -30325,7 +30366,7 @@
    "attempts": 1
   },
   "a70c4e87b6a5": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-401",
    "publisherUrl": "https://www.reuters.com/business/media-telecom/spacexs-cursor-weighs-phasing-out-chinese-ai-models-over-geopolitical-risk-cnbc-2026-11-20/",
    "evidence": [
@@ -30338,7 +30379,7 @@
    ],
    "realDate": "2026-11-20T00:00:00.000Z",
    "via": "url-path",
-   "attempts": 1
+   "attempts": 2
   },
   "4c07f285863b": {
    "checkedAt": "2026-11-21T14:44:49.518Z",
@@ -30395,13 +30436,13 @@
    "attempts": 1
   },
   "41d0fea18535": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://in.investing.com/news/stock-market-news/form-4-integer-holdings-corp-payman-khales-director-president--ceo-for-17-november-93CH-5716653",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "7400771ae33d": {
    "checkedAt": "2026-11-21T14:44:49.518Z",
@@ -30420,12 +30461,19 @@
    "attempts": 1
   },
   "29332e058709": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
-   "status": "page:http-403",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
    "publisherUrl": "https://www.wivb.com/news/local-news/empire-ai-gamma-holds-groundbreaking-ceremony-in-amherst/",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-19T18:14:01.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-19T18:14:01.000Z",
+   "via": "json-ld",
    "attempts": 1
   },
   "038f7b42058e": {
@@ -30499,13 +30547,13 @@
    "attempts": 1
   },
   "d9e5fb2bc988": {
-   "checkedAt": "2026-11-21T14:44:49.518Z",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
    "status": "page:http-403",
    "publisherUrl": "https://www.britannica.com/biography/Who-invited-Rudolf-Carnap-to-join-the-University-of-Vienna-faculty",
    "evidence": [],
    "realDate": null,
    "via": null,
-   "attempts": 1
+   "attempts": 2
   },
   "001c7f626f4f": {
    "checkedAt": "2026-11-21T14:44:49.518Z",
@@ -30771,14 +30819,20 @@
    "attempts": 1
   },
   "44792b85aabf": {
-   "checkedAt": "2026-11-22T14:40:21.761Z",
-   "status": "page:http-508",
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
    "publisherUrl": "https://the420.in/openrouter-ai-prompt-theft-data-breach-investigation/",
-   "evidence": [],
-   "realDate": null,
-   "via": null,
-   "transient": true,
-   "attempts": 0
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-22T13:33:40.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-22T13:33:40.000Z",
+   "via": "json-ld",
+   "attempts": 1
   },
   "171b7ab929f2": {
    "checkedAt": "2026-11-22T14:40:21.761Z",
@@ -31350,6 +31404,504 @@
     }
    ],
    "realDate": "2026-11-11T16:45:42.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "1852c43770a4": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://honehealth.com/edge/hone-health-raises-228m-to-expand-longevity-care/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T14:34:05.000Z",
+     "via": "meta:article:published_time",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T14:34:05.000Z",
+   "via": "meta:article:published_time",
+   "attempts": 1
+  },
+  "6111dd5ee92c": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://thenextweb.com/news/zai-glm-5-4-loop-transformer-coding-model",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T11:28:59.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T11:28:59.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "b2d818ae5a5b": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.testingcatalog.com/z-ai-launches-glm-5-4-its-first-loop-transformer-model/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T10:34:35.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T10:34:35.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "e431fb1ba1b5": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.detroitnews.com/press-release/story/203971/purposeful-relations-launches-ai-stakeholder-compass-a-geo-aeo-service-for-corporate-communications-and-public-affairs/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T13:14:41.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T13:14:41.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "f543dbf5b9e5": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://www.axios.com/2026/11/23/openrouter-minimax-china-customer-data",
+   "evidence": [
+    {
+     "kind": "url",
+     "date": "2026-11-23T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-23T00:00:00.000Z",
+   "via": "url-path",
+   "attempts": 1
+  },
+  "6dee69a0bbc6": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.techpolicy.press/middle-power-leverage-is-a-trap-for-europes-industrial-ai/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T15:11:53.007Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T15:11:53.007Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "cf31475212d8": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T15:13:03.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T15:13:03.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "8c3265140e97": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://quasa.io/stories/vercel-x-offers-40-ai-teams-9m-in-credits-without-taking-equity",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T14:37:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T14:37:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "d357a5fda2dc": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://wccftech.com/z-ai-debuts-glm-5-4-with-a-novel-looped-transformer-architecture-skipping-ai-benchmarks-entirely/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T14:32:12.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T14:32:12.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "23d63848e073": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://felloai.com/glm-5-4/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T14:13:49.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T14:13:49.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "2b40eb8ee331": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.justsecurity.org/163918/ai-safety-incentives-role-of-law/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T14:14:05.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T14:14:05.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "7b01b08c67ce": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://superpowerdaily.com/posts/vercel-adds-ai-privacy-tier-requiring-independent-audits-and-public-reports",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T11:32:48.150Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T11:32:48.150Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "435d491b6b64": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.unite.ai/z-ais-glm-5-4-uses-iterative-depth-without-adding-parameters/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T11:10:02.000Z",
+     "via": "meta:article:published_time",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T11:10:02.000Z",
+   "via": "meta:article:published_time",
+   "attempts": 1
+  },
+  "f53d5d6d53ab": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.tvbeurope.com/media-management/beam-dynamics-adds-model-context-protocol-support",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T10:09:38.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T10:09:38.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "8b683dca3624": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://app.dealroom.co/news/note/e2b-passes-3b-agent-sandboxes-on-120m-revenue-run-rate",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "e0948df219ce": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.hostinger.com/support/hostinger-managed-apps-how-to-set-up-and-manage-n8n/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T00:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T00:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "e4275b8384b8": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://sg.news.yahoo.com/artificial-intelligence-making-harder-stop-015526534.html",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T01:55:26.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T01:55:26.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "89031000b4a4": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "page:http-401",
+   "publisherUrl": "https://www.reuters.com/business/openai-scientist-proposes-industry-ai-limits-tied-model-intelligence-metric-2026-11-22/",
+   "evidence": [
+    {
+     "kind": "url",
+     "date": "2026-11-22T00:00:00.000Z",
+     "via": "url-path",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-22T00:00:00.000Z",
+   "via": "url-path",
+   "attempts": 1
+  },
+  "db228455dcb2": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "page:http-403",
+   "publisherUrl": "https://thedefiant.io/frontier/ai/together-ai-discloses-prompt-leak-after-dragos-study",
+   "evidence": [
+    {
+     "kind": "feed",
+     "date": "2026-11-21T23:32:49.000Z",
+     "via": "feed",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-21T23:32:49.000Z",
+   "via": "feed",
+   "attempts": 1
+  },
+  "766be16a4851": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://openai.com/index/perplexity-and-intelligence/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-20T00:00:00.000Z",
+     "via": "time-tag",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-20T00:00:00.000Z",
+   "via": "time-tag",
+   "attempts": 1
+  },
+  "347c3edcdcb1": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://entarabi.com/en/2026/11/akamai-turns-away-ai-deals-as-power-shortages-threaten-cloud-expansion/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-22T16:41:21.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-22T16:41:21.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "3d50c311443a": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.kucoin.com/news/insight/AAPL/6b0322259278e40007d91034",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-22T17:17:25.331Z",
+     "via": "time-tag",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-22T17:17:25.331Z",
+   "via": "time-tag",
+   "attempts": 1
+  },
+  "8aa6bef5a6d9": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.tradingview.com/news/binance_news:f3b59da85094b:0-mon-ff-xpl-and-other-tokens-set-for-large-unlocks-next-week-mon-unlock-valued-at-219-million/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-22T12:02:14.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-22T12:02:14.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "8bf53c9dc4d8": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.martincid.com/technology-sv/openrouter-drops-ai-providers-prompt-theft-zero-data-retention/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-22T11:09:03.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-22T11:09:03.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "0e755f6b9dc1": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://alleywatch.com/2026/11/nyc-tech-week-in-review-11-15-26-11-21-26/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T09:27:21.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T09:27:21.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "6e14e602ab0a": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.nttdata.com/en-us/insights/perspectives/from-ai-readiness-to-ai-era-resilience-webinar",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-20T00:00:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-20T00:00:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "a6e5d1528f81": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://openai.com/index/combatting-adversarial-distillation/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-22T00:00:00.000Z",
+     "via": "time-tag",
+     "strong": false
+    }
+   ],
+   "realDate": "2026-11-22T00:00:00.000Z",
+   "via": "time-tag",
+   "attempts": 1
+  },
+  "a4d22e3bd97b": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://quasa.io/stories/vercel-or-cloudflare-pages-bandwidth-costs-matter-more-than-speed",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-19T21:57:00.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-19T21:57:00.000Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "b953448cc0f5": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://www.medicaleconomics.com/shorts/the-power-of-radical-transparency",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-17T21:25:00.000Z",
+     "via": "meta:article:published_time",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-17T21:25:00.000Z",
+   "via": "meta:article:published_time",
+   "attempts": 1
+  },
+  "26eecd90dbb7": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "page:no-date",
+   "publisherUrl": "https://builtin.com/articles/anthropic",
+   "evidence": [],
+   "realDate": null,
+   "via": null,
+   "attempts": 1
+  },
+  "c44791f4dfd0": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://superpowerdaily.com/posts/z-ai-releases-glm-5-4-with-vision-and-50-more-weekly-coding-quota",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-23T12:03:29.268Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-23T12:03:29.268Z",
+   "via": "json-ld",
+   "attempts": 1
+  },
+  "a41f6e10688b": {
+   "checkedAt": "2026-11-23T18:22:17.004Z",
+   "status": "ok",
+   "publisherUrl": "https://dailycurrenthub.co.uk/supabase/",
+   "evidence": [
+    {
+     "kind": "page",
+     "date": "2026-11-18T14:14:40.000Z",
+     "via": "json-ld",
+     "strong": true
+    }
+   ],
+   "realDate": "2026-11-18T14:14:40.000Z",
    "via": "json-ld",
    "attempts": 1
   }
