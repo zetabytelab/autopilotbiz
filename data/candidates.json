@@ -1,6 +1,32 @@
 {
- "generatedAt": "2026-11-24T17:55:54.458Z",
+ "generatedAt": "2026-11-25T17:22:26.950Z",
  "candidates": [
+  {
+   "id": "db1f1ddecb49",
+   "name": "Outcome1.AI",
+   "evidence": [
+    {
+     "title": "Outcome1.AI raises €2.05 million pre-seed to scale AI \"digital employees",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWlkSlFneXBRQmE0aWVQSXAwNDJJYkhNZE1PeEJoSXkxeHBMVXZVYzhLU3R4MUYzZ0doNXVlZHNGRWxTWFZFSzdybVJuUHY1TFF4YkJnaXFRYUdoLUJzNG1vMFVnRE5WVk94WGkxX1BVcHJlNmNiVm5Va2xTbTFFUk5MUEVmdXB5bV9FNlF0UGo1ZGVONnZLOWFNUTA2b1VydTNoTnpzQQ?oc=5",
+     "source": "gnews",
+     "domain": "app.dealroom.co",
+     "publishedAt": "2026-11-25T09:57:07.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-25T17:22:26.949Z",
+   "score": 2.75,
+   "reasons": [
+    "named entity",
+    "autonomy thesis",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
   {
    "id": "cb20c9d8834d",
    "name": "Proximal Ventures",
@@ -54,6 +80,31 @@
    "status": "watchlist",
    "reviewNote": "Added to the index watchlist. $30M annualised revenue and a ~$2B Salesforce approach are real economics, but the company employs senior researchers alongside the AI moderator, so it fails 'agents execute, humans direct' today.",
    "reviewedAt": "2026-09-12T12:36:02Z"
+  },
+  {
+   "id": "5d9b7861447b",
+   "name": "Zhuanzhi Think TankZZZK",
+   "evidence": [
+    {
+     "title": "Zhuanzhi Think TankZZZK Launches OPC Post-Level Agents and Knowledge Parts Library: The “One-Person Company” Moves from Legal Concept to Industrial Infrastructure",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGV1UjdQRWtQNEhoNkl4S2lHTlpQallyUEVhdHZES3JlX0pkOHh3dV9raG1mWFYxbjlDYnFNcGlWdm5VbHhENGRxX09QSmE2NjNwcFBCMDhteHJHZmE1QTJnbDF1c2Z4YjdkYzVBb1UxNjZINy10RjlfTWUya3J0MzBKVGZuZzlVUnBKQmQ3dExyaEFTRTZqazNn?oc=5",
+     "source": "gnews",
+     "domain": "finance.yahoo.com",
+     "publishedAt": "2026-11-23T07:13:00.000Z",
+     "matchedKeywords": [
+      "\"one-person unicorn\""
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-25T17:22:26.949Z",
+   "score": 2,
+   "reasons": [
+    "named entity",
+    "autonomy thesis"
+   ],
+   "status": "new"
   },
   {
    "id": "5e5c94184453",
@@ -114,7 +165,7 @@
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcjYxOTRjZW5zczNxMWYySjlSdVhuQWlteThZb3hPQTFmeDVQZmE2eHlwVkc2NVVzcjY2Y1JacXNfdTBzMF9FbXRiOXNobVVqajhlS0pUTXZkZlFKbVlONlo3Mkx2TkFxWTJZdGY5QnpJaWFiQlRGOWZCVWtzOE82VG5IaWRSNDk3Q2N5dE0wNlZfWFBDRVFZbGZjdEUtNjNjdWEwM3VJRWhpU0ZuS0E?oc=5",
      "source": "gnews",
      "domain": "app.dealroom.co",
-     "publishedAt": "2026-11-09T17:49:20.000Z",
+     "publishedAt": "2026-11-10T11:14:16.000Z",
      "matchedKeywords": [
       "\"autonomous company\""
      ]
@@ -148,6 +199,31 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-23T18:24:32.082Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "86900a58f90d",
+   "name": "Outcome1",
+   "evidence": [
+    {
+     "title": "Outcome1 Raises €1M Led by Catalyst Romania for AI Platform",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQkM0Zi1XX1pZLTNrZlFkT1duczUyMkxncGlSYVZ3MTVnYjdMRjRQZVdhRHRPR0kyUFdFQkFNRlFHYy1HQkZubXNHbTZkbzMzSmp3OVR0VXdvcW1wOGlFRnFkdEcwT3E5M0g2U3RsUTN3MS1nWnVMXzJ2bFh4dXhXSDVVdzBMQVQ4Y0IxVUl6NktlVGh6djhHVzB4Vlo3QkZW0gGmAUFVX3lxTFBON01kOVlPa0MyaDhET2U0Y2tUTl9FYjVaVHZ2NVdTQ3U4bmNXTEItemR3QWFlYU5uVWdlTWZVNWtYOUduMWVZcWZnZldFU0plaGxCWXJyODJfX255REdDb0VaWnNMc0tZcmVNUlpURlFLYnQ5Y2NOYUZibDVyMDJ6RXV4TmpBRDhvbjIxVXpmQlB4VU90MThnMzI1TVdIeHV0bDJZTXc?oc=5",
+     "source": "gnews",
+     "domain": "romaniajournal.ro",
+     "publishedAt": "2026-11-25T09:16:13.000Z",
+     "matchedKeywords": [
+      "\"digital employees\" raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-25T17:22:26.950Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -326,6 +402,30 @@
    "status": "new"
   },
   {
+   "id": "bed97175b06e",
+   "name": "Plan",
+   "evidence": [
+    {
+     "title": "James Comer Demands Documents From Matt Meyer Over Delaware AIC AI-Run Company Plan: 7 outlets compared",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdEhZVEdMamRWWVFVcHViYVFxQ09KWk4tcThjN2dTR2N0b0FienFIZm9GLXV1ZTNEY3RaLTl6X2hQUEE0SmZQZENwX0JubmgwODY4SWdSbEV4ajlDeUl4cEI2QWl6MWVBSDREQzUzRVJHOGdXcUV1Ui1XS0w1WGRDYlZNUWVhSEthZ1RpcmYwRERhUlgtemJJT1NQampMdm1hazBmdGs4ck1TNVZQRG0zMmhLdlFOM2psN2I5cWNBbVFSbHc4RTJVcGR2emJXZV90ejlQM2FieW02TnlsM1duWnFnWlM3OGJnZUE?oc=5",
+     "source": "gnews",
+     "domain": "newscord.org",
+     "publishedAt": "2026-10-27T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-25T17:22:26.949Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
    "id": "e2d60412038d",
    "name": "Cognition",
    "evidence": [
@@ -343,30 +443,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-23T18:24:32.082Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "bada7a496fc3",
-   "name": "Wimi",
-   "evidence": [
-    {
-     "title": "Wimi Opens Its AI Review-Reply Agent to Every Local Business on Google",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT3FSLTM2WkRQWWdiZUJfM0NPaTI2Z0Q5ejlRSHNoRWJJRjFHRXp1VTMxY1drd2JQZGNjRGtDcy1ZZlF0bV8zQkZLMVFudC1TTVFoaGgxWThJYWRYNEhGeVljMF9Cc1dPcnhkNWd4R1doR2UtOHluaU9JVnkwbXUwTExISTZLOW82aHFIRjkxcUNsemppUklCNzF0Y3BWTnVVakZTU215Y2Zfa2FUZFFPUE1KVHZ4WGlWMk9qaUdXZlJlRUxy?oc=5",
-     "source": "gnews",
-     "domain": "detroitnews.com",
-     "publishedAt": "2026-11-18T14:39:19.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-18T15:48:09.128Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -518,6 +594,52 @@
    "status": "rejected"
   },
   {
+   "id": "5f759dccb5f9",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Exclusive: Publisher Spines raises $64 million in new funding to accelerate effort to automate book publishing with AI",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFE1WXNZRk4zM3BOZjRMUlRFSU0weVBVTmdMS3VNMlB2VU9QaUhtZFU1S3pEaWk3OEV6NDg5cElEMk5vSUVDQTc1WWpscUN5b0cxaHNBZDBhUm9XczZSelN3ekEwUllvcHEwcjd5aFBpblZ1aWprdU0xNzkzWC1tbUNRX2t0N1FXRm9oQzlOVHlDdEUySmd3QUZlRkY2R3k5UFE?oc=5",
+     "source": "gnews",
+     "domain": "finance.yahoo.com",
+     "publishedAt": "2026-11-09T08:00:00.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-25T17:22:26.950Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "dcae5c3d737d",
+   "name": null,
+   "evidence": [
+    {
+     "title": "News | For Thread AI’s founders, it was ‘New York or nowhere’",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLUhGSUtUS1VLUkI0UUhia3pqdjBsZnVKOUVoeWUyQjNUbzVDbV93VXZCYkJLd1JYS3A4M3Y2TFlrMTJZSktUTkJWc3pBelJKWWszSmgzQnpHaXI0LUQ2UmhrMUd4Z25lb0NvNm84NXR5Y0VPZTNVQ2k5RGZfcDdMUDdHa1ZaU0xvb05kVndJT0prYk56Rzd3?oc=5",
+     "source": "gnews",
+     "domain": "costar.com",
+     "publishedAt": "2026-10-30T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-25T17:22:26.950Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
    "id": "bd3ff95f4428",
    "name": null,
    "evidence": [
@@ -593,28 +715,6 @@
      "source": "gnews",
      "domain": "ciodive.com",
      "publishedAt": "2026-11-03T08:00:00.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-24T17:55:54.458Z",
-   "score": 0,
-   "reasons": [],
-   "status": "new"
-  },
-  {
-   "id": "a491822582b3",
-   "name": null,
-   "evidence": [
-    {
-     "title": "The Guinndex: A simple question turned AI experiment - EU-Startups",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTl9ZblEtSlI5cjZxNzJsSnlsNXJpZHQ1d21oajMxQ1I5YnhneWx2V25QUkZISk1zeWJBMGZFVjN3TlpZMGpUeVZRMFpVSG1HbGZlTkRGcHNKcS1MNVgwajZZaGZZeUM2WGdHbWJBemVnbVVkTUdhdG1NT0JNemJ1cG5XT2JmOWszaE5qLWt3RWtnZw?oc=5",
-     "source": "gnews",
-     "domain": "eu-startups.com",
-     "publishedAt": "2026-11-13T08:00:00.000Z",
      "matchedKeywords": [
       "AI voice agent called restaurants OR pubs OR shops price"
      ]
