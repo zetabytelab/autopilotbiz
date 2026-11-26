@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T17:22:26.950Z",
+ "generatedAt": "2026-11-26T17:03:35.241Z",
  "candidates": [
   {
    "id": "db1f1ddecb49",
@@ -10,7 +10,7 @@
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWlkSlFneXBRQmE0aWVQSXAwNDJJYkhNZE1PeEJoSXkxeHBMVXZVYzhLU3R4MUYzZ0doNXVlZHNGRWxTWFZFSzdybVJuUHY1TFF4YkJnaXFRYUdoLUJzNG1vMFVnRE5WVk94WGkxX1BVcHJlNmNiVm5Va2xTbTFFUk5MUEVmdXB5bV9FNlF0UGo1ZGVONnZLOWFNUTA2b1VydTNoTnpzQQ?oc=5",
      "source": "gnews",
      "domain": "app.dealroom.co",
-     "publishedAt": "2026-11-25T09:57:07.000Z",
+     "publishedAt": "2026-11-25T09:51:07.000Z",
      "matchedKeywords": [
       "\"digital employees\" raises"
      ]
@@ -19,6 +19,32 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-25T17:22:26.949Z",
+   "score": 2.75,
+   "reasons": [
+    "named entity",
+    "autonomy thesis",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "be3d4f0d3550",
+   "name": "Wepinion Inc.",
+   "evidence": [
+    {
+     "title": "Wepinion Inc. Raises $500K Pre-Seed Round After Solo Founder Builds Platform With 30,000 AI Prompts",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTmd0Qy10YmVDTFdxZkVfTDIydERGQUdTYTNZOFhDZDEwY2ZqQXhUdG9OUnhSWlk4TFJPMGFqZ0MtcktKSDZoeTRwYXdBVGhFaV9INkxrV29HZ3BnNFk2THh5SGlkeEhZWVg3ci1XSDZRODItU2VUMkhQbXJ3M0c5UlpSS2xicmxfRk1NM2JPNnFaUzdxTzdRdjRfQ1NRZUJBY0laTA?oc=5",
+     "source": "gnews",
+     "domain": "tmcnet.com",
+     "publishedAt": "2026-11-18T16:19:02.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-26T17:03:35.241Z",
    "score": 2.75,
    "reasons": [
     "named entity",
@@ -232,31 +258,6 @@
    "status": "new"
   },
   {
-   "id": "68de23d13437",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Solo founder wins $500K Gemini XPRIZE with AI 3D-model startup built in 90 days",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjhxQ0FIMGFpM3k5S3U4cnpOTE8zLTl1MElyMTRGNWQxdjJzRmNqVG00TXFHOXRYRUZCck81OVdraldaUUJDNTBKbExURE54YUxJTm9vMGJIeU9aMHBySW1CUWNsY0RYcmo0MmpKdWlDcXRzMW5EOUNaeUY1b3huS24xd2JsMWo1UU9rWGVKWS1FclB5QnpnT2hJOHNqM1V0NEZoLUFFMDRPN0h3TXo0X21B?oc=5",
-     "source": "gnews",
-     "domain": "app.dealroom.co",
-     "publishedAt": "2026-11-05T22:58:39.000Z",
-     "matchedKeywords": [
-      "\"solo founder\" AI agents raises"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-19T15:53:43.518Z",
-   "score": 1.75,
-   "reasons": [
-    "autonomy thesis",
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "b97e67acef59",
    "name": null,
    "evidence": [
@@ -402,30 +403,6 @@
    "status": "new"
   },
   {
-   "id": "bed97175b06e",
-   "name": "Plan",
-   "evidence": [
-    {
-     "title": "James Comer Demands Documents From Matt Meyer Over Delaware AIC AI-Run Company Plan: 7 outlets compared",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdEhZVEdMamRWWVFVcHViYVFxQ09KWk4tcThjN2dTR2N0b0FienFIZm9GLXV1ZTNEY3RaLTl6X2hQUEE0SmZQZENwX0JubmgwODY4SWdSbEV4ajlDeUl4cEI2QWl6MWVBSDREQzUzRVJHOGdXcUV1Ui1XS0w1WGRDYlZNUWVhSEthZ1RpcmYwRERhUlgtemJJT1NQampMdm1hazBmdGs4ck1TNVZQRG0zMmhLdlFOM2psN2I5cWNBbVFSbHc4RTJVcGR2emJXZV90ejlQM2FieW02TnlsM1duWnFnWlM3OGJnZUE?oc=5",
-     "source": "gnews",
-     "domain": "newscord.org",
-     "publishedAt": "2026-10-27T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-25T17:22:26.949Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
    "id": "e2d60412038d",
    "name": "Cognition",
    "evidence": [
@@ -443,6 +420,30 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-23T18:24:32.082Z",
+   "score": 1,
+   "reasons": [
+    "named entity"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "bada7a496fc3",
+   "name": "Wimi",
+   "evidence": [
+    {
+     "title": "Wimi Opens Its AI Review-Reply Agent to Every Local Business on Google",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT3FSLTM2WkRQWWdiZUJfM0NPaTI2Z0Q5ejlRSHNoRWJJRjFHRXp1VTMxY1drd2JQZGNjRGtDcy1ZZlF0bV8zQkZLMVFudC1TTVFoaGgxWThJYWRYNEhGeVljMF9Cc1dPcnhkNWd4R1doR2UtOHluaU9JVnkwbXUwTExISTZLOW82aHFIRjkxcUNsemppUklCNzF0Y3BWTnVVakZTU215Y2Zfa2FUZFFPUE1KVHZ4WGlWMk9qaUdXZlJlRUxy?oc=5",
+     "source": "gnews",
+     "domain": "detroitnews.com",
+     "publishedAt": "2026-11-18T14:39:19.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-26T17:03:35.241Z",
    "score": 1,
    "reasons": [
     "named entity"
@@ -594,30 +595,6 @@
    "status": "rejected"
   },
   {
-   "id": "5f759dccb5f9",
-   "name": null,
-   "evidence": [
-    {
-     "title": "Exclusive: Publisher Spines raises $64 million in new funding to accelerate effort to automate book publishing with AI",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFE1WXNZRk4zM3BOZjRMUlRFSU0weVBVTmdMS3VNMlB2VU9QaUhtZFU1S3pEaWk3OEV6NDg5cElEMk5vSUVDQTc1WWpscUN5b0cxaHNBZDBhUm9XczZSelN3ekEwUllvcHEwcjd5aFBpblZ1aWprdU0xNzkzWC1tbUNRX2t0N1FXRm9oQzlOVHlDdEUySmd3QUZlRkY2R3k5UFE?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
-     "publishedAt": "2026-11-09T08:00:00.000Z",
-     "matchedKeywords": [
-      "\"agent-run\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-25T17:22:26.950Z",
-   "score": 0.75,
-   "reasons": [
-    "funding or revenue figure"
-   ],
-   "status": "new"
-  },
-  {
    "id": "dcae5c3d737d",
    "name": null,
    "evidence": [
@@ -679,6 +656,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-14T13:40:09.637Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "f47baa7195c7",
+   "name": null,
+   "evidence": [
+    {
+     "title": "New Founder Archetypes in the AI Age",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03a2g0bXF5WGZyODV3cnVHMVhqMng0TldXa3ZuODBzSWpsZEQ3SGdnSUFIQ1NPQ1RhalR4b1k2aDNKdkNweFVkVnhfcVpOeENoeG9CRlNoRTljWUczRE9YRXlOcnI?oc=5",
+     "source": "gnews",
+     "domain": "a16z.com",
+     "publishedAt": "2026-10-30T07:00:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-26T17:03:35.241Z",
    "score": 0,
    "reasons": [],
    "status": "new"
