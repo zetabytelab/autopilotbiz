@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T17:03:35.241Z",
+ "generatedAt": "2026-11-27T16:48:08.087Z",
  "candidates": [
   {
    "id": "db1f1ddecb49",
@@ -108,31 +108,6 @@
    "reviewedAt": "2026-09-12T12:36:02Z"
   },
   {
-   "id": "5d9b7861447b",
-   "name": "Zhuanzhi Think TankZZZK",
-   "evidence": [
-    {
-     "title": "Zhuanzhi Think TankZZZK Launches OPC Post-Level Agents and Knowledge Parts Library: The “One-Person Company” Moves from Legal Concept to Industrial Infrastructure",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGV1UjdQRWtQNEhoNkl4S2lHTlpQallyUEVhdHZES3JlX0pkOHh3dV9raG1mWFYxbjlDYnFNcGlWdm5VbHhENGRxX09QSmE2NjNwcFBCMDhteHJHZmE1QTJnbDF1c2Z4YjdkYzVBb1UxNjZINy10RjlfTWUya3J0MzBKVGZuZzlVUnBKQmQ3dExyaEFTRTZqazNn?oc=5",
-     "source": "gnews",
-     "domain": "finance.yahoo.com",
-     "publishedAt": "2026-11-23T07:13:00.000Z",
-     "matchedKeywords": [
-      "\"one-person unicorn\""
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-25T17:22:26.949Z",
-   "score": 2,
-   "reasons": [
-    "named entity",
-    "autonomy thesis"
-   ],
-   "status": "new"
-  },
-  {
    "id": "5e5c94184453",
    "name": "Shaffra",
    "evidence": [
@@ -233,23 +208,48 @@
    "status": "new"
   },
   {
-   "id": "86900a58f90d",
-   "name": "Outcome1",
+   "id": "7120aad2225b",
+   "name": "Kindo",
    "evidence": [
     {
-     "title": "Outcome1 Raises €1M Led by Catalyst Romania for AI Platform",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQkM0Zi1XX1pZLTNrZlFkT1duczUyMkxncGlSYVZ3MTVnYjdMRjRQZVdhRHRPR0kyUFdFQkFNRlFHYy1HQkZubXNHbTZkbzMzSmp3OVR0VXdvcW1wOGlFRnFkdEcwT3E5M0g2U3RsUTN3MS1nWnVMXzJ2bFh4dXhXSDVVdzBMQVQ4Y0IxVUl6NktlVGh6djhHVzB4Vlo3QkZW0gGmAUFVX3lxTFBON01kOVlPa0MyaDhET2U0Y2tUTl9FYjVaVHZ2NVdTQ3U4bmNXTEItemR3QWFlYU5uVWdlTWZVNWtYOUduMWVZcWZnZldFU0plaGxCWXJyODJfX255REdDb0VaWnNMc0tZcmVNUlpURlFLYnQ5Y2NOYUZibDVyMDJ6RXV4TmpBRDhvbjIxVXpmQlB4VU90MThnMzI1TVdIeHV0bDJZTXc?oc=5",
+     "title": "Kindo Raises $30 Million to Expand Enterprise AI Agent Control and Reduce Costs",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1bDg3WDlGLVdvRUF5X2thVTZsV1dWMlVxNlRrV2dlWVU0WVAxa0M4eTJNeEZSYmluZzRCZVhkSWF5WWNic0Zwa090WkxYODRCZVotYU1kTFZrYlQ3YWJGRkphUzBzdk85WUpaaExtOS1JVWVx?oc=5",
      "source": "gnews",
-     "domain": "romaniajournal.ro",
-     "publishedAt": "2026-11-25T09:16:13.000Z",
+     "domain": "unite.ai",
+     "publishedAt": "2026-11-12T14:00:00.000Z",
      "matchedKeywords": [
-      "\"digital employees\" raises"
+      "\"agent-run\" startup"
      ]
     }
    ],
    "coverage": 1,
    "publishers": 1,
-   "firstSeen": "2026-11-25T17:22:26.950Z",
+   "firstSeen": "2026-11-27T16:48:08.086Z",
+   "score": 1.75,
+   "reasons": [
+    "named entity",
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
+   "id": "4bf4eb7b4254",
+   "name": "Lemonpeel",
+   "evidence": [
+    {
+     "title": "Ex-TVF director's AI video startup Lemonpeel raises $1 million to build its multi-agent video platform",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVWd6MkZjU0RHTDFjOVZqeEhjM3FCeUV1SVowN2x4ZVJQbnhfMVI5WExUTkg1a3N3LUhHbzlxb3NRNktVOXZIc0VCSkFIeGNreUJUM0EzRmFlaHJyUHpqLVMtY1pOV096alp4c3lCYnk5eTBaYVBrQWRBTThKVUQyMjVvVjA2bFhyUDNqNDB6ZkVWTlpVN25tNmN6Ty1MWWxzQVlGYV94VVgtUnFSVGRrSjQ1ZGxnVmpFZG5LNExtbURSbFVmUlhleXRsbm1fa2N0TVBlc0pUVkJsdG1ScS1PdtIB4AFBVV95cUxNVWd6MkZjU0RHTDFjOVZqeEhjM3FCeUV1SVowN2x4ZVJQbnhfMVI5WExUTkg1a3N3LUhHbzlxb3NRNktVOXZIc0VCSkFIeGNreUJUM0EzRmFlaHJyUHpqLVMtY1pOV096alp4c3lCYnk5eTBaYVBrQWRBTThKVUQyMjVvVjA2bFhyUDNqNDB6ZkVWTlpVN25tNmN6Ty1MWWxzQVlGYV94VVgtUnFSVGRrSjQ1ZGxnVmpFZG5LNExtbURSbFVmUlhleXRsbm1fa2N0TVBlc0pUVkJsdG1ScS1Pdg?oc=5",
+     "source": "gnews",
+     "domain": "indianstartupnews.com",
+     "publishedAt": "2026-11-17T12:40:48.000Z",
+     "matchedKeywords": [
+      "\"agent-run\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-27T16:48:08.086Z",
    "score": 1.75,
    "reasons": [
     "named entity",
@@ -427,30 +427,6 @@
    "status": "new"
   },
   {
-   "id": "bada7a496fc3",
-   "name": "Wimi",
-   "evidence": [
-    {
-     "title": "Wimi Opens Its AI Review-Reply Agent to Every Local Business on Google",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT3FSLTM2WkRQWWdiZUJfM0NPaTI2Z0Q5ejlRSHNoRWJJRjFHRXp1VTMxY1drd2JQZGNjRGtDcy1ZZlF0bV8zQkZLMVFudC1TTVFoaGgxWThJYWRYNEhGeVljMF9Cc1dPcnhkNWd4R1doR2UtOHluaU9JVnkwbXUwTExISTZLOW82aHFIRjkxcUNsemppUklCNzF0Y3BWTnVVakZTU215Y2Zfa2FUZFFPUE1KVHZ4WGlWMk9qaUdXZlJlRUxy?oc=5",
-     "source": "gnews",
-     "domain": "detroitnews.com",
-     "publishedAt": "2026-11-18T14:39:19.000Z",
-     "matchedKeywords": [
-      "AI voice agent called restaurants OR pubs OR shops price"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-26T17:03:35.241Z",
-   "score": 1,
-   "reasons": [
-    "named entity"
-   ],
-   "status": "new"
-  },
-  {
    "id": "dc3b32d960fb",
    "name": null,
    "evidence": [
@@ -468,30 +444,6 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-22T14:42:35.335Z",
-   "score": 1,
-   "reasons": [
-    "autonomy thesis"
-   ],
-   "status": "new"
-  },
-  {
-   "id": "b88847659b3f",
-   "name": null,
-   "evidence": [
-    {
-     "title": "AI Employees Pour Campaign Funds Into Minnesota Races",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUZDMTFYZ3k2blZvRm9xYXJtUWFRX0JkVEdDMkhTWEt3LTU3dEVQQlk3U3dOY0wzSllaX2g3S1FlazlQYXNINVNNVjU1M2NOTF9tMmlyeU1mSXA1S3BRQ3FPTkNack1rZ3VFR1B2dzFqYzZhdHFKckM4dFM3cDQxS0lsUl9NLVNHSENRal9MNWtXN2lJQVFzUg?oc=5",
-     "source": "gnews",
-     "domain": "wisevoter.com",
-     "publishedAt": "2026-10-30T07:00:00.000Z",
-     "matchedKeywords": [
-      "\"AI employees\" startup"
-     ]
-    }
-   ],
-   "coverage": 1,
-   "publishers": 1,
-   "firstSeen": "2026-11-21T14:46:54.357Z",
    "score": 1,
    "reasons": [
     "autonomy thesis"
@@ -595,6 +547,30 @@
    "status": "rejected"
   },
   {
+   "id": "39752096ec32",
+   "name": null,
+   "evidence": [
+    {
+     "title": "AI assistants surge in Korea as convenience raises workloads and service blocks",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQclc2R3FMMHJrN1pHRFk5UGIyblVaYmU1V0lTMUpDS3VxVTd2SFJoLVR3VGEzTXJOTUdZdXpLWUtCVkdVYmNZWDBLLVNaZnEzckkyMWdleG9BMU9LX3FTSC00TE1KLU5neHFOVWQ3NkxsSnhxazlqaVhVOVJIZHdDYdIBlAFBVV95cUxQRVljaEg0MmF4WDdlNEdrNHpnZzFwX3ZhZDhPZ1JTeS1KdGp4NGh2N080UmhiZ3RRakhaZlQ5NmlBSUpnOGJ1U2ZPLTFfYllHQ1Q0bG9SWTZUNU1sdGU2dWdydnlhTXNSSXU4S3o3UG80T3k2WktUREM1cFBmczcyNm9rRTJxNGJMTVlpTFkybHRNQ01a?oc=5",
+     "source": "gnews",
+     "domain": "biz.chosun.com",
+     "publishedAt": "2026-11-17T08:00:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-27T16:48:08.086Z",
+   "score": 0.75,
+   "reasons": [
+    "funding or revenue figure"
+   ],
+   "status": "new"
+  },
+  {
    "id": "dcae5c3d737d",
    "name": null,
    "evidence": [
@@ -612,6 +588,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-25T17:22:26.950Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "5ba3b1419d0a",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Hancom targets US market with 'Nomadian,' puts AI team before hiring employees",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qOWlzVmYyVmpNS1RwTXFoREVoZjdPNkJDd3FMajlmbzQ5M0ZRSWZrLTJoeG5ZZDdhaWdWdmhJZ0FSbW5MNGxpX1k1bFFZb2VqNGFuRVBpVWhpQWgtSlNqSGVZbnVYY0tuaFpz?oc=5",
+     "source": "gnews",
+     "domain": "mt.co.kr",
+     "publishedAt": "2026-11-23T05:54:21.000Z",
+     "matchedKeywords": [
+      "\"AI employees\" startup"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-27T16:48:08.086Z",
    "score": 0,
    "reasons": [],
    "status": "new"
@@ -683,6 +681,28 @@
    "status": "new"
   },
   {
+   "id": "04c1d047471f",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Venmo Co-Founder's JellyJelly App Adds Encrypted Face Verification As AI Bots Clear Captcha Tests",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd1BQQzBkUWJjalVFNTVRQ0haN015Wnl5OW43UkpGZjh5WTUzOUJibzZPTU1KM0dwVWtWbjlyNG5mUmw4NGM1d3RnX0N3cDBHdjMwc2NxVFlfMDh5YVVkeG1FSU0zZWhodWc2TWh0bWFJM25rMkVQNTJ4U25VTzhvWmNndW1GNlRMU011c05zTTBacGNPbGVFV1dVUlI3SzE0dk1kMTZjSEpHcFhlRDQ5SVp4YUhjZHBVRVV2ckJ6UUpveVdobl9GTVNuNjZsMmhV?oc=5",
+     "source": "gnews",
+     "domain": "benzinga.com",
+     "publishedAt": "2026-11-16T08:00:00.000Z",
+     "matchedKeywords": [
+      "\"solo founder\" AI agents raises"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-27T16:48:08.086Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
    "id": "098b821c74f5",
    "name": null,
    "evidence": [
@@ -727,6 +747,28 @@
    "status": "new"
   },
   {
+   "id": "a491822582b3",
+   "name": null,
+   "evidence": [
+    {
+     "title": "The Guinndex: A simple question turned AI experiment - EU-Startups",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTl9ZblEtSlI5cjZxNzJsSnlsNXJpZHQ1d21oajMxQ1I5YnhneWx2V25QUkZISk1zeWJBMGZFVjN3TlpZMGpUeVZRMFpVSG1HbGZlTkRGcHNKcS1MNVgwajZZaGZZeUM2WGdHbWJBemVnbVVkTUdhdG1NT0JNemJ1cG5XT2JmOWszaE5qLWt3RWtnZw?oc=5",
+     "source": "gnews",
+     "domain": "eu-startups.com",
+     "publishedAt": "2026-11-13T08:00:00.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-27T16:48:08.086Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
    "id": "9d272a379513",
    "name": null,
    "evidence": [
@@ -744,6 +786,28 @@
    "coverage": 1,
    "publishers": 1,
    "firstSeen": "2026-11-20T15:35:45.241Z",
+   "score": 0,
+   "reasons": [],
+   "status": "new"
+  },
+  {
+   "id": "32cd1cea3725",
+   "name": null,
+   "evidence": [
+    {
+     "title": "Building an AI Startup in One of the Most Competitive Markets: Lessons From Restaurant Tech | TechFinancials",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSVNWTkZEdi1pSlFEaDU0bHFGZHNHMGh4Z01vazFBOEhzWjc2bmxjS3ozRUw2dzl5dEQ1S2pUa2dPLUxLaDQyVnRNZE1ObWY4NFBMRFQtcnZXYWo2bWNZa2xpQUlsMFdHcXppQi11NllFaGZqaTBEYUdmNEc5U0RpcEU2YmdpRnFpYkVuMnAwdERha0NTam5FOU43S1ZnbU9yaFMtYXdwY3FlRF81VnYyM1VYN0RuRTlRV2RpMUtpQlJ0N1ZfcXo0Mldnb9IB0wFBVV95cUxPN1F4WHZ4WXVnRVFwb2U3eGpESXpMTlZwbVhpYkE2VVdIZkx0UDVhbkRYXy1rUV9KSnFwXzNLVF9SUW1OSkpFQ0Q0UWl0Z09TSHpkQVMyRHhHSTktTTB5bjZydnBSNGJwckI4Y0gtNDducXV0el9UeGhacU9Qb2xMTDZzUU1oLVk4MEd2djBZOEdyYWpUMm5QMWpIZFNxalBFdzN1eFFRWEtOLWxkdU0wT2FkbGxZeFpHSXZLVndLN3VXZ25MUnZITl9Qc0QzRnk0QzI4?oc=5",
+     "source": "gnews",
+     "domain": "techfinancials.co.za",
+     "publishedAt": "2026-11-12T19:03:59.000Z",
+     "matchedKeywords": [
+      "AI voice agent called restaurants OR pubs OR shops price"
+     ]
+    }
+   ],
+   "coverage": 1,
+   "publishers": 1,
+   "firstSeen": "2026-11-27T16:48:08.086Z",
    "score": 0,
    "reasons": [],
    "status": "new"
